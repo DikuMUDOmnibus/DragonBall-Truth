@@ -1,0 +1,408 @@
+#1500
+Bloody Key~
+&00&01B&00&09l&16oo&09d&00&01y&00 &03K&00&11e&00&03y&00~
+&00&03A blood encrusted key is lying here.&00~
+~
+18 0 1
+0 0 0 0
+0 0 0
+E
+scales justice scale~
+As you look at the scales, you notice that they seem to sway back and forth
+of their own accord, as if weighing something that is to you still unseen.
+~
+#1501
+magical crest~
+&00&04M&00&12a&00&14g&00i&14c&00&12a&00&04l &15C&00&03r&16e&00&03s&15t&00~
+&00&04M&00&12a&00&14g&00i&14c&00&12a&00&04l &15C&00&03r&16e&00&03s&15t&00~
+Written in glowing blood...."Noraguntero ambertarn joilintago."
+~
+12 1 0
+0 0 0 0
+0 0 0
+E
+magical crest~
+Written in glowing blood...."Noraguntero ambertarn joilintago."
+~
+A
+14 15
+A
+19 -1
+#1502
+molecular beam sword~
+&00&02M&10o&16l&15e&00c&15u&16l&10a&00&02r &00&06B&14e&00a&14m &00&02S&10w&16o&15r&00d~
+&15A &00&02M&10o&16l&15e&00c&15u&16l&10a&00&02r &00&06B&14e&00a&14m &00&02S&10w&16o&15r&00d&15 is stabbed into the ground here, crackling with energy.&00~
+~
+5 3 4202497
+0 325000 1 3
+1 1000000 0
+E
+sword blazing~
+The edge of the blade is lined with writing, religious verse apparently, in
+a fine, silver-laced and flowing script.
+~
+A
+5 1
+A
+6 2
+A
+2 2
+A
+18 30
+A
+19 30
+A
+13 127
+#1503
+Skull of the Demon Lord~
+&00S&15k&00&16u&00&15l&00l&00 &16of the&00 &01D&00&09e&16m&00&09o&00&01n&00 L&15o&00&16r&00&01d&00~
+The skull of Lucifer's general Andramalius lies here, waiting to be worn......~
+~
+11 268435456 17
+0 0 0 0
+1 4000000 0
+E
+protector faithful shield~
+It evades your attempts to focus on it, deflecting your gaze as it deflects
+the weapons that will try to kill you.
+~
+A
+5 4
+A
+4 3
+A
+3 4
+A
+19 40
+A
+18 40
+#1504
+Molecular beam halberd~
+&00&02M&10o&16l&15e&00c&15u&16l&10a&00&02r &00&06B&14e&00a&14m &00&02H&10a&16l&15b&00e&15r&16d&00~
+&15A &00&02M&10o&16l&15e&00c&15u&16l&10a&00&02r &00&06B&14e&00a&14m &00&02H&10a&16l&15b&00e&15r&16d&15 is stabbed into the ground here.&00~
+~
+5 134217728 8193
+0 695000 1 14
+1 5000000 0
+E
+armband faded band~
+It has some sort of militia insignia on it, perhaps an indication of a rank
+or award in some military order unknown to you.
+~
+A
+6 -3
+A
+5 4
+A
+3 4
+A
+4 4
+A
+25 3
+#1505
+scimitar jeweled~
+a jeweled scimitar~
+A stunning curved blade glistens on the ground.~
+~
+5 9217 8193
+0 7 1 3
+5 5000 500
+E
+scimitar jeweled~
+The entire rim and edge of the scimitar's handle is bedecked in a gorgeous
+array of stones and precious metals.
+~
+#1506
+ember charred~
+a charred ember~
+You glance briefly at a smouldering ember that rests at your feet.~
+~
+1 57857 16385
+0 0 -1 0
+0 5 2500
+E
+ember charred~
+It glares back at you, almost angrily.
+~
+A
+18 2
+A
+12 10
+#1507
+ethereal flame~
+an ethereal flame~
+The entire room is aglow from the flame at your feet.~
+~
+1 50689 16385
+0 0 -1 0
+0 5 2500
+E
+ethereal flame~
+Even being near it fills you with a peaceful and comforted feeling.
+~
+A
+12 8
+A
+13 10
+#1508
+key gates~
+the Key to the Gates~
+You have found at last the Key to the Gates of eternity.~
+~
+18 3329 16385
+1508 0 0 0
+0 1000 500
+E
+key gates~
+There are no gates.  They are inside of you.
+~
+A
+3 2
+#1509
+history burnt book~
+a burnt history~
+You have found a burnt book, some forgotten history lying on the ground.~
+~
+13 0 16385
+0 0 0 0
+2 10 500
+E
+history burnt book~
+So this is the jester's joke.  All of our works have turned to dust,
+and will end in nothing.  It is for this that he laughs.
+~
+A
+4 2
+#1510
+surah book~
+a surah of the book~
+You notice a thin parchment, with flowing script and rich decorative trim.~
+~
+1 15368 16385
+0 0 -1 0
+0 500 8000
+E
+surah book~
+Al-Kafirun
+Say: "Oh ye that reject the Faith, I do not worship what you worship, nor
+do you worship what I worship.  To you be your Way, and to me mine."
+~
+A
+18 3
+A
+19 3
+#1511
+forge unity~
+the Forge of Unity~
+It is surely the best of men who has left these gloves to aid you.~
+~
+9 15616 129
+5 0 0 0
+5 12000 4000
+A
+19 2
+A
+13 10
+#1512
+ankh~
+an Ankh~
+You see a beautiful pendant of ancient and noble craftsmanship.~
+~
+11 2049 5
+0 0 0 0
+3 5000 2000
+E
+ankh~
+It is an even earlier version of the old Christian cross, an oval loop
+above the crossed arms of white gold.
+~
+A
+12 10
+A
+12 5
+#1513
+amulet ra~
+the Amulet of Ra~
+You have found a beautiful gleaming disc with a golden image of the sun god.~
+~
+11 65 5
+0 0 0 0
+5 7500 1500
+A
+3 2
+A
+4 2
+#1514
+image azathoth graven~
+a graven image of Azathoth~
+You frown in disgust at the hideous icon of a false god that you have found.~
+~
+1 68096 16385
+0 0 0 0
+2 1000 500
+A
+6 2
+#1550
+Fallen Priest Armor~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t&00 &16A&00&15r&00m&15o&00&16r&00~
+A set of tainted armor is lying here, radiating an aura of evil~
+~
+9 3 9
+0 0 0 0
+0 0 0
+A
+5 2
+A
+3 2
+#1551
+Fallen Priest Robes~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t&00 &01R&00&16o&00b&16e&00&01s&00~
+A dark aura flows through this robe that lies here.~
+~
+11 3 1025
+0 0 0 0
+0 0 0
+A
+3 2
+A
+5 2
+#1552
+Fallen Priest Shoes~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t&00 &01S&00&16h&00o&16e&00&01s&00~
+A pair of tainted shoes lie here.~
+Nothing.
+~
+11 3 65
+0 0 0 0
+0 0 0
+A
+4 2
+A
+5 2
+#1553
+fallen priest gloves~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t&00 &01G&00&16l&00ov&16e&00&01s&00~
+A dark aura surrounds these gloves that lie here.~
+~
+11 3 129
+0 0 0 0
+0 0 0
+A
+4 2
+A
+5 2
+#1555
+fallen priest belt~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t&00 &01B&16el&00&01t&00~
+A black leather belt with a metaphyiscal stain of evil lays here.~
+~
+11 3 2049
+0 0 0 0
+0 0 0
+A
+4 2
+A
+5 1
+#1556
+fallen priest pants~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t&00 &01P&00&16a&00n&16t&00&01s&00~
+A pair of black pants lie here.......~
+~
+11 3 33
+0 0 0 0
+0 0 0
+A
+3 3
+A
+4 1
+#1557
+unholy priest mace~
+&00&03U&00&01n&00&16ho&00&01l&00&03y &16P&00&15r&00ie&15s&00&16t&00 &03M&16ac&00&03e&00~
+An unholy mace lies here, wanting you to hold it.~
+~
+5 3 8193
+100 3 250000 5
+0 0 0
+A
+3 1
+A
+5 1
+#1558
+fallen priest neck beads~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t Neck&00 &03B&00&11ea&00&03ds&00~
+A string of thick, black beads lay here glowing softly.~
+~
+11 3 5
+0 0 0 0
+0 0 0
+A
+5 1
+A
+4 1
+#1559
+fallen priest claw ring~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t &00C&15la&00w &03R&00&11in&00&03g&00~
+A long ring in the shape of a claw is lying here.~
+~
+11 3 3
+0 0 0 0
+0 0 0
+#1560
+fallen priest crown~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &01O&00&16n&00&15e&00 &16C&00&03r&00&15o&00&03w&00&16n&00~
+A gothically inspired crown is lying here.~
+~
+11 3 17
+0 0 0 0
+0 0 0
+A
+18 60
+A
+19 60
+#1561
+unholy darkness orb~
+&00&03U&01n&16ho&00&01l&03y &00&04D&12a&15r&16k &00&06Tu&14r&00&07qo&14i&00&06se &03A&11nk&00&03h&00~
+A small orb that glows with an unnatural black light is lying here.~
+~
+1 3 16385
+0 0 -1 0
+0 0 0
+A
+1 1
+A
+2 5
+A
+5 1
+#1562
+fallen priest sleeves~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &01O&00&16n&00&15e&00 &01S&00&16l&00&15e&00e&15v&00&16e&00&01s&00~
+A pair of sleeves are lying here.~
+~
+11 3 257
+0 0 0 0
+0 0 0
+#1563
+fallen priest wristband~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &01O&00&16n&00&15e&00 &16Wristband&00~
+A black wristband with some bloodstains on it is lying here.~
+~
+11 3 4097
+0 0 0 0
+0 0 0
+#1564
+blessed one armor~
+&00&03B&00&11l&00&15e&00s&15s&00&11e&00&03d&00 O&11n&00&03e&00 &16A&00&15r&00m&15o&00&16r&00~
+A set of holy armor lies here.~
+~
+9 3 9
+0 0 0 0
+0 0 0
+A
+3 2
+A
+2 5
+A
+5 2
+A
+6 4
+$~

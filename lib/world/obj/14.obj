@@ -1,0 +1,263 @@
+#1400
+Mug of Beer~
+&00M&15u&00&06g &16of B&00&03e&11e&00r~
+&15A &00M&15u&00&06g &16of B&00&03e&11e&00r&15 is lying here.&00~
+~
+17 0 1
+30 30 1 0
+35 100 0
+#1401
+Bottle of Moonshine~
+&16B&00&03o&11tt&00&03l&16e of &00M&15o&14o&00&06n&15s&11h&00&03i&15n&00e~
+&15A small &16B&00&03o&11tt&00&03l&16e of &00M&15o&14o&00&06n&15s&11h&00&03i&15n&00e&15 is lying here.&00~
+~
+17 0 0
+35 35 5 0
+40 150 0
+#1402
+Bottle of Gin~
+&16B&00&03o&11tt&00&03l&16e of &00G&15i&14n&00~
+&15A &16B&00&03o&11tt&00&03l&16e of &00G&15i&14n&15 is lying here.&00~
+~
+17 0 1
+30 30 5 0
+35 120 0
+#1403
+Bottle of Rum~
+&16B&00&03o&11tt&00&03l&16e of &00&03R&00&01u&09m&00~
+&15A &16B&00&03o&11tt&00&03l&16e of &00&03R&00&01u&09m&15 is lying here.&00~
+~
+17 0 0
+30 30 5 0
+35 120 0
+#1404
+Bottle of Vodka~
+&16B&00&03o&11tt&00&03l&16e of &00V&15o&14d&15k&00a~
+&15A &16B&00&03o&11tt&00&03l&16e of &00V&15o&14d&15k&00a&15 is lying here.&00~
+~
+17 0 1
+32 32 7 0
+37 130 0
+#1405
+Bottle of Wine~
+&16B&00&05o&13tt&00&05l&16e of &00&05W&13i&15n&00e~
+&15A &16B&00&05o&13tt&00&05l&16e of &00&05W&13i&15n&00e&15 is lying here.&00~
+~
+17 0 1
+40 40 2 0
+45 150 0
+#1410
+clone ray~
+clone ray~
+A clone ray stuck on the 'Vegeta' setting.~
+~
+13 0 16385
+0 0 0 0
+0 0 0
+#1411
+Roca Wear Designer Shirt~
+&00&03R&09o&00&01c&11a &00&03W&09e&00&01a&11r &16Designer Shirt&00~
+&15A &00&03R&09o&00&01c&11a &00&03W&09e&00&01a&11r &16Designer Shirt&00 is lying here.~
+~
+11 0 1025
+0 0 0 0
+1 1000000 0
+A
+3 2
+A
+5 2
+A
+6 2
+A
+2 3
+A
+18 30
+A
+19 30
+#1412
+Roca Wear Designer Shirt~
+&00&06R&14o&16c&15a &00&06W&14e&16a&15r &16Designer Shirt&00~
+&15A &00&06R&14o&16c&15a &00&06W&14e&16a&15r &16Designer Shirt&15 is lying here.&00~
+~
+11 0 1025
+0 0 0 0
+1 1000000 0
+A
+3 2
+A
+2 3
+A
+5 2
+A
+6 2
+A
+18 30
+A
+19 30
+#1413
+Roca Wear Designer Shirt~
+&00&04R&12o&16c&15a &00&04W&12e&16a&15r &16Designer Shirt&00~
+&15A &00&04R&12o&16c&15a &00&04W&12e&16a&15r &16Designer Shirt&15 is lying here.&00~
+~
+11 0 1025
+0 0 0 0
+1 1000000 0
+A
+5 2
+A
+2 3
+A
+6 2
+A
+3 2
+A
+18 30
+A
+19 30
+#1414
+Roca Wear Denim Jeans~
+&00&04R&12o&16c&15a &00&04W&12e&16a&15r &00&06D&14e&15n&00&06i&14m &00&06J&14e&15a&00&06n&14s&00~
+&15A pair of &00&04R&12o&16c&15a &00&04W&12e&16a&15r &00&06D&14e&15n&00&06i&14m &00&06J&14e&15a&00&06n&14s&15 are lying here.&00~
+~
+11 0 33
+0 0 0 0
+1 1000000 0
+A
+2 2
+A
+5 1
+A
+4 1
+A
+18 30
+A
+19 30
+A
+12 100
+#1415
+Roca Wear Designer Bandana~
+&00&03R&09o&00&01c&11a &00&03W&09e&00&01a&11r &16Designer Bandana&00~
+&15A &00&03R&09o&00&01c&11a &00&03W&09e&00&01a&11r &16Designer Bandana&15 is lying here.&00~
+~
+11 0 17
+0 0 0 0
+1 1000000 0
+A
+6 4
+A
+4 1
+A
+2 4
+A
+18 30
+A
+19 30
+A
+13 100
+#1416
+Megatokyo Ninj4 Hoody~
+&00M&15e&16g&00&03a&00t&15o&16k&00&03y&00o &16N&15i&00n&16j&154 &15H&16o&00o&15d&16y&00~
+&15A &00M&15e&16g&00&03a&00t&15o&16k&00&03y&00o &16N&15i&00n&16j&154 &15H&16o&00o&15d&16y&00 is lying here.~
+~
+11 0 9
+0 0 0 0
+1 2000000 0
+A
+5 2
+A
+3 2
+A
+2 1
+A
+6 2
+A
+18 30
+A
+19 30
+#1417
+Phat Farm Shoes~
+&00P&15h&09a&00&01t &00F&15a&09r&00&01m &00S&15h&09o&00&01e&15s&00~
+&15A pair of &00P&15h&09a&00&01t &00F&15a&09r&00&01m &00S&15h&09o&00&01e&15s are lying here.&00~
+~
+11 0 65
+0 0 0 0
+1 1000000 0
+A
+2 3
+A
+4 2
+A
+18 30
+A
+19 30
+A
+12 127
+A
+13 127
+#1428
+Buster sword~
+&16B&15uste&00&07r &16Sword&00~
+&00A gigantic &16B&15uste&00&07r &16Sword&00 is stabbed into the ground.~
+~
+5 0 8193
+5 56788 1 3
+3 200000 0
+#1429
+blitzball~
+&12B&15l&16it&00&04z&12b&16al&15l&00~
+&00A &12B&15l&16it&00&04z&12b&16al&15l&00 is lying here.~
+~
+5 0 8193
+3 36000 1 5
+1 100000 0
+#1430
+Vial of Mako~
+&16V&00&06i&14a&00&07l &15of &16M&00&02a&10k&00&07o&00~
+&15A &16V&00&06i&14a&00&07l &15of &16M&00&02a&10k&00&07o &15has been dropped here.&00~
+~
+24 0 1
+100 75 67 36
+1 80000 0
+#1480
+undefined~
+undefined~
+Undefined~
+~
+12 0 16385
+0 0 0 0
+0 0 0
+#1497
+Heavens Gate Staff~
+&00&03H&00&11e&00&15a&00v&15e&00&11n&00&03s G&00&11a&00&15t&00e &03S&00&16t&00&15a&00&16f&00&03f&00~
+The staff of Junbei, master of heavens gate dojo, is lying here.~
+~
+5 0 8193
+10 325000 1 5
+1 1000000 0
+A
+5 2
+A
+6 1
+A
+2 3
+A
+18 35
+A
+19 35
+#1499
+imperial armor~
+the Imperial Armor of Sammael~
+Sammael's Imperial Armor lies here...~
+~
+9 0 9
+-100 0 0 0
+0 0 0
+A
+2 10
+A
+1 10
+A
+18 10
+A
+19 10
+$~

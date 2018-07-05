@@ -1,0 +1,327 @@
+#100
+Dark Soul Liger Zero~
+&00&04D&12a&16r&15k &00&04S&12o&16u&15l &00&03L&11i&00g&15e&16r, Z&15e&00r&15o&00~
+&00&04D&12a&16r&15k &00&04S&12o&16u&15l &00&03L&11i&00g&15e&16r, Z&15e&00r&15o&00 is standing here, its black firey mane blowing in the wind.
+~
+It looks unfinished.
+~
+8 0 0 E
+999999 -180 0 1d1+1000000000 1d1+500000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#101
+Drakefang~
+&16D&15r&00&07a&15k&16e&15f&00&07a&15n&16g&00~
+&16D&15r&00&07a&15k&16e&15f&00&07a&15n&16g&00, Gaberial's faithful old hell hound, is sleeping here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#102
+Katlynn~
+&13K&00&05a&16t&15l&00&07y&15n&16n &00&05D&13e&00&05s&16d&15e&00&07m&15o&16n&00&05a&00~
+&13K&00&05a&16t&15l&00&07y&15n&16n &00&05D&13e&00&05s&16d&15e&00&07m&15o&16n&00&05a&00 walking around her room planning unknown amounts of trouble.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#103
+Maron~
+&13M&11a&00&05r&11o&13n&00~
+&13M&11a&00&05r&11o&13n&00 stands here, ready to greet.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5769
+#104
+Icer prisoner~
+Icer Prisoner~
+&14Icer &16P&15r&00&07i&15s&00&07o&15ne&16r&00
+~
+&15This is a vicious prisoner, don't look at him wrong, it would be bad for you punk....&00
+~
+8 0 0 E
+8 10 0 10d2+300 3d2+10
+75 20000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#105
+undefined~
+undefined~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#106
+undefined~
+undefined~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#107
+Will-O-Wisp~
+&11W&00&03i&16l&00&07l&00&06-&15O&00&06-&00&07W&15i&00&03s&11p&00~
+ &00A &11W&00&03i&16l&00&07l&00&06-&15O&00&06-&00&07W&15i&00&03s&11p&00 flutters around here in playful and erratic patterns.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+15000000 1d1+125000
+12000 10000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#108
+Shadow Guardian~
+&16S&15h&16a&15d&16o&15w &16G&15u&00&07a&15r&16d&15i&00&07a&15n&00~
+&00A &16S&15h&16a&15d&16o&15w &16G&15u&00&07a&15r&16d&15i&00&07a&15n&00 lurks here, wispering protection charms to the breeze.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+15000000 1d1+125000
+1200 15000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#109
+Venus Fly Trap~
+&13V&00&05e&15n&00&05u&13s &16F&15l&00&07y &15T&16r&15a&00&07p&00~
+&00A &13V&00&05e&15n&00&05u&13s &16F&15l&00&07y &15T&16r&15a&00&07p&00 sits here, waiting to catch a fly.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+15000000 1d1+125000
+1200 15000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#124
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#150
+Butterfly~
+&00&11B&00&03utte&00&11r&15fly&00~
+&00&11B&00&03utte&00&11r&15fly&00 is fluttering here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 10 0 3d3+1000 3d3+15
+100 20000
+8 8 0
+BareHandAttack: 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#151
+Mosquito~
+&00&16Mosquito&00~
+&00&16Mosquito&00 is hovering here, looking for something to drain.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 10 0 3d3+1000 3d3+15
+100 20000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#152
+Small Frog~
+&00Small &02Frog&00~
+&00Small &02Frog&00 is sitting here, ribbiting.
+~
+It looks unfinished.
+~
+72 0 0 E
+0 10 0 3d3+1000 3d3+15
+100 20000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#153
+Large Frog~
+&00Large &02Frog&00~
+&00Large &02Frog&00 is sitting here, flicking its tongue at flies.
+~
+It looks unfinished.
+~
+72 0 0 E
+0 10 0 3d3+1000 3d3+15
+100 25000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#154
+Toad~
+&00&10Toad&00~
+&00&10Toad&00 is sitting here, looking for flies.
+~
+It looks unfinished.
+~
+72 0 0 E
+0 10 0 3d34+1000 3d3+15
+100 20000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#155
+Chipmunk~
+&00&03Chipmunk&00~
+&00&03Chipmunk&00 is running around, looking for nuts.
+~
+It looks unfinished.
+~
+72 0 0 E
+0 10 0 3d3+1000 3d3+15
+100 20000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#156
+venoch the tormentor~
+&00&01V&00&09e&16no&00&09c&00&01h&00 &16the T&00&15o&00&09r&00&01m&16e&00&01n&00&09t&00&15o&16r&00~
+&00&01V&00&09e&16no&00&09c&00&01h&00 &16the T&00&15o&00&09r&00&01m&16e&00&01n&00&09t&00&15o&16r&00 is standing here, dragging his claws along the blood stained bell.
+~
+   &00&16This horrible beast is one of the underworlds tormentors, bringing
+endless pain onto any creature that strikes its interest.  &00
+~
+188426 128 0 E
+0 -60 0 1d100+500000000 0d1+450000
+100000 85000000
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#157
+Bathkol~
+&00&03B&00&11a&00&15t&00h&15k&00&11o&00&03l&00~
+&00&03B&00&11a&00&15t&00h&15k&00&11o&00&03l&00 is strapped to the bell, screaming in agonizing pain, blood pouring out of her many wounds.
+~
+&00&03This angel was somehow caught by the hellish minions of this church, and has been brutally tortured every day since.&00
+~
+188426 1032 0 E
+0 -60 0 1d1+500000000 1d1+450000
+100000 75000000
+8 8 2
+BareHandAttack: 14
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#199
+Piccolo~
+&10P&00&02i&00&06c&16c&00&06o&00&02l&10o&00~
+&10P&00&02i&00&06c&16c&00&06o&00&02l&10o &15stands here, with his arms crossed.&00
+~
+&15One of the greatest warriors in the universe, Piccolo stands here wearing his standard garb. His white cape blowing in the wind as sweat from Piccolo's freshly trained body slowly drips down.&00
+~
+26 1152 0 E
+800000 -80 0 0d0+40000000 0d0+200000
+20000 40000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 298
+$

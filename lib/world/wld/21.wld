@@ -1,0 +1,1822 @@
+#2100
+&14Cicle &14H&00&06o&14t&00&06e&14l &10Gathering&00~
+   &15Several comfortable chairs and sofas fill the room, arranged around the
+central fountain of Cicle City Hotel.  Large light fixtures hang from above
+illuminating the entire room in calm light.  A unused fireplace is built into
+the south wall, having been placed there for the few visitors to Frigid.  &00
+~
+21 134283420 0
+D5
+~
+~
+0 0 2101
+S
+#2101
+&16C&15h&00&07e&15c&16k&10-&12I&00&04n&00~
+   &15A large oval oak counter takes up the center of this room, with the hotel
+owner on the inside of the counter.  Chairs are lined up and placed around the
+counter for guests waiting for a room.  A large clock is built into the floor
+in front of the counter, a thick pane of glass seperating it from the feet of
+the visitors.  &00
+~
+21 144 0
+D0
+Nothing.
+~
+~
+0 0 2104
+D1
+Nothing.
+~
+~
+0 0 2103
+D2
+~
+~
+0 0 2102
+D3
+~
+~
+0 0 2105
+D4
+Nothing.
+~
+~
+0 0 2100
+S
+#2102
+&14Cicle&15&14 H&00&06o&14t&00&06e&14l &10Entrance&00~
+   &15The entrance room of the hotel, covered completely by red carpet.  This
+cozy room has few adornments other than the multitude of bellhops waiting to
+lead visitors to the front desk and maybe take their luggage.  &00
+~
+21 84 0
+D0
+Nothing.
+~
+~
+0 0 2101
+D1
+~
+~
+0 0 2107
+D2
+~
+~
+0 0 2111
+D3
+~
+~
+0 0 2108
+S
+#2103
+&16C&15o&00&07a&16t &14C&00&06h&14e&00&06c&14k&00~
+   &15This is the coat storage room, stocked full of coats of all sizes and
+materials.  They hang on racks, hooks, and are layed on roller carts.  Only the
+bellhops actually know how to locate someone's coat, so to try and look for
+yourself is folly.  &00
+~
+21 144 0
+D0
+~
+~
+0 0 2109
+D2
+~
+~
+0 0 2107
+D3
+~
+~
+0 0 2101
+S
+#2104
+&14Dining&15-&00&02Room&00~
+   &15Large oak dining tables surrounded by chairs sit here on the thick red
+carpet, with crystal chandeliers hanging above them.  Plates and various dining
+utensils are layed out across the table tops in front of each chair.  This room
+gives a feeling of complete regality for such a small hotel, and the smells of
+the food are mouth watering.  &00
+~
+21 144 0
+D1
+~
+~
+0 0 2109
+D2
+~
+~
+0 0 2101
+D3
+~
+~
+0 0 2110
+S
+#2105
+&09T&00&01r&09o&00&01p&09h&00&01y &11Room&00~
+   &15This is the trophy room of the hotel, filled tastfully with stuffed
+corpses of various animal trophies.  Some other of the displays are not of
+animals, and might appear offensive to members of their race that may view
+them.  One of these is a saiyan tail displayed above the fireplace...  &00
+~
+21 144 0
+D0
+~
+~
+0 0 2110
+D1
+~
+~
+0 0 2101
+D2
+~
+~
+0 0 2108
+S
+#2106
+undefined~
+Nothing.
+~
+21 64 0
+S
+#2107
+&10Inf&00&02ormat&10ion &14C&00&06e&14n&00&06t&14e&00&06r&00~
+   &15The information center of the hotel and local tourist council, set up to
+suit the needs of visitors to Frigid and Cicle city.  Computers, tvs, and
+bulletin boards fill this room.  Constantly bombarding it with all the
+information anyone could everneed or want.  &00
+~
+21 144 0
+D0
+~
+~
+0 0 2103
+D3
+~
+~
+0 0 2102
+S
+#2108
+&11L&00&03o&11u&00&03n&11g&00&03e&00~
+   &15The most comfortable room in the entire hotel, filled with couches,
+chairs, coffee tables, and even a window couch.  Most of the casual hanging out
+is done in this room.  &00
+~
+21 144 0
+D0
+~
+~
+0 0 2105
+D1
+~
+~
+0 0 2102
+S
+#2109
+&10G&00&02r&11e&00&02e&10n &09H&00&01o&09u&00&01s&09e&00~
+   &10This is the hot green house of the hotel, a room filled with exotic
+plants and vegetation from all corners of the universe.  Comfortable chairs
+have been placed at specific viewing locations in this room, some taking
+advantage of the heat that is trapped in the room by design.  &00
+~
+21 144 0
+D2
+~
+~
+0 0 2103
+D3
+~
+~
+0 0 2104
+S
+#2110
+&14Cicle&15-&10Hotel &11Kitchen&00~
+   &15Thick smells of beef stew, and various other meals waft through the air
+of this room.  The cooks and dishwashers make a lot of noise as they work in
+this surprisingly hot room.  Large stoves and counters take up most of the
+room, bolted securly into the tile floor.  &00
+~
+21 144 0
+D1
+~
+~
+0 0 2104
+D2
+~
+~
+0 0 2105
+S
+#2111
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow across the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2102
+D1
+~
+~
+0 0 2112
+D2
+~
+~
+0 0 2114
+D3
+~
+~
+0 0 2113
+S
+#2112
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow accross the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2118
+D3
+~
+~
+0 0 2111
+S
+#2113
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow accross the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2111
+D3
+~
+~
+0 0 2119
+S
+#2114
+&10Tr&00&02anspo&10rt &16S&15ta&00&07t&15io&16n&00~
+   &15The entrance to the transport station of Frigid, a large automatic glass
+door is the last divider from the cold world of Frigid for new arrivals.  This
+spotless metal room has a rotating luggage receiver as its only adornment.
+~
+21 148 0
+D0
+~
+~
+0 0 2111
+D2
+~
+~
+0 0 2115
+S
+#2115
+&00&07D&15e&16p&00&03a&11r&00&03t&16i&15o&00&07n &16- &09R&00&01eceiva&09l &16R&00&02o&10o&00&07m&00~
+   &15The main room of the transport station, containing multitudes of waiting
+chairs as well as flight schedules for those waiting to depart.  Pilots wait
+here for payment before leading patrons to the launching pad and their ships.
+~
+21 144 0
+D0
+~
+~
+0 0 2114
+D2
+You see nothing special.
+~
+~
+0 -1 2116
+S
+#2116
+&16L&15o&00&07adi&15n&16g &10Walkway&00~
+   &15This is the loading ramp leading to the launching bay of the ships.  
+Only one passenger is allowed to depart up these steps at a time though.  The
+sounds of rocketing ships fills this room, along with a faint smell of fuel
+exhaust.  &00
+~
+21 208 0
+D0
+You see nothing special.
+~
+~
+0 -1 2115
+D2
+~
+~
+0 0 2117
+S
+#2117
+&10La&00&02unchi&10ng &00&07Pad&00~
+   &15This is the launching pad of the Frigid transport station, deafening roar
+after deafening roar of ships coming and going continually fill this room.
+Ships of all types are parked around the edges of the pad, and taxied to the
+center of it when they are ready for take off&00
+~
+21 4194512 12
+D0
+~
+~
+0 0 2116
+S
+#2118
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow accross the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 0 0
+D1
+Nothing.
+~
+~
+0 0 2136
+D3
+~
+~
+0 0 2112
+S
+#2119
+&12C&00&04o&12l&00&04d &14Street&00~
+   &15Cold street doesn't have it's name for nothing, cold air blows down it
+from the frozen mountains to the west.  This is probably the least traveled
+road of all of Cicle city, it's poorly lit surface a depressing sit to lonely
+travelers.  &00
+~
+21 4 1
+D0
+~
+~
+0 0 2120
+D1
+~
+~
+0 0 2113
+D2
+~
+~
+0 0 2121
+D3
+~
+~
+0 0 2186
+S
+#2120
+&10G&00&02r&10e&00&02t&10z &16Battle &00&06Depot&00~
+   &15Row after row of weapons and armor line the walls of this small shop, a
+greasy icer sits behind the short metal counter, a grin permanantly etched on
+his face.  The prices of this shop may be fair, and then again they may not be.
+&00
+~
+21 144 0
+D2
+~
+~
+0 0 2119
+S
+#2121
+&12C&00&04o&12l&00&04d &14Street&00~
+   &15Cold street doesn't have it's name for nothing, cold air blows down it
+from the frozen mountains to the west.  This is probably the least traveled
+road of all of Cicle city, it's poorly lit surface a depressing sit to lonely
+travelers.  &00
+~
+21 0 1
+D0
+~
+~
+0 0 2119
+D2
+~
+~
+0 0 2122
+S
+#2122
+&12C&00&04o&12l&00&04d &14Street&00~
+   &15Cold street doesn't have it's name for nothing, cold air blows down it
+from the frozen mountains to the west.  This is probably the least traveled
+road of all of Cicle city, it's poorly lit surface a depressing sit to lonely
+travelers.  &00
+~
+21 4 0
+D0
+~
+~
+0 0 2121
+D2
+~
+~
+0 0 2123
+D3
+You see nothing special.
+~
+~
+0 -1 2704
+S
+#2123
+&12C&00&04o&12l&00&04d &14Street&00~
+   &15Cold street doesn't have it's name for nothing, cold air blows down it
+from the frozen mountains to the west.  This is probably the least traveled
+road of all of Cicle city, it's poorly lit surface a depressing sit to lonely
+travelers.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2122
+D1
+You see nothing special.
+~
+~
+0 -1 2280
+D2
+~
+~
+0 0 2124
+S
+#2124
+&12C&00&04o&12l&00&04d &14Street&00~
+   &15Cold street doesn't have it's name for nothing, cold air blows down it
+from the frozen mountains to the west.  This is probably the least traveled
+road of all of Cicle city, it's poorly lit surface a depressing sit to lonely
+travelers.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2123
+D2
+~
+~
+0 0 2125
+S
+#2125
+&12C&00&04o&12l&00&04d &14Street&00~
+   &15Cold street doesn't have it's name for nothing, cold air blows down it
+from the frozen mountains to the west.  This is probably the least traveled
+road of all of Cicle city, it's poorly lit surface a depressing sit to lonely
+travelers.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2124
+D1
+~
+~
+0 0 2126
+D2
+You see nothing special.
+~
+~
+0 -1 2283
+S
+#2126
+&14Ice &10S&00&02t&10r&00&02e&10e&00&02t&00~
+   &15A street made almost completely out of ice covered granite.  Cold
+blistering winds blow past travelers almost non-stop, accompanied by stinging
+hail and snow.  Snow drifts stack up the lengths of the light posts all across
+the street.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2127
+D3
+~
+~
+0 0 2125
+S
+#2127
+&14Ice &10S&00&02t&10r&00&02e&10e&00&02t&00~
+   &15A street made almost completely out of ice covered granite.  Cold
+blistering winds blow past travelers almost non-stop, accompanied by stinging
+hail and snow.  Snow drifts stack up the lengths of the light posts all across
+the street.  &00
+~
+21 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2281
+D1
+~
+~
+0 0 2128
+D3
+~
+~
+0 0 2126
+S
+#2128
+&14Ice &10S&00&02t&10r&00&02e&10e&00&02t&00~
+   &15A street made almost completely out of ice covered granite.  Cold
+blistering winds blow past travelers almost non-stop, accompanied by stinging
+hail and snow.  Snow drifts stack up the lengths of the light posts all across
+the street.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2129
+D3
+~
+~
+0 0 2127
+S
+#2129
+&14Ice &10S&00&02t&10r&00&02e&10e&00&02t&00~
+   &15A street made almost completely out of ice covered granite.  Cold
+blistering winds blow past travelers almost non-stop, accompanied by stinging
+hail and snow.  Snow drifts stack up the lengths of the light posts all across
+the street.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2130
+D3
+~
+~
+0 0 2128
+S
+#2130
+&14Ice &10S&00&02t&10r&00&02e&10e&00&02t&00~
+   &15A street made almost completely out of ice covered granite.  Cold
+blistering winds blow past travelers almost non-stop, accompanied by stinging
+hail and snow.  Snow drifts stack up the lengths of the light posts all across
+the street.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2131
+D3
+~
+~
+0 0 2129
+S
+#2131
+&14Sl&00&06ee&14t &11Way&00~
+   &15Probably the best street in Cicle city.  Sleet way is partially sheltered
+from the wind be a hill to the west.  Very little snow has blown onto Sleet
+way, leaving an easy trek for any citizens of the city.  &00
+~
+21 0 0
+D0
+~
+~
+0 -1 2132
+D2
+You see nothing special.
+~
+~
+0 -1 2356
+D3
+~
+~
+0 0 2130
+S
+#2132
+&14Sl&00&06ee&14t &11Way&00~
+   &15Probably the best street in Cicle city.  Sleet way is partially sheltered
+from the wind be a hill to the west.  Very little snow has blown onto Sleet
+way, leaving an easy trek for any citizens of the city.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2133
+D2
+~
+~
+0 -1 2131
+S
+#2133
+&14Sl&00&06ee&14t &11Way&00~
+   &15Probably the best street in Cicle city.  Sleet way is partially sheltered
+from the wind be a hill to the west.  Very little snow has blown onto Sleet
+way, leaving an easy trek for any citizens of the city.  &00
+~
+21 0 0
+D0
+~
+~
+0 -1 2134
+D1
+You see nothing special.
+~
+~
+0 -1 2282
+D2
+~
+~
+0 -1 2132
+S
+#2134
+&14Sl&00&06ee&14t &11Way&00~
+   &15Probably the best street in Cicle city.  Sleet way is partially sheltered
+from the wind be a hill to the west.  Very little snow has blown onto Sleet
+way, leaving an easy trek for any citizens of the city.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2135
+D2
+~
+~
+0 0 2133
+S
+#2135
+&14Sl&00&06ee&14t &11Way&00~
+   &15Probably the best street in Cicle city.  Sleet way is partially sheltered
+from the wind be a hill to the west.  Very little snow has blown onto Sleet
+way, leaving an easy trek for any citizens of the city.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2136
+D2
+~
+~
+0 -1 2134
+S
+#2136
+&14Sl&00&06ee&14t &11Way&00~
+   &15Probably the best street in Cicle city.  Sleet way is partially sheltered
+from the wind be a hill to the west.  Very little snow has blown onto Sleet
+way, leaving an easy trek for any citizens of the city.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2137
+D2
+~
+~
+0 -1 2135
+D3
+~
+~
+0 0 2118
+S
+#2137
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow accross the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 0 0
+D0
+~
+~
+0 -1 2138
+D1
+~
+~
+0 0 2139
+D3
+~
+~
+0 0 2136
+S
+#2138
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A long winding dirt path, patches of the road are covered in piles of
+snow, giving it a gloomy look to travelers who dare to venture down it.  A dark
+frozen forest looms far down the path.  &00
+~
+21 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2249
+D2
+~
+~
+0 0 2137
+S
+#2139
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow accross the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2140
+D3
+~
+~
+0 0 2137
+S
+#2140
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow accross the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2141
+D3
+~
+~
+0 0 2139
+S
+#2141
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow accross the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 0 0
+D1
+~
+~
+0 -1 2142
+D3
+~
+~
+0 -1 2140
+S
+#2142
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow accross the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 0 0
+D1
+~
+~
+0 -1 2143
+D3
+~
+~
+0 -1 2141
+S
+#2143
+&14F&00&06r&14o&00&06s&14t &09W&00&01a&09y&00~
+   &15The main road of Cicle City, remarkably spotless and devoid of most life.
+Chill Frigid winds blow accross the street, blowing in snow and ice from the
+upper atmosphere of the planet.  &00
+~
+21 4 0
+D1
+~
+~
+0 0 2159
+D2
+~
+~
+0 0 2144
+D3
+~
+~
+0 -1 2142
+S
+#2144
+&14Cicle &14C&00&06i&14t&00&06y &16Prison &10Entrance&00~
+   &15Large security doors greet the visitors to this top security facility.  
+The most dangerous criminals of planet Frigid are housed here.  That is to say,
+the most dangerous criminals that could be captured, or rare enough hadn't
+commited a crime that warrented the death penalty.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2143
+D2
+~
+~
+0 -1 2145
+S
+#2145
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2144
+D1
+~
+~
+0 -1 2146
+D2
+~
+~
+0 -1 2147
+D3
+~
+~
+0 0 2148
+S
+#2146
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D2
+~
+~
+0 0 2149
+D3
+~
+~
+0 -1 2145
+S
+#2147
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2145
+D1
+~
+~
+0 0 2149
+D2
+~
+~
+0 -1 2150
+D3
+~
+~
+0 -1 2151
+S
+#2148
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D1
+~
+~
+0 0 2145
+D2
+~
+~
+0 -1 2151
+S
+#2149
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 -1 2146
+D2
+~
+~
+0 0 2152
+D3
+~
+~
+0 0 2147
+S
+#2150
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2147
+D1
+~
+~
+0 -1 2152
+D3
+~
+~
+0 -1 2154
+S
+#2151
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 -1 2148
+D1
+~
+~
+0 0 2147
+D2
+~
+~
+0 0 2154
+S
+#2152
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 -1 2149
+D2
+~
+~
+0 0 2157
+D3
+~
+~
+0 0 2153
+S
+#2153
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 -1 2145
+D1
+~
+~
+0 0 2152
+D2
+~
+~
+0 0 2156
+D3
+~
+~
+0 -1 2154
+S
+#2154
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 -1 2151
+D1
+~
+~
+0 -1 2153
+D2
+~
+~
+0 0 2155
+S
+#2155
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2154
+D1
+~
+~
+0 -1 2156
+S
+#2156
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 -1 2153
+D1
+~
+~
+0 0 2157
+D3
+~
+~
+0 -1 2155
+S
+#2157
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2152
+D2
+~
+~
+0 0 2158
+D3
+~
+~
+0 0 2156
+S
+#2158
+&14Cicle &14C&00&06i&14t&00&06y &16Prison&00~
+   &15This is suprisingly an open cell enviroment.  It is throughout the entire
+prison, guards are trained and patrol the inside of the entire prison, where
+the prisoners are allowed to roam free.  There are very few rules inforced in
+this prison, if you are unlucky enough to get tossed here you better be able to
+survive.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2157
+S
+#2159
+&00&07S&14n&00&07o&14w &16P&15a&16t&15h&00~
+   &14This is a snow covered path leading up to a large expanse of the Gnarl
+Snow Fields.  Frozen vegetation litters the sides of the path, unknown as to
+how long ago before they ever froze.  Snow continually falls from the sky
+above, and thankfully the horrible wind blows it from where it lands before it
+can build up to much.  &00
+~
+21 4 2
+D1
+~
+~
+0 0 2160
+D3
+~
+~
+0 0 2143
+S
+#2160
+&00&07S&14n&00&07o&14w &16P&15a&16t&15h&00~
+   &14This is a snow covered path leading up to a large exspanse of the Gnarl
+Snow Fields.  Frozen vegetation litters the sides of the path, unknown as to
+how long ago before they ever froze.  Snow continually falls from the sky
+above, and thankfully the horrible wind blows it from where it lands before it
+can build up to much.  &00
+~
+21 4 2
+D1
+~
+~
+0 0 2161
+D3
+~
+~
+0 0 2159
+S
+#2161
+&00&07S&14n&00&07o&14w &16P&15a&16t&15h&00~
+   &14This is a snow covered path leading up to a large exspanse of the Gnarl
+Snow Fields.  Frozen vegetation litters the sides of the path, unknown as to
+how long ago before they ever froze.  Snow continually falls from the sky
+above, and thankfully the horrible wind blows it from where it lands before it
+can build up to much.  &00
+~
+21 4 2
+D1
+~
+~
+0 0 2162
+D3
+~
+~
+0 0 2160
+S
+#2162
+&00&07S&14n&00&07o&14w &16P&15a&16t&15h&00~
+   &14This is a snow covered path leading up to a large exspanse of the Gnarl
+Snow Fields.  Frozen vegetation litters the sides of the path, unknown as to
+how long ago before they ever froze.  Snow continually falls from the sky
+above, and thankfully the horrible wind blows it from where it lands before it
+can build up to much.  &00
+~
+21 4 2
+D1
+~
+~
+0 0 2163
+D3
+~
+~
+0 0 2161
+S
+#2163
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00 ~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2164
+D3
+~
+~
+0 0 2162
+S
+#2164
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2165
+D3
+~
+~
+0 0 2163
+S
+#2165
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2166
+D3
+~
+~
+0 0 2164
+S
+#2166
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2167
+D3
+~
+~
+0 0 2165
+S
+#2167
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2168
+D3
+~
+~
+0 0 2166
+S
+#2168
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D2
+~
+~
+0 0 2169
+D3
+~
+~
+0 0 2167
+S
+#2169
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D0
+~
+~
+0 0 2168
+D3
+~
+~
+0 0 2170
+S
+#2170
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2169
+D3
+~
+~
+0 0 2171
+S
+#2171
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2170
+D3
+~
+~
+0 0 2172
+S
+#2172
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2171
+D3
+~
+~
+0 0 2173
+S
+#2173
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2172
+D3
+~
+~
+0 0 2174
+S
+#2174
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2173
+D2
+~
+~
+0 0 2175
+S
+#2175
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D0
+~
+~
+0 0 2174
+D1
+~
+~
+0 0 2176
+S
+#2176
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2177
+D3
+~
+~
+0 0 2175
+S
+#2177
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2178
+D3
+~
+~
+0 0 2176
+S
+#2178
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2179
+D3
+~
+~
+0 0 2177
+S
+#2179
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2180
+D3
+~
+~
+0 0 2178
+S
+#2180
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D2
+~
+~
+0 0 2181
+D3
+~
+~
+0 0 2179
+S
+#2181
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D0
+~
+~
+0 0 2180
+D3
+~
+~
+0 0 2182
+S
+#2182
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2181
+D3
+~
+~
+0 0 2183
+S
+#2183
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2182
+D3
+~
+~
+0 0 2184
+S
+#2184
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2183
+D3
+~
+~
+0 0 2185
+S
+#2185
+&00&06Gnarl &00&07S&14n&00&07o&14w &00&03Field&00~
+   &15The snow covered Gnarl Field.  Only the bravest adventurers dare to trek
+out here, with it's blistering wind and wild beast.  The Gnarl Snow Fields are
+not a safe place to be, it would be best to move on quickly.  &00
+~
+21 0 2
+D1
+~
+~
+0 0 2184
+D2
+You see nothing special.
+~
+~
+0 -1 2187
+S
+#2186
+&10G&00&02ret&10z&15'&10s &16T&15r&00&07aini&15n&16g &14Zone&00~
+   &15A small metallic room with a large green sensor pad in the center.  A
+slot machine near the center of the pad controls the holo room, accepting money
+to create training opponents for any visitors to the Zone.  &00
+~
+21 8388736 0
+D1
+~
+~
+0 0 2119
+S
+#2187
+&00&03Path &15to &10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o&00~
+   &00&03This path leads to Glug Volcano, it's short dirt and ash trodden
+ground leading the short distance to the base of the volcano.  High up on the
+crest of the volcano, lava periodically spews outward, warming the volcano and
+a small bit of the surrounding land.  &00
+~
+21 4 5
+D0
+Nothing.
+~
+~
+0 0 2185
+D2
+You see nothing special.
+~
+~
+0 -1 2188
+S
+#2188
+&00&03Path &15to &10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o&00~
+   &00&03This path leads to Glug Volcano, it's short dirt and ash trodden
+ground leading the short distance to the base of the volcano.  High up on crest
+of the volcano lava periodicly spews outward, warming the volcano and a small
+bit of the surrounding land.  &00
+~
+21 4 5
+D0
+~
+~
+0 0 2187
+D2
+You see nothing special.
+~
+~
+0 -1 2189
+S
+#2189
+&00&03Path &15to &10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o&00~
+   &00&03This path leads to Glug Volcano, it's short dirt and ash trodden
+ground leading the short distance to the base of the volcano.  High up on crest
+of the volcano lava periodicly spews outward, warming the volcano and a small
+bit of the surrounding land.  &00
+~
+21 4 5
+D0
+~
+~
+0 0 2188
+D2
+You see nothing special.
+~
+~
+0 -1 2190
+S
+#2190
+&12Entrance &16to &10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o&00~
+   &16The entrance to Glug Volcano periodically spews out ash and gas fumes.  
+A warm orange glow comes from inside the cave, accompanied by blasts of heat
+every few minutes.  &00
+~
+21 8 0
+D0
+~
+~
+0 0 2189
+D2
+You see nothing special.
+~
+~
+0 -1 2191
+S
+#2191
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2190
+D1
+~
+~
+0 0 2192
+S
+#2192
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+21 0 0
+D2
+~
+~
+0 0 2193
+D3
+~
+~
+0 0 2191
+S
+#2193
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2192
+D1
+You see nothing special.
+~
+~
+0 -1 2194
+S
+#2194
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+21 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2195
+D3
+~
+~
+0 0 2193
+S
+#2195
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+21 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2196
+D1
+You see nothing special.
+~
+~
+0 -1 2199
+D2
+You see nothing special.
+~
+~
+0 -1 2197
+D3
+~
+~
+0 0 2194
+S
+#2196
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+21 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2198
+D2
+~
+~
+0 0 2195
+S
+#2197
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2195
+D1
+You see nothing special.
+~
+~
+0 -1 2200
+S
+#2198
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+21 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2201
+D2
+You see nothing special.
+~
+~
+0 -1 2199
+D3
+~
+~
+0 0 2196
+S
+#2199
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+21 0 0
+D0
+~
+~
+0 0 2198
+D1
+You see nothing special.
+~
+~
+0 -1 2202
+D2
+You see nothing special.
+~
+~
+0 -1 2200
+D3
+~
+~
+0 0 2195
+S
+$~

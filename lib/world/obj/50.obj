@@ -1,0 +1,830 @@
+#5000
+Grand Blessed Earring~
+&11G&00&03r&16a&15n&00&07d &14B&00&06l&16e&15s&00&07sed &12E&00&04arrin&12g&00~
+&15A &11G&00&03r&16a&15n&00&07d &14B&00&06l&16e&15s&00&07sed &12E&00&04arrin&12g &15has been dropped here.&00~
+~
+11 134217728 131073
+0 0 0 0
+1 4000000 0
+A
+1 3
+A
+3 3
+A
+5 2
+A
+4 1
+A
+6 3
+A
+2 3
+#5001
+Otherworld Tourney Belt~
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d &10T&00&02o&00&06u&16r&15n&00&07e&16y &00&03B&16e&15l&00&03t&00~
+&15A &11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d &10T&00&02o&00&06u&16r&15n&00&07e&16y &00&03B&16e&15l&00&03t &15has been dropped here.&00~
+~
+11 0 2049
+0 0 0 0
+1 2000000 0
+E
+look belt~
+   &15This belt should go to the victor of the Otherworld tournament this year,
+but it seems Galnos has stolen it while no one was looking and was using it to
+boost his power for the tournament.  &00
+~
+A
+6 10
+A
+2 10
+A
+4 6
+#5002
+Otherworld Coin~
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d &11C&00&03oi&11n&00~
+&15A &11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d &11C&00&03oi&11n &15has been dropped here.&00~
+~
+8 0 8193
+0 0 0 0
+1 50000 0
+#5003
+Tournament Key~
+&10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t &11K&00&03e&11y&00~
+&15A &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t &11K&00&03e&11y &15has been dropped here.&00~
+~
+8 64 5
+0 0 0 0
+1 1000000 0
+A
+3 1
+A
+5 1
+A
+4 2
+#5004
+Clipboard~
+&16C&15l&00&03i&16p&15b&00&03o&16a&15r&00&03d&00~
+&15A &16C&15l&00&03i&16p&15b&00&03o&16a&15r&00&03d &15has been dropped here.&00~
+~
+8 0 1
+0 0 0 0
+1 5000 0
+#5005
+Grand Tea Fountain~
+&11G&00&03r&16a&15n&00&07d &00&03T&00&06e&00&03a &14F&00&06ountai&14n&00~
+&15The &11G&00&03r&16a&15n&00&07d &00&03T&00&06e&00&03a &14F&00&06ountai&14n &15sits here, spewing tea.&00~
+~
+23 0 0
+100000 100000 11 0
+100005 0 0
+#5006
+Supreme Star Armor~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &16A&15r&00&07m&15o&16r&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &16A&15r&00&07m&15o&16r &15has been dropped here.&00~
+~
+11 0 9
+0 0 0 0
+1 10000000 5
+A
+5 4
+A
+3 4
+A
+2 3
+A
+6 4
+A
+18 30
+A
+19 30
+#5007
+Supreme Star Gi~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10G&00&02i&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10G&00&02i &15has been dropped here.&00~
+~
+11 0 1025
+0 0 0 0
+1 9000000 0
+A
+3 5
+A
+5 4
+A
+6 6
+A
+2 6
+A
+18 30
+A
+19 30
+#5008
+Supreme Star Pants~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10P&00&02ant&10s&00~
+&15A pair of &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10P&00&02ant&10s &15have been dropped here.&00~
+~
+11 0 33
+0 0 0 0
+1 9000000 0
+A
+2 5
+A
+5 2
+A
+4 3
+A
+18 30
+A
+19 30
+#5009
+Supreme Star Belt~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10B&00&02el&10t&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10B&00&02el&10t &15has been dropped here.&00~
+~
+11 0 2049
+0 0 0 0
+1 9000000 0
+A
+3 3
+A
+6 4
+A
+5 3
+A
+18 30
+A
+19 30
+#5010
+Supreme Star Bangle~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &16B&15a&00&07n&15g&16l&00&07e&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &16B&15a&00&07n&15g&16l&00&07e &15has been dropped here.&00~
+~
+11 0 4097
+0 0 0 0
+1 9000000 0
+A
+2 6
+A
+6 6
+A
+18 30
+A
+19 30
+#5011
+Supreme Star Gloves~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10G&00&02love&10s&00~
+&15A pair of &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10G&00&02love&10s &15have been dropped here.&00~
+~
+11 0 129
+0 0 0 0
+1 9000000 0
+A
+4 3
+A
+6 6
+A
+18 30
+A
+19 30
+#5012
+Supreme Star Boots~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10B&00&02oot&10s&00~
+&15A pair of &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10B&00&02oot&10s &15have been dropped here.&00~
+~
+11 0 65
+0 0 0 0
+1 9000000 0
+A
+2 6
+A
+4 3
+A
+18 30
+A
+19 30
+#5013
+Supreme Star Shoulder Armor~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10S&00&02houlde&10r &16A&15r&00&07m&15o&16r&00~
+&15A pair of &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10S&00&02houlde&10r &16A&15r&00&07m&15o&16r &15have been dropped here.&00~
+~
+11 0 257
+0 0 0 0
+1 9000000 0
+A
+6 6
+A
+3 3
+A
+18 30
+A
+19 30
+#5014
+Supreme Star Scouter~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10S&00&02coute&10r&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10S&00&02coute&10r &15has been dropped here.&00~
+~
+3 0 513
+100 100000 100000 201
+1 9000000 0
+A
+5 4
+A
+4 3
+A
+3 3
+A
+2 6
+A
+18 30
+A
+19 30
+#5015
+Supreme Star Helmet~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10H&00&02elme&10t&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10H&00&02elme&10t &15has been dropped here.&00~
+~
+11 0 17
+0 0 0 0
+1 9000000 0
+A
+4 4
+A
+6 6
+A
+2 6
+A
+18 30
+A
+19 30
+#5016
+Supreme Star Lantern~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &00&07L&11a&09n&00&01t&09e&11r&00&07n&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &00&07L&11a&09n&00&01t&09e&11r&00&07n &15has been dropped here.&00~
+~
+1 0 16385
+0 0 -1 0
+1 9000000 0
+A
+5 2
+A
+3 3
+A
+2 6
+A
+18 30
+A
+19 30
+#5017
+Supreme Star Sapphire Necklace~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &12S&00&04apphir&12e &10N&00&02ecklac&10e&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &12S&00&04apphir&12e &10N&00&02ecklac&10e &15has been dropped here.&00~
+~
+11 0 5
+0 0 0 0
+1 9000000 0
+A
+1 4
+A
+6 4
+A
+2 4
+A
+18 30
+A
+19 30
+#5018
+Supreme Star Sapphire Ring~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &12S&00&04apphir&12e &11R&00&03i&11n&00&03g&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &12S&00&04apphir&12e &11R&00&03i&11n&00&03g &15has been dropped here.&00~
+~
+11 0 3
+0 0 0 0
+1 9000000 0
+A
+4 3
+A
+2 4
+A
+6 4
+A
+18 30
+A
+19 30
+#5019
+Supreme Star Sapphire Earring~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &12S&00&04apphir&12e &10E&00&02arrin&10g &00&07(right)&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &12S&00&04apphir&12e &10E&00&02arrin&10g &00&07(right) &15has been dropped here.&00~
+~
+11 0 262145
+0 0 0 0
+1 9000000 0
+A
+2 6
+A
+6 6
+A
+18 30
+A
+19 30
+#5020
+Supreme Star Sapphire Earring~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &12S&00&04apphir&12e &10E&00&02arrin&10g &00&07(left)&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &12S&00&04apphir&12e &10E&00&02arrin&10g &00&07(left) &15has been dropped here.&00~
+~
+11 0 131073
+0 0 0 0
+1 9000000 0
+A
+2 6
+A
+6 6
+A
+18 30
+A
+19 30
+#5021
+Supreme Star Excalibur~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &16E&15x&00&07c&16a&15l&16i&00&07b&15u&16r&00~
+&15A &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &16E&15x&00&07c&16a&15l&16i&00&07b&15u&16r &15has been dropped here.&00~
+~
+5 0 4202497
+0 600000 1 3
+1 9000000 0
+A
+5 4
+A
+6 6
+A
+2 6
+A
+18 30
+A
+19 30
+#5022
+Grand Kai's Shopkey~
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&00&07'&16s &10S&00&02hopke&10y&00~
+&15The &11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&00&07'&16s &10S&00&02hopke&10y &15has been dropped here.&00~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5023
+Mine Sign~
+&16M&15i&00&07n&15e &12S&00&04ig&12n&00~
+&15The &16M&15i&00&07n&15e &12S&00&04ig&12n &15has been posted on the mine entrance here.&00~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+look sign~
+&09WARNING!&00
+  &15This mine is for use by the Grand Kai's workers only.&00
+&15Visitors not permited!&00
+~
+#5024
+Sapphire~
+&00&04S&12a&00&06p&14ph&00&06i&12r&00&04e&00~
+&15A &00&04S&12a&00&06p&14ph&00&06i&12r&00&04e &15has been dropped here.&00~
+~
+8 0 1
+0 0 0 0
+1 70000 0
+#5025
+Demonis Ring~
+&16D&00&01e&09m&00&01o&09n&00&01i&16s &11R&00&03i&11n&00&03g&00~
+&15A &16D&00&01e&09m&00&01o&09n&00&01i&16s &11R&00&03i&11n&00&03g &15has been dropped here.&00~
+~
+11 134217729 3
+0 0 0 0
+1 4000000 0
+A
+5 2
+A
+3 2
+A
+4 2
+A
+2 2
+A
+6 2
+A
+25 2
+#5026
+Blood Gem Lance~
+&09B&00&01l&16o&00&01o&09d&15-&14G&00&06e&14m &00&07L&15a&16n&15c&00&07e&00~
+&15A &09B&00&01l&16o&00&01o&09d&15-&14G&00&06e&14m &00&07L&15a&16n&15c&00&07e &15has been stabbed into the ground here.&00~
+~
+5 134217730 8193
+0 700000 1 14
+1 5000000 0
+A
+5 4
+A
+3 3
+A
+4 5
+A
+25 3
+A
+2 6
+A
+6 6
+#5027
+Dirty Pearl~
+&00&03D&16i&00&03rt&16y &15P&00&07ear&15l&00~
+&15A &00&03D&16i&00&03rt&16y &15P&00&07ear&15l &15has been dropped here.&00~
+Nothing.
+~
+8 0 1
+0 0 0 0
+1 10000 0
+#5028
+Shadow Gem~
+&16S&15h&00&07ad&15o&16w &14G&00&06e&14m&00~
+&15A &16S&15h&00&07ad&15o&16w &14G&00&06e&14m &15has been dropped here.&00~
+~
+8 0 1
+0 0 0 0
+1 90000 0
+#5029
+Shadow Bastard Sword~
+&16S&15h&00&07ad&15o&16w &09B&00&01astar&09d &00&07S&15wo&16rd&00~
+&15A &16S&15h&00&07ad&15o&16w &09B&00&01astar&09d &00&07S&15wo&16rd &15has been dropped here.&00~
+~
+5 64 4202497
+0 700000 1 3
+1 4000000 0
+A
+5 3
+A
+2 10
+A
+3 3
+A
+4 3
+A
+25 3
+A
+6 10
+#5030
+Blood Ruby~
+&09B&00&01loo&09d &00&01R&00&05u&09b&00&01y&00~
+&15A &09B&00&01loo&09d &00&01R&00&05u&09b&00&01y &15has been dropped here.&00~
+~
+8 0 1
+0 0 0 0
+1 10000 0
+#5031
+Fury Oozaru Armor~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Armor&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Armor &15has been dropped here.&00~
+~
+11 0 9
+0 0 0 0
+1 500000 0
+A
+5 1
+A
+3 1
+A
+2 1
+A
+6 1
+A
+18 10
+A
+19 10
+#5032
+Fury Oozaru Gi~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Gi&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Gi &15has been dropped here.&00~
+~
+11 0 1025
+0 0 0 0
+1 300000 0
+A
+3 1
+A
+5 1
+A
+6 1
+A
+2 2
+A
+18 10
+A
+19 10
+#5033
+Fury Oozaru Pants~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Pants&00~
+&15A pair of &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Pants &15have been dropped here.&00~
+~
+11 0 33
+0 0 0 0
+1 300000 0
+A
+5 1
+A
+2 2
+A
+18 10
+A
+19 10
+#5034
+Fury Oozaru Gloves~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Gloves&00~
+&15A pair of &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Gloves &15have been dropped here.&00~
+~
+11 0 129
+0 0 0 0
+1 300000 0
+A
+4 1
+A
+18 10
+A
+19 10
+#5035
+Fury Oozaru Boots~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Boots&00~
+&15A pair of &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Boots &15have been dropped here.&00~
+~
+11 0 65
+0 0 0 0
+1 300000 0
+A
+2 1
+A
+4 1
+A
+18 10
+A
+19 10
+#5036
+Fury Oozaru Shoulder Guard~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Shoulder&15-&16Guard&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Shoulder&15-&16Guard &15has been dropped here.&00~
+~
+11 0 257
+0 0 0 0
+1 300000 0
+A
+6 1
+A
+18 10
+A
+19 10
+#5037
+Fury Oozaru Wristband~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Wristband&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Wristband &15has been dropped here.&00~
+~
+11 0 4097
+0 0 0 0
+1 300000 0
+A
+2 1
+A
+6 1
+A
+18 10
+A
+19 10
+#5038
+Fury Oozaru Belt~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Belt&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Belt &15has been dropped here.&00~
+~
+11 0 2049
+0 0 0 0
+1 300000 0
+A
+3 1
+A
+6 1
+A
+18 10
+A
+19 10
+#5039
+Fury Oozaru Hood~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Hood&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Hood &15has been dropped here.&00~
+~
+11 0 17
+0 0 0 0
+1 300000 0
+A
+4 1
+A
+18 10
+A
+19 10
+#5040
+Fury Oozaru Club~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Club&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Club &15has been dropped here.&00~
+~
+5 0 4202497
+0 30000 1 6
+1 300000 0
+A
+5 1
+A
+6 1
+A
+18 10
+A
+19 10
+#5041
+Fury Oozaru Ruby Light~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &11Light&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &11Light &15has been dropped here.&00~
+Nothing.
+~
+1 0 16385
+0 0 -1 0
+1 300000 0
+A
+5 1
+A
+18 10
+A
+19 10
+#5042
+Fury Oozaru Ruby Ring~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &11R&00&03in&11g &00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &11R&00&03in&11g &15has been dropped here.&00~
+~
+11 0 3
+0 0 0 0
+1 300000 0
+A
+2 2
+A
+18 10
+A
+19 10
+#5043
+Fury Oozaru Ruby Necklace~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &16Necklace&00~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &16Necklace&00~
+~
+11 0 5
+0 0 0 0
+1 300000 0
+A
+6 1
+A
+18 10
+A
+19 10
+#5044
+Fury Oozaru Ruby Earring (left)~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &16Earring &00&07(left)&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &16Earring &00&07(left) &15has been dropped here.&00~
+~
+11 0 131073
+0 0 0 0
+1 300000 0
+A
+2 1
+A
+6 1
+A
+18 10
+A
+19 10
+#5045
+Fury Oozaru Ruby Earring (right)~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &16Earring &00&07(right)&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &09R&00&01ub&09y &16Earring &00&07(right) &15has been dropped here.&00~
+~
+11 0 262145
+0 0 0 0
+1 300000 0
+A
+2 1
+A
+6 1
+A
+18 10
+A
+19 10
+#5046
+Fury Oozaru Scouter~
+&00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Scouter&00~
+&15A &00&01F&09u&16r&15y &00&03O&09o&16z&00&03ar&00&01u &16Scouter &15has been dropped here.&00~
+~
+3 0 513
+100 100000 100000 201
+1 300000 0
+A
+4 1
+A
+3 1
+A
+18 10
+A
+19 10
+#5047
+Z Sword~
+&00&12Z&11-&15S&16w&00&06o&14r&00&07d&00~
+&15The &12Z&11-&15S&16w&00&06o&14r&00&07d &15has been dropped stupidly here.&00~
+   &15The legendary Z Sword, said to be the best weapon in the universe.  
+Whoever wields it, is supposed to be unrivaled.  Careful, it may break against
+Kachin or some other super hard metal.  &00
+~
+5 268435456 4202497
+0 800000 1 3
+10 15000000 0
+A
+5 7
+A
+3 5
+A
+4 7
+A
+25 5
+A
+2 10
+A
+6 10
+#5048
+Mystic Emerald~
+&14M&00&06ysti&14c &10E&00&02m&10e&00&02r&10a&00&02l&10d&00~
+&15A &14M&00&06ysti&14c &10E&00&02m&10e&00&02r&10a&00&02l&10d &15has been dropped here.&00~
+~
+8 0 1
+0 0 0 0
+1 60000 0
+#5049
+Mystic Diamond~
+&14M&00&06ysti&14c &00&07D&14i&00&06a&15m&00&06o&14n&00&07d~
+&15A &14M&00&06ysti&14c &00&07D&14i&00&06a&15m&00&06o&14n&00&07d &15has been dropped here.&00~
+~
+8 0 1
+0 0 0 0
+1 70000 0
+#5050
+Yema's Tie~
+&09Y&00&05e&00&01m&16a&15'&16s &12T&00&04i&12e&00~
+&09Y&00&05e&00&01m&16a&15'&16s &12T&00&04i&12e &15lays here.&00~
+~
+11 0 5
+0 0 0 0
+1 1000000 0
+A
+3 3
+A
+4 1
+#5051
+Golden Halo~
+&11G&00&03o&11l&00&03d&11e&00&03n &07H&15al&00&07o&00~
+&15A &11G&00&03o&11l&00&03d&11e&00&03n &00&07H&15al&00&07o &15has been dropped here.&00~
+~
+11 0 17
+0 0 0 0
+1 4000000 0
+A
+5 1
+A
+4 3
+A
+3 2
+A
+25 4
+#5052
+C4 Pill~
+&11C&144 &15P&00&07i&15l&00&07l&00~
+&15A &11C&144 &15P&00&07i&15l&00&07l &15has been dropped here.&00~
+~
+2 0 1
+100 154 208 0
+1 60000 0
+#5060
+Shadowlas Key~
+&16S&15h&00&07adow&16l&15a&00&07s &11Key&00~
+&15The &16S&15h&00&07adow&16l&15a&00&07s &11Key &15has been dropped here.&00~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5061
+Shadow Key~
+&16Sh&15ad&16ow &11K&00&03e&11y&00~
+&15The &16Sh&15ad&16ow &11K&00&03e&11y &15has been dropped here.&00~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5099
+moose doll Sheer~
+a doll of Sheer~
+...~
+~
+0 0 16385
+0 0 0 0
+0 0 0
+A
+2 66
+$~

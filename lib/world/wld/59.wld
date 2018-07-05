@@ -1,0 +1,1899 @@
+#5900
+&11S&16a&15n&00&03d&11y &16P&15a&00&03t&16h&00~
+   &15Sand is mingled in with the stones in the path making it difficult to
+walk.  Shrubs covered with tiny flowers of all colors line the path.  The sand
+becomes deeper farther down.  &00
+~
+59 4 2
+D0
+~
+~
+0 0 5901
+D2
+You see nothing special.
+~
+~
+0 -1 1351
+S
+#5901
+&11S&16a&15n&00&03d&11y &16P&15a&00&03t&16h&00~
+   &15Sand is mingled in with the stones in the path making it difficult to
+walk.  Shrubs covered with tiny flowers of all colors line the path.  The sand
+becomes deeper farther down.  &00
+~
+59 0 2
+D0
+~
+~
+0 0 5902
+D2
+~
+~
+0 0 5900
+S
+#5902
+&11S&16a&15n&00&03d&11y &16P&15a&00&03t&16h&00~
+   &15Sand is mingled in with the stones in the path making it difficult to
+walk.  Shrubs covered with tiny flowers of all colors line the path.  The sand
+becomes deeper farther down.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5903
+D2
+~
+~
+0 0 5901
+S
+#5903
+&11S&16a&15n&00&03d&11y &16P&15a&00&03t&16h&00~
+   &15Sand is mingled in with the stones in the path making it difficult to
+walk.  Shrubs covered with tiny flowers of all colors line the path.  The sand
+becomes deeper farther down.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5904
+D2
+~
+~
+0 0 5902
+S
+#5904
+&11S&16a&15n&00&03d&11y &16P&15a&00&03t&16h&00~
+   &15Sand is mingled in with the stones in the path making it difficult to
+walk.  Shrubs covered with tiny flowers of all colors line the path.  The sand
+becomes deeper farther down.  &00
+~
+59 4 0
+D0
+~
+~
+0 0 5905
+D2
+~
+~
+0 0 5903
+S
+#5905
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5915
+D1
+~
+~
+0 0 5909
+D2
+~
+~
+0 0 5904
+D3
+~
+~
+0 0 5906
+S
+#5906
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5916
+D1
+~
+~
+0 0 5905
+D3
+~
+~
+0 0 5907
+S
+#5907
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5917
+D1
+~
+~
+0 0 5906
+D3
+~
+~
+0 0 5908
+S
+#5908
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5918
+D1
+~
+~
+0 0 5907
+S
+#5909
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5914
+D1
+~
+~
+0 0 5910
+D3
+~
+~
+0 0 5905
+S
+#5910
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5913
+D1
+~
+~
+0 0 5911
+D3
+~
+~
+0 0 5909
+S
+#5911
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5912
+D3
+~
+~
+0 0 5910
+S
+#5912
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5925
+D2
+~
+~
+0 0 5911
+D3
+~
+~
+0 0 5913
+S
+#5913
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5924
+D1
+~
+~
+0 0 5912
+D2
+~
+~
+0 0 5910
+D3
+~
+~
+0 0 5914
+S
+#5914
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5923
+D1
+~
+~
+0 0 5913
+D2
+~
+~
+0 0 5909
+D3
+~
+~
+0 0 5915
+S
+#5915
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5922
+D1
+~
+~
+0 0 5914
+D2
+~
+~
+0 0 5905
+D3
+~
+~
+0 0 5916
+S
+#5916
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5921
+D1
+~
+~
+0 0 5915
+D2
+~
+~
+0 0 5906
+D3
+~
+~
+0 0 5917
+S
+#5917
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5920
+D1
+~
+~
+0 0 5916
+D2
+~
+~
+0 0 5907
+D3
+~
+~
+0 0 5918
+S
+#5918
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5919
+D1
+~
+~
+0 0 5917
+D2
+~
+~
+0 0 5908
+S
+#5919
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5932
+D1
+~
+~
+0 0 5920
+D2
+~
+~
+0 0 5918
+S
+#5920
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5931
+D1
+~
+~
+0 0 5921
+D2
+~
+~
+0 0 5917
+D3
+~
+~
+0 0 5919
+S
+#5921
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5930
+D1
+~
+~
+0 0 5922
+D2
+~
+~
+0 0 5916
+D3
+~
+~
+0 0 5920
+S
+#5922
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5929
+D1
+~
+~
+0 0 5923
+D2
+~
+~
+0 0 5915
+D3
+~
+~
+0 0 5921
+S
+#5923
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5928
+D1
+~
+~
+0 0 5924
+D2
+~
+~
+0 0 5914
+D3
+~
+~
+0 0 5922
+S
+#5924
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5927
+D1
+~
+~
+0 0 5925
+D2
+~
+~
+0 0 5913
+D3
+~
+~
+0 0 5923
+S
+#5925
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5926
+D2
+~
+~
+0 0 5912
+D3
+~
+~
+0 0 5924
+S
+#5926
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 4 0
+D2
+~
+~
+0 0 5925
+D3
+~
+~
+0 0 5927
+S
+#5927
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5938
+D1
+~
+~
+0 0 5926
+D2
+~
+~
+0 0 5924
+D3
+~
+~
+0 0 5928
+S
+#5928
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5937
+D1
+~
+~
+0 0 5927
+D2
+~
+~
+0 0 5923
+D3
+~
+~
+0 0 5929
+S
+#5929
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5936
+D1
+~
+~
+0 0 5928
+D2
+~
+~
+0 0 5922
+D3
+~
+~
+0 0 5930
+S
+#5930
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5935
+D1
+~
+~
+0 0 5929
+D2
+~
+~
+0 0 5921
+D3
+~
+~
+0 0 5931
+S
+#5931
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5934
+D1
+~
+~
+0 0 5930
+D2
+~
+~
+0 0 5920
+D3
+~
+~
+0 0 5932
+S
+#5932
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 4 0
+D0
+~
+~
+0 0 5933
+D1
+~
+~
+0 0 5931
+D2
+~
+~
+0 0 5919
+S
+#5933
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D1
+~
+~
+0 0 5934
+D2
+~
+~
+0 0 5932
+S
+#5934
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D1
+~
+~
+0 0 5935
+D2
+~
+~
+0 0 5931
+D3
+~
+~
+0 0 5933
+S
+#5935
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D1
+~
+~
+0 0 5936
+D2
+~
+~
+0 0 5930
+D3
+~
+~
+0 0 5934
+S
+#5936
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D0
+~
+~
+1 0 5939
+D1
+~
+~
+0 0 5937
+D2
+~
+~
+0 0 5929
+D3
+~
+~
+0 0 5935
+D4
+~
+~
+0 0 -1
+S
+#5937
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D1
+~
+~
+0 0 5938
+D2
+~
+~
+0 0 5928
+D3
+~
+~
+0 0 5936
+S
+#5938
+&15C&00&06l&14o&00u&14d&00&06e&15d &11D&00&03e&15s&00e&00&03r&11t &10P&00&02l&03a&02i&10n&00~
+   &00&15Sand, golden-grained and as endless and deep as the sea, streches
+across the land in hills and gullies as far as the eye can observe.  With such
+small grains, whatever tries to cross this barren land feels as if it were
+sinking into the arms of the desert.  &00
+~
+59 0 0
+D2
+~
+~
+0 0 5927
+D3
+~
+~
+0 0 5937
+S
+#5939
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00 &16Entrance&16&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 4 0
+D0
+~
+~
+0 0 5940
+D2
+~
+~
+0 0 5936
+S
+#5940
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5941
+D2
+~
+~
+0 0 5939
+S
+#5941
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5942
+D2
+~
+~
+0 0 5940
+S
+#5942
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D1
+~
+~
+0 0 5943
+D2
+~
+~
+0 0 5941
+S
+#5943
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D1
+~
+~
+0 0 5944
+D3
+~
+~
+0 0 5942
+S
+#5944
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D2
+~
+~
+0 0 5945
+D3
+~
+~
+0 0 5943
+S
+#5945
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5944
+D1
+~
+~
+0 0 5946
+S
+#5946
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5947
+D3
+~
+~
+0 0 5945
+S
+#5947
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5948
+D2
+~
+~
+0 0 5946
+S
+#5948
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5949
+D2
+~
+~
+0 0 5947
+S
+#5949
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5950
+D1
+~
+~
+0 0 5970
+D2
+~
+~
+0 0 5948
+S
+#5950
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5951
+D2
+~
+~
+0 0 5949
+S
+#5951
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D2
+~
+~
+0 0 5950
+D5
+~
+~
+0 0 5952
+S
+#5952
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D4
+~
+~
+0 0 5951
+D5
+~
+~
+0 0 5953
+S
+#5953
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5954
+D4
+~
+~
+0 0 5952
+S
+#5954
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5955
+D2
+~
+~
+0 0 5953
+S
+#5955
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D2
+~
+~
+0 0 5954
+D5
+~
+~
+0 0 5956
+S
+#5956
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D3
+~
+~
+0 0 5969
+D4
+~
+~
+0 0 5955
+D5
+~
+~
+0 0 5957
+S
+#5957
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D4
+~
+~
+0 0 5956
+D5
+~
+~
+0 0 5958
+S
+#5958
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 0 0
+D0
+~
+~
+0 0 5959
+D4
+~
+~
+0 0 5957
+S
+#5959
+&00&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &00&03C&03&00&16a&15v&15&00&03e&03&00~
+   &15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &00
+~
+59 4 0
+D0
+~
+~
+0 0 5960
+D2
+~
+~
+0 0 5958
+S
+#5960
+&00&06S&06&00&14o&14&00&07u&07&00&15l&15&00 &06O&06&00&14a&15s&14i&14&00&06s&06&00 &16Shoreline&16&00~
+   &00&15A shimmering body of water is sitting here.  Large palm tree's loaded
+with coconuts surround the area and large rocks that seem to be placed there on
+purpose run around the edge of the oasis.  The water is so clear, the bottom is
+easily seen.  Ghostly shadows waver near the bottom, swimming lazily about.  
+&15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5964
+D1
+~
+~
+0 0 5962
+D2
+~
+~
+0 0 5959
+D3
+~
+~
+0 0 5961
+S
+#5961
+&00&06S&06&00&14o&14&00&07u&07&00&15l&15&00 &06O&06&00&14a&15s&14i&14&00&06s&06&00 &16Shoreline&16&00~
+   &00&15A shimmering body of water is sitting here.  Large palm tree's loaded
+with coconuts surround the area and large rocks that seem to be placed there on
+purpose run around the edge of the oasis.  The water is so clear, the bottom is
+easily seen.  Ghostly shadows waver near the bottom, swimming lazily about.  
+&15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5963
+D1
+~
+~
+0 0 5960
+S
+#5962
+&00&06S&06&00&14o&14&00&07u&07&00&15l&15&00 &06O&06&00&14a&15s&14i&14&00&06s&06&00 &16Shoreline&16&00~
+   &00&15A shimmering body of water is sitting here.  Large palm tree's loaded
+with coconuts surround the area and large rocks that seem to be placed there on
+purpose run around the edge of the oasis.  The water is so clear, the bottom is
+easily seen.  Ghostly shadows waver near the bottom, swimming lazily about.  
+&15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5965
+D3
+~
+~
+0 0 5960
+S
+#5963
+&00&06S&06&00&14o&14&00&07u&07&00&15l&15&00 &06O&06&00&14a&15s&14i&14&00&06s&06&00 &16Shoreline&16&00~
+   &00&15A shimmering body of water is sitting here.  Large palm tree's loaded
+with coconuts surround the area and large rocks that seem to be placed there on
+purpose run around the edge of the oasis.  The water is so clear, the bottom is
+easily seen.  Ghostly shadows waver near the bottom, swimming lazily about.  
+&15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5968
+D1
+~
+~
+0 0 5964
+D2
+~
+~
+0 0 5961
+S
+#5964
+&00&06S&06&00&14o&14&00&07u&07&00&15l&15&00 &06O&06&00&14a&15s&14i&14&00&06s&06&00~
+   &00&15A shimmering body of water is sitting here.  Large palm tree's loaded
+with coconuts surround the area and large rocks that seem to be placed there on
+purpose run around the edge of the oasis.  The water is so clear, the bottom is
+easily seen.  Ghostly shadows waver near the bottom, swimming lazily about.  
+&15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5967
+D1
+~
+~
+0 0 5965
+D2
+~
+~
+0 0 5960
+D3
+~
+~
+0 0 5963
+S
+#5965
+&00&06S&06&00&14o&14&00&07u&07&00&15l&15&00 &06O&06&00&14a&15s&14i&14&00&06s&06&00 &16Shoreline&16&00~
+   &00&15A shimmering body of water is sitting here.  Large palm tree's loaded
+with coconuts surround the area and large rocks that seem to be placed there on
+purpose run around the edge of the oasis.  The water is so clear, the bottom is
+easily seen.  Ghostly shadows waver near the bottom, swimming lazily about.  
+&15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5966
+D2
+~
+~
+0 0 5962
+D3
+~
+~
+0 0 5964
+S
+#5966
+&00&06S&06&00&14o&14&00&07u&07&00&15l&15&00 &06O&06&00&14a&15s&14i&14&00&06s&06&00 &16Shoreline&16&00~
+   &00&15A shimmering body of water is sitting here.  Large palm tree's loaded
+with coconuts surround the area and large rocks that seem to be placed there on
+purpose run around the edge of the oasis.  The water is so clear, the bottom is
+easily seen.  Ghostly shadows waver near the bottom, swimming lazily about.  
+&15&00
+~
+59 0 0
+D2
+~
+~
+0 0 5965
+D3
+~
+~
+0 0 5967
+S
+#5967
+&00&06S&06&00&14o&14&00&07u&07&00&15l&15&00 &06O&06&00&14a&15s&14i&14&00&06s&06&00 &16Shoreline&16&00~
+   &00&15A shimmering body of water is sitting here.  Large palm tree's loaded
+with coconuts surround the area and large rocks that seem to be placed there on
+purpose run around the edge of the oasis.  The water is so clear, the bottom is
+easily seen.  Ghostly shadows waver near the bottom, swimming lazily about.  
+&15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5966
+D2
+~
+~
+0 0 5964
+D3
+~
+~
+0 0 5968
+S
+#5968
+&00&06S&06&00&14o&14&00&07u&07&00&15l&15&00 &06O&06&00&14a&15s&14i&14&00&06s&06&00 &16Shoreline&16&00~
+   &00&15A shimmering body of water is sitting here.  Large palm tree's loaded
+with coconuts surround the area and large rocks that seem to be placed there on
+purpose run around the edge of the oasis.  The water is so clear, the bottom is
+easily seen.  Ghostly shadows waver near the bottom, swimming lazily about.  
+&15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5967
+D2
+~
+~
+0 0 5963
+S
+#5969
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00 &16Shop&16&00~
+   &00&15This is nothing but a large hollow in the cave wall.  Boxes are thrown
+around all over the place and nothing seems to be in order.  On the northern
+most wall is a large desk made of solid stone with a old looking sitting behind
+it sell handcrafted armor and weapons.  &15&00
+~
+59 148 0
+D1
+~
+~
+0 0 5956
+S
+#5970
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5971
+D3
+~
+~
+0 0 5949
+S
+#5971
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5972
+D3
+~
+~
+0 0 5970
+S
+#5972
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5973
+D3
+~
+~
+0 0 5971
+S
+#5973
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5974
+D1
+~
+~
+0 0 5980
+D2
+~
+~
+0 0 5977
+D3
+~
+~
+0 0 5972
+S
+#5974
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5975
+D2
+~
+~
+0 0 5973
+S
+#5975
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5976
+D2
+~
+~
+0 0 5974
+S
+#5976
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Forge&16&00~
+   &00&06This forge takes up the entire room, a small metal alcove has been
+built so fleshy beings can survive while talking to the smith.  Flames burn all
+around, and the anvil is set directly in the flames.  A tub of magical ice
+water sits next to the anvil, never melting even in the hotest heat.  &00
+~
+59 148 0
+D3
+~
+~
+0 0 5975
+S
+#5977
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5973
+D2
+~
+~
+0 0 5978
+S
+#5978
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5977
+S
+#5979
+&00&09G&09&00&01u&01&00&16a&15r&15&00&07d&07&00&16i&16&00&01a&01&00&09n&09&00 &11P&11&00&03aw&03&00&11n &16Shop&16&00~
+You are in an unfinished room.
+~
+59 0 0
+D3
+~
+~
+0 0 5978
+S
+#5980
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5981
+D3
+~
+~
+0 0 5973
+S
+#5981
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5982
+D3
+~
+~
+0 0 5980
+S
+#5982
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D3
+~
+~
+0 0 5981
+D4
+~
+~
+0 0 5983
+S
+#5983
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D4
+~
+~
+0 0 5984
+D5
+~
+~
+0 0 5982
+S
+#5984
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D4
+~
+~
+0 0 5985
+D5
+~
+~
+0 0 5983
+S
+#5985
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5986
+D5
+~
+~
+0 0 5984
+S
+#5986
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5987
+D3
+~
+~
+0 0 5985
+S
+#5987
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &03C&03&00&16a&15v&15&00&03e&03&00~
+   &00&15This is a dark desert cave.  The floor here is sand but the walls are
+made of solid rock, untouched by the elements.  The cave gets darker farther
+down and strange sounds can be heard coming from inside.  &15&00
+~
+59 4 0
+D1
+~
+~
+0 0 5988
+D3
+~
+~
+0 0 5986
+S
+#5988
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &00&09G&09&00&01u&01&00&16a&15r&15&00&07d&07&00&16i&16&00&01a&01&00&09n&09&00 &16Chamber&16&00~
+   &00&15This is the chamber of the elemental guardian.  The walls of this room
+are coverered in hyrocrifics never before seen to the human eye.  It is a vast
+room with the ceiling virtually unreachable.  Statues of spirits line the
+walls.  A large door with different gems forged into the metal rest on the
+northern wall.  &15&00
+~
+59 4 0
+D1
+~
+Wall~
+2 5917 5989
+D3
+~
+~
+0 0 5987
+S
+#5989
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Hallway&16&00~
+   &00&15This is a long and vast hallway with walls coated in a shimmering
+silver substance.  Emerald archways extend down the hallway reflecting flashes
+of green light onto the walls.  Soft whispering can be heard echoing throughout
+the room creating a magical atmosphere.  This is indeed a magical place.  
+&15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5990
+D3
+~
+Wall~
+2 5917 5988
+S
+#5990
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Hallway&16&00~
+   &00&15This is a long and vast hallway with walls coated in a shimmering
+silver substance.  Emerald archways extend down the hallway reflecting flashes
+of green light onto the walls.  Soft whispering can be heard echoing throughout
+the room creating a magical atmosphere.  This is indeed a magical place.  
+&15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5991
+D3
+~
+~
+0 0 5989
+S
+#5991
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Hallway&16&00~
+   &00&15This is a long and vast hallway with walls coated in a shimmering
+silver substance.  Emerald archways extend down the hallway reflecting flashes
+of green light onto the walls.  Soft whispering can be heard echoing throughout
+the room creating a magical atmosphere.  This is indeed a magical place.  
+&15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5992
+D1
+~
+~
+0 0 5994
+D2
+~
+~
+0 0 5993
+D3
+~
+~
+0 0 5990
+S
+#5992
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Chamber&16&00~
+   &00&15This is a large room covered with the same silver substance as the
+hallway.  Soft whispering can be heard throughout this room as elementals drift
+aimlessly around.  The walls are covered with many pictures of spirits and
+magical beings.  &15&00
+~
+59 0 0
+D2
+~
+~
+0 0 5991
+S
+#5993
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Chamber&16&00~
+   &00&15This is a large room covered with the same silver substance as the
+hallway.  Soft whispering can be heard throughout this room as elementals drift
+aimlessly around.  The walls are covered with many pictures of spirits and
+magical beings.  &15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5991
+S
+#5994
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Hallway&16&00~
+   &00&15This is a long and vast hallway with walls coated in a shimmering
+silver substance.  Emerald archways extend down the hallway reflecting flashes
+of green light onto the walls.  Soft whispering can be heard echoing throughout
+the room creating a magical atmosphere.  This is indeed a magical place.  
+&15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5995
+D3
+~
+~
+0 0 5991
+S
+#5995
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Hallway&16&00~
+   &00&15This is a long and vast hallway with walls coated in a shimmering
+silver substance.  Emerald archways extend down the hallway reflecting flashes
+of green light onto the walls.  Soft whispering can be heard echoing throughout
+the room creating a magical atmosphere.  This is indeed a magical place.  
+&15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5996
+D1
+~
+~
+0 0 5998
+D2
+~
+~
+0 0 5997
+D3
+~
+~
+0 0 5994
+S
+#5996
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Chamber&16&00~
+   &00&15This is a large room covered with the same silver substance as the
+hallway.  Soft whispering can be heard throughout this room as elementals drift
+aimlessly around.  The walls are covered with many pictures of spirits and
+magical beings.  &15&00
+~
+59 0 0
+D2
+~
+~
+0 0 5995
+S
+#5997
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Chamber&16&00~
+   &00&15This is a large room covered with the same silver substance as the
+hallway.  Soft whispering can be heard throughout this room as elementals drift
+aimlessly around.  The walls are covered with many pictures of spirits and
+magical beings.  &15&00
+~
+59 0 0
+D0
+~
+~
+0 0 5995
+S
+#5998
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Hallway&16&00~
+   &00&15This is a long and vast hallway with walls coated in a shimmering
+silver substance.  Emerald archways extend down the hallway reflecting flashes
+of green light onto the walls.  Soft whispering can be heard echoing throughout
+the room creating a magical atmosphere.  This is indeed a magical place.  
+&15&00
+~
+59 0 0
+D1
+~
+~
+0 0 5999
+D3
+~
+~
+0 0 5995
+S
+#5999
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &16Hallway&16&00~
+   &00&15This is a long and vast hallway with walls coated in a shimmering
+silver substance.  Emerald archways extend down the hallway reflecting flashes
+of green light onto the walls.  Soft whispering can be heard echoing throughout
+the room creating a magical atmosphere.  This is indeed a magical place.  
+&15&00
+~
+59 0 0
+D0
+~
+~
+0 0 3600
+D1
+~
+~
+0 0 3602
+D2
+~
+~
+0 0 3601
+D3
+~
+~
+0 0 5998
+S
+$~

@@ -1,0 +1,884 @@
+
+/* ************************************************************************
+*   File: act.comm.c                                    Part of CircleMUD *
+*  Usage: Player-level communication commands                             *
+*                                                                         *
+*  All rights reserved.  See license.doc for complete information.        *
+*                                                                         *
+*  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
+*  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
+************************************************************************ */
+
+#include "conf.h"
+#include "sysdep.h"
+
+#include "structs.h"
+#include "utils.h"
+#include "comm.h"
+#include "interpreter.h"
+#include "handler.h"
+#include "db.h"
+#include "screen.h"
+#include "dg_scripts.h"
+
+/* extern variables */
+extern int level_can_shout;
+extern int holler_move_cost;
+extern struct room_data *world;
+extern struct descriptor_data *descriptor_list;
+extern struct char_data *character_list;
+
+/* local functions */
+void perform_tell(struct char_data *ch, struct char_data *vict, char *arg);
+int is_tell_ok(struct char_data *ch, struct char_data *vict);
+ACMD(do_say);
+ACMD(do_gsay);
+ACMD(do_tell);
+ACMD(do_reply);
+ACMD(do_spec_comm);
+ACMD(do_write);
+ACMD(do_page);
+ACMD(do_gen_comm);
+ACMD(do_qcomm);
+//ACMD(do_ctell);
+ACMD(do_say)
+{
+  char buf2[MAX_STRING_LENGTH];
+  skip_spaces(&argument);
+
+  if (!*argument)
+  {
+    send_to_char("Yes, but WHAT do you want to say?\r\n", ch);
+    return;
+  }
+  
+  if (argument[strlen(argument) - 1] == '?')
+  {
+    sprintf(buf, "&15You ask, &00'&14%s&00'&00", argument);
+    sprintf(buf2, "&10$n&15 asks, &00'&14%s&00'&00", argument);
+  }
+  else if(argument[strlen(argument) - 1] == '!')
+  {
+    sprintf(buf, "&15You exclaim, &00'&14%s&00'&00", argument);
+    sprintf(buf2, "&10$n&15 exclaims, &00'&14%s&00'&00", argument);
+                if (number(1, 100) < 10) {
+    send_to_char("You begin to get a little mad.\r\n", ch);
+         affect_total(ch);
+             } 
+  }
+
+  else if (argument[strlen(argument) - 1] == '.' &&
+           argument[strlen(argument) - 2] == '.' &&
+           argument[strlen(argument) - 3] == '.')
+  {
+    argument[strlen(argument) - 2] = '\0';  /* remove this line if you want to keep the periods. */
+    sprintf(buf, "&15You mutter, &00'&14%s&00'&00", argument);     
+    sprintf(buf2, "&10$n&15 mutters, &00'&14%s&00'&00", argument);
+  }
+  else
+  {
+    sprintf(buf, "&15You say, &00'&14%s&00'&00", argument);
+    sprintf(buf2, "&10$n&15 says, &00'&14%s&00'&00", argument);
+  } 
+
+  if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
+  send_to_char(OK, ch);
+  else
+  {
+    act(buf, FALSE, ch, 0, 0, TO_CHAR);
+//    act(buf2, FALSE, ch, 0, argument, TO_ROOM);
+    /*remove the next line and uncomment the line above if you don't have dg_scripts */
+    act(buf2, FALSE, ch, 0, argument, TO_ROOM|DG_NO_TRIG);
+  }
+  /* Remove the next three lines if you don't have dg_scripts. */
+  /* trigger check */  
+  speech_mtrigger(ch, argument);
+  speech_wtrigger(ch, argument);
+} 
+
+ACMD(do_osay)
+{
+  char buf2[MAX_STRING_LENGTH];
+  skip_spaces(&argument);
+  *buf = '\0';
+  *buf1 = '\0';
+  *buf2 = '\0';
+
+  if (!*argument)
+  {
+    send_to_char("Yes, but WHAT do you want to osay?\r\n", ch);
+    return;
+  }
+  
+  if (argument[strlen(argument) - 1] == '?')
+  {
+    sprintf(buf, "&15You &09ooc&15 say, '%s'&00", argument);
+    sprintf(buf2, "&15$n &09ooc&15 says, '%s'&00", argument);
+  }
+  else if(argument[strlen(argument) - 1] == '!')
+  {
+    sprintf(buf, "&15You &09ooc&15 say, '%s'&00", argument);
+    sprintf(buf2, "&15$n &09ooc&15 says, '%s'&00", argument);
+ 
+  }
+
+  else if (argument[strlen(argument) - 1] == '.' &&
+           argument[strlen(argument) - 2] == '.' &&
+           argument[strlen(argument) - 3] == '.')
+  {
+    argument[strlen(argument) - 2] = '\0';  /* remove this line if you want to keep the periods. */
+    sprintf(buf, "&15You &09ooc&15 say, '%s'&00", argument);     
+    sprintf(buf2, "&15$n &09ooc&15 says, '%s'&00", argument);
+  }
+  else
+  {
+    sprintf(buf, "&15You &09ooc&15 say, '%s'&00", argument);
+    sprintf(buf2, "&15$n &09ooc&15 says, '%s'&00", argument);
+  } 
+
+  if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
+  send_to_char(OK, ch);
+  else
+  {
+    act(buf, FALSE, ch, 0, 0, TO_CHAR);
+ //   act(buf2, FALSE, ch, 0, argument, TO_ROOM);
+    /*remove the next line and uncomment the line above if you don't have dg_scripts */
+    act(buf2, FALSE, ch, 0, argument, TO_ROOM|DG_NO_TRIG);
+  }
+  /* Remove the next three lines if you don't have dg_scripts. */
+  /* trigger check */  
+  speech_mtrigger(ch, argument);
+  speech_wtrigger(ch, argument);
+} 
+
+
+ACMD(do_gsay)
+{
+  struct char_data *k;
+  struct follow_type *f;
+
+  skip_spaces(&argument);
+
+  if (!AFF_FLAGGED(ch, AFF_GROUP)) {
+    send_to_char("But you are not the member of a group!\r\n", ch);
+    return;
+  }
+  if (!*argument)
+    send_to_char("Yes, but WHAT do you want to group-say?\r\n", ch);
+  else {
+    if (ch->master)
+      k = ch->master;
+    else
+      k = ch;
+
+    sprintf(buf, "&11$n &00&06tells the group&16, &00&07'&14%s&00&07'&00", argument);
+
+    if (AFF_FLAGGED(k, AFF_GROUP) && (k != ch))
+      act(buf, FALSE, ch, 0, k, TO_VICT | TO_SLEEP);
+    for (f = k->followers; f; f = f->next)
+      if (AFF_FLAGGED(f->follower, AFF_GROUP) && (f->follower != ch))
+	act(buf, FALSE, ch, 0, f->follower, TO_VICT | TO_SLEEP);
+
+    if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+      send_to_char(OK, ch);
+    else {
+      sprintf(buf, "&11You &00&06tell the group&16, &00&07'&14%s&00&07'&00", argument);
+      act(buf, FALSE, ch, 0, 0, TO_CHAR | TO_SLEEP);
+    }
+  }
+}
+
+
+void perform_tell(struct char_data *ch, struct char_data *vict, char *arg)
+{
+  send_to_char(CCRED(vict, C_NRM), vict);
+  sprintf(buf, "&14$n&00&06 tells you, &00'&15%s&00'", arg);
+  act(buf, FALSE, ch, 0, vict, TO_VICT | TO_SLEEP);
+  send_to_char(CCNRM(vict, C_NRM), vict);
+
+  if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
+    send_to_char(OK, ch);
+  else {
+    send_to_char(CCRED(ch, C_CMP), ch);
+    sprintf(buf, "&00&06You tell &14$N, &00'&15%s&00'", arg);
+    act(buf, FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
+    send_to_char(CCNRM(ch, C_CMP), ch);
+  }
+
+  if (!IS_NPC(vict) && !IS_NPC(ch))
+    GET_LAST_TELL(vict) = GET_IDNUM(ch);
+}
+
+int is_tell_ok(struct char_data *ch, struct char_data *vict)
+{
+  if (ch == vict)
+    send_to_char("You try to tell yourself something.\r\n", ch);
+  else if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOTELL))
+    send_to_char("You can't tell other people while you have notell on.\r\n", ch);
+  else if (ROOM_FLAGGED(ch->in_room, ROOM_SOUNDPROOF))
+    send_to_char("The walls seem to absorb your words.\r\n", ch);
+  else if (!IS_NPC(vict) && !vict->desc)        /* linkless */
+    act("$E's linkless at the moment.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
+  else if (PLR_FLAGGED(vict, PLR_WRITING))
+    act("$E's writing a message right now; try again later.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
+  else if ((!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOTELL)) || ROOM_FLAGGED(vict->in_room, ROOM_SOUNDPROOF))
+    act("$E can't hear you.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
+  else if (PRF_FLAGGED(vict, PRF_AFK) && !IS_NPC(ch))
+    act("$E's afk right now, try again later.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
+  else
+    return TRUE;
+
+  return FALSE;
+}
+
+/*
+ * Yes, do_tell probably could be combined with whisper and ask, but
+ * called frequently, and should IMHO be kept as tight as possible.
+ */
+ACMD(do_tell)
+{
+  struct descriptor_data *pt;
+  struct char_data *vict;
+  *buf1 = '\0';
+  *buf2 = '\0';
+
+  half_chop(argument, buf, buf2);
+  if (!*buf || !*buf2) {
+    send_to_char("Who do you wish to tell what??\r\n", ch);
+  }
+  if (!str_cmp(buf, "Uub")) {
+   send_to_char("Try Oob instead.\r\n", ch);
+   return;
+  }
+  else if (!(vict = get_char_vis(ch, buf))) {
+    send_to_char(NOPERSON, ch);
+  }
+  else if (!IS_NPC(ch) && !GET_EQ(ch, WEAR_SHIELD)) {
+    send_to_char("You need to wear a scouter to send tells.\r\n", ch);
+    return;
+  }
+  else if (!IS_NPC(ch) && !GET_EQ(vict, WEAR_SHIELD)) {
+    send_to_char("They need to wear a scouter to receive tells.\r\n", ch);
+    return;
+  }
+  else if (is_tell_ok(ch, vict)) {
+    perform_tell(ch, vict, buf2);
+   for (pt = descriptor_list; pt; pt = pt->next){
+                if (STATE(pt) == CON_PLAYING && pt->character && !IS_NPC(pt->character)){
+    if (!IS_NPC(ch) && GET_LEVEL(pt->character) >= 1000007 && !PRF_FLAGGED(pt->character, PRF_NOWIZ) && (GET_LEVEL(ch) <= 1000006 && GET_LEVEL(vict) <= 1000006)) {
+     sprintf(buf1, "&16[&11Tell&16] &14%s &15tells &12%s &16: &10%s.&00", GET_NAME(ch), GET_NAME(vict), buf2);     
+     send_to_char(buf1, pt->character);
+     }
+    else {
+     continue;
+     }     
+    }
+   }
+  return;
+ }
+}
+
+
+ACMD(do_reply)
+{
+  struct char_data *tch = character_list;
+  *buf1 = '\0';
+  *buf2 = '\0';
+
+  if (IS_NPC(ch))
+    return;
+  skip_spaces(&argument);
+ 
+  if (GET_LAST_TELL(ch) == NOBODY)
+    send_to_char("You have no-one to reply to!\r\n", ch);
+  else if (!*argument)
+    send_to_char("What is your reply?\r\n", ch);
+  else if (!GET_EQ(ch, WEAR_SHIELD))
+    send_to_char("You need to wear a scouter to send tells.\r\n", ch);
+  else {
+    /*
+     * Make sure the person you're replying to is still playing by searching
+     * for them.  Note, now last tell is stored as player IDnum instead of
+     * a pointer, which is much better because it's safer, plus will still
+     * work if someone logs out and back in again.
+     */
+				     
+    /*
+     * XXX: A descriptor list based search would be faster although
+     *      we could not find link dead people.  Not that they can
+     *      hear tells anyway. :) -gg 2/24/98
+     */
+    while (tch != NULL && (IS_NPC(tch) || GET_IDNUM(tch) != GET_LAST_TELL(ch)))
+      tch = tch->next;
+
+    if (tch == NULL)
+      send_to_char("They are no longer playing.\r\n", ch);
+    else if (is_tell_ok(ch, tch)) {
+      perform_tell(ch, tch, argument);
+   }
+  }
+}
+
+
+ACMD(do_spec_comm)
+{
+  struct char_data *vict;
+  const char *action_sing, *action_plur, *action_others;
+  *buf = '\0';
+  *buf2 = '\0';
+
+  if (subcmd == SCMD_WHISPER) {
+    action_sing = "&15whisper to&11";
+    action_plur = "&15whispers to";
+    action_others = "$n whispers something to $N.";
+  } else {
+    action_sing = "&15ask";
+    action_plur = "&15asks";
+    action_others = "$n asks $N a question.";
+  }
+
+  half_chop(argument, buf, buf2);
+
+  if (!*buf || !*buf2) {
+    sprintf(buf, "Whom do you want to %s.. and what??\r\n", action_sing);
+    send_to_char(buf, ch);
+  } else if (!(vict = get_char_room_vis(ch, buf)))
+    send_to_char(NOPERSON, ch);
+  else if (vict == ch)
+    send_to_char("You can't get your mouth close enough to your ear...\r\n", ch);
+  else {
+    sprintf(buf, "&14$n %s &15you&00&07, '&00&06%s&00&07'&00", action_plur, buf2);
+    act(buf, FALSE, ch, 0, vict, TO_VICT);
+    if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+      send_to_char(OK, ch);
+    else {
+      sprintf(buf, "&15You %s %s&00&07, '&00&06%s&00&07'&00\r\n", action_sing, GET_NAME(vict), buf2);
+      act(buf, FALSE, ch, 0, 0, TO_CHAR);
+    }
+    act(action_others, FALSE, ch, 0, vict, TO_NOTVICT);
+  }
+}
+
+
+
+#define MAX_NOTE_LENGTH 1000	/* arbitrary */
+
+ACMD(do_write)
+{
+  struct obj_data *paper = 0, *pen = 0;
+  char *papername, *penname;
+
+  papername = buf1;
+  penname = buf2;
+
+  two_arguments(argument, papername, penname);
+
+  if (!ch->desc)
+    return;
+
+  if (!*papername) {		/* nothing was delivered */
+    send_to_char("Write?  With what?  ON what?  What are you trying to do?!?\r\n", ch);
+    return;
+  }
+  if (*penname) {		/* there were two arguments */
+    if (!(paper = get_obj_in_list_vis(ch, papername, ch->carrying))) {
+      sprintf(buf, "You have no %s.\r\n", papername);
+      send_to_char(buf, ch);
+      return;
+    }
+    if (!(pen = get_obj_in_list_vis(ch, penname, ch->carrying))) {
+      sprintf(buf, "You have no %s.\r\n", penname);
+      send_to_char(buf, ch);
+      return;
+    }
+  } else {		/* there was one arg.. let's see what we can find */
+    if (!(paper = get_obj_in_list_vis(ch, papername, ch->carrying))) {
+      sprintf(buf, "There is no %s in your inventory.\r\n", papername);
+      send_to_char(buf, ch);
+      return;
+    }
+    if (GET_OBJ_TYPE(paper) == ITEM_PEN) {	/* oops, a pen.. */
+      pen = paper;
+      paper = 0;
+    } else if (GET_OBJ_TYPE(paper) != ITEM_NOTE) {
+      send_to_char("That thing has nothing to do with writing.\r\n", ch);
+      return;
+    }
+    /* One object was found.. now for the other one. */
+    if (!GET_EQ(ch, WEAR_HOLD)) {
+      sprintf(buf, "You can't write with %s %s alone.\r\n", AN(papername),
+	      papername);
+      send_to_char(buf, ch);
+      return;
+    }
+    if (!CAN_SEE_OBJ(ch, GET_EQ(ch, WEAR_HOLD))) {
+      send_to_char("The stuff in your hand is invisible!  Yeech!!\r\n", ch);
+      return;
+    }
+    if (pen)
+      paper = GET_EQ(ch, WEAR_HOLD);
+    else
+      pen = GET_EQ(ch, WEAR_HOLD);
+  }
+
+
+  /* ok.. now let's see what kind of stuff we've found */
+  if (GET_OBJ_TYPE(pen) != ITEM_PEN)
+    act("$p is no good for writing with.", FALSE, ch, pen, 0, TO_CHAR);
+  else if (GET_OBJ_TYPE(paper) != ITEM_NOTE)
+    act("You can't write on $p.", FALSE, ch, paper, 0, TO_CHAR);
+  else if (paper->action_description)
+    send_to_char("There's something written on it already.\r\n", ch);
+  else {
+    /* we can write - hooray! */
+     /* this is the PERFECT code example of how to set up:
+      * a) the text editor with a message already loaed
+      * b) the abort buffer if the player aborts the message
+      */
+     ch->desc->backstr = NULL;
+     send_to_char("Write your note.  (/s saves /h for help)\r\n", ch);
+     /* ok, here we check for a message ALREADY on the paper */
+     if (paper->action_description) {
+	/* we str_dup the original text to the descriptors->backstr */
+	ch->desc->backstr = str_dup(paper->action_description);
+	/* send to the player what was on the paper (cause this is already */
+	/* loaded into the editor) */
+	send_to_char(paper->action_description, ch);
+     }
+    act("$n begins to jot down a note.", TRUE, ch, 0, 0, TO_ROOM);
+     /* assign the descriptor's->str the value of the pointer to the text */
+     /* pointer so that we can reallocate as needed (hopefully that made */
+     /* sense :>) */
+    ch->desc->str = &paper->action_description;
+    ch->desc->max_str = MAX_NOTE_LENGTH;
+  }
+}
+
+
+
+ACMD(do_page)
+{
+  struct descriptor_data *d;
+  struct char_data *vict;
+
+  half_chop(argument, arg, buf2);
+
+  if (IS_NPC(ch))
+    send_to_char("Monsters can't page.. go away.\r\n", ch);
+  else if (!*arg)
+    send_to_char("Whom do you wish to page?\r\n", ch);
+  else {
+    sprintf(buf, "&09* &11%s &16- &15pages you &09*&00\r\n", GET_NAME(ch));
+    if (!str_cmp(arg, "all")) {
+      if (GET_LEVEL(ch) > LVL_GOD) {
+	for (d = descriptor_list; d; d = d->next)
+	  if (STATE(d) == CON_PLAYING && d->character)
+	    act(buf, FALSE, ch, 0, d->character, TO_VICT);
+      } else
+	send_to_char("You will never be godly enough to do that!\r\n", ch);
+      return;
+    }
+    if ((vict = get_char_vis(ch, arg)) != NULL) {
+      act(buf, FALSE, ch, 0, vict, TO_VICT);
+      if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+	send_to_char(OK, ch);
+      else
+	act("&11You page $N&00&07.&00", FALSE, ch, 0, vict, TO_CHAR);
+      return;
+    } else
+      send_to_char("There is no such person in the game!\r\n", ch);
+  }
+}
+
+
+/**********************************************************************
+ * generalized communication func, originally by Fred C. Merkel (Torg) *
+  *********************************************************************/
+
+ACMD(do_gen_comm)
+{
+  struct descriptor_data *i;
+  char color_on[24];
+
+  /* Array of flags which must _not_ be set in order for comm to be heard */
+  int channels[] = {
+    PRF_DEAF,
+    PRF_DEAF,
+    PRF_NOGOSS,
+    PRF_NOooc,
+    PRF_NOooc,
+    PRF_TRAINING,
+    0
+  };
+
+  /*
+   * com_msgs: [0] Message if you can't perform the action because of noshout
+   *           [1] name of the action
+   *           [2] message if you're not on the channel
+   *           [3] a color string.
+   */
+  const char *com_msgs[][4] = {
+    {"You cannot holler!!\r\n",
+      "&16[&10Holler&16]&00",
+      "",
+    KYEL},
+
+    {"You cannot shout!!\r\n",
+      "&16[&11Shout&16]&00",
+      "Turn off your noshout flag first!\r\n",
+    KYEL},
+
+    {"You cannot use telepathy!!\r\n",
+      "&16(&14Roleplay&00&16)&00",
+      "You aren't even on the channel!\r\n",
+    KYEL},
+
+    {"You cannot ooc!!\r\n",
+      "&12(&16OOC&12)&00",
+      "You aren't even on the channel!\r\n",
+    KNRM},
+   
+    {"You cannot grats!!\r\n",
+      "&12(&10Congrats&12)&00",
+      "You aren't even on the channel!\r\n",
+    KNRM},
+
+    {"You cannot music while training!\r\n",
+      "&16[&11Music&16]&00",
+      "You cannot music while training!\r\n",
+    KGRN},
+
+  };
+
+  /* to keep pets, etc from being ordered to shout */
+  if (!ch->desc)
+    return;
+
+  if (PLR_FLAGGED(ch, PLR_NOSHOUT)) {
+    send_to_char(com_msgs[subcmd][0], ch);
+    return;
+  }
+  if (ROOM_FLAGGED(ch->in_room, ROOM_SOUNDPROOF)) {
+    send_to_char("The walls seem to absorb your words.\r\n", ch);
+    return;
+  }
+  /* level_can_shout defined in config.c */
+  if (GET_LEVEL(ch) < level_can_shout) {
+    sprintf(buf1, "You must be at least level %d before you can %s.\r\n",
+	    level_can_shout, com_msgs[subcmd][1]);
+    send_to_char(buf1, ch);
+    return;
+  }
+  /* make sure the char is on the channel */
+  if (PRF_FLAGGED(ch, channels[subcmd])) {
+    send_to_char(com_msgs[subcmd][2], ch);
+    return;
+  }
+  /* skip leading spaces */
+  skip_spaces(&argument);
+
+  /* make sure that there is something there to say! */
+  if (!*argument) {
+    sprintf(buf1, "Yes, %s, fine, %s we must, but WHAT???\r\n",
+	    com_msgs[subcmd][1], com_msgs[subcmd][1]);
+    send_to_char(buf1, ch);
+    return;
+  }
+  if (GET_MAX_HIT(ch) <= 999) {
+   send_to_char("&15You must be at least 1k &09PL&15 to use any public channels.&00\r\n", ch);
+   return;
+   }
+  if (subcmd == SCMD_HOLLER) {
+    if (GET_MOVE(ch) < holler_move_cost) {
+      send_to_char("You're too exhausted to holler.\r\n", ch);
+      return;
+    } else
+      GET_MOVE(ch) -= holler_move_cost;
+  }
+  /* set up the color on code */
+  strcpy(color_on, com_msgs[subcmd][3]);
+
+  /* first, set up strings to be given to the communicator */
+  if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+    send_to_char(OK, ch);
+  else {
+   if (AFF_FLAGGED(ch, AFF_STONED)) {
+    if (COLOR_LEV(ch) >= C_CMP)
+      sprintf(buf1, "%s&15You %s, &00'&15....%s....&00'%s", color_on, com_msgs[subcmd][1],
+	      argument, KNRM);
+    else
+      sprintf(buf1, "&15You %s, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+    act(buf1, FALSE, ch, 0, 0, TO_CHAR | TO_SLEEP);
+   }
+   else {
+    if (COLOR_LEV(ch) >= C_CMP)
+      sprintf(buf1, "%s&15You %s, &00'&15%s&00'%s", color_on, com_msgs[subcmd][1],
+              argument, KNRM);
+    else
+      sprintf(buf1, "&15You %s, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+    act(buf1, FALSE, ch, 0, 0, TO_CHAR | TO_SLEEP);
+   }
+  }
+  if (!IS_NPC(ch)) {
+    if (GET_ADD(ch) >= 5 && GET_LEVEL(ch) <= 999999) {
+    sprintf(buf2, "&16[&14FROZEN&16] &12%s &15has been frozen for spamming, what a dumbass&00.\r\n", GET_NAME(ch));
+    send_to_all(buf2);
+    SET_BIT(PLR_FLAGS(ch), PLR_FROZEN);
+    GET_FREEZE_LEV(ch) = 1000000;
+    GET_ADD(ch) = 0;
+    return;
+   }
+  }
+  if (!str_cmp(ch->player.name, "")) {
+     sprintf(buf, "&16X&00y&16l&00a&16m&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Hydro")) {
+     sprintf(buf, "&10H&16y&00&02d&16r&10o&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }   
+  else if (!str_cmp(ch->player.name, "Hydro") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&10H&16y&00&02d&16r&10o&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Koma") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&16K&15o&00&07m&16a&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Koma") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&16K&15o&00&07m&16a&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Nexus") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&09N&00&01e&00&06x&00&01u&09s&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Nexus") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&09N&00&01e&00&06x&00&01u&09s&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) { /*Solbet*/
+   sprintf(buf, "&14S&00&06o&16l&15b&00&07et&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+   else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) { /*Solbet*/
+   sprintf(buf, "&14S&00&06o&16l&15b&00&07et&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&13A&00&05m&16b&15ros&16s&00&05i&13a&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&13A&00&05m&16b&15ros&16s&00&05i&13a&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14H&00&06i&16t&15s&00&07u&14g&00&06a&15y&00&07a&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14H&00&06i&16t&15s&00&07u&14g&00&06a&15y&00&07a&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Primus") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&09P&00&01r&00&16i&07m&00&01u&09s&00&16 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Primus") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&09P&00&01r&00&16i&07m&00&01u&09s&00&16 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Raiden") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&12R&00&04a&00&03i&11d&00&04e&12n&00 %ss, &00'....&15%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Raiden") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&12R&00&04a&00&03i&11d&00&04e&12n&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&11M&00&07a&00&03r&15z&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&11M&00&07a&00&03r&15z&00 %ss, &00'....&15%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14S&00&06h&15i&00&07v&16e&14r&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14S&00&06h&15i&00&07v&16e&14r&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14A&15t&16m&00&06a&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14A&15t&16m&00&06a&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&10M&00&02o&00&06rt&00&02i&10s&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&10M&00&02o&00&06rt&00&02i&10s&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&00&01S&09h&16i&15n&00&01o&09v&16a&00 %ss, &00'....&15%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&00&01S&09h&16i&15n&00&01o&09v&16a&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14C&00&06r&16o&07n&00&06u&14s&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14C&00&06r&16o&07n&00&06u&14s&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&00&01M&00&07a&16u&09l&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&00&01M&00&07a&16u&09l&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&00&02B&16e&10b&00&02i&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&00&07A&13r&00&05o&16u&15n&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&00&07A&13r&00&05o&16u&15n&00 %ss, &00'....&15%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&00&02B&16e&10b&00&02i&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14G&00&06a&16b&15e&00&07r&16i&00&06a&14l %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&14G&00&06a&16b&15e&00&07r&16i&00&06a&14l %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&11S&00&03u&11n&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&11S&00&03u&11n&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Zala") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&13Z&00&05a&13l&00&05a&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "Zala") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&13Z&00&05a&13l&00&05a&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&12B&00&04r&15o&00&04l&12y&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&12B&00&04r&15o&00&04l&12y&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&16S&15i&00&07l&15v&16e&15r&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&16S&15i&00&07l&15v&16e&15r&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&16H&10z&00&02u&00&07i&10e&16l&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&16H&10z&00&02u&00&07i&10e&16l&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && !AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&09T&00&01h&00&03e&16l&15ga&11a&00&07r&00 %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!str_cmp(ch->player.name, "") && AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&09T&00&01h&00&03e&16l&15ga&11a&00&07r&00 %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }  
+  else if (AFF_FLAGGED(ch, AFF_STONED)) {
+  sprintf(buf, "&15$n %ss, &00'&15....%s....&00'", com_msgs[subcmd][1], argument);
+  }
+  else if (!AFF_FLAGGED(ch, AFF_STONED)) {
+   sprintf(buf, "&15$n %ss, &00'&15%s&00'", com_msgs[subcmd][1], argument);
+  }
+  /* now send all the strings out */
+  for (i = descriptor_list; i; i = i->next) {
+    if (STATE(i) == CON_PLAYING && i != ch->desc && i->character &&
+	!PRF_FLAGGED(i->character, channels[subcmd]) &&
+	!PLR_FLAGGED(i->character, PLR_WRITING) &&
+	!ROOM_FLAGGED(i->character->in_room, ROOM_SOUNDPROOF)) {
+
+      if (subcmd == SCMD_SHOUT &&
+	  ((world[ch->in_room].zone != world[i->character->in_room].zone) ||
+	   GET_POS(i->character) < POS_RESTING))
+	continue;
+
+      if (COLOR_LEV(i->character) >= C_NRM)
+	send_to_char(color_on, i->character);
+      act(buf, FALSE, ch, 0, i->character, TO_VICT | TO_SLEEP);
+      if (COLOR_LEV(i->character) >= C_NRM)
+	send_to_char(KNRM, i->character);
+    }
+  }
+ if (GET_LEVEL(ch) <= 999999) {
+  GET_ADD(ch) += 1;
+ }
+}
+
+
+ACMD(do_qcomm)
+{
+  struct descriptor_data *i;
+
+  if (!PRF_FLAGGED(ch, PRF_QUEST)) {
+    send_to_char("You aren't even part of the RP!\r\n", ch);
+    return;
+  }
+  skip_spaces(&argument);
+
+  if (!*argument) {
+    sprintf(buf, "%s?  Yes, fine, %s we must, but WHAT??\r\n", CMD_NAME,
+	    CMD_NAME);
+    CAP(buf);
+    send_to_char(buf, ch);
+  } else {
+    if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+      send_to_char(OK, ch);
+    else {
+      if (PLR_FLAGGED(ch, PLR_NOSHOUT) && subcmd == SCMD_QSAY) {
+        send_to_char("You are muted, this prevents you from speaking over any public channel.", ch);
+        return;
+        }
+      if (ROOM_FLAGGED(ch->in_room, ROOM_SOUNDPROOF) && subcmd == SCMD_QSAY) {
+       send_to_char("The walls seem to absorb your words.\r\n", ch);
+       return;
+       }
+      if (subcmd == SCMD_QSAY)
+	 sprintf(buf, "&15You RP-say, &00'&14%s&00'", argument);
+      else
+	strcpy(buf, argument);
+      act(buf, FALSE, ch, 0, argument, TO_CHAR);
+    }
+
+    if (PLR_FLAGGED(ch, PLR_NOSHOUT) && subcmd == SCMD_QSAY) {
+        send_to_char("You are muted, this prevents you from speaking over any public channel.", ch);
+        return;
+        }
+    if (subcmd == SCMD_QSAY)
+      sprintf(buf, "&10$n &15RP-says, &00'&14%s&00'", argument);
+    else
+      strcpy(buf, argument);
+
+    for (i = descriptor_list; i; i = i->next)
+      if (STATE(i) == CON_PLAYING && i != ch->desc &&
+	  PRF_FLAGGED(i->character, PRF_QUEST))
+	act(buf, 0, ch, 0, i->character, TO_VICT | TO_SLEEP);
+  }
+}
+
+/*
+ * I didn't write this command, i just modified it, all credits should
+ * go to original coder
+ */
+
+
+/*ACMD(do_contact)
+{
+  struct char_data *contact;
+  
+  if (GET_CONTACT(ch)) {
+    if ((contact = find_char(get_id_by_name(GET_CONTACT(ch)))) != NULL) {
+      if (STATE(contact->desc) == CON_PLAYING) {
+        sprintf(buf, "%s is trying to contact you.\r\n", GET_NAME(ch));
+        send_to_char(buf, contact);
+        sprintf(buf, "You attempt to contact %s.\r\n", GET_NAME(contact));
+        send_to_char(buf, ch);
+        return;
+      }
+    }
+  } 
+  
+  send_to_char("Your calls seem to go unanswered.\r\n", ch);
+}
+*/

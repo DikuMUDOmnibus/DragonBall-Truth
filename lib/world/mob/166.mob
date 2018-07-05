@@ -1,0 +1,94 @@
+#16600
+Prinny Butler~
+&15The &12P&00&06r&14in&00&06n&12y &16B&15u&16t&15l&16e&15r&00~
+&15The &12P&00&06r&14in&00&06n&12y &16B&15u&16t&15l&16e&15r&00 &15waddles around here.&00
+~
+   &15The &12P&00&06r&14in&00&06n&12y &16B&15u&16t&15l&16e&15r&00 &15is
+Taishyr's loyal servant, willing to blow himself up if the order is given.  
+(Taishyr's too kind to do it, tho.  )&00
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16601
+mob unfinished~
+the unfinished mob~
+BOOM
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16666
+Amphisbaena~
+Amphisbaena~
+The Amphisbaena is waddling around here.
+~
+It looks unfinished.
+~
+260122 0 0 E
+10000000 -480 0 1d1+1000000000 44d16+500000
+10 10
+8 8 1
+BareHandAttack: 4
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 199
+#16667
+Bhairava~
+Bhairava~
+Bhairava stands here, radiating a massive amount of energy.
+~
+DOOM.
+~
+258074 787626 0 E
+1000000 -480 10 1d1+1000000000 127d127+500000
+1 1
+9 9 1
+BareHandAttack: 2
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16667
+T 16669
+#16668
+Essence of Shiva~
+Essence of Shiva~
+The Essence of Shiva hovers here.
+~
+DOOM.
+~
+256042 128 0 E
+500000 -480 10 1d1+2000000 127d127+500000
+1 1
+8 8 1
+BareHandAttack: 10
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16668
+$

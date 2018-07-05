@@ -1,0 +1,15 @@
+This file will explain a few of Dragonball truth's functions.
+
+Basic Commands
+--------------
+
+help: help (filename) will bring up a help document on that file.
+score: will display your current statistics.
+status: will display such things as current trans, or hunger/thrist
+status.
+who: will display what VISIBLE players are on DBT. With differing
+name colors for differing strengths in relation to the user of who.
+Bold teal for players weaker then the user, dark teal for players
+stronger, and green for players equal to the user.
+where: displays all the players in your zone.
+

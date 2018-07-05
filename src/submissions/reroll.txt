@@ -1,0 +1,116 @@
+From: BuckFloyd@aol.com
+Subject: Reroll stats for new char
+
+I added the ability to reroll a characters stats when a new
+character first logs onto the mud... So.. here it is.. Keep
+in mind that I've added races, so your modifications might
+be a bit different.  My code is a 30bpl11 base.  As is, the
+code works just dandy for me.  It's rather basic, but
+functional.  No colors or that sort of rot.  Use at your own
+risk... :)
+-- Buck
+=========================================================
+
+In structs.h:
+
+  #define CON_DELCNF2
+   16      /* Delete confirmation 2 */
+  #define CON_QRACE        17      /* Race?                 */
++ #define CON_QROLLSTATS   18      /* Roll stats            */
+
+-------------------
+In interpreter.c
+At the top, in /* external functions */..
+
+  int isbanned(char *hostname);
+  int Valid_Name(char *newname);
++ void roll_real_abils(struct char_data *ch);
+
+Then skip down.. if you don't have races, modify CON_QCLASS
+instead..
+
+  case CON_QRACE:
+    if ((GET_RACE(d->character) = parse_race(*arg)) == CLASS_UNDEFINED)
+    {
+      SEND_TO_Q("\r\nThat's not a race.\r\nRace: ", d);
+      return;
+      break;
+    }
++   SEND_TO_Q("\r\nPress enter to roll your stats.", d);
++   STATE(d) = CON_QROLLSTATS;
++   break;
+
++ case CON_QROLLSTATS:
++   switch (*arg) {
++     case 'y':
++     case 'Y':
++       break;
++     case 'n':
++     case 'N':
++     default:
++       roll_real_abils(d->character);
++       sprintf(buf, "\r\nStr: [%d/%d] Int: [%d] Wis: [%d] Dex:"
++          " [%d] Con: [%d] Cha: [%d]",
++          GET_STR(d->character), GET_ADD(d->character),
++          GET_INT(d->character), GET_WIS(d->character),
++          GET_DEX(d->character), GET_CON(d->character),
++          GET_CHA(d->character));
++       SEND_TO_Q(buf, d);
++       SEND_TO_Q("\r\n\r\nKeep these stats? (y/N)", d);
++       return;
++   }
+
+/*    if (d->pos < 0)
+ *     d->pos = create_entry(GET_NAME(d->character));
+ */
+   if (GET_PFILEPOS(d->character) < 0)
+     GET_PFILEPOS(d->character) = create_entry(GET_NAME(d->character));
+   init_char(d->character);
+   save_char(d->character, NOWHERE);
+   SEND_TO_Q(motd, d);
+   SEND_TO_Q("\r\n\n*** PRESS RETURN: ", d);
+   STATE(d) = CON_RMOTD;
+
+--------------------
+In class.c:
+
+ void do_start(struct char_data * ch)
+ {
+   void advance_level(struct char_data * ch);
+
+   GET_LEVEL(ch) = 1;
+   GET_EXP(ch) = 1;
+
+   set_title(ch, NULL);
+
++/* Rem out roll_real - called from nanny() instead -Buck */
++/*
++  roll_real_abils(ch);
++*/
+
+--------------------
+In db.c:
+
+In void init_char(struct char_data * ch):
+
+   ch->char_specials.saved.affected_by = 0;
+
+   for (i = 0; i < 5; i++)
+     GET_SAVE(ch, i) = 0;
+
++/* Rem'ed out the following for reroll in nanny() - Buck */
++/*
++  ch->real_abils.intel = 25;
++  ch->real_abils.wis = 25;
++  ch->real_abils.dex = 25;
++  ch->real_abils.str = 25;
++  ch->real_abils.str_add = 100;
++  ch->real_abils.con = 25;
++  ch->real_abils.cha = 25;
++*/
+
+==========================================================
+And I think that's it.. All I can remember changing,
+anyways..Hope it works for you...
+
+

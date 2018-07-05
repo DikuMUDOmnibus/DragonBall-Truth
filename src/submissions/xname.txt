@@ -1,0 +1,53 @@
+From: David Endre <bodega@petstore.staffairs.andrews.edu>
+Subject: [Circle] CODE: Char_ban command
+
+I just wrote this code a couple of days a ago, so I could easily ban
+inappropriate names online. So here you go :)
+
+in act.wizard.c:
+add these towards the top
+
+extern FILE *player_fl;
+
+void Read_Invalid_List(void);
+
+then add this somewhere in the same file
+
+ACMD(do_xname)
+{
+   char tempname[MAX_INPUT_LENGTH];
+   int i = 0;
+   FILE *fp;
+   *buf = '\0';
+
+   one_argument(argument, buf);
+
+   if(!*buf)
+      send_to_char("Xname which name?\r\n", ch);
+   if(!(fp = fopen(XNAME_FILE, "a"))) {
+      perror("Problems opening xname file for do_xname");
+      return;
+   }
+   strcpy(tempname, buf);
+   for (i = 0; tempname[i]; i++)
+      tempname[i] = LOWER(tempname[i]);
+   fprintf(fp, "%s\n", tempname);
+   fclose(fp);
+   sprintf(buf1, "%s has been xnamed!", tempname);
+   send_to_char(buf1, ch);
+   Read_Invalid_List();
+}
+
+finally in interpreter.c add:
+
+
+ACMD(do_xname);
+and
+
+{ "xname"  , POS_DEAD  , do_xname, LVL_IMPL, 0 },
+
+This is basically how mine is set up...Note that code doesn't include
+very many checks and this is the main reason I only let Imps use this code.
+If you decide to add on please send me your additions :)
+Or if you have any problems or questions about this code mail me.
+

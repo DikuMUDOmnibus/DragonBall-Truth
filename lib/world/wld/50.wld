@@ -1,0 +1,2028 @@
+#5000
+&15T&16o &16t&15h&00&07e &14A&00&06irpor&14t&00~
+   &15A hard stone road leads away towards the Otherworld Airport, with soft
+yellow clouds floating by it's hard surface.  White posts arel ined up along
+the sides of the road, to make sure those heading to the airport do not fall
+off of this road.  &00
+~
+50 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5001
+D3
+~
+~
+0 0 4711
+S
+#5001
+&15T&16o &16t&15h&00&07e &14A&00&06irpor&14t&00~
+   &15A hard stone road leads away towards the Otherworld Airport, with soft
+yellow clouds floating by it's hard surface.  White posts arel ined up along
+the sides of the road, to make sure those heading to the airport do not fall
+off of this road.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5002
+D3
+~
+~
+0 0 5000
+S
+#5002
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d &14A&00&06irpor&14t&00~
+   &15This is the Otherworld Airport, you need a special ticket to be able to
+use it.  Hard concrete is set unbelievably on yellow clouds, creating a surreal
+look to an otherwise ordinary airport runway.  &00
+~
+50 148 0
+D2
+~
+~
+0 0 5001
+S
+#5003
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Drop off&00~
+   &15This is a large concreate slab where the Otherworl Airplane drops off
+it's passengers.  There isn't much to this area, with a small fountain to the
+southwest for visitors to enjoy before heading out and exploreing Otherworld.
+Soft white clouds float by in the sky over this area as well, lending the
+thought of tranquility to this odd place.  &00
+~
+50 148 0
+D1
+~
+~
+0 0 5004
+S
+#5004
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Path of Ages&00~
+   &15This is a large stone path leading towards the Otherworld Obelisk, the
+stones set on this path look older than time its self.  Multicolored grass
+grows up on either side of the path, reminding visitors that this small planet
+is like none other.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5006
+D1
+You see nothing special.
+~
+~
+0 -1 5005
+D3
+~
+~
+0 0 5003
+S
+#5005
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Visitor's center&00~
+   &15This is the vistor's center on Otherworld.  It is here for giving info to
+new arrivals on Otherworld, and was established by all four current ruling
+kais.  It is basicly a large tent, with seats, and an annoying blue ogre who
+won't shut up.  &00
+~
+50 148 0
+D3
+~
+~
+0 0 5004
+S
+#5006
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Path of Ages&00~
+   &15This is a large stone path leading towards the Otherworld Obelisk, the
+stones set on this path look older than time its self.  Multicolored grass
+grows up on either side of the path, reminding visitors that this small planet
+is like none other.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5007
+D2
+~
+~
+0 0 5004
+S
+#5007
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Path of Ages&00~
+   &15This is a large stone path leading towards the Otherworld Obelisk, the
+stones set on this path look older than time its self.  Multicolored grass
+grows up on either side of the path, reminding visitors that this small planet
+is like none other.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5008
+D2
+~
+~
+0 0 5006
+S
+#5008
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Obleisk Slab&00~
+   &15A massive stone slab fille this area, with a huge Obleisk jutting up from
+it's center.  People from all over the universe congregate here, training,
+talking, and doing basicly anything you can think of as they mingle.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5012
+D1
+~
+~
+0 0 5009
+D2
+You see nothing special.
+~
+~
+0 -1 5007
+D3
+You see nothing special.
+~
+~
+0 -1 5010
+S
+#5009
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Obleisk Slab&00~
+   &15A massive stone slab fille this area, with a huge Obleisk jutting up from
+it's center.  People from all over the universe congregate here, training,
+talking, and doing basicly anything you can think of as they mingle.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5011
+D3
+~
+~
+0 0 5008
+S
+#5010
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Obleisk Slab&00~
+   &15A massive stone slab fille this area, with a huge Obleisk jutting up from
+it's center.  People from all over the universe congregate here, training,
+talking, and doing basicly anything you can think of as they mingle.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5013
+D1
+~
+~
+0 0 5008
+S
+#5011
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Obleisk Slab&00~
+   &15A massive stone slab fille this area, with a huge Obleisk jutting up from
+it's center.  People from all over the universe congregate here, training,
+talking, and doing basicly anything you can think of as they mingle.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5014
+D1
+You see nothing special.
+~
+~
+0 -1 5089
+D2
+You see nothing special.
+~
+~
+0 -1 5009
+D3
+~
+~
+0 0 5012
+S
+#5012
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Obleisk&00~
+   &15The massive Obleisk is here, cutting into the sky.  A marvel of
+otherworld, this huge obelisk is a great thing to look upon.  Made of a type of
+rare hard stone, with Kai symbols etched upon its surface it really is a view
+to behold.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5015
+D1
+You see nothing special.
+~
+~
+0 -1 5011
+D2
+You see nothing special.
+~
+~
+0 -1 5008
+D3
+~
+~
+0 0 5013
+S
+#5013
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Obleisk Slab&00~
+   &15A massive stone slab fille this area, with a huge Obleisk jutting up from
+it's center.  People from all over the universe congregate here, training,
+talking, and doing basicly anything you can think of as they mingle.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5016
+D1
+~
+~
+0 0 5012
+D2
+You see nothing special.
+~
+~
+0 -1 5010
+D3
+You see nothing special.
+~
+~
+0 -1 5160
+S
+#5014
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Obleisk Slab&00~
+   &15A massive stone slab fille this area, with a huge Obleisk jutting up from
+it's center.  People from all over the universe congregate here, training,
+talking, and doing basicly anything you can think of as they mingle.  &00
+~
+50 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 5011
+D3
+~
+~
+0 0 5015
+S
+#5015
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Obleisk Slab&00~
+   &15A massive stone slab fille this area, with a huge Obleisk jutting up from
+it's center.  People from all over the universe congregate here, training,
+talking, and doing basicly anything you can think of as they mingle.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5017
+D1
+You see nothing special.
+~
+~
+0 -1 5014
+D2
+You see nothing special.
+~
+~
+0 -1 5012
+D3
+~
+~
+0 0 5016
+S
+#5016
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Obleisk Slab&00~
+   &15A massive stone slab fille this area, with a huge Obleisk jutting up from
+it's center.  People from all over the universe congregate here, training,
+talking, and doing basicly anything you can think of as they mingle.  &00
+~
+50 0 0
+D1
+~
+~
+0 0 5015
+D2
+You see nothing special.
+~
+~
+0 -1 5013
+S
+#5017
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Path to Grand Kai's Mansion&00~
+   &15This is a path of limestone rocks leading away from the Obleisk off
+towards the Grand Kai's Mansion.  More multicolored grass lined the sides of
+the path, adding their sparkling beauty to the path.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5018
+D2
+~
+~
+0 0 5015
+S
+#5018
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Path to Grand Kai's Mansion&00~
+   &15This is a path of limestone rocks leading away from the Obleisk off
+towards the Grand Kai's Mansion.  More multicolored grass lined the sides of
+the path, adding their sparkling beauty to the path.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5019
+D2
+~
+~
+0 0 5017
+S
+#5019
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Path to Grand Kai's Mansion&00~
+   &15This is a path of limestone rocks leading away from the Obleisk off
+towards the Grand Kai's Mansion.  More multicolored grass lined the sides of
+the path, adding their sparkling beauty to the path.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5022
+D1
+You see nothing special.
+~
+~
+0 -1 5020
+D2
+~
+~
+0 0 5018
+D3
+You see nothing special.
+~
+~
+0 -1 5021
+S
+#5020
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Training Grounds&00~
+   &15This is where the Kais take their quadrant's warriors to train for the
+Otherworld Tourney.  Weights, and various sorts of trianing equipment have been
+left all over the grounds, some are even being used by some of the warriors.  
+Needless to say, this place gets pretty noisy.  &00
+~
+50 0 0
+D3
+~
+~
+0 0 5019
+S
+#5021
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Training Grounds&00~
+   &15This is where the Kais take their quadrant's warriors to train for the
+Otherworld Tourney.  Weights, and various sorts of trianing equipment have been
+left all over the grounds, some are even being used by some of the warriors.  
+Needless to say, this place gets pretty noisy.  &00
+~
+50 0 0
+D1
+~
+~
+0 0 5019
+S
+#5022
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Entrance&00~
+   &15The Grand Kai's Mansion looms here.  Made from the highest quality
+materials that Kais can produce, this mansion is really nice.  With thousands
+of windows, it really is befitting it's owner.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5023
+D2
+~
+~
+0 0 5019
+S
+#5023
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Infinity Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5036
+D2
+~
+~
+0 0 5022
+D3
+You see nothing special.
+~
+~
+0 -1 5024
+S
+#5024
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Infinity Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D1
+~
+~
+0 0 5023
+D3
+You see nothing special.
+~
+~
+0 -1 5025
+S
+#5025
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Eternal Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5026
+D1
+~
+~
+0 0 5024
+S
+#5026
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Eternal Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5027
+D1
+You see nothing special.
+~
+~
+0 -1 5082
+D2
+~
+~
+0 0 5025
+S
+#5027
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Eternal Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5028
+D2
+~
+~
+0 0 5026
+S
+#5028
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Eternal Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5029
+D2
+~
+~
+0 0 5027
+S
+#5029
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Cosmos Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5030
+D3
+~
+~
+0 0 5028
+S
+#5030
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Cosmos Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+Door~
+2 5003 5037
+D1
+You see nothing special.
+~
+~
+0 -1 5031
+D3
+~
+~
+0 0 5029
+S
+#5031
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Cosmos Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5032
+D3
+~
+~
+0 0 5030
+S
+#5032
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Universal hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 5033
+D3
+~
+~
+0 0 5031
+S
+#5033
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Universal hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D0
+~
+~
+0 0 5032
+D2
+You see nothing special.
+~
+~
+0 -1 5034
+D3
+You see nothing special.
+~
+Door~
+2 5022 5088
+S
+#5034
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Universal hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D0
+~
+~
+0 0 5033
+D2
+You see nothing special.
+~
+~
+0 -1 5035
+S
+#5035
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Universal hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D0
+~
+~
+0 0 5034
+D3
+You see nothing special.
+~
+~
+0 -1 5036
+S
+#5036
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Infinity Hallway&00~
+   &15This hallway is made of some more of the fantastic Kai materials, giving
+off an aire of great quality.  With a high ceiling, and wide spacing this is a
+comfortable hallway.  &00
+~
+50 0 0
+D1
+~
+~
+0 0 5035
+D3
+You see nothing special.
+~
+~
+0 -1 5023
+S
+#5037
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15To the Otherworld Tourney&00~
+   &15This hallway opens up to what appears like a miniture universe.  
+Steroids, and tiny planets drift around in it, and a large stadium can be seen
+near the center.  The stadium is all lit up, but the light source can't be seen
+anywhere.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5038
+D2
+~
+Door~
+2 5003 5030
+S
+#5038
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Through Miniture Space&00~
+   &16This is an amazing sight, flying through space of a miniture universe.  
+Small comets, tiny planets in tiny orbits, and asteroids fly by.  This entire
+area is oozing with the surreal.  &00
+~
+50 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 5039
+D2
+~
+~
+0 0 5037
+S
+#5039
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Through Miniture Space&00~
+   &16This is an amazing sight, flying through space of a miniture universe.  
+Small comets, tiny planets in tiny orbits, and asteroids fly by.  This entire
+area is oozing with the surreal.  &00
+~
+50 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 5040
+D2
+~
+~
+0 0 5038
+S
+#5040
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Through Miniture Space&00~
+   &16This is an amazing sight, flying through space of a miniture universe.  
+Small comets, tiny planets in tiny orbits, and asteroids fly by.  This entire
+area is oozing with the surreal.  &00
+~
+50 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 5041
+D2
+~
+~
+0 0 5039
+S
+#5041
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Through Miniture Space&00~
+   &16This is an amazing sight, flying through space of a miniture universe.  
+Small comets, tiny planets in tiny orbits, and asteroids fly by.  This entire
+area is oozing with the surreal.  &00
+~
+50 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 5042
+D2
+~
+~
+0 0 5040
+S
+#5042
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Through Miniture Space&00~
+   &16This is an amazing sight, flying through space of a miniture universe.  
+Small comets, tiny planets in tiny orbits, and asteroids fly by.  This entire
+area is oozing with the surreal.  &00
+~
+50 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 5043
+D2
+~
+~
+0 0 5041
+S
+#5043
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Through Miniture Space&00~
+   &16This is an amazing sight, flying through space of a miniture universe.  
+Small comets, tiny planets in tiny orbits, and asteroids fly by.  This entire
+area is oozing with the surreal.  &00
+~
+50 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 5044
+D2
+~
+~
+0 0 5042
+S
+#5044
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Through Miniture Space&00~
+   &16This is an amazing sight, flying through space of a miniture universe.  
+Small comets, tiny planets in tiny orbits, and asteroids fly by.  This entire
+area is oozing with the surreal.  &00
+~
+50 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 5045
+D2
+~
+~
+0 0 5043
+S
+#5045
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Through Miniture Space&00~
+   &16This is an amazing sight, flying through space of a miniture universe.  
+Small comets, tiny planets in tiny orbits, and asteroids fly by.  This entire
+area is oozing with the surreal.  &00
+~
+50 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 5046
+D2
+~
+~
+0 0 5044
+S
+#5046
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Entrance&00~
+   &15On either side of this area are the giant stone blocks making up the gate
+of the Otherworld Stadium.  Oval shaped walls inclose the entire stadium, and
+built onto the inside of those walls, terraced downward, are seats for the
+spectators.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5047
+D2
+~
+~
+0 0 5045
+S
+#5047
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5051
+D1
+You see nothing special.
+~
+~
+0 -1 5048
+D2
+~
+~
+0 0 5046
+D3
+You see nothing special.
+~
+~
+0 -1 5049
+S
+#5048
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5050
+D3
+~
+~
+0 0 5047
+S
+#5049
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5052
+D1
+~
+~
+0 0 5047
+S
+#5050
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5054
+D2
+You see nothing special.
+~
+~
+0 -1 5048
+D3
+~
+~
+0 0 5051
+S
+#5051
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5055
+D1
+You see nothing special.
+~
+~
+0 -1 5050
+D2
+You see nothing special.
+~
+~
+0 -1 5047
+D3
+~
+~
+0 0 5052
+S
+#5052
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5056
+D1
+~
+~
+0 0 5051
+D2
+You see nothing special.
+~
+~
+0 -1 5049
+S
+#5053
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5058
+D3
+~
+~
+0 0 5054
+S
+#5054
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5059
+D1
+You see nothing special.
+~
+~
+0 -1 5053
+D2
+You see nothing special.
+~
+~
+0 -1 5050
+D3
+~
+~
+0 0 5055
+S
+#5055
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5060
+D1
+You see nothing special.
+~
+~
+0 -1 5054
+D2
+You see nothing special.
+~
+~
+0 -1 5051
+D3
+~
+~
+0 0 5056
+S
+#5056
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5061
+D1
+You see nothing special.
+~
+~
+0 -1 5055
+D2
+You see nothing special.
+~
+~
+0 -1 5052
+D3
+~
+~
+0 0 5057
+S
+#5057
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5062
+D1
+~
+~
+0 0 5056
+S
+#5058
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5063
+D2
+You see nothing special.
+~
+~
+0 -1 5053
+D3
+~
+~
+0 0 5059
+S
+#5059
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5064
+D1
+You see nothing special.
+~
+~
+0 -1 5058
+D2
+You see nothing special.
+~
+~
+0 -1 5054
+D3
+~
+~
+0 0 5060
+S
+#5060
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5065
+D1
+You see nothing special.
+~
+~
+0 -1 5059
+D2
+You see nothing special.
+~
+~
+0 -1 5055
+D3
+~
+~
+0 0 5061
+S
+#5061
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5066
+D1
+You see nothing special.
+~
+~
+0 -1 5060
+D2
+You see nothing special.
+~
+~
+0 -1 5056
+D3
+~
+~
+0 0 5062
+S
+#5062
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5067
+D1
+~
+~
+0 0 5061
+D2
+You see nothing special.
+~
+~
+0 -1 5057
+S
+#5063
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5068
+D2
+You see nothing special.
+~
+~
+0 -1 5058
+D3
+~
+~
+0 0 5064
+S
+#5064
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5069
+D1
+You see nothing special.
+~
+~
+0 -1 5063
+D2
+You see nothing special.
+~
+~
+0 -1 5059
+D3
+~
+~
+0 0 5065
+S
+#5065
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Platform Center&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5070
+D1
+You see nothing special.
+~
+~
+0 -1 5064
+D2
+You see nothing special.
+~
+~
+0 -1 5060
+D3
+~
+~
+0 0 5066
+S
+#5066
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5071
+D1
+You see nothing special.
+~
+~
+0 -1 5065
+D2
+You see nothing special.
+~
+~
+0 -1 5061
+D3
+~
+~
+0 0 5067
+S
+#5067
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5072
+D1
+~
+~
+0 0 5066
+D2
+You see nothing special.
+~
+~
+0 -1 5062
+S
+#5068
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5073
+D2
+You see nothing special.
+~
+~
+0 -1 5063
+D3
+~
+~
+0 0 5069
+S
+#5069
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5074
+D1
+You see nothing special.
+~
+~
+0 -1 5068
+D2
+You see nothing special.
+~
+~
+0 -1 5064
+D3
+~
+~
+0 0 5070
+S
+#5070
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5075
+D1
+You see nothing special.
+~
+~
+0 -1 5069
+D2
+You see nothing special.
+~
+~
+0 -1 5065
+D3
+~
+~
+0 0 5071
+S
+#5071
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5076
+D1
+You see nothing special.
+~
+~
+0 -1 5070
+D2
+You see nothing special.
+~
+~
+0 -1 5066
+D3
+~
+~
+0 0 5072
+S
+#5072
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5077
+D1
+~
+~
+0 0 5071
+D2
+You see nothing special.
+~
+~
+0 -1 5067
+S
+#5073
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 5068
+D3
+~
+~
+0 0 5074
+S
+#5074
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5078
+D1
+You see nothing special.
+~
+~
+0 -1 5073
+D2
+You see nothing special.
+~
+~
+0 -1 5069
+D3
+~
+~
+0 0 5075
+S
+#5075
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5079
+D1
+You see nothing special.
+~
+~
+0 -1 5074
+D2
+You see nothing special.
+~
+~
+0 -1 5070
+D3
+~
+~
+0 0 5076
+S
+#5076
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Platform&00~
+   &15This is the fighting platform for the Otherworld Stadium.  All the
+fighting is done here, on the platforms concrete surface.  Concrete tiles have
+been placed over a raised concrete base for the tournaments that are held here.
+If a concrete tile is smashed it can be easily replaced for another match, and
+they do get replaced often.  &00
+~
+50 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5080
+D1
+You see nothing special.
+~
+~
+0 -1 5075
+D2
+You see nothing special.
+~
+~
+0 -1 5071
+D3
+~
+~
+0 0 5077
+S
+#5077
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D1
+~
+~
+0 0 5076
+D2
+You see nothing special.
+~
+~
+0 -1 5072
+S
+#5078
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D2
+~
+~
+0 0 5074
+D3
+You see nothing special.
+~
+~
+0 -1 5079
+S
+#5079
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5081
+D1
+You see nothing special.
+~
+~
+0 -1 5078
+D2
+~
+~
+0 0 5075
+D3
+You see nothing special.
+~
+~
+0 -1 5080
+S
+#5080
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Stadium Grass&00~
+   &10Thick grass is filling up the area here, giving a pleasant feeling to the
+otherwise cold stadium.  On either side of the main stadium platform this grass
+grows.  &00
+~
+50 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5079
+D2
+~
+~
+0 0 5076
+S
+#5081
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16 &10T&00&02o&00&06u&16r&15n&00&07a&16m&00&06e&00&02n&10t&16: &15Grand Kai's Chair&00~
+   &15This is where the Grand Kai sits.  A large chair has been built into the
+ground here, and looks to be very comfortable too.  Large cushions have been
+placed on the chair, providing even more comfort for the Grand Kai as he sits
+on it.  &00
+~
+50 4 0
+D2
+~
+~
+0 0 5079
+S
+#5082
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Stairway First Floor&00~
+   &15This is a set of red carpeted stairs, leading to the upper part of the
+mansion.  It doesn't look well used, not like the peculiar first floor, and it
+has been kept completely spotless by the mansion janitor.    
+~
+50 0 0
+D3
+~
+~
+0 0 5026
+D4
+You see nothing special.
+~
+~
+0 -1 5083
+S
+#5083
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Stairway Second Floor&00~
+   &15This is a set of red carpeted stairs, leading to the upper part of the
+mansion.  It doesn't look well used, not like the peculiar first floor, and it
+has been kept completely spotless by the mansion janitor.    
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5084
+D5
+~
+~
+0 0 5082
+S
+#5084
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Astral Hallway&00~
+   &15This hallway is made of the same fine materials as the rest of the house.
+It's one difference is in the fact that its ceiling appears to be a stary night
+sky.  Tiny stars twinkle down from above, adding a strange light to the shadowy
+hallway.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5085
+D2
+~
+~
+0 0 5083
+S
+#5085
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Astral Hallway&00~
+   &15This hallway is made of the same fine materials as the rest of the house.
+It's one difference is in the fact that its ceiling appears to be a stary night
+sky.  Tiny stars twinkle down from above, adding a strange light to the shadowy
+hallway.  &00
+~
+50 144 0
+D1
+You see nothing special.
+~
+~
+0 -1 5086
+D2
+~
+~
+0 0 5084
+D3
+You see nothing special.
+~
+~
+0 -1 5087
+S
+#5086
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Janitors Room&00~
+   &15This is the tidy room of the mansion's janitor.  A small cot sits in one
+corner, with a cart of cleaning supplies in another.  In the middle of the room
+a black leather recliner and a small tv have been set up, and look to both be
+well used.  &00
+~
+50 148 0
+D3
+~
+~
+0 0 5085
+S
+#5087
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Guest Lounge&00~
+   &15This is the lounge for any guests to the Grand Kai's mansion.  Large
+overstuffed couches line the walls, the room is a nice cool temperature, and a
+fountain takes up the middle of the room.  &00
+~
+50 270598292 0
+D1
+~
+~
+0 0 5085
+S
+#5088
+&11G&00&03r&16a&15n&00&07d &11K&00&03a&16i&15'&00&07s &00&04M&12a&00&06n&14s&00&07i&15o&16n&00&07: &15Supreme Star Store&00~
+   &15This is the Grand Kai's personal shop, selling the best equipment on
+Otherworld.  A large rotating rack has been built into the west side of the
+wall, with the shopkeeper's counter right across from it.  &00
+~
+50 148 0
+D1
+You see nothing special.
+~
+Door~
+2 5022 5033
+S
+#5089
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Purple Path&00~
+   &00&05A purple dirt path leads away here.  Golden clouds float overhead, and
+strange surreal creatures fly through and around them.  Other creatures can be
+seen running across the path occasionaly as well.  &00
+~
+50 4 2
+D1
+~
+~
+0 0 5090
+D3
+You see nothing special.
+~
+~
+0 -1 5011
+S
+#5090
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Purple Path&00~
+   &00&05A purple dirt path leads away here.  Golden clouds float overhead, and
+strange surreal creatures fly through and around them.  Other creatures can be
+seen running across the path occasionaly as well.  &00
+~
+50 0 2
+D1
+You see nothing special.
+~
+~
+0 -1 5091
+D3
+~
+~
+0 0 5089
+S
+#5091
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Purple Path&00~
+   &00&05A purple dirt path leads away here.  Golden clouds float overhead, and
+strange surreal creatures fly through and around them.  Other creatures can be
+seen running across the path occasionaly as well.  &00
+~
+50 0 2
+D1
+You see nothing special.
+~
+~
+0 -1 5092
+D3
+~
+~
+0 0 5090
+S
+#5092
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Purple Path&00~
+   &00&05A purple dirt path leads away here.  Golden clouds float overhead, and
+strange surreal creatures fly through and around them.  Other creatures can be
+seen running across the path occasionaly as well.  &00
+~
+50 0 2
+D0
+You see nothing special.
+~
+~
+0 -1 16200
+D1
+You see nothing special.
+~
+~
+0 -1 5093
+D3
+~
+~
+0 0 5091
+S
+#5093
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Purple Path&00~
+   &00&05A purple dirt path leads away here.  Golden clouds float overhead, and
+strange surreal creatures fly through and around them.  Other creatures can be
+seen running across the path occasionaly as well.  &00
+~
+50 0 2
+D1
+You see nothing special.
+~
+~
+0 -1 5094
+D3
+~
+~
+0 0 5092
+S
+#5094
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Purple Path&00~
+   &00&05A purple dirt path leads away here.  Golden clouds float overhead, and
+strange surreal creatures fly through and around them.  Other creatures can be
+seen running across the path occasionaly as well.  &00
+~
+50 0 2
+D0
+You see nothing special.
+~
+~
+0 -1 5095
+D3
+~
+~
+0 0 5093
+S
+#5095
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Purple Path&00~
+   &00&05A purple dirt path leads away here.  Golden clouds float overhead, and
+strange surreal creatures fly through and around them.  Other creatures can be
+seen running across the path occasionaly as well.  &00
+~
+50 0 2
+D1
+You see nothing special.
+~
+~
+0 -1 5096
+D2
+~
+~
+0 0 5094
+S
+#5096
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d&16: &15Purple Path&00~
+   &00&05A purple dirt path leads away here.  Golden clouds float overhead, and
+strange surreal creatures fly through and around them.  Other creatures can be
+seen running across the path occasionaly as well.  &00
+~
+50 0 2
+D1
+You see nothing special.
+~
+~
+0 -1 5097
+D3
+~
+~
+0 0 5095
+S
+#5097
+&00&04S&12a&00&06p&14ph&00&06i&12r&00&04e &16M&15i&00&07n&15e&16: &15Entrance&00~
+   &00&06A strange mine tunnel lays before this area.  Large wooden planks have
+been structured into braces inbetween rock tunnel walls.  The inside of the
+tunnel entrance appears to be rather dark, with only a few lamps to light the
+way.  &00
+~
+50 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 5098
+D3
+~
+~
+0 0 5096
+S
+#5098
+&00&04S&12a&00&06p&14ph&00&06i&12r&00&04e &16M&15i&00&07n&15e&16: &15Near Surface&00~
+   &00&06This part of the mine is pretty near the surface, daylight manages to
+filter in adding its self to the lamp light of the mine.  Sounds of dripping
+water can be heard echoing throughout the cave, giving it a surreal feeling
+that knaws at the nerves.  &00
+~
+50 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5099
+D2
+You see nothing special.
+~
+~
+0 -1 5125
+D3
+~
+~
+0 0 5097
+S
+#5099
+&00&04S&12a&00&06p&14ph&00&06i&12r&00&04e &16M&15i&00&07n&15e&16: &15Near Surface&00~
+   &00&06This part of the mine is pretty near the surface, daylight manages to
+filter in adding its self to the lamp light of the mine.  Sounds of dripping
+water can be heard echoing throughout the cave, giving it a surreal feeling
+that knaws at the nerves.  &00
+~
+50 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 5098
+D5
+You see nothing special.
+~
+~
+0 -1 5100
+S
+$~

@@ -1,0 +1,132 @@
+******************************************************************************
+* Deo MUD ZAP Command                                                        *
+******************************************************************************
+
+Howdy there,
+
+Wrote this little wonder a while back in an awful fit of boredom. It
+started out as just a reworking of the 'restore' command but as I started
+thinking about it more and more and then Star Trek ended.. I realized that
+it could be so much more! So this is it, I guess.. the ZAP command!
+(Muahaha!) It's perfect for the masochist in us all. I got the idea from
+the MUD I used to play on before I started doing drugs, got in trouble,
+stopped doing drugs, went to rehab, got bored and started my own MUD..
+except that zap command was for pussies and guys that like quiche. I
+wanted mine to have some umph. Using a percentage system is nice because
+there is no percentage of 0, meaning you can't kill the player if you
+accidentally(uhh, oops..) over-zap them(ex. some player gossips something
+about your mother and then infers some sexual act with livestock and
+another immortal of a lower level happens to zap them at the same time as
+you, as you were invisible or some shit. Whatever.)
+
+Anyhow, here it is. I assume you know how to set up a new wiz command..
+
+/* DeoMUD Zap command.. wicked! */
+ACMD(do_zap)
+{
+
+  /* Zapping mobiles was fun at first.. */
+
+  struct char_data *vict;
+  int WASHIT,	WASMANA,	WASMOVE;
+  int ISHIT,	ISMANA,		ISMOVE;
+  int NHIT,	NMANA,		NMOVE;
+  float ZAPMULT; /* Yeah, I know this produces a warning.. *
+                  * If that bugs ya, fix it..              */
+
+
+
+/* This is just a reminder for me *
+ * because I'm pretty fogetful    *
+ *				  *
+ * LVL_IMPL	66  Primo Deo 	  *
+ * LVL_DEO	65  Lesser Deo 	  *
+ * LVL_GRGOD	64  Greater God   *
+ * LVL_GOD	63  God 	  *
+ * LVL_LEGOD	62  Lesser God	  *
+ * LVL_IMMORT	61  Immortal 	  */
+
+  one_argument(argument, buf);
+  if (!*buf)
+    send_to_char("Who you zappin'?\r\n", ch);
+
+  else if (!(vict = get_char_vis(ch, buf, FIND_CHAR_WORLD)))
+    send_to_char(NOPERSON, ch);
+
+  else if (IS_NPC(ch))   /* Zapping mobiles was fun at first.. */
+    send_to_char("Oh no you don't! No zapping mobiles!\r\n", ch);
+
+  else if ((vict) == (ch))
+    send_to_char("Now that's just plain foolishness!\r\n", ch);
+
+  /* I tried to make this part as adaptable(word?) as possible, *
+   * which is why it's so screwy.. that and the guy that taught *
+   * me C was a crankhead.. *twitch*  				*/
+
+  else {
+	if(GET_LEVEL(ch) == LVL_IMPL)
+	  ZAPMULT = .2;						
+	if(GET_LEVEL(ch) == LVL_DEO)
+	  ZAPMULT = .3;
+	if(GET_LEVEL(ch) == LVL_GRGOD)
+	  ZAPMULT = .4;
+	if(GET_LEVEL(ch) == LVL_GOD)
+	  ZAPMULT = .5;
+	if(GET_LEVEL(ch) == LVL_LEGOD)
+	  ZAPMULT = .6;
+	if(GET_LEVEL(ch) == LVL_IMMORT)
+	  ZAPMULT = .7;
+        if(GET_LEVEL(vict) > GET_LEVEL(ch)){
+	  send_to_char("Whoopsidoodle..\r\n", ch);
+
+          /* Originally, I wrote it so anybody could just go ahead and zap
+           * anyone else but it was kind of easy to abuse.. so if you try
+           * to zap a higher-up, it's reflected back at you.. sort of the
+           * rubber and glue thing...
+           */
+	  send_to_char("You laugh as you reflect the lightning bolt coming toward you.\r\n", vict);
+	  vict = ch;}
+
+
+   /* This most assuredly isn't the best way to set all this up but for
+    * the sake of simplicity and further adaptation, it runs like this..
+    */
+    WASHIT = GET_HIT(vict);    /* Get the current stats of the victim, put */
+    WASMANA = GET_MANA(vict);  /* them into holding.. */
+    WASMOVE = GET_MOVE(vict);
+
+    GET_HIT(vict) = (GET_HIT(vict) * ZAPMULT); /* Put their stats against the zap multiplier.. */
+    GET_MANA(vict) = (GET_MANA(vict) * ZAPMULT);
+    GET_MOVE(vict) = (GET_MOVE(vict) * ZAPMULT);
+
+    ISHIT = GET_HIT(vict); /* Get the victim's new stats, hold 'em.. */
+    ISMANA = GET_MANA(vict);
+    ISMOVE = GET_MOVE(vict);
+
+    NHIT = (WASHIT - ISHIT);  /* Subtract their new stats from the old. */
+    NMANA = (WASMANA - ISMANA);
+    NMOVE = (WASMOVE - ISMOVE);
+
+    /* Then display and syslog it */
+    sprintf(buf, "(GC) %s zapped %s for %dH, %dM, %dV (stats * %d)",
+    GET_NAME(ch), GET_NAME(vict), NHIT, NMANA, NMOVE, ZAPMULT);
+    mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
+
+    update_pos(vict); /* Change this to whatever you want */
+    send_to_outdoor("The sky begins to darken, and clouds loom ominously overhead.\r\n");
+    send_to_outdoor("Suddenly the clouds part and a bolt of lightning jumps from\r\n");
+    send_to_outdoor("the opening left in the sky, striking HARD!\r\n");
+    send_to_char(OK, ch); /* Same here.. yeah */
+    act("\\c01Ahh shit! You got zapped! Better get yourself in line!\\c00", FALSE, vict, 0, ch, TO_CHAR);
+  }
+}
+
+
+
+Yeah, have fun with it.. hack it to pieces, whatever. If you change it for
+the better, let me know. E-mail pklep@match.org
+
+Regards,
+  Genesis
+
+  (Parker Klepinger)

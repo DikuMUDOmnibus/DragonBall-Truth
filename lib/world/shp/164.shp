@@ -1,0 +1,69 @@
+CircleMUD v3.0 Shop File~
+#16485~
+16459
+16462
+16453
+16454
+16460
+16455
+16456
+16455
+16466
+16451
+16465
+16457
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+16485
+0
+16485
+-1
+0
+28
+0
+0
+#16490~
+16490
+16491
+16492
+16493
+16494
+16495
+16496
+16497
+16498
+16499
+16489
+-1
+1.00
+1.00
+-1
+%s Are you blind or is just me, because I dont see that item pal. ~
+%s You don't seem to have that.~
+%s Do I look like I want that?~
+%s I'm broke stupid ass!~
+%s Get out of here before I call Bardock ya broke ass!~
+%s That'll be %d coins, now scram!~
+%s I'll give you %d coins for that.~
+0
+0
+16490
+32
+16490
+-1
+0
+28
+0
+0
+$~

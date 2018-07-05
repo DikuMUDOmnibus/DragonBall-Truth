@@ -1,0 +1,102 @@
+----------------------
+Bridges v1.0 Release A
+----------------------
+
+Release Date: 6th of January, 1999
+
+Introduction
+------------
+
+This patch isnt a great deal for the more experienced coder, as they
+could probably throw in something in under five minutes.  However, for
+those that don't quite know how to do something like this, here it is.
+
+This patch installs a foundationary bridge system into your mud.  Triggered
+by player weights.  It damages the character if they are overweight, but
+still lets them continue.  In the future, I plan to make the room unaccessible
+after it's been crumbled (or, an overweight player has walked on it).
+
+It could be improved *a lot*.  I'm open to suggestions, however.  This code
+forms the very basis of my class/race system, in which areas are restricted
+to certain classes by bridges.  It also opens the way for a new skill, "sense"
+in which knights/rangers etc will be able to tell what aspects a room has, etc.
+
+This patch is designed for users of OasisOLC.  Those not using Oasis could
+easily adapt this to their system, however.
+
+
+Installing
+----------
+
+This patch WILL cause you to add another integer to your world files.  Either
+use a converter, or add a "0" to the save routine in redit.  The routine you
+want is:
+      fprintf(fp, "#%d\n%s~\n%s~\n%d %d %d %d\n", counter,
+	      room->name ? room->name : "undefined", buf1,
+	      zone_table[room->zone].number,
+              room->room_flags, room->sector_type, room->bridge);
+In the first line, (i.e. fprintf(fp, "#%d\n%s~\n%s~\n%d %d %d %d\n", counter,)
+take out the last %d in the series of four and replace that with a 0.  So, it'd
+look like: fprintf(fp, "#%d\n%s~\n%s~\n%d %d %d 0\n", counter,
+
+Note, the process of doing this "trick" requires two or so shutdowns.  Once the
+patch is installed, comment out the lines added in db.c
+i.e.:
++  if (!get_line(fl, line) || sscanf(line, " %d %s %d %d ", t, flags, t + 2, t + 3) != 4) {
+and
++  world[room_nr].bridge = t[3];
+
+This will at least allow your mud to boot with your original configuration.
+Once in, and assume you added that 0 to redit, go through each and every zone
+and resave them.  i.e. redit save 0, redit save 1, etc.  I know this is tedious,
+but it works.  Shut the mud down.  Add back in those lines within db.c, compile
+and reboot.  It should all be ok.
+
+
+How do I patch?
+---------------
+
+Throw the file "bridges.patch" into your src/ directory.  Then type,
+"patch < bridges.patch" (without the ""'s).  Take care of any rejects.
+
+
+Disclaimer
+----------
+
+This patch can indeed nuke your .wld files.  I take NO responsibility for
+what happens to your world files.  I urge you to hand patch this in, as
+it allows for you to see what actually is going in.  If you run into
+trouble, you can contact me at caniffe@cyberdude.com.  I can *promise*
+I'll be able to solve the problem, but I can give it a try.
+
+
+Credit
+------
+
+You don't have to build a statue of me on your mud if you use this =)  A line
+in your credits file would be neat, but again not required. What I wouldn't
+mind is, if you drop me a line at caniffe@cyberdude.com to say that you're
+using it, it'd be great.  Any improvements/modifications to this code is up
+to you, although I wouldn't mind hearing about them.
+
+
+Bugs
+----
+
+No known bugs.  The damagerolls() function needs rewriting such that you don't
+always receive 18 and 100 for a successful dice roll, so if someone could rewrite
+that I'd be grateful =)
+
+
+Enclosures
+----------
+
+1. bridges.patch (13.9kb)
+2. bridges.readme (3.7kb)
+
+
+Regards,
+Caniffe <caniffe@cyberdude.com>
+
+"Freedom is not everything --- it's just governments' way of limiting
+our inactiveness".

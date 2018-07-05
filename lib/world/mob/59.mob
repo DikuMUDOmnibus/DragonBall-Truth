@@ -1,0 +1,244 @@
+#5900
+Goku~
+&00&11G&11&00&03o&03&00&16k&15u&15&00~
+&00&11G&11&00&03o&03&00&16k&15u&15&00 is standing here waiting for a fight.
+~
+Goku, son of Bardock and one of the last remaining pure blooded sayians.
+~
+131082 0 0 E
+100000 -60 0 1d1+50000000 1d1+200000
+2500 35000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 109
+T 5901
+#5901
+Vegeta~
+&00&12V&12&00&04e&14&00&16g&15e&15&00&04t&04&00&12a&12&00~
+&00&12V&12&00&04e&04&00&16g&15e&15&00&04t&04&00&12a&12&00 is standing here with an evil grin on his face.
+~
+Vegeta, prince of the sayians and destined to become a super sayian.
+~
+10 0 0 E
+100000 -60 0 1d1+45000000 1d1+200000
+1500 30000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5900
+T 5906
+#5902
+Elemental Guardian~
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &00&09G&09&00&01u&01&00&16a&15r&15&00&07d&07&00&16i&16&00&01a&01&00&09n&09&00~
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &00&09G&09&00&01u&01&00&16a&15r&15&00&07d&07&00&16i&16&00&01a&01&00&09n&09&00 is standing here guardian the entrance to the elemental chambers.
+~
+   He is covered it black and crimson armor that glows the the firey sun.    
+~
+10 0 0 E
+100000 -80 0 1d75000000+70000000 1d1+250000
+5000 70000000
+8 8 1
+BareHandAttack: 6
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5903
+Elemental Warrior~
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &00&10W&10&00&02a&02&00&16r&15r&16i&16&00&02o&02&00&10r&10&00 ~
+&00&06E&06&00&14l&15e&16m&16&00&07e&07&00&16n&15t&14a&14&00&06l&06&00 &00&10W&10&00&02a&02&00&16r&15r&16i&16&00&02o&02&00&10r&10&00 stands here waiting for the true warrior to reach his chamber.
+~
+   He is covered in shimmering emerald armor and surrounded in a white aura.  
+
+~
+10 0 0 E
+150000 -80 0 1d100000000+100000000 1d1+250000
+50000 100000000
+8 8 1
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5904
+Oasis Spirit~
+&00&06O&06&00&14a&15s&14i&14&00&06s&06 S&96&00&14p&15i&15&00&07r&07&00&14i&14&00&06t&06&00~
+&00&06O&06&00&14a&15s&14i&14&00&06s&06 S&96&00&14p&15i&15&00&07r&07&00&14i&14&00&06t&06&00 floats above the water here.
+~
+   She is dressed in long robes that glow soft blue light.    
+~
+10 0 0 E
+100000 -80 0 1d85000000+85000000 1d1+250000
+5000 85000000
+9 9 2
+BareHandAttack: 2
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5905
+Cave Dweller~
+&03C&03&00&16a&15v&15&00&03e&03&00 &16Dweller&16&00~
+&03C&03&00&16a&15v&15&00&03e&03&00 &16Dweller&16&00 sits here.
+~
+A dirty looking man dressed in old rags.
+~
+10 0 0 E
+1000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5906
+Desert Vulture~
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &16V&15u&15&00&07ltu&07&00&15r&16e&16&00~
+&11D&11&00&03e&03&00&15s&15&00&07e&07&00&03r&03&00&11t&11&00 &16V&15u&15&00&07ltu&07&00&15r&16e&16&00 scavenges the ground.
+~
+A dirty bird that feeds on the meat of dead animals.
+~
+8 0 0 E
+5000 -60 0 1d7500000+7500000 1d1+70000
+1000 7000000
+8 8 1
+BareHandAttack: 8
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5907
+Cave Rat~
+&03C&03&00&16a&15v&15&00&03e&03&00 &16R&15a&16t&16&00~
+&03C&03&00&16a&15v&15&00&03e&03&00 &16R&15a&16t&16&00 scurries across the ground.
+~
+A ugly looking creature.
+~
+8 0 0 E
+5000 -60 0 1d750000+15000000 1d1+125000
+1100 11000000
+8 8 1
+BareHandAttack: 4
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5908
+Ruby Scaled Lizard~
+&00&01R&01&00&05u&05&00&09b&09&00&01y&01&00 &10S&10&00&02c&02&00&07a&07&00&15l&15&00&02e&02&00&10d&10 L&10&00&02i&02&00&07z&07&00&16a&16&00&02r&02&00&10d&10&00~
+&00&01R&01&00&05u&05&00&09b&09&00&01y&01&00 &10S&10&00&02c&02&00&07a&07&00&15l&15&00&02e&02&00&10d&10 L&10&00&02i&02&00&07z&07&00&16a&16&00&02r&02&00&10d&10&00 is resting here.
+~
+A lizard whos scales are red like a ruby.
+~
+8 0 0 E
+7500 -60 0 1d8000000+8000000 1d1+70000
+900 7500000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5909
+Silver Coyote~
+&00&15S&15&00&07i&07&00&15l&15&00&07v&07&00&15e&15&00&07r&07&00 &03C&03&00&16o&16&00&07y&07&00&15o&15&00&16t&16&00&03e&03&00~
+&00&15S&15&00&07i&07&00&15l&15&00&07v&07&00&15e&15&00&07r&07&00 &03C&03&00&16o&16&00&07y&07&00&15o&15&00&16t&16&00&03e&03&00 roams around here.
+~
+A coyote whos coat is pure silver.
+~
+8 0 0 E
+10000 -60 0 1d10000000+10000000 1d1+70000
+1200 10000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5910
+Elemental Fighter~
+&00&06E&14l&15e&16m&00&07e&16n&15t&14a&00&06l &09F&00&01i&16g&15h&00&07ter&00~
+&15An &00&06E&14l&15e&16m&00&07e&16n&15t&14a&00&06l &09F&00&01i&16g&15h&00&07ter &15is here.&00
+~
+   &15This fighter seems to glow with all kinds of the elements.  &00
+~
+10 0 0 E
+800000 -60 0 0d0+19000000 0d0+200000
+1300 17000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5911
+Elemental Smith~
+&00&06E&14l&15e&16m&00&07e&16n&15t&14a&00&06l &16Smith&00~
+&15The &00&06E&14l&15e&16m&00&07e&16n&15t&14a&00&06l &16Smith &15is banging on some metal here.&00
+~
+   &15This mysterious being seems to be made of all the elements, and is wise
+in forging things.  &00
+~
+10 0 0 E
+1000 -60 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5902
+T 5903
+#5912
+Elemental Smith~
+&00&06E&14l&15e&16m&00&07e&16n&15t&14a&00&06l &16Smith&00~
+&15The &00&06E&14l&15e&16m&00&07e&16n&15t&14a&00&06l &16Smith &15is waiting on the money here.&00
+~
+&15It looks rather impatient.&00
+~
+10 0 0 E
+1000 -60 0 1d1+0 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5904
+T 5905
+#5976
+Konatsu in a Black Tuxedo~
+&00&07K&15on&16a&15ts&00&07u &15in a &16B&15l&00&07a&15c&16k &16T&00&07u&15xe&00&07d&16o&00~
+&15A &00&07K&15on&16a&15ts&00&07u &15in a &16B&15l&00&07a&15c&16k &16T&00&07u&15xe&00&07d&16o&00 &15is standing here, offering his services.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+E
+$

@@ -1,0 +1,269 @@
+#16200
+Astral Fist Dojo Guardian~
+&11A&00&03s&16t&15r&11a&00&03l &15F&10i&00&02s&16t &15D&00&07o&15j&16o &15Guardian&00~
+&15The &11A&00&03s&16t&15r&11a&00&03l &15F&10i&00&02s&16t &15D&00&07o&15j&16o &15Guardian is standing here.&00
+~
+&15This fighter was chosen to defend the dojo from those not registered for membership. Once the current master passes on the position, this guardian will become the new master of the dojo.&00
+~
+10 0 0 E
+999999 -100 0 0d0+500000000 0d0+500000
+125000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16201
+Astral Fist Fighter~
+&11A&00&03s&16t&15r&11a&00&03l &15F&10i&00&02s&16t &14Fighter&00~
+&15An &11A&00&03s&16t&15r&11a&00&03l &15F&10i&00&02s&16t &14Fighter &15is standing here.&00
+~
+   &15This is one of the members of this dojo, training in one of the most
+advanced fighting arts of the universe.  &00
+~
+8 0 0 E
+200000 -70 0 0d0+25000000 0d0+125000
+1500 25000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16202
+Astral Fist Master~
+&11A&00&03s&16t&15r&11a&00&03l &15F&10i&00&02s&16t &00&07Master&00~
+&15The &11A&00&03s&16t&15r&11a&00&03l &15F&10i&00&02s&16t &00&07Master &15stands here, stroking his beard.&00
+~
+   &15This old master has over seen the dojo since it was given to him hundreds
+of years ago by Grand Kai.  &00
+~
+10 0 0 E
+999999 -180 0 0d0+1000000000 0d0+500000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16205
+T 16206
+T 16207
+#16203
+First Statue~
+&14First &16S&15t&00&07a&16t&15u&00&07e&00~
+&15The &14First &16S&15t&00&07a&16t&15u&00&07e &15is hovering here.&00
+~
+   &15This statue oversees one of the matches of ascension.  &00
+~
+229402 0 0 E
+1000000 -180 0 0d0+1000000000 0d0+500000
+1 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16208
+#16204
+Second Statue~
+&14Second &16S&15t&00&07a&16t&15u&00&07e&00~
+&15The &14Second &16S&15t&00&07a&16t&15u&00&07e &15hovers here.&00
+~
+   &15This statue oversees one of the steps of ascension&00
+~
+229402 0 0 E
+500000 -180 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16211
+#16205
+Third Statue~
+&14Third &16S&15t&00&07a&16t&15u&00&07e&00~
+&15The &14Third &16S&15t&00&07a&16t&15u&00&07e &15is hovering here.&00
+~
+   &15This statue oversees one of the steps of ascension.  &00
+~
+229402 0 0 E
+999999 -180 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16214
+#16206
+Final Statue~
+&14Final &16S&15t&00&07a&16t&15u&00&07e&00~
+&15The &14Final &16S&15t&00&07a&16t&15u&00&07e &15is hovering here.&00
+~
+   &15This is the last statue of the dojo, what it summons will be very
+painful.  &00
+~
+229402 0 0 E
+999999 -180 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16217
+#16207
+Astral Ghost~
+&11A&00&03s&16t&00&07r&11a&00&03l &00&07G&15h&16o&15s&00&07t&00~
+&15An &11A&00&03s&16t&00&07r&11a&00&03l &00&07G&15h&16o&15s&00&07t &15is floating here wickedly.&00
+~
+   &15This thing is dangerous!  &00
+~
+42 0 0 E
+1000000 -100 0 0d0+300000000 0d0+500000
+20000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16209
+T 16220
+T 16221
+#16208
+Astral Spectre~
+&11A&00&03s&16t&00&07r&11a&00&03l &00&07S&14p&00&06e&16c&00&06t&14r&00&07e&00~
+&15The &11A&00&03s&16t&00&07r&11a&00&03l &00&07S&14p&00&06e&16c&00&06t&14r&00&07e &15is floating here.&00
+~
+   &15It looks like it wants to feast on your soul.    
+~
+42 0 0 E
+1200000 -100 0 0d0+350000000 0d0+500000
+20000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16212
+T 16220
+T 16222
+#16209
+Astral Phantom~
+&11A&00&03s&16t&00&07r&11a&00&03l &00&07P&14h&00&06a&16n&00&06t&14o&00&07m&00~
+&15The &11A&00&03s&16t&00&07r&11a&00&03l &00&07P&14h&00&06a&16n&00&06t&14o&00&07m &15is floating here.&00
+~
+   &15If it isn't kicking your ass by now, just wait, it will.  &00
+~
+42 0 0 E
+1300000 -180 0 0d0+400000000 0d0+500000
+25000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16215
+T 16220
+T 16223
+#16210
+Astral Arbiter~
+&11A&00&03s&16t&00&07r&11a&00&03l &00&07A&14r&00&06b&16i&00&06t&14e&00&07r&00~
+&15The &11A&00&03s&16t&00&07r&11a&00&03l &00&07A&14r&00&06b&16i&00&06t&14e&00&07r &15is standing here, with a grin on its face.&00
+~
+   &15This guy is the best the dojo has ever had, he was so good he had the
+privledge of being turned into an ethereal being that is enslaved to the dojo.
+Don't you want to be just like him?  &00
+~
+42 1152 0 E
+1500000 -180 0 0d0+500000000 0d0+500000
+30000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16218
+T 16220
+T 16224
+#16211
+First Statue~
+&14First &16S&15t&00&07a&16t&15u&00&07e&00~
+&15The &14First &16S&15t&00&07a&16t&15u&00&07e &15is hovering here.&00
+~
+&15Hmmm&00
+~
+8 0 0 E
+1000000 -100 0 1d1+1000000000 1d1+500000
+20000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16210
+#16212
+Second Statue~
+&14Second &16S&15t&00&07a&16t&15u&00&07e&00~
+&15The &14Second &16S&15t&00&07a&16t&15u&00&07e &15is hovering here.&00
+~
+   &15Hmmm.  &00
+~
+8 0 0 E
+1000000 -100 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16213
+#16213
+Third Statue~
+&14Third &16S&15t&00&07a&16t&15u&00&07e&00~
+&15The &14Third &16S&15t&00&07a&16t&15u&00&07e &15is hovering here.&00
+~
+   &15Hmmm.  &00
+~
+8 0 0 E
+1000000 -100 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16216
+#16214
+Final Statue~
+&14Final &16S&15t&00&07a&16t&15u&00&07e&00~
+&15The &14Final &16S&15t&00&07a&16t&15u&00&07e &15is hovering here.&00
+~
+   &15Hmmm.  &00
+~
+8 0 0 E
+1000000 -100 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16219
+$

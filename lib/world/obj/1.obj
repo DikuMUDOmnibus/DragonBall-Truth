@@ -1,0 +1,662 @@
+#100
+sugar cookie~
+&00Sugar &03Cookie&00~
+&03 A &00Sugar &03Cookie is lying here.&00~
+Nothing.
+~
+19 0 1
+2 0 0 0
+0 10 0
+#101
+Dog suit gir plushy~
+&00&02D&16o&00&02g&00 &16Suit&00 &10G&00&02i&00&16r&00 &02Pl&00&10us&00&02hy&00~
+A plushy in the form of a cartoon character is lying here.~
+   This plushy is in the shape of the infamous Invader Zim character, Gir,
+while he's wearing his dog disguise.    
+~
+11 0 16385
+0 0 0 0
+1 30000 0
+T 101
+T 102
+E
+undefined~
+Nothing.
+~
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#102
+Solbet Dark Saiyan Plushy~
+&12S&00&04o&03l&11b&12e&00&04t &16"T&15h&00&07e &00&04D&12a&15r&16k &11S&00&03a&11i&00&03y&11a&00&03n&16" Plushy&00~
+A plushy of the Dark Saiyan Solbet is lying here, glowing with a black aura.~
+~
+11 3 16385
+0 0 0 0
+0 950000 0
+T 103
+T 104
+A
+4 3
+A
+5 1
+A
+1 1
+#103
+Jet Black Rose~
+&16Jet Black &09R&00&01o&00&02s&00&01e&00~
+&00A delicate &16Jet Black &09R&00&01o&00&02s&00&01e&00 is lying here, its soft petals almost glowing in the night.~
+~
+1 268435456 16385
+0 0 0 0
+0 0 0
+#104
+Taishyr's "Gentle Grammar Nazi" Plushy~
+&00&06T&12a&00&14i&00&02s&00&06h&00&12y&10r&00&15'&00&02s &15"&16G&15e&11n&00&03t&02l&04e &00&16G&00&01ra&09mm&00&01ar &00&16N&00&06a&00&12z&00&04i&15" Plushy&00~
+&00&06T&12a&00&14i&00&02s&00&06h&00&12y&10r&00&15'&00&02s &15"&16G&15e&11n&00&03t&02l&04e &00&16G&00&01ra&09mm&00&01ar &00&16N&00&06a&00&12z&00&04i&15" Plushy&00 &15rests here.~
+   This plushy's face alternates between malefic and benevolent depending on
+the light it rests in...  Creepy.    
+~
+11 0 16385
+0 0 0 0
+1 500000 0
+T 110
+T 120
+T 113
+T 115
+A
+5 1
+A
+4 2
+#105
+iovan t3h power plushy~
+&00&16I&00&15o&00v&15a&00&16n "&00&06F&00&14ee&00&06l&00 &16t&003&16h&00 &00&03P&00&11o&00w&11e&00&03r!&16" Plushy&00~
+A plushy in the form of Iovan is lying here.~
+~
+11 134217728 16385
+0 0 0 0
+0 1000000 0
+T 105
+T 106
+A
+5 1
+A
+3 3
+A
+4 1
+A
+2 1
+A
+6 1
+#106
+Kuvoc "Fiery Apocalypse" Plushy~
+&09K&00&01u&16v&00&01o&09c "T&00&01h&09e F&00&01ier&09y &00&01A&09p&16o&15c&09a&00&01ly&09p&16s&00&01e&09" &16Plushy&00~
+&16The charred form of Kuvoc lay here, its eyes glowing a fiery red.&00~
+~
+11 134217728 16385
+0 0 0 0
+0 1000000 0
+T 108
+T 107
+A
+5 3
+A
+3 1
+A
+4 1
+A
+6 1
+A
+2 1
+#107
+Platinum Necklace~
+&00P&15l&00a&15t&00i&15nu&00m&00 &16N&15e&00c&16kl&00a&15c&16e&00~
+A shiny metal necklace is lying here, reflecting the suns rays.~
+~
+11 0 5
+0 0 0 0
+1 300000 0
+A
+6 1
+A
+18 10
+A
+19 10
+#108
+Platinum Bracelet~
+&00P&15l&00a&15t&00i&15nu&00m&00 &16B&15r&00a&16c&00el&15e&16t&00~
+&15A shiny metal bracelet is lying here, reflecting light off it as if it were a diamond.&00~
+~
+11 0 4097
+0 0 0 0
+1 300000 0
+A
+6 1
+A
+2 1
+A
+18 10
+A
+19 10
+#109
+Ruby Studded Platinum Earring~
+&09R&00&01ub&09y&00 &16S&00&03t&16u&15d&16d&00&03e&16d &00P&15l&00a&15t&00i&15nu&00m&00 &16E&15a&00r&16r&00i&15n&16g&00~
+&15A shiny earring is lying here in the ground, with a ruby in its center.&00~
+~
+11 0 131073
+0 0 0 0
+1 300000 0
+A
+6 1
+A
+2 1
+A
+18 10
+A
+19 10
+#110
+Ruby Studded Platinum Earring~
+&09R&00&01ub&09y&00 &16S&00&03t&16u&15d&16d&00&03e&16d &00P&15l&00a&15t&00i&15nu&00m&00 &16E&15a&00r&16r&00i&15n&16g&00~
+&15A shiny earring is lying here in the ground, with a ruby in its center.&00~
+~
+11 0 262145
+0 0 0 0
+1 300000 0
+A
+6 1
+A
+2 1
+A
+18 10
+A
+19 10
+#111
+Platinum Plated Scouter~
+&00P&15l&00a&15t&00i&15nu&00m&00 &03P&16l&15at&16e&00&03d&00 &16S&15c&00o&16u&15t&00e&16r&00~
+&15A shiny scouter is lying here, reflecting the light off it like it was a diamond.&00~
+~
+3 0 513
+1 10000 10000 201
+1 300000 0
+A
+3 1
+A
+4 1
+A
+18 10
+A
+19 10
+#112
+Double Bubble Bong~
+&15D&16o&00ub&16l&15e&00 &14B&00u&14b&00&15b&00l&14e&00 &00&06B&14on&00&06g&00~
+&10A double bubble bong is lying here, with smoke still rising out of it.&00~
+~
+12 0 16385
+0 0 0 0
+1 500000 0
+A
+3 1
+A
+4 1
+A
+18 10
+A
+19 10
+#113
+Gold Inlay Glass Hookah~
+&11G&00&03ol&11d&00 &16I&15n&00l&15a&16y&00 G&14l&15a&00s&14s&00 &02H&10o&15ok&10a&00&02h&00~
+&11A glass hookah is lying here, with a gold leaf tribal design inbedded in it.&00~
+~
+12 0 16385
+0 0 0 0
+1 500000 0
+A
+3 1
+A
+4 1
+A
+18 10
+A
+19 10
+#114
+Toohey's New Beer~
+&12T&07o&00&06o&16h&00&06e&07y&16'&12s &00&06N&14e&00&06w &00&03B&00&02e&00&03e&00&02r&00~
+&00A can of &12T&07o&00&06o&16h&00&06e&07y&16'&12s &00&06N&14e&00&06w &00&03B&00&02e&00&03e&00&02r&00 sits here.~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#115
+Krillin's fishing rod~
+&09K&00&01r&16i&15l&16l&00&01i&09n&15s &00&04F&12i&00&04s&12h&00&04i&12n&00&04g&00 Rod&00~
+&09K&00&01r&16i&15l&16l&00&01i&09n&15s &00&04F&12i&00&04s&12h&00&04i&12n&00&04g&00 Rod&00 lays here.~
+~
+11 64 16385
+0 0 0 0
+1 200000 0
+#116
+regeneration tank~
+a regeneration tank~
+A large tank filled with water stands here.~
+~
+15 0 1
+2147483647 1 -1 0
+100000000 0 0
+#117
+Grubby's "The Enlightned One" Plushy~
+&00&13G&00&15r&00&16u&00&05b&00&14b&00&16y&00's &15"&00&04T&00&16h&00&04e&00 &00&14E&00&06nl&00i&00&15g&00&16h&00&06t&00&14n&00&13e&00&05d&00 &13O&00&15n&00&05e&00&15" &00Plushy~
+&00&13G&00&15r&00&16u&00&05b&00&14b&00&16y&00's &15"&00&04T&00&16h&00&04e&00 &00&14E&00&06nl&00i&00&15g&00&16h&00&06t&00&14n&00&13e&00&05d&00 &13O&00&15n&00&05e&00&15" &00Plushy floats here holding a blunt with a look of zen and enlightenment on his face.~
+~
+11 0 16385
+0 0 0 0
+1 0 0
+T 117
+T 118
+A
+5 2
+A
+3 2
+A
+4 2
+A
+25 2
+#118
+Leandra's Passion Fruit Jello Cup~
+&00&06L&16e&15a&00&07n&15d&16r&00&06a&15's &00&01P&00&03a&16s&15s&16i&00&03o&00&01n &00&02F&00&03r&15u&00&03i&00&02t &13J&00&05e&13l&00&05l&13o &00&03C&15u&00&03p&00~
+&00&00&06L&16e&15a&00&07n&15d&16r&00&06a&15's &00&01P&00&03a&16s&15s&16i&00&03o&00&01n &00&02F&00&03r&15u&00&03i&00&02t &13J&00&05e&13l&00&05l&13o &00&03C&15u&00&03p&00 is lying here.~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#119
+Rainbow Gemstone~
+&13R&11a&10i&09n&12b&14o&11w &00&06G&14e&00&06m&16s&00&03t&07o&00&03n&16e&00~
+&00A &13R&11a&10i&09n&12b&14o&11w &00&06G&14e&00&06m&16s&00&03t&07o&00&03n&16e&00 is lying here at the bottom of the lake.~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#120
+wristband~
+&11Golden Konatsu &16Wristband&00~
+You see the wristband of a great swordmaster lying here.~
+~
+9 3 4097
+5 0 0 0
+0 1000 0
+#121
+Kisato Missing Requiem Plushy~
+&00&03K&11i&15sa&14t&00&06o&16 "&00&03M&11i&15s&00s&15i&14n&00&06g R&14e&15q&00u&15i&11e&00&03m&16" Plushy&00~
+&15A &00&03K&11i&15sa&14t&00&06o&16 "&00&03M&11i&15s&00s&15i&14n&00&06g R&14e&15q&00u&15i&11e&00&03m&16" Plushy&15 is lying here.&00~
+~
+11 0 16385
+0 0 0 0
+1 500000 0
+T 121
+A
+2 1
+A
+4 2
+#122
+Dean "Split Persona" Plushy~
+&16D&00&01e&09a&16n '&11S&00&06p&07l&00&06i&11t &14P&07e&00&06r&16s&00&06o&07n&14a&16' &00&01P&09lu&16s&15h&07y&00~
+&00A &16D&00&01e&09a&16n '&11S&00&06p&07l&00&06i&11t &14P&07e&00&06r&16s&00&06o&07n&14a&16' &00&01P&09lu&16s&15h&07y&00 lays here waiting to be held.~
+~
+12 0 16385
+0 0 0 0
+0 0 0
+T 5770
+#123
+Chrome Plated Jello Pistola~
+&14C&00&06h&15r&00&07o&15m&16e &16P&15l&00a&15t&14e&00&06d &00&05J&13e&14l&00&06l&00&05o &13P&14i&00&06s&00&05t&13o&14l&00&05a&00~
+&00A &14C&00&06h&15r&00&07o&15m&16e &16P&15l&00a&15t&14e&00&06d &00&05J&13e&14l&00&06l&00&05o &13P&14i&00&06s&00&05t&13o&14l&00&05a&00 lays here.&00~
+~
+5 268435456 4202497
+0 0 0 0
+0 0 0
+#124
+Silver Ring~
+&15Si&00&07lv&15er &16Ri&15ng&00~
+&00A &15Si&00&07lv&15er &16Ri&15ng&00 lays here.&00~
+~
+11 268435456 3
+0 0 0 0
+0 0 0
+#125
+Silver Laced Texas Tie~
+&15Si&00&07lv&15er &16La&15ce&00&07d &15Te&16xa&15s T&16ie&00~
+&00A &15Si&00&07lv&15er &16La&15ce&00&07d &15Te&16xa&15s T&16ie&00 lays here.&00~
+~
+11 268435456 5
+0 0 0 0
+0 0 0
+#126
+Black Leather Vest~
+&16Black Leather &15Vest&00~
+&00A &16Black Leather &15Vest&00 lays here.~
+~
+11 268435456 1025
+0 0 0 0
+0 0 0
+#127
+Black Hat with Silver Hat Band~
+&16Black Hat &15with &15Si&00&07lv&15er &16Ha&15t B&00&07an&15d&00~
+&00A &16Black Hat &15with &15Si&00&07lv&15er &16Ha&15t B&00&07an&15d&00 lays here.~
+~
+11 268435456 17
+0 0 0 0
+0 0 0
+#128
+Black Leather Chaps~
+&16Black Leather Chaps&00~
+&00A &16Black Leather Chaps&00 lays here.&00~
+~
+11 268435456 33
+0 0 0 0
+0 0 0
+#129
+Black Knee High Boots with Spurs~
+&16Black Knee High Boots &15with Sp&00&07ur&15s&00~
+&00&16Black Knee High Boots &15with Sp&00&07ur&15s&00 lay here.&00~
+~
+11 268435456 65
+0 0 0 0
+0 0 0
+#130
+Hands: Black Leather Gloves~
+&16Black Leather Gloves&00~
+&00&16Black Leather Gloves&00 lay here.~
+~
+11 268435456 129
+0 0 0 0
+0 0 0
+#131
+Silky Black Long Sleeve Shirt~
+&15Si&00&07lk&15y &16Black Long Sleeve Shirt&00~
+&00A &15Si&00&07lk&15y &16Black Long Sleeve Shirt&00 lays here.&00~
+~
+11 268435456 257
+0 0 0 0
+0 0 0
+#132
+Black Denim Duster~
+&16B&15l&16a&15c&16k &15D&16e&15n&16i&15m &16D&15u&16s&15t&16e&15r&00~
+&00A &16B&15l&16a&15c&16k &15D&16e&15n&16i&15m &16D&15u&16s&15t&16e&15r&00 lays here.&00~
+~
+9 268435456 9
+0 0 0 0
+0 0 0
+#133
+Black Leather Gun Holster~
+&16Black Leather Gun Holster&00~
+&00A &16Black Leather Gun Holster&00 lays here.&00~
+~
+11 268435456 2049
+0 0 0 0
+0 0 0
+#134
+Silver Slave Bracelet~
+&15Si&00&07lv&15er &16Sl&15av&00&07e B&15ra&16ce&15le&00&07t&00~
+&00A &15Si&00&07lv&15er &16Sl&15av&00&07e B&15ra&16ce&15le&00&07t&00 lays here.&00~
+~
+11 268435456 4097
+0 0 0 0
+0 0 0
+#135
+Lasso~
+&00&03L&15a&00&03s&15s&00&03o&00~
+&00A &00&03L&15a&00&03s&15s&00&03o&00 lays here.&00~
+~
+11 268435456 16385
+0 0 0 0
+0 0 0
+#136
+Black Diamond Left Earring~
+&16Black &15Di&00&07am&15on&16d Left Earring&00~
+&00A &16Black &15Di&00&07am&15on&16d Left Earring&00 lays here.&00~
+~
+11 268435456 131073
+0 0 0 0
+0 0 0
+#137
+Black Diamond Right Earring~
+&16Black &15Di&00&07am&15on&16d Right Earring&00~
+&00A &16Black &15Di&00&07am&15on&16d Right Earring&00 lays here.&00~
+~
+11 268435456 262145
+0 0 0 0
+0 0 0
+#138
+Silver Sheriff Star~
+&15Si&00&07lv&15er &16Sh&15er&00&07if&15f &16St&15ar&00~
+&00A &15Si&00&07lv&15er &16Sh&15er&00&07if&15f &16St&15ar&00 lays here.&00~
+~
+11 268435456 1048577
+0 0 0 0
+0 0 0
+#140
+Mask Ssessun~
+&16M&00&06a&14s&16k&00 &06O&03f&00 &11T&00&03h&00&01e &01S&09s&03e&00&09s&00&01s&00&11u&01n&00~
+The &16M&00&06a&14s&16k&00 &06O&03f&00 &11T&00&03h&00&01e &01S&09s&03e&00&09s&00&01s&00&11u&01n&00 &03 rests on the ground at your feet.~
+~
+11 134217728 17
+0 0 0 0
+1 10000000 0
+E
+mask~
+The &16M&00&06a&14s&16k&00 &06O&03f&00 &11T&00&03h&00&01e &01S&09s&03e&00&09s&00&01s&00&11u&01n&00 &03 gently flickers as small amounts of Ki arc back and forth through the eye slits of the mask.
+~
+A
+3 5
+A
+2 10
+A
+4 5
+A
+5 5
+A
+6 10
+A
+25 5
+#150
+Head of Ashkandi~
+&09H&00&01e&00&05a&09d &15of &15A&16s&00&01h&00&05k&00&01a&16n&00&01d&09i&00~
+&15The &09H&00&01e&00&05a&09d &15of &15A&16s&00&01h&00&05k&00&01a&16n&00&01d&09i&00 &15lies on the ground here.&00~
+~
+11 0 17
+0 0 0 0
+0 1 0
+A
+2 1
+A
+3 1
+A
+4 9
+A
+25 5
+#151
+Xyron "Ah vvill RuSH j00!" Plushy~
+&10X&00&02y&00&06r&00&02o&10n &00&07"&11Ah &14v&00&06v&12i&00&04l&00&05l &09R&11u&00&01S&09H &10j00&16!&00&07" &16Plushy&00~
+An unfinished object is lying here.~
+~
+11 0 16385
+0 0 0 0
+1 500000 0
+T 150
+T 151
+A
+3 1
+A
+4 1
+A
+5 2
+#152
+Tokujin's "Read Your Mind" Plushy~
+&00&05T&16o&15k&00&07u&15j&16i&00&05n&00&07'&16s &15"&14R&15e&14a&15d &00&07Y&14o&00&06u&00&07r &13M&16&15i&00&05n&16d&15" &16Plushy~
+An unfinished object is lying here.~
+~
+11 0 16385
+0 0 0 0
+0 500000 0
+A
+3 1
+A
+2 1
+A
+18 15
+A
+19 15
+A
+12 127
+A
+13 127
+#153
+Solbet Deity of War Plushy~
+&12S&00&04o&00&03l&11b&12e&00&04t &16"&09D&00&01e&16i&15t&00y &16of &09W&00&01a&16r" Plushy&00~
+&12S&00&04o&00&03l&11b&12e&00&04t &16"&09D&00&01e&16i&15t&00y &16of &09W&00&01a&16r" Plushy&15 is laying here on the ground, looking fairly pissed.&00~
+~
+11 134217728 16385
+0 0 0 0
+1 4000000 0
+T 111
+T 112
+A
+5 3
+A
+3 3
+A
+4 3
+A
+25 1
+#154
+Mhurzin 'The Outcast' Plushy~
+&16M&00&01h&00&05u&00&01r&16z&00&05i&00&01n&00 &16"&09T&00&01h&09e O&00&01u&16t&00&01c&09as&00&01t&16" Plushy&00~
+&00&01 Here lies &16M&00&01h&00&05u&00&01r&16z&00&05i&00&01n&00 &16"&09T&00&01h&09e O&00&01u&16t&00&01c&09as&00&01t&16" Plushy&00&00&01, lying on the ground, his eyes burning &09red&00&01.&00~
+~
+11 0 16385
+0 0 0 0
+1 500000 0
+A
+2 1
+A
+3 2
+#155
+Ocelot Gun Slinger Plushy~
+&00&06O&06&00&14c&15e&16l&14o&14&00&06t&06&00 &15'&16G&15u&15&00&07n&07&00 &00&01S&01&00&16l&15i&09n&15g&16e&16&00&01r&01&00&15' &16Plushy&00~
+&15A &00&06O&06&00&14c&15e&16l&14o&14&00&06t&06&00 &15'&16G&15u&15&00&07n&07&00 &00&01S&01&00&16l&15i&09n&15g&16e&16&00&01r&01&00&15' &16Plushy&15 is lying here.&00~
+~
+11 0 16385
+0 0 0 0
+1 500000 0
+A
+3 1
+A
+2 1
+#159
+Pyroclastic Prisma Plushy~
+&09P&00&01y&16r&15o&09c&00&01l&09a&15s&16t&00&01i&09c &00&06P&00&02r&15i&00&07s&00&02m&00&06a &16Plushy&00~
+&00&02An explosive plushy of Prisma lies here.&00~
+~
+11 0 16385
+0 0 0 0
+0 950000 0
+A
+3 2
+A
+4 2
+A
+5 2
+#180
+One Star Dragonball~
+&161 &09S&00&01t&00&03a&11r D&00&03r&00&01a&09g&11o&00&03n&00&01b&09a&11l&00&03l&00~
+&15An orange orb is lying here.&00~
+~
+25 0 1
+0 0 0 0
+1 0 0
+#181
+Two Star Dragonball~
+&162 &09S&00&01t&00&03a&11r D&00&03r&00&01a&09g&11o&00&03n&00&01b&09a&11l&00&03l&00~
+&15An orange orb is lying here.&00~
+~
+26 0 1
+0 0 0 0
+1 0 0
+#182
+Three Star Dragonball~
+&163 &09S&00&01t&00&03a&11r D&00&03r&00&01a&09g&11o&00&03n&00&01b&09a&11l&00&03l&00~
+&15An orange orb is lying here.&00~
+~
+27 0 1
+0 0 0 0
+1 0 0
+#183
+Four Star Dragonball~
+&164 &09S&00&01t&00&03a&11r D&00&03r&00&01a&09g&11o&00&03n&00&01b&09a&11l&00&03l&00~
+&15An orange orb is lying here.&00~
+~
+28 0 1
+0 0 0 0
+1 0 0
+#184
+Five Star Dragonball~
+&165 &09S&00&01t&00&03a&11r D&00&03r&00&01a&09g&11o&00&03n&00&01b&09a&11l&00&03l&00~
+&15An orange orb is lying here.&00~
+~
+29 0 1
+0 0 0 0
+1 0 0
+#185
+Six Star Dragonball~
+&166 &09S&00&01t&00&03a&11r D&00&03r&00&01a&09g&11o&00&03n&00&01b&09a&11l&00&03l&00~
+&15An orange orb is lying here.&00~
+~
+30 0 1
+0 0 0 0
+1 0 0
+#186
+Seven Star Dragonball~
+&167 &09S&00&01t&00&03a&11r D&00&03r&00&01a&09g&11o&00&03n&00&01b&09a&11l&00&03l&00~
+&15An orange orb is lying here.&00~
+~
+31 0 1
+0 0 0 0
+1 0 0
+#187
+Cracked Dragonball~
+&09C&00&01r&00&03a&11ck&00&03e&00&01d &09D&11r&00&03a&00&01g&09o&11n&00&03b&00&01a&09l&11l&00~
+&15A &09C&00&01r&00&03a&11ck&00&03e&00&01d &09D&11r&00&03a&00&01g&09o&11n&00&03b&00&01a&09l&11l &15has been dropped here.&00~
+~
+8 0 16385
+0 0 0 0
+1 10000 0
+A
+2 30
+#197
+cooler steel~
+a Stainless steel Cooler~
+A stainless steel cooler lies in the corner~
+~
+23 0 1
+2147483647 2000000000 0 0
+2000000005 0 0
+#199
+Piccolo's Weighted Turban~
+&10P&00&02i&06c&16c&00&06o&02l&10o&15's &00W&15e&16i&00g&15h&16t&00e&15d &00T&15u&00&05r&16b&15a&00n~
+&10P&00&02i&06c&16c&00&06o&02l&10o&15's &00W&15e&16i&00g&15h&16t&00e&15d &00T&15u&00&05r&16b&15a&00n&15 has been dropped here.&00~
+~
+11 0 17
+0 0 0 0
+1 1000000 0
+A
+5 3
+A
+2 10
+A
+6 10
+$~

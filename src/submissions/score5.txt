@@ -1,0 +1,124 @@
+ACT.INFORMATIVE.C
+
+Replace the do_score with this one
+It should work fine with stock circle bpl22
+
+
+ACMD(do_score)
+{
+
+  /* SNIPPET MADE BY CORBYN
+     silverdagger.mine.nu:4000 */	 
+
+  struct time_info_data playing_time;
+
+  if (IS_NPC(ch))
+    return;
+ 
+  send_to_char(ch, "Name: %s %s.\r\n", GET_NAME(ch), GET_TITLE(ch));
+  send_to_char(ch, "Level: %d			\r\n", GET_LEVEL(ch));
+  send_to_char(ch, "Align: %d			\r\n", GET_ALIGNMENT(ch));
+  send_to_char(ch, "AC: %d/10			Age: %d\r\n", compute_armor_class(ch), GET_AGE(ch));
+  
+  switch (GET_SEX(ch)) {
+	case SEX_MALE: send_to_char(ch, "Sex: Male\r\n"); break;
+	case SEX_FEMALE: send_to_char(ch, "Sex: Female\r\n"); break;
+	default: send_to_char(ch, "Sex: Neutral\r\n"); break;
+  }
+
+  playing_time = *real_time_passed((time(0) - ch->player.time.logon) + ch->player.time.played, 0);
+  send_to_char(ch, "You have been playing for %d day%s and %d hour%s.\r\n",
+     playing_time.day, playing_time.day == 1 ? "" : "s",
+     playing_time.hours, playing_time.hours == 1 ? "" : "s");
+
+  send_to_char(ch, "-----------------------------------------------------------------\r\n");
+  
+  send_to_char(ch, "Str: %d(%d)	| Hit: %d(%d) ---> Hit Gain: %d\r\n", GET_STR(ch), GET_ADD(ch), GET_HIT(ch), GET_MAX_HIT(ch), hit_gain(ch));
+  send_to_char(ch, "Int: %d		| Mana: %d(%d) ---> Mana Gain: %d\r\n", GET_INT(ch), GET_MANA(ch), GET_MAX_MANA(ch), mana_gain(ch));
+  send_to_char(ch, "Wis: %d		| Move: %d(%d) ---> Move Gain: %d\r\n", GET_WIS(ch), GET_MOVE(ch), GET_MAX_MOVE(ch), move_gain(ch));
+  send_to_char(ch, "Con: %d		| \r\n", GET_CON(ch));
+  send_to_char(ch, "Dex: %d		| \r\n", GET_DEX(ch));
+  send_to_char(ch, "Cha: %d		| Gold: %d\r\n", GET_CHA(ch), GET_GOLD(ch));
+  
+  send_to_char(ch, "-----------------------------------------------------------------\r\n");
+  
+send_to_char(ch, "EXP Gained %d\r\n", GET_EXP(ch));
+if (GET_LEVEL(ch) < LVL_IMMORT)  
+send_to_char(ch, "EXP Left %d\r\n", level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
+
+  
+ send_to_char(ch, "                           \r\n");
+ send_to_char(ch, "Affections:\r\n"); 
+  
+
+ 
+ 
+  switch (GET_POS(ch)) {
+  case POS_DEAD:
+    send_to_char(ch, "You are DEAD!\r\n");
+    break;
+  case POS_MORTALLYW:
+    send_to_char(ch, "You are mortally wounded!  You should seek help!\r\n");
+    break;
+  case POS_INCAP:
+    send_to_char(ch, "You are incapacitated, slowly fading away...\r\n");
+    break;
+  case POS_STUNNED:
+    send_to_char(ch, "You are stunned!  You can't move!\r\n");
+    break;
+  case POS_SLEEPING:
+    send_to_char(ch, "You are sleeping.\r\n");
+    break;
+  case POS_RESTING:
+    send_to_char(ch, "You are resting.\r\n");
+    break;
+  case POS_SITTING:
+    send_to_char(ch, "You are sitting.\r\n");
+    break;
+  case POS_FIGHTING:
+    send_to_char(ch, "You are fighting %s.\r\n", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
+    break;
+  case POS_STANDING:
+    send_to_char(ch, "You are standing.\r\n");
+    break;
+  default:
+    send_to_char(ch, "You are floating.\r\n");
+    break;
+  }
+
+  if (GET_COND(ch, DRUNK) > 10)
+    send_to_char(ch, "You are intoxicated.\r\n");
+
+  if (GET_COND(ch, FULL) == 0)
+    send_to_char(ch, "You are hungry.\r\n");
+
+  if (GET_COND(ch, THIRST) == 0)
+    send_to_char(ch, "You are thirsty.\r\n");
+
+  if (AFF_FLAGGED(ch, AFF_BLIND))
+    send_to_char(ch, "You have been blinded!\r\n");
+
+  if (AFF_FLAGGED(ch, AFF_INVISIBLE))
+    send_to_char(ch, "You are invisible.\r\n");
+
+  if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
+    send_to_char(ch, "You are sensitive to the presence of invisible things.\r\n");
+
+  if (AFF_FLAGGED(ch, AFF_SANCTUARY))
+    send_to_char(ch, "You are protected by Sanctuary.\r\n");
+
+  if (AFF_FLAGGED(ch, AFF_POISON))
+    send_to_char(ch, "You are poisoned!\r\n");
+
+  if (AFF_FLAGGED(ch, AFF_CHARM))
+    send_to_char(ch, "You have been charmed!\r\n");
+
+  if (affected_by_spell(ch, SPELL_ARMOR))
+    send_to_char(ch, "You feel protected.\r\n");
+
+  if (AFF_FLAGGED(ch, AFF_INFRAVISION))
+    send_to_char(ch, "Your eyes are glowing red.\r\n");
+
+  if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
+    send_to_char(ch, "You are summonable by other players.\r\n");
+}

@@ -1,0 +1,11 @@
+./autorun: line 92: 13635 Segmentation fault      bin/circle $FLAGS $PORT >>syslog 2>&1
+Terminated
+Segmentation fault - core dumped
+Bus error - core dumped
+Bus error - core dumped
+Bus error - core dumped
+/home/kuvoc/dbt/autorun: line 92:  5252 Segmentation fault      (core dumped) bin/circle $FLAGS $PORT >>syslog 2>&1
+/home/kuvoc/dbt/autorun: line 92: 22345 Segmentation fault      (core dumped) bin/circle $FLAGS $PORT >>syslog 2>&1
+/home/kuvoc/dbt/autorun: line 92: 23213 Segmentation fault      (core dumped) bin/circle $FLAGS $PORT >>syslog 2>&1
+/home/kuvoc/dbt/autorun: line 51: tail: command not found
+/home/kuvoc/dbt/autorun: line 92: 31421 Segmentation fault      (core dumped) bin/circle $FLAGS $PORT >>syslog 2>&1

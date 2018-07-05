@@ -1,0 +1,138 @@
+From: Haddixx <haddixx@megamed.com>
+Subject: [Circle] [CODE] File Viewer
+
+The recent post of code snippets that had a function to view the
+last 20 lines of the syslog really inspired me.  I created a function
+that allows people to view various log files.  Gods can request how
+many lines they want look at, etc.  IMHO I think it makes a good code
+snippet.
+
+ACMD(do_file)
+{
+  FILE *req_file;
+  int cur_line = 0,
+      num_lines = 0,
+      req_lines = 0,
+      i,
+      j;
+  int l;
+  char field[MAX_INPUT_LENGTH],
+       value[MAX_INPUT_LENGTH];
+
+  struct file_struct {
+    char *cmd;
+    char level;
+    char *file;
+  } fields[] = {
+    { "none",           LVL_IMPL,    "Does Nothing" },
+    { "bug",
+        LVL_IMPL,    "../lib/misc/bugs"},
+    { "typo",
+
+LVL_BUILDER, "../lib/misc/typos"},
+    { "ideas",
+
+LVL_IMPL,    "../lib/misc/ideas"},
+    { "xnames",
+
+LVL_IMPL,    "../lib/misc/xnames"},
+    { "levels",         LVL_MINOR,   "../log/levels" },
+    { "rip",            LVL_MINOR,   "../log/rip" },
+    { "players",        LVL_MINOR,   "../log/newplayers" },
+    { "rentgone",       LVL_MINOR,   "../log/rentgone" },
+    { "godcmds",        LVL_IMPL,    "../log/godcmds" },
+    { "syslog",         LVL_IMPL,    "../syslog" },
+    { "crash",          LVL_IMPL,    "../syslog.CRASH" },
+    { "\n", 0, "\n" }
+  };
+
+  skip_spaces(&argument);
+
+  if (!*argument)
+  {
+    strcpy(buf, "USAGE: file <option> <num lines>\r\n\r\nFile options:\r\n");
+    for (j = 0, i = 1; fields[i].level; i++)
+      if (fields[i].level <= GET_LEVEL(ch))
+
+sprintf(buf, "%s%-15s%s\r\n", buf, fields[i].cmd, fields[i].file);
+    send_to_char(buf, ch);
+    return;
+  }
+
+  strcpy(arg, two_arguments(argument, field, value));
+
+  for (l = 0; *(fields[l].cmd) != '\n'; l++)
+    if (!strncmp(field, fields[l].cmd, strlen(field)))
+      break;
+
+  if(*(fields[l].cmd) == '\n')
+  {
+    send_to_char("That is not a valid option!\r\n", ch);
+    return;
+  }
+
+  if (GET_LEVEL(ch) < fields[l].level)
+  {
+    send_to_char("You are not godly enough to view that file!\r\n", ch);
+    return;
+  }
+
+  if(!*value)
+     req_lines = 15; /* default is the last 15 lines */
+  else
+     req_lines = atoi(value);
+
+  /* open the requested file */
+  if (!(req_file=fopen(fields[l].file,"r")))
+  {
+     sprintf(buf2, "SYSERR: Error opening file %s using 'file' command.",
+             fields[l].file);
+     mudlog(buf2, BRF, LVL_IMPL, TRUE);
+     return;
+  }
+
+  /* count lines in requested file */
+  get_line(req_file,buf);
+  while (!feof(req_file))
+  {
+     num_lines++;
+     get_line(req_file,buf);
+  }
+  fclose(req_file);
+
+
+  /* Limit # of lines printed to # requested or # of lines in file or
+     150 lines */
+  if(req_lines > num_lines) req_lines = num_lines;
+  if(req_lines > 150) req_lines = 150;
+
+
+  /* close and re-open */
+  if (!(req_file=fopen(fields[l].file,"r")))
+  {
+     sprintf(buf2, "SYSERR: Error opening file %s using 'file' command.",
+             fields[l].file);
+     mudlog(buf2, BRF, LVL_IMPL, TRUE);
+     return;
+  }
+
+  buf2[0] = '\0';
+
+  /* and print the requested lines */
+  get_line(req_file,buf);
+  while (!feof(req_file))
+  {
+     cur_line++;
+     if(cur_line > (num_lines - req_lines))
+     {
+        sprintf(buf2,"%s%s\r\n",buf2, buf);
+     }
+     get_line(req_file,buf);
+   }
+   page_string(ch->desc, buf2, 1);
+
+
+   fclose(req_file);
+}
+
+

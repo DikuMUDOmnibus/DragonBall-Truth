@@ -1,0 +1,29 @@
+***************
+*** 22,28 ****
+  	castle.o class.o config.o constants.o db.o fight.o graph.o handler.o \
+  	house.o interpreter.o limits.o magic.o mail.o mobact.o modify.o \
+  	objsave.o olc.o shop.o spec_assign.o spec_procs.o spell_parser.o \
+- 	spells.o utils.o weather.o 
+  
+  default: .accepted
+  	$(MAKE) ../bin/circle
+--- 22,28 ----
+  	castle.o class.o config.o constants.o db.o fight.o graph.o handler.o \
+  	house.o interpreter.o limits.o magic.o mail.o mobact.o modify.o \
+  	objsave.o olc.o shop.o spec_assign.o spec_procs.o spell_parser.o \
++ 	spells.o utils.o weather.o auction.o
+  
+  default: .accepted
+  	$(MAKE) ../bin/circle
+***************
+*** 206,208 ****
+  weather.o: weather.c conf.h sysdep.h structs.h utils.h comm.h handler.h \
+    interpreter.h db.h
+  	$(CC) -c $(CFLAGS) weather.c
+--- 206,211 ----
+  weather.o: weather.c conf.h sysdep.h structs.h utils.h comm.h handler.h \
+    interpreter.h db.h
+  	$(CC) -c $(CFLAGS) weather.c
++ auction.o: auction.c conf.h sysdep.h structs.h utils.h comm.h interpreter.h \
++   handler.h db.h screen.h auction.h
++ 	$(CC) -c $(CFLAGS) auction.c

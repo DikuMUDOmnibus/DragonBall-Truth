@@ -1,0 +1,148 @@
+#18601
+small sword~
+&00&16Small&00 &15Sword&00~
+A small sword is lying here.~
+~
+5 65 8193
+2 1000 1 3
+1 1000 0
+A
+19 1
+#18602
+green t-shirt~
+&00&02Green&00 &15T-Shirt&00~
+A green t-shirt is lying here.~
+Nothing.
+~
+11 0 1025
+0 0 0 0
+1 220 0
+A
+13 25
+A
+12 25
+#18603
+green headband~
+&00&02Green&00 &15Headband&00~
+A green headband is lying here.~
+~
+11 65 17
+0 0 0 0
+1 135 0
+A
+13 10
+A
+12 10
+#18604
+Green Hoody~
+&00&02Green&00 &15Hoody&00~
+A green hoody is lying here.~
+~
+11 64 9
+0 0 0 0
+2 600 0
+A
+13 25
+A
+12 15
+#18605
+ring truth~
+&00&03R&00&11in&00&03g&00 &16of&00 &12T&00r&06u&00t&12h&00~
+A slightly decorative ring is lying here.~
+~
+11 0 3
+0 0 0 0
+1 300 0
+A
+13 120
+#18606
+dagger newbie~
+a shiny newbie dagger~
+A shiny newbie dagger is lying here looking for a back to stab.~
+~
+5 65 24577
+0 1 4 11
+1 0 0
+A
+19 1
+#18607
+collar dragon~
+a pet dragon collar~
+Someone's pet dragon has escaped and left his collar here.~
+~
+9 64 5
+0 0 0 0
+1 0 0
+A
+18 1
+A
+17 -1
+#18608
+key newbie~
+a wee little key~
+A key with the newbie crest on it is here.~
+~
+18 4 1
+1 0 0 0
+1 0 0
+#18609
+light jar~
+a brightly glowing jar~
+A jar of glowing fluid wants to brighten your day.~
+~
+1 65 1
+0 0 -1 0
+2 0 0
+A
+24 -1
+#18610
+horns horn~
+the horns of the Minotaur~
+The horns of the great Minotaur lie here.~
+~
+9 8192 17
+2 0 0 0
+8 100 0
+A
+1 1
+#18611
+hide skin~
+the smelly hide of the Minotaur~
+The hide of the great Minotaur is lying here.~
+~
+11 8192 1033
+0 0 0 0
+6 100 0
+A
+17 -6
+A
+13 15
+#18612
+green pants~
+&00&02Green&00 &15Pants&00~
+A pair of pants are lying here.~
+~
+9 0 33
+4 0 0 0
+4 200 0
+#18613
+noob tattoo~
+&00&16N&00&15o&00o&15b&00 &16Tattoo&00~
+A rub on tattoo is lying here.~
+~
+9 0 257
+0 0 0 0
+1 0 0
+A
+3 1
+#18614
+Newbie Light~
+&00&02Newbie &11Light&00~
+&15A &00&02Newbie &11Light &15has been dropped here.&00~
+~
+1 0 16385
+0 0 25 0
+1 300 0
+A
+1 1
+$~

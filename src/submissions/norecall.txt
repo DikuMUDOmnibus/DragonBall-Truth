@@ -1,0 +1,65 @@
+NoRecall roomflag by Cathy Gore
+
+Little note: For use with OasisOLC 2.0, Tested on a CircleMUD 3.0 bpl 17.
+
+Ever have a room that was just so magically encased that recall just
+shouldn't work there?  This adds a nice little norecall roomflag to your
+existing flags.  Neither the spell_recall or do_recall will work in rooms
+with this flag.
+
+Here's the snippet:
+--------------------------------------
+in act.other.c, ACMD(do_recall):
+
+     send_to_char("Monsters can't recall!!\r\n", ch);
+     return;
+   }
++
++  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_NORECALL)) {
++    send_to_char("A magical shroud prevents recall!\r\n", ch);
++    return;
++  }
++
+---------
+in constants.c, at the end of const char *room_bits[]:
++  "!RECALL",
+   "\n"
+ };
+--------- 
+in oasis.h, add 1 to the NUM_ROOM_FLAGS
+---------
+in spells.c, ASPELL(spell_recall):
+ {
+   if (victim == NULL || IS_NPC(victim))
+     return;
++  if (ROOM_FLAGGED(IN_ROOM(victim), ROOM_NORECALL)) {
++    send_to_char("A magical shroud prevents recall!\r\n", victim);
++    return;
++  }
+---------
+in structs.h, with the roomflag defines:
++#define ROOM_NORECALL  (1 << 21)  /* Recalling not allowed  */
+ 
+ /* Exit info: used in room_data.dir_option.exit_info */
+ #define EX_ISDOOR		(1 << 0)   /* Exit is a door		*/
+
+--------------------------------------
+And that's it!  Recompile and reboot, and add your flags!
+
+As per the standard disclaimer, I am not responsible if this messes up
+your mud.  Always backup any file that is changed before adding any
+snippet.  But you knew that already.
+
+And as usual, if you have any problems or find a way to make this better,
+email me at cheron98@hotmail.com.
+
+If you use this, please email me.  I don't care if you put me in the
+credits or not, I'd just like to know who's usin it.
+
+Look for my various other snippets around the CircleMUD FTP site!
+
+Cathy Gore
+aka Cheron, DarkonMUD
+
+
+

@@ -1,0 +1,29 @@
+~~~~~~~~~~********************************************************~~~~~~~~~~~
+~~                          NEW EXITS CODE PATCH                           ~~
+~~~~~~~~~~********************************************************~~~~~~~~~~~
+**                                                                         **
+--                     Coded on the fly by StormRider                      --
+--                 for Winds of Storm, soran.ici.net 4004                  --
+**                                4/23/1997                                **
+~~~~~~~~~~********************************************************~~~~~~~~~~~
+
+  This is a fairly basic patch, written to add 4 exits (northeast, northwest,
+southeast, southwest) to the MUD and into OasisOLC. I wrote this on a "clean"
+copy of CircleMUD patched with OasisOLC and no other changes made. Granted, I
+wrote it and have yet to test it thoroughly, but it seems like it should work
+perfectly the way that the MUD checks for exits.
+
+  It also allows you to change your autoexit code easily... just go into
+constants.c and edit the values of AEdirs. I had to do this from the stock
+method because the LOWER(*dirs[dir]) would take "northeast" and turn it into
+"n"... along with "north" and "northwest".
+
+  One thing that I didn't do that I wish I could have figured out how to do in
+the time that I had was to be able to make the commands "ne", "nw", "se", and
+"sw" work. If someone can tell me, I'll be more than happy to update this.
+
+     -~{ StormRider }~-       "So now that it's over, can we
+  -=~{ Winds of Storm }~=-    just say goodbye? I'd like to move
+-=~~{soran.ici.net 4004}~~=-  on with the rest of my life..."
+-~{stormerider@hotmail.com}~- --Ozzy Osbourne, No More Tears--
+

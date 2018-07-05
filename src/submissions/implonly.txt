@@ -1,0 +1,135 @@
+From: Jasper Raven (raventek@yahoo.com)
+Subject: CODE: Implementor Only Room Flag
+
+Ok before you read any more this might
+seem kind of lame, why would you need
+an impl. only flag, but anyway it's a
+contribution towards room flags.
+I hope this helps someone.
+
+This is my first ever code I wrote in C,
+it's also the first ever code I applied
+to my CircleMUD(bpl17). First time I ever
+made my own code completely and it worked
+flawlessly the first time I compiled & rebooted.
+Yep im pleased by my work heheh. =)
+
+Ok on with the code:
+<<<<<<<<<<(Open) structs.h >>>>>>>>>>
+(1) Search for a: "ROOM_DARK"
+You should see a list of define's for ROOM_FLAGS.
+Like this:
+#define ROOM_DARK		(1 << 0)   /* Dark		*/
+#define ROOM_DEATH		(1 << 1)   /* Death trap	*/
+#define ROOM_NOMOB		(1 << 2)   /* MOBs not allowed	*/
+
+
+(2) At the bottom of that list, add in your own code
+such as I did: (copy paste the line above OR type it carefully.)
+
+#define ROOM_IMPLONLY         (1 << 17)  /* Implementor Only Security 	*/
+                                    ^^
+But, make sure to change this number^^so that it is next in order, 15, 16 => 17.
+etc. So if your last number was 15, make that number a 16.
+
+You can make the ROOM_MYNAME tag however you want but I think you need to
+leave the ROOM_ part.  Examples: ROOM_COWS ROOM_COWSONLY ROOM_IMPLONLY
+
+
+<<<<<<<<<<(Save&Close) structs.h >>>>>>>>>>
+<<<<<<<<<<(Open) constants.c >>>>>>>>>>
+
+(1) Search for a: "PEACEFUL" (w/ quotes)
+
+You should find a room flag list. i.e. TUNNEL, DARK, NOMOB, !MAGIC etc.
+
+At the very bottom of the list, but before the "\n" line, add in your
+flag's name. It can be different from the flag you put in before.
+It can be IMPLONLY or IONLY or whatever you wish, I am not sure on the
+limit of characters/letters but I would say keep it less than or close to 10.
+
+Also, add a comma after your entry here. It tells the program to keep going.
+
+Example:
+
+
+  "ATRIUM",
+  "OLC",
+  "*",		/* BFS MARK */
++ "IMPLONLY",
+  "\n"
+};
+
+
+
+<<<<<<<<<<(Save&Close) constants.c >>>>>>>>>>
+
+Ok, now you have created a room flag that works.
+You will have to determine what the bitvector is
+for your world files. example: if the last room on your
+building document was:
+
+p BFS_MARK	32768 Reserved
+
+(Then the next one would be...)
+
+q IMPLONLY      65536
+
+
+Now, you have a room flag (duh yea i said it already)
+but, now you have to make it do something.
+Let's make is so only an implementor can go into a room.
+
+<<<<<<<<<<(Open) act.movement.c >>>>>>>>>>
+
+(1) Search for a: "ROOM_GODROOM" (w/o quotes)
+(2) This part of act.movement.c checks to see if you can go
+where you want to. If youre too exausted (no mv pts), and
+you try to go north, the code here wont let ya. Same for
+god rooms, tunnels, houses, etc etc.
+
+Anyway:!: You should find a chunk of code that looks like this:
+
+
+  /* Mortals and low level gods cannot enter greater god rooms. */
+  if (ROOM_FLAGGED(EXIT(ch, dir)->to_room, ROOM_GODROOM) &&
+	GET_LEVEL(ch) < LVL_GRGOD) {
+    send_to_char("You aren't godly enough to enter that room!\r\n", ch);
+    return (0);
+  }
+
+
+(3) Select & Copy the one you found, and after the last bracket } on the
+code you found & just copied, press enter a few times and get some space
+then paste your code in.
+
+(4) Change:
+
+  if (ROOM_FLAGGED(EXIT(ch, dir)->to_room, ROOM_GODROOM) &&
+                                           ^^^^^^^^^^^^
+                                      Change THIS ^^ to your
+room flag from the first part of this lil tutorial thing.
+
+(5)Thennnnnnn...
+Change the 'Youre not godly enough to blabla' to something
+you like, I put 'And you are? Raven? I dont think so.'
+-however you wish-
+
+Then save & Close, and thennnn put that bitvector you figured out
+for your new flag...................
+
+
+example: if the last room on your
+building document was:
+p BFS_MARK	32768 Reserved
+(Then the next one would be...)
+q IMPLONLY      65536
+
+............just slap that flag into a room.
+Then compile & reboot & try it out.
+
+
+Hope this helped, if you dont mind please slap my name in your credits file.
+
+Jasper Raven (raventek@yahoo.com)
+(cowmud.eyep.net:4000) (MooOoOo!)

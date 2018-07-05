@@ -1,0 +1,654 @@
+CircleMUD v3.0 Shop File~
+#10207~
+10209
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10207
+0
+1322
+-1
+0
+28
+0
+0
+#10298~
+10182
+10183
+10184
+10185
+10186
+10187
+10188
+10189
+10190
+10191
+10192
+10193
+10194
+10195
+10196
+10197
+10198
+-1
+1.00
+1.00
+-1
+%s Sorry pal, I don't have that.~
+%s Reset your mind genius. You don't have it.~
+%s Not my department.~
+%s Looks like I've been robbed. Tell an Imm.~
+%s Hey, check your cash pal.~
+%s I'll take %d thanks.~
+%s How about %d?~
+0
+0
+10298
+0
+10298
+-1
+0
+28
+0
+0
+#10299~
+10083
+10084
+10085
+10086
+10087
+10088
+10089
+10090
+10091
+10092
+10093
+10094
+10095
+10096
+10097
+10098
+10099
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10299
+2
+10365
+-1
+0
+28
+0
+0
+#10366~
+10131
+10132
+10133
+10134
+10135
+10136
+10137
+10138
+10139
+10140
+10141
+10142
+10143
+10144
+10145
+10146
+10147
+10148
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10366
+0
+10366
+-1
+0
+28
+0
+0
+#10600~
+4551
+2150
+10600
+10601
+10602
+10603
+-1
+1.00
+0.25
+2
+24
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10604
+0
+10667
+-1
+0
+28
+0
+28
+#10601~
+10604
+10605
+10606
+10607
+10608
+10609
+10610
+10611
+10612
+10613
+10614
+10615
+10616
+10617
+10618
+10619
+-1
+1.00
+0.25
+11
+3
+1
+5
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10605
+0
+10666
+-1
+0
+28
+0
+28
+#10602~
+10620
+10621
+-1
+1.00
+1.00
+17
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10606
+0
+10660
+-1
+0
+28
+0
+28
+#10603~
+10622
+10623
+3036
+-1
+1.00
+0.25
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10607
+0
+10661
+-1
+0
+28
+0
+28
+#10820~
+10641
+10642
+10643
+10644
+10645
+10646
+10647
+10648
+10649
+10650
+10651
+10652
+10653
+10654
+10655
+10656
+-1
+1.00
+0.25
+5
+11
+1
+3
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10630
+0
+10816
+-1
+0
+28
+0
+28
+#10824~
+-1
+1.00
+0.40
+5
+1
+3
+11
+8
+13
+2
+22
+24
+17
+15
+18
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10629
+0
+10825
+-1
+0
+28
+0
+28
+#10979~
+10900
+10901
+10902
+10904
+10905
+10906
+-1
+1.00
+0.25
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+0
+0
+10979
+-1
+0
+28
+0
+0
+#10980~
+10230
+10231
+10232
+10233
+10234
+10235
+10236
+10237
+10238
+10239
+10240
+10241
+10221
+10227
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+0
+0
+10980
+-1
+0
+28
+0
+0
+#10982~
+10216
+10217
+10218
+10219
+10220
+10221
+10222
+10223
+10224
+10225
+10226
+10227
+10228
+10229
+-1
+1.00
+0.25
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+0
+0
+10982
+-1
+0
+28
+0
+0
+#11021~
+11020
+11021
+11022
+11023
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+11021
+0
+11021
+-1
+0
+28
+0
+0
+#11026~
+11025
+11026
+11027
+11028
+11029
+11030
+11031
+11032
+11033
+11034
+11035
+11036
+11037
+11038
+2602
+-1
+1.00
+0.25
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+11022
+0
+11026
+-1
+0
+28
+0
+28
+#11055~
+1400
+1401
+1402
+1403
+1404
+1405
+-1
+1.00
+0.25
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+11055
+0
+11055
+-1
+0
+28
+0
+0
+#11059~
+1356
+12822
+1355
+3036
+12896
+4515
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+11059
+0
+11059
+-1
+0
+28
+0
+0
+#11065~
+102
+104
+105
+106
+151
+152
+154
+121
+74
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+11065
+0
+11065
+-1
+0
+28
+0
+0
+#11067~
+-1
+1.00
+0.25
+1
+2
+3
+5
+8
+10
+11
+15
+16
+17
+18
+19
+21
+22
+24
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+12830
+0
+11067
+-1
+0
+28
+0
+0
+#11071~
+640
+641
+642
+643
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+11071
+0
+11071
+-1
+0
+28
+0
+0
+$~

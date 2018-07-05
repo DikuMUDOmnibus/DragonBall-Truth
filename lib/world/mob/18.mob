@@ -1,0 +1,21 @@
+#1800
+frost burnt warrior~
+&00&14F&00&07r&16o&14s&00&06t &12B&14u&00&06r&15n&00&04t &00&04W&00&06a&00&04rr&14i&12o&14r&00~
+&00A &00&14F&00&07r&16o&14s&00&06t &12B&14u&00&06r&15n&00&04t &00&04W&00&06a&00&04rr&14i&12o&14r&00 stands here shivering.&00
+~
+   A warrior who has been burnt by frost.  His toes are frostbitten and he
+shivers from cold and fear.  He has been placed here for the Frozen Steel
+Mercenaries to practice their skills on.    
+~
+10 0 0 E
+1 -60 10 1d1+7000000 1d1+70000
+850 6000000
+8 8 1
+BareHandAttack: 3
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

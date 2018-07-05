@@ -1,0 +1,83 @@
+/*********************************************************************** 
+ *  Do_Score - act.information.c				       *
+ *  Copyright 1997 Immortal Realms Development Team                    *
+ *  Original Author:  Mark Vanness				       *     
+ **********************************************************************/
+
+/* Please leave all of this intact and give me FULL credit.  Thank you.  */
+
+/* Replace the do_score function in your act.information.c with the one
+ * below.
+ */
+
+ACMD(do_score)
+{
+  struct time_info_data playing_time;
+  struct time_info_data real_time_passed(time_t t2, time_t t1);
+
+  sprintf(buf, "                &00Score information for %s\r\n", GET_NAME(ch));
+  sprintf(buf, "%s\r\n&00&03Level:  [&06%5d&03]   &03Class: [&06%5s&03]     &03Sex: &00", buf,
+                GET_LEVEL(ch), CLASS_ABBR(ch));
+  switch (GET_SEX(ch)) {
+    case SEX_MALE: strcat(buf, "&03[&06Male&03]&00\r\n"); break;
+    case SEX_FEMALE: strcat(buf, "&03[&06Female&03]&00\r\n"); break;
+    default: strcat(buf, "Neutral\r\n"); break;
+  }
+  sprintf(buf, "%s&03Hit:    [&06%10d{%10d}&03]\r\n"
+                    "Move:   [&06%10d{%10d}&03]\r\n"
+                    "Mana:   [&06%10d{%10d}&03]\r\n", buf,
+                GET_HIT(ch), GET_MAX_HIT(ch), GET_MOVE(ch), GET_MAX_MOVE(ch),
+                GET_MANA(ch), GET_MAX_MANA(ch));
+  sprintf(buf, "%s&03Gold:   [&06%10d&03]     Bank: [&06%10d&03]\r\n",
+           buf, GET_GOLD(ch), GET_BANK_GOLD(ch));
+  sprintf(buf, "%s&03Exp:    [&06%10d&03]&00\r\n", buf, GET_EXP(ch)); 
+  sprintf(buf, "%s&03Status: &00", buf);
+  switch (GET_POS(ch)) {
+    case POS_DEAD: strcat(buf, "&03[&06Dead&03]&00\r\n"); break;
+    case POS_MORTALLYW: strcat(buf, "&03[&06Mortally wounded&03]&00\r\n"); break;
+    case POS_INCAP: strcat(buf, "&03[&06Incapacitated&03]&00\r\n"); break;
+    case POS_STUNNED: strcat(buf, "&03[&06Stunned&03]&00\r\n"); break;
+    case POS_SLEEPING: strcat(buf, "Sleeping.\r\n"); break;
+    case POS_RESTING: strcat(buf, "&03[&06Resting&03]&00\r\n"); break;
+    case POS_SITTING: strcat(buf, "&03[&06Sitting&03]&00\r\n"); break;
+    case POS_FIGHTING: strcat(buf, "&03[&06Fighting&03]&00\r\n"); break;
+    case POS_STANDING: strcat(buf, "&03[&06Standing&03]&00\r\n"); break;
+    default: strcat(buf, "Floating.\r\n"); break;
+  }
+  sprintf(buf, "%s&03Enchantments: &00", buf);
+  if (IS_AFFECTED(ch, AFF_BLIND))
+    strcat(buf, "&03[&06Blindness   &03]&00");
+  if (IS_AFFECTED(ch, AFF_INVISIBLE))
+    strcat(buf, "&03[&06Invisible   &03]&00");
+  if (IS_AFFECTED(ch, AFF_DETECT_INVIS))
+    strcat(buf, "&03[&06Detect Invis   &03]&00");
+  if (IS_AFFECTED(ch, AFF_SANCTUARY))
+    strcat(buf, "&03[&06Sanctuary   &03]&00");
+  if (IS_AFFECTED(ch, AFF_POISON))
+    strcat(buf, "&03[&06Poison   &03]&00");
+  if (affected_by_spell(ch, SPELL_ARMOR))
+    strcat(buf, "&03[&06Armor   &03]&00");
+  if (IS_AFFECTED(ch, AFF_INFRAVISION))
+    strcat(buf, "&03[&06Infravision   &03]&00");
+  strcat(buf, "\r\n");
+  if (GET_COND(ch, DRUNK) > 10)
+    strcat(buf, "&03[&06You are intoxicated&03]&00\r\n");
+  if (GET_COND(ch, FULL) == 0)
+    strcat(buf, "&03[&06You are hungry&03]&00\r\n");
+  if (GET_COND(ch, THIRST) == 0)
+    strcat(buf, "&03[&06You are thirsty&03]&00\r\n");
+  send_to_char(buf, ch);
+}
+
+------------------------------------------------------------------------
+
+This is my first code I submitted so far.  I am new to coding MUDs and
+figured the other score codes were a little bland.  If the color code I
+use on my MUD is different than yours please feel free to change it. 
+Thanks.
+
+   Mark Vanness
+   Cicero (Immortal Realms IMP)
+   Telnet://immortalrealms.dynip.com:4000
+
+That should be all.  I mean, that is all I did.  Good Luck

@@ -1,0 +1,541 @@
+#4200
+chocolate vest yellow~
+&15A tight white vest with a puffy &11yellow&15 hem line&00~
+A chocolate vest lies here~
+This vest is made out of tiny bleached white chocolate fibars to produce a powerful armor.
+~
+9 3 9
+-150 0 0 0
+2 70000 0
+A
+18 10
+A
+19 10
+A
+12 127
+A
+12 127
+A
+12 127
+A
+12 127
+#4201
+pants majin puffy~
+&06a pair of puffy white pants&00~
+A pair of puffy pants lay here~
+These pants, made out of chocolate fiburs, are excellent leg wearing equipment.
+~
+9 3 33
+-50 0 0 0
+2 50000 0
+A
+18 10
+A
+19 10
+A
+12 127
+A
+12 127
+A
+12 127
+A
+12 127
+#4203
+teller machine~
+&13A line of bubble gum teller machines&00~
+&13A line of bubble gum teller machines sit against the wall.&00~
+~
+12 28 0
+0 0 0 0
+5000 0 0
+#4231
+rice cake~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &07Rice Cake~
+&15A &00&07Rice&15 Cake is lying on the ground here~
+~
+19 0 1
+5 0 0 0
+0 0 0
+#4250
+otori clan fountain~
+&00&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&00&15l&00&06a&00&16n&00 &15F&16ou&00nt&15a&16i&15n&00~
+&00&07An &00&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&00&15l&00&06a&00&16n&00 &15F&16ou&00nt&15a&16i&15n&00 is sitting here, surrounded by a pool of clear water~
+~
+23 0 0
+2147483647 2147483647 10 0
+-2147483644 0 0
+E
+otori clan fountain~
+   &00&07A large statue of Shigeru Otori with his two disciples Takeo and Pyre
+standing at his sides.  In his hand, Shigeru wields Jato.    
+~
+#4251
+fountain~
+&14S&00&06h&00&15ig&09e&00&01r&15u &15F&16ou&00&07nt&15a&16i&15n~
+&15A statue in the shape of &14S&00&06h&00&15ig&09e&00&01r&00&15u &09O&00&01t&00&15o&00&06r&00&09i&00 &15stands here, surrounded by clear water.~
+~
+23 0 0
+2147483647 2147483647 15 0
+-2147483644 0 0
+#4252
+Jato~
+&09J&00&01a&00&06t&00&09o&00~
+&09J&00&01a&00&06t&00&09o&00&16, a sword forged by &14S&00&06h&00&15ig&00&09e&00&01r&00&15u&00&16 himself, is resting within its sheath. ~
+~
+5 3 4202497
+100 600000 100 3
+0 0 0
+T 4252
+A
+5 3
+A
+2 5
+A
+18 30
+A
+19 30
+A
+6 10
+A
+3 50
+#4253
+otori clan page's gi~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Gi~
+&15An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page Scouter&00 &07is lying here~
+~
+11 0 1025
+0 0 0 0
+0 50000 0
+A
+5 1
+A
+18 3
+A
+19 3
+A
+13 100
+A
+12 100
+#4254
+otori clan page's pants~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Pants~
+&15A pair of &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page Pants&00 &15are on the ground here~
+~
+11 0 33
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4255
+otori clan page's gloves~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Gloves~
+&15A pair of &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page Gloves&00 &15are on the ground here~
+~
+11 0 129
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4256
+otori clan page's boots~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Boots~
+&15A pair of &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page Boots&00 &15are on the ground here~
+~
+11 0 65
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4257
+otori clan page armor~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Armor~
+&15A peice of &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page Armor&00 &15is on the ground here~
+~
+9 3 9
+0 0 0 0
+0 50000 0
+A
+5 1
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4258
+otori clan page's shoulder armor~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Shoulder Armor~
+&15Some &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Shoulder Armor&00 &15is on the ground here~
+~
+11 0 257
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4259
+Wooden Practice Sword~
+&00&03Wooden &06P&15r&14ac&00&01t&15i&00&06ce &16S&15w&16o&15r&16d&00~
+&15A &00&03Wooden&00 &06P&00&15r&00&14ac&00&01t&00&15i&00&06ce&00 &16S&15w&16o&15r&16d&00 &15is lying on the ground here~
+~
+5 0 4202497
+10 15000 1 3
+0 30000 0
+A
+4 1
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4260
+otori clan page's scouter~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Scouter~
+&15An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page Scouter&00 &15is on the ground here~
+~
+3 2 513
+100 100000 100000 201
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4261
+phoenix fountain~
+&09P&00&11h&00&01o&00&11e&00&03ni&00&09x &09F&00&11o&00&01u&00&11n&00&03t&00&01ai&00&11n&00&07~
+&15A fountain in the shape of a &09P&00&11h&00&01o&00&11e&00&03ni&00&09x&00 &15sits here, crystal clear water dropping from its wing tips~
+~
+23 0 0
+2147483647 2147483647 15 0
+-2147483644 0 0
+#4262
+otori clan page's helmet~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Helmet~
+&15 An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page Helmet is lying on the ground here~
+~
+11 1 17
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4263
+otori clan page ring~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Ring~
+&15 An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Pages Ring is lying on the ground here~
+~
+11 0 3
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4264
+otori clan page necklace~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Necklace~
+&15An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Necklace is lying on the ground here~
+~
+11 0 5
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4265
+otori clan page belt~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Belt~
+&15An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Belt is lying on the ground here~
+~
+11 0 2049
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4266
+otori clan page wristguards~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Wristguard~
+&15An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Wristguard is lying on the ground here~
+~
+11 0 4097
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4267
+otori clan page earring (left)~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Earring (Left)~
+&15An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Earring (Left)&15 is lying on the ground here~
+~
+11 0 131073
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4268
+otori clan page earring (right)~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Earring (Right)~
+&15An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Page's Earring (Right)&15 is lying on the ground here~
+~
+11 0 262145
+0 0 0 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4269
+otori clan lighting orb~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Lighting Orb&00~
+&15An &09O&00&01t&00&15o&00&06r&00&09i&00 &16C&15l&00&06a&00&16n&00 &15Lighting Orb&15 is lying on the ground here~
+~
+1 0 16385
+0 0 -1 0
+0 30000 0
+A
+18 3
+A
+19 3
+A
+12 100
+A
+13 100
+#4270
+Kadyuka's Armor~
+&00&01K&00&16a&00&06d&00&16y&00&01uk&00&06a&00&07'&00&01s &00&16A&00&15r&00&07m&00&16or&00~
+&00&01K&00&16a&00&06d&00&16y&00&01uk&00&06a&00&07'&00&01s &00&16A&00&15r&00&07m&00&16or&15 is lying on the ground here~
+~
+11 3 9
+0 0 0 0
+0 2000000 0
+A
+5 3
+A
+3 2
+A
+2 2
+A
+6 3
+A
+18 30
+A
+19 30
+#4271
+shaengarn key~
+&00&16S&00&06h&00&14a&00&15e&00&02n&00&06g&00&14a&00&15r&00&02n&00&15 K&00&16e&00&15y&00~
+&00&16S&00&06h&00&14a&00&15e&00&02n&00&06g&00&14a&00&15r&00&02n&00&15 K&00&16e&00&15y&00 &15is lying on the ground here.&00~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#4272
+Pilsener~
+&06P&00&16i&00&01l&00&06se&00&01n&00&16er&00~
+&15A bottle of &06P&00&16i&00&01l&00&06se&00&01n&00&16er&00&15 lies on the ground here.~
+~
+23 0 1
+1 1 1 0
+6 5000 0
+#4273
+black phoenix blaster~
+&16B&15l&16ac&15k &09P&11h&00&01o&00&11e&00&03ni&00&09x &00&16B&00&06l&00&01as&00&16t&00&15er~
+&15A bottle of &16B&15l&16ac&15k &09P&11h&00&01o&00&11e&00&03ni&00&09x &00&16B&00&06l&00&01as&00&16t&00&15er lies on the ground here.&00~
+~
+23 0 1
+1 1 5 200
+6 8000 0
+#4274
+green dragon armor~
+&00&10G&00&02r&00&10e&00&02en &00&16D&00&02r&00&01ag&00&16o&00&02n &00&16A&00&15r&00&16m&00&07o&00&15r&00~
+&00&10G&00&02r&00&10e&00&02en &00&16D&00&02r&00&01ag&00&16o&00&02n &00&16A&00&15r&00&16m&00&07o&00&15r&00&15 is lying on the ground here~
+~
+11 0 9
+0 0 0 0
+0 500000 0
+A
+5 1
+A
+3 1
+A
+2 1
+A
+6 1
+A
+18 10
+A
+19 10
+#4275
+rosewood herb~
+&00&09R&00&01o&00&03se&00&11w&00&01oo&00&09d &00&10H&00&02e&00&10rb&00~
+&00&09R&00&01o&00&03se&00&11w&00&01oo&00&09d &00&10H&00&02e&00&10rb&00&15 lies on the ground here~
+~
+2 0 1
+1 39 0 0
+0 50000 0
+#4276
+trainee id~
+&15T&00&01r&00&07a&00&16i&00&15n&00&01e&00&07e&00&16'&00&01s&00 &15I.D~
+&15A T&00&01r&00&07a&00&16i&00&15n&00&01e&00&07e&00&16'&00&01s&00 &15I.D lies on the ground here.&00~
+~
+18 0 1
+0 0 0 0
+0 0 0
+#4277
+member id~
+&16M&00&01e&00&15m&00&03b&00&16e&00&01r&00&16's&00 &15I.D&00~
+&15A &16M&00&01e&00&15m&00&03b&00&16e&00&01r&00&16's&00 &15I.D&00&15 lis on the ground here.&00~
+~
+18 0 1
+0 0 0 0
+0 0 0
+#4278
+executive id~
+&01E&00&09x&00&01e&00&09c&00&01u&00&09t&00&01i&00&09v&00&01e&00&16'&00&09s&00 &15I.D&00~
+&15A &01E&00&09x&00&01e&00&09c&00&01u&00&09t&00&01i&00&09v&00&01e&00&16'&00&09s&00 &15I.D&00&15 is lying on the ground here.&00~
+~
+18 0 1
+0 0 0 0
+0 0 0
+#4279
+hassassin gloves~
+&00&06H&00&15a&00&14s&00&07s&00&16a&00&14s&00&07s&00&15i&00&06n&00 &00&06G&00&16l&00&15o&00&07v&00&15e&00&06s&00~
+&15A pair of &00&06H&00&15a&00&14s&00&07s&00&16a&00&14s&00&07s&00&15i&00&06n&00 &00&06G&00&16l&00&15o&00&07v&00&15e&00&06s&00&15 are lying on the ground here.&00~
+Nothing.
+~
+11 134217731 129
+0 0 0 0
+0 4000000 0
+A
+4 3
+A
+6 6
+A
+2 6
+A
+25 4
+A
+3 3
+A
+5 4
+#4280
+mark of the syndicate~
+&00&01M&00&16a&00&15r&00&07k &00&16o&00&15f &00&15t&00&07h&00&15e &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00~
+&15A &00&01M&00&16a&00&15r&00&07k &00&16o&00&15f &00&15t&00&07h&00&15e &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00&15 tattoo lies on the ground here.&00~
+~
+11 134217731 257
+0 0 0 0
+0 4000000 0
+A
+6 6
+A
+3 3
+A
+4 2
+A
+2 5
+A
+5 2
+A
+1 2
+#4281
+syndicate presidential ring~
+&00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &00&04P&12r&16e&15s&14i&00&06de&14n&15t&16i&12a&00&04l &01R&00&16i&15n&00&07g&00~
+&15A &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &00&04P&12r&16e&15s&14i&00&06de&14n&15t&16i&12a&00&04l &01R&00&16i&15n&00&07g&00&15 is lying on the ground here.&00~
+~
+11 134217731 3
+0 0 0 0
+0 4000000 0
+A
+4 3
+A
+2 4
+A
+6 4
+A
+25 3
+#4288
+Bottle of Punch~
+&15Bottle of &00&05P&13u&16n&13c&00&05h&00~
+&15A Bottle of &00&05P&13u&16n&13c&00&05h&00&15 is sitting on the ground here.&00~
+
+~
+23 64 1
+1 1 8 400
+6 6000 0
+#4299
+White Hollow Key~
+&15W&00h&15i&00t&15e &16H&00o&15ll&00o&16w &16Key&00~
+&15W&00h&15i&00t&15e &16H&00o&15ll&00o&16w &16Key &15is sitting on the ground invisible to the naked eye.&00~
+~
+0 0 1
+0 0 0 0
+0 0 0
+$~

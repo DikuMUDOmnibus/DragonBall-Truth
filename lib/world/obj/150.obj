@@ -1,0 +1,381 @@
+#15000
+nothingness universal~
+Sapowox's Universal Nothingness~
+You are quite unable to perceive Sapowox's Universal Nothingness here.~
+~
+5 70 8193
+0 6 4 1
+40 0 200000
+E
+nothingness universal~
+You are not sure, but you do not seem not able to figure out what
+it isn't, because it doesn't much resemble anything you haven't 
+ever seen.  You feel a bit of mortal confusion, but you notice a
+small inscription on it.
+~
+E
+text writing inscription~
+It just says: ' (void *) '
+Not very enlightening, is it?
+~
+A
+18 2
+A
+19 2
+#15001
+gold coins~
+the gold~
+A lot of gold is here.~
+~
+20 0 1
+32385 0 0 0
+0 32385 0
+#15002
+sceptre royal golden~
+&00a &00&11golden&11&00sceptre~
+&00a &00&11golden&11&00sceptre lies on the ground.&00~
+~
+12 0 16385
+0 0 0 0
+10 15000 3000
+A
+4 10
+A
+1 5
+A
+2 5
+#15003
+crown golden~
+&00a &11golden&11&00 crown&00~
+&00a magnificently jewelled &11golden&11&00 crown has been left here.&00~
+~
+9 0 17
+-2147483648 0 0 0
+0 12000 10000
+A
+2 50
+A
+2 50
+A
+1 50
+A
+1 50
+A
+8 50
+A
+8 50
+#15004
+apple golden~
+a golden apple~
+There is a golden apple here.~
+~
+1 1088 16385
+0 0 -1 0
+5 8000 400
+#15005
+telescope scope~
+a large telescope~
+There is a large telescope here, pointing at the sky.~
+~
+12 0 0
+0 0 0 0
+0 0 0
+E
+telescope scope~
+A small sign says:
+
+Made in Siberia.
+
+~
+#15006
+sword training~
+a training sword~
+A training sword with blunt edges is leaned against a wall.~
+~
+5 0 8193
+0 1 4 3
+7 300 5
+A
+18 -2
+#15007
+key huge~
+a huge key~
+There is a huge, heavy-looking key on the floor here.~
+~
+18 4 16385
+15007 0 0 0
+1 0 0
+#15008
+Verminator sword~
+Verminator~
+A strange looking sword is lying upon the ground here.~
+~
+5 94729 8193
+0 3 4 11
+2 1 4000
+E
+verminator sword~
+This strange sword seems to be made of black metal, an eerie green glow
+surrounds the blade.
+~
+#15009
+key butlers butler~
+the Butler's key~
+The Butler's key is here.~
+~
+18 4 16385
+15009 0 0 0
+3 0 0
+#15010
+key small~
+a small key~
+A small key lies here.~
+~
+18 4 16385
+15010 0 0 0
+1 0 100
+#15011
+chest wooden~
+a large wooden chest~
+A large wooden chest stands here in a corner.~
+~
+15 0 1
+800 13 15010 0
+450 400 100
+E
+chest~
+It is equipped with a small lock, that any self-respecting thief
+should be able to pick.
+~
+#15012
+vial large potion brown~
+a large vial~
+A large vial has been left here.~
+~
+10 64 1
+15 15 -1 -1
+14 2000 2000
+E
+vial large brown potion~
+It is filled with a disgusting brown liquid.
+~
+#15013
+banner royal~
+a royal banner~
+The royal banner has been firmly planted in the ground here.~
+~
+12 0 0
+0 0 0 0
+0 0 0
+E
+banner royal standard~
+It is large and very heavy.  On top of it flutters King Welmar's flag
+proudly.
+~
+E
+flag~
+On the flag is the symbol of King Welmar's house, the rampant stag.
+~
+#15014
+key~
+a key~
+A key lies on the floor.~
+~
+18 4 1
+15014 0 0 0
+13 0 0
+E
+key~
+It has a finely carved letter 'W' inscribed on it.
+~
+#15015
+hauberk mail chain~
+a guard's chain mail hauberk~
+A chain mail hauberk lies on the floor~
+~
+9 0 9
+5 0 0 0
+60 2000 500
+#15016
+broadsword sword large~
+a large broadsword~
+There is a large broadsword lying here.~
+~
+5 0 8193
+0 2 6 3
+14 1300 3000
+#15017
+key cell~
+the cell key~
+A key lies on the floor.~
+~
+18 4 1
+15017 0 0 0
+3 0 0
+E
+key cell~
+This appears to be the key for the cells of the castle.
+~
+#15018
+corpse~
+a corpse~
+There is a corpse lying in the middle of the floor of the building here.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+#15019
+lobster~
+a delicious-looking lobster~
+A delicious-looking lobster is lying here, tempting your appetite.~
+~
+19 0 1
+7 0 0 0
+5 100 10
+#15020
+caviar~
+some Russian caviar~
+There is some delicious-looking Russian caviar here, making your mouth water.~
+~
+19 0 1
+2 0 0 0
+1 250 20
+#15021
+glow~
+the glow from the west~
+There is a strange glow coming from the west.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+glow~
+The glow from the west appears to be quite strong, but it does not
+give enough light to see by here, nor can you see the source of the
+glow.
+~
+#15022
+wail sound~
+the wailing sound from the east~
+There is an eerie wailing sound coming from the house to the east.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+#15304
+Dark Phoenix Cape~
+&15D&09a&00&01r&16k Phoe&00&01n&09i&15x &00&01C&15a&00&01pe&00~
+&00A &15D&09a&00&01r&16k Phoe&00&01n&09i&15x &00&01C&15a&00&01pe&00 is lying on the ground here.&00~
+~
+11 0 1048577
+0 0 0 0
+1 2000000 0
+A
+5 1
+A
+3 1
+A
+4 1
+A
+25 1
+#15800
+Dark Phenoix Cape~
+&15D&09a&00&01r&16k Phen&00&01o&09i&15x &00&01C&15a&00&01pe&00~
+&16A &15D&09a&00&01r&16k Phen&00&01o&09i&15x &00&01C&15a&00&01pe &16has been dropped here.&00~
+~
+11 0 1048577
+0 0 0 0
+1 2000000 0
+A
+5 1
+A
+2 1
+A
+4 1
+A
+25 1
+#15801
+Kuvoc's Shadow~
+&00&01K&09u&15v&09o&00&01c&16's Sha&00&01d&09o&15w&00~
+&16A &00&01K&09u&15v&09o&00&01c&16's Sha&00&01d&09o&15w &16has been dropped here.&00~
+~
+11 0 32769
+0 0 0 0
+1 5000000 0
+#15802
+Dark Dragon Scouter~
+&00&01D&16a&00&01r&09k &15D&00&07r&15a&16g&00&01o&16n &15S&00&01c&16o&00&01ut&16e&15r&00~
+&16A &00&01D&16a&00&01r&09k &15D&00&07r&15a&16g&00&01o&16n &15S&00&01c&16o&00&01ut&16e&15r &16has been dropped here.&00~
+~
+3 0 513
+100 100000 100000 201
+1 5000000 0
+A
+5 4
+A
+3 4
+A
+4 4
+A
+2 5
+A
+18 30
+A
+28 7
+#15803
+Dark Regime Key (clan)~
+Dark Regime Key (clan)~
+Dark Regime key is lying here.~
+~
+18 0 1
+0 0 0 0
+0 0 0
+#15804
+Kuvocs Shadow~
+&00&01K&09u&00&07v&09o&00&01c&15'&16s &16Sha&00&01d&09o&15w&00~
+&00&01K&09u&00&07v&09o&00&01c&15'&16s &16Sha&00&01d&09o&15w &00&07is lying here on the ground.&00~
+~
+11 0 32769
+0 0 0 0
+1 5000000 0
+#15890
+Shinigami's Soul Slayer Scythe~
+&14S&00&06h&01i&09n&15i&09g&00&01a&06m&14i&00&06'&14s &15S&16o&15u&00l &16S&15l&00a&15y&16e&15r &16S&00c&15y&00t&16h&15e&00~
+&16&14S&00&06h&01i&09n&15i&09g&00&01a&06m&14i&00&06'&14s &15S&16o&15u&00l &16S&15l&00a&15y&16e&15r &16S&00c&15y&00t&16h&15e&00 &16floats here, pulsing with demonic power.&00~
+~
+5 3 4202497
+0 0 1000000 3
+0 30000000 0
+A
+5 6
+A
+4 5
+A
+3 5
+A
+25 5
+A
+6 10
+A
+2 20
+#15891
+Shinigami's Baka Stick~
+&14S&00&06h&01i&09n&15i&09g&00&01a&06m&14i&00&06'&14s &00&02B&06a&03k&11a &00&06S&16t&15i&00c&15k&00~
+&14S&00&06h&01i&09n&15i&09g&00&01a&06m&14i&00&06'&14s &00&02B&06a&03k&11a &00&06S&16t&15i&00c&15k&00 &00&01is lying here, stained with mortal blood.&00~
+~
+5 0 4218881
+0 0 800000 7
+0 0 0
+A
+5 4
+A
+3 4
+A
+4 -7
+A
+18 40
+A
+19 40
+A
+6 6
+$~

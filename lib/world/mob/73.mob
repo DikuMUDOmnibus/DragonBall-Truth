@@ -1,0 +1,191 @@
+#7400
+Farm Girl~
+&16F&11a&15rm &00&05G&16i&13r&16l~
+&15A &16F&11a&15rm &00&05G&16i&13r&16l&15 is collecting flowers.
+~
+It looks unfinished.
+~
+74 0 -100 E
+1 0 0 1d1+550 1d1+40
+80 30000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#7401
+Farm Boy~
+&16F&11a&15rm &12B&16o&12y~
+&15A &16F&11a&15rm &12B&16o&12y&15 is playing marbles.
+~
+It looks unfinished.
+~
+74 0 0 E
+1 -18 0 1d1+4500 1d1+480
+180 180000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#7402
+Logger~
+&00&07L&15o&11gg&15e&00&07r~
+&15A &00&07L&15o&11gg&15e&00&07r&15 is working furiously.&00&07
+~
+It looks unfinished.
+~
+10 0 0 E
+1 -48 0 1d1+200000 1d1+13000
+380 1300000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#7409
+Thomas The Logger~
+&10T&16h&00&02omas &15T&00&07h&15e &11L&00&03ogge&11r&00&07~
+&10T&16h&00&02omas &15T&00&07h&15e &11L&00&03ogge&11r&00&07 &15is busily shouting out orders.
+~
+It looks unfinished.
+~
+10 0 0 E
+1 -55 0 1d1+750000 1d1+25000
+675 2500000
+8 8 1
+BareHandAttack: 3
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#7415
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12820
+T 12821
+#7416
+Rudy The Skinner~
+&09R&00&01u&09d&00&01y &15T&00&07h&15e &00&03Skinner&00&07~
+&09R&00&01u&09d&00&01y &15T&00&07h&15e &00&03Skinner&00&07 &15eyes you suspiciously.
+~
+It looks unfinished.
+~
+8202 0 -50 E
+1 -60 0 1d1+1000000 1d1+30000
+50000000 3500000
+8 8 1
+BareHandAttack: 14
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 7400
+T 7401
+T 12820
+#7420
+Rabid Werewolf~
+&00&05R&15a&00&07b&15i&00&05d &16W&15e&00&07rewo&15l&15f&00~
+&15A &00&05R&15a&00&07b&15i&00&05d &16W&15e&00&07rewo&15l&15f&00 &15growls threateningly.&00
+~
+It looks unfinished.
+~
+586 1024 -500 E
+1 -60 0 1d1+800000 1d1+28000
+650 2500000
+8 8 1
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#7421
+Human Hunter~
+&14H&00&06u&00&07m&00&06a&14n &16H&15unter&00&07~
+&15A &14H&00&06u&00&07m&00&06a&14n &16H&15unter&15 looks around cautiously.
+~
+It looks unfinished.
+~
+74 0 500 E
+1 -50 0 1d1+250000 1d1+20000
+550 1500000
+8 8 2
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#7422
+Silver Deer~
+&15S&00&07i&15l&00&07v&15e&00&07r &11D&00&03e&15er&00&07~
+&07A &15S&00&07i&15l&00&07v&15e&00&07r &11D&00&03e&15er&00&07 nibbles at the grass.
+~
+It looks unfinished.
+~
+72 0 1000 E
+1 -40 0 1d1+50000 1d1+5000
+300 500000
+8 8 1
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#7461
+Rainbow Colored pelican~
+&12R&14a&13i&10n&11b&09o&15w &00&07C&15o&12l&00&04o&12r&15e&00&07d &10P&00&02el&00&03i&00&02ca&10n&00&07~
+&15A &12R&14a&13i&10n&11b&09o&15w &00&07C&15o&12l&00&04o&12r&15e&00&07d &10P&00&02el&00&03i&00&02ca&10n&15 looks at you curiously.
+~
+   It has brightly colored feathers and a giant yellow beak.    
+~
+12 0 800 E
+1 -60 0 1d1+9000000 1d1+66000
+880 7000000
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#7462
+Spider Monkey~
+&16S&15p&00&07id&15e&16r &16M&00&03o&15n&00&03k&16ey&00&07~
+&15A &16S&15p&00&07id&15e&16r &16M&00&03o&15n&00&03k&16ey&15 screetches at you.
+~
+   A black and white monkey with a large black tail.    
+~
+8 0 400 E
+1 -60 0 1d1+6500000 1d1+60000
+800 6000000
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

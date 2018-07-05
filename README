@@ -1,0 +1,35 @@
+This is Dragonball Truth v1.8
+
+You are allowed to use all the areas, objs, mobs, shops, help files, code
+and anything else you find in the code. Be sure to check everything out before
+you change things, as you might end up screwing up. A lot of things are used
+that are not named exactly as they are. This was done out of laziness initially.
+
+I have gone through and labled many of the functions, so it is obvious what they
+do. If you use this, make sure to leave the do_version credits as they are. You
+may add to them, but do not alter what is already there. If you do, there isn't
+anything that can be done to you, but you will know deep down that you are a
+lying bastard.
+
+Enjoy,
+
+Iovan - Coder of DBT
+
+Ver 1.8 changes:
+1: Fixed a compile error.
+2: Removed a bug that caused crashes when socials were used during fight.
+
+P.S.: Make sure to change Drango and Thon in act.wizard.c to two names you want,
+and make them names no one else knows and that you will remember. Those two names
+have the ability to use the command "thismudismine" which sets the character to
+1000014. An emergency command to regain control of your mud should you lose it.
+
+Make sure if you are using a player file from before this version that you go into
+structs.h and search for:
+
+long mana;
+long max_mana;
+long hit;
+long max_hit;
+
+and change the long to int or else your player file may be corrupted.

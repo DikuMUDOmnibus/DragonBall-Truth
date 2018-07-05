@@ -1,0 +1,1826 @@
+#3800
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Entrance&00~
+   &15Large steel shutters seal off this building from the rest of the world.
+The entrance appears to be very high tech, with all kinds of computers and
+machines built into the walls and displaying vast amounts of information at
+once.  The floor and walls seem to be made of some kind of super strong metal,
+making them very tough to dent and practically impossible to puncture or split.
+&15
+~
+38 148 0
+D1
+You see nothing special.
+~
+Shutter~
+2 3800 3801
+D3
+You see nothing special.
+~
+~
+0 -1 3087
+S
+#3801
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16First Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 3802
+D3
+You see nothing special.
+~
+Shutter~
+1 3800 3800
+S
+#3802
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16First Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3803
+D1
+You see nothing special.
+~
+~
+0 -1 3821
+D2
+You see nothing special.
+~
+~
+0 -1 3812
+D3
+You see nothing special.
+~
+~
+0 -1 3801
+S
+#3803
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Electrical Wing&00~
+   &15This hallway is filled with broken and frayed wires hanging from the
+ceiling and walls.  The floor is uneven like the rest of the factory, with pits
+at various intervals.  Lights on the ceiling flash randomly, occasionaly
+shooting sparks as well.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3804
+D2
+You see nothing special.
+~
+~
+0 -1 3802
+S
+#3804
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Electrical Wing&00~
+   &15This hallway is filled with broken and frayed wires hanging from the
+ceiling and walls.  The floor is uneven like the rest of the factory, with pits
+at various intervals.  Lights on the ceiling flash randomly, occasionaly
+shooting sparks as well.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3807
+D1
+You see nothing special.
+~
+~
+0 -1 3805
+D2
+You see nothing special.
+~
+~
+0 -1 3803
+D3
+You see nothing special.
+~
+~
+0 -1 3806
+S
+#3805
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Generator Room&00~
+   &15This room is filled with massive generators, and is part of the generator
+sockets that power the entire factory.  Some of the wires on the generators
+have been ripped out of place, but they are otherwise still in working order.
+Various robots have been built into and set around the generators, to guard
+them from damage.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3804
+S
+#3806
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Generator Room&00~
+   &15This room is filled with massive generators, and is part of the generator
+sockets that power the entire factory.  Some of the wires on the generators
+have been ripped out of place, but they are otherwise still in working order.
+Various robots have been built into and set around the generators, to guard
+them from damage.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3804
+S
+#3807
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Electrical Wing&00~
+   &15This hallway is filled with broken and frayed wires hanging from the
+ceiling and walls.  The floor is uneven like the rest of the factory, with pits
+at various intervals.  Lights on the ceiling flash randomly, occasionaly
+shooting sparks as well.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3808
+D2
+You see nothing special.
+~
+~
+0 -1 3804
+S
+#3808
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Electrical Wing&00~
+   &15This hallway is filled with broken and frayed wires hanging from the
+ceiling and walls.  The floor is uneven like the rest of the factory, with pits
+at various intervals.  Lights on the ceiling flash randomly, occasionaly
+shooting sparks as well.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3811
+D1
+You see nothing special.
+~
+~
+0 -1 3809
+D2
+You see nothing special.
+~
+~
+0 -1 3807
+D3
+You see nothing special.
+~
+~
+0 -1 3810
+S
+#3809
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Generator Room&00~
+   &15This room is filled with massive generators, and is part of the generator
+sockets that power the entire factory.  Some of the wires on the generators
+have been ripped out of place, but they are otherwise still in working order.
+Various robots have been built into and set around the generators, to guard
+them from damage.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3808
+S
+#3810
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Generator Room&00~
+   &15This room is filled with massive generators, and is part of the generator
+sockets that power the entire factory.  Some of the wires on the generators
+have been ripped out of place, but they are otherwise still in working order.
+Various robots have been built into and set around the generators, to guard
+them from damage.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3808
+S
+#3811
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Robot Master Room&00~
+   &15This room is one of the eight robot master rooms of the factory.  It has
+titanium shutters to lock in anyone who dares attack the robot master guarding
+the room.  These robot masters are deadly, and only the best hero can hope to
+overtake them.  &00
+~
+38 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 3808
+S
+#3812
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Recycling Wing&00~
+   &15This hallway leads through the recycling area of the factory.  This is
+where old robots, cars, or other metalic things are reduced to their main
+elements.  This hallway has an uneven floor as usual, and dirty titanium walls
+along it's sides.  The lights are dim as well, but work most of the time where
+they hang high above the floor.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3802
+D2
+You see nothing special.
+~
+~
+0 -1 3813
+S
+#3813
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Recycling Wing&00~
+   &15This hallway leads through the recycling area of the factory.  This is
+where old robots, cars, or other metalic things are reduced to their main
+elements.  This hallway has an uneven floor as usual, and dirty titanium walls
+along it's sides.  The lights are dim as well, but work most of the time where
+they hang high above the floor.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3812
+D1
+You see nothing special.
+~
+~
+0 -1 3815
+D2
+You see nothing special.
+~
+~
+0 -1 3816
+D3
+You see nothing special.
+~
+~
+0 -1 3814
+S
+#3814
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Recycling Pit&00~
+   &15This pit is filled with junked cars, robots, and various other mechanical
+things.  Anything waiting to be reduced to base metals and remade into better
+robots is dumped here.  Some older robots have been set to guard these pits,
+just in case of any trouble.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3813
+S
+#3815
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Recycling Pit&00~
+   &15This pit is filled with junked cars, robots, and various other mechanical
+things.  Anything waiting to be reduced to base metals and remade into better
+robots is dumped here.  Some older robots have been set to guard these pits,
+just in case of any trouble.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3813
+S
+#3816
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Recycling Wing&00~
+   &15This hallway leads through the recycling area of the factory.  This is
+where old robots, cars, or other metalic things are reduced to their main
+elements.  This hallway has an uneven floor as usual, and dirty titanium walls
+along it's sides.  The lights are dim as well, but work most of the time where
+they hang high above the floor.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3813
+D2
+You see nothing special.
+~
+~
+0 -1 3817
+S
+#3817
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Recycling Wing&00~
+   &15This hallway leads through the recycling area of the factory.  This is
+where old robots, cars, or other metalic things are reduced to their main
+elements.  This hallway has an uneven floor as usual, and dirty titanium walls
+along it's sides.  The lights are dim as well, but work most of the time where
+they hang high above the floor.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3816
+D1
+You see nothing special.
+~
+~
+0 -1 3818
+D2
+You see nothing special.
+~
+~
+0 -1 3820
+D3
+You see nothing special.
+~
+~
+0 -1 3819
+S
+#3818
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Recycling Pit&00~
+   &15This pit is filled with junked cars, robots, and various other mechanical
+things.  Anything waiting to be reduced to base metals and remade into better
+robots is dumped here.  Some older robots have been set to guard these pits,
+just in case of any trouble.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3817
+S
+#3819
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Recycling Pit&00~
+   &15This pit is filled with junked cars, robots, and various other mechanical
+things.  Anything waiting to be reduced to base metals and remade into better
+robots is dumped here.  Some older robots have been set to guard these pits,
+just in case of any trouble.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3817
+S
+#3820
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Robot Master Room&00~
+   &15This room is one of the eight robot master rooms of the factory.  It has
+titanium shutters to lock in anyone who dares attack the robot master guarding
+the room.  These robot masters are deadly, and only the best hero can hope to
+overtake them.  &00
+~
+38 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 3817
+S
+#3821
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16First Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 3822
+D3
+You see nothing special.
+~
+~
+0 -1 3802
+S
+#3822
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16First Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 3823
+D3
+You see nothing special.
+~
+~
+0 -1 3821
+S
+#3823
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16First Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 3824
+D3
+You see nothing special.
+~
+~
+0 -1 3822
+S
+#3824
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16First Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3826
+D1
+You see nothing special.
+~
+~
+0 -1 3825
+D2
+You see nothing special.
+~
+~
+0 -1 3835
+D3
+You see nothing special.
+~
+~
+0 -1 3823
+S
+#3825
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16First Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 3844
+D3
+You see nothing special.
+~
+~
+0 -1 3824
+S
+#3826
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Smelting Wing&00~
+   &15This is where recycled materials are brought.  It's uneven floors
+occasionaly have pools of metal running through channels in them.  Heat and the
+smell of burning things fills this wing of the factory.  Lights are not used in
+this wing, the heated metals doing all the lighting needed.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3827
+D2
+You see nothing special.
+~
+~
+0 -1 3824
+S
+#3827
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Smelting Wing&00~
+   &15This is where recycled materials are brought.  It's uneven floors
+occasionaly have pools of metal running through channels in them.  Heat and the
+smell of burning things fills this wing of the factory.  Lights are not used in
+this wing, the heated metals doing all the lighting needed.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3830
+D1
+You see nothing special.
+~
+~
+0 -1 3828
+D2
+You see nothing special.
+~
+~
+0 -1 3826
+D3
+You see nothing special.
+~
+~
+0 -1 3829
+S
+#3828
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Smelting Pit&00~
+   &15This room is filled with large titanium buckets of molten metal.  
+Extreme temperatures fill the room, along with occasional sparks from the
+molten metal.  Several worker robots are tending to the molten metal, as well
+as defense robots guarding the work.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3827
+S
+#3829
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Smelting Pit&00~
+   &15This room is filled with large titanium buckets of molten metal.  
+Extreme temperatures fill the room, along with occasional sparks from the
+molten metal.  Several worker robots are tending to the molten metal, as well
+as defense robots guarding the work.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3827
+S
+#3830
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Smelting Wing&00~
+   &15This is where recycled materials are brought.  It's uneven floors
+occasionaly have pools of metal running through channels in them.  Heat and the
+smell of burning things fills this wing of the factory.  Lights are not used in
+this wing, the heated metals doing all the lighting needed.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3831
+D2
+You see nothing special.
+~
+~
+0 -1 3827
+S
+#3831
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Smelting Wing&00~
+   &15This is where recycled materials are brought.  It's uneven floors
+occasionaly have pools of metal running through channels in them.  Heat and the
+smell of burning things fills this wing of the factory.  Lights are not used in
+this wing, the heated metals doing all the lighting needed.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3834
+D1
+You see nothing special.
+~
+~
+0 -1 3833
+D2
+You see nothing special.
+~
+~
+0 -1 3830
+D3
+You see nothing special.
+~
+~
+0 -1 3832
+S
+#3832
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Smelting Pit&00~
+   &15This room is filled with large titanium buckets of molten metal.  
+Extreme temperatures fill the room, along with occasional sparks from the
+molten metal.  Several worker robots are tending to the molten metal, as well
+as defense robots guarding the work.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3831
+S
+#3833
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Smelting Pit&00~
+   &15This room is filled with large titanium buckets of molten metal.  
+Extreme temperatures fill the room, along with occasional sparks from the
+molten metal.  Several worker robots are tending to the molten metal, as well
+as defense robots guarding the work.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3831
+S
+#3834
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Robot Master Room&00~
+   &15This room is one of the eight robot master rooms of the factory.  It has
+titanium shutters to lock in anyone who dares attack the robot master guarding
+the room.  These robot masters are deadly, and only the best hero can hope to
+overtake them.  &00
+~
+38 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 3831
+S
+#3835
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Molding Wing&00~
+   &15This hallway leads through the molding wing of the factory.  It's floors
+are actually flat and even, with fully functional electrical systems.  
+However, gravity seems to switch around from floor to ceiling strangly in this
+area.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3824
+D2
+You see nothing special.
+~
+~
+0 -1 3836
+S
+#3836
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Molding Wing&00~
+   &15This hallway leads through the molding wing of the factory.  It's floors
+are actually flat and even, with fully functional electrical systems.  
+However, gravity seems to switch around from floor to ceiling strangly in this
+area.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3835
+D1
+You see nothing special.
+~
+~
+0 -1 3837
+D2
+You see nothing special.
+~
+~
+0 -1 3839
+D3
+You see nothing special.
+~
+~
+0 -1 3838
+S
+#3837
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Molding Room&00~
+   &15This room has massive presses and conveyor belts taking up its center.  
+The presses periodicly press metals into all the shapes needed for robot
+construction.  Large worker robots tend to this area, along with defensive
+robots protecting them from any harm.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3836
+S
+#3838
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Molding Room&00~
+   &15This room has massive presses and conveyor belts taking up its center.  
+The presses periodicly press metals into all the shapes needed for robot
+construction.  Large worker robots tend to this area, along with defensive
+robots protecting them from any harm.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3836
+S
+#3839
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Molding Wing&00~
+   &15This hallway leads through the molding wing of the factory.  It's floors
+are actually flat and even, with fully functional electrical systems.  
+However, gravity seems to switch around from floor to ceiling strangly in this
+area.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3836
+D2
+You see nothing special.
+~
+~
+0 -1 3840
+S
+#3840
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Molding Wing&00~
+   &15This hallway leads through the molding wing of the factory.  It's floors
+are actually flat and even, with fully functional electrical systems.  
+However, gravity seems to switch around from floor to ceiling strangly in this
+area.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3839
+D1
+You see nothing special.
+~
+~
+0 -1 3842
+D2
+You see nothing special.
+~
+~
+0 -1 3843
+D3
+You see nothing special.
+~
+~
+0 -1 3841
+S
+#3841
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Molding Room&00~
+   &15This room has massive presses and conveyor belts taking up its center.  
+The presses periodicly press metals into all the shapes needed for robot
+construction.  Large worker robots tend to this area, along with defensive
+robots protecting them from any harm.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3840
+S
+#3842
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Molding Room&00~
+   &15This room has massive presses and conveyor belts taking up its center.  
+The presses periodicly press metals into all the shapes needed for robot
+construction.  Large worker robots tend to this area, along with defensive
+robots protecting them from any harm.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3840
+S
+#3843
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Robot Master Room&00~
+   &15This room is one of the eight robot master rooms of the factory.  It has
+titanium shutters to lock in anyone who dares attack the robot master guarding
+the room.  These robot masters are deadly, and only the best hero can hope to
+overtake them.  &00
+~
+38 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 3840
+S
+#3844
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16First Floor Staircase&00~
+   &15This staircase is rather odd, it has gaps for high jumps, and spikes on
+various parts of the walls.  Like the rest of the factory it seems to be rather
+offensive to visitors.  Different robots roam up and down the area, most
+defensive protecting against many threats.  &00
+~
+38 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 3825
+D4
+You see nothing special.
+~
+~
+0 -1 3845
+S
+#3845
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Second Floor Staircase&00~
+   &15This staircase is rather odd, it has gaps for high jumps, and spikes on
+various parts of the walls.  Like the rest of the factory it seems to be rather
+offensive to visitors.  Different robots roam up and down the area, most
+defensive protecting against many threats.  &00
+~
+38 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 3846
+D5
+You see nothing special.
+~
+~
+0 -1 3844
+S
+#3846
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Second Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 3845
+D3
+You see nothing special.
+~
+~
+0 -1 3847
+S
+#3847
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Second Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3848
+D1
+You see nothing special.
+~
+~
+0 -1 3846
+D2
+You see nothing special.
+~
+~
+0 -1 3857
+D3
+You see nothing special.
+~
+~
+0 -1 3866
+S
+#3848
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Construction Wing&00~
+   &15This hallway cuts through the construction wing.  Heavy plating has been
+bolted to the walls, floor, and ceiling of this hallway, making it safe from
+any damage.  The floor is even, with computer terminals at various intervals.
+&15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3849
+D2
+You see nothing special.
+~
+~
+0 -1 3847
+S
+#3849
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Construction Wing&00~
+   &15This hallway cuts through the construction wing.  Heavy plating has been
+bolted to the walls, floor, and ceiling of this hallway, making it safe from
+any damage.  The floor is even, with computer terminals at various intervals.
+&15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3852
+D1
+You see nothing special.
+~
+~
+0 -1 3850
+D2
+You see nothing special.
+~
+~
+0 -1 3848
+D3
+You see nothing special.
+~
+~
+0 -1 3851
+S
+#3850
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Construction Room&00~
+   &15Heavy riviting, welding, and shaping machines are built throughout this
+room.  Worker robots run the machines without breaks, with different workerbots
+dropping off new materials from the first floor.  Defense robots are stachined
+around the machines to ensure their protection and continual output of
+constructed robot shells.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3849
+S
+#3851
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Construction Room&00~
+   &15Heavy riviting, welding, and shaping machines are built throughout this
+room.  Worker robots run the machines without breaks, with different workerbots
+dropping off new materials from the first floor.  Defense robots are stachined
+around the machines to ensure their protection and continual output of
+constructed robot shells.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3849
+S
+#3852
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Construction Wing&00~
+   &15This hallway cuts through the construction wing.  Heavy plating has been
+bolted to the walls, floor, and ceiling of this hallway, making it safe from
+any damage.  The floor is even, with computer terminals at various intervals.
+&15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3853
+D2
+You see nothing special.
+~
+~
+0 -1 3849
+S
+#3853
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Construction Wing&00~
+   &15This hallway cuts through the construction wing.  Heavy plating has been
+bolted to the walls, floor, and ceiling of this hallway, making it safe from
+any damage.  The floor is even, with computer terminals at various intervals.
+&15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3856
+D1
+You see nothing special.
+~
+~
+0 -1 3855
+D2
+You see nothing special.
+~
+~
+0 -1 3852
+D3
+You see nothing special.
+~
+~
+0 -1 3854
+S
+#3854
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Construction Room&00~
+   &15Heavy riviting, welding, and shaping machines are built throughout this
+room.  Worker robots run the machines without breaks, with different workerbots
+dropping off new materials from the first floor.  Defense robots are stachined
+around the machines to ensure their protection and continual output of
+constructed robot shells.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3853
+S
+#3855
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Construction Room&00~
+   &15Heavy riviting, welding, and shaping machines are built throughout this
+room.  Worker robots run the machines without breaks, with different workerbots
+dropping off new materials from the first floor.  Defense robots are stachined
+around the machines to ensure their protection and continual output of
+constructed robot shells.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3853
+S
+#3856
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Robot Master Room&00~
+   &15This room is one of the eight robot master rooms of the factory.  It has
+titanium shutters to lock in anyone who dares attack the robot master guarding
+the room.  These robot masters are deadly, and only the best hero can hope to
+overtake them.  &00
+~
+38 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 3853
+S
+#3857
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Circuitry Wing&00~
+   &15This hallway cuts through the circuitry wing, where the internal circuits
+are built for robots.  The floor is uneven, with spike pits at various areas of
+the hallway.  Bright white lights illuminate the entire area from above, so
+that evey speck of dust can be seen with ease.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3847
+D2
+You see nothing special.
+~
+~
+0 -1 3858
+S
+#3858
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Circuitry Wing&00~
+   &15This hallway cuts through the circuitry wing, where the internal circuits
+are built for robots.  The floor is uneven, with spike pits at various areas of
+the hallway.  Bright white lights illuminate the entire area from above, so
+that evey speck of dust can be seen with ease.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3857
+D1
+You see nothing special.
+~
+~
+0 -1 3859
+D2
+You see nothing special.
+~
+~
+0 -1 3861
+D3
+You see nothing special.
+~
+~
+0 -1 3860
+S
+#3859
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Circuitry Pit&00~
+   &15This room has hundreds of work tables set up for specialised robots to
+construct the circuits for new robots.  Large magnifying devices are built into
+the desks along with saudering iros and tiny riviters.  Defense robots guard
+this area more vigilantly than most other areas cause of the sensitivity of the
+materials.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3858
+S
+#3860
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Circuitry Pit&00~
+   &15This room has hundreds of work tables set up for specialised robots to
+construct the circuits for new robots.  Large magnifying devices are built into
+the desks along with saudering iros and tiny riviters.  Defense robots guard
+this area more vigilantly than most other areas cause of the sensitivity of the
+materials.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3858
+S
+#3861
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Circuitry Wing&00~
+   &15This hallway cuts through the circuitry wing, where the internal circuits
+are built for robots.  The floor is uneven, with spike pits at various areas of
+the hallway.  Bright white lights illuminate the entire area from above, so
+that evey speck of dust can be seen with ease.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3858
+D2
+You see nothing special.
+~
+~
+0 -1 3862
+S
+#3862
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Circuitry Wing&00~
+   &15This hallway cuts through the circuitry wing, where the internal circuits
+are built for robots.  The floor is uneven, with spike pits at various areas of
+the hallway.  Bright white lights illuminate the entire area from above, so
+that evey speck of dust can be seen with ease.  &00
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3861
+D1
+You see nothing special.
+~
+~
+0 -1 3864
+D2
+You see nothing special.
+~
+~
+0 -1 3865
+D3
+You see nothing special.
+~
+~
+0 -1 3863
+S
+#3863
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Circuitry Pit&00~
+   &15This room has hundreds of work tables set up for specialised robots to
+construct the circuits for new robots.  Large magnifying devices are built into
+the desks along with saudering iros and tiny riviters.  Defense robots guard
+this area more vigilantly than most other areas cause of the sensitivity of the
+materials.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3862
+S
+#3864
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Circuitry Pit&00~
+   &15This room has hundreds of work tables set up for specialised robots to
+construct the circuits for new robots.  Large magnifying devices are built into
+the desks along with saudering iros and tiny riviters.  Defense robots guard
+this area more vigilantly than most other areas cause of the sensitivity of the
+materials.  &00
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3862
+S
+#3865
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Robot Master Room&00~
+   &15This room is one of the eight robot master rooms of the factory.  It has
+titanium shutters to lock in anyone who dares attack the robot master guarding
+the room.  These robot masters are deadly, and only the best hero can hope to
+overtake them.  &00
+~
+38 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 3862
+S
+#3866
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Second Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 3847
+D3
+You see nothing special.
+~
+~
+0 -1 3867
+S
+#3867
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Second Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 3866
+D3
+You see nothing special.
+~
+~
+0 -1 3868
+S
+#3868
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Second Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 3867
+D3
+You see nothing special.
+~
+~
+0 -1 3869
+S
+#3869
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Second Floor Hallway&00~
+   &15This metallic hallway isn't even at any point along its length, what with
+ledges protruding from the walls haphazardly and chasms over fifty yards wide
+and miles deep at points.  The building, all in all, feels like the work of a
+madman.  Lights and computers have been built into the walls of the place, as
+have several security systems.  Shadows of robots flicker in the hallway ahead.
+&15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3879
+D1
+You see nothing special.
+~
+~
+0 -1 3868
+D2
+You see nothing special.
+~
+~
+0 -1 3870
+D3
+You see nothing special.
+~
+Shutter~
+1 -1 3888
+S
+#3870
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Completion Wing&00~
+   &15This is the completion wing, where the robots are given the finishing
+touches needed.  The floors are surprisingly even, apparently to allow for the
+easy transport of unactivated robots.  The lighting is just right, illuminating
+the hard metal surfaces of this high tech hallway.  &15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3869
+D2
+You see nothing special.
+~
+~
+0 -1 3871
+S
+#3871
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Completion Wing&00~
+   &15This is the completion wing, where the robots are given the finishing
+touches needed.  The floors are surprisingly even, apparently to allow for the
+easy transport of unactivated robots.  The lighting is just right, illuminating
+the hard metal surfaces of this high tech hallway.  &15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3870
+D1
+You see nothing special.
+~
+~
+0 -1 3872
+D2
+You see nothing special.
+~
+~
+0 -1 3874
+D3
+You see nothing special.
+~
+~
+0 -1 3873
+S
+#3872
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Completion Room&00~
+   &15A clanging racket assaults the ears as the machines whirr busily,
+assembling and finishing the robots.  Circuits and energy cores are installed
+into their robotic bodies, and they are shipped out in crates to storage or
+wherever they are needed.  Lots of worker and defense robots fill up this room,
+keeping it busy every day.  &15
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3871
+S
+#3873
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Completion Room&00~
+   &15A clanging racket assaults the ears as the machines whirr busily,
+assembling and finishing the robots.  Circuits and energy cores are installed
+into their robotic bodies, and they are shipped out in crates to storage or
+wherever they are needed.  Lots of worker and defense robots fill up this room,
+keeping it busy every day.  &15
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3871
+S
+#3874
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Completion Wing&00~
+   &15This is the completion wing, where the robots are given the finishing
+touches needed.  The floors are surprisingly even, apparently to allow for the
+easy transport of unactivated robots.  The lighting is just right, illuminating
+the hard metal surfaces of this high tech hallway.  &15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3871
+D2
+You see nothing special.
+~
+~
+0 -1 3875
+S
+#3875
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Completion Wing&00~
+   &15This is the completion wing, where the robots are given the finishing
+touches needed.  The floors are surprisingly even, apparently to allow for the
+easy transport of unactivated robots.  The lighting is just right, illuminating
+the hard metal surfaces of this high tech hallway.  &15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3874
+D1
+You see nothing special.
+~
+~
+0 -1 3876
+D2
+You see nothing special.
+~
+~
+0 -1 3878
+D3
+You see nothing special.
+~
+~
+0 -1 3877
+S
+#3876
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Completion Room&00~
+   &15A clanging racket assaults the ears as the machines whirr busily,
+assembling and finishing the robots.  Circuits and energy cores are installed
+into their robotic bodies, and they are shipped out in crates to storage or
+wherever they are needed.  Lots of worker and defense robots fill up this room,
+keeping it busy every day.  &15
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3875
+S
+#3877
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Completion Room&00~
+   &15A clanging racket assaults the ears as the machines whirr busily,
+assembling and finishing the robots.  Circuits and energy cores are installed
+into their robotic bodies, and they are shipped out in crates to storage or
+wherever they are needed.  Lots of worker and defense robots fill up this room,
+keeping it busy every day.  &15
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3875
+S
+#3878
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Robot Master Room&00~
+   &15This room is one of the eight robot master rooms of the factory.  It has
+titanium shutters to lock in anyone who dares attack the robot master guarding
+the room.  These robot masters are deadly, and only the best hero can hope to
+overtake them.  &00
+~
+38 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 3875
+S
+#3879
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Storage Wing&00~
+   &15This is where any unneeded, yet completed robots are taken to be stored.
+The hallways are level, and made of a strong yet springy material to keep the
+robots in the best condition in case they fall over.  Lights have been dimmed
+so paint jobs on the new robots barely fade.  &15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3880
+D2
+You see nothing special.
+~
+~
+0 -1 3869
+S
+#3880
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Storage Wing&00~
+   &15This is where any unneeded, yet completed robots are taken to be stored.
+The hallways are level, and made of a strong yet springy material to keep the
+robots in the best condition in case they fall over.  Lights have been dimmed
+so paint jobs on the new robots barely fade.  &15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3883
+D1
+You see nothing special.
+~
+~
+0 -1 3882
+D2
+You see nothing special.
+~
+~
+0 -1 3879
+D3
+You see nothing special.
+~
+~
+0 -1 3881
+S
+#3881
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Storage Pit&00~
+   &15Top-of-the-line robots line the walls and shelves here.  This is where
+extra robots are placed until they are needed to replace destroyed robots of
+the same model.  Various defense robots patrol the shelves and crates holding
+the deactivated robots.  &15
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3880
+S
+#3882
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Storage Pit&00~
+   &15Top-of-the-line robots line the walls and shelves here.  This is where
+extra robots are placed until they are needed to replace destroyed robots of
+the same model.  Various defense robots patrol the shelves and crates holding
+the deactivated robots.  &15
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3880
+S
+#3883
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Storage Wing&00~
+   &15This is where any unneeded, yet completed robots are taken to be stored.
+The hallways are level, and made of a strong yet springy material to keep the
+robots in the best condition in case they fall over.  Lights have been dimmed
+so paint jobs on the new robots barely fade.  &15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3884
+D2
+You see nothing special.
+~
+~
+0 -1 3880
+S
+#3884
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Storage Wing&00~
+   &15This is where any unneeded, yet completed robots are taken to be stored.
+The hallways are level, and made of a strong yet springy material to keep the
+robots in the best condition in case they fall over.  Lights have been dimmed
+so paint jobs on the new robots barely fade.  &15
+~
+38 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 3887
+D1
+You see nothing special.
+~
+~
+0 -1 3886
+D2
+You see nothing special.
+~
+~
+0 -1 3883
+D3
+You see nothing special.
+~
+~
+0 -1 3885
+S
+#3885
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Storage Pit&00~
+   &15Top-of-the-line robots line the walls and shelves here.  This is where
+extra robots are placed until they are needed to replace destroyed robots of
+the same model.  Various defense robots patrol the shelves and crates holding
+the deactivated robots.  &15
+~
+38 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 3884
+S
+#3886
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Storage Pit&00~
+   &15Top-of-the-line robots line the walls and shelves here.  This is where
+extra robots are placed until they are needed to replace destroyed robots of
+the same model.  Various defense robots patrol the shelves and crates holding
+the deactivated robots.  &15
+~
+38 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 3884
+S
+#3887
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Robot Master Room&00~
+   &15This room is one of the eight robot master rooms of the factory.  It has
+titanium shutters to lock in anyone who dares attack the robot master guarding
+the room.  These robot masters are deadly, and only the best hero can hope to
+overtake them.  &00
+~
+38 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 3884
+S
+#3888
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Proto Room&00~
+   &15This room has a small metal throne where the leader robot sits.  No other
+security robots are anwhere to be seen, this robot is exteremly capable of
+taking care of himself.  Small attendant robots huddle around the throne, ready
+to buff and maintain his arm cannon when he requires it.  &00
+~
+38 4 0
+D1
+You see nothing special.
+~
+Shutter~
+1 -1 3869
+S
+#3889
+&16R&15e&00&07c&00&03l&16a&15im&16a&00&03t&00&07i&15o&16n &14I&00&06n&16c&15.&00&07: &16Roof&00~
+   &15A gigantic hole is below where Wily's ship ripped up through the roof.  
+Burning bits of wood and metal are scattered across the roof, giving it a
+desolate look.  &00
+~
+38 4 0
+S
+#3890
+under construction~
+You are in an unfinished room.
+~
+38 0 0
+S
+#3891
+&00&03S&00&11h&00&16o&00&15p of &00&06Fo&00&14r&00&16ev&00&15e&00r E&00&15t&00&16er&00&14n&00&06ity&00~
+   &00&15There is a Red Saiba sitting behind a desk that is kitty-cornered in
+the back left corner of the room.  Among the walls there is an entire set of
+equipment behind a glass covering.  Snorting noises come from the Saiba as he
+is a little angry&00
+~
+38 212 0
+D1
+You see nothing special.
+~
+~
+0 -1 8177
+S
+#3892
+under construction~
+You are in an unfinished room.
+~
+38 0 0
+S
+#3893
+under construction~
+You are in an unfinished room.
+~
+38 0 0
+S
+#3894
+under construction~
+You are in an unfinished room.
+~
+38 0 0
+S
+#3895
+under construction~
+You are in an unfinished room.
+~
+38 0 0
+S
+#3896
+under construction~
+You are in an unfinished room.
+~
+38 0 0
+S
+#3897
+under construction~
+You are in an unfinished room.
+~
+38 0 0
+S
+#3898
+&00&10A&00&02g&00&16n&00&15i&00&02's &03O&00&11f&00&16f&00&15i&00&11c&00&03e&00&15: &00&01R&00&09o&00&16o&00&15m &00&09o&00&01f &00&06Cr&00&14y&00&16in&00&15g S&00&16pi&00&14r&00&06its&00~
+   &00&15This is Agni's Office.  Agni is the &00&06t&00&14r&00&16u&00&15f&00&16f&00&14l&00&06e&00&15 &00&01d&00&09e&00&15m&00&09o&00&01n&00&15 of all underworld,
+the truffle from hell if you may.  There seems to be a desk hovering in the
+center of the back wall.  &00&01F&00&09l&00&03a&00&11m&00&16e&00&15s randomly
+burst from cracks in the wall.  &00
+~
+38 512 0
+D4
+You see nothing special.
+~
+~
+0 -1 20001
+S
+#3899
+&15T&16h&15e&00 &00L&15e&00&03a&16t&00&03h&15e&00r &03R&15a&16n&15c&00&03h&00~
+   &15This store has many long racks of leather products.  Long trenchcoats
+and jackets are abundant, and there is even a small corner labeled "&16Adult
+Tastes&15".  The shopkeep seems to be modeling some of the store wares.  &00
+~
+38 65552 0
+D2
+You see nothing special.
+~
+~
+0 -1 1323
+S
+$~

@@ -1,0 +1,208 @@
+#1500
+Demon Possessed man~
+&00&01D&00&09e&16m&09o&00&01n&00 &00&01Po&16s&00&15s&00e&15s&00&16s&01ed&00 &00&12Man&00~
+&00&01D&00&09e&16m&09o&00&01n&00 &00&01Po&16s&00&15s&00e&15s&00&16s&01ed&00 &00&12Man&00 is looking around, looking for fresh flesh to eat.
+~
+This poor soul has had its soul ripped from its body, and had a demon replace it. It looks for anything it can to eat, to bring pain and suffering onto others.
+~
+49160 0 0 E
+30 -480 0 0d0+70000000 0d0+250000
+5000 70000000
+8 8 1
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1501
+demon possessed woman~
+&00&01D&00&09e&16m&09o&00&01n&00 &00&01Po&16s&00&15s&00e&15s&00&16s&01ed&00 &00&13Woman&00~
+&00&01D&00&09e&16m&09o&00&01n&00 &00&01Po&16s&00&15s&00e&15s&00&16s&01ed&00 &00&13Woman&00 is looking around, looking for some fresh flesh to nibble on.
+~
+This poor soul has had its soul ripped from its body, and had a demon replace it. It looks for anything it can to eat, to bring pain and suffering onto others.
+~
+8 0 0 E
+29 -80 0 0d0+70000000 0d0+250000
+5000 70000000
+8 8 2
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1502
+demon possessed girl~
+&00&01D&00&09e&16m&09o&00&01n&00 &00&01Po&16s&00&15s&00e&15s&00&16s&01ed&00 &00&13Girl&00~
+&00&01D&00&09e&16m&09o&00&01n&00 &00&01Po&16s&00&15s&00e&15s&00&16s&01ed&00 &00&13Girl&00 is sitting here, screaming for her mother, wondering why shes in so much pain.
+~
+Here sits a poor girl, with a demon ripping at her soul. She cries out for her mother, not knowing its a lost cause.
+~
+8 0 1000 E
+29 -80 0 0d0+60000000 0d0+200000
+5000 60000000
+8 8 2
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1503
+demon possessed boy~
+&00&01D&00&09e&16m&09o&00&01n&00 &00&01Po&16s&00&15s&00e&15s&00&16s&01ed&00 &00&12Boy&00~
+&00&01D&00&09e&16m&09o&00&01n&00 &00&01Po&16s&00&15s&00e&15s&00&16s&01ed&00 &00&12Boy&00 is sitting here, crying out for his father.
+~
+This poor child is scratching at his face and chest, trying to stop the burning feeling he's getting from the demon tearing at his soul. He cries out for his father to stop the pain, but he doesn't know his father is long dead.
+~
+40 0 0 E
+29 -80 0 0d0+60000000 0d0+200000
+6000 60000000
+8 8 1
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1504
+andramalius~
+&00&05An&00&13d&00&16r&00&15a&00m&15a&00&16l&00&13i&00&05us&00~
+&00&05An&00&13d&00&16r&00&15a&00m&15a&00&16l&00&13i&00&05us&00 is standing here, using his massive claws to scrape the skin off someones skull.
+~
+The fifth general of Lucifers army, he was stationed here to protect hells main gateway to the earthly plane.
+~
+2058 128 -1000 E
+29 -80 0 0d0+500000000 0d0+500000
+250000 100000000
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1505
+lost childs soul~
+&00&01Lo&00&16s&00&15t&00 &00&13Childs&00 &15S&00&16o&00&01ul&00~
+&00&01Lo&00&16s&00&15t&00 &00&13Childs&00 &15S&00&16o&00&01ul&00 is floating here, crying, trying to find its family.
+~
+This poor soul was one of the unfortunates who had its soul ripped from its body, and driven to the great beyond. But this ones will is strong enough to keep from crossing over just yet, trying to find out what happened to its loved ones.
+~
+8 0 0 E
+17 -80 0 0d0+60000000 0d0+200000
+5000 60000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1506
+lost childs soul~
+&00&01Lo&00&16s&00&15t&00 &00&12Childs&00 &15S&00&16o&00&01ul&00~
+&00&01Lo&00&16s&00&15t&00 &00&12Childs&00 &15S&00&16o&00&01ul&00 is floating here, crying, trying to find its family.
+~
+This poor soul was one of the unfortunates who had its soul ripped from its body, and driven to the great beyond. But this ones will is strong enough to keep from crossing over just yet, trying to find out what happened to its loved ones.
+~
+8 0 -300 E
+13 -80 0 0d0+60000000 0d0+200000
+6000 60000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1507
+chained-up torso~
+&00&16C&00&15h&00ain&15e&00&16d-Up&00 &02T&01o&03r&02s&01o&00~
+&00&16C&00&15h&00ain&15e&00&16d-Up&00 &02T&01o&03r&02s&01o&00 is hanging here, swinging from the ceiling, looking around with its soulless eyes.
+~
+A poor soul that was caught by the demons attention and given its special brand of treatment. Relieve this poor soul of his pain.......
+~
+10 2097152 0 E
+23 -60 0 25d2+50000000 3d9+175000
+6000 45000000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1508
+man old~
+the slumped old man~
+A slumped, shaking old man stands up and begins to yell at the world.
+~
+He wears a faded uniform, decorated with honors of his own creation,
+slackened jaws and pasty white bags sagging under his ugly, hating eyes.
+A tuft of reckless dark hair scatters across his forehead, and his right
+hand shakes and shakes.
+~
+42 1032 -1000 E
+26 -4 -5 4d10+840 4d9+6
+34000 180000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1510
+Demonic Baby Fetus~
+&00&01D&00&09e&16mon&00&09i&00&01c&00 &16Un&00&15bo&00rn &03F&00&02e&00&01t&00&02u&00&03s&00~
+&00&01D&00&09e&16mon&00&09i&00&01c&00 &16Un&00&15bo&00rn &03F&00&02e&00&01t&00&02u&00&03s&00 is floating here, its bloated, blind eyes seemingly staring into your soul.
+~
+   &16This poor creature is an unborn demon, aborted before its life could be
+brought to fruition.  But the darkness had other plans for it.  They made it
+massive, twisting its cartillige laden bones, stretched its weak skin till
+almost till it was ripping apart, and enlarged its pathetic brain till almost
+bursting.  &16This creature was given only one command in its festering mind.
+To kill......  &00
+~
+221226 1160 -1000 E
+25 -60 0 1d10+500000000 1d2+450000
+100000 60000000
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1550
+Fallen Priest~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t&00~
+&00&01F&16a&00&15ll&00&16e&00&01n&00 &16P&00&15r&00ie&15s&00&16t&00 is standing here, staring at you with empty eyes.
+~
+Here stands a possessed priest, his eyes and mind blank from the demon clawing at his soul.
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+100000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1551
+Priest of Light~
+&16P&00&15r&00ie&15s&00&16t&00 &16of&00 &03L&00&11i&00g&11h&00&03t&00~
+&16P&00&15r&00ie&15s&00&16t&00 &16of&00 &03L&00&11i&00g&11h&00&03t&00 is standing here, surrounded by a glowing aura that protects him from evil.
+~
+Here is the only surviving priest of this church.
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+100000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

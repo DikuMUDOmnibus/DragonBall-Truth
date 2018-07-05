@@ -1,0 +1,18 @@
+#2300
+Wishing Star Sage~
+&00&04W&12i&00&06s&14h&00&06i&12n&00&04g &11S&09t&00&01a&00&05r&00 &11Sage&00~
+&15The &00&04W&12i&00&06s&14h&00&06i&12n&00&04g &11S&09t&00&01a&00&05r&00 &11Sage &15stands here, smoking from a long pipe.&00
+~
+   &15This strange old sage sits here smoking herb and selling his equipment.
+&00
+~
+78 0 0 E
+0 20 10 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

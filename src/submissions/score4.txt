@@ -1,0 +1,154 @@
+Score by Cathy Gore (aka Cheron)
+This isn't a real hard change.  Just make a few small changes to
+act.informative.c and you'll get, what I think at least, is a fairly
+nice score format.  I left it colorless so you could color it however
+you like with your own color codes.  We use races at DarkonMUD, but
+it wouldn't be hard to remove them from here.  This was tested on a
+CircleMUD bpl17.
+--------------------------------------------------------------------------
+In the external variables declarations, add
+extern const char *pc_class_types[];
+extern const char *pc_race_types[];
+extern int level_exp(int chclass, int level);
+extern char *class_abbrevs[];
+extern char *race_abbrevs[];
+
+/* remove the current do_score and replace it with this one */
+ACMD(do_score)
+{
+   struct time_info_data playing_time;
+   struct time_info_data *real_time_passed(time_t t2, time_t t1);
+   struct char_data * k;
+   bool aff;
+
+   sprintf(buf, "Name : %s %s\r\n", GET_NAME(ch), GET_TITLE(ch));
+   sprintf(buf, "%sLevel: %3d            Sex  : ", buf, GET_LEVEL(ch));
+   switch (GET_SEX(ch)) {
+	case SEX_MALE: strcat(buf, "Male\r\n"); break;
+	case SEX_FEMALE: strcat(buf, "Female\r\n"); break;
+	default: strcat(buf, "Neutral\r\n"); break;
+	} 
+   sprintf(buf, "%sAlign: %4d           Class: ", buf, GET_ALIGNMENT(ch));
+   sprinttype(k->player.chclass, pc_class_types, buf1);
+	strcat(buf, buf1);
+   sprintf(buf, "%s\r\n", buf);
+
+   sprintf(buf, "%sAC   : %3d            Race : ", buf, GET_AC(ch));
+   sprinttype(k->player.race, pc_race_types, buf1);
+   strcat(buf, buf1);
+   sprintf(buf, "%s\r\n", buf);
+
+   sprintf(buf, "%sAge  : %2d years\r\n", buf, GET_AGE(ch));
+	if ((age(ch)->month == 0) && (age(ch)->day == 0))
+	   strcat(buf, " (It's your birthday today.)\r\n");
+	else
+	   strcat(buf, "\r\n");
+   playing_time = *real_time_passed((time(0) - ch->player.time.logon) + ch->player.time.played, 0);
+   sprintf(buf, "%sPlayed: %d day%s and %d hour%s\r\n", buf, playing_time.day,
+	  playing_time.day == 1 ? "" : "s", playing_time.hours, playing_time.hours == 1 ? "" : "s");
+   sprintf(buf, "%sStats:\r\n--------------------------------------------\r\n", buf);
+   sprintf(buf, "%sStr: %2d           | %4d/%4d HP\r\n", buf, GET_STR(ch), GET_HIT(ch), GET_MAX_HIT(ch));
+   sprintf(buf, "%sInt: %2d           | %4d/%4d Mana\r\n", buf, GET_INT(ch), GET_MANA(ch), GET_MAX_MANA(ch));
+   sprintf(buf, "%sWis: %2d           | %4d/%4d Moves\r\n", buf, GET_WIS(ch), GET_MOVE(ch), GET_MAX_MOVE(ch));
+   sprintf(buf, "%sCon: %2d           | Gold: %d \r\n", buf, GET_CON(ch), GET_GOLD(ch));
+   sprintf(buf, "%sDex: %2d           | Bank: %d \r\n", buf, GET_DEX(ch), GET_BANK_GOLD(ch));
+   sprintf(buf, "%sCha: %2d           | \r\n--------------------------------------------\r\n", buf, GET_CHA(ch));
+   sprintf(buf, "%sEXP Gained: %10d Next Level: %5d \r\n", buf, GET_EXP(ch), ((level_exp(GET_CLASS(ch), (GET_LEVEL(ch)+1))) - GET_EXP(ch)));
+   switch (GET_POS(ch)) {
+	case POS_DEAD: strcat(buf, "You are DEAD!\r\n");  break;
+	case POS_MORTALLYW: strcat(buf, "You are mortally wounded!  You should seek help!\r\n"); break;
+	case POS_INCAP: strcat(buf, "You are incapacitated, slowly fading away...\r\n"); break;
+	case POS_STUNNED: strcat(buf, "You are stunned!  You can't move!\r\n");  break;
+	case POS_SLEEPING: strcat(buf, "You are sleeping.\r\n");  break;
+	case POS_RESTING: strcat(buf, "You are resting.\r\n");  break;
+	case POS_SITTING: strcat(buf, "You are sitting.\r\n");  break;
+	case POS_FIGHTING:
+	   if (FIGHTING(ch))
+	      sprintf(buf, "%sYou are fighting %s.\r\n", buf, PERS(FIGHTING(ch),ch));
+	   else
+	      strcat(buf, "You are fighting thin air.\r\n");
+	   break;
+	case POS_STANDING: strcat(buf, "You are standing.\r\n"); break;
+        default: strcat(buf, "You are floating.\r\n"); break;
+	}
+    sprintf(buf, "%sAffections:\r\n", buf);
+    aff = TRUE;
+    if (affected_by_spell(ch, SPELL_ARMOR))
+	strcat(buf, " Armor\r\n");
+    else { aff = FALSE; }
+    if (affected_by_spell(ch, SPELL_BLESS))
+	strcat(buf, " Bless\r\n");
+    else { aff = FALSE; }
+    if (IS_AFFECTED(ch, AFF_BLIND))
+	strcat(buf, " Blindness\r\n");
+    else { aff = FALSE; }
+    if (IS_AFFECTED(ch, AFF_CHARM))
+	strcat(buf, " Charm Person\r\n");
+    else { aff = FALSE; }
+    if (IS_AFFECTED(ch, AFF_DETECT_INVIS))
+	strcat(buf, " Detect Invisible\r\n");
+    else { aff = FALSE; }
+    if (IS_AFFECTED(ch, AFF_INFRAVISION))
+	strcat(buf, " Infravision\r\n");
+    else { aff = FALSE; }
+    if (IS_AFFECTED(ch, AFF_INVISIBLE))
+	strcat(buf, " Invisible\r\n");
+    else { aff = FALSE; }
+    if (IS_AFFECTED(ch, AFF_POISON))
+	strcat(buf, " Poison\r\n");
+    else { aff = FALSE; }
+    if (IS_AFFECTED(ch, AFF_SANCTUARY))
+	strcat(buf, " Sanctuary\r\n");
+    else { aff = FALSE; }
+    if (!aff) { strcat(buf, " None.\r\n");  }
+    if (GET_COND(ch, DRUNK) > 10)
+	strcat(buf, "You are intoxicated.\r\n");
+    if (GET_COND(ch, FULL) == 0)
+	strcat(buf, "You are hungry.\r\n");
+    if (GET_COND(ch, THIRST) == 0)
+	strcat(buf, "You are thirsty.\r\n");
+    send_to_char(buf, ch);
+}
+
+-----------------------------------------------------------------------------
+This will produce a score that looks akin to this:
+
+Name : Cheron the Implementress
+Level: 115            Sex  : Female
+Align:    0           Class: Thief
+AC   : 100            Race : Human
+Age  : 17 years
+ (It's your birthday today)
+Played: 7 days and 9 hours
+Stats:
+--------------------------------------------
+Str: 18           |  500/ 500 HP
+Int: 18           |  100/ 100 Mana
+Wis: 18           |   82/  82 Moves
+Con: 18           | Gold: 0 
+Dex: 18           | Bank: 0 
+Cha: 28           | 
+--------------------------------------------
+EXP Gained: 100000000 Next Level: 0 
+You are standing.
+Affections: 
+ None.
+
+-or-
+
+Affections:  
+ Bless
+ Sanctuary
+You are hungry.
+You are thirsty.
+
+As per the standard disclaimer, I am not responsible for any damages this
+may do to your mud.
+If you use this snippet, please send me an email at cheron98@hotmail.com
+with the name and address of your mud, and include my name in the credits.
+
+Hope you like it!
+Cathy Gore
+aka
+Cheron
+

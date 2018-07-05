@@ -1,0 +1,51 @@
+***************
+*** 53,58 ****
+  
+  
+  /* prototypes for all do_x functions. */
+  ACMD(do_action);
+  ACMD(do_advance);
+  ACMD(do_alias);
+--- 53,60 ----
+  
+  
+  /* prototypes for all do_x functions. */
++ ACMD(do_auction);
++ ACMD(do_bid);
+  ACMD(do_action);
+  ACMD(do_advance);
+  ACMD(do_alias);
+***************
+*** 212,218 ****
+    { "applaud"  , POS_RESTING , do_action   , 0, 0 },
+    { "assist"   , POS_FIGHTING, do_assist   , 1, 0 },
+    { "ask"      , POS_RESTING , do_spec_comm, 0, SCMD_ASK },
+-   { "auction"  , POS_SLEEPING, do_gen_comm , 0, SCMD_AUCTION },
+    { "autoexit" , POS_DEAD    , do_gen_tog  , 0, SCMD_AUTOEXIT },
+  
+    { "bounce"   , POS_STANDING, do_action   , 0, 0 },
+--- 214,221 ----
+    { "applaud"  , POS_RESTING , do_action   , 0, 0 },
+    { "assist"   , POS_FIGHTING, do_assist   , 1, 0 },
+    { "ask"      , POS_RESTING , do_spec_comm, 0, SCMD_ASK },
++ /*  { "auction"  , POS_SLEEPING, do_gen_comm , 0, SCMD_AUCTION },*/
++   { "auction"  , POS_SLEEPING, do_auction  , 0, 0 },
+    { "autoexit" , POS_DEAD    , do_gen_tog  , 0, SCMD_AUTOEXIT },
+  
+    { "bounce"   , POS_STANDING, do_action   , 0, 0 },
+***************
+*** 221,226 ****
+    { "balance"  , POS_STANDING, do_not_here , 1, 0 },
+    { "bash"     , POS_FIGHTING, do_bash     , 1, 0 },
+    { "beg"      , POS_RESTING , do_action   , 0, 0 },
+    { "bleed"    , POS_RESTING , do_action   , 0, 0 },
+    { "blush"    , POS_RESTING , do_action   , 0, 0 },
+    { "bow"      , POS_STANDING, do_action   , 0, 0 },
+--- 224,230 ----
+    { "balance"  , POS_STANDING, do_not_here , 1, 0 },
+    { "bash"     , POS_FIGHTING, do_bash     , 1, 0 },
+    { "beg"      , POS_RESTING , do_action   , 0, 0 },
++   { "bid"      , POS_SLEEPING, do_bid	   , 0, 0 },
+    { "bleed"    , POS_RESTING , do_action   , 0, 0 },
+    { "blush"    , POS_RESTING , do_action   , 0, 0 },
+    { "bow"      , POS_STANDING, do_action   , 0, 0 },

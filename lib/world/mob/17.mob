@@ -1,0 +1,356 @@
+#1733
+Durk~
+&14D&00&06urk&00~
+&00A tall male &12t&00&06ru&14ff&00&06l&12e&00 sits here leaning agaisnt the mountain.&00
+~
+&14D&00&06urk&00.    
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1733
+T 1732
+#1740
+Truffle Scientist Assistant~
+&12T&14r&00&06u&00&04f&00&06f&14l&12e&15 Assistant&00~
+&12T&14r&00&06u&00&04f&00&06f&14l&12e&15 Assistant&00 stands here frustrated.
+~
+&12T&14r&00&06u&00&04f&00&06f&14l&12e&15 Assistant&00 stands here frustrated.
+He is Leslain assistant and works hard to please him.    
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1740
+#1744
+MACH Droid~
+&16M&00ACH &12D&15r&00o&16i&12d&00~
+&16M&00ACH &12D&15r&00o&16i&12d&00 stands here to testing weaponry.&00
+~
+&16M&00ACH &12D&15r&00o&16i&12d&00 created by the truffles to take over earth.
+  
+~
+10 0 0 E
+3000 -60 20 1d1+1100000 1d1+30000
+800 4500000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1745
+MACH Droid~
+&16M&00ACH &12D&15r&00o&16i&12d&00~
+&16M&00ACH &12D&15r&00o&16i&12d&00 stands here to testing weaponry.&00
+~
+&16M&00ACH &12D&15r&00o&16i&12d&00 created by the truffles to take over earth.
+  
+~
+10 0 0 E
+3000 -60 20 1d1+1200000 1d1+30000
+820 4600000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1746
+MACH Droid~
+&16M&00ACH &12D&15r&00o&16i&12d&00~
+&16M&00ACH &12D&15r&00o&16i&12d&00 stands here to testing weaponry.&00
+~
+&16M&00ACH &12D&15r&00o&16i&12d&00 created by the truffles to take over earth.
+  
+~
+10 0 0 E
+3000 -60 20 1d1+1300000 1d1+30000
+830 4700000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1747
+MACH Droid~
+&16M&00ACH &12D&15r&00o&16i&12d&00~
+&16M&00ACH &12D&15r&00o&16i&12d&00 stands here to testing weaponry.&00
+~
+&16M&00ACH &12D&15r&00o&16i&12d&00 created by the truffles to take over earth.
+  
+~
+10 0 0 E
+3000 -60 20 1d1+1400000 1d1+30000
+840 4800000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1748
+MACH Droid~
+&16M&00ACH &12D&15r&00o&16i&12d&00~
+&16M&00ACH &12D&15r&00o&16i&12d&00 stands here to testing weaponry.&00
+~
+&16M&00ACH &12D&15r&00o&16i&12d&00 created by the truffles to take over earth.
+  
+~
+10 0 0 E
+3000 -60 20 1d1+1500000 1d1+30000
+850 4900000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1750
+A Truffle Scientist~
+&12T&14r&00&06u&04f&00&06f&14l&12e&15 Scientist&00~
+&00A &12T&14r&00&06u&04f&00&06f&14l&12e&15 Scientist&00 stands here building Mach Droids.&00
+~
+&00A &12T&14r&00&06u&04f&00&06f&14l&12e&15 Scientist&00 who came from Vegeta to
+take over earth as there new home.    
+~
+10 0 0 E
+300 -60 10 1d1+65000 1d1+30000
+550 1000000
+8 8 0
+BareHandAttack: 12
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1759
+Tiny Robot~
+&00T&16iny &15R&16o&00bo&15t&00~
+&00A T&16iny &15R&16o&00bo&15t&00 wanders about.
+~
+&00A T&16iny &15R&16o&00bo&15t&00 created by the truffles.    
+~
+8 0 0 E
+1000 -40 10 1d1+8000000 1d1+8000
+950 15000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1765
+Tiny Robot~
+&00T&16iny &15R&16o&00bo&15t&00~
+&00A T&16iny &15R&16o&00bo&15t&00 wanders about.&00
+~
+   &00A tiny robot created by the truffles.  &00
+~
+8 0 0 E
+1000 -40 10 1d1+8000000 1d1+10000
+950 15000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1768
+Leslain~
+&14L&15e&00&05sla&15i&14n&00~
+&14L&15e&00&05sla&15i&14n&00 the Base Commander.
+~
+   &14L&15e&00&05sla&15i&14n&00 the Base Commander stands here.  He was
+comminished by the truffle King to Build this base on earth.    
+~
+10 0 0 E
+800000 -60 0 1d1+70000000 1d1+300000
+25000 70000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1768
+#1781
+Bio-Enhanced Oozaru~
+&10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00~
+&00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00 stands here chained to the wall.
+~
+&00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d
+&00&03O&09o&16z&00&03ar&00&01u&00 was captured by the truffle and infused with
+bio chemicals and memory wiped.    
+~
+10 0 0 E
+15000 -60 10 1d1+15000000 1d1+125000
+1000 12000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1782
+Bio-Enhanced Oozaru~
+&10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00~
+&00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00 stands here chained to the wall.
+~
+&00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d
+&00&03O&09o&16z&00&03ar&00&01u&00 was captured by the truffle and infused with
+bio chemicals and memory wiped.    
+~
+10 0 0 E
+15000 -60 10 1d1+15000000 1d1+125000
+1000 12000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1783
+Bio-Enhanced Oozaru~
+&10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00~
+&00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00 stands here chained to the wall.
+~
+   &00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d
+&00&03O&09o&16z&00&03ar&00&01u&00 was captured by the truffle and infused with
+bio chemicals and memory wiped.    
+~
+10 0 0 E
+15000 -60 10 1d1+15000000 1d1+125000
+1000 12000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1784
+Bio-Enhanced Oozaru~
+&10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00~
+&00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00 stands here chained to the wall.
+~
+&00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d
+&00&03O&09o&16z&00&03ar&00&01u&00 was captured by the truffle and infused with
+bio chemicals and memory wiped.    
+~
+10 0 0 E
+15000 -60 10 1d1+15000000 1d1+125000
+1000 12000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1785
+Bio-Enhanced Oozaru~
+&10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00~
+&00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d &00&03O&09o&16z&00&03ar&00&01u&00 stands here chained to the wall.
+~
+&00A &10B&16i&00o&15-&14I&10n&00f&16u&00s&10e&14d
+&00&03O&09o&16z&00&03ar&00&01u&00 was captured by the truffle and infused with
+bio chemicals and memory wiped.    
+~
+10 0 0 E
+15000 -60 10 1d1+15000000 1d1+125000
+1000 12000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1748
+#1786
+Yenji~
+&15Yenji&00~
+&15Yenji the tuffle stands here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+45000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1795
+Tiny Robot~
+&15T&16iny &00R&16o&00bo&15t&00~
+&00A &15T&16iny &00R&16o&00bo&15t&00 wanders about.
+~
+&00A &15T&16iny &00R&16o&00bo&15t&00 created by the truffles to help out around
+the base.    
+~
+8 0 0 E
+1000 -40 10 1d1+8000000 1d1+8000
+650 15000000
+8 8 0
+BareHandAttack: 4
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1799
+Rawn~
+&14R&00&05a&00&06w&14n&00~
+&14R&00&05a&00&06w&14n&00 the &12t&14r&00&06u&00&04f&00&06f&14l&12e&00 shopkeeper.&00
+~
+&14R&00&05a&00&06w&14n&00 the &12t&14r&00&06u&00&04f&00&06f&14l&12e&00
+shopkeeper has been illegally selling truffle weaponry.  He hails from vegeta
+and works with Durk.  &00
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

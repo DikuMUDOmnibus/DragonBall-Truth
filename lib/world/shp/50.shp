@@ -1,0 +1,44 @@
+CircleMUD v3.0 Shop File~
+#5088~
+5006
+5007
+5008
+5009
+5010
+5011
+5012
+5013
+5014
+5015
+5016
+5017
+5018
+5019
+5020
+5021
+-1
+1.00
+0.25
+11
+1
+3
+5
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5018
+0
+5088
+-1
+0
+28
+0
+28
+$~

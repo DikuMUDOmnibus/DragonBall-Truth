@@ -1,0 +1,653 @@
+#4800
+Frost's Claws~
+Frost's deadly claws~
+A pair of icer's claws are on the ground here.~
+~
+5 32 8193
+1000 1000 1000 8
+1 0 0
+A
+18 125
+A
+18 125
+A
+18 125
+A
+18 125
+A
+18 125
+A
+18 125
+#4801
+Saiya-Jin Armor~
+saiya-jin armor~
+An armor lies forgotten here.~
+~
+9 0 9
+10000 0 0 0
+5 0 0
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+#4802
+Tree Key~
+a key to the tree~
+A small wooden key lies here.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#4803
+King Yama's Tree~
+&15King &05Yama's&00 Tree~
+You see a large fruit bearing tree with bright orange peach-like fruits.~
+&15King &05Yama's&00 Tree
+~
+15 3 0
+2000 0 -1 0
+1000 0 0
+E
+Tree~
+   You see a large fruit bearing tree with &07bright &03orange&00, enormous, &11p&03e&11a&03c&11h&15-&00like fruits. The fruits glow with a bright orange 
+colour as little sparkles float around the tree.
+~
+#4806
+Goz Mez Coin~
+&09G&16o&15z M&16e&09z &16Coin&00~
+&15A &14S&00&15pa&00r&06k&00l&00&15in&00&14g&00 &15coin lies here.&00~
+~
+20 1 16385
+0 0 0 0
+1 0 0
+A
+6 2
+A
+1 1
+A
+2 1
+#4807
+&15A &16S&00&15il&16v&00&15e&00r &15filing cabinet&00~
+&15A &16S&00&15il&16v&00&15e&00r &15filing cabinet&00~
+&15A &16S&00&15il&16v&00&15e&00r &15filing cabinet with an open drawer is here.&00~
+   &15You see a standard filing cabinet with an open drawer.  Papers are strewn
+about in a sea of white.  &00
+~
+15 0 0
+250 1 -1 0
+0 0 0
+#4808
+Condemned List~
+&00&14L&00&06i&00&14s&00&14t &15of the &00Co&09nd&00&01e&00&09mn&00ed~
+&15A piece of paper with names lies here&00~
+Ozma the cheating whore who fears a better DBZ mud.
+Krono, Ozma's asskissing slut.
+Dodoria, the cowardly mutant.
+Metal Cooler, what a bitch to beat.
+Mike, the epitamy of douchery.
+Prisma, the "ima hack your shit" who never does shit.
+~
+16 3 16385
+0 0 0 0
+1 1000 0
+A
+9 1
+#4809
+wood table~
+an old damp wood table~
+An old wooden table sits here.~
+   You see an old damp wooden table.  The wood has rotted away.  It does not
+look very stable.  This seems odd to you because there are no chairs in the
+room.    
+~
+12 0 0
+0 0 0 0
+150 0 0
+#4810
+unfinished object~
+an unfinished object~
+An unfinished object is here.~
+You see an unfinished object.
+~
+1 0 1
+0 0 -1 0
+0 0 0
+#4811
+unfinished object~
+an unfinished object~
+An unfinished object is here.~
+   You see an unfinished object.    
+~
+1 0 1
+0 0 0 0
+0 0 0
+#4820
+Frost Armor~
+Frost's feet are white, with shiny purple plates of armor on each side of them.~
+Why is THIS on the ground?~
+You see Frost's hard exoskeleton.
+~
+9 65 65
+1000 0 0 0
+0 0 0
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+#4850
+Frost's Natural Armor~
+Frosts arms are purple~
+Why is THIS on the ground?~
+You see Frost's hard exoskeleton.
+~
+9 67 257
+1000 0 0 0
+1 0 0
+A
+1 100
+A
+2 100
+A
+3 100
+A
+4 100
+A
+5 100
+A
+6 100
+#4855
+Frost's Natural Armor~
+Frost's legs are purple~
+Why is THIS on the ground?~
+You see Frost's hard exoskeleton.
+~
+9 67 33
+1000 0 0 0
+1 0 0
+A
+19 125
+A
+19 125
+A
+19 125
+A
+19 125
+A
+19 125
+A
+19 125
+#4860
+Frost's Natural Armor~
+Frosts body is pure white, with huge shoulders.~
+Why is THIS on the ground?~
+You see Frost's hard exoskeleton.
+~
+9 67 9
+1000 0 0 0
+1 0 0
+A
+18 125
+A
+18 125
+A
+18 125
+A
+18 125
+A
+18 125
+A
+18 125
+#4861
+Frost's Natural Armor~
+Frost's neck is purple~
+Why is THIS on the ground?~
+You see Frost's hard exoskeleton.
+~
+9 3 5
+1000 0 0 0
+1 0 0
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+#4862
+Frost's Natural Armor~
+Frost's hands are purple with wicked claws on the ends~
+Why is THIS on the ground?~
+You see Frost's hard exoskeleton.
+~
+9 3 129
+1000 0 0 0
+1 0 0
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+#4863
+Frost's Natural Armor~
+Frost's middle finger~
+Why is THIS on the ground?~
+You see Frost's hard exoskeleton.
+~
+9 67 3
+1000 0 0 0
+1 0 0
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+#4864
+Frost's Natural Armor~
+Frost's wrists are white with shiny purple plates of armor on each side of them~
+A bit of unused power is here.~
+   You see an energy shield worn on the wrist.    
+~
+9 67 4097
+1000 0 0 0
+1 0 0
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+#4865
+Frost's Natural Shield~
+a shield of purple energy surrounds Frost~
+Why is THIS on the ground?~
+You see a natural shield, created by Frost's high powerlevel.
+~
+9 67 513
+1000 0 0 0
+1 0 0
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+#4866
+About Shield~
+an energy shield~
+A bit of unused energy lies here.~
+   You see an energy shield.    
+~
+9 99 1025
+1000 0 0 0
+1 0 0
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+#4867
+Waist Shield~
+an energy shield~
+A bit of unused energy lies here.~
+   You see an energy shield worn around the waist.    
+~
+9 99 2049
+1000 0 0 0
+1 0 0
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+A
+12 125
+#4868
+Fusion Earring~
+a Fusion Earring~
+A small earring is on the ground here.~
+~
+9 3 1
+0 0 0 0
+0 0 0
+#4870
+Cell's inpenitrable armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.~
+You see Cell's thick neck.
+~
+9 64 5
+2147483647 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4871
+Cell's impenitrable armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.~
+You see Cell's strange head.
+~
+9 64 17
+10000 0 0 0
+0 0 0
+A
+1 6
+A
+2 7
+A
+3 9
+A
+4 9
+A
+5 7
+A
+6 14
+#4872
+Cell's impenitrable armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.  Give it to Frost immediately.~
+You see Cell's feet.
+~
+9 64 65
+10000 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4873
+Cell's impenitrable skin/armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.~
+You seen Cells muscular arms.
+~
+9 64 257
+10000 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4874
+Cell's impenitrable skin/armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.~
+You see Cell's thick wrist.
+~
+9 64 4097
+10000 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4875
+Cell's impenitrable skin/armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.~
+You see Cell's muscular chest.
+~
+9 64 9
+10000 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4876
+Cell's impenitrable skin/armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.~
+You see Cell's muscular legs.
+~
+9 64 33
+10000 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4877
+Cell's impenitrable skin/armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.~
+You see Cell's strong hands.
+~
+9 64 129
+10000 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4878
+Cell's impenitrable skin/armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.~
+You see Cell's waist.
+~
+9 64 2049
+10000 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4879
+gold ring~
+a small white ring~
+A dull, dented ring lies here.~
+You see a seemingly worthless ring.
+~
+9 64 3
+10000 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4880
+Cell's impenitrable skin/armor~
+Cell's impenitrable skin/armor~
+This should NOT be here.~
+You see Cell's back.
+~
+9 64 1025
+10000 0 0 0
+0 0 0
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+A
+13 125
+#4881
+Energy light~
+a small ball of created light energy~
+A bit of unused power lies here.~
+You see a ball of light.
+~
+1 65 16385
+0 0 -1 0
+0 0 0
+#4882
+Silence's Armor~
+Silence's custom armor~
+A unique looking armor is on the ground here.~
+You see armor that was customly made for Silence.
+~
+9 0 9
+2147483647 0 0 0
+0 0 0
+A
+1 5
+A
+2 7
+A
+3 9
+A
+4 8
+A
+5 7
+A
+6 9
+#4898
+Cell's Fists~
+Cell's fists~
+Why is THIS on the ground?~
+You see Cell's hands.
+~
+5 32 8193
+100 5 50 13
+0 0 0
+#4899
+Frost Blade~
+an icy cold blade~
+A blade lies here, giving off a radius of cold.~
+~
+5 0 8193
+30 50 20 3
+8 0 0
+A
+9 20
+A
+1 3
+$~

@@ -1,0 +1,64 @@
+From: Brian Williams <bmw@efn.org>
+Subject: New Score
+
+ACMD(do_score)
+{
+  struct time_info_data playing_time;
+  struct time_info_data real_time_passed(time_t t2, time_t t1);
+
+  sprintf(buf, "                Score information for %s\r\n", GET_NAME(ch));
+  sprintf(buf, "%s\r\nLevel: %d   Race: %s    Class: %s     Sex: ", buf,
+                GET_LEVEL(ch), RACE_ABBR(ch), CLASS_ABBR(ch));
+  switch (GET_SEX(ch)) {
+    case SEX_MALE: strcat(buf, "Male\r\n"); break;
+    case SEX_FEMALE: strcat(buf, "Female\r\n"); break;
+    default: strcat(buf, "Neutral\r\n"); break;
+  }
+  sprintf(buf, "%sHit points: %d(%d)   Moves: %d(%d)   Mana: %d(%d)\r\n", buf,
+                GET_HIT(ch), GET_MAX_HIT(ch), GET_MOVE(ch), GET_MAX_MOVE(ch),
+                GET_MANA(ch), GET_MAX_MANA(ch));
+  sprintf(buf, "%sCoins carried:   &11%d gold&00\r\n", buf, GET_GOLD(ch));
+  sprintf(buf, "%sCoins in bank:   &11%d gold&00\r\n", buf, GET_BANK_GOLD(ch));
+  playing_time = real_time_passed((time(0) - ch->player.time.logon) +
+                ch->player.time.played, 0);
+  sprintf(buf, "%sPlaying time: %d days / %d hours.\r\n", buf, playing_time.day
+,
+                playing_time.hours);
+  sprintf(buf, "%sStatus: ", buf);
+  switch (GET_POS(ch)) {
+    case POS_DEAD: strcat(buf, "Dead.\r\n"); break;
+    case POS_MORTALLYW: strcat(buf, "Mortally wounded.\r\n"); break;
+    case POS_INCAP: strcat(buf, "Incapacitated.\r\n"); break;
+    case POS_STUNNED: strcat(buf, "Stunned.\r\n"); break;
+    case POS_SLEEPING: strcat(buf, "Sleeping.\r\n"); break;
+    case POS_RESTING: strcat(buf, "Resting.\r\n"); break;
+    case POS_SITTING: strcat(buf, "Sitting.\r\n"); break;
+    case POS_FIGHTING: strcat(buf, "Fighting.\r\n"); break;
+    case POS_STANDING: strcat(buf, "Standing.\r\n"); break;
+    default: strcat(buf, "Floating.\r\n"); break;
+  }
+  sprintf(buf, "%sEnchantments: ", buf);
+  if (IS_AFFECTED(ch, AFF_BLIND))
+    strcat(buf, "Blindness   ");
+  if (IS_AFFECTED(ch, AFF_INVISIBLE))
+    strcat(buf, "Invisible   ");
+  if (IS_AFFECTED(ch, AFF_DETECT_INVIS))
+    strcat(buf, "Detect Invis   ");
+  if (IS_AFFECTED(ch, AFF_SANCTUARY))
+    strcat(buf, "Sanctuary   ");
+  if (IS_AFFECTED(ch, AFF_POISON))
+    strcat(buf, "Poison   ");
+  if (affected_by_spell(ch, SPELL_ARMOR))
+    strcat(buf, "Armor   ");
+  if (IS_AFFECTED(ch, AFF_INFRAVISION))
+    strcat(buf, "Infravision   ");
+  strcat(buf, "\r\n");
+  if (GET_COND(ch, DRUNK) > 10)
+    strcat(buf, "You are intoxicated.\r\n");
+  if (GET_COND(ch, FULL) == 0)
+    strcat(buf, "You are hungry.\r\n");
+  if (GET_COND(ch, THIRST) == 0)
+    strcat(buf, "You are thirsty.\r\n");
+  send_to_char(buf, ch);
+}
+

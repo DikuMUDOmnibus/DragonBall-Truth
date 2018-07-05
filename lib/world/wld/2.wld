@@ -1,0 +1,1680 @@
+#200
+&00&04D&00&12a&00&14r&00&06k&00 &02F&00&10ores&00&02t&00~
+   &00&15The woods in this area are thick in these parts, making it dark and
+hard to see through.  &00
+~
+2 4 4
+D0
+You see nothing special.
+~
+~
+0 -1 201
+D2
+~
+~
+0 0 199
+S
+#201
+&00&04D&00&12a&00&14r&00&06k&00 &02F&00&10ores&00&02t&00~
+   &00&15The woods in this area are thick in these parts, making it dark and
+hard to see through.  &00
+~
+2 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 202
+D2
+You see nothing special.
+~
+~
+0 -1 200
+S
+#202
+&00&04D&00&12a&00&14r&00&06k&00 &02F&00&10ores&00&02t&00~
+   &00&15The woods in this area are thick in these parts, making it dark and
+hard to see through.  &00
+~
+2 4 0
+D0
+You see nothing special.
+
+~
+~
+0 -1 203
+D2
+You see nothing special.
+~
+~
+0 -1 201
+S
+#203
+&00&03H&00&02ug&00&03e&00 &15Clearing&00~
+   &00&15The area opens up to a huge, forgotten clearing.  Within the center of
+the huge clearing is an old, dilapidated church.  &00
+~
+2 4 0
+D0
+~
+~
+0 0 1500
+D2
+~
+~
+0 0 202
+S
+#204
+In a Cave~
+   This is a small cave, and not a very good place to be if you are in pk
+quest.  Better get out of here!  The only thing that can be seen if a few bats
+hanging from the wall.  The cave is like a maze, and very hard to determine
+where you are.  There are torches lit and hung on the walls for the appropriate
+amount of light to see.    
+~
+2 8 0
+D4
+You see nothing special.
+~
+~
+0 -1 203
+S
+#205
+In a Cave~
+   This is a small cave, and not a very good place to be if you are in pk
+quest.  Better get out of here!  The only thing that can be seen if a few bats
+hanging from the wall.  The cave is like a maze, and very hard to determine
+where you are.  There are torches lit and hung on the walls for the appropriate
+amount of light to see.    
+~
+2 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 206
+D3
+You see nothing special.
+~
+~
+0 -1 202
+S
+#206
+In a Cave~
+   This is a small cave, and not a very good place to be if you are in pk
+quest.  Better get out of here!  The only thing that can be seen if a few bats
+hanging from the wall.  The cave is like a maze, and very hard to determine
+where you are.  There are torches lit and hung on the walls for the appropriate
+amount of light to see.    
+~
+2 8 0
+D3
+You see nothing special.
+~
+~
+0 -1 205
+S
+#207
+In a Cave~
+   This is a small cave, and not a very good place to be if you are in pk
+quest.  Better get out of here!  The only thing that can be seen if a few bats
+hanging from the wall.  The cave is like a maze, and very hard to determine
+where you are.  There are torches lit and hung on the walls for the appropriate
+amount of light to see.    
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 208
+S
+#208
+In a Cave~
+   This is a small cave, and not a very good place to be if you are in pk
+quest.  Better get out of here!  The only thing that can be seen if a few bats
+hanging from the wall.  The cave is like a maze, and very hard to determine
+where you are.  There are torches lit and hung on the walls for the appropriate
+amount of light to see.    
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 209
+D2
+You see nothing special.
+~
+~
+0 -1 207
+S
+#209
+In a Cave~
+   This is a small cave, and not a very good place to be if you are in pk
+quest.  Better get out of here!  The only thing that can be seen if a few bats
+hanging from the wall.  The cave is like a maze, and very hard to determine
+where you are.  There are torches lit and hung on the walls for the appropriate
+amount of light to see.    
+~
+2 8 0
+D2
+You see nothing special.
+~
+~
+0 -1 208
+S
+#210
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 12 0
+D1
+You see nothing special.
+~
+~
+0 -1 211
+D3
+You see nothing special.
+~
+~
+0 -1 1332
+S
+#211
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 0 1
+D1
+You see nothing special.
+~
+~
+0 -1 212
+D3
+You see nothing special.
+~
+~
+0 -1 210
+S
+#212
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 213
+D3
+You see nothing special.
+~
+~
+0 -1 211
+S
+#213
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 8 0
+D2
+You see nothing special.
+~
+~
+0 -1 214
+D3
+You see nothing special.
+~
+~
+0 -1 212
+S
+#214
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 213
+D2
+You see nothing special.
+~
+~
+0 -1 215
+S
+#215
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 214
+D2
+You see nothing special.
+~
+~
+0 -1 216
+S
+#216
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 0 2
+D0
+You see nothing special.
+~
+~
+0 -1 215
+D2
+You see nothing special.
+~
+~
+0 -1 217
+S
+#217
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 216
+D2
+You see nothing special.
+~
+~
+0 -1 218
+S
+#218
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 8 2
+D0
+You see nothing special.
+~
+~
+0 -1 217
+D1
+You see nothing special.
+~
+~
+0 -1 219
+S
+#219
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 220
+D3
+You see nothing special.
+~
+~
+0 -1 218
+S
+#220
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 221
+D3
+You see nothing special.
+~
+~
+0 -1 219
+S
+#221
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 224
+D1
+You see nothing special.
+~
+~
+0 -1 222
+D3
+You see nothing special.
+~
+~
+0 -1 220
+S
+#222
+&00&03D&16ir&00&03t Road&00~
+   &15Churning black and brown mud covers the small path winding through this
+flat, barren field.  Any sign of vegetation has long disappeared, ground into
+the muck that gave it birth.  Large tire tracks slam across the field, winding
+to a distant structure to the east, and footprints have dug into the soil as
+they trudge onward through humid air and swarms of bugs.  &00
+~
+2 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 232
+D3
+You see nothing special.
+~
+~
+0 -1 221
+S
+#223
+&00&16P&00&15ar&00k&00&15in&00&16g Lot&00~
+   &15The only parking lot for three miles rests here, holding a multitude of
+pick-ups with inane bumper stickers, sleek spastic speed demon cars, a few
+motorcycles, and even one street bike.  &00
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 226
+D3
+You see nothing special.
+~
+~
+0 -1 224
+S
+#224
+&00&16P&00&15ar&00k&00&15in&00&16g Lot&00~
+   &15The only parking lot for three miles rests here, holding a multitude of
+pick-ups with inane bumper stickers, sleek spastic speed demon cars, a few
+motorcycles, and even one street bike.  &00
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 227
+D1
+You see nothing special.
+~
+~
+0 -1 223
+D2
+You see nothing special.
+~
+~
+0 -1 221
+D3
+You see nothing special.
+~
+~
+0 -1 225
+S
+#225
+&00&16P&00&15ar&00k&00&15in&00&16g Lot&00~
+   &15The only parking lot for three miles rests here, holding a multitude of
+pick-ups with inane bumper stickers, sleek spastic speed demon cars, a few
+motorcycles, and even one street bike.  &00
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 228
+D1
+You see nothing special.
+~
+~
+0 -1 224
+S
+#226
+&00&16P&00&15ar&00k&00&15in&00&16g Lot&00~
+   &15The only parking lot for three miles rests here, holding a multitude of
+pick-ups with inane bumper stickers, sleek spastic speed demon cars, a few
+motorcycles, and even one street bike.  &00
+~
+2 8 0
+D2
+You see nothing special.
+~
+~
+0 -1 223
+D3
+You see nothing special.
+~
+~
+0 -1 227
+S
+#227
+&00&16P&00&15ar&00k&00&15in&00&16g Lot&00~
+   &15The only parking lot for three miles rests here, holding a multitude of
+pick-ups with inane bumper stickers, sleek spastic speed demon cars, a few
+motorcycles, and even one street bike.  &00
+~
+2 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 226
+D2
+You see nothing special.
+~
+~
+0 -1 224
+D3
+You see nothing special.
+~
+~
+0 -1 228
+S
+#228
+&00&16P&00&15ar&00k&00&15in&00&16g Lot&00~
+   &15The only parking lot for three miles rests here, holding a multitude of
+pick-ups with inane bumper stickers, sleek spastic speed demon cars, a few
+motorcycles, and even one street bike.  &00
+~
+2 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 227
+D2
+You see nothing special.
+~
+~
+0 -1 225
+S
+#229
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &00&15This part of the paintball field is technically called the Woodsball
+Field.  But in all essence, its just a wooded area used to pla paintball in.  
+This is where the more experienced and older players play, using tactics and
+strategy other then how fast they can pull the trigger.  &00
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 230
+D1
+You see nothing special.
+~
+~
+0 -1 235
+S
+#230
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 231
+D1
+You see nothing special.
+~
+~
+0 -1 236
+D2
+Nothing.
+~
+~
+0 0 229
+S
+#231
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 1
+D0
+You see nothing special.
+~
+~
+0 -1 232
+D1
+You see nothing special.
+~
+~
+0 -1 237
+D2
+You see nothing special.
+~
+~
+0 -1 230
+D5
+~
+~
+0 0 -1
+S
+#232
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 233
+D1
+You see nothing special.
+~
+~
+0 -1 238
+D2
+You see nothing special.
+~
+~
+0 -1 231
+D3
+You see nothing special.
+~
+~
+0 -1 222
+S
+T 1005
+#233
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 234
+D1
+You see nothing special.
+~
+~
+0 -1 239
+D2
+You see nothing special.
+~
+~
+0 -1 232
+S
+T 1006
+#234
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 2
+D1
+You see nothing special.
+~
+~
+0 -1 240
+D2
+You see nothing special.
+~
+~
+0 -1 233
+S
+T 1007
+#235
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 236
+D1
+You see nothing special.
+~
+~
+0 -1 241
+D3
+You see nothing special.
+~
+~
+0 -1 229
+S
+#236
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 237
+D1
+You see nothing special.
+~
+~
+0 -1 242
+D2
+You see nothing special.
+~
+~
+0 -1 235
+D3
+You see nothing special.
+~
+~
+0 -1 230
+S
+#237
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 238
+D1
+You see nothing special.
+~
+~
+0 -1 243
+D2
+You see nothing special.
+~
+~
+0 -1 236
+D3
+You see nothing special.
+~
+~
+0 -1 231
+S
+#238
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 239
+D1
+You see nothing special.
+~
+~
+0 -1 244
+D2
+You see nothing special.
+~
+~
+0 -1 237
+D3
+You see nothing special.
+~
+~
+0 -1 232
+S
+#239
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 240
+D1
+You see nothing special.
+~
+~
+0 -1 245
+D2
+You see nothing special.
+~
+~
+0 -1 238
+D3
+You see nothing special.
+~
+~
+0 -1 233
+S
+#240
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 246
+D2
+You see nothing special.
+~
+~
+0 -1 239
+D3
+You see nothing special.
+~
+~
+0 -1 234
+S
+#241
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 242
+D1
+You see nothing special.
+~
+~
+0 -1 247
+D3
+You see nothing special.
+~
+~
+0 -1 235
+S
+#242
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 243
+D1
+You see nothing special.
+~
+~
+0 -1 248
+D2
+You see nothing special.
+~
+~
+0 -1 241
+D3
+You see nothing special.
+~
+~
+0 -1 236
+S
+#243
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 244
+D1
+You see nothing special.
+~
+~
+0 -1 249
+D2
+You see nothing special.
+~
+~
+0 -1 242
+D3
+You see nothing special.
+~
+~
+0 -1 237
+S
+#244
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 245
+D1
+You see nothing special.
+~
+~
+0 -1 250
+D2
+You see nothing special.
+~
+~
+0 -1 243
+D3
+You see nothing special.
+~
+~
+0 -1 238
+S
+#245
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 246
+D1
+You see nothing special.
+~
+~
+0 -1 251
+D2
+You see nothing special.
+~
+~
+0 -1 244
+D3
+You see nothing special.
+~
+~
+0 -1 239
+S
+#246
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 266
+D1
+You see nothing special.
+~
+~
+0 -1 252
+D2
+You see nothing special.
+~
+~
+0 -1 245
+D3
+You see nothing special.
+~
+~
+0 -1 240
+S
+#247
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 248
+D1
+You see nothing special.
+~
+~
+0 -1 253
+D3
+You see nothing special.
+~
+~
+0 -1 242
+S
+#248
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 249
+D1
+You see nothing special.
+~
+~
+0 -1 254
+D2
+You see nothing special.
+~
+~
+0 -1 247
+D3
+You see nothing special.
+~
+~
+0 -1 242
+S
+#249
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 250
+D1
+You see nothing special.
+~
+~
+0 -1 255
+D2
+You see nothing special.
+~
+~
+0 -1 248
+D3
+You see nothing special.
+~
+~
+0 -1 243
+S
+#250
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 251
+D1
+You see nothing special.
+~
+~
+0 -1 256
+D2
+You see nothing special.
+~
+~
+0 -1 249
+D3
+You see nothing special.
+~
+~
+0 -1 244
+S
+#251
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 252
+D1
+You see nothing special.
+~
+~
+0 -1 257
+D2
+You see nothing special.
+~
+~
+0 -1 250
+D3
+You see nothing special.
+~
+~
+0 -1 245
+S
+#252
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 258
+D2
+You see nothing special.
+~
+~
+0 -1 251
+D3
+You see nothing special.
+~
+~
+0 -1 246
+S
+#253
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 254
+D1
+You see nothing special.
+~
+~
+0 -1 259
+D3
+You see nothing special.
+~
+~
+0 -1 247
+S
+#254
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 255
+D1
+You see nothing special.
+~
+~
+0 -1 260
+D2
+You see nothing special.
+~
+~
+0 -1 253
+D3
+You see nothing special.
+~
+~
+0 -1 248
+S
+#255
+&09S&16c&15e&00na&15r&16i&09o &00&02F&03i&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 256
+D1
+You see nothing special.
+~
+~
+0 -1 261
+D2
+You see nothing special.
+~
+~
+0 -1 254
+D3
+You see nothing special.
+~
+~
+0 -1 249
+S
+#256
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 257
+D1
+You see nothing special.
+~
+~
+0 -1 262
+D2
+You see nothing special.
+~
+~
+0 -1 255
+D3
+You see nothing special.
+~
+~
+0 -1 250
+S
+#257
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 258
+D1
+You see nothing special.
+~
+~
+0 -1 263
+D2
+You see nothing special.
+~
+~
+0 -1 256
+D3
+You see nothing special.
+~
+~
+0 -1 251
+S
+#258
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 264
+D2
+You see nothing special.
+~
+~
+0 -1 257
+D3
+You see nothing special.
+~
+~
+0 -1 252
+S
+#259
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 260
+D3
+You see nothing special.
+~
+~
+0 -1 253
+S
+#260
+&00&03W&00&02oo&00&03ds&16ball&00 &02F&00&03i&00&11e&00&10l&00&02d&00~
+   &15This fancy name for this part of the paintball field is the Woodsball
+Field - however, in reality, it's just a wooded area for expert paintball
+players to have fun in, using tactics and strategy other then how fast they can
+pull the trigger.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 261
+D2
+You see nothing special.
+~
+~
+0 -1 259
+D3
+You see nothing special.
+~
+~
+0 -1 254
+S
+#261
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 262
+D2
+You see nothing special.
+~
+~
+0 -1 260
+D3
+You see nothing special.
+~
+~
+0 -1 255
+S
+#262
+&09S&00&16c&00&15e&00na&15r&00&16i&09o&00 &02F&00&03i&00&11e&10l&00&02d&00~
+   &15This section of the paintball field is the scenario field.  Old cars
+litter the landscape, their windows busted out and tires removed.  Felled trees
+serve as cover from vicious onslaughts, and a few mock up buildings provide a
+height advantage for those determined to fight it out wherever possible.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 263
+D2
+You see nothing special.
+~
+~
+0 -1 261
+D3
+You see nothing special.
+~
+~
+0 -1 256
+S
+#263
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 264
+D2
+You see nothing special.
+~
+~
+0 -1 262
+D3
+You see nothing special.
+~
+~
+0 -1 257
+S
+#264
+&14S&15u&16p' &14A&15i&00r &00&02F&03i&11e&10l&00&02d&00~
+   &14This area of the paintball field is the Sup' Air section, where large
+plastic barricades make up the protection the players need to make runs for the
+flag.  The high-tech feel of this place is why this is where the newer players
+usually flock to.  &00
+~
+2 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 263
+D3
+You see nothing special.
+~
+~
+0 -1 258
+S
+#265
+&10Lo&00&02un&00&10ge&00 &15Ar&00&16ea&00~
+   &14The regulars recline and relax here.  Strategies and previous games are
+discussed here over the player's preferred beverage.  Swampy is usually here,
+passed out on the couch.  &00
+~
+2 16 0
+D0
+You see nothing special.
+~
+~
+0 -1 268
+S
+#266
+&00&02D&10o&00&02c's&00 &16Ma&00&15ch&00ine~
+   &10This is Doc's Machine - a paintball shop, placed in the rear of the
+field, well out of the range of all but the silliest newbie's firing range.  
+It's not an overly huge shop, and Doc's living area is up the second floor.  
+&00
+~
+2 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 269
+D2
+You see nothing special.
+~
+~
+0 -1 246
+S
+#267
+&00&02Storage&00 Room~
+   &15This room is perfectly made to store tons of paintballs, markers, and
+other items from corroding, warping, and anything else that can damage
+equipment.    
+~
+2 16 0
+D0
+You see nothing special.
+~
+~
+0 -1 270
+S
+#268
+&12Wall&00 &15of&00 &04Markers&00~
+   &14Paintball guns, called markers by the players and sellers, are stacked
+here from the floor to the ceiling.  Almost every kind of marker is available
+here, with spots reserved for when the newest marker comes out.  &00
+~
+2 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 265
+D3
+You see nothing special.
+~
+~
+0 -1 269
+S
+#269
+&12Pa&00&04i&16nt&00&06b&10al&00&02l&00 Display~
+   &14Boxes and boxes of paintballs are stacked to the ceiling here.  The
+towers rise up to over seven feet tall, with almost every color imaginable
+stocked here.  Neon green is usually the best seller.  &00
+~
+2 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 272
+D1
+You see nothing special.
+~
+~
+0 -1 268
+D2
+You see nothing special.
+~
+~
+0 -1 266
+D3
+You see nothing special.
+~
+~
+0 -1 270
+S
+#270
+&00Display &15Case&00~
+   &14All the best items in the store are sold here.  The newest masks, markers
+and parts lie under the glass and around the room, accompanying the things Doc
+creates when he's hammered.  &00
+~
+2 16 0
+D1
+You see nothing special.
+~
+~
+0 -1 269
+D2
+You see nothing special.
+~
+~
+0 -1 267
+S
+#271
+&16R&00&03o&11ge&00&15r's&00 Of&15fi&00&16ce&00~
+   &14This is just a simple office, with a desk, a few photos on the wall, and
+a small TV in the corner.  On the desk is Roger's computer, pictures of his
+family, and his hidden Card Captures Sakura VHS tape behind his CPU.  &00
+~
+2 16 0
+D3
+You see nothing special.
+~
+~
+0 -1 272
+S
+#272
+&16Back&15room&00~
+   &14The heartbeat of this building, this is where all the work is done.  
+Roger's office, to the right, is usually the home of loud screams over the
+taxes.  The west houses Doc's milling room.  &00
+~
+2 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 271
+D2
+You see nothing special.
+~
+~
+0 -1 269
+D3
+You see nothing special.
+~
+~
+0 -1 273
+S
+#273
+&00&02D&00&10o&00&02c&00&10's&00 &16Mill Room&00~
+   &14This room smells highly of solder and Mountain Dew.  This is where Doc
+pays the bills, machining weapons for a generally good cost.  Parts and tools
+are scattered all over along with paintball guns - some of these markers
+haven't been touched for weeks, due to work overload.  Doc is usually in here
+from noon till whenever someone tells him it's game time.  &00
+~
+2 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 272
+S
+#274
+Under Construction~
+Under Construction
+~
+2 0 0
+S
+#275
+Under Construction~
+Under Construction
+~
+2 0 0
+S
+#276
+Under Construction~
+Under Construction
+~
+2 0 0
+S
+#277
+Under Construction~
+Under Construction
+~
+2 0 0
+S
+$~

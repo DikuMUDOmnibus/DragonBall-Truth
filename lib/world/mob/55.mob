@@ -1,0 +1,238 @@
+#5500
+Demonic Tree Ent~
+&09D&00&01e&00&05m&00&01o&16n&09i&00&01c &00&02T&10r&16e&00&02e &16E&00&05n&00&02t&00~
+&09D&00&01e&00&05m&00&01o&16n&09i&00&01c &00&02T&10r&16e&00&02e &16E&00&05n&00&02t&00 &15stands here, dripping blood.&00
+~
+   &00&05The Ent stands here, dripping sap and making strange gutteral noises.
+He doesn't look like someone you want to mess with.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+5000000 0d0+35000
+750 4500000
+8 8 1
+BareHandAttack: 8
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5501
+Alter Boy~
+&00&07A&00&04l&12t&11e&12r &12B&00&07o&11y&00~
+&15The &00&07A&00&04l&12t&11e&12r &12B&00&07o&11y&00 &15huddles here, quivering on the ground.&00
+~
+   &15A little alter boy lays in the dirt here.  He is shaking uncontrollably.
+His rags are torn and blood is smeared on them.  It looks as if he has been
+tortured by someone or something.  &00
+~
+10 0 0 E
+1000 -60 0 0d0+1000 0d0+200
+1 1
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5502
+Demonic Priest~
+&15D&00&01e&09m&00&07o&00&01n&09i&00&01c &12P&00&04r&11i&15e&00&04s&12t&00~
+&16Here stands the &15D&00&01e&09m&00&07o&00&01n&09i&00&01c &12P&00&04r&11i&15e&00&04s&12t&00&16, paying an offering to the &00&01Devil&16.&00
+~
+   &16The demonic priest stands here, paying tribute upon his alter.  He is
+unhuman and deformed.  It looks as if he might have been a man once, long ago,
+before he stumbled upon this twisted place.  &00
+~
+10 0 0 E
+500000 -60 0 0d0+65000000 0d0+125000
+10000 85000000
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5503
+Insane Zombie Walter~
+&00&05I&00&04n&00&01s&09a&00&01n&00&05e &15Z&00&01o&00&07m&00&01b&09i&00&01e&00~
+&15The &00&05I&00&04n&00&01s&09a&00&01n&00&05e &15Z&00&01o&00&07m&00&01b&09i&00&01e&00&15 is here, lurking in the corner&00.
+~
+   &16This zombie has been locked away for endless years, and you are his first
+visitor.  Blood smears the walls and his gaze is horrifying.  He stands in a
+corner making horrific noises and clawing at the walls.  For some unknown
+reason you have an odd feeling that his name is "Walter".  &00
+~
+10 0 0 E
+500000 -60 0 0d0+120000000 0d0+225000
+30000 120000000
+8 8 0
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5500
+T 5010
+#5504
+Vengeful Spirit~
+&16V&15e&16n&00&03g&16e&15fu&16l &15S&00&07p&00&04i&00&07r&00&04i&15t&00~
+&15A hideous creature, the &16V&15e&16n&00&03g&16e&15fu&16l &15S&00&07p&00&04i&00&07r&00&04i&15t&00&15, floats a few feet above the ground here.&00
+~
+   &15A hideous spirit floats a few feet above the ground before you.  It
+appears to be a silverish color and is covered in blood.  This poor spirit was
+damned by the priest to roam between the pillars of this forsaken place
+forever.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+10000000 0d0+45000
+1000 8000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5505
+Black Infernal~
+&16B&00&07l&15a&00&07c&16k &10I&00&02n&16f&10e&00&07r&00&02n&10a&00&16l&00~
+&15The &16B&00&07l&15a&00&07c&16k &10I&00&02n&16f&10e&00&07r&00&02n&10a&00&16l&15 blazes before you.&00
+~
+   &10Huge and ripped, this demon is black as night and except for its green
+flames that cast no light and its blood red eyes.  As it walks it leaves
+footprints that burn on the ground.  &00
+~
+8 0 0 E
+150000 -60 0 0d0+20000000 0d0+60000
+1250 15000000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5506
+Damned Hellspawn~
+&00&04D&00&05a&13m&00&04n&16e&00&05d &00&01H&09e&00&01ll&16s&09p&00&07a&00&09w&00&01n&00~
+&15A &00&04D&00&05a&13m&00&04n&16e&00&05d &00&01H&09e&00&01ll&16s&09p&00&07a&00&09w&00&01n&15 crawls around here.&00
+~
+   &00&01This creature roams the room looking for fresh meat.  Doglike in
+shape, it has razor sharp teeth and its skin looks as if it's made of molten
+lava that is continually swirling and sickening the eye.  &00
+~
+8 0 0 E
+125000 -60 0 0d0+15000000 0d0+50000
+1100 12000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5507
+Crippled Zombie~
+&16C&00&07r&15i&00&07pp&16l&00&07e&16d &15Z&00&01o&00&07m&00&01b&09i&00&01e&00~
+&15A &16C&00&07r&15i&00&07pp&16l&00&07e&16d &15Z&00&01o&00&07m&00&01b&09i&00&01e&00 staggers around here.&00
+~
+   &16Once a father and a middle-aged man, this zombie is forced to face
+damnation in these catacombs for eternity.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+30000000 0d0+75000
+2000 25000000
+8 8 1
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5508
+Female Zombie~
+&00&06F&00&05e&13m&00&05a&00&06l&00&05e &15Z&00&01o&00&07m&00&01b&09i&00&01e&00~
+&15A &00&06F&00&05e&13m&00&05a&00&06l&00&05e &15Z&00&01o&00&07m&00&01b&09i&00&01e&00&15 stands here.&00
+~
+   &00&05Old a frail, this zombie appears to be a women.  Her hair is long and
+is a huge tangled mess that is covered in blood.  Her body sags from the weight
+of her eternal damnation.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+15000000 0d0+65000
+1000 20000000
+8 8 2
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5509
+Deranged Zombie~
+&16D&00&03e&00&01r&16a&00&01n&00&03g&00&01e&16d &15Z&00&01o&00&07m&00&01b&09i&00&01e&00~
+&15A &16D&00&03e&00&01r&16a&00&01n&00&03g&00&01e&16d &15Z&00&01o&00&07m&00&01b&09i&00&01e&00&15 stands here, gnawing on its arm.&00
+~
+   &00&01This zombie walks around endlessly, dripping blood from many open
+wounds.  Its fingers are ground down to bone from clawing at the walls.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+40000000 0d0+75000
+2500 40000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5510
+"Kuvoc" the T3H 1337 Goat~
+&16"&09K&00&01u&16v&00&01o&09c&16" &16t&00&07h&15e &12T&00&043&00&07H &121&00&073&153&127 &15G&16o&00&07a&15t&00~
+&16"&09K&00&01u&16v&00&01o&09c&16" &16t&00&07h&15e &12T&00&043&00&07H &121&00&073&153&127 &15G&16o&00&07a&15t&00 &00&02grazes here.&00
+~
+   &00&02'Kuvoc' the goat grazes here, minding his own business.  He stomps his
+feet every now and then, pulling at clods of grass.  &00
+~
+10 0 0 E
+500000 -480 0 0d0+100000000 0d0+500000
+1 1
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 14500
+#5511
+Vaalsh~
+Vaalsh~
+Vaalsh the Beast stands here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+E
+#5515
+Noreai~
+&14Noreai, the Gods' Giver&00~
+&14Noreai sits here, selling items from the gods to the members.&00
+~
+Noreai looks up and smiles at you, pointing to several merchandise.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

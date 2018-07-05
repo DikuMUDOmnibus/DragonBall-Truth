@@ -1,0 +1,199 @@
+#200
+slave women woman~
+Sheer's hot slave~
+A hot, sexy slave stands here waiting for her master, Sheer.
+~
+   As you look at her you notice something starts to get bigger in your
+pants...  (If your a girl, this doesn't affect you)
+~
+16458 0 0 E
+1 19 20 1d1+0 1d1+1
+5000 2147483647
+8 8 2
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#201
+black bear~
+a black bear~
+a large black bear is here looking for food.
+~
+He is black, and very large.  Umm, and he looks pretty scary.
+~
+83978 0 0 E
+150 0 0 1d1000+0 2d127+70
+0 40000
+8 8 1
+BareHandAttack: 8
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#202
+man~
+a disguised man~
+a disguised man stands here covering his face.
+~
+You cannot really see him all that well, hence he is covering his face.
+~
+123016 0 1 E
+100 -20 0 5d1000+0 3d100+30
+900 35000
+8 8 1
+BareHandAttack: 13
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#210
+Sandra~
+&00&14S&00&15a&00n&14d&00r&15a&00~
+&00&14S&00&15a&00n&14d&00r&15a&00 is standing here, checking the inventory on on her clipboard.
+~
+   &14Here stands a beautiful red haired woman......  If you like fox-like
+women.  She's wearing a simple white t-shirt that hugs her curves and a pair of
+blue denim jeans, with a hole big enough to accompany her tail.  She's
+currently checking on how many autocockers they have in stock.    
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#211
+Jinx~
+&00J&00&11i&00&03n&00&11x&00~
+&00J&00&11i&00&03n&00&11x&00 is sitting here on the counter, looking at electrococker catalogs.
+~
+   &00&03The new kid in town, Doc has taken Jinx under his wing and has started
+to teach him the secrets of kicking tushy at paintball.  He usually gets
+distracted by the shiny new markers but has always favored the pump since Doc
+taught him how to use it.    
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#212
+Swampy~
+&00&02S&00&10w&00am&10p&00&02y&00~
+&00&02S&00&10w&00am&10p&00&02y&00 is lying here on the couch, zonked out as per the norm.
+~
+   &10Here lies Swamp "&00&02S&00&10w&00am&10p&00&02y&00&10" Fox.  Other then
+being a pretty good paintball player, he's usually the butt of Doc's jokes and
+Doc's staplegun technique.  If Swampy isnt asleep on this couch, he's usually
+stapled to the ceiling.    
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+4 4 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#213
+Roger~
+&16R&00&03o&00&11ge&00&15r&00~
+&16R&00&03o&00&11ge&00&15r&00 is sitting here at his desk, pulling at his hair trying to figure out Doc's taxes.
+~
+   &16Roger is sitting here, running his hands through his fur on the top of
+his head, his eyes bloodshot having stared at Doc's taxes for the last 7 hours.
+Better watch out, he might get out his "Attitude Readjustment Bat" and go pay
+Doc a visit.  &00
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 271
+#214
+Doc~
+&00&02D&00&10o&00&02c&00~
+&00&02D&00&10o&00&02c&00 is standing here, cursing under his breath about an autococker that won't work.
+~
+   &00&10Here's Doc, the owner of Doc's Machine, airsmith, and overall Mr.  
+Grumpy when he runs out of Mt.  Dew.  It's rumored that he had a blood to mt.
+Dew transfusion in a crazy experiment by Roger.  No one knows if its true.    
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#215
+newbie paintballer~
+&00&16N&00&14e&00wb&14i&00&16e&00 &03P&00&02a&00&10i&00&12n&00&04t&00&06b&00&14a&00l&15l&00&16e&00&03r&00~
+&00&16N&00&14e&00wb&14i&00&16e&00 &03P&00&02a&00&10i&00&12n&00&04t&00&06b&00&14a&00l&15l&00&16e&00&03r&00 is standing here, trying to figure out how to turn on his autococker.
+~
+   This kid is wearing brand new, untouched tournament equipment.  Thats a tell
+tale sign of fresh meat in these parts.    
+~
+8 0 0 E
+0 -40 0 1d1+150000 1d1+10000
+500 500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#216
+experienced paintballer~
+&00&05E&16x&00&15p&00e&13r&00&05i&00&13e&00n&15c&00&16e&00&05d&00 &03P&00&02a&00&10i&00&12n&00&04t&00&06b&00&14a&00l&15l&00&16e&00&03r&00~
+&00&05E&16x&00&15p&00e&13r&00&05i&00&13e&00n&15c&00&16e&00&05d&00 &03P&00&02a&00&10i&00&12n&00&04t&00&06b&00&14a&00l&15l&00&16e&00&03r&00 is crouching here, waiting for a barrage of paintballs to stop.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -60 0 1d1+1000000 1d1+30000
+700 3500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#217
+expert paintballer~
+&12E&16x&00p&15e&12r&00&04t&00 &03P&00&02a&00&10i&00&12n&00&04t&00&06b&00&14a&00l&15l&00&16e&00&03r&00~
+&12E&16x&00p&15e&12r&00&04t&00 &03P&00&02a&00&10i&00&12n&00&04t&00&06b&00&14a&00l&15l&00&16e&00&03r&00 is lying on the ground here, firing at other players.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -20 0 1d1+3000000 1d1+50000
+900 5000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

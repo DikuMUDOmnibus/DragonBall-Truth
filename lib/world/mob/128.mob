@@ -1,0 +1,1483 @@
+#12800
+Weight Lifting Demon~
+&16W&15ei&00&07g&15h&16t &00&07L&15i&16f&00&07t&15i&16n&00&07g &00&01D&09e&00&01m&09o&00&01n&00~
+&15A &16W&15ei&00&07g&15h&16t &00&07L&15i&16f&00&07t&15i&16n&00&07g &00&01D&09e&00&01m&09o&00&01n &15is curling thousand pounders here.&00
+~
+   &15This local demon seems to have been working out for years at this gym,
+displaying an easy going familiarity.  &00
+~
+8 0 0 E
+10000 0 0 0d0+350 0d0+40
+75 35000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12801
+Jogging Demon~
+&00&07J&15o&16g&00&07g&15i&16n&00&07g &00&01D&09e&00&01m&09o&00&01n&00~
+&15A &00&07J&15o&16g&00&07g&15i&16n&00&07g &00&01D&09e&00&01m&09o&00&01n &15jogs around the gym here.&00
+~
+   &15This female demon looks tired from a four hour jog around the gym.  &00
+~
+8 0 0 E
+10000 0 0 0d0+300 0d0+40
+100 25000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12802
+Gravedigger~
+&16Gr&00&06ave&16d&15i&00&06gge&16r&00~
+&15A &16Gr&00&06ave&16d&15i&00&06gge&16r &15roams around here, checking the graves.&00
+~
+   &15This is one of the many gravediggers paid to be ready to bury any dead
+tourists that may die from heat exposure.  &00
+~
+8 0 0 E
+10000 -20 0 0d0+5000 0d0+500
+200 200000
+8 8 1
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12803
+Local Male Demon~
+&11L&00&03oca&11l &12Male &00&01D&09e&00&01m&09o&00&01n&00~
+&15A &11L&00&03oca&11l &12Male &00&01D&09e&00&01m&09o&00&01n&15 wanders around here oblivious to the heat.&00
+~
+   &15This is a local demon out for a stroll along the streets.  &00
+~
+8 0 0 E
+1000 0 0 0d0+350 0d0+40
+25 30000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12804
+Local Female Demon~
+&11L&00&03oca&11l &13Female &00&01D&09e&00&01m&09o&00&01n&00~
+&15A &11L&00&03oca&11l &13Female &00&01D&09e&00&01m&09o&00&01n &15is running an errand here.&00
+~
+   &15This woman looks like she is rather busy.  &00
+~
+8 0 0 E
+10000 0 0 0d0+300 0d0+40
+110 28000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12805
+Pawnbroker~
+&11P&00&03awnbroke&11r&00~
+&15The &11P&00&03awnbroke&11r &15is sitting behind the counter here.&00
+~
+   &15This looks like a fiendish person, even by demon standards.  A money
+counter can be seen in front of him, counting stacks of money.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12806
+Trixy~
+&09T&00&05r&13i&00&05x&09y&00~
+&09T&00&05r&13i&00&05x&09y &15stands here, a fanged smile on her face.&00
+~
+   &15A bag of opened candy is always on the counter of this shop.  Trixy
+absolutly loves candy.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12807
+Demon Clerk~
+&00&01D&09e&00&01m&09o&00&01n &12C&00&06l&14e&00&06r&12k&00~
+&15The &00&01D&09e&00&01m&09o&00&01n &12C&00&06l&14e&00&06r&12k &15sits here with a bored face.&00
+~
+   &15This demon looks like he can't wait till he gets off of work.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12808
+Tony the overweight Demon~
+&11Tony &15the &09O&00&01verweigh&09t &00&01D&09e&00&01m&09o&00&01n&00~
+&11Tony &15the &09O&00&01verweigh&09t &00&01D&09e&00&01m&09o&00&01n &15sits here eating a burger.&00
+~
+   &15This demon has a set of fake black wings belted to his back, and is
+wearing an homemade costum of some kind....  What a dork.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12809
+Chef Spiknard~
+&00&07Ch&15e&00&07f &16S&00&02p&00&06i&10kn&00&06a&00&02r&16d&00~
+&00&07Ch&15e&00&07f &16S&00&02p&00&06i&10kn&00&06a&00&02r&16d &15is cutting up some roasted chicken here.&00
+~
+   &15This is the best Chef in all of the Next Dimension, or so he would say.
+&00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12811
+Kuvocian Cult Gatekeeper~
+&00&01K&09u&16voci&09a&00&01n &09C&16u&15l&00&07t &12Gatekeeper&00~
+&15The &00&01K&09u&16voci&09a&00&01n &09C&16u&15l&00&07t &12Gatekeeper &15is standing here with a blank stare.&00
+~
+   &15This gatekeeper looks fierce, she was chosen for her ability to spot
+intruders quickly.  She occasionaly gets caught up in the chanting heard from
+the otherside of the gate, and forgets about her duty.  &00
+~
+10 0 0 E
+20000 -60 0 0d0+625000 0d0+30000
+4000 4000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12812
+Kuvocian Cult Priest~
+&00&01K&09u&16voci&09a&00&01n &09C&16u&15l&00&07t &00&05P&00&04r&12ie&00&04s&00&05t&00~
+&15A &00&01K&09u&16voci&09a&00&01n &09C&16u&15l&00&07t &00&05P&00&04r&12ie&00&04s&00&05t &15is chanting here.&00
+~
+   &15This is a priest of the Kuvocian cult, holding a severed kai head that
+has been dehydrated.  These priests can't be reasoned with, they are completely
+devoted to the destruction of all matter.  &00
+~
+42 0 0 E
+30000 -40 0 0d0+1000000 0d0+30000
+2000 5000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12813
+Kuvocian Cult High Priest~
+&00&01K&09u&16voci&09a&00&01n &09C&16u&15l&00&07t &11H&00&03i&15g&00&07h &00&05P&00&04r&12ie&00&04s&00&05t&00~
+&15The &00&01K&09u&16voci&09a&00&01n &09C&16u&15l&00&07t &11H&00&03i&15g&00&07h &00&05P&00&04r&12ie&00&04s&00&05t &15is chanting here.&00
+~
+   &15This is the high priest of the Kuvocian Cult, standing here with a large
+spear ready to stab through the heart of a virgin kai sacrifice.  &00
+~
+10 0 0 E
+50000 -60 0 0d0+3000000 0d0+40000
+10000 10000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12801
+#12814
+Kai Virgin Sacrifice~
+&00&04K&12a&14i &13Vi&00&05rg&13in &09S&00&01a&16c&15r&00&07i&15f&16i&00&01c&09e&00~
+&15The &00&04K&12a&14i &13Vi&00&05rg&13in &09S&00&01a&16c&15r&00&07i&15f&16i&00&01c&09e &15writhes in here bondage here.&00&00
+~
+   &15This young virgin kai girl looks terrified as she struggles against her
+bindings.  There are small cuts on her arms and legs from where the cultists
+have started the bleeding process for their sacrifice.  &00
+~
+10 0 0 E
+100 10 0 0d0+5 0d0+200
+1 1
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12800
+#12815
+Kuvocian Cultist~
+&00&01K&09u&16voci&09a&00&01n &09Cu&16lt&15is&00&07t&00~
+&15A &00&01K&09u&16voci&09a&00&01n &09Cu&16lt&15is&00&07t &15 is smearing blood on the walls here.&00
+~
+   &15This is one of the members of the crazed Kuvocian cult.  &00
+~
+8 0 0 E
+25000 -40 0 0d0+50000 0d0+5000
+300 500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12816
+Crazed Kuvocian Cultist~
+&16C&15r&00&07az&15e&16d &00&01K&09u&16voci&09a&00&01n &09Cu&16lt&15is&00&07t&00~
+&15A &16C&15r&00&07az&15e&16d &00&01K&09u&16voci&09a&00&01n &09Cu&16lt&15is&00&07t &15is chanting and cutting himself here.&00
+~
+   &15This is one of the more fanatical of the Kuvocian cultists, very
+dangerous.  &00
+~
+40 1024 0 E
+25000 -40 0 0d0+100000 0d0+5000
+400 1000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12817
+Innerfire Fourth Demon~
+&00&01I&09n&16n&15e&00&07r&15f&16i&09r&00&01e &11F&00&03ourt&11h &00&01D&09e&00&01m&09o&00&01n&00~
+&15A &00&01I&09n&16n&15e&00&07r&15f&16i&09r&00&01e &11F&00&03ourt&11h &00&01D&09e&00&01m&09o&00&01n &15is standing here with his feet buring stone into lava.&00
+~
+   &15No one knows where this demon came from, or how it managed to tap so far
+into it's powers but it is said that Kuvoc gave him his power directly.  This
+demon has several words carved into it's chest in the demon language simply
+translated they read "I vow to kill Iovan unto my last breath.  "&00
+~
+10 0 0 E
+800000 -130 0 0d0+285000000 0d0+500000
+200000 125000000
+8 8 0
+BareHandAttack: 14
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12818
+Profiteering Cultist~
+&11Pr&00&03of&16it&15ee&00&07ring &09Cu&16lt&15is&00&07t&00~
+&15The &11Pr&00&03of&16it&15ee&00&07ring &09Cu&16lt&15is&00&07t &15is sitting here whittling an idol.&00
+~
+   &15This cultists has taken a liking to selling cult items.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12819
+Young female Demon~
+&11Young &13female &00&01D&09e&00&01m&09o&00&01n&00~
+&15A &11Young &13female &00&01D&09e&00&01m&09o&00&01n &15is talking on a phone here.&00
+~
+   &15This demon is barely a teenager.  &00
+~
+8 0 0 E
+1000 0 0 1d1+200 1d1+200
+30 15000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12820
+Young male Demon~
+&11Young &12male &00&01D&09e&00&01m&09o&00&01n&00~
+&15A &11Young &12male &00&01D&09e&00&01m&09o&00&01n &15is hoverboarding here.&00
+~
+   &15This young demon is riding on a foreign recreational vehicle, he
+apparently has caught onto a recent fad.  &00
+~
+8 0 0 E
+200 0 0 1d1+300 1d1+45
+45 17000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12821
+Konos Hermit Smith~
+&12Konos &11Hermit &15the &16S&15mi&00&07th&00~
+&12Konos &11Hermit &15the &16S&15mi&00&07th &15is hammering a red hot blade here.&00
+~
+   &15This old konatsu has been living out in the wilderness for many years.  
+His customers have been few, but he just loves to make swords, and he makes the
+best in the known universe.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12805
+T 12806
+T 12808
+#12822
+Konos Hermit Smith~
+&11Konos &12Hermit &15the &16S&15mi&00&07th&00~
+&11Konos &12Hermit &15the &16S&15mi&00&07th &15is hammering some ore here.&00
+~
+   &15This hermit is hard at work on a new blade right now.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12807
+#12823
+Sprout Fish~
+&10S&00&02prou&10t &15F&00&06i&14s&00&07h&00~
+&15A &10S&00&02prou&10t &15F&00&06i&14s&00&07h &15lazily swims here.&00
+~
+   &15This is a strange type of aquatic creature that has a rare type of plant
+growing under it's scales.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+6250000 0d0+70000
+810 5250000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12824
+Bjorsh~
+&00&03B&16j&15or&16s&00&03h&00~
+&15A &00&03B&16j&15or&16s&00&03h &15is scrounging up some grub here.&00
+~
+   &15This strange four legged animal is a scavenger.  It it's anything dead or
+particularly easy to kill whenever it finds them.  It has a long rubbery snout
+that is used to strangle small prey or to whip at threats.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+7000000 0d0+70000
+850 6500000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12825
+Greshel~
+&00&02G&10r&11esh&10e&00&02l&00~
+&15A &00&02G&10r&11esh&10e&00&02l &15lays lazily here.&00
+~
+   &15This large herbovore is known to sleep a lot in the sunlight.  This
+meadow has made a great gathering place for all local Greshel such as this one.
+&00
+~
+10 0 0 E
+50000 -60 0 0d0+620000 0d0+30000
+620 2200000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12826
+Merry~
+&00&05M&13erry&00~
+&00&05M&13erry &15the hyperactive food clerk.&00
+~
+   &15This konatsu loves food, and selling it too.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12827
+Squall Leonheart~
+&00&07S&15q&16ua&15l&00&07l&00~
+&00&07S&15q&16ua&15l&00&07l &15sits here sharpening his gunblade.&00
+~
+   &15This strange human doesn't seem to be familiar with this dimension, and
+in fact claims to be from another altogether.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12828
+Slick~
+&16S&15l&00&07ick&00~
+&16S&15l&00&07ick &15the pawnbroker stands here.&00
+~
+   &15This konatsu seems to have built an entire life around this pawnshop and
+it's business.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12829
+Dir~
+&09D&00&01i&09r&00~
+&09D&00&01i&09r &15the pawnbroker stands here.&00
+~
+   &15This young saiyan has taken up the seedy and dangerous job of being a
+pawnbroker on Vegeta.  Many pawnbrokers have tried, but most never survive
+their first month.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12830
+Tron~
+&00&07T&11r&00&03o&00&07n&00~
+&00&07T&11r&00&03o&00&07n &15the pawnbroker stands here, counting money.&00
+~
+   &15This looks like an unusually successful pawnbroker.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12831
+Teryal~
+&00&07T&15erya&00&07l&00~
+&12M&00&04aste&12r &00&07T&15erya&00&07l &15sits here.&00
+~
+   &15This is one of the best swordsmen on all of Konack or even in the whole
+universe.  &00
+~
+10 0 0 E
+300000 -60 0 0d0+20000000 0d0+125000
+12000 20000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12810
+#12832
+Juanita~
+&13J&00&05uanit&13a&00~
+&13J&00&05uanit&13a &15is cleaning the counter here.&00
+~
+   &15This is the best mexican chef to ever grace Konack.  And her success
+shows it.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12833
+Supply-mart Clerk~
+&15S&00&07uppl&15y&16-&12m&00&04ar&12t &14C&00&06ler&14k&00~
+&15The &15S&00&07uppl&15y&16-&12m&00&04ar&12t &14C&00&06ler&14k &15is sitting here leafing through a magazine.&00
+~
+   &15This is a local joe smoe, hired to run the Supply-mart during it's non
+busy hours.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12834
+Tina~
+&13T&00&05i&00&04n&12a&00~
+&13T&00&05i&00&04n&12a &15stands here, with a smile on her face.&00
+~
+   &15Tina has owned this jewelry shop for many years now, and has been rather
+successful at running it.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12835
+Pai Mae~
+&09P&00&01a&09i &12M&00&04a&12e&00~
+&09P&00&01a&09i &12M&00&04a&12e &15sits here, drinking an exotic wine.&00
+~
+   &15It is unkown where this guy came from or where he got his name.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12836
+Male Tetsigen Citizen~
+&12Male &15T&00&07et&10si&00&07ge&15n &16C&15i&00&07tiz&15e&16n&00~
+&15A &12Male &15T&00&07et&10si&00&07ge&15n &16C&15i&00&07tiz&15e&16n &15is walking here.&00
+~
+   &15This male konatsu is out taking care of some business.  &00
+~
+8 0 0 E
+1000 -10 0 0d0+2000 0d0+40
+45 19000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12837
+Female Tetsigen Citizen~
+&13Female &15T&00&07et&10si&00&07ge&15n &16C&15i&00&07tiz&15e&16n&00~
+&15A &13Female &15T&00&07et&10si&00&07ge&15n &16C&15i&00&07tiz&15e&16n &15is waiting for something here.&00
+~
+   &15This is a normal citizen of Tetsigen, out doing whatever is needed.  &00
+~
+8 0 0 E
+1000 -10 0 0d0+2000 0d0+45
+45 19000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12838
+Young Male Tetsigen Citizen~
+&11Young &12Male &15T&00&07et&10si&00&07ge&15n &16C&15i&00&07tiz&15e&16n&00~
+&15A &11Young &12Male &15T&00&07et&10si&00&07ge&15n &16C&15i&00&07tiz&15e&16n &15is sitting on the curb here.&00
+~
+   &15This teenage konatsu doesn't seem very interested in anything but their
+current popular culture.  &00
+~
+8 0 0 E
+2000 -10 0 0d0+1000 0d0+45
+45 12000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12839
+Young Female Tetsigen Citizen~
+&11Young &13Female &15T&00&07et&10si&00&07ge&15n &16C&15i&00&07tiz&15e&16n&00~
+&15A &11Young &13Female &15T&00&07et&10si&00&07ge&15n &16C&15i&00&07tiz&15e&16n &15is talking on a cell phone here.&00
+~
+   &15This teenage konatsu doesn't pay attention to anything but her phone most
+of the time.  &00
+~
+8 0 0 E
+1000 -10 0 0d0+1000 0d0+45
+50 12000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12840
+Smelly Konatsu Bum~
+&00&02S&10m&00&06e&10l&00&02l&10y &00K&15o&16nat&15s&00u &03B&01u&03m&00~
+&15A &00&02S&10m&00&06e&10l&00&02l&10y &00K&15o&16nat&15s&00u &03B&01u&03m&00 &15is slowly walking down the street.&00
+~
+   &15This konatsu has given up on a working life.  &00
+~
+8 0 0 E
+2000 -20 0 0d0+30000 0d0+300
+1 45000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12841
+Tetsigen Warrior~
+&15T&00&07et&10si&00&07ge&15n &09W&00&01arrio&09r&00~
+&15A &15T&00&07et&10si&00&07ge&15n &09W&00&01arrio&09r &15is standing rigidly here.&00
+~
+   &15This warrior has recently completed his training and is working on
+guarding the village.  &00
+~
+8 0 0 E
+50000 -60 0 0d0+200000 0d0+30000
+200 400000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12842
+Headless Warrior Ghost~
+&04H&12e&14adl&14e&12s&00&04s &09W&00&01arrio&09r &00&07G&15hos&00&07t&00~
+&15A &04H&12e&14adl&14e&12s&00&04s &09W&00&01arrio&09r &00&07G&15hos&00&07t &15is wandering aimlessly here.&00
+~
+   &15This ghost unlike the rest on this battlfield is strangly silent.  It
+searchs the ground for a suitable head to replace it's lost one, as it has for
+centuries past.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+8000000 0d0+70000
+865 6500000
+8 8 1
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12843
+Hopeless Warrior Ghost~
+&00&03H&16o&15p&00&07el&15e&16s&00&03s &09W&00&01arrio&09r &00&07G&15hos&00&07t&00~
+&15A &00&03H&16o&15p&00&07el&15e&16s&00&03s &09W&00&01arrio&09r &00&07G&15hos&00&07t &15is wailing here.&00
+~
+   &15This ghost dispairs of everything, and attacks anything living with it's
+spectral katana.  &00
+~
+8 0 0 E
+300000 -60 0 0d0+9000000 0d0+70000
+870 7000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12844
+Grey Ninja Konatsu~
+&00&07G&15re&00&07y &00&04N&16i&15n&16j&00&04a &00&07K&15o&16nat&15s&00&07u&00~
+&15A &00&07G&15re&00&07y &00&04N&16i&15n&16j&00&04a &00&07K&15o&16nat&15s&00&07u &15is prowling here.&00
+~
+   &15This is one of the lowest levels of the Tetsigen Ninja Order.  &00
+~
+8 0 0 E
+300000 -60 0 0d0+650000 0d0+30000
+750 2200000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12845
+Green Ninja Konatsu~
+&10G&00&02ree&10n &00&04N&16i&15n&16j&00&04a &00&07K&15o&16nat&15s&00&07u&00~
+&15A &10G&00&02ree&10n &00&04N&16i&15n&16j&00&04a &00&07K&15o&16nat&15s&00&07u &15is pressed against a wall here.&00
+~
+   &15This ninja has mastered the way of stealth, and is able to move from room
+to room without a sound.  &00
+~
+8 262144 0 E
+200000 -60 0 0d0+700000 0d0+30000
+725 2500000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12846
+Red Ninja Konatsu~
+&09R&00&01e&09d &00&04N&16i&15n&16j&00&04a &00&07K&15o&16nat&15s&00&07u&00~
+&15A &09R&00&01e&09d &00&04N&16i&15n&16j&00&04a &00&07K&15o&16nat&15s&00&07u &15is standing calmly.&00
+~
+   &15You know this ninja is here only because he wants you to.  &00
+~
+10 1152 0 E
+500000 -60 0 0d0+30000000 0d0+125000
+30000 30000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12814
+#12847
+Gate Samurai~
+&16G&15a&00&07t&15e &00&01S&09a&16m&15u&16r&09a&00&01i&00~
+&15The &16G&15a&00&07t&15e &00&01S&09a&16m&15u&16r&09a&00&01i &15is standing at attention here.&00
+~
+   &15This Samurai from the Otori Castle makes sure only people who pay the
+toll can use the tunnel.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12812
+T 12813
+#12848
+Shnarl~
+&09S&00&01h&16na&00&01r&09l&00~
+&15A &09S&00&01h&16na&00&01r&09l &15is digging in the sand here.&00
+~
+   &15This strange mole like creature manages to live in the otherwise harsh
+desert.  &00
+~
+8 0 0 E
+300000 -60 0 0d0+9500000 0d0+70000
+700 8000000
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12850
+Trans-Dimensional Transport Pilot~
+&12T&00&04ra&01n&09s&16-&15D&16i&00&07m&16en&15s&16i&00&07o&16n&15a&16l &15T&16r&00&07anspo&16r&15t &14P&16ilo&14t&00~
+&15A &12T&00&04ra&01n&09s&16-&15D&16i&00&07m&16en&15s&16i&00&07o&16n&15a&16l &15T&16r&00&07anspo&16r&15t &14P&16ilo&14t&15 stands here, waiting for passengers.&00
+~
+It looks unfinished.
+~
+254026 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12850
+T 12851
+#12851
+Volcano Rat~
+&00&01V&09o&15l&00&01c&16a&09n&11o&16 &00&03R&16a&00&03t&00~
+&15A &00&01V&09o&15l&00&01c&16a&09n&11o&16 &00&03R&16a&00&03t &15scurries here.&00
+~
+   &15This strange rat has an affinity for rare minerals found in the volcano,
+it likes to store them for food when times get hard.  &00
+~
+8 0 0 E
+500000 -60 0 0d0+25000000 0d0+150000
+1500 20000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12852
+Volcano Worm~
+&00&01V&09o&15l&00&01c&16a&09n&11o &10W&11o&00&02r&10m&00~
+&15A &00&01V&09o&15l&00&01c&16a&09n&11o &10W&11o&00&02r&10m &15crawls slowly here.&00
+~
+   &15This is the long loast cousin of the lava worm.  It has completely
+adapted to this horrible volcano.  &00
+~
+8 0 0 E
+500000 -60 0 0d0+30000000 0d0+150000
+2000 25000000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12853
+Valshek Dactyl~
+&00&02V&10a&00&06lsh&10e&00&02k &16D&00&03a&00&01ct&16y&00&03l&00~
+&15A &00&02V&10a&00&06lsh&10e&00&02k &16D&00&03a&00&01ct&16y&00&03l &15is perched here.&00
+~
+   &15This strange perhistoric bird is perched upon a rock here.  &00
+~
+8 0 0 E
+500000 -60 0 0d0+40000000 0d0+200000
+2500 30000000
+8 8 0
+BareHandAttack: 14
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12854
+Bahamut~
+&16B&00&06a&14h&15a&16m&00&06u&14t&00~
+&16B&00&06a&14h&15a&16m&00&06u&14t &15King of dragons stands here.&00
+~
+   &15This dragon is huge, and doesn't appear to friendly to new comers who
+invade it's perch.  &00
+~
+8 0 0 E
+800000 -60 0 0d0+200000000 0d0+400000
+50000 100000000
+8 8 0
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12818
+#12855
+Fire Worshiping Konatsu~
+&00&01F&09i&00&03r&11e &12W&00&04orshipin&12g &00&07K&15o&16na&15ts&00&07u&00~
+&15A &00&01F&09i&00&03r&11e &12W&00&04orshipin&12g &00&07K&15o&16na&15ts&00&07u &15dances a crazy dance here.&00
+~
+   &15This konatsu along with the rest of his order have taken to the crazy art
+of living in the volcano.  The gases have just about ruined his lungs, but he
+worships the volcano and it's fire never the less.  &00
+~
+8 0 0 E
+600000 -60 0 0d0+45000000 0d0+200000
+2750 32500000
+8 8 0
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12856
+Ifrit~
+&16I&00&01f&09r&11i&00&01t&00~
+&16I&00&01f&09r&11i&00&01t &15the great fire monster.&00
+~
+   &15This monster is the king of all fire.  So you had better watch out, this
+lava is nothing more than a warm bath to him.  &00
+~
+10 0 0 E
+800000 -60 0 0d0+92000000 0d0+300000
+35000 90000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12817
+#12857
+Larry~
+&11Larry&00~
+&11Larry &15the supply shop clerk stands here.&00
+~
+   &15Larry has been running this shop for forty years, and doesn't seem ready
+to retire yet.  &00
+~
+10 0 0 E
+100000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12858
+Ticker Clerk~
+&11T&00&03i&16c&15k&00&07er &14C&00&06l&16e&15r&00&07k&00~
+&15The &11T&00&03i&16c&15k&00&07er &14C&00&06l&16e&15r&00&07k &15is standing here, selling tickets.&00
+~
+   &15This clerk is selling tickets to a horror movie.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12823
+#12859
+Teenage Girl~
+&14T&00&06eenag&14e &13Girl&00~
+&15A &14T&00&06eenag&14e &13Girl &15is waiting for a ticket here.&00
+~
+   &15She doesn't look very patient as she looks at all the movie posters and
+waits to get in to buy a ticket.  &00
+~
+10 0 0 E
+300 0 0 0d0+300 0d0+45
+110 18000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12860
+Local Man~
+&11L&00&03o&16c&15a&00&07l &12Man&00~
+&15A &11L&00&03o&16c&15a&00&07l &12Man &15is sitting here watching the movie.&00
+~
+   &15This man seems to be interested in the movie, and jumps occasionally at a
+suspensful part of the movie.  &00 redit 2
+~
+10 0 0 E
+200 0 0 0d0+450 0d0+50
+500 35000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12861
+Freddy Kruger~
+&09F&00&01r&16e&15d&00&07dy &10K&00&02r&16u&15g&00&07er&00~
+&09F&00&01r&16e&15d&00&07dy &10K&00&02r&16u&15g&00&07er &15is cackling here.&00
+~
+&15This is either some dorky immitator who actually manages to pull off the
+look, or the real Freddy Kruger has jumped out of the movies.  &00
+~
+10 0 0 E
+100000 -60 0 0d0+200000 0d0+800
+2000 1200000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12822
+#12862
+Pizza Hut Cashier~
+&09P&00&01i&00&02z&11z&09a &16H&15u&00&07t &12C&00&04a&16s&15h&00&07ier&00~
+&15The &09P&00&01i&00&02z&11z&09a &16H&15u&00&07t &12C&00&04a&16s&15h&00&07ier &15is ready to take an order here.&00
+~
+&15This person seems to love their job.&00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12863
+Narg~
+&16N&00&01a&09r&15g&00&01&00~
+&16N&00&01a&09r&15g&00&01 &14the old saiyan smith.&00
+~
+   &15This smith seems to have been doing his work forever.  He is barely able
+to get around anymore, but soon as he picks up a hammer just watch him go.  No
+one can craft metal like he.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12830
+T 12831
+T 12832
+#12864
+Bayly~
+&00&05B&13a&00&05y&16l&00&05y&00~
+&00&05B&13a&00&05y&16l&00&05y &15stands behind the bar here.&00
+~
+&15This is one strange pub keeper&00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12865
+Gus~
+&00&06G&14u&00&07s&00~
+&00&06G&14u&00&07s &15the jock stands here, flexing.&00
+~
+   &15This dude is crazy for fitness.  Just watch him try and hook you up with
+some kind of sports equipment.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12866
+Fred~
+&14Fred&00~
+&14Fred&00&15, the caffiene addicted cafe owner.&00
+~
+&15This dude loves coffee. Maybe too much.&00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12870
+Wretched Begger~
+&00&03W&11r&00&01e&00&03tche&11d &16B&00&07e&15g&00&07g&16e&00&07r&00~
+&15A &00&03W&11r&00&01e&00&03tche&11d &16B&00&07e&15g&00&07g&16e&00&07r &15scans the ground, hoping to find some cash.&00
+~
+   &15The beggar is covered in old, grimey clothes that look like they have
+seen more than a few hard winters.  An awful scent hangs over him and it is
+obvious to tell that he desperately needs a bath.  &00
+~
+8 0 0 E
+1 0 0 0d0+12000 0d0+40
+1 28000
+8 8 1
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12871
+Police Officer~
+&12P&00&04o&12l&15i&12c&00&12e &12O&00&04f&15f&00&04i&12c&15e&00&04r&00~
+&15A &12P&00&04o&12l&15i&12c&00&12e &12O&00&04f&15f&00&04i&12c&15e&00&04r &15stands here, watching for trouble.&00
+~
+   &15The Police Officer stands with pride, happy to serve Nexus City.  He is
+keen, and watches vigilantly for any signs of trouble.  His shiny badge gleams
+on his breast as he swings his nightstick from hand to hand.  &00
+~
+8 0 0 E
+100 0 0 0d0+550 0d0+40
+0 27000
+8 8 1
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12872
+Beautiful Woman~
+&13B&00&05e&13a&09u&13t&00&05i&13f&09u&13l &00&04W&13o&00&05m&00&04a&00&05n&00~
+&15A &13B&00&05e&13a&09u&13t&00&05i&13f&09u&13l &00&04W&13o&00&05m&00&04a&00&05n &15is here, strutting around.&00
+~
+   &15This women is incredibly beautiful and has curves in all the right
+places.  She is wearing a tight top and a short mini-skirt and you can't help
+but to look at her.  &00
+~
+8 0 0 E
+100 0 0 0d0+450 0d0+40
+85 30000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12873
+Blue Ninja Konatsu~
+&12B&00&04lu&12e &00&04N&16i&15n&16j&00&04a &00&07K&15o&16nat&15s&00&07u&00~
+&15The &12B&00&04lu&12e &00&04N&16i&15n&16j&00&04a &00&07K&15o&16nat&15s&00&07u &15is standing here.&00
+~
+   &15This is the first instructor on the way of the shadow konatsu.  This
+entire cave is a school on the sneakier konatsu skills.  While non konatsus are
+allowed in to train, none are ever given membership.  &00
+~
+10 0 0 E
+200000 -60 0 0d0+6500000 0d0+70000
+3000 6500000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12811
+#12874
+Business Man~
+&16B&00&06u&00&07s&00&04i&00&06n&16e&00&07s&00&04s &00&07M&16a&15n&00~
+&15A &16B&00&06u&00&07s&00&04i&00&06n&16e&00&07s&00&04s &00&07M&16a&15n &15stands here, adjusting his tie.&00
+~
+   &15A well-dressed business man stands here, wearing a suit and tie.  He
+carries a brief case in one hand and stylish hat in the other.  He looks to be
+somewhat nervous as he shifts his weight from foot to foot.  &00
+~
+8 0 0 E
+100 0 0 0d0+500 0d0+40
+100 31000
+8 8 1
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12875
+Hobbling Old Man~
+&00&03H&00&01o&00&03b&16b&00&01l&15i&00&03n&16g &16O&00&07l&16d &00&07M&16a&15n&00~
+&15A &00&03H&00&01o&00&03b&16b&00&01l&15i&00&03n&16g &16O&00&07l&16d &00&07M&16a&15n&00 &15stands here, leaning on his cane.&00
+~
+   &15A &00&03H&00&01o&00&03b&16b&00&01l&15i&00&03n&16g &16O&00&07l&16d
+&00&07M&16a&15n&00 &15stands here, leaning on his cane.  &00
+~
+8 0 0 E
+100 0 0 0d0+350 0d0+35
+50 20000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12876
+Hurried Shopper~
+&14H&00&07u&16r&14r&00&06i&14e&00&07d &12S&00&04h&13o&00&05p&00&07p&13e&00&05r&00~
+&15A &14H&00&07u&16r&14r&00&06i&14e&00&07d &12S&00&04h&13o&00&05p&00&07p&13e&00&05r &15is here, looking from shop to shop.&00
+~
+   &15A middle aged woman stands here, in a rush to get the last of her
+shopping done.  Her arms are full of bags and boxes from her days purchase and
+she looks a bit disgruntled and annoyed.  &00
+~
+8 0 0 E
+100 0 0 0d0+450 0d0+30
+75 26000
+8 8 2
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12877
+Middle-Aged Man~
+&16M&00&07i&00&04d&12d&00&04l&16e&00&07-&00&04A&14g&00&06e&15d &00&07M&16a&15n&00~
+&15A &16M&00&07i&00&04d&12d&00&04l&16e&00&07-&00&04A&14g&00&06e&15d &00&07M&16a&15n&00 &15stands here.&00
+~
+   &15A middle aged man stands before you, waiting for his wife to get done
+shopping.  He has wavy brown hair that is tinged with grey and is wearing blue
+jeans and a polo.  &00
+~
+8 0 0 E
+100 0 0 0d0+475 0d0+40
+90 27000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12878
+Roshi~
+&09R&00&01o&00&02s&10h&16i&00~
+&15Master &09R&00&01o&00&02s&10h&16i &15stands here, with a cane in his hands.&00
+~
+&15This is one of the greatest martial arts instructors alive on earth. He even won a World Martial Arts tournament a long time ago.&00
+~
+245770 128 0 E
+0 -180 0 1d1+1000000000 1d1+500000
+0 1
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2160
+T 2161
+#12879
+Midget Saiba~
+&00&07M&15i&16d&00&03g&15e&00&07t &10S&00&02aib&10a&00~
+&15A &00&07M&15i&16d&00&03g&15e&00&07t &10S&00&02aib&10a &15prowls here.&00
+~
+   &15You are supposed to be training, this thing will kill you if you are not
+careful.  &00
+~
+42 0 0 E
+10000 -60 0 0d0+100000 0d0+500
+0 2000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12880
+Small Shark~
+&00&07S&14m&00&06a&16l&15l &14S&00&06har&14k&00~
+&15A &00&07S&14m&00&06a&16l&15l &14S&00&06har&14k &15slowly swims here.&00
+~
+   &15This is a small shark.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+500000 0d0+30000
+600 2000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12881
+Blue Whale~
+&00&04B&12l&00&06u&14e &16W&00&06h&14a&00&07le&00~
+&15A &00&04B&12l&00&06u&14e &16W&00&06h&14a&00&07le &15is surfaced here.&00
+~
+   &15This is a rather large whale, up for air.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+600000 0d0+30000
+625 2200000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12882
+Dolphin~
+&00&07D&14o&00&06l&16p&00&06h&14i&00&07n&00~
+&15A &00&07D&14o&00&06l&16p&00&06h&14i&00&07n &15is leaping around in the water here.&00
+~
+   &15This acrobat of the seas is preforming various maneuvers in the air here.
+&00
+~
+8 0 0 E
+100000 -60 0 0d0+400000 0d0+30000
+575 1800000
+8 8 0
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12883
+Hammerhead Shark~
+&00&07H&15a&16m&09m&00&01er&09h&16e&15a&00&07d &16S&00&06h&14a&00&07rk&00~
+&15A &00&07H&15a&16m&09m&00&01er&09h&16e&15a&00&07d &16S&00&06h&14a&00&07rk &15is searching for prey here.&00
+~
+   &15This is a strange looking shark.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+700000 0d0+30000
+650 2600000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#12890
+Weak Sparring Dummy~
+&14Weak &09S&00&01p&16a&15r&00&07r&16i&00&01n&09g &16D&15u&00&03m&00&02m&10y&00~
+&15A &14Weak &09S&00&01p&16a&15r&00&07r&16i&00&01n&09g &16D&15u&00&03m&00&02m&10y &15has been bolted here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+1000 20 0 1d1+50000 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12890
+T 12891
+#12891
+Medium Sparring Dummy~
+&14Medium &09S&00&01p&16a&15r&00&07r&16i&00&01n&09g &16D&15u&00&03m&00&02m&10y&00~
+&15A &14Medium &09S&00&01p&16a&15r&00&07r&16i&00&01n&09g &16D&15u&00&03m&00&02m&10y &15has been bolted here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+1000 20 0 1d1+500000 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12890
+T 12891
+#12892
+Strong Sparring Dummy~
+&14Strong &09S&00&01p&16a&15r&00&07r&16i&00&01n&09g &16D&15u&00&03m&00&02m&10y&00~
+&15A &14Strong &09S&00&01p&16a&15r&00&07r&16i&00&01n&09g &16D&15u&00&03m&00&02m&10y &15has been bolted here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+1000 20 0 1d1+4000000 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12890
+T 12891
+#12893
+Ultra Sparring Dummy~
+&14Ultra &09S&00&01p&16a&15r&00&07r&16i&00&01n&09g &16D&15u&00&03m&00&02m&10y&00~
+&15A &14Ultra &09S&00&01p&16a&15r&00&07r&16i&00&01n&09g &16D&15u&00&03m&00&02m&10y &15has been bolted here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+1000 20 0 1d1+10000000 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12890
+T 12891
+#12894
+Siilv truffle infusion augmented~
+&12S&00&04iil&12v&00~
+&12S&00&04iil&12v &15the &10I&00&02n&16f&15u&00&07s&16i&00&02o&10n&15 &00&07A&15ug&16m&00&07e&16n&15te&00&07d &12T&14r&00&06u&00&04f&00&06f&14l&12e &15stands here.&00
+~
+   &15This is one of the most famous truffles, hanging out where he grew up as
+a boy.  This truffle has managed to raise his strength enough for the best
+implants of all, even absorbing nearby technology into himself to complete it.
+&00
+~
+10 0 0 E
+800000 -60 0 0d0+70000000 0d0+300000
+18000 70000000
+8 8 1
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12840
+T 12841
+$

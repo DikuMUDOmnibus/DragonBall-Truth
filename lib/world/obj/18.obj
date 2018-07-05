@@ -1,0 +1,123 @@
+#1800
+Magazine Rack~
+a magazine rack~
+A magazine rack lays against the wall.~
+You see a wooden rack, filled with magazines of all kinds.  There are video
+game mags, muscle mags, music mags, and even Master Roshi's fav, Porno mags.  
+
+~
+15 0 0
+2147483647 0 -1 0
+100000 0 0
+#1801
+Pornographic Magazine~
+a pornographic magazine "Penthouse"~
+A porno mag is here.~
+You see lots of pictures of naked women doing obscene acts.    
+~
+16 0 1
+0 0 0 0
+1 0 0
+#1802
+Pornographic Magazine II~
+a pornographic magazine "Playboy"~
+A porno mag is here.~
+You see a magazine filled with naked women doing obscene things.    
+~
+16 0 1
+0 0 0 0
+1 0 0
+#1803
+Muscle Magazine~
+a muscle magazine "Muscle Beach"~
+A muscle magazine is here.~
+You see a magazine filled with pictures and articals on muscular people (you
+could easily beat any of them).    
+~
+16 0 1
+0 0 0 0
+1 0 0
+#1804
+Muscle Mag~
+a muscle mag "Fit Body"~
+A muscle mag is here.~
+The magazine is filled with pictures and articals of buff people (by Earth
+standards alone).    
+~
+16 0 0
+0 0 0 0
+1 0 0
+#1805
+Video Game Mag~
+a video game magazine "Tips and Tricks"~
+A video game magazine is here.~
+Flipping through the pages you find codes for all your favorite games.    
+~
+16 0 0
+0 0 0 0
+1 0 0
+#1806
+Video Game Mag~
+a video game magazine "Electronic Gaming Monthly"~
+A video game magazine is here.~
+You look inside the magazine, and are pleased to find updates on when your
+favorite systems are coming out.    
+~
+16 0 0
+0 0 0 0
+1 0 0
+#1807
+Music Mag~
+a music magazine "Hit Parader"~
+A music magazine is here.~
+You see articals and pictures of Metal acts from around the world.    
+~
+16 0 0
+0 0 0 0
+1 0 0
+#1808
+Music Mag~
+a music magazine "Guitar"~
+A music magazine is here.~
+A magazine filled with the latest in guitar technology.    
+~
+16 0 0
+0 0 0 0
+1 0 0
+#1809
+Chocolate Chip Cookies~
+a delicious chocolate chip cookie~
+A yummy looking chocolate chip cookie is on the ground here.  Yuck.~
+It looks like it was freshly baked.  It is warm and moist, you can almost taste
+it before you eat it.    
+~
+19 0 1
+1 0 0 0
+1 100 0
+#1810
+A Cup of Tea~
+a cup of sun tea~
+A cup is sitting here on a saucer.  You can smell it's contents.~
+You see a teacup and saucer, it's contents are brown, and smell good.    
+~
+17 0 1
+10 10 11 0
+15 100 0
+#1811
+Teddy Bear~
+a big, soft, white, teddy bear~
+A huge, white, stuffed teddy bear is sitting here, it's arms open wide.~
+~
+8 0 16385
+0 0 0 0
+1 200 0
+#1812
+Child's Story Book~
+a child's story book "The Jungle Book"~
+A book with the title 'The Jungle Book' has been discarded here, you wonder why.~
+It looks like a good story, but you are not in the mood to read it.    
+~
+16 0 16385
+0 0 0 0
+2 0 0
+$~

@@ -1,0 +1,29 @@
+#3700
+Desert Bandit~
+&00&16D&11e&00&03se&11r&00&16t &00&16B&11a&00&03nd&11i&00&16t&00~
+&15A &00&16D&11e&00&03se&11r&00&16t &00&16B&11a&00&03nd&11i&00&16t &15is swirling a blade here.&00
+~
+&15This bandit seems very deadly.&00
+~
+131082 0 0 E
+300000 -60 0 0d0+15000000 0d0+125000
+1200 10000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3799
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+1000001 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+E
+$

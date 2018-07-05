@@ -1,0 +1,2084 @@
+#1000
+&11S&00&03tart &15of a &11M&00&03o&16un&00&03ta&00&03i&11n &16T&15r&00&07ail~
+   &00&03A trail starts here and works its way through the mountains.  There
+are a few scattered plants, withered and brown from lack of water.  The trail
+is mostly dirt with a few loose stones scattered about and ruts in its surface.
+There is a tall peak visible to the north from here.  &00
+~
+10 20 5
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 7450
+D3
+You see nothing special.
+~
+~
+0 -1 1001
+D4
+~
+~
+0 0 -1
+E
+trail dirt path pathway road~
+This trail is very poorly maintained, being made up mostly of dry terra firma. It's scabrous surface has been scored by numerous deep ruts that seem to have been made by flowing water during a storm in the past.
+~
+E
+foliage plants plant flora greenery vegetation~
+A good deal of foliage can be seen around this area. Most of the flora however is dried and withered. Some small vegetation can be seen growing up in crevices along the trail. A small stream trickling down the side of a nearby slope has some Irises growing beside it. The peak is covered in lush, verdure evergreens.
+~
+E
+peak mountain summit~
+A tall peak with a slight snow cap around the top and thick evergreen trees growing up it's slopes. Even though sparce clouds hover over it you can see all the way up the summit.
+~
+S
+#1001
+&15On a &11M&00&03o&16un&00&03ta&00&03i&11n &16T&15r&00&07ail~
+   &00&03This narrow dirt path weaves its way through the mountains.  A few
+scattered plants and loose rocks can been seen along the way.  The surface is
+mostly smooth dirt aside from a rut or hole every now and then.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 1002
+D1
+~
+~
+0 0 1000
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#1002
+&15On a &11M&00&03o&16un&00&03ta&00&03i&11n &16T&15r&00&07ail~
+   &00&03This narrow dirt path weaves its way through the mountains.  A few
+scattered plants and loose rocks can been seen along the way.  The surface is
+mostly smooth dirt aside from a rut or hole every now and then.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 1001
+D3
+~
+~
+0 0 1003
+S
+#1003
+&15On a &11M&00&03o&16un&00&03ta&00&03i&11n &16T&15r&00&07ail~
+   &00&03This narrow dirt path weaves its way through the mountains.  A few
+scattered plants and loose rocks can been seen along the way.  The surface is
+mostly smooth dirt aside from a rut or hole every now and then.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 1004
+D1
+~
+~
+0 0 1002
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#1004
+&15On a &11M&00&03o&16un&00&03ta&00&03i&11n &16T&15r&00&07ail~
+   &00&03This narrow dirt path weaves its way through the mountains.  A few
+scattered plants and loose rocks can been seen along the way.  The surface is
+mostly smooth dirt aside from a rut or hole every now and then.  &00
+~
+10 0 5
+D0
+~
+~
+0 0 1005
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+~
+~
+0 0 1003
+D5
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#1005
+&15A &11F&00&03or&11k &16in &11t&00&03h&11e &16T&15r&00&07ail~
+   &00&03 Here, the trail splits into two branches heading west and northeast.
+The eastern path heads up the peak while the western path heads across the
+mountain range.  The snow capped summit of the northeastern peak is easily
+visible from here, with a few sparse evergreens lining the trail.  They are
+more plentiful the further up the peak you go.  &00
+~
+10 0 5
+D1
+~
+~
+0 0 1006
+D2
+You see nothing special.
+~
+~
+0 -1 1004
+D3
+~
+~
+0 0 1016
+D4
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#1006
+&11H&00&03e&16a&15d&00&03in&11g &16up &15the &11P&16e&00&03a&11k&00&07~
+   &00&03 The further up the peak you look, the thicker the evergreen trees
+get.  This part of the trail seems abandoned and quite rocky.  A few large
+boulders nearby broke loose and rolled down from higher up the peak.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 1007
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+~
+~
+0 0 1005
+S
+#1007
+&15A &11M&00&03o&16un&00&03ta&00&03i&11n &14P&00&07o&15o&14l&00&07~
+   &00&03 Right in the middle of the trail is a good sized pool of fresh
+mountain water.  The trail splits around the pool on both sides, rejoining on
+the far end.  A small stream comes down out of the nearby rocks and feeds the
+pool.  Many forms of wildlife gather here to drink...  Even some dangerous
+ones.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 1008
+D2
+~
+~
+0 0 1006
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#1008
+&11H&00&03e&16a&15d&00&03in&11g &16up &15the &11P&16e&00&03a&11k&00&07~
+   &00&03 The further up the peak you look, the thicker the evergreen trees
+get.  This part of the trail seems abandoned and quite rocky.  A few large
+boulders nearby broke loose and rolled down from higher up the peak.  &00
+~
+10 0 5
+D1
+Nothing.
+~
+~
+0 -1 1009
+D2
+~
+~
+0 0 1007
+S
+#1009
+&11H&00&03e&16a&15d&00&03in&11g &16up &15the &11P&16e&00&03a&11k&00&07~
+   &00&03 The further up the peak you look, the thicker the evergreen trees
+get.  This part of the trail seems abandoned and quite rocky.  A few large
+boulders nearby broke loose and rolled down from higher up the peak.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+~
+~
+0 0 1008
+D4
+~
+~
+0 0 1010
+S
+#1010
+&11H&00&03e&16a&15d&00&03in&11g &16up &15the &11P&16e&00&03a&11k&00&07~
+   &00&03 The further up the peak you look, the thicker the evergreen trees
+get.  This part of the trail seems abandoned and quite rocky.  A few large
+boulders nearby broke loose and rolled down from higher up the peak.  &00
+~
+10 0 5
+D3
+You see nothing special.
+~
+~
+0 -1 1011
+D5
+~
+~
+0 0 1009
+S
+#1011
+&11H&00&03e&16a&15d&00&03in&11g &16up &15the &11P&16e&00&03a&11k&00&07~
+   &00&03 The further up the peak you look, the thicker the evergreen trees
+get.  This part of the trail seems abandoned and quite rocky.  A few large
+boulders nearby broke loose and rolled down from higher up the peak.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D1
+~
+~
+0 0 1010
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D4
+~
+~
+0 0 1012
+S
+#1012
+&11H&00&03e&16a&15d&00&03in&11g &16up &15the &11P&16e&00&03a&11k&00&07~
+   &00&03 The evergreen trees are as thick as flies up here, and the trail
+seems to be made of soil and aboveground roots.  There are still rocks up here,
+but they're much further apart.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 1013
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D5
+~
+~
+0 0 1011
+S
+#1013
+&11H&00&03e&16a&15d&00&03in&11g &16up &15the &11P&16e&00&03a&11k&00&07~
+   &00&03 The evergreen trees are as thick as flies up here, and the trail
+seems to be made of soil and aboveground roots.  There are still rocks up here,
+but they're much further apart.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 1012
+D4
+~
+~
+0 0 1014
+S
+#1014
+&11E&00&03n&11d &15of a &11M&00&03o&16un&00&03ta&00&03i&11n &16T&15r&00&07ail~
+   &00&03 Here is where the trail ends.  Climbing further up the peak from here
+would be near impossible because of the jagged rock faces and near-vertical to
+vertical slopes.  The snow cap is visible from here, jutting sharply above the
+mass of evergreens.  From this vantage point, all of Nexus City can be seen.  
+&00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 1015
+D1
+~
+~
+0 0 -1
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D5
+~
+~
+0 0 1013
+S
+#1015
+&15A &11G&16i&15a&00&07n&11t &10B&00&03i&00&02r&10d&15'&00&02s &16N&15e&00&03s&16t&00&07~
+   &00&03 This is a crumbling stone ledge a few feet above the end of the trail
+to the south.  Hanging gently on the rocks is a huge bird's nest.  There seems
+to be something rather shiny in the nest, but without getting a closer look,
+it's hard to tell.  North of here, the peak's incline is too steep for anyone
+but a skilled rock climber to scale.  &00
+~
+10 4 5
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 1014
+D5
+~
+~
+0 0 -1
+S
+#1016
+&11W&00&03e&15s&00&03ter&11n &16P&00&07a&16th&00&07~
+   &00&03 This is the western branch of the path that heads through the
+mountain range.  The trail here looks similar to the rest but smoother,
+possibly due to being more heavily traveled.  Only a few trees and small weeds
+grow on this path.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 1024
+D1
+You see nothing special.
+~
+~
+0 -1 1005
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+You see nothing special.
+~
+~
+0 -1 1017
+D4
+~
+~
+0 0 -1
+S
+#1017
+&11W&00&03e&15s&00&03ter&11n &16P&00&07a&16th&00&07~
+   &00&03 This is the western branch of the path that heads through the
+mountain range.  The trail here looks similar to the rest but smoother,
+possibly due to being more heavily traveled.  Only a few trees and small weeds
+grow on this path.  &00
+~
+10 0 5
+D1
+You see nothing special.
+~
+~
+0 -1 1016
+D2
+You see nothing special.
+~
+~
+0 -1 1018
+D3
+You see nothing special.
+~
+~
+0 -1 1019
+E
+graffiti~
+----------------------------------
+|                                |
+|                                |
+|                                |
+|  ----->  &01*B^L^O*O^D*&00 <-----    |
+|                                |
+|                                |
+|           TeRRiTory            |
+|                                |
+|                                |
+|   KILL  ====\/\/\>             |
+|                                |
+|                                |
+|                 $$$            |
+----------------------------------
+~
+S
+#1018
+&15A &11R&00&03e&15s&00&03tin&11g &15S&00&07po&15t&00&07~
+   &00&03A wide spot in the trail where people can step off of the trail and
+take a break.  There are a few benches to sit on and a gentle breeze.  The
+trees are a bit thicker here and some delicate irises stand out from the dark
+brush, providing some nice scenery.  From here the main trail and those on it
+can be easily viewed.  &00
+~
+10 28 5
+D0
+You see nothing special.
+~
+~
+0 -1 1017
+D1
+~
+~
+0 0 -1
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#1019
+&11W&00&03e&15s&00&03ter&11n &16P&00&07a&16th&00&07~
+   &00&03 This is the western branch of the path that heads through the
+mountain range.  The trail here looks similar to the rest but smoother,
+possibly due to being more heavily traveled.  Only a few trees and small weeds
+grow on this path.  &00
+~
+10 0 5
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D1
+~
+~
+0 0 1017
+D2
+~
+~
+0 0 -1
+D4
+~
+~
+0 0 1020
+S
+#1020
+&11W&00&03e&15s&00&03ter&11n &16P&00&07a&16th&00&07~
+   &00&03 The western ridge of the mountain range stands above the surrounding
+area.  Evergreen trees are scattered around the area and many rocks have broken
+loose from nearby cliffs and lie around the area.  A few of the tallest trees
+cast long dark shadows over the area.  Every now and then, whispers of birdsong
+can be heard.  &00
+~
+10 0 5
+D0
+~
+~
+0 0 -1
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+You see nothing special.
+~
+~
+0 -1 1021
+D4
+~
+~
+0 0 -1
+D5
+~
+~
+0 0 1019
+S
+#1021
+&11W&00&03e&15s&00&03ter&11n &16P&00&07a&16th&00&07~
+   &00&03 The western ridge of the mountain range stands above the surrounding
+area.  Evergreen trees are scattered around the area and many rocks have broken
+loose from nearby cliffs and lie around the area.  A few of the tallest trees
+cast long dark shadows over the area.  Every now and then, whispers of birdsong
+can be heard.  &00
+~
+10 0 5
+D0
+~
+~
+0 0 -1
+D1
+You see nothing special.
+~
+~
+0 -1 1020
+D2
+~
+~
+0 0 -1
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+D4
+~
+~
+0 0 -1
+D5
+~
+~
+0 0 1022
+S
+#1022
+&11W&00&03e&15s&00&03ter&11n &16P&00&07a&16th&00&07~
+   &00&03 The mountains here turn to hills and forests to the west, signifying
+the end of the path.  The ground is hard and packed from people hiking past
+here, and the path is easily visible through the thick foliage.  The plants
+here provide shade and cover for native animals.  &00
+~
+10 0 5
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+You see nothing special.
+~
+~
+0 -1 1023
+D4
+~
+~
+0 0 1021
+S
+#1023
+&11W&00&03e&15s&00&03ter&11n &16P&00&07a&16th&00&07~
+   &00&03 The mountains here turn to hills and forests to the west, signifying
+the end of the path.  The ground is hard and packed from people hiking past
+here, and the path is easily visible through the thick foliage.  The plants
+here provide shade and cover for native animals.  &00
+~
+10 4 5
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D1
+You see nothing special.
+~
+~
+0 -1 1022
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#1024
+&15Small &11M&00&03o&16un&00&03ta&00&03i&11n &16P&15a&00&07t&16h&00&07~
+   &00&03This is a small branch off of the main path that leads down around the
+side of the peak.  There are deep ruts in the trail here from rainwater that
+has run down the slope.  There are no loose rocks here, they've all rolled down
+to the bottom.  &00
+~
+10 0 5
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 1016
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+D5
+~
+~
+0 0 1025
+S
+#1025
+&15Small &11M&00&03o&16un&00&03ta&00&03i&11n &16P&15a&00&07t&16h&00&07~
+   &00&03This is a small branch off of the main path that leads down around the
+side of the peak.  There are deep ruts in the trail here from rainwater that
+has run down the slope.  There are no loose rocks here, they've all rolled down
+to the bottom.  &00
+~
+10 0 5
+D0
+~
+~
+0 0 1026
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+D4
+~
+~
+0 0 1024
+S
+#1026
+&15Small &11M&00&03o&16un&00&03ta&00&03i&11n &16P&15a&00&07t&16h&00&07~
+   &00&03This is a small branch off of the main path that leads down around the
+side of the peak.  There are deep ruts in the trail here from rainwater that
+has run down the slope.  There are no loose rocks here, they've all rolled down
+to the bottom.  &00
+~
+10 0 5
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+~
+~
+0 0 1025
+D3
+You see nothing special.
+~
+~
+0 -1 1027
+S
+#1027
+&15Small &11M&00&03o&16un&00&03ta&00&03i&11n &16P&15a&00&07t&16h&00&07~
+   &00&03Here, this branch of the path comes to and end before the mouth of a
+dark cave.  A faint glimmer of light can be seen shining out from inside the
+cavern.  To the east, the base of the peak begins to rise and then meets a
+sheer cliff that goes most of the way up the western side of the peak.  &00
+~
+10 4 5
+D0
+~
+~
+0 0 1028
+D1
+You see nothing special.
+~
+~
+0 -1 1026
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#1028
+&10M&00&02o&15u&16th &15of a &00&03C&16a&11v&00&03e&00&07~
+   &16This is the mouth of a dark cave with solid sandstone walls.  It appears
+to be used as a rest spot for hikers in this area.  There are several cots,
+some first aid kits, and a table with a lantern on it here.  The cave continues
+north of here but the dim light from the lantern doesn't carry far into the
+darkness.    
+~
+10 65564 0
+D0
+~
+~
+0 0 1030
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+~
+~
+0 0 1027
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+E
+lantern light glowing~
+This is a brass lantern with glass panes on it's 4 sides. It appears to be lit and sheds light on this dim area. Someone must have been here recently to put oil in it and light it.
+~
+E
+table~
+This is a small wooden table. There is a glowing lantern sitting on top of it.
+~
+E
+first aid cot cots kit kits~
+There are cots as well as first aid kits here. It looks like a person could get a bit of rest and doctor up their wounds.
+~
+S
+#1029
+&00&10T&00&02e&06i&14m&00&02a&10n&00 &00&03C&16a&00&11v&00&03e&00~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 13 0
+D0
+~
+~
+0 0 1082
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+~
+~
+0 0 -1
+D3
+You see nothing special.
+~
+~
+0 -1 1030
+D4
+~
+~
+0 0 -1
+D5
+~
+~
+0 0 -1
+S
+#1030
+&00&10T&00&02e&06i&14m&00&02a&10n&00 &00&03C&16a&00&11v&00&03e&00~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D0
+~
+~
+0 0 1083
+D1
+You see nothing special.
+~
+~
+0 -1 1029
+D2
+~
+~
+0 0 1028
+D3
+You see nothing special.
+~
+~
+0 -1 1031
+D4
+~
+~
+0 0 -1
+D5
+~
+~
+0 0 -1
+S
+#1031
+&00&10T&00&02e&06i&14m&00&02a&10n&00 &00&03C&16a&00&11v&00&03e&00~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D0
+~
+~
+0 0 1084
+D1
+You see nothing special.
+~
+~
+0 -1 1030
+D2
+~
+~
+0 0 -1
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+D4
+~
+~
+0 0 -1
+S
+#1032
+unfinished~
+You are in an unfinished room.
+~
+10 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 1033
+D4
+You see nothing special.
+~
+~
+0 -1 1031
+S
+#1033
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1032
+D3
+You see nothing special.
+~
+~
+0 -1 1034
+S
+#1034
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1033
+D3
+You see nothing special.
+~
+~
+0 -1 1035
+S
+#1035
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1041
+D1
+You see nothing special.
+~
+~
+0 -1 1034
+D2
+You see nothing special.
+~
+~
+0 -1 1044
+D3
+You see nothing special.
+~
+~
+0 -1 1050
+D5
+You see nothing special.
+~
+~
+0 -1 1036
+S
+#1036
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1037
+D1
+You see nothing special.
+~
+~
+0 -1 1038
+D2
+You see nothing special.
+~
+~
+0 -1 1039
+D3
+You see nothing special.
+~
+~
+0 -1 1040
+D4
+You see nothing special.
+~
+~
+0 -1 1035
+S
+#1037
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1036
+S
+#1038
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 1036
+S
+#1039
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1036
+S
+#1040
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1036
+S
+#1041
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1042
+D2
+You see nothing special.
+~
+~
+0 -1 1035
+S
+#1042
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1043
+D2
+You see nothing special.
+~
+~
+0 -1 1041
+S
+#1043
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1042
+S
+#1044
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1035
+D1
+You see nothing special.
+~
+~
+0 -1 1049
+D2
+You see nothing special.
+~
+~
+0 -1 1045
+S
+#1045
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1044
+D1
+You see nothing special.
+~
+~
+0 -1 1048
+D2
+You see nothing special.
+~
+~
+0 -1 1046
+S
+#1046
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1045
+D1
+You see nothing special.
+~
+~
+0 -1 1047
+S
+#1047
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 1046
+S
+#1048
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 1045
+S
+#1049
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 1044
+S
+#1050
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1035
+D3
+You see nothing special.
+~
+~
+0 -1 1051
+S
+#1051
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1050
+D3
+You see nothing special.
+~
+~
+0 -1 1053
+S
+#1052
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1053
+S
+#1053
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1052
+D1
+You see nothing special.
+~
+~
+0 -1 1051
+D2
+You see nothing special.
+~
+~
+0 -1 1054
+D3
+You see nothing special.
+~
+~
+0 -1 1055
+S
+#1054
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1053
+S
+#1055
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1056
+D1
+You see nothing special.
+~
+~
+0 -1 1053
+D2
+You see nothing special.
+~
+~
+0 -1 1057
+D3
+You see nothing special.
+~
+~
+0 -1 1058
+S
+#1056
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1055
+S
+#1057
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1055
+S
+#1058
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1061
+D1
+You see nothing special.
+~
+~
+0 -1 1055
+D2
+You see nothing special.
+~
+~
+0 -1 1059
+D3
+You see nothing special.
+~
+~
+0 -1 1060
+S
+#1059
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1058
+S
+#1060
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1058
+S
+#1061
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1062
+D2
+You see nothing special.
+~
+~
+0 -1 1058
+S
+#1062
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1064
+D2
+You see nothing special.
+~
+~
+0 -1 1061
+D3
+You see nothing special.
+~
+~
+0 -1 1063
+S
+#1063
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1062
+S
+#1064
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1066
+D1
+You see nothing special.
+~
+~
+0 -1 1067
+D2
+You see nothing special.
+~
+~
+0 -1 1062
+D3
+You see nothing special.
+~
+~
+0 -1 1065
+D5
+You see nothing special.
+~
+~
+0 -1 1068
+S
+#1065
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1064
+S
+#1066
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1064
+S
+#1067
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 1064
+S
+#1068
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1069
+D4
+You see nothing special.
+~
+~
+0 -1 1064
+S
+#1069
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1070
+D2
+You see nothing special.
+~
+~
+0 -1 1068
+S
+#1070
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1072
+D1
+You see nothing special.
+~
+~
+0 -1 1071
+D3
+You see nothing special.
+~
+~
+0 -1 1069
+S
+#1071
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 1070
+S
+#1072
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1076
+D2
+You see nothing special.
+~
+~
+0 -1 1070
+S
+#1073
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1076
+S
+#1074
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1076
+S
+#1075
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 1076
+S
+#1076
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1074
+D1
+You see nothing special.
+~
+~
+0 -1 1075
+D2
+You see nothing special.
+~
+~
+0 -1 1072
+D3
+You see nothing special.
+~
+~
+0 -1 1073
+D5
+You see nothing special.
+~
+~
+0 -1 1077
+S
+#1077
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1078
+D1
+You see nothing special.
+~
+~
+0 -1 1079
+D2
+You see nothing special.
+~
+~
+0 -1 1080
+D3
+You see nothing special.
+~
+~
+0 -1 1081
+D4
+You see nothing special.
+~
+~
+0 -1 1076
+S
+#1078
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1077
+S
+#1079
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 1077
+S
+#1080
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1077
+S
+#1081
+unfinished~
+You are in an unfinished room.
+~
+10 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1077
+S
+#1082
+&10T&00&02ei&14m&00&02a&10n &00&03C&16a&11v&00&03e&00&07~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D0
+You see nothing special.
+~
+~
+0 -1 1085
+D2
+You see nothing special.
+~
+~
+0 -1 1029
+D3
+You see nothing special.
+~
+~
+0 -1 1083
+S
+#1083
+&10T&00&02ei&14m&00&02a&10n &00&03C&16a&11v&00&03e&00&07~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D0
+You see nothing special.
+~
+~
+0 -1 1086
+D1
+You see nothing special.
+~
+~
+0 -1 1082
+D2
+You see nothing special.
+~
+~
+0 -1 1030
+D3
+You see nothing special.
+~
+~
+0 -1 1084
+S
+#1084
+&00&10T&00&02e&06i&14m&00&02a&10n&00 &00&03C&16a&00&11v&00&03e&00~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D0
+You see nothing special.
+~
+~
+0 -1 1087
+D1
+You see nothing special.
+~
+~
+0 -1 1083
+D2
+You see nothing special.
+~
+~
+0 -1 1031
+S
+#1085
+&10T&00&02ei&14m&00&02a&10n &00&03C&16a&11v&00&03e&00&07~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D0
+You see nothing special.
+~
+~
+0 -1 1088
+D2
+You see nothing special.
+~
+~
+0 -1 1082
+D3
+You see nothing special.
+~
+~
+0 -1 1086
+S
+#1086
+&10T&00&02ei&14m&00&02a&10n &00&03C&16a&11v&00&03e&00&07~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D0
+You see nothing special.
+~
+~
+0 -1 1089
+D1
+You see nothing special.
+~
+~
+0 -1 1085
+D2
+You see nothing special.
+~
+~
+0 -1 1083
+D3
+You see nothing special.
+~
+~
+0 -1 1087
+S
+#1087
+&10T&00&02ei&14m&00&02a&10n &00&03C&16a&11v&00&03e&00&07~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D0
+You see nothing special.
+~
+~
+0 -1 1090
+D1
+You see nothing special.
+~
+~
+0 -1 1086
+D2
+You see nothing special.
+~
+~
+0 -1 1084
+S
+#1088
+&10T&00&02ei&14m&00&02a&10n &00&03C&16a&11v&00&03e&00&07~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D2
+You see nothing special.
+~
+~
+0 -1 1085
+D3
+You see nothing special.
+~
+~
+0 -1 1089
+S
+#1089
+&10T&00&02ei&14m&00&02a&10n &00&03C&16a&11v&00&03e&00&07~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 12 0
+D0
+You see nothing special.
+~
+Door~
+1 1088 1091
+D1
+You see nothing special.
+~
+~
+0 -1 1088
+D2
+You see nothing special.
+~
+~
+0 -1 1086
+D3
+You see nothing special.
+~
+~
+0 -1 1090
+S
+#1090
+&10T&00&02ei&14m&00&02a&10n &00&03C&16a&11v&00&03e&00&07~
+   &16The cave walls are slick and smooth, covered with a yellow growing moss.
+Large stalicites cover the dark ceiling above and the ground is littered with
+potholes and cracks.  The sound of rocks, splashing water and skittering feet
+reverbrate through through the cave.  &00&07
+~
+10 9 0
+D1
+You see nothing special.
+~
+~
+0 -1 1089
+D2
+You see nothing special.
+~
+~
+0 -1 1087
+S
+#1091
+&16E&15n&00&07t&15ran&16ce&00&07: &09G&00&01e&16ro&00&07'&09s &15L&00&07aboratory~
+   &16Smooth metal plates cover the moist cave walls, ceiling and floor.  
+Right in front of you is a giant metal door leading deeper into the complex.  
+The air is chill and crips, the smell of oil and machinery coming from inside
+the giant door.  &00&07
+~
+10 13 0
+D0
+You see nothing special.
+~
+~
+0 -1 1092
+D2
+You see nothing special.
+~
+Door~
+1 1088 1089
+S
+T 1091
+#1092
+&00&07I&15nsid&00&07e &09G&00&01e&16ro&00&07'&09s &15L&00&07aboratory~
+   &16Here the whole area is covered with shiny metal walls, ceiling and floor.
+The air is chill and crips, the smell of oil and machinery filling the air.  
+The sound of machinary and other strange noises can be heard all around.    
+~
+10 8 0
+D2
+You see nothing special.
+~
+~
+0 -1 1091
+D5
+You see nothing special.
+~
+~
+0 -1 1093
+S
+#1093
+&00&07I&15nsid&00&07e &09G&00&01e&16ro&00&07'&09s &15L&00&07aboratory~
+   &16Here the whole area is covered with shiny metal walls, ceiling and floor.
+The air is chill and crips, the smell of oil and machinery filling the air.  
+The sound of machinary and other strange noises can be heard all around.    
+~
+10 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1094
+D4
+You see nothing special.
+~
+~
+0 -1 1092
+S
+#1094
+&00&07I&15nsid&00&07e &09G&00&01e&16ro&00&07'&09s &15L&00&07aboratory~
+   &16Here the whole area is covered with shiny metal walls, ceiling and floor.
+Right in front of you is a giant metal door leading deeper into the complex.  
+The air is chill and crips, the smell of oil and machinery coming from inside
+the giant door.  &00&07
+~
+10 24 0
+D0
+You see nothing special.
+~
+door~
+1 1094 1095
+D2
+You see nothing special.
+~
+~
+0 -1 1093
+S
+#1095
+&00&07I&15nsid&00&07e &09G&00&01e&16ro&00&07'&09s &15L&00&07aboratory~
+   &16Here the whole area is covered with shiny metal walls, ceiling and floor.
+The air is chill and crips, the smell of oil and machinery filling the air.  
+The sound of machinary and other strange noises can be heard all around.    
+~
+10 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1096
+D2
+You see nothing special.
+~
+door~
+2 -1 1094
+S
+T 1095
+#1096
+&00&07I&15nsid&00&07e &09G&00&01e&16ro&00&07'&09s &15L&00&07aboratory~
+   &16Here the whole area is covered with shiny metal walls, ceiling and floor.
+The air is chill and crips, the smell of oil and machinery filling the air.  
+The sound of machinary and other strange noises can be heard all around.    
+~
+10 65544 0
+D0
+You see nothing special.
+~
+~
+0 -1 1108
+D1
+You see nothing special.
+~
+~
+0 -1 1127
+D2
+You see nothing special.
+~
+~
+0 -1 1095
+D3
+You see nothing special.
+~
+~
+0 -1 1097
+D5
+You see nothing special.
+~
+Hatch~
+2 17550 17572
+S
+#1097
+&16E&15n&00&07t&15ran&16ce&00&07: &12H&00&04o&16ld&00&07ing &16P&00&04e&12n&00&07~
+   &16Here the whole area is covered with shiny metal walls, ceiling and floor.
+The air is chill and crips, the smell of oil and machinery filling the air.  
+The sound of machinary and other strange noises can be heard all around.  To
+the west is a giant door in front of the holding pen.    
+~
+10 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 1096
+D3
+You see nothing special.
+~
+door~
+1 1132 1098
+S
+#1098
+&12H&00&04o&16ld&00&07ing &16P&00&04e&12n&00&07~
+   &16Here the whole area is covered with shiny metal walls, ceiling and floor.
+The air is dank and musty, the smell of sweat and dirt filling the air.  You
+can hear the muffled cries of helpless creatures held prisoner.    
+~
+10 25 0
+D1
+You see nothing special.
+~
+door~
+1 1132 1097
+D3
+You see nothing special.
+~
+~
+0 -1 1100
+S
+#1099
+&12H&00&04o&16ld&00&07ing &16P&00&04e&12n&00&07~
+   &16Here the whole area is covered with shiny metal walls, ceiling and floor.
+The air is dank and musty, the smell of sweat and dirt filling the air.  You
+can hear the muffled cries of helpless creatures held prisoner.    
+~
+10 9 0
+D2
+You see nothing special.
+~
+~
+0 -1 1100
+S
+$~

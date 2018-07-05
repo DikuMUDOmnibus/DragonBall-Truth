@@ -1,0 +1,139 @@
+#400
+Bow staff~
+a Large Bow Staff~
+A large bow staff sits on the ground.~
+The bow is red.
+~
+5 92 8193
+12000 12000 12000 7
+5 0 0
+A
+1 50
+A
+19 120
+A
+12 120
+A
+12 120
+A
+12 120
+A
+18 120
+#401
+bottle whisky~
+a bottle~
+A bottle of whisky is lying on the ground.~
+~
+17 0 16385
+2 2 5 0
+7 25 2
+#402
+head lazer~
+head lazer~
+A head lazer is here on the ground.~
+~
+24 0 17
+10 20 10 8
+0 0 0
+#403
+crude flashlight~
+&00&03Crude &11F&00&03lashligh&11t&00~
+A crude looking flashlight lay on the ground.~
+Its really light.
+~
+1 0 16385
+0 0 40 0
+8 69 15
+#404
+Green steak~
+Rotting green steak~
+Old green steak is lying on the ground.~
+The steak is GREEN and it smells really bad.
+~
+19 0 1
+5 0 0 2
+5 0 20
+E
+undefined~
+Nothing.
+~
+#405
+Newbie Map~
+&12N&00&04e&00&07wb&00&04i&12e &10M&00&02a&10p&00~
+&15A &12N&00&04e&00&07wb&00&04i&12e &10M&00&02a&10p &15is laying here.&00~
+&15All of these go from recall of that planet.
+&15[&16-&00&10Earth&16-&15]&00
+&00&11Grassy meadow&16(&12newbie zone&16):&14 2 North, 9 East, 6 North, 1 East.
+&00&11Akibura Shopping Mall&16:&14 2 North, 4 East, 1 North.
+&00&11Shell Beach&16:&14 2 North, 6 East, 1 South.
+&00&11Heaven's Gate Dojo&16:&14 2 North, 5 West, 1 North.
+&00&11Rikkai's Pay Lake&16:&14 2 North, 8 West, 1 North, 5 West.
+&15[&16-&00&14Frigid&16-&15]&00
+&00&11Cicle City Prison&16(&12newbie zone&16):&14 1 Down, 2 South, 9 East, 1 South.
+&00&11Gnarl Snow Field&16:&14 1 Down, 2 South, 14 East.
+&15[&16-&00&11Konack&16-&15]&00
+&00&11Evergreen Forest&16(&12newbie zone&16):&14 5 North, 2 West, 2 South
+&00&11Mitsurugi Academy&16:&14 5 North, 3 East, 1 South.
+&00&11Shaengarn Clan&16:&14 5 North, 4 West, 2 North.
+&15[&16-&00&02Namek&00&16-&15]&00
+&00&11Namekian Plains&16(&12newbie zone&16):&14 1 Down, 2 east, 1 North.
+&00&11Namekian Dry&16:&14 1 Down, 2 East, 1 North, 3 east, 5 south, 1 West, 4 South.
+&15[&16-&00&01Hell&00&16-&15]
+&00&11Inferno City Gym&16(&12newbie zone&16):&14 1 North, 1 East, 2 North, 2 East, 5 South, 3 West, 1 South.
+&00&11Inferno City Graveyard&16:&14 1 North, 1 West, 2 North, 2 West, 3 South, 3 West, 2 South.
+&15[&16-&00&03Vegeta&00&16-&15]
+&00&11Black Glass Pyramid &16(&12newbie zone&16):&14 1 North, 1 West, 1 North, 1 Down.
+&15[&16-&10Neo Nirvana&00&16-&15]&00
+&00&11Truffle Transport &16(&12newbie zone&16):&14 2 North, 1 Down
+~
+16 0 1
+200 200 0 0
+1 0 0
+#406
+red backpack~
+a red backpack~
+A red backpack is lying here.~
+Nothing.
+~
+15 0 1025
+100 0 -1 0
+15 121 32
+#407
+candle stick~
+Candle stick~
+A candle stick rest here.~
+Its a candle stick in a nice gold stand.
+~
+1 0 16385
+0 0 5 0
+1 67 1
+#456
+your mom~
+your mom~
+Your mom~
+~
+0 0 3
+0 0 0 0
+0 0 0
+#476
+ship transport~
+a Transport Ship~
+An transport ship is here transporting people to planet Earth.~
+The ship is really big.
+~
+12 2 1
+0 0 0 0
+100000000 0 0
+T 476
+#499
+low class saiyan armor~
+some low class saiyan armor~
+Some low class saiyan armor is lying here.~
+It doesnt look that good.
+~
+9 0 9
+50 0 0 0
+2 9000 400
+A
+13 15
+$~

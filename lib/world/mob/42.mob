@@ -1,0 +1,472 @@
+#4200
+majin Buu lookalike~
+a Buu lookalike~
+a happy Majin sits behind the counter here.
+~
+This plump little majin smiles back at you as you observe him.  He looks very
+much like Fat-Buu and waits to sell you some chocolate armor.    
+~
+253962 0 0 E
+5000 20 -20 30d1000+50000 1d1+0
+0 0
+8 8 1
+BareHandAttack: 13
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4201
+chibi-daos chibi majin~
+Chibi-Daos~
+&13The Chibi-Daos sits behind his counter, smiling at you
+~
+Look at it!  It is the Chibi-Daos!  And guess what?  He wants to sell you
+weapons of destruction and maiming.    
+~
+253962 0 0 E
+100000 -30 -20 30d1000+100000 10d10+50
+0 0
+8 8 1
+BareHandAttack: 10
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4242
+Konack Transport Pilot~
+&16K&15o&00&07n&16a&00&07c&15k &15T&16r&00&07anspo&16r&15t &14P&16ilo&14t&00~
+&15A &16K&15o&00&07n&16a&00&07c&15k &15T&16r&00&07anspo&16r&15t &14P&16ilo&14t&15 stands here, waiting for passengers.&00
+~
+It looks unfinished.
+~
+254026 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 4242
+T 4243
+#4250
+Ji-hang, Otori Weapon Master~
+&00&07Ji-Hang, &09O&00&01t&00&15o&00&06r&00&09i&00 &16W&00&15e&00&16a&00&07p&00&16o&00&15n Master~
+&00&07Ji-Hang, the &09O&00&01t&00&15o&00&06r&00&09i&00 &16W&00&15e&00&16a&00&07p&00&16o&00&15n Master&00&07, stands behind the counter here, polishing a small dagger
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4251
+shaengarn clan guard~
+&16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &15C&16l&00&02a&16n&15 &16G&15u&16a&00&07r&00&15d~
+&00&07A &16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &15C&16l&00&02a&16n&15 &16G&15u&16a&00&07r&00&15d stands here.
+~
+It looks unfinished.
+~
+72 0 0 E
+60 -40 0 1d1+100000 100d100+5000
+400 800000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4252
+shanegarn soldier~
+&16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &15S&00&07o&00&16l&00&01di&00&15e&00&16r~
+&16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &15S&00&07o&00&16l&00&01di&00&15e&00&16r&00 &07stands here, waiting for a fight.
+~
+   This soldier is covered with small cuts and healed wounds.  He has seen many
+battles
+~
+10 0 0 E
+60 -40 0 1d1+60000 100d100+5000
+500 900000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4253
+shaengarn records keeper~
+&16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &15Records Keeper~
+&16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &15Records Keeper&00&07 stands here, glaring.
+~
+   &07Although he is a records keeper, this man looks like he could rip a house
+down with his hands.    
+~
+10 0 0 E
+100 -60 0 1d1+600000 1d1+30000
+650 2000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4254
+Lord Shaengarn Kadyuka~
+&00&11L&00&03o&00&10r&11d&00 &16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &00&01K&00&16a&00&06d&00&16y&00&01uk&00&06a&00~
+&11L&00&03o&00&10r&00&11d &16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &00&01K&00&16a&00&06d&00&16y&00&01uk&00&06a&00&07 stands here, his hand resting on his sword hilt.
+~
+   Kadyuka, the leader of the Shaengarn Clan, stands tall and proud.  His armor
+gleams in the darkness, and hatred seeps out of his eyes
+~
+266 0 0 E
+80 -60 0 1d1+25000000 1d1+150000
+2000 20000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 801
+T 804
+#4255
+Shaengarn Elite~
+&16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &00&11E&00&03l&00&01it&00&11e~
+&16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &00&11E&00&03l&00&01it&00&11e&00 stands here, next to his Lord
+~
+   The Elite of the Shaengarn, this warrior will sacrifice himself for his
+Lord.  Built like a brick wall, he seems unstoppable
+~
+266 0 0 E
+100 -60 0 1d1+1000000 1d1+30000
+700 3000000
+8 8 1
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4256
+shaengarn member~
+&16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &00&15Member~
+&16S&00&06h&00&14a&15e&00&02n&00&06g&00&14a&15r&00&02n&00 &00&15Member stands here, hidden under a cloak.
+~
+   &15This member of the Shaengarn Clan is trying to hide his identity under a
+cloak.    
+~
+8 0 0 E
+40 -20 0 1d1+3000 1d1+500
+150 200000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4257
+otori warrior~
+&09O&00&01t&00&15o&00&06r&00&09i&00 &00&01W&00&09a&00&16r&00&06r&00&01io&00&16r~
+&15An &09O&00&01t&00&15o&00&06r&00&09i&00 &00&01W&00&09a&00&16r&00&06r&00&01io&00&16r&00&15 stands here, his eyes searching the crowd for foes
+~
+   &15The Otori Warrior is muscular and scared, his hand gripping the pole of
+his pike firmly, aslways at the ready.    
+~
+8 0 0 E
+40 -20 0 1d1+3000 1d1+500
+200 200000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4258
+Sempai-Kyaku~
+&00&06S&00&14em&00&01pa&00&06i&00&15-&00&06Ky&00&14ak&00&01u&00~
+&00&06S&00&14em&00&01pa&00&06i&00&15-&00&06Ky&00&14ak&00&01u&00&15, the &09P&11h&00&01o&00&11e&00&03ni&00&09x &00&11O&00&01r&00&11i&00&03o&00&09n&00 &15Bar Keeper is standing behind the bar.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4259
+kariyuma~
+&13K&16a&00&05r&00&15i&00&07y&00&14u&00&16m&00&06a&00~
+&13K&16a&00&05r&00&15i&00&07y&00&14u&00&16m&00&06a&00&15 stands here, behind the counter.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4260
+curious scientist~
+&00&05C&00&13u&00&06ri&00&05o&00&16u&00&13s&00 &00&14S&00&15c&00&14i&00&06e&00&15nt&00&14i&00&06s&00&14t&00~
+&00&05C&00&13u&00&06ri&00&05o&00&16u&00&13s&00 &00&14S&00&15c&00&14i&00&06e&00&15nt&00&14i&00&06s&00&14t&00&15 stands here, looking at the forest.
+~
+It looks unfinished.
+~
+8 0 0 E
+20 0 0 1d1+500 1d1+40
+100 30000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4261
+bear cub~
+&03B&00&14e&00&16a&00&03r &00&11C&00&03u&00&11b&00~
+&00&15A &03B&00&14e&00&16a&00&03r &00&11C&00&03u&00&11b&00&15 wanders here.
+~
+It looks unfinished.
+~
+8 0 0 E
+20 0 0 1d1+500 1d1+40
+80 25000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4262
+Adult Bear~
+&00&06A&00&15d&00&01u&00&15lt&00 &03B&00&14e&00&16a&00&03r&00~
+&15An &00&06A&00&15d&00&01u&00&15lt&00 &03B&00&14e&16a&00&03r&00&15 wanders here.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+20 0 0 1d1+550 1d1+40
+100 35000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4263
+Thief~
+&00&16T&00&15h&00&02i&00&04e&00&16f&00~
+&15A &00&16T&00&15h&00&02i&00&04e&00&16f&00&15 stands here&00
+~
+It looks unfinished.
+~
+8 0 0 E
+80 -60 0 1d1+500000 1d1+30000
+650 2000000
+8 8 1
+BareHandAttack: 14
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4264
+Adept~
+&10A&00&02d&00&06ep&00&02t&00~
+&00An &10A&00&02d&06ep&02t&00 stands here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -20 0 1d1+10000 1d1+1000
+200 175000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4265
+novice~
+&14N&00&06o&00&12v&00&06ic&00&14e&00~
+&00A &14N&00&06o&00&12v&00&06ic&00&14e&00 is standing here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 0 0 1d1+1100 1d1+100
+100 35000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4266
+Master~
+&16M&00&09a&00&01st&00&09e&00&16r&00~
+&00A &16M&00&09a&00&01st&00&09e&00&16r&00 is standing here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -40 0 1d1+60000 1d1+10000
+600 600000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4267
+syndicate hopeful~
+&00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &02H&00&14o&00&06p&00&10e&00&15f&00&06u&00&14l&00~
+&15A &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &02H&00&14o&00&06p&00&10e&00&15f&00&06u&00&14l&00&15 stands here, looking nervous.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+50 -40 0 1d1+75000 1d1+5000
+400 700000
+8 8 1
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4268
+syndicate trainee~
+&00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &15T&00&01r&00&07a&00&16i&00&15n&00&01e&00&07e&00~
+&15A &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &15T&00&01r&00&07a&00&16i&00&15n&00&01e&00&07e&00&15 stands here, his sharp eyes seeing all.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+80 -60 0 1d1+8000000 1d1+70000
+850 7000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4269
+syndicate member~
+&00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &16M&00&01e&00&15m&00&03b&00&16e&00&01r&00~
+&15A &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &16M&00&01e&00&15m&00&03b&00&16e&00&01r&00&15 stands here, casual, yet aware of his surroundings.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+100 -60 0 1d1+30000000 1d1+150000
+2000 25000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4270
+syndicate president~
+&00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &00&04P&12r&16e&15s&14i&00&06de&14n&15t~
+&15The &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &00&04P&12r&16e&15s&14i&00&06de&14n&15t sits behind the table here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+100 -80 0 1d1+80000000 1d1+250000
+5000 55000000
+8 8 1
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4271
+syndicate vice-president~
+&00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &00&06V&00&16i&00&03c&00&06e &00&04P&12r&16e&15s&14i&00&06de&14n&15t~
+&15The &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &00&06V&00&16i&00&03c&00&06e &00&04P&12r&16e&15s&14i&00&06de&14n&15t sits behind the table here.&00
+~
+It looks unfinished.
+~
+4106 0 0 E
+100 -80 0 1d1+80000000 1d1+250000
+5000 54000000
+8 8 1
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4272
+syndicate chief executive officer~
+&00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &03Ch&00&11i&00&03ef&00 &01E&00&09x&00&01e&00&09c&00&01u&00&09t&00&01i&00&09v&00&01e&00 &16O&15f&16f&15i&16c&15e&16r&00~
+&15The &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &03Ch&00&11i&00&03ef&00 &01E&00&09x&00&01e&00&09c&00&01u&00&09t&00&01i&00&09v&00&01e&00 &16O&15f&16f&15i&16c&15e&16r&00&15 stands here, his muscles bulging.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+90 -80 0 1d1+70000000 1d1+250000
+5000 50000000
+8 8 1
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4273
+syndicate master assassin~
+&00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &05M&00&13a&00&07st&00&13e&00&05r&00 &16A&15s&00&01s&00&16a&00&01ss&00&16i&15n&00~
+&15A &00&01S&00&16y&00&01n&00&09d&00&15i&00&07c&00&15a&16t&00&01e&00 &05M&00&13a&00&07st&00&13e&00&05r&00 &16A&15s&00&01s&00&16a&00&01ss&00&16i&15n stands in the shadows here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+80 -60 0 1d1+40000000 1d1+200000
+2500 30000000
+8 8 1
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4274
+santa~
+&00&09S&00&07a&00&09n&00&07t&00&09a&00~
+&00&09S&00&07a&00&09n&00&07t&00&09a&00 &15stands here, drinking a big ass bottle of bourbon.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -60 0 1d1+100000000 1d1+250000
+10000 40000000
+8 8 1
+E
+$

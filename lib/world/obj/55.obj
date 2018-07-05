@@ -1,0 +1,79 @@
+#5500
+Twisted Entranceway Key~
+&00&04T&00&07w&00&04i&12s&00&04t&16e&00&04d &12E&00&04n&00&06t&00&04r&00&06a&14n&12c&00&04e&00&06w&14a&12y &16Key&00~
+&15The &00&04T&00&07w&00&04i&12s&00&04t&16e&00&04d &12E&00&04n&00&06t&00&04r&00&06a&14n&12c&00&04e&00&06w&14a&12y &16Key&00&15 lies in the dust here.&00~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5501
+Twisted Alter Key~
+&00&04T&00&07w&00&04i&12s&00&04t&16e&00&04d &09A&00&01l&16t&00&01e&09r &16Key&00~
+&15The &00&04T&00&07w&00&04i&12s&00&04t&16e&00&04d &09A&00&01l&16t&00&01e&09r &16Key &15lies on the floor here.&00~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5502
+Bloody Cross of the Archangel~
+&16B&00&07l&15o&00&01o&00&07d&16y &00&03C&11r&15o&00&07s&00&03s &16of the &09A&00&01r&16c&00&07h&16a&00&01n&09g&00&01e&16l&00~
+&15The &16B&00&07l&15o&00&01o&00&07d&16y &00&03C&11r&15o&00&07s&00&03s &16of the &09A&00&01r&16c&00&07h&16a&00&01n&09g&00&01e&16l&00&15 is lying in the dirt.&00~
+~
+11 134217728 5
+0 0 0 0
+1 4000000 0
+A
+4 1
+A
+25 2
+A
+5 3
+A
+2 4
+A
+18 15
+A
+19 15
+#5503
+Shield of the Desecrated Zombie~
+&12S&00&04h&00&03i&12e&11l&12d &15of the &16D&00&01e&09s&00&07e&16c&00&01r&09a&00&01t&00&07e&16d &15Z&00&01o&00&07m&00&01b&09i&00&01e&00~
+&15The &12S&00&04h&00&03i&12e&11l&12d &16of the &16D&00&01e&09s&00&07e&16c&00&01r&09a&00&01t&00&07e&16d &15Z&00&01o&00&07m&00&01b&09i&00&01e&00&15 lies half buried in the dirt before you.&00~
+~
+11 134217728 4097
+0 0 0 0
+1 6000000 0
+A
+3 4
+A
+5 2
+A
+6 9
+A
+18 30
+A
+19 30
+A
+4 4
+#5504
+Havoc~
+Havoc~
+An unfinished object is lying here.~
+~
+5 268435456 1
+0 0 0 0
+0 0 0
+#5511
+Brass Ball Bearing~
+&00&03B&15r&11a&00s&00&16s &15Ball Bearing&00~
+&00&03A round, &11yel&15low&11ish &00&03ball bearing rolls on the floor here.&00~
+~
+11 0 16385
+0 0 0 0
+1 15000 0
+A
+6 3
+A
+2 1
+A
+3 2
+$~

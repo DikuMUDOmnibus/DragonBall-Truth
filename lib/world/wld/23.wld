@@ -1,0 +1,2159 @@
+#2300
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Court-yard&00~
+   &15This large area stretches out, it's floor made completely out of hardened
+concrete.  This area is completely free of snow, the environment shield keeping
+the entire palace a mild temperature.  &00
+~
+23 32768 1
+D0
+~
+~
+0 0 2297
+D3
+You see nothing special.
+~
+~
+0 -1 2299
+S
+#2301
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Court-yard&00~
+   &15This large area stretches out, it's floor made completely out of hardened
+concrete.  This area is completely free of snow, the environment shield keeping
+the entire palace a mild temperature.  &00
+~
+23 32772 0
+D0
+~
+~
+0 0 2299
+D2
+You see nothing special.
+~
+~
+0 -1 2302
+S
+#2302
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Inner Entrance&00~
+   &15This small room is barred by an automatic metal shutter, opening at the
+slightest movement.  This room is well lit, with bright white lights hanging
+high above.  The floor is covered in a regal red carpet and mutant and icer
+servants can be seen hurrying about in the rest of the palace.  &00
+~
+23 32768 0
+D0
+~
+~
+0 0 2301
+D1
+You see nothing special.
+~
+~
+0 -1 2307
+D2
+You see nothing special.
+~
+~
+0 -1 2311
+D3
+You see nothing special.
+~
+~
+0 -1 2303
+S
+#2303
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Hallway&00~
+   &15This wide hallway is constructed out of a hard concrete metal combo.  
+Large titanium beams stretch across the ceiling, with emergency titanium
+shutters attached to them.  Red carpet flows down this hallway.  &00
+~
+23 32768 0
+D1
+~
+~
+0 0 2302
+D3
+~
+~
+0 0 2304
+S
+#2304
+&00&06R&14o&12y&00&04a&05l &15P&00&07alac&15e &16Guard Barracks&00~
+   &15Row after row of small cots line the walls and center of this room.  
+These small beds do not look to be very comfortable, but it isn't like the icer
+and mutant guards can complain about it.  Bright white lights hang from the
+ceiling, illuminating the entire room with a pale white light.  &00
+~
+23 16809984 0
+D0
+You see nothing special.
+~
+~
+0 -1 2305
+D1
+~
+~
+0 0 2303
+D2
+You see nothing special.
+~
+~
+0 -1 2306
+S
+#2305
+&00&06R&14o&12y&00&04a&05l &15P&00&07alac&15e &16Guard Barracks&00~
+   &15Row after row of small cots line the walls and center of this room.  
+These small beds do not look to be very comfortable, but it isn't like the icer
+and mutant guards can complain about it.  Bright white lights hang from the
+ceiling, illuminating the entire room with a pale white light.  &00
+~
+23 32768 0
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 2304
+S
+#2306
+&00&06R&14o&12y&00&04a&05l &15P&00&07alac&15e &16Guard Barracks&00~
+   &15Row after row of small cots line the walls and center of this room.  
+These small beds do not look to be very comfortable, but it isn't like the icer
+and mutant guards can complain about it.  Bright white lights hang from the
+ceiling, illuminating the entire room with a pale white light.  &00
+~
+23 32768 1
+D0
+~
+~
+0 0 2304
+S
+#2307
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Hallway&00~
+   &15This wide hallway is constructed out of a hard concrete metal combo.  
+Large titanium beams stretch across the ceiling, with emergency titanium
+shutters attached to them.  Red carpet flows down this hallway.  &00
+~
+23 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 2308
+D3
+~
+~
+0 0 2302
+S
+#2308
+&00&06R&14o&12y&00&04a&05l &15P&00&07alac&15e &16Guard Barracks&00~
+   &15Row after row of small cots line the walls and center of this room.  
+These small beds do not look to be very comfortable, but it isn't like the icer
+and mutant guards can complain about it.  Bright white lights hang from the
+ceiling, illuminating the entire room with a pale white light.  &00
+~
+23 16809984 0
+D0
+You see nothing special.
+~
+~
+0 -1 2309
+D2
+You see nothing special.
+~
+~
+0 -1 2310
+D3
+~
+~
+0 0 2307
+S
+#2309
+&00&06R&14o&12y&00&04a&05l &15P&00&07alac&15e &16Guard Barracks&00~
+   &15Row after row of small cots line the walls and center of this room.  
+These small beds do not look to be very comfortable, but it isn't like the icer
+and mutant guards can complain about it.  Bright white lights hang from the
+ceiling, illuminating the entire room with a pale white light.  &00
+~
+23 16809984 0
+D2
+You see nothing special.
+~
+~
+0 -1 2308
+S
+#2310
+&00&06R&14o&12y&00&04a&05l &15P&00&07alac&15e &16Guard Barracks&00~
+   &15Row after row of small cots line the walls and center of this room.  
+These small beds do not look to be very comfortable, but it isn't like the icer
+and mutant guards can complain about it.  Bright white lights hang from the
+ceiling, illuminating the entire room with a pale white light.  &00
+~
+23 16809984 0
+D0
+~
+~
+0 0 2308
+S
+#2311
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Hallway&00~
+   &15This wide hallway is constructed out of a hard concrete metal combo.  
+Large titanium beams stretch across the ceiling, with emergency titanium
+shutters attached to them.  Red carpet flows down this hallway.  &00
+~
+23 32768 0
+D0
+~
+~
+0 0 2302
+D2
+You see nothing special.
+~
+~
+0 -1 2312
+S
+#2312
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Imporium&00~
+   &15This room leads to the rest of the palace.  A large metal door makes up
+the entrance, with a giant locking mechanism built into the wall next to it.  
+A large flight of stairs leads up from here...  &00
+~
+23 32768 1
+D0
+~
+~
+0 0 2311
+D4
+You see nothing special.
+~
+~
+0 -1 2313
+D5
+~
+jaildoor~
+1 2140 2336
+S
+#2313
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Floor 2&00~
+   &15The large flight of stairs ends here, right where a long red carpet picks
+up.  Servants wander these halls, taking care of the palace and the Royals that
+occupy it.  &00
+~
+23 32768 2
+D2
+You see nothing special.
+~
+~
+0 -1 2314
+D5
+~
+~
+0 0 2312
+S
+#2314
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Hallway&00~
+   &15This wide hallway is constructed out of a hard concrete metal combo.  
+Large titanium beams stretch across the cieling, with emergency titanium
+shutters attached to them.  Red carpet flows down this hallway.  &00
+~
+23 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 2313
+D2
+You see nothing special.
+~
+~
+0 -1 2315
+S
+#2315
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Hallway&00~
+   &15This wide hallway is constructed out of a hard concrete metal combo.  
+Large titanium beams stretch across the cieling, with emergency titanium
+shutters attached to them.  Red carpet flows down this hallway.  &00
+~
+23 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 2314
+D2
+You see nothing special.
+~
+~
+0 -1 2316
+S
+#2316
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Hallway&00~
+   &15This wide hallway is constructed out of a hard concrete metal combo.  
+Large titanium beams stretch across the cieling, with emergency titanium
+shutters attached to them.  Red carpet flows down this hallway.  &00
+~
+23 32768 0
+D0
+~
+~
+0 0 2315
+D1
+You see nothing special.
+~
+~
+0 -1 2318
+D2
+You see nothing special.
+~
+~
+0 -1 2319
+D3
+You see nothing special.
+~
+~
+0 -1 2317
+S
+#2317
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Kitchen&00~
+   &15Thick hearty food smells fill this large room along with hundreds of
+stoves and cooking implements.  Busy mutant and icer cooks rush around
+preparing food, and from the smell of it they appear to all be pretty good at
+their trade.  &00
+~
+23 98304 0
+D1
+~
+~
+0 0 2316
+S
+#2318
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Supply-room&00~
+   &15Shelves and more shelves fill this room.  Stocked with all kinds of non
+perishable foods.  Very light light makes it into this room, and dust builds up
+on most of the stored items.  The only people who access this area at all are
+the palace cooks.  &00
+~
+23 32776 0
+D3
+~
+~
+0 0 2316
+S
+#2319
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Imporium&00~
+   &15This room leads to the rest of the palace.  A large metal door makes up
+the entrance, with a giant locking mechanism built into the wall next to it.  
+A large flight of stairs leads up from here...  &00
+~
+23 32768 1
+D0
+You see nothing special.
+~
+~
+0 -1 2316
+D4
+Nothing.
+~
+Door~
+0 -1 2320
+S
+#2320
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Floor 3&00~
+   &15The large flight of stairs ends here, right where a long red carpet picks
+up.  Servants wander these halls, taking care of the palace and the Royals that
+occupy it.  &00
+~
+23 32768 0
+D2
+You see nothing special.
+~
+~
+0 -1 2321
+D5
+~
+Door~
+0 -1 2319
+S
+#2321
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Hallway&00~
+   &15This wide hallway is constructed out of a hard concrete metal combo.  
+Large titanium beams stretch across the cieling, with emergency titanium
+shutters attached to them.  Red carpet flows down this hallway.  &00
+~
+23 32776 0
+D0
+~
+~
+0 0 2320
+D2
+You see nothing special.
+~
+~
+0 -1 2322
+S
+#2322
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Hallway&00~
+   &15This wide hallway is constructed out of a hard concrete metal combo.  
+Large titanium beams stretch across the cieling, with emergency titanium
+shutters attached to them.  Red carpet flows down this hallway.  &00
+~
+23 32768 0
+D0
+~
+~
+0 0 2321
+D1
+You see nothing special.
+~
+~
+0 -1 2324
+D2
+You see nothing special.
+~
+~
+0 -1 2325
+D3
+You see nothing special.
+~
+~
+0 -1 2323
+S
+#2323
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Guest-room&00~
+   &15This room is the facet of luxuary.  The royal icer family may not be
+good, but they are polite.  Guests to the palace are allowed to rest in this
+room.  Large couches line the walls, and various other pieces of furniture too.
+&00
+~
+23 32768 0
+D1
+~
+~
+0 0 2322
+S
+#2324
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Guest-room&00~
+   &15This room is the facet of luxuary.  The royal icer family may not be
+good, but they are polite.  Guests to the palace are allowed to rest in this
+room.  Large couches line the walls, and various other pieces of furniture too.
+&00
+~
+23 32768 0
+D3
+~
+~
+0 0 2322
+S
+#2325
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Hallway&00~
+   &15This wide hallway is constructed out of a hard concrete metal combo.  
+Large titanium beams stretch across the cieling, with emergency titanium
+shutters attached to them.  Red carpet flows down this hallway.  &00
+~
+23 32772 0
+D0
+~
+~
+0 0 2322
+D2
+You see nothing special.
+~
+~
+0 -1 2326
+S
+#2326
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne &16room&00~
+   &15This is the most grand room in the entire palace.  Polished oak walls,
+red carpeted floors, and satin couches fill the entire area.  Guards are places
+all over the place, to keep the royal family safe as well.  &00
+~
+23 32768 0
+D0
+~
+~
+0 0 2325
+D1
+You see nothing special.
+~
+~
+0 -1 2328
+D2
+You see nothing special.
+~
+~
+0 -1 2329
+D3
+You see nothing special.
+~
+~
+0 -1 2327
+S
+#2327
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne &16room&00~
+   &15This is the most grand room in the entire palace.  Polished oak walls,
+red carpeted floors, and satin couches fill the entire area.  Guards are places
+all over the place, to keep the royal family safe as well.  &00
+~
+23 32768 0
+D1
+~
+~
+0 0 2326
+D2
+You see nothing special.
+~
+~
+0 -1 2330
+S
+#2328
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne &16room&00~
+   &15This is the most grand room in the entire palace.  Polished oak walls,
+red carpeted floors, and satin couches fill the entire area.  Guards are places
+all over the place, to keep the royal family safe as well.  &00
+~
+23 32768 0
+D2
+You see nothing special.
+~
+~
+0 -1 2331
+D3
+~
+~
+0 0 2326
+S
+#2329
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne &16room&00~
+   &15This is the most grand room in the entire palace.  Polished oak walls,
+red carpeted floors, and satin couches fill the entire area.  Guards are places
+all over the place, to keep the royal family safe as well.  &00
+~
+23 32768 0
+D0
+~
+~
+0 0 2326
+D1
+You see nothing special.
+~
+~
+0 -1 2331
+D2
+You see nothing special.
+~
+~
+0 -1 2332
+D3
+You see nothing special.
+~
+~
+0 -1 2330
+S
+#2330
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne &16room&00~
+   &15This is the most grand room in the entire palace.  Polished oak walls,
+red carpeted floors, and satin couches fill the entire area.  Guards are placed
+all over the place, to keep the royal family safe as well.  &00
+~
+23 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 2327
+D1
+~
+~
+0 0 2329
+D2
+You see nothing special.
+~
+~
+0 -1 2333
+S
+#2331
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne &16room&00~
+   &15This is the most grand room in the entire palace.  Polished oak walls,
+red carpeted floors, and satin couches fill the entire area.  Guards are places
+all over the place, to keep the royal family safe as well.  &00
+~
+23 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 2328
+D2
+You see nothing special.
+~
+~
+0 -1 2334
+D3
+~
+~
+0 0 2329
+S
+#2332
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne &16room&00~
+   &15This is the most grand room in the entire palace.  Polished oak walls,
+red carpeted floors, and satin couches fill the entire area.  Guards are places
+all over the place, to keep the royal family safe as well.  &00
+~
+23 32768 0
+D0
+~
+~
+0 0 2329
+D1
+You see nothing special.
+~
+~
+0 -1 2334
+D2
+You see nothing special.
+~
+~
+0 -1 2335
+D3
+You see nothing special.
+~
+~
+0 -1 2333
+S
+#2333
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne &16room&00~
+   &15This is the most grand room in the entire palace.  Polished oak walls,
+red carpeted floors, and satin couches fill the entire area.  Guards are places
+all over the place, to keep the royal family safe as well.  &00
+~
+23 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 2330
+D1
+~
+~
+0 0 2332
+S
+#2334
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne &16room&00~
+   &15This is the most grand room in the entire palace.  Polished oak walls,
+red carpeted floors, and satin couches fill the entire area.  Guards are places
+all over the place, to keep the royal family safe as well.  &00
+~
+23 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 2331
+D3
+~
+~
+0 0 2332
+S
+#2335
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &11Throne&00~
+   &15Here is the throne of the palace, a thick golden throne, with a high back
+and a hole for an icer's tail in the back.  A few steps lead up to the throne,
+setting the throne up higher than any other chair in the room.  &00
+~
+23 32772 0
+D0
+~
+~
+0 0 2332
+S
+#2336
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This room leads to the palace jail.  Full of criminals to the Icerian
+Kingdom, and renegade slaves.  Only the insane or powerful would dare enter
+these rooms and expect to come out alive.  Most anything goes past this
+point....  &00
+~
+23 32772 1
+D0
+You see nothing special.
+~
+Celldoor~
+1 2140 2337
+D4
+~
+jaildoor~
+1 2140 2312
+S
+#2337
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2341
+D1
+You see nothing special.
+~
+~
+0 -1 2339
+D2
+~
+Celldoor~
+1 2140 2336
+D3
+You see nothing special.
+~
+~
+0 -1 2338
+S
+#2338
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2340
+D1
+~
+~
+0 0 2337
+S
+#2339
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2342
+D3
+~
+~
+0 0 2337
+S
+#2340
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2343
+D1
+You see nothing special.
+~
+~
+0 -1 2341
+D2
+~
+~
+0 0 2338
+S
+#2341
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2344
+D1
+You see nothing special.
+~
+~
+0 -1 2342
+D2
+~
+~
+0 0 2337
+D3
+~
+~
+0 0 2340
+S
+#2342
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2345
+D2
+~
+~
+0 0 2339
+D3
+~
+~
+0 0 2341
+S
+#2343
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D1
+You see nothing special.
+~
+~
+0 -1 2344
+D2
+~
+~
+0 0 2340
+S
+#2344
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2346
+D1
+You see nothing special.
+~
+~
+0 -1 2345
+D2
+~
+~
+0 0 2341
+D3
+~
+~
+0 0 2343
+S
+#2345
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D2
+~
+~
+0 0 2342
+D3
+~
+~
+0 0 2344
+S
+#2346
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D2
+~
+~
+0 0 2344
+D5
+You see nothing special.
+~
+~
+0 -1 2347
+S
+#2347
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2351
+D1
+You see nothing special.
+~
+~
+0 -1 2349
+D3
+You see nothing special.
+~
+~
+0 -1 2348
+D4
+You see nothing special.
+~
+~
+0 -1 2346
+S
+#2348
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2350
+D1
+~
+~
+0 0 2347
+S
+#2349
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2352
+D3
+~
+~
+0 0 2347
+S
+#2350
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2353
+D1
+You see nothing special.
+~
+~
+0 -1 2351
+D2
+~
+~
+0 0 2348
+S
+#2351
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2354
+D1
+You see nothing special.
+~
+~
+0 -1 2352
+D2
+~
+~
+0 0 2349
+D3
+You see nothing special.
+~
+~
+0 -1 2350
+S
+#2352
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D0
+You see nothing special.
+~
+~
+0 -1 2355
+D2
+~
+~
+0 0 2349
+D3
+You see nothing special.
+~
+~
+0 -1 2351
+S
+#2353
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D1
+You see nothing special.
+~
+~
+0 -1 2354
+D2
+~
+~
+0 0 2350
+S
+#2354
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D1
+You see nothing special.
+~
+~
+0 -1 2355
+D2
+~
+~
+0 0 2351
+D3
+You see nothing special.
+~
+~
+0 -1 2353
+S
+#2355
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Jail&00~
+   &15This is a large open area of the cell.  To save money, like the Cicle
+city prison, the palace just built one big open jail, and threw all the
+prisoners down into it.  They all run wild in the jail, forming their own mini
+society of sorts.  The only outside interaction they recieve are from heavily
+armed guards at feeding time.  &00
+~
+23 32769 1
+D2
+~
+~
+0 0 2352
+D3
+You see nothing special.
+~
+~
+0 -1 2354
+S
+#2356
+&16T&15i&00&07t&16a&15-&10g&00&02e&00&06a&14r &16Store&00~
+   &15This is a high quality equipment store.  This local branch carries the
+best equipment this side of Frigid, and all in good quality.  A bored store
+clerk sits behind the cash register, fingering a shotgun starpped under the
+counter.  &00
+~
+23 32916 1
+D0
+~
+~
+0 0 2131
+S
+#2357
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2358
+D2
+~
+~
+0 0 2400
+S
+#2358
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2359
+D2
+~
+~
+0 0 2357
+S
+#2359
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2360
+D2
+~
+~
+0 0 2358
+S
+#2360
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2361
+D2
+~
+~
+0 0 2359
+S
+#2361
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2362
+D2
+~
+~
+0 0 2360
+S
+#2362
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 2363
+D2
+~
+~
+0 0 2361
+S
+#2363
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2364
+D3
+You see nothing special.
+~
+~
+0 -1 2362
+S
+#2364
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2365
+D2
+~
+~
+0 0 2363
+S
+#2365
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D2
+~
+~
+0 0 2364
+D3
+You see nothing special.
+~
+~
+0 -1 2366
+S
+#2366
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+23 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2367
+D1
+~
+~
+0 0 2365
+S
+#2367
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2380
+D1
+You see nothing special.
+~
+~
+0 -1 2368
+D2
+~
+~
+0 0 2366
+D3
+You see nothing special.
+~
+~
+0 -1 2372
+S
+#2368
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2381
+D1
+You see nothing special.
+~
+~
+0 -1 2369
+D3
+~
+~
+0 0 2367
+S
+#2369
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2382
+D1
+You see nothing special.
+~
+~
+0 -1 2370
+D3
+~
+~
+0 0 2368
+S
+#2370
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2383
+D1
+You see nothing special.
+~
+~
+0 -1 2371
+D3
+~
+~
+0 0 2369
+S
+#2371
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2384
+D3
+~
+~
+0 0 2370
+S
+#2372
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2379
+D1
+~
+~
+0 0 2367
+D3
+You see nothing special.
+~
+~
+0 -1 2373
+S
+#2373
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2378
+D1
+~
+~
+0 0 2372
+D3
+You see nothing special.
+~
+~
+0 -1 2374
+S
+#2374
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2377
+D1
+~
+~
+0 0 2373
+D3
+You see nothing special.
+~
+~
+0 -1 2375
+S
+#2375
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2376
+D1
+~
+~
+0 0 2374
+S
+#2376
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2385
+D1
+You see nothing special.
+~
+~
+0 -1 2377
+D2
+~
+~
+0 0 2375
+S
+#2377
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2386
+D1
+You see nothing special.
+~
+~
+0 -1 2378
+D2
+You see nothing special.
+~
+~
+0 -1 2374
+D3
+~
+~
+0 0 2376
+S
+#2378
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2387
+D1
+You see nothing special.
+~
+~
+0 -1 2379
+D2
+You see nothing special.
+~
+~
+0 -1 2373
+D3
+~
+~
+0 0 2377
+S
+#2379
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2388
+D1
+You see nothing special.
+~
+~
+0 -1 2380
+D2
+You see nothing special.
+~
+~
+0 -1 2372
+D3
+~
+~
+0 0 2378
+S
+#2380
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2389
+D1
+You see nothing special.
+~
+~
+0 -1 2381
+D2
+You see nothing special.
+~
+~
+0 -1 2367
+D3
+~
+~
+0 0 2379
+S
+#2381
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2390
+D1
+You see nothing special.
+~
+~
+0 -1 2382
+D2
+You see nothing special.
+~
+~
+0 -1 2368
+D3
+~
+~
+0 0 2380
+S
+#2382
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2391
+D1
+You see nothing special.
+~
+~
+0 -1 2383
+D2
+You see nothing special.
+~
+~
+0 -1 2369
+D3
+~
+~
+0 0 2381
+S
+#2383
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2392
+D1
+You see nothing special.
+~
+~
+0 -1 2384
+D2
+You see nothing special.
+~
+~
+0 -1 2370
+D3
+~
+~
+0 0 2382
+S
+#2384
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2393
+D2
+You see nothing special.
+~
+~
+0 -1 2371
+D3
+~
+~
+0 0 2383
+S
+#2385
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2394
+D1
+You see nothing special.
+~
+~
+0 -1 2386
+D2
+~
+~
+0 0 2376
+S
+#2386
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2395
+D1
+~
+~
+0 0 2387
+D2
+You see nothing special.
+~
+~
+0 -1 2377
+D3
+You see nothing special.
+~
+~
+0 -1 2385
+S
+#2387
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2396
+D1
+~
+~
+0 0 2388
+D2
+You see nothing special.
+~
+~
+0 -1 2378
+D3
+You see nothing special.
+~
+~
+0 -1 2386
+S
+#2388
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2397
+D1
+You see nothing special.
+~
+~
+0 -1 2389
+D2
+You see nothing special.
+~
+~
+0 -1 2379
+D3
+~
+~
+0 0 2387
+S
+#2389
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2398
+D1
+You see nothing special.
+~
+~
+0 -1 2390
+D2
+You see nothing special.
+~
+~
+0 -1 2380
+D3
+~
+~
+0 0 2388
+S
+#2390
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2399
+D1
+You see nothing special.
+~
+~
+0 -1 2391
+D2
+You see nothing special.
+~
+~
+0 -1 2381
+D3
+~
+~
+0 0 2389
+S
+#2391
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2401
+D1
+You see nothing special.
+~
+~
+0 -1 2393
+D2
+You see nothing special.
+~
+~
+0 -1 2382
+D3
+~
+~
+0 0 2390
+S
+#2392
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2402
+D1
+You see nothing special.
+~
+~
+0 -1 2393
+D2
+You see nothing special.
+~
+~
+0 -1 2383
+D3
+~
+~
+0 0 2391
+S
+#2393
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2403
+D2
+You see nothing special.
+~
+~
+0 -1 2384
+D3
+~
+~
+0 0 2392
+S
+#2394
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2404
+D1
+You see nothing special.
+~
+~
+0 -1 2395
+D2
+~
+~
+0 0 2385
+D3
+You see nothing special.
+~
+~
+0 -1 2601
+S
+#2395
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2405
+D1
+You see nothing special.
+~
+~
+0 -1 2396
+D2
+You see nothing special.
+~
+~
+0 -1 2386
+D3
+~
+~
+0 0 2394
+S
+#2396
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2406
+D1
+You see nothing special.
+~
+~
+0 -1 2397
+D2
+You see nothing special.
+~
+~
+0 -1 2387
+D3
+~
+~
+0 0 2395
+S
+#2397
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2407
+D1
+You see nothing special.
+~
+~
+0 -1 2398
+D2
+You see nothing special.
+~
+~
+0 -1 2388
+D3
+~
+~
+0 0 2396
+S
+#2398
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2408
+D1
+You see nothing special.
+~
+~
+0 -1 2399
+D2
+You see nothing special.
+~
+~
+0 -1 2389
+D3
+~
+~
+0 0 2397
+S
+#2399
+&14F&00&06r&12o&00&04s&14t&09b&00&01i&09t&00&01e &12S&00&04e&12a&00~
+   &15These freezing waters churn slowly, pushing the thousands of icebergs
+around that occupy the Sea's surface.  Snow constantly falls from the sky,
+melting in the water amazingly.  It seems the massive salt content keeps the
+water mostly unfrozen except for the icebergs that manage to build up.  &00
+~
+23 0 9
+D0
+You see nothing special.
+~
+~
+0 -1 2409
+D1
+You see nothing special.
+~
+~
+0 -1 2401
+D2
+You see nothing special.
+~
+~
+0 -1 2390
+D3
+~
+~
+0 0 2398
+S
+$~

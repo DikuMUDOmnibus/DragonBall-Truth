@@ -1,0 +1,220 @@
+Only in src: .accepted
+diff -c puresrc/act.informative.c src/act.informative.c
+*** puresrc/act.informative.c	Sun Apr 14 03:08:31 1996
+--- src/act.informative.c	Wed Apr 23 20:28:41 1997
+***************
+*** 38,43 ****
+--- 38,44 ----
+  extern char *policies;
+  extern char *handbook;
+  extern char *dirs[];
++ extern char *AEdirs[];
+  extern char *where[];
+  extern char *color_liquid[];
+  extern char *fullness[];
+***************
+*** 301,307 ****
+    for (door = 0; door < NUM_OF_DIRS; door++)
+      if (EXIT(ch, door) && EXIT(ch, door)->to_room != NOWHERE &&
+  	!IS_SET(EXIT(ch, door)->exit_info, EX_CLOSED))
+!       sprintf(buf, "%s%c ", buf, LOWER(*dirs[door]));
+  
+    sprintf(buf2, "%s[ Exits: %s]%s\r\n", CCCYN(ch, C_NRM),
+  	  *buf ? buf : "None! ", CCNRM(ch, C_NRM));
+--- 302,308 ----
+    for (door = 0; door < NUM_OF_DIRS; door++)
+      if (EXIT(ch, door) && EXIT(ch, door)->to_room != NOWHERE &&
+  	!IS_SET(EXIT(ch, door)->exit_info, EX_CLOSED))
+!       sprintf(buf, "%s%s ", buf, AEdirs[door]);
+  
+    sprintf(buf2, "%s[ Exits: %s]%s\r\n", CCCYN(ch, C_NRM),
+  	  *buf ? buf : "None! ", CCNRM(ch, C_NRM));
+diff -c puresrc/constants.c src/constants.c
+*** puresrc/constants.c	Wed Apr 23 17:19:59 1997
+--- src/constants.c	Wed Apr 23 20:24:40 1997
+***************
+*** 32,37 ****
+--- 32,57 ----
+    "west",
+    "up",
+    "down",
++   "northeast",
++   "northwest",
++   "southeast",
++   "southwest",
++   "\n"
++ };
++ 
++ /* autoexit directions */
++ const char *AEdirs[] =
++ {
++   "N",
++   "E",
++   "S",
++   "W",
++   "U",
++   "D",
++   "NE",
++   "NW",
++   "SE",
++   "SW",
+    "\n"
+  };
+  
+diff -c puresrc/interpreter.c src/interpreter.c
+*** puresrc/interpreter.c	Wed Apr 23 17:19:59 1997
+--- src/interpreter.c	Wed Apr 23 20:50:41 1997
+***************
+*** 209,214 ****
+--- 209,218 ----
+    { "west"     , POS_STANDING, do_move     , 0, SCMD_WEST },
+    { "up"       , POS_STANDING, do_move     , 0, SCMD_UP },
+    { "down"     , POS_STANDING, do_move     , 0, SCMD_DOWN },
++   { "northeast", POS_STANDING, do_move     , 0, SCMD_NORTHEAST },
++   { "northwest", POS_STANDING, do_move     , 0, SCMD_NORTHWEST },
++   { "southeast", POS_STANDING, do_move     , 0, SCMD_SOUTHEAST },
++   { "southwest", POS_STANDING, do_move     , 0, SCMD_SOUTHWEST },
+  
+    /* now, the main list */
+    { "at"       , POS_DEAD    , do_at       , LVL_IMMORT, 0 },
+Only in src: interpreter.c.%1
+diff -c puresrc/interpreter.h src/interpreter.h
+*** puresrc/interpreter.h	Wed Apr 23 17:19:59 1997
+--- src/interpreter.h	Wed Apr 23 19:59:47 1997
+***************
+*** 77,82 ****
+--- 77,86 ----
+  #define SCMD_WEST	4
+  #define SCMD_UP		5
+  #define SCMD_DOWN	6
++ #define SCMD_NORTHEAST  7
++ #define SCMD_NORTHWEST  8
++ #define SCMD_SOUTHEAST  9
++ #define SCMD_SOUTHWEST  10
+  
+  /* do_gen_ps */
+  #define SCMD_INFO       0
+diff -c puresrc/redit.c src/redit.c
+*** puresrc/redit.c	Mon Nov 18 08:55:26 1996
+--- src/redit.c	Wed Apr 23 19:51:38 1997
+***************
+*** 497,513 ****
+    sprintf(buf,
+    	"[H[J"
+  	"-- Room number : [%s%d%s]  	Room zone: [%s%d%s]\r\n"
+! 	"%s1%s) Name        : %s%s\r\n"
+! 	"%s2%s) Description :\r\n%s%s"
+!   	"%s3%s) Room flags  : %s%s\r\n"
+! 	"%s4%s) Sector type : %s%s\r\n"
+!   	"%s5%s) Exit north  : %s%d\r\n"
+!   	"%s6%s) Exit east   : %s%d\r\n"
+!   	"%s7%s) Exit south  : %s%d\r\n"
+!   	"%s8%s) Exit west   : %s%d\r\n"
+!   	"%s9%s) Exit up     : %s%d\r\n"
+!   	"%sA%s) Exit down   : %s%d\r\n"
+!   	"%sB%s) Extra descriptions menu\r\n"
+    	"%sQ%s) Quit\r\n"
+    	"Enter choice : ",
+  
+--- 497,517 ----
+    sprintf(buf,
+    	"[H[J"
+  	"-- Room number : [%s%d%s]  	Room zone: [%s%d%s]\r\n"
+! 	"%s1%s) Name           : %s%s\r\n"
+! 	"%s2%s) Description    :\r\n%s%s"
+!   	"%s3%s) Room flags     : %s%s\r\n"
+! 	"%s4%s) Sector type    : %s%s\r\n"
+!   	"%s5%s) Exit north     : %s%d\r\n"
+!   	"%s6%s) Exit east      : %s%d\r\n"
+!   	"%s7%s) Exit south     : %s%d\r\n"
+!   	"%s8%s) Exit west      : %s%d\r\n"
+!   	"%s9%s) Exit up        : %s%d\r\n"
+!   	"%sA%s) Exit down      : %s%d\r\n"
+!   	"%sB%s) Exit northeast : %s%d\r\n"
+!   	"%sC%s) Exit northwest : %s%d\r\n"
+!   	"%sD%s) Exit southeast : %s%d\r\n"
+!   	"%sE%s) Exit southwest : %s%d\r\n"
+!   	"%sF%s) Extra descriptions menu\r\n"
+    	"%sQ%s) Quit\r\n"
+    	"Enter choice : ",
+  
+***************
+*** 529,534 ****
+--- 533,546 ----
+            world[room->dir_option[UP]->to_room].number : -1,
+    	grn, nrm, cyn, room->dir_option[DOWN] ? 
+            world[room->dir_option[DOWN]->to_room].number : -1,
++   	grn, nrm, cyn, room->dir_option[NORTHEAST] ? 
++           world[room->dir_option[NORTHEAST]->to_room].number : -1,
++   	grn, nrm, cyn, room->dir_option[NORTHWEST] ? 
++           world[room->dir_option[NORTHWEST]->to_room].number : -1,
++   	grn, nrm, cyn, room->dir_option[SOUTHEAST] ? 
++           world[room->dir_option[SOUTHEAST]->to_room].number : -1,
++   	grn, nrm, cyn, room->dir_option[SOUTHWEST] ? 
++           world[room->dir_option[SOUTHWEST]->to_room].number : -1,
+          grn, nrm, grn, nrm
+    );
+    send_to_char(buf, d->character);
+***************
+*** 632,637 ****
+--- 644,669 ----
+        break;
+      case 'b':
+      case 'B':
++       OLC_VAL(d) = NORTHEAST;
++       redit_disp_exit_menu(d);
++       break;
++     case 'c':
++     case 'C':
++       OLC_VAL(d) = NORTHWEST;
++       redit_disp_exit_menu(d);
++       break;
++     case 'd':
++     case 'D':
++       OLC_VAL(d) = SOUTHEAST;
++       redit_disp_exit_menu(d);
++       break;
++     case 'e':
++     case 'E':
++       OLC_VAL(d) = SOUTHWEST;
++       redit_disp_exit_menu(d);
++       break;
++     case 'f':
++     case 'F':
+        /* if extra desc doesn't exist . */
+        if (!OLC_ROOM(d)->ex_description) {
+  	CREATE(OLC_ROOM(d)->ex_description, struct extra_descr_data, 1);
+diff -c puresrc/structs.h src/structs.h
+*** puresrc/structs.h	Wed Apr 23 17:20:00 1997
+--- src/structs.h	Wed Apr 23 19:12:44 1997
+***************
+*** 34,39 ****
+--- 34,43 ----
+  #define WEST           3
+  #define UP             4
+  #define DOWN           5
++ #define NORTHEAST      6
++ #define NORTHWEST      7
++ #define SOUTHEAST      8
++ #define SOUTHWEST      9
+  
+  
+  /* Room flags: used in room_data.room_flags */
+***************
+*** 424,430 ****
+  
+  #define LVL_FREEZE	LVL_GRGOD
+  
+! #define NUM_OF_DIRS	6	/* number of directions in a room (nsewud) */
+  
+  #define OPT_USEC	100000	/* 10 passes per second */
+  #define PASSES_PER_SEC	(1000000 / OPT_USEC)
+--- 428,434 ----
+  
+  #define LVL_FREEZE	LVL_GRGOD
+  
+! #define NUM_OF_DIRS	10	/* number of directions in a room (nsewud) */
+  
+  #define OPT_USEC	100000	/* 10 passes per second */
+  #define PASSES_PER_SEC	(1000000 / OPT_USEC)
+Common subdirectories: puresrc/util and src/util

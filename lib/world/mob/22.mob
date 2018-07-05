@@ -1,0 +1,479 @@
+#2200
+Icer Poltergiest~
+&14I&00&06c&12e&00&04r &10P&00&02ol&00&04te&12r&00&04gi&00&02es&10t&00~
+&15An &14I&00&06c&12e&00&04r &10P&00&02ol&00&04te&12r&00&04gi&00&02es&10t &15floats in and out of existance here.&00
+~
+   &15One of the crew members of the Ivalice, an ancient ship of the Icerian
+Royalalty.  This poltergiest refuses to give up on the world of the living,
+using it's force of emotion to deny even the most basic of universal laws.  
+&00
+~
+10 0 0 E
+1000 -60 2 0d0+6000000 0d0+70000
+800 5000000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2201
+Mutant Poltergiest~
+&09M&00&01u&00&05ta&00&01n&09t &10P&00&02ol&00&04te&12r&00&04gi&00&02es&10t&00~
+&15A &09M&00&01u&00&05ta&00&01n&09t &10P&00&02ol&00&04te&12r&00&04gi&00&02es&10t &15hovers here, dark energy crackleing about it's body.&00
+~
+   &15One of the crew members of the Ivalice, an ancient ship of the Icerian
+Royalalty.  This poltergiest refuses to give up on the world of the living,
+using it's force of emotion to deny even the most basic of universal laws.  
+&00
+~
+10 0 0 E
+1000 -60 0 0d0+6000000 0d0+70000
+450 6000000
+8 8 1
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2202
+Icer Phantom~
+&14I&00&06c&12e&00&04r &00&07P&15ha&16n&15to&00&07m&00~
+&15An &14I&00&06c&12e&00&04r &00&07P&15ha&16n&15to&00&07m &15hovers here, draining life from it's surroundings.&00
+~
+   &15One of the crew members of the Ivalice, an ancient ship of the Icerian
+Royalalty.  This poltergiest refuses to give up on the world of the living,
+using it's force of emotion to deny even the most basic of universal laws.  
+&00
+~
+10 0 0 E
+1000 -60 0 0d0+8000000 0d0+70000
+800 7000000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2203
+Mutant Phantom~
+&09M&00&01u&00&05ta&00&01n&09t &00&07P&15ha&16n&15to&00&07m&00~
+&15A &09M&00&01u&00&05ta&00&01n&09t &00&07P&15ha&16n&15to&00&07m &15is hovering here draining the life from the area.&00
+~
+   &15One of the crew members of the Ivalice, an ancient ship of the Icerian
+Royalalty.  This poltergiest refuses to give up on the world of the living,
+using it's force of emotion to deny even the most basic of universal laws.  
+&00
+~
+10 0 0 E
+1000 -60 10 0d0+8000000 0d0+70000
+800 7000000
+8 8 1
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2204
+Giest~
+&00&07G&15i&16e&15s&00&07t&00~
+&15A &00&07G&15i&16e&15s&00&07t &15hovers here, grinning wickedly.&00
+~
+   &15This is what happens to the phantoms and poltergiests of the ship when
+their emotions have twisted them beyond memory of their previous life.  They
+lack form or identity, apearing more as a form of smoke.  &00
+~
+10 0 0 E
+1000 -60 0 0d0+10000000 0d0+70000
+900 8000000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2205
+Icer Ghost~
+&14I&00&06c&12e&00&04r &00&07G&15h&16o&15s&00&07t&00~
+&15An &14I&00&06c&12e&00&04r &00&07G&15h&16o&15s&00&07t &15floats here calmly.&00
+~
+   &15A lesser spirit, which has no recalection of it's previous life.  The
+hate of the other spirits trap it.  &00
+~
+8 0 0 E
+1000 -60 0 0d0+1000000 0d0+30000
+600 3500000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2206
+Mutant Ghost~
+&09M&00&01u&00&05ta&00&01n&09t &00&07G&15h&16o&15s&00&07t&00~
+&15A &09M&00&01u&00&05ta&00&01n&09t &00&07G&15h&16o&15s&00&07t &15floats here calmly&00
+~
+   &15A lesser spirit, which has no recalection of it's previous life.  The
+hate of the other spirits trap it.  &00
+~
+8 0 0 E
+1000 -60 0 0d0+1000000 0d0+30000
+700 3500000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2207
+Phantom Shopkeeper~
+&00&07P&15ha&16n&15to&00&07m &12S&00&04hopkeepe&12r&00~
+&15A &00&07P&15ha&16n&15to&00&07m &12S&00&04hopkeepe&12r &15floats here, rubbing it's etheric hands together.&00
+~
+   &15This phantom can not give up it's greed.  And has hoarded together
+energies and objects, and pulled some from a hidden nether plane, to sell to
+whoever might happen by.  &00
+~
+57354 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2144
+#2208
+Captain Giest~
+&00&06C&15a&14pta&15i&00&06n &00&07G&15i&16e&15s&00&07t&00~
+&15The &00&06C&15a&14pta&15i&00&06n &00&07G&15i&16e&15s&00&07t &15sits here, grinning evily.&00
+~
+   &15This is what remains of the twisted spirit of the Ivalice Captain.  &00
+~
+10 0 0 E
+10000 -60 0 0d0+30000000 0d0+225000
+8000 40000000
+6 6 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2143
+#2209
+George~
+&12George &15the &10S&00&02ewag&10e &11S&00&03pecialis&11t&00~
+&12George &15the &10S&00&02ewag&10e &11S&00&03pecialis&11t &15stands here.&00
+~
+   &15He sits here watching video monitors with a bored face, suffocated by his
+job of sewage managment.  &00
+~
+10 0 0 E
+1000 -25 0 0d0+100000 0d0+10000
+25 1000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2145
+T 2146
+#2210
+Mutant Guardance Prelate~
+&09M&00&01u&00&05ta&00&01n&09t &16G&15u&00&07ardan&15c&16e &11Prelate&00~
+&15Second Floor &09M&00&01u&00&05ta&00&01n&09t &16G&15u&00&07ardan&15c&16e &11Prelate &15stands here.&00
+~
+   &15This is the lowest ranked student of the second floor, charged with
+guarding that floor, and training eighteen hours a day.  &00
+~
+16394 0 0 E
+5000 -60 0 0d0+9000000 0d0+70000
+900 7000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2147
+#2211
+Icer Guardance Prelate~
+&14I&00&06c&12e&00&04r &16G&15u&00&07ardan&15c&16e &11Prelate&00~
+&15Third Floor &14I&00&06c&12e&00&04r &16G&15u&00&07ardan&15c&16e &11Prelate &15stands here.&00
+~
+   &15This is the lowest ranked member of the Third floor.  She trains
+deligently to ascend higher in the ranking.  &00
+~
+10 0 0 E
+5000 -60 0 0d0+14000000 0d0+125000
+1000 9000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2147
+#2212
+Icer Guardance Prelate~
+&14I&00&06c&12e&00&04r &16G&15u&00&07ardan&15c&16e &11Prelate&00~
+&15Fourth Floor &14I&00&06c&12e&00&04r &16G&15u&00&07ardan&15c&16e &11Prelate &15stands here.&00
+~
+&15This is the Guardance prelate for the Fourth Floor.&00
+~
+10 0 0 E
+5000 -60 0 0d0+19000000 0d0+125000
+1200 14000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2147
+#2213
+Mutant Guardance Prelate~
+&09M&00&01u&00&05ta&00&01n&09t &16G&15u&00&07ardan&15c&16e &11Prelate&00~
+&15Fifth floor &09M&00&01u&00&05ta&00&01n&09t &16G&15u&00&07ardan&15c&16e &11Prelate &15stands here.&00
+~
+&15The Fifth Floor Prelate.&00
+~
+10 0 0 E
+5000 -60 0 0d0+24000000 0d0+150000
+1500 19000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2147
+#2214
+Wheeling Gull Master~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09M&00&01aste&09r&00~
+&15The &15W&00&07heelin&15g &14G&00&06ul&14l &09M&00&01aste&09r &15stands here, breathing calmly.&00
+~
+   &15This is the master of the Wheeling Gull Dojo.  He has fought and trained
+hard to reach his rank, and is responsible for the direction of the Dojo in
+it's teachings&00
+~
+10 0 0 E
+10000 -60 0 0d0+30000000 0d0+150000
+15000 25000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2148
+#2215
+Wheeling Gull Trainee~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09T&00&01raine&09e&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09T&00&01raine&09e &15is scrubbing the floor here.&00
+~
+   &15This is one of the newest members of the Dojo, tasked with menial tasks
+to sharpen his bodies physical prowess.  &00
+~
+8 0 0 E
+1000 -60 0 0d0+4000000 0d0+30000
+500 4000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2216
+Wheeling Gull Initiate~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09I&00&01nitiat&09e&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09I&00&01nitiat&09e &15practices here.&00
+~
+   &15This is a fresh initiate, the lowest rank in the Dojo.  A trainee
+becomesan initiate only after they have proved their worth.  &00
+~
+8 0 0 E
+2000 -60 0 0d0+5000000 0d0+70000
+800 4500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2217
+Wheeling Gull Novice~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09N&00&01ovic&09e&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09N&00&01ovic&09e &15practices here.&00
+~
+   &15This is the rank above initiate.  &00
+~
+8 0 0 E
+4000 -60 0 0d0+10000000 0d0+70000
+900 8000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2218
+Wheeling Gull Student~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09S&00&01tuden&09t&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09S&00&01tuden&09t &15is training here.&00
+~
+   &15This is a dedicated student to the Wheeling Gull style.  &00
+~
+8 0 0 E
+5000 -60 0 0d0+15000000 0d0+125000
+1000 10000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2219
+Wheeling Gull Adept~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09A&00&01dep&09t&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09A&00&01dep&09t &15trains here.&00
+~
+   &15This is an advanced student of the Wheeling Gull fighting style.  &00
+~
+8 0 0 E
+5000 -60 0 0d0+20000000 0d0+125000
+1200 15000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2220
+Wheeling Gull Expert~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09E&00&01xper&09t&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09E&00&01xper&09t &15meditates here.&00
+~
+   &15This is the most advanced stage for regular Wheeling Gull School members.
+&00
+~
+8 0 0 E
+6000 -60 0 0d0+25000000 0d0+150000
+1500 20000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2221
+Wheeling Gull Shopkeeper~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09S&00&01hopkeepe&09r&00~
+&15The &15W&00&07heelin&15g &14G&00&06ul&14l &09S&00&01hopkeepe&09r &15stands here.&00
+~
+It looks unfinished.
+~
+16394 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2222
+Little Icer Girl~
+&11Little &14I&00&06c&12e&00&04r &13Girl&00~
+&15A &11Little &14I&00&06c&12e&00&04r &13Girl &15plays here with slave dolls.&00
+~
+   &15Just a little icer girl, playing.  &00
+~
+8 0 0 E
+100 0 0 0d0+300 0d0+8
+50 23000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2223
+Mutant Bum~
+&09M&00&01u&00&05ta&00&01n&09t &00&03B&00&02u&00&03m&00~
+&15A &09M&00&01u&00&05ta&00&01n&09t &00&03B&00&02u&00&03m &15drinks some liqour here.&00
+~
+   &15Just a bum, wandering around the city.  &00
+~
+8 0 0 E
+100 -10 0 0d0+345 0d0+12
+80 28000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2224
+Male Icer~
+&12Male &14I&00&06c&12e&00&02r&00~
+&15A &12Male &14I&00&06c&12e&00&02r &15is reading the Slave Times here.&00
+~
+   &15A male icer, reading a major newspaper.  &00
+~
+8 0 0 E
+100 -15 0 0d0+355 0d0+14
+112 30000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2233
+igona~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2240
+Glog~
+&10G&00&02lo&10g&00~
+&10G&00&02lo&10g&15, Glug's brother, sits here enjoying the show.&00
+~
+   &15This is Glug's younger brother, the resemblence is striking except for
+Glog's larger size.  &00
+~
+10 0 0 E
+400000 -80 0 0d0+95000000 0d0+300000
+20000 95000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2240
+$

@@ -1,0 +1,1876 @@
+#10000
+female shopkeeper~
+Female Shopkeeper~
+&14Female Shopkeeper stands behind the counter, hurriedly finishing sales.&00
+~
+Nothing.
+~
+74 1032 -600 E
+2000 -30 -20 15d10+100000 30d15+20
+100000000 25000
+8 8 2
+BareHandAttack: 13
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10001
+namek transport pilot~
+&00&02N&10a&00&02m&10e&00&02k &15T&16r&00&07anspo&16r&15t &14P&16ilo&14t&00~
+&15A &00&02N&10a&00&02m&10e&00&02k &15T&16r&00&07anspo&16r&15t &14P&16ilo&14t &15stands here, waiting for passengers.&00
+~
+Nothing.
+~
+256010 0 0 E
+30 10 10 10d10+300 10d10+10
+0 0
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10001
+T 10002
+#10002
+Burly Namekian Shopkeeper~
+&00&02B&03u&06r&00&02l&03y&00 &00&02N&03a&06m&00&02e&03k&06i&00&02a&03n&00 &04S&06h&14o&00&12p&00&04k&06e&14e&00&12p&00&04e&06r&00~
+&00&02B&03u&06r&00&02l&03y&00 &00&02N&03a&06m&00&02e&03k&06i&00&02a&03n&00 &04S&06h&14o&00&12p&00&04k&06e&14e&00&12p&00&04e&06r&00 &02sits behind a counter.
+~
+&00&02 A B&03u&06r&00&02l&03y&00 &00&02N&03a&06m&00&02e&03k&06i&00&02a&03n&00 &04S&06h&14o&00&12p&00&04k&06e&14e&00&12p&00&04e&06r&00 &02sits behind a counter polishing a finely crafted katana.&00
+~
+10 0 -500 E
+30 9 10 0d20+0 9d17+16
+0 10000
+6 6 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10003
+Corporal Klinger~
+&00&02Corporal&00 &14Klinger&00~
+&00&02Corporal &14Klinger&00&02 of the M*A*S*H* 4077th is standing here... in a dress...
+~
+   &00&02Corporal &14Klinger&00&02 of the M*A*S*H* 4077th is standing here in a
+white dress.  You notice in passing that he forgot to shave his legs that
+morning.    
+~
+10 0 -500 E
+27 8 10 13d10+500 11d14+15
+0 11000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10007
+#10004
+Captain Hawkeye Pierce~
+&00&02Captain &06"Hawkeye" &14Pierce&00~
+&00&02Captain &06"Hawkeye" &14Pierce&00 &02of the M*A*S*H* 4077th is sitting here.&00
+~
+   &00&02Captain &06"Hawkeye" &14Pierce&00 &02of the M*A*S*H* 4077th is sitting
+here, dressed in a red bathrobe, and military slippers.  He holds a gin, in a
+martini glass, in one hand.  &00
+~
+10 0 -700 E
+32 10 10 14d12+0 10d20+18
+0 10000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10005
+Captain John Trapper McIntire~
+&02Captain &14John&00 &06"Trapper" &14McIntyre&00~
+&00&02Captain &14John&00 &06"Trapper" &14McIntyre&00 &02of the M*A*S*H* 4077th is sitting here.
+~
+   &00&02Captain &14John&00 &06"Trapper" &14McIntyre&00 &02of the M*A*S*H*
+4077th is sitting here in his bathrobe, also holding a martini glass with gin
+in his hand.    
+~
+10 0 -1000 E
+80000 0 -20 21d21+80000 18d23+20
+200 90000
+8 8 1
+BareHandAttack: 9
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10006
+Robed Beings~
+&00&04R&06o&12b&00&04e&06d&00 &12B&00&06e&00&04i&12n&00&06g&00&04s&00~
+&00&02A pair of &00&04R&06o&12b&00&04e&06d&00 &12B&00&06e&00&04i&12n&00&06g&00&04s&00&02 stands here.&00
+~
+&00&02A pair of &00&04R&06o&12b&00&04e&06d&00 &12B&00&06e&00&04i&12n&00&06g&00&04s&00&02 stands here. You try and see under their hoods, but see nothing, save for darkness. That attempt fills you with fear.&00
+~
+10 0 -600 E
+6000 5 -10 16d15+10000 15d18+16
+100 10000
+8 8 1
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10007
+Corporal Radar O'Reilly~
+&00&02Corporal &06"Radar" &14O'Reilly&00~
+&00&02Corporal &06"Radar" &14O'Reilly&00 &02stands here, holding a clipboard in one hand, and pet food in the other.&00
+~
+   &00&02Corporal &06"Radar" &14O'Reilly&00 &02stands here, holding a clipboard
+in one hand, and pet food in the other.  He seems to be mumbling something, and
+can almost read your mind.  &00
+~
+10 0 -700 E
+65 13 -5 5d6+1000000000 2d5+7
+0 3000
+8 8 1
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10008
+Namekian Commoner~
+&00&02N&03a&06m&00&02e&03k&06i&00&02a&03n&00 &12C&00&06o&12m&00&06m&12o&00&06n&12e&00&06r&00~
+&00A &02N&03a&06m&00&02e&03k&06i&00&02a&03n&00 &12C&00&06o&12m&00&06m&12o&00&06n&12e&00&06r&00 is standing here.
+~
+&00A &02N&03a&06m&00&02e&03k&06i&00&02a&03n&00 &12C&00&06o&12m&00&06m&12o&00&06n&12e&00&06r&00 is standing here, looking about.
+~
+8 262144 0 E
+1 19 0 1d1+1 1d1+1
+1 1
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10009
+Aurumvorax~
+&00&03Aurumvorax&00~
+&00An &03Aurumvorax&00 stands here.
+~
+   &00&11Despite being only the size of a badger, the Aurumvorax, or "Golden
+Gorger", the Aurumvorax is an incredibly dangerous creature.  The animal is
+covered in coarse golden hair, and has small silver eyes with golden pupils.  
+Each of it's eight legs ends in 3-inch copper claws, and it's shoulder are
+massively muscled.  &00
+~
+8 0 0 E
+1 0 -10 1d1+300 1d1+40
+75 25000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10010
+Bulette~
+&00&15B&16u&00&03l&15e&16t&00&03t&15e&00~
+&00A &15B&16u&00&03l&15e&16t&00&03t&15e&00 is swimming through the &03dirt&00 here.&00
+~
+   &00&03Aptly called a landshark, the
+&00&15B&16u&00&03l&15e&16t&00&03t&15e&00&03 is a terrifying predator that lives
+only to eat, and is shunned even by other monsters.  It is rumoured to be a
+cross between an armadillo and snapping turtle, though this is purely
+conjecture.  &00
+~
+8 0 0 E
+0 -20 -20 1d1+5000 1d1+500
+200 200000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10011
+Bullywug~
+&00&06B&00&02u&03l&06l&00&02y&03w&06u&00&02g&00~
+&00A &06B&00&02u&03l&06l&00&02y&03w&06u&00&02g&00 stands here.
+~
+   &00&14 &00&06B&00&02u&03l&06l&00&02y&03w&06u&00&02g&00&14's are a race of
+bipedal, frog-like amphibians.  They inhabit swamps, marshes, and other dank
+places.  &00&06B&00&02u&03l&06l&00&02y&03w&06u&00&02g&00&14s are covered with a
+smooth, mottled green hide that is reasonably tough.  They can vary in size,
+from smaller than the average human, to nearly seven feet tall.  Their faces
+resemble those of enormous frogs, with wide mouths, and large bulbous eyes.  
+&00
+~
+2088 0 -100 E
+0 -40 -20 1d1+100000 1d1+5000
+500 1000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10012
+Deepspawn~
+&00&15D&16e&00&01e&15p&16s&00&01p&15a&16w&00&01n&00~
+&00A &15D&16e&00&01e&15p&16s&00&01p&15a&16w&00&01n&00 floats here.&00
+~
+   &00&15D&16e&00&01e&15p&16s&00&01p&15a&16w&00&01n&00&15 are infamous horrors
+who give birth to many other varieties of monsters.  
+&00&15D&16e&00&01e&15p&16s&00&01p&15a&16w&00&01n&00&15 look like large mottled
+grey and brown rubbery spheres.  They have six arms, three tentacle's, and
+three jaw -arms.  &00
+~
+8 0 -200 E
+0 -60 10 1d1+1000000 1d1+30000
+700 3500000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10013
+Guru Wind~
+&00&02G&03u&06r&00&02u&00 &15o&16f &15t&16h&15e&00 &04W&12i&00&06n&14d&00~
+&00The &02G&03u&06r&00&02u&00 &15o&16f &15t&16h&15e&00 &04W&12i&00&06n&14d&00 floats here.&00
+~
+&00&14This creature seems fairly insubstantial.&00
+~
+2090 33800 0 E
+0 -40 10 1d1+50000 1d1+5000
+500 500000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10171
+#10014
+Stone Statue~
+&15S&16t&15o&16n&15e &15S&16t&15a&16t&15u&16e&00~
+&00A &15S&16t&15o&16n&15e &15S&16t&15a&16t&15u&16e&00 is built into the wall here.&00
+~
+A strange carving is made on the statue..... Vel'uss zhaun alur taga lil Quarval-sharess?
+~
+6170 60 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10014
+#10015
+Armed Sia'ngelius Knight~
+&00S&15i&00a&15'&00n&15g&00e&15l&00i&15u&00s&00 &03K&06n&00&04ig&06h&00&03t&00~
+&00A tall, &00S&15i&00a&15'&00n&15g&00e&15l&00i&15u&00s&00 &03K&06n&00&04ig&06h&00&03t&00 stands here.
+~
+&00A tall, &00S&15i&00a&15'&00n&15g&00e&15l&00i&15u&00s&00 &03K&06n&00&04ig&06h&00&03t&00 stands here. He has long blonde hair, and wears a breastplate which shines like a mirror, polished half-boots, greaves, and black khaki's. He bears a well made katana, as well as an odd looking blaster at his hip.&00
+~
+16410 295996 0 E
+0 -60 0 1d1+500000 1d1+30000
+600 2000000
+8 8 1
+BareHandAttack: 3
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10015
+#10016
+Mriswith~
+&00&02M&15r&16i&00&02s&16w&15i&00&02t&15h&00~
+&00A gruesome creature, a &00&02M&15r&16i&00&02s&16w&15i&00&02t&15h&00 stands here.
+~
+It looks unfinished.
+~
+8 10 0 E
+0 -60 10 1d1+8000000 1d1+70000
+850 6500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10017
+Mriswith Queen~
+&00&01M&15r&16i&00&01s&16w&15i&00&01t&15h&00 &00&16Q&15u&00e&15e&16n&00~
+&00Huge, and dragon-like, the &00&01M&15r&16i&00&01s&16w&15i&00&01t&15h&00 &00&16Q&15u&00e&15e&16n&00 sits here.
+~
+It looks unfinished.
+~
+10 0 0 E
+400000 -60 0 1d1+110000000 1d1+250000
+20000 50000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10018
+Bulette Bandit~
+&00&15B&16u&00&03l&15e&16t&00&03t&15e &16B&00&02a&15n&16d&00&02i&15t&00~
+&00The only &15B&16u&00&03l&15e&16t&00&03t&15e &16B&00&02a&15n&16d&00&02i&15t&00 waits here.&00
+~
+   &00This is a large, buff Namek.  He wears simple pants, and an armband with
+a symbl reminisant of the Red Ribbon Army's.  &00
+~
+42 0 0 E
+0 -40 0 1d1+50000 1d1+5000
+500 500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10019
+Eric~
+&00&14Eric&00 the Human~
+&00&14Eric&00 the Human stands here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10003
+#10034
+Kerilic Demon Spawn~
+&00&03The &09D&00&01e&09m&00&01o&09n&00 &15S&16p&00&07a&15w&16n&00 &00&01K&03e&09r&00&06i&00&01l&03i&09c&00~
+&00&03The &09D&00&01e&09m&00&01o&09n&00 &15S&16p&00&07a&15w&16n&00 &00&01K&03e&09r&00&06i&00&01l&03i&09c&00&03 stands here, drooling for a fight....
+~
+   &00&09Your eyes play over this demon.  It's skin, a dark, crusted brown,
+drips with a semi-translucent black ichor, and it's eyes burn like twin red
+suns.  It's arms are powerfully muscled, and it has no neck to speak of.  A
+pair of twin horns curve out, up and back from it's head, and trail down it's
+back.  It wears a brief loincloth, and look at you as though you will be it's
+next meal.  &00
+~
+2090 263176 -1000 E
+250 1 0 10d5+100000 3d6+100000
+0 100000
+8 8 0
+BareHandAttack: 8
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10037
+Guru~
+&00&02G&03u&06r&00&02u&00~
+&10G&00&03u&00&02r&00&06u&15, massive ruler of the Namekians, sits here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+200000000 0
+6 6 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10037
+T 10039
+T 10040
+T 10004
+#10048
+Disgruntled Namek~
+&00&01Di&09s&00&01gr&09u&00&01nt&09l&00&01ed&00 &02N&03a&06m&00&02e&03k&00~
+&00A &01Di&09s&00&01gr&09u&00&01nt&09l&00&01ed&00 &02N&03a&06m&00&02e&03k&00 stands here.
+~
+   This Namek looks really mad about something.    
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10048
+#10177
+Ancient Mriswith~
+&00&02A&03n&10c&00i&10e&00&03n&00&02t &03M&15r&16i&00&03s&16w&15i&00&03t&16h&00~
+&00An &02A&03n&10c&00i&10e&00&03n&00&02t &03M&15r&16i&00&03s&16w&15i&00&03t&16h&00 stands here.&00
+~
+It looks unfinished.
+~
+10 10 0 E
+0 -80 0 1d1+100000000 1d1+250000
+6000 60000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10181
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -80 0 1d1+0 1d1+250000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10182
+Mord Sith Denna~
+&16D&15e&00n&15n&16a&00~
+&00The &09Mo&00&01rd&00-&01Si&09th&00 &16D&15e&00n&15n&16a&00 stands here.&00
+~
+It looks unfinished.
+~
+10 8 0 E
+0 -80 0 1d1+100000000 1d1+250000
+6000 60000000
+8 8 2
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10185
+Alric Rahl~
+&12Al&14r&12ic &11R&00&03ah&11l&00~
+&12Al&14r&12ic &11R&00&03ah&11l&00&00&07's ghost floats here.&00
+~
+undefined~
+10 8 0 E
+400000 -80 0 1d1+100000000 1d1+250000
+6000 60000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10207
+Chibi Lilia~
+&00&05C&13h&00i&13b&00&05i &10L&00&02ili&10a&00~
+&00&05C&13h&00i&13b&00&05i &10L&00&02ili&10a&00 floats here.
+~
+   &00This is a Chibi form of Lilia.  She only appears for rare occasions.    
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10209
+Starkaad the Troll~
+&00&02S&03t&00&02a&03r&00&02k&03a&00&02a&03d &00&02t&03h&00&02e &03T&00&02r&03o&00&02l&03l&00~
+&00&02S&03t&00&02a&03r&00&02k&03a&00&02a&03d &00&02t&03h&00&02e &03T&00&02r&03o&00&02l&03l&00 stands here, holding a massive steel club
+~
+It looks unfinished.
+~
+124968 295976 0 E
+0 -60 0 1d1+8000000 1d1+250000
+850 6500000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10210
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10224
+Sia'ngelius Guard~
+&00S&15i&00a&15'&00n&15g&00e&15l&00i&15u&00s &03Co&06m&00&03mo&06ne&00&03r&00~
+&00A S&15i&00a&15'&00n&15g&00e&15l&00i&15u&00s &03Co&06m&00&03mo&06ne&00&03r&00 stands here, looking about.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -60 0 1d1+15000000 1d1+125000
+1000 10000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10291
+Sain'gelius Protector~
+&00&01S&09i&00&01a&09n&00&01'&09g&00&01e&09l&00&01i&09u&00&01s&00 &06P&14r&00&06o&14t&00&06e&14c&00&06t&14o&00&06r&00~
+&00The &01S&09i&00&01a&09n&00&01'&09g&00&01e&09l&00&01i&09u&00&01s&00 &06P&14r&00&06o&14t&00&06e&14c&00&06t&14o&00&06r&00 stands here.
+~
+   Born of a need to protect these grounds, any who wish to pass must defeat
+this guardian.    
+~
+190506 295936 0 E
+0 -80 0 1d1+70000000 1d1+250000
+5000 50000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10297
+Oaken Desk~
+&00&15O&00&03a&00&02k&03e&15n &16D&15es&16k&00~
+&00An &15O&00&03a&00&02k&03e&15n &16D&15es&16k&00 sits here.
+~
+   It's an Oaken Desk.    
+~
+10 32776 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10365
+#10298
+Corin Nighthawk~
+&00&14Corin &15N&16i&15g&16h&15t&00&04h&12a&00&04w&12k&00~
+&00&14Corin &15N&16i&15g&16h&15t&00&04h&12a&00&04w&12k&00 &06stands here.&00
+~
+   &00&11Corin is a Saiyan, and has all the earmarks of one.  His hair sweeps
+back in a collection of golden spikes, and though there are four silver streaks
+in it.  His eyes are emerald, shot through with silver flecks.  He wears an
+easy grin, and loose clothing.  &00
+~
+10 0 0 E
+0 20 0 1d1+50000000 1d1+0
+0 0
+8 6 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10299
+Corin Nighthawk~
+&14Corin&00 &15N&11i&15g&11h&15t&11h&15a&11w&15k&00~
+&14Corin&00 &15N&11i&15g&11h&15t&11h&15a&11w&15k&00, surrounded by a blazing &11golden&00 aura, stands here.
+~
+   &00&11Corin is a Saiyan, and has all the earmarks of one.  His hair sweeps
+back in a collection of golden spikes, and though there are four silver streaks
+in it.  His eyes are emerald, shot through with silver flecks.  He wears an
+easy grin, and loose clothing.  &00
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10316
+Female Student~
+&00&05F&13e&00&05m&13a&00&05l&13e&00 &00&04S&12t&00&04u&12d&00&04e&12n&00&04t&00~
+&00A &05F&13e&00&05m&13a&00&05l&13e&00 &00&04S&12t&00&04u&12d&00&04e&12n&00&04t&00 stands here, reading a small book.&00
+~
+   &00This student wears long flowing white robes, which mark her as a student
+of this university.  &00
+~
+8 0 0 E
+0 -80 0 1d1+90000000 1d1+250000
+5500 55000000
+8 8 2
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10330
+male Student~
+&00&15M &16a&15l&16e&00 &04S&12t&00&04u&12d&00&04e&12n&00&04t&00~
+&00A &15M &16a&15l&16e&00 &04S&12t&00&04u&12d&00&04e&12n&00&04t&00 stands here, looking through his bag.&00
+~
+   &00This student wears flowing white robes, which mark him as a student of
+this university.  &00
+~
+8 0 0 E
+0 -80 0 1d1+90000000 1d1+250000
+5500 55000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10352
+The Dean~
+&00&15T&16h&15e&16 D&15e&16a&15n&00~
+&15T&16h&15e&16 D&15e&16a&15n&00 sits at his desk here.&00
+~
+It looks unfinished.
+~
+42 0 0 E
+0 -80 0 1d1+50000000 1d1+300
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10352
+#10366
+Ancient Namek~
+&00&03A&11n&15c&16i&15e&11n&00&03t &02N&03a&06m&03e&00&02k&00~
+&00An &03A&11n&15c&16i&15e&11n&00&03t &02N&03a&06m&03e&00&02k&00 sits here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+6 6 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10377
+Frostbite Avatar of the Goddess~
+&00&06F&12r&00o&00&06s&12t&00b&00&06i&12t&00e&00, &04Av&15at&00&04ar&00 &16of the&00 &03G&00&02o&06d&00&03d&00&02e&06s&00&03s&00~
+&00&06F&12r&00o&00&06s&12t&00b&00&06i&12t&00e&00, &04Av&15at&00&04ar&00 &16of the&00 &03G&00&02o&06d&00&03d&00&02e&06s&00&03s&00 stands here, dressed in magnificent armor.&00
+~
+   Frostbite, called so by the Goddess, stands here.  He wears dark blue armor,
+and carries a massive sword on his back.  His hair is jet black, and his eyes
+white.  &00
+~
+282 0 1000 E
+0 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10377
+T 10376
+#10379
+Android 1~
+&15A&16n&15d&16r&15o&16i&15d&00 &04#&121&00~
+&15A&16n&15d&16r&15o&16i&15d&00 &04#&121&00  stands here.&00
+~
+   &00A tall android stands here.  It's hair is long, blue, and tied in a
+ponytail.  His eyes are total black voids, and his two massive arms are folded.
+&00
+~
+10 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10379
+#10381
+Komorick the Konatsu~
+&00&16K&00&04o&16m&00&04o&16r&00&04i&16c&00&04k&00 &14the Konatsu&00~
+&00&16K&00&04o&16m&00&04o&16r&00&04i&16c&00&04k&00 &14the Konatsu&00 stands here, waiting.&00
+~
+   &00Standing an impressive seven feet tall, this Konatsu holds a beautifully
+crafted katana.  His head is bald, and his eyes red.  &00
+~
+10 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 0
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10381
+T 10380
+#10383
+Sarra, The Saiyan~
+&00&15S&16a&00r&16r&15a&00, &12T&00&04h&12e &00&04S&16a&15iy&16a&00&04n&00~
+&00&15S&16a&00r&16r&15a&00, &12T&00&04h&12e &00&04S&16a&15iy&16a&00&04n&00 stands here.
+~
+   &00This is Sarra, first princess of the Saiyan race.  &00
+~
+10 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10383
+T 10382
+#10385
+Nilvar Namek~
+&00&02N&10i&00&02lv&10a&00&02r&00 &15t&16h&15e &00&02N&03a&06m&00&02e&03k&00~
+&00&02N&10i&00&02lv&10a&00&02r&00 &15t&16h&15e &00&02N&03a&06m&00&02e&03k&00 stands here.&00
+~
+   &02Nilvar is about 5 foot 5, and wears an open leather vest, and black
+trousers.  His head is bear, and he appears to be young.  &00
+~
+10 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10385
+T 10386
+#10387
+Frelic King Icer~
+&00F&14r&12el&14i&00c &03K&11in&00&03g &15o&16f t&15h&16e &04I&06c&12e&00&06r&00&04s&00~
+&00F&14r&12el&14i&00c &03K&11in&00&03g &15o&16f t&15h&16e &04I&06c&12e&00&06r&00&04s&00 stands here.
+~
+   &00This icer is huge, taller than Cooler, or King cold.  His eyes are a deep
+malevolent red, and his highlights black.  &00
+~
+10 0 0 E
+1 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10385
+T 10386
+#10400
+Steel Cyclopian Droid~
+&16S&15t&00&07e&15e&00&07l &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d&00~
+&15A &16S&15t&00&07e&15e&00&07l &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d &15stands here.&00
+~
+   &15This is the smaller, less sophisticated droids the Ghette Star has
+produced, and is used to capture weak biological life forms on a planet.  &00
+~
+4104 0 0 E
+1000 -60 0 0d0+100000 0d0+5000
+300 1000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10401
+Duralloy Cyclopian Droid~
+&11D&00&03urallo&11y &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d&00~
+&15A &11D&00&03urallo&11y &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d &15stands here.&00
+~
+   &15This is an upgraded low class droid, it's steel armor replaced with a
+special alloy the Ghette Assimilated from a distant planet.  &00
+~
+10 0 0 E
+4000 -60 0 0d0+1000000 0d0+30000
+700 3500000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10402
+Titanium Cyclopian Droid~
+&16T&15i&00&07t&16a&15n&00&07i&16u&15m &00&06C&14y&00&07&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d&00~
+&15A &16T&15i&00&07t&16a&15n&00&07i&16u&15m &00&06C&14y&00&07&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d &15stands here.&00
+~
+   &15This is another upgraded Cyclopian droid of the Ghette Star.  It is
+double the size of earlier models as well, and uses it's size when capturing
+targets.  &00
+~
+10 0 0 E
+5000 -60 0 0d0+6000000 0d0+70000
+800 5000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10403
+Command Cyclopian Droid~
+&12C&00&04omman&12d &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d&00~
+&15The &12C&00&04omman&12d &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d &15stands here.&00
+~
+   &15This is the command droid for all the low level droids, it leads the
+droids in most specimen taking missions, and is the only one with rudimentry
+thought.  &00
+~
+10 0 0 E
+5000 -60 0 0d0+10000000 0d0+70000
+1500 8000000
+8 8 0
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10609
+#10404
+Platinum Cyclopian Droid~
+&15Pl&00&07a&15ti&00&07n&15um &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d&00~
+&15A &15Pl&00&07a&15ti&00&07n&15um &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d &15stands here.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+4000 -60 0 0d0+15000000 0d0+125000
+1000 10000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10405
+Hyper Cyclopian Droid~
+&09H&00&01ype&09r &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d&00~
+&15A &09H&00&01ype&09r &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d &15stands here.&00
+~
+   &15This is a powered up Platinum Cyclopian Droid, it's circuits upgraded to
+push it beyond the edge of most of it's model type.  &00
+~
+10 0 0 E
+10000 -60 0 0d0+20000000 0d0+125000
+1200 15000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10406
+Giant Cyclopian Droid~
+&10G&00&02ian&10t &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d&00~
+&15A &10G&00&02ian&10t &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d &15stands here.&00
+~
+   &15This is a huge droid, built to take on really big specimens and bring
+them in.  &00
+~
+10 0 0 E
+80 20 0 0d0+25000000 0d0+150000
+1500 20000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10407
+Steel Cooler Copy~
+&16S&15t&00&07e&15e&00&07l &14C&00&06oole&14r &12C&00&04op&12y&00~
+&15A &16S&15t&00&07e&15e&00&07l &14C&00&06oole&14r &12C&00&04op&12y &15stands here, grinning.&00
+~
+   &15This is the earliest Cooler copy the Ghette made, before increased qualty
+was needed.  &00
+~
+8 0 0 E
+15000 20 0 0d0+30000000 0d0+150000
+2000 25000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10408
+Titanium Cooler Copy~
+&16T&15i&00&07t&16a&15n&00&07i&16u&15m &14C&00&06oole&14r &12C&00&04op&12y&00~
+&15A &16T&15i&00&07t&16a&15n&00&07i&16u&15m &14C&00&06oole&14r &12C&00&04op&12y &15stands here, grining.&00
+~
+   &15This is the second version of cooler, upgraded to be able to withstand an
+increased threat.  &00
+~
+10 0 0 E
+20000 -60 0 0d0+40000000 0d0+200000
+2500 30000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10409
+Hyper Cooler Copy~
+&09H&00&01ype&09r &14C&00&06oole&14r &12C&00&04op&12y&00~
+&15A &09H&00&01ype&09r &14C&00&06oole&14r &12C&00&04op&12y &15is standing here, with energy crackling about it's body.&00
+~
+   &15This is another increased version, it can only be guessed, that a strong
+advesary brought about this upgrade.  &00
+~
+8 0 0 E
+20000 -60 0 0d0+50000000 0d0+20000
+3000 35000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10410
+Platinum Cooler Copy~
+&15Pl&00&07a&15ti&00&07n&15um &14C&00&06oole&14r &12C&00&04op&12y&00~
+&15A &15Pl&00&07a&15ti&00&07n&15um &14C&00&06oole&14r &12C&00&04op&12y &15is standing here, shining in the bright light.&00
+~
+   &15This is supposed to be the ultimate copy of Metal Cooler made, capable of
+destroying worlds and much more.  &00
+~
+8 0 0 E
+25000 -60 0 0d0+70000000 0d0+250000
+5000 50000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10411
+Metal Cooler~
+&16M&15e&00&07t&15a&16l &14C&00&06oole&14r&00~
+&15The &16M&15e&00&07t&15a&16l &14C&00&06oole&14r &15stands here.&00
+~
+   &15This is the final copy of Cooler the Ghette made, the ultimate Cooler,
+the Metal Cooler.  This is a being beyond all comprehension in power.  &00
+~
+10 0 0 E
+500000 -60 0 0d0+100000000 0d0+500000
+6000 60000000
+8 8 0
+BareHandAttack: 10
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10400
+#10412
+Combat Cyclopian Droid~
+&12C&00&04o&00&06mb&00&04a&12t &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d&00~
+&15A &12C&00&04o&00&06mb&00&04a&12t &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d &15stands here.&00
+~
+   &15This is a slightly upgraded Duralloy Cyclopian Droid.  &00
+~
+10 0 0 E
+3000 -60 0 0d0+1100000 0d0+30000
+725 4000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10413
+Ancient Cyclopian Droid~
+&00&03A&11n&15c&16i&15e&11n&00&03t &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d&00~
+&15A &00&03A&11n&15c&16i&15e&11n&00&03t &00&06C&14y&00&07c&15lop&00&07i&14a&00&06n &00&07D&15r&16o&15i&00&07d &15is standing here.&00
+~
+   &15This looks like an advanced droid the Ghette star produced a long time
+ago, it utilizes a different type of technology.  &00
+~
+10 0 0 E
+5000 -60 0 0d0+7000000 0d0+70000
+825 6000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10414
+Field Worm~
+&00&03F&11i&00&02e&10l&00&03d &10W&11o&09r&10m&00~
+&15A &00&03F&11i&00&02e&10l&00&03d &10W&11o&09r&10m &15is crawling here.&00
+~
+   &15This worm is exceptionally large for it's species, growing fat off of the
+rich namekian grass growing here.  &00
+~
+8 0 0 E
+500 -40 0 0d0+70000 0d0+5000
+425 700000
+8 8 1
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10415
+Wolverine~
+&00&06W&00&07o&14l&00&03ver&14i&00&07n&00&06e&00~
+&15A &00&06W&00&07o&14l&00&03ver&14i&00&07n&00&06e &15searches for food here.&00
+~
+   &15This wolverine seems to be a crossbreed between some type of namekian
+animal and a earth wolverine that somehow made it to the planet Namek.  &00
+~
+8 0 0 E
+1200 -40 0 0d0+100000 0d0+5000
+500 1000000
+8 8 0
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10600
+Manjiro~
+&12M&14a&00&06nji&14r&12o&00~
+&12M&14a&00&06nji&14r&12o &15the Warrior stands here.&00
+~
+   &15A lonly namekian warrior of Porunga Village, diligent in it's training,
+and constantly working to keep the village safe.  &00
+~
+10 0 0 E
+5000 -60 0 0d0+500000 0d0+30000
+1000 2000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10603
+#10601
+Namek Villager~
+&10N&00&02a&10m&00&02e&10k &14V&00&06illage&14r&00~
+&15A &10N&00&02a&10m&00&02e&10k &14V&00&06illage&14r &15wanders here.&00
+~
+   &15A normal Namekian villager minding it's own business.  &00
+~
+8 0 0 E
+500 -40 0 0d0+50000 0d0+5000
+600 500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10602
+Roende~
+&00&06R&00&02o&10en&00&02d&00&06e&00~
+&00&06R&00&02o&10en&00&02d&00&06e &15stands here, looking at a piece of ore.&00
+~
+   &15This is Porunga Village's only smith, and one of the finest on all of
+Namek.  It is looking long in it's years, with gnarled hands that look like
+they have handled hammers for a long time.  &00
+~
+10 0 0 E
+0 20 0 1d1+5000 1d1+250000
+1 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10600
+T 10601
+#10603
+Dorendo~
+&10D&00&02o&00&06ren&00&02d&10o&00~
+&10D&00&02o&00&06ren&00&02d&10o &15the Fisher stands here.&00
+~
+   &15This is a rare sight, a Namek fisher.  It's livelihood depends on what it
+can catch, and sell to off worl markets.  &00
+~
+10 0 0 E
+1000 -40 0 0d0+75000 0d0+5000
+500 750000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10604
+#10604
+Dean the Bean guy~
+&00&06Dean &15the &00&03B&00&06e&00&03a&00&06n &15guy&00~
+&00&06Dean &15the &00&03B&00&06e&00&03a&00&06n &15guy sits here happily.&00
+~
+   &15This human has set up shop in this village, why, no one knows.  But he
+has brought in beans of all types from across the universe, and is selling
+them.  &00
+~
+245770 0 0 E
+1 20 0 1d1+1000000000 1d1+1
+500000000 1
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10605
+Ancient Storekeeper~
+&00&03A&11n&15c&16i&15e&11n&00&03t &12S&00&04torekeepe&12r&00~
+&15The &00&03A&11n&15c&16i&15e&11n&00&03t &12S&00&04torekeepe&12r &15sits here.&00
+~
+   &15This ancient looking namekian looks to have been running this store for a
+long, long time.  &00
+~
+10 0 0 E
+100 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10606
+Gro~
+&10G&00&02r&00&06o&00~
+&10G&00&02r&00&06o &15is standing here.&00
+~
+   &15Gro is a strange namek who has taken to the art of...  Drinking.  One of
+the few nameks to really enjoy it.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10607
+Namek Supply Clerk~
+&10N&00&02a&10m&00&02e&10k &14S&00&06u&15p&16p&14l&00&06y &12Clerk&00~
+&15The &10N&00&02a&10m&00&02e&10k &14S&00&06u&15p&16p&14l&00&06y &12Clerk &15is standing here.&00
+~
+   &15This clerk looks pretty bored with It's job.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10608
+Porunga Village Warrior~
+&10P&00&02orung&10a &00&06V&14illag&00&06e &09W&00&01arrio&09r&00~
+&15A &10P&00&02orung&10a &00&06V&14illag&00&06e &09W&00&01arrio&09r &15stands here.&00
+~
+   &15This is one of the local Porunga Village warriors, come to train in the
+oresence of the Village elder.  &00
+~
+10 0 0 E
+5000 -40 0 0d0+50000 0d0+5000
+1000 500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10609
+Porunga Village Elder~
+&10P&00&02orung&10a &00&06V&14illag&00&06e &10E&00&02l&10d&00&02e&10r&00~
+&15The &10P&00&02orung&10a &00&06V&14illag&00&06e &10E&00&02l&10d&00&02e&10r &15stands here.&00
+~
+   &15The village elder stands here, instructing the village warriors on their
+training.  &00
+~
+10 0 0 E
+7000 -60 0 0d0+500000 0d0+30000
+1500 2000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10610
+Roende~
+&00&06R&00&02o&10en&00&02d&00&06e&00~
+&00&06R&00&02o&10en&00&02d&00&06e &15stands here, looking at a piece of ore.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+5000 1d1+250000
+1 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10602
+#10611
+Dodoria~
+&09D&00&01o&00&05dor&00&01i&09a&00~
+&09D&00&01o&00&05dor&00&01i&09a &15stands here, grinning wickedly.&00
+~
+   &15Dodoria is one of Frieza's right hand men, a very strong warrior as well.
+Do not underestimate this obese mutant.  &00
+~
+10 0 0 E
+200000 -60 0 0d0+30000000 0d0+150000
+7500 25000000
+8 8 1
+BareHandAttack: 13
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10605
+#10612
+Zarbon~
+&14Z&00&06a&00&04rb&00&06o&14n&00~
+&14Z&00&06a&00&04rb&00&06o&14n &15stands here, running a hand through his long green hair.&00
+~
+   &15Frieza's other right hand man, he is twice as strong as dodoria, and
+twice as skilled.  &00
+~
+10 0 0 E
+400000 -60 0 0d0+60000000 0d0+200000
+15000 40000000
+8 8 1
+BareHandAttack: 9
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10606
+#10613
+Frieza~
+&00&05F&16r&00&07ie&16z&00&05a&00~
+&00&05F&16r&00&07ie&16z&00&05a &15is standing here, scowling.&00
+~
+   &15This is Frieza, self proclaimed strongest in the universe.  Don't think
+he is lieing for the most part, he is strong, very strong.  &00
+~
+10 0 0 E
+500000 -60 0 0d0+85000000 0d0+325000
+25000 100000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10607
+T 2104
+#10614
+Mutant Trooper~
+&09M&00&01u&00&05ta&00&01n&09t &12T&00&04roope&12r&00~
+&15A &09M&00&01u&00&05ta&00&01n&09t &12T&00&04roope&12r &15is standing here.&00
+~
+   &15Armed with a arm mounted blaster, this mutant will fight to the death to
+carry out an order from Frieza or one of his minions.  &00
+~
+8 0 0 E
+50000 -60 0 0d0+7000000 0d0+70000
+825 6750000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10615
+Namek Child~
+&10N&00&02a&10m&00&02e&10k &12Child&00~
+&15A &10N&00&02a&10m&00&02e&10k &12Child &15is trying to catch worms here.&00
+~
+   &15This Namek Child has wandered from the nearby Parunga Village, looking to
+catch some worms for fun.  &00
+~
+8 0 0 E
+1500 -40 0 0d0+100000 0d0+5000
+700 900000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10616
+Mutant Elite~
+&09M&00&01u&00&05ta&00&01n&09t &12E&00&04l&15i&00&04t&12e&00~
+&15A &09M&00&01u&00&05ta&00&01n&09t &12E&00&04l&15i&00&04t&12e &15stands here, at attention.&00
+~
+   &15These are frieza's pick from the Frigid forces, and they are quite well
+skilled.  &00
+~
+10 0 0 E
+150000 -60 0 0d0+10000000 0d0+70000
+1025 8000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10617
+Mutant Mutate First~
+&09M&00&01u&00&05ta&00&01n&09t &14Mutate &12First&00~
+&15A &09M&00&01u&00&05ta&00&01n&09t &15in the first stage of mutation, stand here.&00
+~
+   &15This is an elite mutant which has managed to achieve the form of mutation
+first.  Very dangerous, and very cruel.  &00
+~
+10 0 0 E
+200000 -60 0 0d0+15000000 0d0+125000
+1100 11000000
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10618
+Black Vulture~
+&16Black &16V&15u&00&07ltu&15r&16e&00~
+&15A &16Black &16V&15u&00&07ltu&15r&16e &15is pecking at a dead animal here.&00
+~
+   &15These scavengers seek out dead creatures, or creatures that will soon be
+dead.  Feel it is a bad sign if you see them soaring above you.  &00
+~
+8 0 0 E
+1000 -40 0 0d0+65000 0d0+5000
+375 650000
+8 8 0
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10619
+Lost Namek~
+&00&07L&15o&16s&00&07t &10N&00&02a&10m&00&02e&10k&00~
+&15A &00&07L&15o&16s&00&07t &10N&00&02a&10m&00&02e&10k &15is wandering here.&00
+~
+   &15This namek made the same mistake you apparently did.  Wandering into the
+Namekian Dry.  &00
+~
+8 0 0 E
+2000 -40 0 0d0+70000 0d0+5000
+400 800000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10620
+Sand Worm~
+&00&03S&11a&00&07n&00&03d &10W&11o&00&02r&10m&00~
+&15A &00&03S&11a&00&07n&00&03d &10W&11o&00&02r&10m &15burrows here.&00
+~
+   &15This is a strange type of worm, it has grow rather large.  It lives off
+of creatures stupid enough to wander into the Namekian Dry's dunes.  &00
+~
+8 0 0 E
+50000 -60 0 0d0+550000 0d0+30000
+650 2500000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10621
+Maadat~
+&12M&14aada&12t&00~
+&15A &12M&14aada&12t &15scurries across the sand here.&00
+~
+   &15This is a small beattle with a hard shell.  It has sacks in it's body for
+storing water for long periods of time, it is a very adaptive bug.  &00
+~
+8 0 0 E
+60000 -60 0 0d0+725000 0d0+30000
+650 3000000
+8 8 0
+BareHandAttack: 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10622
+Sand Gnaw~
+&00&03S&11a&00&07n&00&03d &12G&14n&00&06a&12w&00~
+&15A &00&03S&11a&00&07n&00&03d &12G&14n&00&06a&12w &15is half hidden in the sande here.&00
+~
+   &15Distant relative to the gnaw family, this crablike creature lives in the
+dunes of the Namekian Dry.  What it eats no one knows, mostly because no one
+has seen a Sand Gnaw and made it out of the Dry alive.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+950000 0d0+30000
+675 3400000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10623
+Dune Worm~
+&11D&00&07u&11n&00&03e &10W&11o&00&02r&10m&00~
+&15A &11D&00&07u&11n&00&03e &10W&11o&00&02r&10m &15slides across the sand here.&00
+~
+   &15This is a cousin of the sand worm, larger, and stronger.  But less
+agressive in it's life.  Considered the 'whales' of the dry by nameks.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+5250000 0d0+70000
+725 4250000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10624
+Super Namek Monk~
+&00&06S&14u&00&07p&14e&00&06r &10N&00&02a&10m&00&02e&10k &00&03Monk&00~
+&15A &00&06S&14u&00&07p&14e&00&06r &10N&00&02a&10m&00&02e&10k &00&03Monk &15is training here.&00
+~
+   &15This monk has trained hard, and as a result has achieved the form of
+super namek.  &00
+~
+8 0 0 E
+250000 -60 0 0d0+9250000 0d0+70000
+925 7500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10625
+Namek Monk Prelate~
+&10N&00&02a&10m&00&02e&10k &00&03Monk &11Prelate&00~
+&15The &10N&00&02a&10m&00&02e&10k &00&03Monk &11Prelate &15stands here.&00
+~
+   &15This monk has been charged with guarding the door to the training ground
+during training hours, so that the other monks may not be disturbed by visitors
+to the temple.  &00
+~
+32778 0 0 E
+200000 -60 0 0d0+20000000 0d0+125000
+3000 15000000
+8 8 0
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10626
+Gust Monk~
+&14G&00&06u&12s&00&04t &00&03M&00&06o&16n&00&03k&00~
+&15A &14G&00&06u&12s&00&04t &00&03M&00&06o&16n&00&03k &15walks here quietly.&00
+~
+   &15This is a namek monk of the Gust Temple.  These monks have pledged their
+lives to sharpening their skills, so that they may protect Namek should a
+threat descend upon it.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+4000000 0d0+70000
+500 5000000
+8 8 0
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10627
+Grand Monk~
+&12G&00&04ran&12d &00&03M&00&06o&16n&00&03k&00~
+&15The &12G&00&04ran&12d &00&03M&00&06o&16n&00&03k &15meditates here.&00
+~
+   &15This is the Grand Monk of the Gust Temple.  This namek is in charge of
+the entire temple, and leads all the other monks in their training and lives as
+monks.  &00
+~
+10 0 0 E
+300000 -60 0 0d0+40000000 0d0+200000
+5000 30000000
+8 8 0
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10611
+T 10612
+#10628
+Gust Gatekeeper~
+&14G&00&06u&12s&00&04t &16G&15a&00&07t&16e&15k&00&07e&16e&15p&00&07e&16r&00~
+&15The &14G&00&06u&12s&00&04t &16G&15a&00&07t&16e&15k&00&07e&16e&15p&00&07e&16r &15stands here quietly.&00
+~
+   &15This namek has been charged with protecting the doorway to the temple, he
+will admit visitors for a nominal toll fee which goes to the Temple's funds.  
+&00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+1 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10608
+T 10610
+#10629
+Gust Pawn Shopkeeper~
+&14G&00&06u&12s&00&04t &11P&00&03aw&11n &12Shopkeeper&00~
+&15The &14G&00&06u&12s&00&04t &11P&00&03aw&11n &12Shopkeeper &15is standing here.&00
+~
+   &15The pawn shopkeeper, not as shady as other pawn shopkeepers.  Maybe you
+can figure out why.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10630
+Sacred Shopkeeper~
+&00&04S&12a&14cr&12e&00&04d &10S&00&02hopkeepe&10r&00~
+&15The &00&04S&12a&14cr&12e&00&04d &10S&00&02hopkeepe&10r &15stands here.&00
+~
+   &15This is one of the most trusted of the Gust monks, trusted with the
+sacred equipment of the temple.  &00
+~
+10 0 0 E
+600000 20 0 1d1+1000000000 1d1+0
+500000000 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10631
+Super Namek Second Monk~
+&00&06S&14u&00&07p&14e&00&06r &10N&00&02a&10m&00&02e&10k &11S&00&03econ&11d &00&03M&00&06o&16n&00&03k~
+&15A &00&06S&14u&00&07p&14e&00&06r &10N&00&02a&10m&00&02e&10k &11S&00&03econ&11d &00&03M&00&06o&16n&00&03k &15trains here.&00
+~
+   &15This is the one and only monk to reach the form of super namek second.  
+Only the grand monk is above this namek in the temple.  &00
+~
+8 0 0 E
+250000 -60 0 0d0+25000000 0d0+150000
+15000 20000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10632
+Blind Piranha~
+&00&07B&15l&16i&15n&00&07d &12P&00&04i&00&07r&14a&00&07n&00&04h&12a&00~
+&15A &00&07B&15l&16i&15n&00&07d &12P&00&04i&00&07r&14a&00&07n&00&04h&12a &15swims here.&00
+~
+   &15This is a type of piranha that has lost it's ability to see from it's
+life in this dark channel.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+6000000 0d0+70000
+800 5000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10633
+Freshwater Octopus~
+&00&04F&12r&00&06e&14s&00&07hw&14a&00&06t&12e&00&04r &00&05O&13c&00&07t&15o&00&07p&13u&00&05s&00~
+&15A &00&04F&12r&00&06e&14s&00&07hw&14a&00&06t&12e&00&04r &00&05O&13c&00&07t&15o&00&07p&13u&00&05s &15swims here.&00
+~
+   &15This is a small freshwater octopus, that has adapted to life in this
+underground channel.  &00
+~
+8 0 0 E
+75000 -60 0 0d0+7400000 0d0+70000
+845 6800000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10634
+Crab~
+&00&01C&09r&00&05a&00&01b&00~
+&15A &00&01C&09r&00&05a&00&01b &15wanders here.&00
+~
+   &15This is a strange small crab, it has an unaturally glowing exoskeleton.
+&00
+~
+8 0 0 E
+30000 -60 0 0d0+1200000 0d0+30000
+725 4300000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10635
+Leviathan~
+&00&04L&12e&00&06v&14i&00&04a&12t&00&06h&14a&00&04n&00~
+&15The great &00&04L&12e&00&06v&14i&00&04a&12t&00&06h&14a&00&04n &15swims here, it's long tail swishing behind it.&00
+~
+   &15This is the great leviathan, great monster of all waters.  Do not
+underestimate this great monster.  &00
+~
+10 0 0 E
+250000 -60 0 0d0+50000000 0d0+300000
+5000 50000000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#10636
+Magi First Majin~
+&00&05M&13a&00&05g&13i &15t&16h&15e&00 &03Fi&11r&00&03st&00 &13M&00&05a&13j&00&05i&13n&00~
+&00&05M&13a&00&05g&13i &15t&16h&15e&00 &03Fi&11r&00&03st&00 &13M&00&05a&13j&00&05i&13n&00 stands here.
+~
+   &00&05Magi is tall, perhaps six feet, and his forelock is flipped back ovr
+his head, looking more like an oddly positioned scalp-lock than an actual
+forelock.  His eyes are pure silver, and his skin even has a silver tinge to
+it, though he is primarily pink.  &00
+~
+10 0 0 E
+0 -80 0 1d1+10000000 1d1+250000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10385
+T 10386
+#10637
+Demon Queen Erinnye~
+&00&01D&16e&09m&16o&00&01n&00 &02Q&04u&12e&00&04e&00&02n&00 &16E&00&04r&06i&14n&00&06n&00&04y&16e&00~
+&00&01D&16e&09m&16o&00&01n&00 &02Q&04u&12e&00&04e&00&02n&00 &16E&00&04r&06i&14n&00&06n&00&04y&16e&00 stands here.
+~
+   &09The Demon Queen &16E&00&04r&06i&14n&00&06n&00&04y&16e&09 stands here,
+dressed in a tattered, skimpy top, and a brief loincloth.  Her black hair flows
+between the two bat-like wings that protrude from her shoulders, and she
+carries a long spear.  &00
+~
+10 0 0 E
+0 -80 0 1d1+10000000 1d1+250000
+0 0
+8 8 2
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10385
+T 10386
+#10638
+Gin Half Breed~
+&00&03G&11i&00&03n &15t&16h&15e &00&14H&00&06a&14l&00&06f&16-&12B&00&04r&12e&00&04e&12d&00~
+&00&03G&11i&00&03n &15t&16h&15e &00&14H&00&06a&14l&00&06f&16-&12B&00&04r&12e&00&04e&12d&00 stands here.
+~
+   &03This is Gin, one of the most powerful and revered half-breeds.  It is
+said that he formed the original Z-Fighters, called then the Omega Task Force.
+He wears a dark golden colored armor, made of the same material and design as
+the original Saiyan armor, but it covers the lower legs as well.  &00
+~
+10 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10385
+T 10386
+#10639
+Lord Kaishin kai~
+&00&11L&00&03or&11d &00&12K&14a&00&06i&00&04s&00&06h&14i&00&12n &16t&15h&16e&00 &12K&14a&00&06i&00~
+&00&11L&00&03or&11d &00&12K&14a&00&06i&00&04s&00&06h&14i&00&12n &16t&15h&16e&00 &12K&14a&00&06i&00 stands here.
+~
+   &00This is the first ruler of Aether.  He is tall, and broad shouldered,
+with long white hair that falls to his jawline.  He wears blueish-silver robes,
+and bears a mighty staff.  &00
+~
+10 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10385
+T 10386
+#10640
+Mutant Dr Gin Byakian~
+&00&01M&09u&00&01t&09a&00&01n&09t&00 &07D&15r&00 &01G&09i&00&01n&00 &04B&12y&14a&00&05k&14i&12a&00&04n&00~
+&00&01M&09u&00&01t&09a&00&01n&09t&00 &07D&15r&00 &01G&09i&00&01n&00 &04B&12y&14a&00&05k&14i&12a&00&04n&00 stands here.
+~
+   &01The foremost authority on mutants, Dr.  Byakian was one of the most
+respected men on Earth, until his apparent death 15 years ago.  &00
+~
+10 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10385
+T 10386
+#10641
+Bio Android 1~
+&00&02B&10i&00&02o&15-&16An&15dro&16id&00 &04#1&00~
+&00&02B&10i&00&02o&15-&16An&15dro&16id&00 &04#1&00 stands here.
+~
+   &02This Bio-Android looks taller, and stronger, than Cell.  It's skin is a
+pale turquiose, spotted with blood red.  It's eyes glisten black.  &00
+~
+10 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10385
+T 10386
+$

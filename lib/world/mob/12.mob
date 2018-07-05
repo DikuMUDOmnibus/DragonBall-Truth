@@ -1,0 +1,311 @@
+#1201
+postmaster master post~
+&16I&15mm&00&07or&15ta&16l &12Post&00&07master~
+&15The &16I&15mm&00&07or&15ta&16l &12Post&00&07master&15 stands here, frantically sorting through mail.&00
+~
+Scary... a postal worker... working?
+~
+16395 32768 0 E
+30 0 -10 1d49+901 4d8+5
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1209
+security guard~
+&00&03S&00&11e&00&15c&00&16ur&00&15i&00&11t&00&03y G&16u&00&15a&16r&00&03d&00~
+&00&03S&00&11e&00&15c&00&16ur&00&15i&00&11t&00&03y G&16u&00&15a&16r&00&03d&00 is standing here, talking over a walkie talkie.
+~
+   A muscular man is standing here, wearing a bright yellow shirt with
+"Security" written across their chest.  Their eyes constantly scan around them,
+to keep people safe.    
+~
+8 0 0 E
+0 -60 0 1d1+16000000 1d1+125000
+1500 15500000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1210
+Male Raver~
+&00&06M&14a&00&15l&00e &10R&00&02a&16v&00&06e&00&14r&00~
+&00&06M&14a&00&15l&00e &10R&00&02a&16v&00&06e&00&14r&00 is dancing here, swaying to the music as he twirls glowsticks.
+~
+   &10This teenager has bright neon colored hair, dark clothing and wielding a
+pair of glowsticks as he twirls them around.  His eyes are hazy and glassy,
+wonder what he was doing....  &00
+~
+8 0 0 E
+0 -60 0 1d0+10000000 1d1+70000
+700 8000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1211
+Female Raver~
+&00&05F&00&13e&15m&00a&05l&00&13e&00 &10R&00&02a&16v&00&06e&00&14r&00~
+&00&05F&00&13e&15m&00a&05l&00&13e&00 &10R&00&02a&16v&00&06e&00&14r&00 is standing here, swaying her hips to the music while she sucks on a pacifer.
+~
+   It looks unfinished.  &13This beautiful young woman is dressed in a gothic
+school girl outfit.  She has a glow in the dark pacifer in her mouth, and
+reflective ribbons in her hair.    
+~
+8 0 0 E
+0 -60 0 1d1+1000000 1d1+30000
+700 3500000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1212
+Miho~
+&13M&00&05i&16h&00o~
+&13M&00&05i&16h&00o is standing here, leaning on the railing while she sways her hips to the music.
+~
+   &13Here is a young beautiful asian woman, dressed in a gothic school girl
+outfit.  She's the owner of this raver club, and constant pain in the butt to
+Piro.  &00
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1208
+T 1205
+#1213
+Piro~
+&00&04P&12i&15r&00o~
+&00&04P&12i&15r&00o is standing here, checking over his boxes of inventory.
+~
+   &12Standing here is a young blonde man, wearing round rimmed glasses and a
+blacklight knit cap on his head.  He's checking how many glowsticks he has
+left.    
+~
+229386 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1214
+Japanese Schoolgirl~
+&00Ja&09p&00&01a&09ne&00se &16S&15c&00h&16o&15o&00l&13g&00&05ir&13l&00~
+&00Ja&09p&00&01a&09ne&00se &16S&15c&00h&16o&15o&00l&13g&00&05ir&13l&00 is standing here, looking at map, trying to find her way.
+~
+   &13This beautiful young woman is quite lost.  Her olive skin is glistening
+in the sun as she looks worriedly at the map in her hands.  &00
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1207
+T 1206
+#1215
+Head Security Guard~
+&00&03H&11e&15a&16d &00&03S&11e&15c&16ur&15i&11t&00&03y G&16u&15a&16r&00&03d&00~
+&00&03H&11e&15a&16d &00&03S&11e&15c&16ur&15i&11t&00&03y G&16u&15a&16r&00&03d&00 is standing here, checking the ravers before they enter.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1220
+Krillin~
+&09K&00&01r&16i&15l&16l&00&01i&09n&00~
+&09K&00&01r&16i&15l&16l&00&01i&09n &15is here practicing his moves...&00
+~
+   &15Krillin is one of the best students master roshi has trained.  He has
+stuck around the island since his training too....  &00
+~
+10 0 0 E
+200000 -70 0 0d0+25000000 0d0+40000
+4000 20000000
+8 8 0
+E
+T 1220
+#1259
+Bora~
+&00B&03o&11r&00a~
+&00B&03o&11r&00a is sitting here, his eyes closed, seemingly in a trance.
+~
+   &16This old man is the former indian chieftain of this village.  Even though
+he has aged, he is still a mountain of a man, his body still muscular and
+waiting to be unleashed.  He passed on the mantle of chieftain to his son, and
+now acts as advisor and grand story teller of his village.  &00
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1260
+Indian Mystic~
+&16I&00&03n&11d&00i&15a&16n&00 &00&06M&14y&00st&14i&00&06c&00~
+&16I&00&03n&11d&00i&15a&16n&00 &00&06M&14y&00st&14i&00&06c&00 is sitting here, chanting under his breath.
+~
+   &14This old man looks as if he's lived a thousand lifetimes.  His face is
+ragged and scarred, his hands gnarled from work.  He now creates the finest
+weapons and armor for the village.    
+~
+204810 0 800 E
+25000 -60 10 1d1+7000000 1d1+76000
+850 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1261
+Upa~
+&00U&03p&11a&00~
+&00U&03p&11a&00 the chieftain, is standing here, smiling to all challengers.
+~
+   &11This young man, strong, stout, and muscular, has taken over leadership
+from his father.  He has been on many adventures in his lifetime, and now
+challenges fighters from all over the world, giving them his acknowledgement
+that they to are great warriors worthy of guarding the planet.  &00
+~
+10 0 0 E
+200000 -80 10 1d1+300000000 1d1+120000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1259
+#1262
+Indian Warrior~
+&16I&00&03n&11d&00i&15a&16n&00 &03W&00&02a&10r&16r&10i&00&02o&00&03r&00~
+&16I&00&03n&11d&00i&15a&16n&00 &03W&00&02a&10r&16r&10i&00&02o&00&03r&00 is crouched, waiting to spring on an unsuspecting opponent.
+~
+   This young man is training to be one of the warriors of his tribe.  He
+fights day and night to strengthen his body and mind, hoping the chieftain says
+he's worthy enough to fight alongside him.    
+~
+8 0 0 E
+28000 -60 0 1d1+7500000 1d1+74000
+840 6500000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1263
+Indian Man~
+&16I&00&03n&11d&00i&15a&16n&00 &12Man&00~
+&16I&00&03n&11d&00i&15a&16n&00 &12Man&00 is walking around, doing his daily chores.
+~
+   This native indian is going about his day with a smile on his face, while
+carrying a big bushel of corn on his back.    
+~
+8 0 300 E
+20000 -60 0 1d1+6000000 1d1+70000
+800 5000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1264
+Indian Woman~
+&16I&00&03n&11d&00i&15a&16n&00 &13Woman&00~
+&16I&00&03n&11d&00i&15a&16n&00 &13Woman&00 is laughing softly as she carries her papus on her back.
+~
+   This young woman has a wide smile on her face, her dark raven hair flowing
+in the wind as she listens to the giggling of her newborn child in the papus on
+her back, her silky hair tickling its body.    
+~
+8 0 300 E
+22000 -60 10 1d1+6500000 1d1+72000
+820 5500000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1265
+Upa~
+&00&07U&00&03p&11a&00~
+&00&07U&00&03p&11a &00&07the chieftain, is standing here, smiling to all challengers.&00
+~
+   This young man, strong, stout, and muscular, has taken over leadership from
+his father.  He has been on many adventures in his lifetime, and now challenges
+fighters from all over the world, giving them his acknowledgement that they to
+are great warriors worthy of guarding the planet.    
+~
+10 0 0 E
+900000 -180 0 1d1+1000000000 1d1+500000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1260
+#1266
+Upa~
+&00&07U&00&03p&11a&00~
+&00&07U&00&03p&11a &00&07the chieftain, is standing here, smiling to all challengers.&00
+~
+   This young man, strong, stout, and muscular, has taken over leadership from
+his father.  He has been on many adventures in his lifetime, and now challenges
+fighters from all over the world, giving them his acknowledgement that they to
+are great warriors worthy of guarding the planet.    
+~
+10 0 0 E
+200000 -80 0 1d1+300000000 1d1+120000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1261
+T 1259
+$

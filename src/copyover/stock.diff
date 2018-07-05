@@ -1,0 +1,470 @@
+diff -uprN src/act.wizard.c cpo/act.wizard.c
+--- src/act.wizard.c	Sat Mar 10 07:48:54 2001
++++ cpo/act.wizard.c	Sat Mar 10 20:26:11 2001
+@@ -42,6 +42,8 @@ extern int buf_switches, buf_largecount,
+ extern mob_rnum top_of_mobt;
+ extern obj_rnum top_of_objt;
+ extern int top_of_p_table;
++extern socket_t mother_desc;
++extern ush_int port;
+ 
+ /* for chars */
+ extern const char *pc_class_types[];
+@@ -55,6 +57,7 @@ void appear(struct char_data *ch);
+ void reset_zone(zone_rnum zone);
+ void roll_real_abils(struct char_data *ch);
+ int parse_class(char arg);
++void Crash_rentsave(struct char_data * ch, int cost);
+ 
+ /* local functions */
+ int perform_set(struct char_data *ch, struct char_data *vict, int mode, char *val_arg);
+@@ -2633,3 +2636,63 @@ ACMD(do_set)
+     free_char(cbuf);
+ }
+ 
++/* (c) 1996-97 Erwin S. Andreasen <erwin@pip.dknet.dk> */
++ACMD(do_copyover)
++{
++  FILE *fp;
++  struct descriptor_data *d, *d_next;
++  char buf [100], buf2[100];
++	
++  fp = fopen (COPYOVER_FILE, "w");
++    if (!fp) {
++      send_to_char ("Copyover file not writeable, aborted.\n\r",ch);
++      return;
++    }
++
++   /* 
++    * Uncomment if you use OasisOLC2.0, this saves all OLC modules:
++     save_all();
++    *
++    */
++   sprintf (buf, "\n\r *** COPYOVER by %s - please remain seated!\n\r", GET_NAME(ch));
++	
++   /* For each playing descriptor, save its state */
++   for (d = descriptor_list; d ; d = d_next) {
++     struct char_data * och = d->character;
++   /* We delete from the list , so need to save this */
++     d_next = d->next;
++
++  /* drop those logging on */
++   if (!d->character || d->connected > CON_PLAYING) {
++     write_to_descriptor (d->descriptor, "\n\rSorry, we are rebooting. Come back in a few minutes.\n\r");
++     close_socket (d); /* throw'em out */
++   } else {
++      fprintf (fp, "%d %s %s\n", d->descriptor, GET_NAME(och), d->host);
++      /* save och */
++      Crash_rentsave(och,0);
++      save_char(och, och->in_room);
++      write_to_descriptor (d->descriptor, buf);
++    }
++  }
++
++  fprintf (fp, "-1\n");
++  fclose (fp);
++
++  /* Close reserve and other always-open files and release other resources */
++   fclose(player_fl);
++
++  /* exec - descriptors are inherited */
++   sprintf (buf, "%d", port);
++   sprintf (buf2, "-C%d", mother_desc);
++
++  /* Ugh, seems it is expected we are 1 step above lib - this may be dangerous! */
++   chdir ("..");
++
++   execl (EXE_FILE, "circle", buf2, buf, (char *) NULL);
++
++   /* Failed - sucessful exec will not return */
++   perror ("do_copyover: execl");
++   send_to_char ("Copyover FAILED!\n\r",ch);
++
++ exit (1); /* too much trouble to try to recover! */
++}
+diff -uprN src/comm.c cpo/comm.c
+--- src/comm.c	Sat Mar 10 07:48:55 2001
++++ cpo/comm.c	Sat Mar 10 20:44:16 2001
+@@ -102,6 +102,9 @@ int tics = 0;			/* for extern checkpoint
+ int scheck = 0;			/* for syntax checking mode */
+ struct timeval null_time;	/* zero-valued time structure */
+ FILE *logfile = NULL;		/* Where to send the log messages. */
++static bool fCopyOver;          /* Are we booting in copyover mode? */
++ush_int port;
++socket_t mother_desc;
+ 
+ /* functions in this file */
+ RETSIGTYPE reread_wizlists(int sig);
+@@ -134,6 +137,8 @@ void record_usage(void);
+ char *make_prompt(struct descriptor_data *point);
+ void check_idle_passwords(void);
+ void heartbeat(int pulse);
++void init_descriptor (struct descriptor_data *newd, int desc);
++
+ struct in_addr *get_bind_addr(void);
+ int parse_ip(const char *addr, struct in_addr *inaddr);
+ int set_sendbuf(socket_t s);
+@@ -197,7 +202,6 @@ void gettimeofday(struct timeval *t, str
+ 
+ int main(int argc, char **argv)
+ {
+-  ush_int port;
+   int pos = 1;
+   const char *dir;
+ 
+@@ -232,6 +236,10 @@ int main(int argc, char **argv)
+ 	exit(1);
+       }
+       break;
++    case 'C': /* -C<socket number> - recover from copyover, this is the control socket */
++       fCopyOver = TRUE;
++       mother_desc = atoi(argv[pos]+2);
++      break;
+     case 'd':
+       if (*(argv[pos] + 2))
+ 	dir = argv[pos] + 2;
+@@ -265,6 +273,9 @@ int main(int argc, char **argv)
+       break;
+     case 'h':
+       /* From: Anil Mahajan <amahajan@proxicom.com> */
++      /* Do NOT use -C, this is the copyover mode and without
++       * the proper copyover.dat file, the game will go nuts!
++       * -spl */
+       printf("Usage: %s [-c] [-m] [-q] [-r] [-s] [-d pathname] [port #]\n"
+               "  -c             Enable syntax check mode.\n"
+               "  -d <directory> Specify library directory (defaults to 'lib').\n"
+@@ -273,7 +284,8 @@ int main(int argc, char **argv)
+ 	      "  -o <file>      Write log to <file> instead of stderr.\n"
+               "  -q             Quick boot (doesn't scan rent for object limits)\n"
+               "  -r             Restrict MUD -- no new players allowed.\n"
+-              "  -s             Suppress special procedure assignments.\n",
++              "  -s             Suppress special procedure assignments.\n"
++              " Note:		These arguments are 'CaSe SeNsItIvE!!!'\n",
+ 		 argv[0]
+       );
+       exit(0);
+@@ -320,13 +332,90 @@ int main(int argc, char **argv)
+   return (0);
+ }
+ 
++int enter_player_game(struct descriptor_data *d);
++
++/* Reload players after a copyover */
++void copyover_recover()
++{
++	struct descriptor_data *d;
++	FILE *fp;
++	char host[1024];
++    struct char_file_u tmp_store;
++	int desc, player_i;
++    bool fOld;
++    char name[MAX_INPUT_LENGTH];
++	
++    log ("Copyover recovery initiated");
++
++    fp = fopen (COPYOVER_FILE, "r");
++    /* there are some descriptors open which will hang forever then ? */
++     if (!fp) {
++       perror ("copyover_recover:fopen");
++       log ("Copyover file not found. Exitting.\n\r");
++       exit (1);
++     }
++
++     /* In case something crashes - doesn't prevent reading	*/
++     unlink (COPYOVER_FILE);	
++       for (;;) {
++        fOld = TRUE;
++        fscanf (fp, "%d %s %s\n", &desc, name, host);
++         if (desc == -1)
++	 break;
++
++      /* Write something, and check if it goes error-free */		
++      if (write_to_descriptor (desc, "\n\rRestoring from copyover...\n\r") < 0) {
++         close (desc); /* nope */
++         continue;
++      }
++	
++        /* create a new descriptor */
++        CREATE (d, struct descriptor_data, 1);
++        memset ((char *) d, 0, sizeof (struct descriptor_data));
++	init_descriptor (d,desc); /* set up various stuff */
++
++	strcpy(d->host, host);
++	d->next = descriptor_list;
++	descriptor_list = d;
++
++        d->connected = CON_CLOSE;
++
++	/* Now, find the pfile */
++        CREATE(d->character, struct char_data, 1);
++        clear_char(d->character);
++        CREATE(d->character->player_specials, struct player_special_data, 1);
++        d->character->desc = d;
++
++        if ((player_i = load_char(name, &tmp_store)) >= 0) {
++            store_to_char(&tmp_store, d->character);
++            GET_PFILEPOS(d->character) = player_i;
++            if (!PLR_FLAGGED(d->character, PLR_DELETED))
++                REMOVE_BIT(PLR_FLAGS(d->character),PLR_WRITING | PLR_MAILING | PLR_CRYO);
++            else
++             fOld = FALSE;
++        }
++        else
++        fOld = FALSE;
++
++        /* Player file not found?! */
++	if (!fOld) {
++	write_to_descriptor (desc, "\n\rSomehow, your character was lost in the copyover. Sorry.\n\r");
++	close_socket (d);			
++	} else 	{
++            write_to_descriptor (desc, "\n\rCopyover recovery complete.\n\r");
++            enter_player_game(d);
++            d->connected = CON_PLAYING;
++            look_at_room(d->character, 0);
++	 }
++       }
++  fclose (fp);
++}
++
+ 
+ 
+ /* Init sockets, run game, and cleanup sockets */
+ void init_game(ush_int port)
+ {
+-  socket_t mother_desc;
+-
+   /* We don't want to restart if we crash before we get up. */
+   touch(KILLSCRIPT_FILE);
+ 
+@@ -335,8 +424,11 @@ void init_game(ush_int port)
+   log("Finding player limit.");
+   max_players = get_max_players();
+ 
+-  log("Opening mother connection.");
+-  mother_desc = init_socket(port);
++  /* If copyover mother_desc is already set up */
++  if (!fCopyOver) {
++     log ("Opening mother connection.");
++     mother_desc = init_socket (port);
++  }
+ 
+   boot_db();
+ 
+@@ -348,6 +440,9 @@ void init_game(ush_int port)
+   /* If we made it this far, we will be able to restart without problem. */
+   remove(KILLSCRIPT_FILE);
+ 
++  if (fCopyOver) /* reload players */
++  copyover_recover();
++
+   log("Entering game loop.");
+ 
+   game_loop(mother_desc);
+@@ -1180,12 +1275,32 @@ int set_sendbuf(socket_t s)
+   return (0);
+ }
+ 
++/* Initialize a descriptor */
++void init_descriptor (struct descriptor_data *newd, int desc)
++{
++    static int last_desc = 0;	/* last descriptor number */
++    
++  newd->descriptor = desc;
++  newd->idle_tics = 0;
++  newd->output = newd->small_outbuf;
++  newd->bufspace = SMALL_BUFSIZE - 1;
++  newd->login_time = time(0);
++  *newd->output = '\0';
++  newd->bufptr = 0;
++  newd->has_prompt = 1;  /* prompt is part of greetings */
++  STATE(newd) = CON_GET_NAME;
++  CREATE(newd->history, char *, HISTORY_SIZE);
++  if (++last_desc == 1000)
++    last_desc = 1;
++  newd->desc_num = last_desc;
++}
++
++
+ int new_descriptor(int s)
+ {
+   socket_t desc;
+   int sockets_connected = 0;
+   socklen_t i;
+-  static int last_desc = 0;	/* last descriptor number */
+   struct descriptor_data *newd;
+   struct sockaddr_in peer;
+   struct hostent *from;
+@@ -1253,26 +1368,7 @@ int new_descriptor(int s)
+ #endif
+ 
+   /* initialize descriptor data */
+-  newd->descriptor = desc;
+-  newd->idle_tics = 0;
+-  newd->output = newd->small_outbuf;
+-  newd->bufspace = SMALL_BUFSIZE - 1;
+-  newd->login_time = time(0);
+-  *newd->output = '\0';
+-  newd->bufptr = 0;
+-  newd->has_prompt = 1;  /* prompt is part of greetings */
+-  STATE(newd) = CON_GET_NAME;
+-
+-  /*
+-   * This isn't exactly optimal but allows us to make a design choice.
+-   * Do we embed the history in descriptor_data or keep it dynamically
+-   * allocated and allow a user defined history size?
+-   */
+-  CREATE(newd->history, char *, HISTORY_SIZE);
+-
+-  if (++last_desc == 1000)
+-    last_desc = 1;
+-  newd->desc_num = last_desc;
++   init_descriptor(newd, desc);
+ 
+   /* prepend to list */
+   newd->next = descriptor_list;
+diff -uprN src/comm.h cpo/comm.h
+--- src/comm.h	Sat Mar 10 07:48:55 2001
++++ cpo/comm.h	Sat Mar 10 19:18:39 2001
+@@ -10,6 +10,8 @@
+ 
+ #define NUM_RESERVED_DESCS	8
+ 
++#define COPYOVER_FILE "copyover.dat"
++
+ /* comm.c */
+ void	send_to_all(const char *messg);
+ void	send_to_char(const char *messg, struct char_data *ch);
+diff -uprN src/db.h cpo/db.h
+--- src/db.h	Sat Mar 10 07:48:55 2001
++++ cpo/db.h	Sat Mar 10 20:03:57 2001
+@@ -47,14 +47,17 @@
+ #define SUF_ALIAS	"alias"
+ 
+ #if defined(CIRCLE_AMIGA)
+-#define FASTBOOT_FILE   "/.fastboot"    /* autorun: boot without sleep  */
++#define EXE_FILE "/bin/circle" /* maybe use argv[0] but it's not reliable */
++#define FASTBOOT_FILE "/.fastboot"	/* autorun: boot without sleep */
+ #define KILLSCRIPT_FILE "/.killscript"  /* autorun: shut mud down       */
+ #define PAUSE_FILE      "/pause"        /* autorun: don't restart mud   */
+ #elif defined(CIRCLE_MACINTOSH)
++#define EXE_FILE "::bin:circle" /* maybe use argv[0] but it's not reliable */
+ #define FASTBOOT_FILE	"::.fastboot"	/* autorun: boot without sleep	*/
+ #define KILLSCRIPT_FILE	"::.killscript"	/* autorun: shut mud down	*/
+ #define PAUSE_FILE	"::pause"	/* autorun: don't restart mud	*/
+ #else
++#define EXE_FILE "bin/circle" /* maybe use argv[0] but it's not reliable */
+ #define FASTBOOT_FILE   "../.fastboot"  /* autorun: boot without sleep  */
+ #define KILLSCRIPT_FILE "../.killscript"/* autorun: shut mud down       */
+ #define PAUSE_FILE      "../pause"      /* autorun: don't restart mud   */
+diff -uprN src/interpreter.c cpo/interpreter.c
+--- src/interpreter.c	Sat Mar 10 07:48:55 2001
++++ cpo/interpreter.c	Sat Mar 10 19:42:56 2001
+@@ -78,6 +78,7 @@ ACMD(do_cast);
+ ACMD(do_color);
+ ACMD(do_commands);
+ ACMD(do_consider);
++ACMD(do_copyover);
+ ACMD(do_credits);
+ ACMD(do_date);
+ ACMD(do_dc);
+@@ -256,6 +257,7 @@ cpp_extern const struct command_info cmd
+   { "comb"     , POS_RESTING , do_action   , 0, 0 },
+   { "commands" , POS_DEAD    , do_commands , 0, SCMD_COMMANDS },
+   { "compact"  , POS_DEAD    , do_gen_tog  , 0, SCMD_COMPACT },
++  { "copyover" , POS_DEAD    , do_copyover , LVL_GRGOD, 0 },
+   { "cough"    , POS_RESTING , do_action   , 0, 0 },
+   { "credits"  , POS_DEAD    , do_gen_ps   , 0, SCMD_CREDITS },
+   { "cringe"   , POS_RESTING , do_action   , 0, 0 },
+@@ -1278,6 +1280,45 @@ int perform_dupe_check(struct descriptor
+   return (1);
+ }
+ 
++/* load the player, put them in the right room - used by copyover_recover too */
++int enter_player_game (struct descriptor_data *d)
++{
++
++    int load_result;
++    room_vnum load_room;
++    
++      reset_char(d->character);
++      read_aliases(d->character);
++
++      if (PLR_FLAGGED(d->character, PLR_INVSTART))
++	GET_INVIS_LEV(d->character) = GET_LEVEL(d->character);
++
++      /*
++       * We have to place the character in a room before equipping them
++       * or equip_char() will gripe about the person in NOWHERE.
++       */
++      if ((load_room = GET_LOADROOM(d->character)) != NOWHERE)
++	load_room = real_room(load_room);
++
++      /* If char was saved with NOWHERE, or real_room above failed... */
++      if (load_room == NOWHERE) {
++	if (GET_LEVEL(d->character) >= LVL_IMMORT)
++	  load_room = r_immort_start_room;
++	else
++	  load_room = r_mortal_start_room;
++      }
++
++      if (PLR_FLAGGED(d->character, PLR_FROZEN))
++	load_room = r_frozen_start_room;
++
++      d->character->next = character_list;
++      character_list = d->character;
++      char_to_room(d->character, load_room);
++      load_result = Crash_load(d->character);
++      save_char(d->character, NOWHERE);
++
++    return load_result;
++}
+ 
+ 
+ /* deal with newcomers and other non-playing sockets */
+@@ -1287,7 +1328,6 @@ void nanny(struct descriptor_data *d, ch
+   int player_i, load_result;
+   char tmp_name[MAX_INPUT_LENGTH];
+   struct char_file_u tmp_store;
+-  room_vnum load_room;
+ 
+   skip_spaces(&arg);
+ 
+@@ -1572,37 +1612,8 @@ void nanny(struct descriptor_data *d, ch
+       break;
+ 
+     case '1':
+-      reset_char(d->character);
+-      read_aliases(d->character);
+-
+-      if (PLR_FLAGGED(d->character, PLR_INVSTART))
+-	GET_INVIS_LEV(d->character) = GET_LEVEL(d->character);
+-
+-      /*
+-       * We have to place the character in a room before equipping them
+-       * or equip_char() will gripe about the person in NOWHERE.
+-       */
+-      if ((load_room = GET_LOADROOM(d->character)) != NOWHERE)
+-	load_room = real_room(load_room);
+-
+-      /* If char was saved with NOWHERE, or real_room above failed... */
+-      if (load_room == NOWHERE) {
+-	if (GET_LEVEL(d->character) >= LVL_IMMORT)
+-	  load_room = r_immort_start_room;
+-	else
+-	  load_room = r_mortal_start_room;
+-      }
+-
+-      if (PLR_FLAGGED(d->character, PLR_FROZEN))
+-	load_room = r_frozen_start_room;
+-
++      load_result = enter_player_game(d);
+       send_to_char(WELC_MESSG, d->character);
+-      d->character->next = character_list;
+-      character_list = d->character;
+-      char_to_room(d->character, load_room);
+-      load_result = Crash_load(d->character);
+-      save_char(d->character, NOWHERE);
+-
+       act("$n has entered the game.", TRUE, d->character, 0, 0, TO_ROOM);
+ 
+       STATE(d) = CON_PLAYING;

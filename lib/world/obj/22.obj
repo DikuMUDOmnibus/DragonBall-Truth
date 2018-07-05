@@ -1,0 +1,734 @@
+#2200
+Silver Bangle~
+&15S&00&07ilve&15r &12B&00&04a&00&06n&14g&00&06l&00&04e&00~
+&15A &15S&00&07ilve&15r &12B&00&04a&00&06n&14g&00&06l&00&04e &15lays here, shining magnificantly&00~
+~
+11 0 4097
+0 0 0 0
+1 750000 0
+A
+5 3
+#2201
+Class S Access Card~
+&00&06C&16l&15a&16s&00&06s &15'&11S&15' &10A&00&02c&10c&00&02e&10s&00&02s &12C&00&04a&00&05r&12d&00~
+&15A &00&06C&16l&15a&16s&00&06s &15'&11S&15' &10A&00&02c&10c&00&02e&10s&00&02s &12C&00&04a&00&05r&12d &15has been dropped here.&00~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#2202
+Security Rifle~
+&00&04S&12e&00&05curi&12t&00&04y &16R&15i&00&07f&15l&16e&00~
+&15The &00&04S&12e&00&05curi&12t&00&04y &16R&15i&00&07f&15l&16e &15has been dropped here.&00~
+~
+8 4 1
+0 0 0 0
+1 25000 0
+#2203
+Danton's Heart~
+&10D&00&02a&00&03nt&00&02o&10n&15'&00&02s &09H&00&05e&00&01a&00&05r&09t&00~
+&10D&00&02a&00&03nt&00&02o&10n&15'&00&02s &09H&00&05e&00&01a&00&05r&09t &15lays here while trickling greenish blood.&00~
+~
+19 0 1
+1 0 0 0
+0 0 0
+#2204
+Royal Scouter~
+&00&06R&14o&12y&00&04a&00&05l &16S&15c&00&07out&15e&16r&00~
+&15A &00&06R&14o&12y&00&04a&00&05l &16S&15c&00&07out&15e&16r &15has been carelessly dropped here.&00~
+~
+3 1073741824 513
+100 100000 100000 201
+1 4000000 0
+A
+5 2
+A
+4 6
+A
+3 5
+A
+2 5
+A
+18 30
+A
+19 30
+#2205
+Pk zone sign~
+&09PK &10Zone &16sign&00~
+&15A &09PK &10Zone &16sign &15has been pounded into the ground here.&00~
+~
+8 0 0
+0 0 0 0
+10000 1 0
+E
+look sign~
+&15The sign reads:
+&09From this room south it is all a PK/stealing zone. So beware. It is LEGAL for players to kill you or to attempt to steal from you.
+&00
+~
+#2206
+Shop Sign~
+&12Shop &16S&15i&00&07g&16n&00~
+&15A &12Shop &16S&15i&00&07g&16n &15has been posted here.&00~
+~
+8 0 0
+0 0 0 0
+1 1 0
+E
+look sign~
+&15These commands are used in all of DBT's shops.
+&11List&16: &15Shows the list of what is for sale.
+&11Buy #(number)&16: &15this allows you to buy an object based on it's number, you type buy # and next to the # you have the number of the item in the shop.
+&11buy (name)&16: &15this allows you to buy an object by it's name alone. Beware though, if another item has a similar name you might accideently buy it instead.
+&11Sell&16: &15This let's you sell something you have, everything on DBT has a value and can be sold somewhere.
+&11Value&16: &15This let's you see the value of an item you have before you sell it or do whatever with it. Some places will buy back for half price, some for less than that, some for a little more. Doing research never hurts.&00
+
+&10Pawn shops&16: &15Pawn shops buy back everything. Where as most shops only buy the item type they sell. Pawn shops do not sell anything offhand, unless they have bought something from someone already.&00
+~
+#2207
+Phantom Mist Armor~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Armor&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Armor &15has been dropped here.&00~
+~
+11 0 9
+0 0 0 0
+1 5000000 0
+A
+5 4
+A
+3 3
+A
+2 3
+A
+6 4
+A
+18 30
+A
+19 30
+#2208
+Phantom Mist Gi~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Gi&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Gi &15has been dropped here.&00~
+~
+11 0 1025
+0 0 0 0
+1 4000000 0
+A
+3 4
+A
+5 4
+A
+6 4
+A
+2 5
+A
+18 30
+A
+19 30
+#2209
+Phantom Mist Bangle~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Bangle&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Bangle &15has been dropped here.&00~
+~
+11 0 4097
+0 0 0 0
+1 4000000 0
+A
+2 4
+A
+6 4
+A
+18 30
+A
+19 30
+A
+19 100
+#2210
+Captain key~
+&00&06C&15a&14pta&15i&00&06n &11Key&00~
+&15The &00&06C&15a&14pta&15i&00&06n &11Key &15lays here.&00~
+~
+18 0 1
+0 0 0 0
+1 20000 0
+#2211
+Phantom Mist Pants~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Pants&00~
+&15A pair of &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Pants &15have been dropped here.&00~
+~
+11 0 33
+0 0 0 0
+1 4000000 0
+A
+2 5
+A
+5 2
+A
+3 2
+A
+18 30
+A
+19 30
+#2212
+Phantom Mist Belt~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Belt&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Belt &15has been dropped here.&00~
+~
+11 0 2049
+0 0 0 0
+1 4000000 0
+A
+3 3
+A
+6 3
+A
+3 3
+A
+18 30
+A
+19 30
+#2213
+Phantom Mist Helmet~
+&00P&15ha&16n&15to&00m &14M&00&06is&14t &16Helmet&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Helmet &15has been dropped here.&00~
+~
+11 0 17
+0 0 0 0
+1 4000000 0
+A
+4 3
+A
+6 6
+A
+2 6
+A
+18 30
+A
+19 30
+#2214
+Phantom Mist Boots~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Boots&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Boots &15has been dropped here.&00~
+~
+11 0 65
+0 0 0 0
+1 4000000 0
+A
+2 4
+A
+4 3
+A
+18 30
+A
+19 30
+#2215
+Phantom Mist Gloves~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Gloves&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Gloves &15has been dropped here.&00~
+~
+11 0 129
+0 0 0 0
+1 4000000 0
+A
+4 3
+A
+6 4
+A
+18 30
+A
+19 30
+#2216
+Phantom Mist Tattoo~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Tattoo&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Tattoo &15has been dropped here.&00~
+~
+11 0 257
+0 0 0 0
+1 4000000 0
+A
+6 4
+A
+3 2
+A
+18 30
+A
+19 30
+#2217
+Phantom Mist Orb~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Orb&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Orb &15has been dropped here.&00~
+~
+1 0 16385
+0 0 -1 0
+1 4000000 0
+A
+5 2
+A
+2 6
+A
+18 30
+A
+19 30
+#2218
+Phantom Mist Scouter~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Scouter&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Scouter &15has been dropped here.&00~
+~
+3 0 513
+100 100000 100000 201
+1 4000000 0
+A
+5 3
+A
+4 3
+A
+3 2
+A
+2 4
+A
+18 30
+A
+19 30
+#2219
+Phantom Mist Katana~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Katana&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Katana &15has been dropped here.&00~
+~
+5 0 4202497
+0 400000 1 3
+1 4000000 0
+A
+5 2
+A
+6 4
+A
+2 4
+A
+18 30
+A
+19 30
+#2220
+Phantom Mist Earring (right)~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Earring &00&07(right)&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Earring &00&07(right) &15has been dropped here.&00~
+~
+11 0 262145
+0 0 0 0
+1 4000000 0
+A
+2 4
+A
+6 4
+A
+18 30
+A
+19 30
+#2221
+Phantom Mist Earring (left)~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Earring &00&07(left)&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Earring &00&07(left) &15has been dropped here.&00~
+~
+11 0 131073
+0 0 0 0
+1 4000000 0
+A
+2 4
+A
+6 4
+A
+18 30
+A
+19 30
+#2222
+Phantom Mist Ring~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Ring&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Ring &15has been dropped here.&00~
+~
+11 0 3
+0 0 0 0
+1 4000000 0
+A
+4 3
+A
+2 3
+A
+6 3
+A
+18 30
+A
+19 30
+#2223
+Phantom Mist Necklace~
+&00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Necklace&00~
+&15A &00&07P&15ha&16n&15to&00&07m &14M&00&06is&14t &16Necklace &15has been dropped here.&00~
+~
+11 0 5
+0 0 0 0
+1 4000000 0
+A
+1 2
+A
+2 3
+A
+6 3
+A
+18 30
+A
+19 30
+#2224
+Wheeling Gull Nunchuku~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09N&00&01unchuk&09u&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09N&00&01unchuk&09u &15has been dropped here.&00~
+~
+5 0 8193
+0 400000 1 5
+1 2000000 0
+A
+5 1
+A
+6 3
+A
+2 3
+A
+18 30
+A
+19 30
+#2225
+Wheeling Gull Gi~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09G&00&01i&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09G&00&01i &15has been dropped here.&00~
+~
+11 0 1025
+0 0 0 0
+1 2000000 0
+A
+3 3
+A
+5 3
+A
+6 3
+A
+2 4
+A
+18 30
+A
+19 30
+#2226
+Wheeling Gull Armband~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09A&00&01rmban&09d&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09A&00&01rmban&09d &15has been dropped here.&00~
+~
+11 0 4097
+0 0 0 0
+1 2000000 0
+A
+2 3
+A
+6 3
+A
+18 30
+A
+19 30
+#2227
+Wheeling Gull Robe~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09R&00&01ob&09e&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09R&00&01ob&09e &15has been dropped here.&00~
+~
+11 0 9
+0 0 0 0
+1 3000000 0
+A
+5 3
+A
+3 2
+A
+2 2
+A
+6 3
+A
+18 30
+A
+19 30
+#2228
+Wheeling Gull Boots~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09B&00&01oot&09s&00~
+&15A pair of &15W&00&07heelin&15g &14G&00&06ul&14l &09B&00&01oot&09s &15have been dropped here.&00~
+~
+11 0 65
+0 0 0 0
+1 2000000 0
+A
+2 3
+A
+4 2
+A
+18 30
+A
+19 30
+#2229
+Wheeling Gull Gloves~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09G&00&01love&09s&00~
+&15A pair of &15W&00&07heelin&15g &14G&00&06ul&14l &09G&00&01love&09s &15have been dropped here.&00~
+~
+11 0 129
+0 0 0 0
+1 2000000 0
+A
+4 2
+A
+6 3
+A
+18 30
+A
+19 30
+#2230
+Wheeling Gull Armpads~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09A&00&01rmpad&09s&00~
+&15A pair of &15W&00&07heelin&15g &14G&00&06ul&14l &09A&00&01rmpad&09s &15have been dropped here.&00~
+~
+11 0 257
+0 0 0 0
+1 2000000 0
+A
+6 3
+A
+3 1
+A
+18 30
+A
+19 30
+#2231
+Wheeling Gull Belt~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09B&00&01el&09t&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09B&00&01el&09t &15has been dropped here.&00~
+~
+11 0 2049
+0 0 0 0
+1 2000000 0
+A
+5 2
+A
+6 2
+A
+3 2
+A
+18 30
+A
+19 30
+#2232
+Wheeling Gull Pants~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09P&00&01ant&09s&00~
+&15A pair of &15W&00&07heelin&15g &14G&00&06ul&14l &09P&00&01ant&09s &15have been dropped here.&00~
+~
+11 0 33
+0 0 0 0
+1 2000000 0
+A
+2 4
+A
+5 1
+A
+4 1
+A
+18 30
+A
+19 30
+#2233
+Wheeling Gull Scouter~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09S&00&01coute&09r&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09S&00&01coute&09r &15has been dropped here.&00~
+~
+3 0 513
+100 100000 100000 201
+1 2000000 0
+A
+5 2
+A
+4 2
+A
+3 1
+A
+2 3
+A
+18 30
+A
+19 30
+#2234
+Wheeling Gull Helmet~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09H&00&01elme&09t&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09H&00&01elme&09t &15has been dropped here.&00~
+~
+11 0 17
+0 0 0 0
+1 2000000 0
+A
+4 2
+A
+6 5
+A
+2 5
+A
+18 30
+A
+19 30
+#2235
+Wheeling Gull Saphire Earring~
+&15W&00&07heelin&15g &14G&00&06ul&14l &12S&00&04aphir&12e &09E&00&01arrin&09g&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &12S&00&04aphir&12e &09E&00&01arrin&09g &15has been dropped here.&00~
+~
+11 0 262145
+0 0 0 0
+1 2000000 0
+A
+2 3
+A
+6 3
+A
+18 30
+A
+19 30
+#2236
+Wheeling Gull Emerald Earring~
+&15W&00&07heelin&15g &14G&00&06ul&14l &10E&00&02meral&10d &09E&00&01arrin&09g&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &10E&00&02meral&10d &09E&00&01arrin&09g &15has been dropped here.&00~
+~
+11 0 131073
+0 0 0 0
+1 2000000 0
+A
+2 3
+A
+6 3
+A
+18 30
+A
+19 30
+#2237
+Wheeling Gull Dragonis Ring~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01ragoni&09s &11Ring&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01ragoni&09s &11Ring &15has been dropped here.&00~
+~
+11 0 3
+0 0 0 0
+1 2000000 0
+A
+4 2
+A
+2 2
+A
+6 2
+A
+18 30
+A
+19 30
+#2238
+Wheeling Gull Dragon's Eye~
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01ragon&15'&09s &12Eye&00~
+&15A &15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01ragon&15'&09s &12Eye &15has been dropped here.&00~
+~
+1 0 16385
+0 0 -1 0
+1 2000000 0
+A
+5 1
+A
+2 5
+A
+18 30
+A
+19 30
+#2239
+Glog Plasma Light~
+&10G&00&02log'&10s &11P&09l&00&01as&09m&11a &00&07Light&00~
+&10G&00&02log'&10s &11P&09l&00&01as&09m&11a &00&07Light &15has been dropped here.&00~
+~
+1 134217728 16385
+0 0 -1 0
+1 5000000 0
+A
+5 3
+A
+4 3
+A
+3 4
+A
+25 4
+A
+6 5
+#2240
+Fat Joint~
+&10F&00&02a&16t &00&07J&15o&16i&15n&00&07t&00~
+&15A &10F&00&02a&16t &00&07J&15o&16i&15n&00&07t &15has been STUPIDLY dropped here.&00~
+~
+13 0 1
+100 77 0 0
+1 50000 0
+#2241
+22mm Vulcan Cannon~
+&00&072&152&16mm &00&07V&15u&16lc&15a&00&07n &16C&15a&00&07nn&15o&16n&00~
+&15A &00&072&152&16mm &00&07V&15u&16lc&15a&00&07n &16C&15a&00&07nn&15o&16n &15has been dropped here.&00~
+~
+5 268435456 8193
+0 1000000 1 12
+1 5000000 0
+A
+5 8
+A
+3 1
+A
+4 1
+A
+25 1
+A
+2 5
+A
+6 5
+#2250
+frying pan~
+a &09HUGE&00 frying pan~
+A &09HUGE&00 frying pan lies here.~
+~
+5 0 8193
+0 10 10 5
+0 0 0
+A
+18 2
+A
+19 2
+#2251
+pimp rod~
+&09Kijala's &10Pimp Rod&00~
+&09Kijala's &10Pimp Rod&00 lies here.~
+~
+5 0 8193
+5 20 20 5
+0 0 0
+A
+19 5
+A
+17 -20
+#2298
+small crystal~
+a &01small &04glowing &07crystal&00~
+A &01small &04glowing &07crystal&00 lies here...~
+~
+9 1 16385
+-5 0 0 0
+0 0 0
+A
+18 4
+A
+19 4
+A
+3 3
+A
+4 3
+#2299
+sign~
+a sign~
+A sign is stuck in the ground. It reads: If your not supposed to be here, get out or get ready to eat a Spirit Bomb!~
+~
+13 0 0
+0 0 0 0
+0 0 0
+$~

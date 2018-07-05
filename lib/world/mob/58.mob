@@ -1,0 +1,389 @@
+#5800
+Yumasin The Blacksmith~
+Yumasin The Blacksmith~
+Yumasin stands behind the counter, watching you. He is determined to catch the thief that been stealing from his shop.
+~
+Yumasin is a blacksmith that looks like he has worked hard and long at his job. His expression is jolly, but don't let that fool you. His temper can change in a heartbeat, leaving you stunned.
+~
+2058 160 0 E
+1000000 19 0 0d0+250000000 0d0+500000
+0 0
+8 8 1
+BareHandAttack: 3
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5801
+Broly~
+&00&11B&00&03r&00&11o&00&03l&00&11y&00~
+&00&11B&00&03r&00&11o&00&03l&00&11y&00 &00&03 stalks around the room, like a beast in a cage. He growls lowly as he looks around the room for Goku.
+~
+Massive behamuth of the Saiyan race, Broly is the legendary super saiyan. Able to bring down some of the strongest warriors, he will stop at nothing to destroy everything and anything.
+~
+65592 32768 -100 E
+35000 -10 0 1d1+25000000 1d1+500000
+25000 25000000
+8 8 1
+BareHandAttack: 13
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5802
+Murian~
+&00&01M&09u&11r&16i&09a&00&01n&00~
+&00&01M&09u&11r&16i&09a&00&01n&00 &00&15greets you as you enter the room with a smile.
+~
+Murian is a Konatsu that stands 5' 10" and weighs in about 145lbs. He looks like a rough fighter, but you can tell that he is a gentle person.
+~
+10 0 0 E
+1000000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5822
+Vanquished Paladin~
+&00&07V&15a&16n&15q&00&07u&15i&16s&15h&00&07e&15d &00&07P&11a&14l&00&06a&16d&14i&00&07n&00~
+&15A ghostly &00&07V&15a&16n&15q&00&07u&15i&16s&15h&00&07e&15d &00&07P&11a&14l&00&06a&16d&14i&00&07n&00 &15hovers here, forever protecting this place.&00
+~
+Nothing.
+~
+229386 529544 0 E
+1 -60 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5823
+#5823
+Kil'Jaedon~
+&16K&15i&09l&00&01'&09J&00&01a&16ed&15on&00~
+&16Floating within a void, &16K&15i&09l&00&01'&09J&00&01a&16ed&15on&00 &16resides here as a black demonic aura engulfs his entire form.&00
+~
+Nothing.
+~
+253978 33792 0 E
+0 20 0 1d1+1000000000 1d1+500000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5827
+Steel Armed Mercenary~
+&00S&15t&16e&15el&00-&15Ar&16m&15e&00d &04M&06e&12rc&14e&00n&14a&12r&06y&00~
+&15The &00S&15t&16e&15el&00-&15Ar&16m&15e&00d &04M&06e&12rc&14e&00n&14a&12r&06y &15stands here, guarding this clanhall.&00
+~
+   &15It wouldn't be smart to mess with this person.  &00
+~
+229386 128 0 E
+900000 -80 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5828
+T 5829
+#5828
+Frozen Steel Shopkeep~
+&12F&14r&00oz&14e&12n&00 S&15t&16e&15e&00l &00S&15h&16o&00pk&16e&15e&00p&00~
+&15The &12F&14r&00oz&14e&12n&00 S&15t&16e&15e&00l &00S&15h&16o&00pk&16e&15e&00p &15is standing here with a smile on her face.&00
+~
+&15The shopkeep of the FSM clan.&00
+~
+10 0 0 E
+1000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5832
+Dark Scorpion Gatekeeper~
+&16D&00&04a&12r&00&06k &16S&15c&00&07o&12r&00&04p&00&07i&15o&16n &10G&00&02atekeepe&10r&00~
+&15The &16D&00&04a&12r&00&06k &16S&15c&00&07o&12r&00&04p&00&07i&15o&16n &10G&00&02atekeepe&10r &15stands here.&00
+~
+   &15It wouldn't be wise to mess with this gatekeeper.  &00
+~
+10 128 0 E
+900000 -80 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5834
+T 5835
+#5833
+Dark Blue Scorpion~
+&16D&00&07a&15r&16k &00&04B&00&12l&00&16u&00&07e &01Sc&00&09o&00&16r&15p&16i&09o&00&01n&00~
+&15A &16D&00&07a&15r&16k &00&04B&00&12l&00&16u&00&07e &01Sc&00&09o&00&16r&15p&16i&09o&00&01n&15 is standing here.&00
+~
+It looks unfinished.
+~
+253962 0 0 E
+0 20 0 1d1+0 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5837
+Shadow Hunter Gatekeeper~
+&16S&15h&00ad&15o&16w  &12H&00&04u&16n&15t&16e&00&04r &10G&00&02atekeepe&10r&00~
+&16S&15h&00ad&15o&16w  &12H&00&04u&16n&15t&16e&00&04r &10G&00&02atekeepe&10r&00 hides here guarding the passageway
+~
+&15This vicious mob will protect the clanhall till it's last breath.&00
+~
+10 524418 0 E
+900000 -100 0 1d1+1000000000 1d1+500000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5837
+#5838
+Shadowy Shopkeeper~
+&16S&15h&00&07ado&15w&16y &12Shopkeeper&00~
+&15A &16S&15h&00&07ado&15w&16y &12Shopkeeper &15is standing here.&00
+~
+   &15This shopkeeper may not exist tomorrow!  Let's hope it sticks around.  
+&00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5840
+Targeted Shadow~
+&09T&00&01a&16r&09g&00&01e&16t&00&01e&09d &16S&15h&00&07ad&15o&16w&00~
+&16A &09T&00&01a&16r&09g&00&01e&16t&00&01e&09d &16S&15h&00&07ad&15o&16w hides here, fearing bounty hunters.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 0d0+15000000 0d0+70000
+1000 10000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5846
+Mahabharata~
+&00Ma&14h&00&06a&15b&00h&15a&00&06r&14a&00ta~
+&00Ma&14h&00&06a&15b&00h&15a&00&06r&14a&00ta is sitting here, reading an ancient book.
+~
+It looks unfinished.
+~
+26 0 0 E
+999999 -80 0 1d0+100000000 0d0+100
+100000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5847
+BioMetrics Panel~
+&00&07A &00&06B&00&02i&10o&14M&00&06e&00&02t&10r&14i&00&06c&00&02s &14P&00&06a&16n&15e&00&07l&00&07&00~
+&00&07A &00&06B&00&02i&10o&14M&00&06e&00&02t&10r&14i&00&06c&00&02s &14P&00&06a&16n&15e&00&07l&00&07 is built into the wall here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+800000 0 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5847
+#5851
+spirit traci nothkil~
+&11T&00&03he &12S&00&04p&16i&15r&16i&00&04t &00&16o&00&07f &13T&00&05r&00&07a&00&05c&13i &14N&00&07o&00&06t&14h&00&07k&00&06i&14l&00~
+&11T&00&03he &12S&00&04p&16i&15r&16i&00&04t &00&16o&00&07f &13T&00&05r&00&07a&00&05c&13i &14N&00&07o&00&06t&14h&00&07k&00&06i&14l &00&07stands here radiating a strange light.&00
+~
+   &00Traci is wearing her signiture long white lab coat and has a Prototype
+Caster straped to her waist.  She appears to just hover around, running her
+experiments, and selling her inventions to a select few.  &00
+~
+10 0 0 E
+1000 20 0 1d1+1000000000 1d1+0
+2147483647 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5852
+Shadow Revenant~
+&16S&15h&00&07ad&15o&16w &13R&00&05ev&16e&15n&16a&00&05n&13t&00~
+&16A &16S&15h&00&07ad&15o&16w &13R&00&05ev&16e&15n&16a&00&05n&13t&00 &16slowly approaches you, gazing into your eyes with an evil glare.&00
+~
+Nothing.
+~
+131082 0 0 E
+400000 -60 0 0d0+15000000 0d0+70000
+1000 10000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5868
+An Old Man~
+&15An &16O&15l&00&07d &00&06M&14a&00&07n&00~
+&15An &16O&15l&00&07d &00&06M&14a&00&07n &15is leaning on a staff here.&00
+~
+   &15This old man looks wise beyond his years, it would be best not to under
+estimate his abilities.  &00
+~
+10 0 0 E
+100000 -60 0 0d0+1000000000 0d0+500000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5868
+#5869
+An Old Shopkeeper~
+&15An &16O&15l&00&07d &12Shopkeeper&00~
+&15An &16O&15l&00&07d &12Shopkeeper &15is sitting here, his eyes half lidded.&00
+~
+   &15This shopkeeper looks like he may be sleeping, or in a deep meditative
+state.  &00
+~
+10 0 0 E
+100000 -60 0 1d1+1000000000 1d1+500000
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5875
+Manji, the sparring Dummy~
+&00&05Ma&00&16n&00&15j&00&05i&00&15, the &00&09S&00&01p&00&16a&00&15r&00&07r&00i&01n&00&09g&00 &00D&00&15u&00&03m&00&02m&00&10y&00~
+&00&05Ma&00&16n&00&15j&00&05i&00&15, the &00&09S&00&01p&00&16a&00&15r&00&07r&00i&01n&00&09g&00 &00D&00&15u&00&03m&00&02m&00&10y&00 stands here ready to spar with you.
+~
+He doesn't look unfinished!
+~
+10 0 0 E
+10000 20 0 500d500+153000000 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5875
+#5880
+Dartiz~
+&10D&00&02a&16r&00&02t&00&07i&10z&15, &00&01R&09a&15d&16i&09t&00&01z&15'&16s&00 favorite &10S&00&02a&16i&00&02b&10a&00~
+&10D&00&02a&16r&00&02t&00&07i&10z&00 is standing here with a &00&01sa&09d&16i&15s&09t&00&01ic&00 look on his face.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+2 20 0 1d1+2000 1d1+0
+1 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5885
+Forsaken Temple Dragon~
+&09F&00&01o&16r&00&07s&15a&16k&00&01e&09n &14T&00&06e&16mp&00&06l&14e &16Dragon&00~
+&15The &09F&00&01o&16r&00&07s&15a&16k&00&01e&09n &14T&00&06e&16mp&00&06l&14e &16Dragon &15is spreading its wings here....&00
+~
+   &15This guardian does not look like someone you wish to mess with....  &00
+~
+10 0 0 E
+800000 -100 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5885
+#5886
+Clan Servant~
+&16Servant&00~
+&15Clan &16Servant &15is taking care of the storehouse here.&00
+~
+   &15This servant is loyal, for good reason.  &00
+~
+10 0 0 E
+800000 -60 0 1d1+1000000000 1d1+500000
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5890
+Valkyrie Guardian~
+&13V&00&05a&16l&15k&00&07y&00&05r&13i&16e &10G&00&02u&16a&15r&00&07d&00&02i&10a&16n&00~
+The &13V&00&05a&16l&15k&00&07y&00&05r&13i&16e &10G&00&02u&16a&15r&00&07d&00&02i&10a&16n &15stands guard here.&00
+~
+&15Do not mess with this guardian....&00
+~
+10 138 0 E
+800000 -180 0 0d0+1000000000 0d0+500000
+0 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5890
+$

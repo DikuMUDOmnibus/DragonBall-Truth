@@ -1,0 +1,1337 @@
+#7100
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D1
+The pool extends eastwards, but you cannot find enough room to move in that
+direction.
+~
+~
+0 -1 -1
+D4
+~
+~
+0 -1 7000
+S
+#7101
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D1
+East.  You see nothing of interest.
+~
+~
+0 -1 7103
+E
+mud~
+You never saw such disgusting matter before, it nearly makes you puke.
+~
+S
+#7102
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D1
+~
+~
+0 -1 7104
+D4
+Up.  You can't see a thing up there, it is way too dark.
+~
+~
+0 -1 7004
+D5
+~
+trapdoor~
+1 -1 7300
+E
+ladder~
+This is funny enough a wooden ladder and, after closer inspection, you
+discover it is magically held to the wall!  You can't, even with your
+greatest effort, move it at ALL!
+~
+S
+#7103
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D2
+To the south there is less mud than here!  It actually seems to end there!
+You have a felling it would be nice to have your feet free from mud again.
+~
+~
+0 -1 7104
+D3
+You can see a room in which mud drips from the roof onto the floor in 
+great cakes of sludge.  There doesn't seem to be any exits from that room
+apart from in you direction.
+~
+~
+0 -1 7101
+E
+mud~
+You never saw such disgusting matter before, it nearly makes you puke.
+~
+S
+#7104
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+You can see a mud area starting in that direction.
+~
+~
+0 -1 7103
+D1
+East.  You can't even make out what it might look like, it is just too dark.
+~
+~
+0 -1 7112
+D3
+West.  There is a room with a ladder leading up.
+~
+~
+0 -1 7102
+S
+#7105
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D4
+There is a slight, dim light from above, or maybe it is just your imagination.
+Anyway it SEEMS darker down here than up there, if that is possible.
+~
+~
+0 -1 7015
+D5
+Down there nothing at all can be spotted.  The darkness that engulfs this
+decent seems utterly impossible in a mortal world.  It is so thick that a 
+torch down there would be utterly useless... or so it seems to you.  Not 
+the kind of thing to cheer you up on this voyage, Eh?
+~
+~
+0 -1 -1
+E
+bars~
+These look like they're pretty slippery, and not very safe, but perhaps safe
+enough for you to climb down, WITH both hands on them.
+~
+S
+#7106
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D1
+The ledge continues east.
+~
+~
+0 -1 7113
+D2
+The ledge continues south.
+~
+~
+0 -1 7107
+D5
+The Abyss lies down there.  Who knows what might lurk down there?
+~
+rock step edge~
+1 -1 7279
+E
+edge odd-looking~
+This is truly a weird piece of craftsmanship in your eyes.  The edge seems to
+form a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there 
+leading to seemingly total destruction.
+~
+E
+step~
+A small rock sticks out right under it, otherwise the way is DOWN, DOWN, and
+SPLAT!!!
+~
+E
+rock~
+It looks as if it can be opened in a door-like fashion.  Maybe this will lead
+the way down.
+~
+S
+#7107
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+North.  The ledge leads into a corner and turns eastward.
+~
+~
+0 -1 7106
+D1
+You stare into mid-air, and right under there is absolutely nothing but 
+darkness.  You shiver by the thought of falling an utterly unknown distance.
+~
+~
+0 -1 7190
+D2
+South.  The ledge leads further south into utter darkness.
+~
+~
+0 -1 7108
+S
+#7108
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+North.  The ledge leads further north.
+~
+~
+0 -1 7107
+D1
+You stare into mid-air, and right under there is absolutely nothing but
+darkness.  You shiver by the thought of falling that distance.
+~
+~
+0 -1 7190
+D2
+The ledge continues further south into darkness.
+~
+~
+0 -1 7109
+S
+#7109
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+North.  The ledge leads further north.
+~
+~
+0 -1 7108
+D1
+You stare into mid-air, and right under there is absolutely nothing but
+darkness.  You shiver by the thought of falling that distance.
+~
+~
+0 -1 7190
+D2
+The ledge continues south into darkness.
+~
+~
+0 -1 7110
+S
+#7110
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+North.  The ledge leads further north.
+~
+~
+0 -1 7107
+D1
+You stare into mid-air, and right under there is absolutely nothing but
+darkness.  You shiver by the thought of falling that distance.
+~
+~
+0 -1 7190
+D2
+South.  You can just make out the south-western corner of this ledge.
+~
+~
+0 -1 7111
+S
+#7111
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+North.  The ledge leads further north.
+~
+~
+0 -1 7110
+D1
+You see a broad ledge leading eastward.
+~
+~
+0 -1 7115
+D2
+South of here is the exit from the ledge.
+~
+~
+0 -1 7112
+D5
+The Abyss lies down there.  Who knows what might lurk down there?
+~
+rock step edge~
+1 -1 7279
+E
+edge odd-looking~
+This is truly a weird piece of craftsmanship in your eyes.  The edge seems to
+form a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there 
+leading to seemingly total destruction.
+~
+E
+step~
+A small rock sticks out right under it, otherwise the way is DOWN, DOWN, and
+SPLAT!!!
+~
+E
+rock~
+It looks as if it can be opened in a door-like fashion.  Maybe this will lead
+the way down.
+~
+S
+#7112
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+North.  You see a ledge to something that looks like an abyss.
+~
+~
+0 -1 7111
+D1
+~
+~
+0 -1 7122
+D3
+~
+~
+0 -1 7104
+S
+#7113
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D1
+The ledge leads further east.
+~
+~
+0 -1 7116
+D2
+You stare into mid-air, and right under there is absolutely nothing but
+darkness.  You shiver by the thought of falling that distance.
+~
+~
+0 -1 7190
+S
+#7114
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+~
+~
+0 -1 7119
+D1
+~
+~
+0 -1 7118
+D2
+~
+~
+0 -1 7120
+D3
+~
+~
+0 -1 7117
+D4
+~
+~
+0 -1 7115
+S
+#7115
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+~
+~
+0 -1 7114
+D1
+~
+~
+0 -1 7121
+D2
+~
+~
+0 -1 7129
+D3
+~
+~
+0 -1 7111
+S
+#7116
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D2
+~
+~
+0 -1 7117
+D3
+The ledge continues west.
+~
+~
+0 -1 7113
+D5
+You can just make out the outline of a trapdoor here in the soil.  The earth
+is probably there to conceal a secret entrance.  This looks as if it leads
+down into the seemingly solid rock face of the ledge.
+~
+trapdoor secret entrance~
+1 -1 7280
+E
+ground ledge rock~
+The ground here seems a little different from all the other ledges along the
+Abyss.  There is a kind of soft soil on this ledge, maybe you should look 
+carefully at this.  It seems to be of some interest.
+~
+E
+soil soft earth~
+You can just make out the outline of a trapdoor here in the soil.  The earth
+is probably there to conceal a secret entrance.  This looks as if it leads
+down into the seemingly solid rock face of the ledge.
+~
+S
+#7117
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D2
+The ledge leads further south.
+~
+~
+0 -1 7118
+D3
+You stare into mid-air, and right under there is absolutely nothing but
+darkness.  You shiver by the thought of falling that distance.
+~
+~
+0 -1 7114
+S
+#7118
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D2
+The ledge leads further south.
+~
+~
+0 -1 7119
+D3
+You stare into mid-air, and right under there is absolutely nothing but
+darkness.  You shiver by the thought of falling that distance.
+~
+~
+0 -1 7114
+S
+#7119
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D2
+The ledge leads further south.
+~
+~
+0 -1 7120
+D3
+You stare into mid-air, and right under there is absolutely nothing but
+darkness.  You shiver by the thought of falling that distance.
+~
+~
+0 -1 7114
+S
+#7120
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D1
+East.  You stare into darkness.
+~
+~
+0 -1 7123
+D2
+The ledge leads further south.
+~
+~
+0 -1 7121
+D3
+You stare into mid-air, and right under there is absolutely nothing but
+darkness.  You shiver by the thought of falling that distance.
+~
+~
+0 -1 7114
+S
+#7121
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+North of here you can see a ledge.
+~
+~
+0 -1 7120
+D3
+The ledge leads further west.
+~
+~
+0 -1 7115
+D5
+The Abyss lies down there.  Who knows what might lurk down there?
+~
+rock step edge~
+2 -1 7279
+E
+edge odd-looking~
+This is truly a weird piece of craftsmanship in your eyes.  The edge seems to
+form a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there 
+leading to seemingly total destruction.
+~
+E
+step~
+A small rock sticks out right under it, otherwise the way is DOWN, DOWN, and
+SPLAT!!!
+~
+E
+rock~
+It looks as if it can be opened in a door-like fashion.  Maybe this will lead
+the way down.
+~
+S
+#7122
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D3
+~
+~
+0 -1 7112
+E
+wall~
+There is a crack here that looks like it has been made recently.
+~
+S
+#7123
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D3
+You can see a narrow ledge going north and south.
+~
+~
+0 -1 7120
+D4
+It is too dark up there.
+~
+~
+0 -1 7041
+S
+#7124
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7125
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7126
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7127
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7128
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7129
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+You can see the southern part of the ledge.
+~
+~
+0 -1 7115
+D5
+You look deeper down into the drain.
+~
+~
+0 -1 7221
+S
+#7130
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7131
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7132
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7133
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7134
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7135
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7136
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7137
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7138
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7139
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7140
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7141
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7142
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7143
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7144
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7145
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7146
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7147
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7148
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7149
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7150
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7151
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7152
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7153
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7154
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7155
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7156
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7157
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7158
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7159
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7160
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7161
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7162
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7163
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7164
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7165
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7166
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7167
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7168
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7169
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7170
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7171
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7172
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7173
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7174
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7175
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7176
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7177
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7178
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7179
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7180
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7181
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7182
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7183
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7184
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7185
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7186
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7187
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7188
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7189
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7190
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+D0
+~
+~
+0 -1 7109
+D1
+~
+~
+0 -1 7108
+D2
+~
+~
+0 -1 7110
+D3
+~
+~
+0 -1 7107
+D4
+~
+~
+0 -1 7113
+S
+#7191
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7192
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7193
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7194
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7195
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7196
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7197
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7198
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+#7199
+&12U&00&04n&06d&04in&06i&04a&12n &12O&00&04c&07e&16a&00&04n&00~
+   &12The waters ripple as the winds play across the surface.  The ocean teems
+with life, unknown creatures and treasures resting beneath the waters.  The
+ocean stretches off into the distance, promising far off lands ripe for
+exploration.  &00
+~
+71 13 5
+S
+$~

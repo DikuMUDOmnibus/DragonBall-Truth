@@ -1,0 +1,4564 @@
+
+/* ************************************************************************
+*   File: act.other.c                                   Part of CircleMUD *
+*  Usage: Miscellaneous player-level commands                             *
+*                                                                         *
+*  All rights reserved.  See license.doc for complete information.        *
+*                                                                         *
+*  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
+*  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
+************************************************************************ */
+
+#define __ACT_OTHER_C__
+
+#include "conf.h"
+#include "sysdep.h"
+
+#include "structs.h"
+#include "utils.h"
+#include "comm.h"
+#include "interpreter.h"
+#include "handler.h"
+#include "db.h"
+#include "spells.h"
+#include "screen.h"
+#include "house.h"
+#include "dg_scripts.h"
+
+/* extern variables */
+extern char arg1 [MAX_INPUT_LENGTH];
+extern char arg2 [MAX_INPUT_LENGTH];
+extern int spell_sort_info[MAX_SKILLS+1];
+extern struct str_app_type str_app[];
+extern struct room_data *world;
+extern struct descriptor_data *descriptor_list;
+extern struct dex_skill_type dex_app_skill[];
+extern struct spell_info_type spell_info[];
+extern struct index_data *mob_index;
+extern char *class_abbrevs[];
+extern struct spell_entry spells[];
+extern int free_rent;
+extern int pt_allowed;
+extern int max_filesize;
+extern int nameserver_is_slow;
+extern int top_of_world;
+extern int auto_save;
+extern sh_int r_death_start_room;
+extern sh_int r_mortal_start_room;
+extern sh_int r_immort_start_room;
+
+/* extern procedures */
+void list_skills(struct char_data * ch);
+void appear(struct char_data * ch);
+void perform_immort_vis(struct char_data *ch);
+SPECIAL(shop_keeper);
+ACMD(do_gen_comm);
+void die(struct char_data * ch, struct char_data * killer);
+void Crash_rentsave(struct char_data * ch, int cost);
+void make_corpse(struct char_data * ch);
+
+/* local functions */
+ACMD(do_quit);
+ACMD(do_save);
+ACMD(do_fly);
+ACMD(do_land);
+ACMD(do_not_here);
+ACMD(do_SWIFTNESS);
+ACMD(do_hide);
+ACMD(do_steal);
+ACMD(do_practice);
+ACMD(do_visible);
+ACMD(do_title);
+int perform_group(struct char_data *ch, struct char_data *vict);
+void print_group(struct char_data *ch);
+ACMD(do_group);
+ACMD(do_ungroup);
+ACMD(do_inplant);
+ACMD(do_report);
+ACMD(do_sbreed);
+ACMD(do_split);
+ACMD(do_ssj);
+ACMD(do_kaioken);
+ACMD(do_spar);
+ACMD(do_sparkick);
+ACMD(do_sparpunch);
+ACMD(do_sparelbow);
+ACMD(do_sparknee);
+ACMD(do_sparkiblast);
+ACMD(do_transform);
+ACMD(do_learn);
+ACMD(do_use);
+ACMD(do_repair);
+ACMD(do_wimpy);
+ACMD(do_display);
+ACMD(do_stealth);
+ACMD(do_gen_write);
+ACMD(do_powerup);
+ACMD(do_powerdown);
+ACMD(do_gen_tog);
+ACMD(do_ingest);
+ACMD(do_upgrade);
+ACMD(do_mystic);
+ACMD(do_perfection);
+ACMD(do_heal);
+ACMD(do_pk);
+ACMD(do_majinmorph);
+ACMD(do_evil);
+ACMD(do_clanlist);
+ACMD(do_clanjoin);
+ACMD(do_clanresign);
+
+ACMD(do_evil)
+{
+
+  int MAX_MANA = 0, MAX_HIT = 0;
+
+    one_argument(argument, arg);
+
+    if ((!IS_demon(ch)))
+    {
+      act("Your not a Demon!", TRUE, ch, 0, 0, TO_CHAR);
+      return;
+    }
+   else if (!*argument)
+    {
+act("        &10o&12_&09-------------------------&12_&10o&00
+         &09|   &11    Evil Forms&00        &09|&00
+        &10o&12_&09-------------------------&12_&10o&00
+         &09|&10You can do the following:&09|&00
+         &09|&09-------------------------&09|&00
+         &09|&15Stage:  Power Level Req.:&09|&00 ", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10First       &14800000&00      &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Second      &145000000&00     &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Third       &1410000000&00    &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Fourth      &1425000000&00    &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("        &10o&12_&09-------------------------&12_&10o&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+}
+/*------------------  Checks to see if already in that stage if evil   -----------------*/
+
+
+if (!str_cmp(arg,"second") && !PLR_FLAGGED(ch, PLR_trans1)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"third") && !PLR_FLAGGED(ch, PLR_trans2)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"fourth") && !PLR_FLAGGED(ch, PLR_trans3)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*----------------------------------  Reverting  --------------------------------------*/
+
+ if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans4)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans4);
+
+  MAX_HIT = number(80000, 80000);
+  MAX_MANA = number(80000, 80000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+  act("&15$n reverts from $s form of &09Darkness&15.&00", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15You revert from your form of &09Darkness&15.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans3)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+
+  MAX_HIT = number(35000, 35000);
+  MAX_MANA = number(35000, 35000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+  act("&15$n reverts from $s form of &09Darkness&15.&00", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15You revert from your form of &09Darkness&15.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans2)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+  MAX_HIT = number(15000, 15000);
+  MAX_MANA = number(15000, 15000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+  act("&15$n reverts from $s form of &09Darkness&15.&00", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15You revert from your form of &09Darkness&15.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans1)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+
+  MAX_HIT = number(5000, 5000);
+  MAX_MANA = number(5000, 5000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+ act("&15$n reverts from $s form of &09Darkness&15.&00", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15You revert from your form of &09Darkness&15.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ Evil 1 -----------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"first") && PLR_FLAGGED(ch, PLR_trans1)) {
+  act("&15Your already in that form of Darkness!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"first") && GET_STR(ch)*2+GET_MAX_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 800000) {
+  act("&15You do not have the power to attain that form of Darkness!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"first") && GET_STR(ch)*2+GET_MAX_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 800000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans1);
+
+  MAX_HIT = number(5000, 5000);
+  MAX_MANA = number(5000, 5000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+  act("&15$n transforms into the first form of &09Darkness&15!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You transform into the first form of &09Darkness&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ Evil 2 -----------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"second") && PLR_FLAGGED(ch, PLR_trans2)) {
+  act("&15Your already in that form of Darkness!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"second") && GET_STR(ch)*2+GET_MAX_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 5000000) {
+  act("&15You do not have the power to attain that form of Darkness!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"second") && GET_STR(ch)*2+GET_MAX_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 5000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+  MAX_HIT = number(10000, 10000);
+  MAX_MANA = number(10000, 10000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+  act("&15$n transforms into the second form of &09Darkness&15!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You transform into the second form of &09Darkness&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ Evil 3 -----------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"third") && PLR_FLAGGED(ch, PLR_trans3)) {
+  act("&15Your already in that form of Darkness!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"third") && GET_STR(ch)*2+GET_MAX_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 10000000) {
+  act("&15You do not have the power to attain that form of Darkness!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"third") && GET_STR(ch)*2+GET_MAX_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 10000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans3);
+
+  MAX_HIT = number(20000, 20000);
+  MAX_MANA = number(20000, 20000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+  act("&15$n transforms into the third form of &09Darkness&15!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You transform into the third form of &09Darkness&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ Evil 4 -----------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"fourth") && PLR_FLAGGED(ch, PLR_trans4)) {
+  act("&15Your already in that form of Darkness!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"fourth") && GET_STR(ch)*2+GET_MAX_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 25000000) {
+  act("&15You do not have the power to attain that form of Darkness!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"fourth") && GET_STR(ch)*2+GET_MAX_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 25000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans4);
+
+  MAX_HIT = number(45000, 45000);
+  MAX_MANA = number(45000, 45000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+  act("&15$n transforms into the final form of &09Darkness&15!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You transform into the final form of &09Darkness&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+
+
+}
+
+
+ACMD(do_quit)
+{
+  sh_int save_room;
+  struct descriptor_data *d, *next_d;
+
+  if (IS_NPC(ch) || !ch->desc)
+    return;
+  if (AFF_FLAGGED(ch, AFF_MAJIN)) {
+     send_to_char("Your master won't let you.\r\n", ch);
+     return; 
+     }
+  if (AFF_FLAGGED(ch, AFF_HALTED)) {
+     send_to_char("You can't!\r\n", ch);
+     return; 
+     } 
+  if (IS_SET(ROOM_FLAGS(ch->in_room), ROOM_ND))
+      {
+      send_to_char("You cannot quit in the next dimension.\r\n", ch);
+    return;
+     }
+  if (IS_SET(ROOM_FLAGS(ch->in_room), ROOM_NOQUIT))
+      {
+      send_to_char("You cannot quit here!\r\n", ch);
+    return;
+     }
+/*
+*  if (!IS_SET(ROOM_FLAGS(ch->in_room), ROOM_HOTEL))
+*    {
+*    send_to_char("You're not in a hotel!\r\n", ch);
+*  return;
+*    }
+*/
+  if (GET_POS(ch) == POS_FIGHTING)
+      {
+      send_to_char("You cannot quit while fighting.\r\n", ch);
+    return;
+      }
+    if (PRF_FLAGGED(ch, PRF_OOZARU)) {
+     REMOVE_BIT(PRF_FLAGS(ch), PRF_OOZARU);
+     send_to_char("You revert to humanoid form before you leave..\r\n", ch);
+     GET_MAX_HIT(ch) -= 10000;  
+     GET_MAX_MANA(ch) -= 10000; 
+     } 
+  if (subcmd != SCMD_QUIT && GET_LEVEL(ch) < LVL_IMMORT)
+    send_to_char("You have to type quit--no less, to quit!\r\n", ch);
+  else if (GET_POS(ch) == POS_FIGHTING)
+    send_to_char("No way!  You're fighting for your life!\r\n", ch);
+  else if (GET_POS(ch) < POS_STUNNED) {
+    char_to_room(ch, 4500);
+    die(ch, NULL);
+  } else {
+    if (!GET_INVIS_LEV(ch))
+      act("$n has left the game.", TRUE, ch, 0, 0, TO_ROOM);
+    if (GET_LEVEL(ch) < LVL_IMMORT) {
+    sprintf(buf, "&15%s has left &11Drag&09(&11*&09)&11n Ball - &10Struggle &15for &09Power&16!&00\r\n", GET_NAME(ch));
+    send_to_all(buf);
+    }
+    sprintf(buf, "%s has quit the game.", GET_NAME(ch));
+    mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
+    send_to_char("Goodbye, friend.. Come back soon!\r\n", ch);
+    /*
+     * kill off all sockets connected to the same player as the one who is
+     * trying to quit.  Helps to maintain sanity as well as prevent duping.
+     */
+    for (d = descriptor_list; d; d = next_d) {
+      next_d = d->next;
+      if (d == ch->desc)
+        continue;
+      if (d->character && (GET_IDNUM(d->character) == GET_IDNUM(ch)))
+        STATE(d) = CON_DISCONNECT;
+    }
+
+   save_room = ch->in_room;
+   if (free_rent)
+      Crash_rentsave(ch, 0);
+    extract_char(ch);		/* Char is saved in extract char */
+
+    /* If someone is quitting in their house, let them load back here */
+    if (ROOM_FLAGGED(save_room, ROOM_HOUSE))
+      save_char(ch, save_room);
+  }
+}
+
+
+
+ACMD(do_save)
+{
+  if (IS_NPC(ch) || !ch->desc)
+    return;
+
+  /* Only tell the char we're saving if they actually typed "save" */
+  if (cmd) {
+    /*
+     * This prevents item duplication by two PC's using coordinated saves
+     * (or one PC with a house) and system crashes. Note that houses are
+     * still automatically saved without this enabled.
+     */
+/*    if (auto_save) {
+      sprintf(buf, "\r
+SFP version 0.23 Beta Compilied on 10/01/2002\r
+Remember that SFP has autosaving now, ok %s.\r
+Your current level is %Ld\r\n", GET_NAME(ch), GET_LEVEL(ch));
+    send_to_char(buf, ch);
+    return;
+    }*/
+    sprintf(buf, "\r
+&15Saving %s....&00\r
+&15Your current level is &14%Ld&00\r
+&10S&15F&09P &12Version 1.07b &14Beta &15Compilied first on &1401/01/2000 &15up since &1410/14/2002&00\r
+&09Also please keep in mind that &10S&15F&09P &09now AUTOSAVES every &145&09 mins.&00\r
+&13Orignal &10S&15F&09P &13Created by &14Tuskino &13first Version 0.01&00
+&15Saving Complete&00\r\n", GET_NAME(ch), GET_LEVEL(ch));
+    send_to_char(buf, ch);
+  }
+
+  save_char(ch, NOWHERE);
+  Crash_crashsave(ch);
+  if (ROOM_FLAGGED(ch->in_room, ROOM_HOUSE_CRASH))
+    House_crashsave(GET_ROOM_VNUM(IN_ROOM(ch)));
+}
+
+
+/* generic function for commands which are normally overridden by
+   special procedures - i.e., shop commands, mail commands, etc. */
+ACMD(do_not_here)
+{
+  send_to_char("Sorry, but you cannot do that here!\r\n", ch);
+}
+
+
+
+ACMD(do_SWIFTNESS)
+{
+  struct affected_type af;
+  byte percent;
+
+  send_to_char("You starts moving so fast you cannot be seen.\r\n", ch);
+  if (AFF_FLAGGED(ch, AFF_SWIFTNESS))
+    affect_from_char(ch, SKILL_SWIFTNESS);
+
+  percent = number(1, 101);	/* 101% is a complete failure */
+
+  if (percent > GET_SKILL(ch, SKILL_SWIFTNESS) + dex_app_skill[GET_DEX(ch)].SWIFTNESS)
+    return;
+
+  af.type = SKILL_SWIFTNESS;
+  af.duration = GET_LEVEL(ch);
+  af.modifier = 0;
+  af.location = APPLY_NONE;
+  af.bitvector = AFF_SWIFTNESS;
+  affect_to_char(ch, &af);
+}
+
+
+
+ACMD(do_hide)
+{
+  byte percent;
+
+  send_to_char("You attempt to hide yourself.\r\n", ch);
+
+  if (AFF_FLAGGED(ch, AFF_HIDE))
+    REMOVE_BIT(AFF_FLAGS(ch), AFF_HIDE);
+
+  percent = number(1, 101);	/* 101% is a complete failure */
+
+  if (percent > GET_SKILL(ch, SKILL_HIDE) + dex_app_skill[GET_DEX(ch)].hide)
+    return;
+
+  SET_BIT(AFF_FLAGS(ch), AFF_HIDE);
+}
+
+
+
+
+ACMD(do_steal)
+{
+  struct char_data *vict;
+  struct obj_data *obj;
+  char vict_name[MAX_INPUT_LENGTH], obj_name[MAX_INPUT_LENGTH];
+  int percent, gold, eq_pos, pcsteal = 0, ohoh = 0;
+
+  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
+    send_to_char("This room just has such a peaceful, easy feeling...\r\n", ch);
+    return;
+  }
+
+  argument = one_argument(argument, obj_name);
+  one_argument(argument, vict_name);
+
+  if (!(vict = get_char_room_vis(ch, vict_name))) {
+    send_to_char("Steal what from who?\r\n", ch);
+    return;
+  } else if (vict == ch) {
+    send_to_char("Come on now, that's rather stupid!\r\n", ch);
+    return;
+  }
+
+  /* 101% is a complete failure */
+  percent = number(1, 101) - dex_app_skill[GET_DEX(ch)].p_pocket;
+
+  if (GET_POS(vict) < POS_SLEEPING)
+    percent = -1;		/* ALWAYS SUCCESS */
+
+  if (!pt_allowed && !IS_NPC(vict))
+    pcsteal = 1;
+
+  /* NO NO With Imp's and Shopkeepers, and if player thieving is not allowed */
+  if (GET_LEVEL(vict) >= LVL_IMMORT || pcsteal ||
+      GET_MOB_SPEC(vict) == shop_keeper)
+    percent = 101;		/* Failure */
+
+  if (str_cmp(obj_name, "coins") && str_cmp(obj_name, "gold")) {
+
+    if (!(obj = get_obj_in_list_vis(vict, obj_name, vict->carrying))) {
+
+      for (eq_pos = 0; eq_pos < NUM_WEARS; eq_pos++)
+	if (GET_EQ(vict, eq_pos) &&
+	    (isname(obj_name, GET_EQ(vict, eq_pos)->name)) &&
+	    CAN_SEE_OBJ(ch, GET_EQ(vict, eq_pos))) {
+	  obj = GET_EQ(vict, eq_pos);
+	  break;
+	}
+      if (!obj) {
+	act("$E hasn't got that item.", FALSE, ch, 0, vict, TO_CHAR);
+	return;
+      } else {			/* It is equipment */
+	if ((GET_POS(vict) > POS_STUNNED)) {
+	  send_to_char("Steal the equipment now?  Impossible!\r\n", ch);
+	  return;
+	} else {
+	  act("You unequip $p and steal it.", FALSE, ch, obj, 0, TO_CHAR);
+	  act("$n steals $p from $N.", FALSE, ch, obj, vict, TO_NOTVICT);
+	  obj_to_char(unequip_char(vict, eq_pos), ch);
+	}
+      }
+    } else {			/* obj found in inventory */
+
+      percent += GET_OBJ_WEIGHT(obj);	/* Make heavy harder */
+
+      if (AWAKE(vict) && (percent > GET_SKILL(ch, SKILL_STEAL))) {
+	ohoh = TRUE;
+	act("Oops..", FALSE, ch, 0, 0, TO_CHAR);
+	act("$n tried to steal something from you!", FALSE, ch, 0, vict, TO_VICT);
+	act("$n tries to steal something from $N.", TRUE, ch, 0, vict, TO_NOTVICT);
+      } else {			/* Steal the item */
+	if ((IS_CARRYING_N(ch) + 1 < CAN_CARRY_N(ch))) {
+	  if ((IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(obj)) < CAN_CARRY_W(ch)) {
+	    obj_from_char(obj);
+	    obj_to_char(obj, ch);
+	    send_to_char("Got it!\r\n", ch);
+	  }
+	} else
+	  send_to_char("You cannot carry that much.\r\n", ch);
+      }
+    }
+  } else {			/* Steal some coins */
+    if (AWAKE(vict) && (percent > GET_SKILL(ch, SKILL_STEAL))) {
+      ohoh = TRUE;
+      act("Oops..", FALSE, ch, 0, 0, TO_CHAR);
+      act("You discover that $n has $s hands in your wallet.", FALSE, ch, 0, vict, TO_VICT);
+      act("$n tries to steal gold from $N.", TRUE, ch, 0, vict, TO_NOTVICT);
+    } else {
+      /* Steal some gold coins */
+      gold = (int) ((GET_GOLD(vict) * number(1, 10)) / 100);
+      gold = MIN(1782, gold);
+      if (gold > 0) {
+	GET_GOLD(ch) += gold;
+	GET_GOLD(vict) -= gold;
+        if (gold > 1) {
+	  sprintf(buf, "Bingo!  You got %d gold coins.\r\n", gold);
+	  send_to_char(buf, ch);
+	} else {
+	  send_to_char("You manage to swipe a solitary gold coin.\r\n", ch);
+	}
+      } else {
+	send_to_char("You couldn't get any gold...\r\n", ch);
+      }
+    }
+  }
+
+  if (ohoh && IS_NPC(vict) && AWAKE(vict))
+    hit(vict, ch, TYPE_UNDEFINED);
+}
+
+
+
+ACMD(do_practice)
+{
+  one_argument(argument, arg);
+
+  if (*arg)
+    send_to_char("You can only practice skills in your guild.\r\n", ch);
+  else
+    list_skills(ch);
+}
+
+
+
+ACMD(do_visible)
+{
+  if (GET_LEVEL(ch) >= LVL_IMMORT) {
+    perform_immort_vis(ch);
+    return;
+  }
+
+  if AFF_FLAGGED(ch, AFF_INVISIBLE) {
+    appear(ch);
+    send_to_char("You break the spell of invisibility.\r\n", ch);
+  } else
+    send_to_char("You are already visible.\r\n", ch);
+}
+
+
+
+ACMD(do_title)
+{
+  skip_spaces(&argument);
+  delete_doubledollar(argument);
+
+  if (IS_NPC(ch))
+    send_to_char("Your title is fine... go away.\r\n", ch);
+  else if (PLR_FLAGGED(ch, PLR_NOTITLE))
+    send_to_char("You can't title yourself -- you shouldn't have abused it!\r\n", ch);
+  else if (strstr(argument, "(") || strstr(argument, ")"))
+    send_to_char("Titles can't contain the ( or ) characters.\r\n", ch);
+  else if (strlen(argument) > MAX_TITLE_LENGTH) {
+    sprintf(buf, "Sorry, titles can't be longer than %d characters.\r\n",
+	    MAX_TITLE_LENGTH);
+    send_to_char(buf, ch);
+  } else {
+    set_title(ch, argument);
+    sprintf(buf, "Okay, you're now %s %s.\r\n", GET_NAME(ch), GET_TITLE(ch));
+    send_to_char(buf, ch);
+  }
+}
+
+
+int perform_group(struct char_data *ch, struct char_data *vict)
+{
+  if (AFF_FLAGGED(vict, AFF_GROUP) || !CAN_SEE(ch, vict))
+    return 0;
+
+  SET_BIT(AFF_FLAGS(vict), AFF_GROUP);
+  if (ch != vict)
+    act("$N is now a member of your group.", FALSE, ch, 0, vict, TO_CHAR);
+  act("You are now a member of $n's group.", FALSE, ch, 0, vict, TO_VICT);
+  act("$N is now a member of $n's group.", FALSE, ch, 0, vict, TO_NOTVICT);
+  return 1;
+}
+
+
+void print_group(struct char_data *ch)
+{
+  struct char_data *k;
+  struct follow_type *f;
+
+  if (!AFF_FLAGGED(ch, AFF_GROUP))
+    send_to_char("But you are not the member of a group!\r\n", ch);
+  else {
+    send_to_char("Your group consists of:\r\n", ch);
+
+    k = (ch->master ? ch->master : ch);
+
+    if (AFF_FLAGGED(k, AFF_GROUP)) {
+      sprintf(buf, "     [%3dH %3dM %3dV] [%s] $N (Head of group)",
+	      GET_HIT(k), GET_MANA(k), GET_MOVE(k), CLASS_ABBR(k));
+      act(buf, FALSE, ch, 0, k, TO_CHAR);
+    }
+
+    for (f = k->followers; f; f = f->next) {
+      if (!AFF_FLAGGED(f->follower, AFF_GROUP))
+	continue;
+
+      sprintf(buf, "     [%3dH %3dM %3dV] [%s] $N", GET_HIT(f->follower),
+	      GET_MANA(f->follower), GET_MOVE(f->follower),
+	      CLASS_ABBR(f->follower));
+      act(buf, FALSE, ch, 0, f->follower, TO_CHAR);
+    }
+  }
+}
+
+
+
+ACMD(do_group)
+{
+  struct char_data *vict;
+  struct follow_type *f;
+  int found;
+
+  one_argument(argument, buf);
+
+  if (!*buf) {
+    print_group(ch);
+    return;
+  }
+
+  if (ch->master) {
+    act("You can not enroll group members without being head of a group.",
+	FALSE, ch, 0, 0, TO_CHAR);
+    return;
+  }
+
+  if (!str_cmp(buf, "all")) {
+    perform_group(ch, ch);
+    for (found = 0, f = ch->followers; f; f = f->next)
+      found += perform_group(ch, f->follower);
+    if (!found)
+      send_to_char("Everyone following you is already in your group.\r\n", ch);
+    return;
+  }
+
+  if (!(vict = get_char_room_vis(ch, buf)))
+    send_to_char(NOPERSON, ch);
+  else if ((vict->master != ch) && (vict != ch))
+    act("$N must follow you to enter your group.", FALSE, ch, 0, vict, TO_CHAR);
+  else {
+    if (!AFF_FLAGGED(vict, AFF_GROUP))
+      perform_group(ch, vict);
+    else {
+      if (ch != vict)
+	act("$N is no longer a member of your group.", FALSE, ch, 0, vict, TO_CHAR);
+      act("You have been kicked out of $n's group!", FALSE, ch, 0, vict, TO_VICT);
+      act("$N has been kicked out of $n's group!", FALSE, ch, 0, vict, TO_NOTVICT);
+      REMOVE_BIT(AFF_FLAGS(vict), AFF_GROUP);
+    }
+  }
+}
+
+
+
+ACMD(do_ungroup)
+{
+  struct follow_type *f, *next_fol;
+  struct char_data *tch;
+
+  one_argument(argument, buf);
+
+  if (!*buf) {
+    if (ch->master || !(AFF_FLAGGED(ch, AFF_GROUP))) {
+      send_to_char("But you lead no group!\r\n", ch);
+      return;
+    }
+    sprintf(buf2, "%s has disbanded the group.\r\n", GET_NAME(ch));
+    for (f = ch->followers; f; f = next_fol) {
+      next_fol = f->next;
+      if (AFF_FLAGGED(f->follower, AFF_GROUP)) {
+	REMOVE_BIT(AFF_FLAGS(f->follower), AFF_GROUP);
+	send_to_char(buf2, f->follower);
+        if (!AFF_FLAGGED(f->follower, AFF_MAJIN))
+	  stop_follower(f->follower);
+      }
+    }
+
+    REMOVE_BIT(AFF_FLAGS(ch), AFF_GROUP);
+    send_to_char("You disband the group.\r\n", ch);
+    return;
+  }
+  if (!(tch = get_char_room_vis(ch, buf))) {
+    send_to_char("There is no such person!\r\n", ch);
+    return;
+  }
+  if (tch->master != ch) {
+    send_to_char("That person is not following you!\r\n", ch);
+    return;
+  }
+
+  if (!AFF_FLAGGED(tch, AFF_GROUP)) {
+    send_to_char("That person isn't in your group.\r\n", ch);
+    return;
+  }
+
+  REMOVE_BIT(AFF_FLAGS(tch), AFF_GROUP);
+
+  act("$N is no longer a member of your group.", FALSE, ch, 0, tch, TO_CHAR);
+  act("You have been kicked out of $n's group!", FALSE, ch, 0, tch, TO_VICT);
+  act("$N has been kicked out of $n's group!", FALSE, ch, 0, tch, TO_NOTVICT);
+ 
+  if (!AFF_FLAGGED(tch, AFF_MAJIN))
+    stop_follower(tch);
+}
+
+
+
+
+ACMD(do_report)
+{
+  struct char_data *k;
+  struct follow_type *f;
+
+  if (!AFF_FLAGGED(ch, AFF_GROUP)) {
+    send_to_char("But you are not a member of any group!\r\n", ch);
+    return;
+  }
+  sprintf(buf, "%s reports: %d/%dH, %d/%dK, %d/%dV\r\n",
+	  GET_NAME(ch), GET_HIT(ch), GET_MAX_HIT(ch),
+	  GET_MANA(ch), GET_MAX_MANA(ch),
+	  GET_MOVE(ch), GET_MAX_MOVE(ch));
+
+  CAP(buf);
+
+  k = (ch->master ? ch->master : ch);
+
+  for (f = k->followers; f; f = f->next)
+    if (AFF_FLAGGED(f->follower, AFF_GROUP) && f->follower != ch)
+      send_to_char(buf, f->follower);
+  if (k != ch)
+    send_to_char(buf, k);
+  send_to_char("You report to the group.\r\n", ch);
+}
+
+
+
+ACMD(do_split)
+{
+  int amount, num, share;
+  struct char_data *k;
+  struct follow_type *f;
+
+  if (IS_NPC(ch))
+    return;
+
+  one_argument(argument, buf);
+
+  if (is_number(buf)) {
+    amount = atoi(buf);
+    if (amount <= 0) {
+      send_to_char("Sorry, you can't do that.\r\n", ch);
+      return;
+    }
+    if (amount > GET_GOLD(ch)) {
+      send_to_char("You don't seem to have that much gold to split.\r\n", ch);
+      return;
+    }
+    k = (ch->master ? ch->master : ch);
+
+    if (AFF_FLAGGED(k, AFF_GROUP) && (k->in_room == ch->in_room))
+      num = 1;
+    else
+      num = 0;
+
+    for (f = k->followers; f; f = f->next)
+      if (AFF_FLAGGED(f->follower, AFF_GROUP) &&
+	  (!IS_NPC(f->follower)) &&
+	  (f->follower->in_room == ch->in_room))
+	num++;
+
+    if (num && AFF_FLAGGED(ch, AFF_GROUP))
+      share = amount / num;
+    else {
+      send_to_char("With whom do you wish to share your gold?\r\n", ch);
+      return;
+    }
+
+    GET_GOLD(ch) -= share * (num - 1);
+
+    if (AFF_FLAGGED(k, AFF_GROUP) && (k->in_room == ch->in_room)
+	&& !(IS_NPC(k)) && k != ch) {
+      GET_GOLD(k) += share;
+      sprintf(buf, "%s splits %d coins; you receive %d.\r\n", GET_NAME(ch),
+	      amount, share);
+      send_to_char(buf, k);
+    }
+    for (f = k->followers; f; f = f->next) {
+      if (AFF_FLAGGED(f->follower, AFF_GROUP) &&
+	  (!IS_NPC(f->follower)) &&
+	  (f->follower->in_room == ch->in_room) &&
+	  f->follower != ch) {
+	GET_GOLD(f->follower) += share;
+	sprintf(buf, "%s splits %d coins; you receive %d.\r\n", GET_NAME(ch),
+		amount, share);
+	send_to_char(buf, f->follower);
+      }
+    }
+    sprintf(buf, "You split %d coins among %d members -- %d coins each.\r\n",
+	    amount, num, share);
+    send_to_char(buf, ch);
+  } else {
+    send_to_char("How many coins do you wish to split with your group?\r\n", ch);
+    return;
+  }
+}
+
+
+ACMD(do_use)
+{
+  struct obj_data *mag_item;
+  int equipped = 1;
+
+  half_chop(argument, arg, buf);
+  if (!*arg) {
+    sprintf(buf2, "What do you want to %s?\r\n", CMD_NAME);
+    send_to_char(buf2, ch);
+    return;
+  }
+  mag_item = GET_EQ(ch, WEAR_SHIELD);
+
+  if (!mag_item || !isname(arg, mag_item->name)) {
+    switch (subcmd) {
+    case SCMD_SWALLOW:
+    case SCMD_PLANT:
+      equipped = 0;
+      if (!(mag_item = get_obj_in_list_vis(ch, arg, ch->carrying))) {
+	sprintf(buf2, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+	send_to_char(buf2, ch);
+	return;
+      }
+      break;
+    case SCMD_USE:
+      sprintf(buf2, "You don't seem to be wearing %s %s.\r\n", AN(arg), arg);
+      send_to_char(buf2, ch);
+      return;
+    default:
+      log("SYSERR: Unknown subcmd %d passed to do_use.", subcmd);
+      return;
+    }
+  }
+  switch (subcmd) {
+  case SCMD_PLANT:
+    if (GET_OBJ_TYPE(mag_item) != ITEM_SAIBAKIT) {
+      send_to_char("You can only plant seeds.", ch);
+      return;
+    }
+    break;
+  case SCMD_SWALLOW:
+    if (GET_OBJ_TYPE(mag_item) != ITEM_SENZU) {
+      send_to_char("You can only swallow senzu's.", ch);
+      return;
+    }
+    break;
+  case SCMD_USE:
+    if ((GET_OBJ_TYPE(mag_item) != ITEM_SCOUTER) &&
+	(GET_OBJ_TYPE(mag_item) != ITEM_STAFF)) {
+      send_to_char("You can't seem to figure out how to use it.\r\n", ch);
+      return;
+    }
+    break;
+  }
+
+  mag_objectmagic(ch, mag_item, buf);
+}
+
+ACMD(do_wimpy)
+{
+  int wimp_lev;
+
+  /* 'wimp_level' is a player_special. -gg 2/25/98 */
+  if (IS_NPC(ch))
+    return;
+
+  one_argument(argument, arg);
+
+  if (!*arg) {
+    if (GET_WIMP_LEV(ch)) {
+      sprintf(buf, "Your current wimp level is %d hit points.\r\n",
+	      GET_WIMP_LEV(ch));
+      send_to_char(buf, ch);
+      return;
+    } else {
+      send_to_char("At the moment, you're not a wimp.  (sure, sure...)\r\n", ch);
+      return;
+    }
+  }
+  if (isdigit(*arg)) {
+    if ((wimp_lev = atoi(arg))) {
+      if (wimp_lev < 0)
+	send_to_char("Heh, heh, heh.. we are jolly funny today, eh?\r\n", ch);
+      else if (wimp_lev > GET_MAX_HIT(ch))
+	send_to_char("That doesn't make much sense, now does it?\r\n", ch);
+      else if (wimp_lev > (GET_MAX_HIT(ch) / 2))
+	send_to_char("You can't set your wimp level above half your hit points.\r\n", ch);
+      else {
+	sprintf(buf, "Okay, you'll wimp out if you drop below %d hit points.\r\n",
+		wimp_lev);
+	send_to_char(buf, ch);
+	GET_WIMP_LEV(ch) = wimp_lev;
+      }
+    } else {
+      send_to_char("Okay, you'll now tough out fights to the bitter end.\r\n", ch);
+      GET_WIMP_LEV(ch) = 0;
+    }
+  } else
+    send_to_char("Specify at how many hit points you want to wimp out at.  (0 to disable)\r\n", ch);
+
+  return;
+
+}
+
+
+ACMD(do_display)
+{
+  size_t i;
+
+  if (IS_NPC(ch)) {
+    send_to_char("Mosters don't need displays.  Go away.\r\n", ch);
+    return;
+  }
+  skip_spaces(&argument);
+
+  if (!*argument) {
+    send_to_char("Usage: prompt { { H | M | V } | all | none }\r\n", ch);
+    return;
+  }
+  if ((!str_cmp(argument, "on")) || (!str_cmp(argument, "all")))
+    SET_BIT(PRF_FLAGS(ch), PRF_DISPHP | PRF_DISPMANA | PRF_DISPMOVE);
+  else {
+    REMOVE_BIT(PRF_FLAGS(ch), PRF_DISPHP | PRF_DISPMANA | PRF_DISPMOVE);
+
+    for (i = 0; i < strlen(argument); i++) {
+      switch (LOWER(argument[i])) {
+      case 'h':
+	SET_BIT(PRF_FLAGS(ch), PRF_DISPHP);
+	break;
+      case 'm':
+	SET_BIT(PRF_FLAGS(ch), PRF_DISPMANA);
+	break;
+      case 'v':
+	SET_BIT(PRF_FLAGS(ch), PRF_DISPMOVE);
+	break;
+      default:
+	send_to_char("Usage: prompt { { H | M | V } | all | none }\r\n", ch);
+	return;
+	break;
+      }
+    }
+  }
+
+  send_to_char(OK, ch);
+}
+
+
+
+ACMD(do_gen_write)
+{
+  FILE *fl;
+  char *tmp, buf[MAX_STRING_LENGTH];
+  const char *filename;
+  struct stat fbuf;
+  time_t ct;
+
+  switch (subcmd) {
+  case SCMD_BUG:
+    filename = BUG_FILE;
+    break;
+  case SCMD_TYPO:
+    filename = TYPO_FILE;
+    break;
+  case SCMD_IDEA:
+    filename = IDEA_FILE;
+    break;
+  default:
+    return;
+  }
+
+  ct = time(0);
+  tmp = asctime(localtime(&ct));
+
+  if (IS_NPC(ch)) {
+    send_to_char("Monsters can't have ideas - Go away.\r\n", ch);
+    return;
+  }
+
+  skip_spaces(&argument);
+  delete_doubledollar(argument);
+
+  if (!*argument) {
+    send_to_char("That must be a mistake...\r\n", ch);
+    return;
+  }
+  sprintf(buf, "%s %s: %s", GET_NAME(ch), CMD_NAME, argument);
+  mudlog(buf, CMP, LVL_IMMORT, FALSE);
+
+  if (stat(filename, &fbuf) < 0) {
+    perror("Error statting file");
+    return;
+  }
+  if (fbuf.st_size >= max_filesize) {
+    send_to_char("Sorry, the file is full right now.. try again later.\r\n", ch);
+    return;
+  }
+  if (!(fl = fopen(filename, "a"))) {
+    perror("do_gen_write");
+    send_to_char("Could not open the file.  Sorry.\r\n", ch);
+    return;
+  }
+  fprintf(fl, "%-8s (%6.6s) [%5d] %s\n", GET_NAME(ch), (tmp + 4),
+	  GET_ROOM_VNUM(IN_ROOM(ch)), argument);
+  fclose(fl);
+  send_to_char("Okay.  Thanks!\r\n", ch);
+}
+
+
+
+#define TOG_OFF 0
+#define TOG_ON  1
+
+#define PRF_TOG_CHK(ch,flag) ((TOGGLE_BIT(PRF_FLAGS(ch), (flag))) & (flag))
+
+ACMD(do_gen_tog)
+{
+  long result;
+
+  const char *tog_messages[][2] = {
+    {"Nohassle disabled.\r\n",
+    "Nohassle enabled.\r\n"},
+    {"Brief mode off.\r\n",
+    "Brief mode on.\r\n"},
+    {"Compact mode off.\r\n",
+    "Compact mode on.\r\n"},
+    {"You can now hear tells.\r\n",
+    "You are now deaf to tells.\r\n"},
+    {"You can now hear oocs.\r\n",
+    "You are now deaf to oocs.\r\n"},
+    {"You can now hear shouts.\r\n",
+    "You are now deaf to shouts.\r\n"},
+    {"You can now hear roleplay messages.\r\n",
+    "You are now deaf to roleplay messages.\r\n"},
+    {"You can now hear the congratulation messages.\r\n",
+    "You are now deaf to the congratulation messages.\r\n"},
+    {"You can now hear the Wiz-channel.\r\n",
+    "You are now deaf to the Wiz-channel.\r\n"},
+    {"You are no longer part of the RP.\r\n",
+    "Okay, you are part of the RP!\r\n"},
+    {"You will no longer see the room flags.\r\n",
+    "You will now see the room flags.\r\n"},
+    {"You will now have your communication repeated.\r\n",
+    "You will no longer have your communication repeated.\r\n"},
+    {"HolyLight mode off.\r\n",
+    "HolyLight mode on.\r\n"},
+    {"Nameserver_is_slow changed to NO; IP addresses will now be resolved.\r\n",
+    "Nameserver_is_slow changed to YES; sitenames will no longer be resolved.\r\n"},
+    {"Autoexits disabled.\r\n",
+    "Autoexits enabled.\r\n"},
+    {"AFK flag is now off.\r\n",
+    "AFK flag is now on.\r\n"},
+    {"You pack up and clean out your camp.\r\n",
+    "&15You start a small fire and open camp to rest.\r\n"},
+  
+  };
+
+
+  if (IS_NPC(ch))
+    return;
+
+  switch (subcmd) {
+  case SCMD_NOHASSLE:
+    result = PRF_TOG_CHK(ch, PRF_NOHASSLE);
+    break;
+  case SCMD_BRIEF:
+    result = PRF_TOG_CHK(ch, PRF_BRIEF);
+    break;
+  case SCMD_COMPACT:
+    result = PRF_TOG_CHK(ch, PRF_COMPACT);
+    break;
+  case SCMD_NOTELL:
+    result = PRF_TOG_CHK(ch, PRF_NOTELL);
+    break;
+  case SCMD_NOooc:
+    result = PRF_TOG_CHK(ch, PRF_NOooc);
+    break;
+  case SCMD_DEAF:
+    result = PRF_TOG_CHK(ch, PRF_DEAF);
+    break;
+  case SCMD_NOGOSSIP:
+    result = PRF_TOG_CHK(ch, PRF_NOGOSS);
+    break;
+  case SCMD_NOGRATZ:
+    result = PRF_TOG_CHK(ch, PRF_NOGRATZ);
+    break;
+  case SCMD_NOWIZ:
+    result = PRF_TOG_CHK(ch, PRF_NOWIZ);
+    break;
+  case SCMD_QUEST:
+    result = PRF_TOG_CHK(ch, PRF_QUEST);
+    break;
+  case SCMD_ROOMFLAGS:
+    result = PRF_TOG_CHK(ch, PRF_ROOMFLAGS);
+    break;
+  case SCMD_NOREPEAT:
+    result = PRF_TOG_CHK(ch, PRF_NOREPEAT);
+    break;
+  case SCMD_HOLYLIGHT:
+    result = PRF_TOG_CHK(ch, PRF_HOLYLIGHT);
+    break;
+  case SCMD_SLOWNS:
+    result = (nameserver_is_slow = !nameserver_is_slow);
+    break;
+  case SCMD_AUTOEXIT:
+    result = PRF_TOG_CHK(ch, PRF_AUTOEXIT);
+    break;
+ case SCMD_AFK:
+     result = PRF_TOG_CHK(ch, PRF_AFK);
+  if (PRF_FLAGGED(ch, PRF_AFK))
+    act("$n has gone AFK.", TRUE, ch, 0, 0, TO_ROOM);
+  else
+    act("$n has come back from AFK.", TRUE, ch, 0, 0, TO_ROOM);
+  break;
+ case SCMD_CAMP:
+     result = PRF_TOG_CHK(ch, PRF_CAMP);	     
+   if (PRF_FLAGGED(ch, PRF_CAMP))
+       act("$n sprawls out on the ground and sets up camp.", TRUE, ch, 0, 0, TO_ROOM);
+  else
+       act("$n packs up some stuff and leaves their camp.", TRUE, ch, 0, 0, TO_ROOM);       
+    break;
+
+  default:
+    log("SYSERR: Unknown subcmd %d in do_gen_toggle.", subcmd);
+    return;
+  }
+
+  if (result)
+    send_to_char(tog_messages[subcmd][TOG_ON], ch);
+  else
+    send_to_char(tog_messages[subcmd][TOG_OFF], ch);
+    
+  return;
+}
+
+ACMD(do_repair)	
+{   
+   int MOVE = 0, HIT = 0; 
+
+    if (!GET_SKILL(ch, SKILL_REPAIR)) {
+    send_to_char("You can't do that!\r\n", ch);
+    return;
+    }
+    else if (IS_ANDROID(ch) &&GET_MOVE(ch) <= GET_LEVEL(ch)*2-1)
+    { 
+  	act("You don't have enough energy to repair your circuits.", TRUE, ch, 0, 0, TO_CHAR);
+       }
+    else if (IS_ANDROID(ch) &&GET_HIT(ch) < GET_MAX_HIT(ch) && GET_MOVE(ch) >= GET_LEVEL(ch)*2+1)
+    {  
+send_to_char("You stand still for a moment and repair your internal circuits.\r\n", ch);
+act("&10$n repairs $s internal circuits.&00", TRUE, ch, 0, 0, TO_ROOM);
+  
+  MOVE = number(GET_LEVEL(ch)*2+10, GET_LEVEL(ch)*2+10);
+  HIT = number(GET_LEVEL(ch)+10, GET_LEVEL(ch)+10);
+
+  GET_MOVE(ch) = GET_MOVE(ch) - MOVE;
+  GET_HIT(ch) = GET_HIT(ch) + HIT;
+    }
+    else if (IS_ANDROID(ch) &&GET_HIT(ch) >= GET_MAX_HIT(ch))
+    {
+  	act("You are already fully repaired.", TRUE, ch, 0, 0, TO_CHAR);
+    }       
+}
+
+
+ACMD(do_kaioken)	
+{    
+    int MANA = 0, HIT = 0; 
+    
+    one_argument(argument, arg);
+  
+ if (!GET_SKILL(ch, SKILL_KAIOKEN)) {
+    send_to_char("You don't know that technique!\r\n", ch);
+    return;
+    }
+  else if (!*argument) {
+    send_to_char("Usage: Kaioken (1-20)\r\n", ch);
+    return;
+     }
+
+   if (!str_cmp(arg,"1") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"1") && GET_MANA(ch) >= GET_MAX_MANA(ch)+100){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"1")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 1.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 1!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(100, 100);
+   HIT = number(100, 100);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"2") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"2") && GET_MANA(ch) >= GET_MAX_MANA(ch)+300){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"2")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 2.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 2!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(300, 300);
+   HIT = number(300, 300);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"3") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"3") && GET_MANA(ch) >= GET_MAX_MANA(ch)+600){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"3")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 3.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 3!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(600, 600);
+   HIT = number(600, 600);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"4") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"4") && GET_MANA(ch) >= GET_MAX_MANA(ch)+1000){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"4")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 4.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 4!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(1000, 1000);
+   HIT = number(1000, 1000);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"5") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"5") && GET_MANA(ch) >= GET_MAX_MANA(ch)+1500){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"5")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 5.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 5!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(1500, 1500);
+   HIT = number(1500, 1500);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+  if (!str_cmp(arg,"6") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"6") && GET_MANA(ch) >= GET_MAX_MANA(ch)+2100){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"6")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 6.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 6!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(2100, 2100);
+   HIT = number(2100, 2100);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"7") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"7") && GET_MANA(ch) >= GET_MAX_MANA(ch)+2800){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"7")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 7.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 7!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(2800, 2800);
+   HIT = number(2800, 2800);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"8") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"8") && GET_MANA(ch) >= GET_MAX_MANA(ch)+3600){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"8")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 8.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 8!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(3600, 3600);
+   HIT = number(3600, 3600);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"9") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"9") && GET_MANA(ch) >= GET_MAX_MANA(ch)+4500){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"9")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 9.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 9!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(4500, 4500);
+   HIT = number(4500, 4500);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"10") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"10") && GET_MANA(ch) >= GET_MAX_MANA(ch)+5500){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"10")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 10.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 10!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(5500, 5500);
+   HIT = number(5500, 5500);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"11") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"11") && GET_MANA(ch) >= GET_MAX_MANA(ch)+6600){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"11")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 11.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 11!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(6600, 6600);
+   HIT = number(6600, 6600);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"12") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"12") && GET_MANA(ch) >= GET_MAX_MANA(ch)+7800){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"12")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 12.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 12!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(7800, 7800);
+   HIT = number(7800, 7800);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"13") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"13") && GET_MANA(ch) >= GET_MAX_MANA(ch)+9100){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"13")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 13.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 13!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(9100, 9100);
+   HIT = number(9100, 9100);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"14") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"14") && GET_MANA(ch) >= GET_MAX_MANA(ch)+10500){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"14")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 14.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 14!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(10500, 10500);
+   HIT = number(10500, 10500);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"15") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"15") && GET_MANA(ch) >= GET_MAX_MANA(ch)+12000){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"15")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 15.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 15!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(12000, 12000);
+   HIT = number(12000, 12000);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"16") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"16") && GET_MANA(ch) >= GET_MAX_MANA(ch)+13600){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"16")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 16.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 16!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(13600, 13600);
+   HIT = number(13600, 13600);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"17") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"17") && GET_MANA(ch) >= GET_MAX_MANA(ch)+15300){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"17")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 17.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 17!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(15300, 15300);
+   HIT = number(15300, 15300);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"18") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"18") && GET_MANA(ch) >= GET_MAX_MANA(ch)+17100){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"18")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 18.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 18!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(17100, 17100);
+   HIT = number(17100, 17100);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"19") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"19") && GET_MANA(ch) >= GET_MAX_MANA(ch)+19000){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"19")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 19.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 19!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(19000, 19000);
+   HIT = number(19000, 19000);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+   if (!str_cmp(arg,"20") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"20") && GET_MANA(ch) >= GET_MAX_MANA(ch)+25000){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"20")){
+   send_to_char("&10You begin over working your body by reaching kaioken level 20.&00\r\n", ch);
+   act("&09$n overworks $s body by reaching kaioken level 20!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(25000, 25000);
+   HIT = number(25000, 25000);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+  if (!str_cmp(arg,"super") && GET_MANA(ch) < GET_MAX_MANA(ch)) {
+    send_to_char("You don't have enough strength to do that.\r\n", ch);
+     }   
+   else if (!str_cmp(arg,"super") && GET_MANA(ch) >= GET_MAX_MANA(ch)+50000){
+   send_to_char("You're already passed that stage of kaioken.\r\n", ch);
+     }
+   else if (!str_cmp(arg,"super")){
+   send_to_char("&10You begin over working your body by reaching super kaioken !&00\r\n", ch);
+   act("&09$n overworks $s body by reaching super kaioken!&00", TRUE, ch, 0, 0, TO_ROOM);
+   MANA = number(50000, 50000);
+   HIT = number(50000, 50000);
+
+   GET_MANA(ch) = GET_MANA(ch) + MANA;
+   GET_HIT(ch) = GET_HIT(ch) - HIT; 
+}
+  if (GET_HIT(ch) <= 0) {
+  send_to_char("&09You overwork your body too much and explode.&00\r\n", ch);
+  act("&10$n&09 tries to reach a kaioken level beyond thier limit and explodes!&00", TRUE, ch, 0, 0, TO_ROOM);
+  char_from_room(ch);
+  char_to_room(ch, r_death_start_room);
+  GET_HIT(ch) = GET_MAX_HIT(ch)*0.1;
+  GET_MANA(ch) = GET_MAX_MANA(ch)*0.1;
+  GET_MOVE(ch) = GET_MAX_MOVE(ch)*0.1;
+  GET_POS(ch) = POS_STANDING;
+  look_at_room(ch, 0);
+  }
+}
+
+
+ACMD(do_learn) {
+	char buf[1024];
+	int r = 1 << GET_CLASS(ch);
+	int i = 0;
+	
+	argument = one_argument(argument, buf);
+
+	if (buf[0] != '\0') {
+		int skill = 0;
+		while (spells[skill].name[0] != '\n') {
+			if (!strncasecmp(buf, spells[skill].name, strlen(buf))) {
+				if (!(spells[skill].races & r)) {
+					send_to_char("You can't learn that.\r\n", ch);
+					return;
+				}
+				else if (GET_PRACTICES(ch) < spells[skill].cost) {
+					send_to_char("You don't have enough learning points to learn that.\r\n", ch);
+					return;
+				} else if (GET_SKILL(ch, skill) != 0) {
+					send_to_char("You already know that technique.\r\n", ch);
+					return;
+				} else {
+					sprintf(buf, "&15You expend &09%d&15 learning points to learn &10%s&00.\r\n", spells[skill].cost,
+									spells[skill].name);
+					send_to_char(buf, ch);
+					GET_PRACTICES(ch) = GET_PRACTICES(ch) - spells[skill].cost;
+					GET_SKILL(ch, skill) = 100;
+					return;
+				}
+			} else {
+				++skill;
+			}
+		}
+		
+		sprintf(buf, "%s is not a technique.\r\n", argument);
+		send_to_char(buf, ch);
+		return;
+	}
+
+	send_to_char("&15o&12---------------------------------------------------------&15o&00\r\n", ch);
+	send_to_char("&15&12|&11Technique:          &14Cost:                                &12|&00\r\n", ch);
+        send_to_char("&15o&12---------------------------------------------------------&15o&00\r\n", ch);
+	while (spells[i].name[0] != '\n') {
+		if ((spells[i].races & r) && (GET_SKILL(ch, i) == 0) &&  spells[i].type == SPELL_OFFENSIVE) {
+			sprintf(buf, "&12|%s%-20s&02%3d&12%35s&09\r\n", spells[i].type ? "&09" : "&09", 
+						spells[i].name, spells[i].cost, "|");
+			send_to_char(buf, ch);
+		}
+		else if ((spells[i].races & r) && (GET_SKILL(ch, i) == 0) &&  spells[i].type == SPELL_DEFENSIVE) {
+			sprintf(buf, "&12|%s%-20s&02%3d&12%35s&09\r\n", spells[i].type ? "&12" : "&12", 
+						spells[i].name, spells[i].cost, "|");
+			send_to_char(buf, ch);
+		}
+		else if ((spells[i].races & r) && (GET_SKILL(ch, i) == 0) &&  spells[i].type == SPELL_ENHANCE) {
+			sprintf(buf, "&12|%s%-20s&02%3d&12%35s&09\r\n", spells[i].type ? "&10" : "&10", 
+						spells[i].name, spells[i].cost, "|");
+			send_to_char(buf, ch);
+		}
+		else if ((spells[i].races & r) && (GET_SKILL(ch, i) == 0) &&  spells[i].type == SPELL_OTHER) {
+			sprintf(buf, "&12|%s%-20s&02%3d&12%35s&09\r\n", spells[i].type ? "&15" : "&15", 
+						spells[i].name, spells[i].cost, "|");
+			send_to_char(buf, ch);
+		}
+		else if ((spells[i].races & r) && (GET_SKILL(ch, i) == 0) &&  spells[i].type == SPELL_HEALSPELL) {
+			sprintf(buf, "&12|%s%-20s&02%3d&12%35s&09\r\n", spells[i].type ? "&13" : "&13", 
+						spells[i].name, spells[i].cost, "|");
+			send_to_char(buf, ch);
+		}
+		++i;
+	}
+
+	send_to_char("&15o&12---------------------------------------------------------&15o&00\r\n", ch);
+	sprintf(buf, "&15You have &09%d &15learning points.&00\r\n", GET_PRACTICES(ch));
+	send_to_char(buf, ch);
+}
+
+ACMD(do_learned) {
+	char buf[1024];
+	int col = 0, pos = 0;
+	buf[0] = '\0';
+	send_to_char("&10You know the following techniques:&00.\r\n", ch);
+
+	for (pos = 1; pos < MAX_SKILLS; ++pos) {
+		int i = spell_sort_info[pos];
+		if (GET_SKILL(ch, i) != 0 && spells[i].name[0] != '!' &&  spells[i].type == SPELL_OFFENSIVE) {
+			char buf2[32];
+			sprintf(buf2, "%s%-20s%s", spells[i].type ? "&09" : "&09",
+							spells[i].name, "&00");
+			strcat(buf, buf2);
+			++col;
+		}
+		if (GET_SKILL(ch, i) != 0 && spells[i].name[0] != '!' &&  spells[i].type == SPELL_DEFENSIVE) {
+			char buf2[32];
+			sprintf(buf2, "%s%-20s%s", spells[i].type ? "&12" : "&12",
+							spells[i].name, "&00");
+			strcat(buf, buf2);
+			++col;
+		}
+		if (GET_SKILL(ch, i) != 0 && spells[i].name[0] != '!' &&  spells[i].type == SPELL_ENHANCE) {
+			char buf2[32];
+			sprintf(buf2, "%s%-20s%s", spells[i].type ? "&10" : "&10",
+							spells[i].name, "&00");
+			strcat(buf, buf2);
+			++col;
+		}
+		if (GET_SKILL(ch, i) != 0 && spells[i].name[0] != '!' &&  spells[i].type == SPELL_OTHER) {
+			char buf2[32];
+			sprintf(buf2, "%s%-20s%s", spells[i].type ? "&15" : "&15",
+							spells[i].name, "&00");
+			strcat(buf, buf2);
+			++col;
+		}
+		if (GET_SKILL(ch, i) != 0 && spells[i].name[0] != '!' &&  spells[i].type == SPELL_HEALSPELL) {
+			char buf2[32];
+			sprintf(buf2, "%s%-20s%s", spells[i].type ? "&13" : "&13",
+							spells[i].name, "&00");
+			strcat(buf, buf2);
+			++col;
+		}
+		if (col % 3 == 2) {
+			send_to_char(buf, ch);
+/*			send_to_char("\r\n", ch);	*/ /* Uncomment to do a newline after ever 3 */
+			buf[0] = '\0';
+		}
+	}
+}
+
+
+ACMD(do_fly)	
+{
+   if (IS_NPC(ch) || !GET_SKILL(ch, SKILL_FLY)) {
+     send_to_char("You have no idea how.\r\n", ch);
+     return; }
+   if (GET_POS(ch) == POS_FLOATING) {
+    send_to_char("&10Your already floating!&00\r\n", ch);
+    return;
+    }
+  else
+    GET_POS(ch) = POS_FLOATING;
+    act("&10You slowly start to hover over the ground.&00",FALSE, ch, 0, 0, TO_CHAR);
+    act("&09$n&10 slowly starts to hover over the ground.&00",TRUE, ch, 0, 0, TO_NOTVICT);
+}
+
+ACMD(do_land)
+ {
+
+   if (GET_POS(ch) == POS_FLOATING) {
+     act("&09$n&10 floats down to the ground.&00", TRUE, ch, 0, 0, TO_ROOM);
+     act("&10You slowly float down to the ground.&00",TRUE, ch, 0, 0, TO_CHAR);
+     GET_POS(ch) = POS_STANDING;
+   return; }
+
+   if (!GET_POS(ch) == POS_FLOATING) {
+     act("Your not floating!", TRUE, ch, 0, 0, TO_CHAR);
+   return; }
+  }
+
+ACMD(do_powerup)	
+{   
+
+    if (!GET_SKILL(ch, SKILL_POWERUP)) {
+  send_to_char("You can't do that!\r\n", ch);
+  return;
+    }
+    if (GET_MANA(ch) >= GET_MAX_MANA(ch))
+    {
+   switch (number(0, 1)) {
+  case 0:
+        act("&15You are already fully powered up!&00", TRUE, ch, 0, 0, TO_CHAR);
+  break;
+  case 1:
+	act("&09ARE YOU CRAZY!? &15You can't go over your maximum power!&00", TRUE, ch, 0, 0, TO_CHAR);
+  break;
+  }
+  return;
+    }
+    else if (GET_MANA(ch) < GET_MAX_MANA(ch))
+    {  
+   switch (number(0, 1)) {
+   case 0:
+	act("&15You scream aloud as your body reaches its maxamium power!&00\r\n", TRUE, ch, 0, 0, TO_CHAR);
+	act("&14$n&15 screams aloud as &14$s &15body reaches its maxamium power!&00\r\n", TRUE, ch, 0, 0, TO_ROOM);
+  break;
+  case 1:
+	act("&15You begin screaming, as you &09flame&15 with ki, powering up to your maximum!&00\r\n", TRUE, ch, 0, 0, TO_CHAR);
+	act("&12$n&15 begins screaming, as $e &09flames&15 with ki, powering up to $s maximum!&00", TRUE, ch, 0, 0, TO_ROOM);
+  break;
+  }
+    GET_MANA(ch) = GET_MAX_MANA(ch) /1;
+//  GET_MANA(ch) = GET_MAX_MANA(ch) / GET_MANA(ch);
+/*  GET_MANA(ch) = GET_MAX_MANA(ch);*/
+  return;
+    }
+}
+
+ACMD(do_ingest)
+{
+	
+   int MAX_HIT = 0, EXP = 0, MAX_MANA; 
+   struct char_data * vict; 
+   
+   one_argument(argument, arg);
+  
+     if (!GET_SKILL(ch, SKILL_INGEST)) {
+  send_to_char("You can't do that!\r\n", ch);
+  return;
+}
+
+  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
+    send_to_char("This room just has such a peaceful, easy feeling...\r\n", ch);
+    return;
+  }
+
+    if (!(vict = get_char_room_vis(ch, arg))) {
+      send_to_char("Absorb who?\r\n", ch);
+      return;
+    }
+    
+        if (GET_MAX_MANA(ch) >= 50000) {
+      act("&15Eating people will no longer benefit you!", FALSE, ch, 0, vict, TO_CHAR);
+      return;
+      }
+    if (IS_NPC(vict) && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)*2 >= GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict))
+  {
+      act("&15You eat &09$N&15!", FALSE, ch, 0, vict, TO_CHAR);
+      act("&09$n&15 eat &09$N&15!.", TRUE, ch, 0, vict, TO_NOTVICT);
+      act("&09$n&15 eats you!&00", FALSE, ch, 0, vict, TO_VICT);
+  
+  MAX_HIT = number(GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)/10, GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)/10);
+  MAX_MANA = number(GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)/10, GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)/10);
+  EXP = number(GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict), GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict));
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  }
+          if (IS_NPC(vict)) {
+  	    extract_char(vict);
+  	    return;
+  	    }
+
+ if (IS_NPC(vict) && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)*2 <= GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)) {
+           act("&15You cannot over power them enough to eat them!", FALSE, ch, 0, vict, TO_CHAR);              
+           return;
+      }
+   }       
+
+
+ACMD(do_powerdown)	
+{   
+  
+
+    if (!GET_SKILL(ch, SKILL_POWERDOWN)) {
+  send_to_char("You can't do that!\r\n", ch);
+  return;
+  }
+    if (GET_MANA(ch) <= GET_MAX_MANA(ch)-GET_MAX_MANA(ch))
+    {
+  	act("&15You dropped your power level as low as you can already.&00", TRUE, ch, 0, 0, TO_CHAR); 
+  return;
+    }
+    if (GET_MANA(ch) <= GET_MAX_MANA(ch)-1)
+    {
+  	act("&15You already used some energy theres no point.&00", TRUE, ch, 0, 0, TO_CHAR); 
+  return;
+    }
+    else if (GET_MANA(ch) >= GET_MAX_MANA(ch))
+    {  
+  send_to_char("&15You concentrate and compress all your energy.&00\r\n", ch);
+
+  GET_MANA(ch) = 0;
+  return;
+    }
+}
+
+ACMD(do_upgrade)	
+{    
+  int MAX_MANA = 0;
+  int MAX_HIT = 0;
+
+    one_argument(argument, arg);
+   
+   if (!IS_ANDROID(ch) && (GET_LEVEL(ch) >= 1)) {
+    act("&15Only androids may aquire upgrades and upgrade information.&00", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+     }
+        
+   if (!*argument && IS_ANDROID(ch)) {  
+    send_to_char("&14 Upgrade Chart&00\r\n", ch);
+    send_to_char("&01---------------------------&00\r\n", ch);
+    send_to_char("&15|Upgrade 1.0 &14PL: 800000   |&00\r\n", ch);
+    send_to_char("&15|Upgrade 2.0 &14PL: 16000000 |&00\r\n", ch);
+    send_to_char("&15|Upgrade 3.0 &14PL: 32000000 |&00\r\n", ch);
+    send_to_char("&15|Upgrade 4.0 &14PL: 64000000 |&00\r\n", ch);
+    send_to_char("&15|Upgrade 5.0 &14PL: 128000000|&00\r\n", ch);
+//    send_to_char("&15|Upgrade 6.0 &14PL: |&00\r\n", ch);
+    send_to_char("&01---------------------------&00\r\n", ch);  
+    send_to_char("&15Latest to check current version&00\r\n", ch);
+    send_to_char("&12(*) = Complete and working &00\r\n", ch);
+    return;
+     }
+
+ if (!str_cmp(arg,"1.0") && PLR_FLAGGED(ch, PLR_trans1)) {
+  act("&15You have already upgraded to version 1.0!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"1.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 800000) {
+  act("&15You are not ready to upgrade yet!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  } 
+
+ if (!str_cmp(arg,"1.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 800000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans1);
+     
+  MAX_HIT = number(5000, 5000);
+  MAX_MANA = number(5000, 5000);
+  
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+  
+  act("&11$n&15 sits down and begins to reprogram theirself!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You sit down and reprogram yourself&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+
+
+if (!str_cmp(arg,"2.0") && PLR_FLAGGED(ch, PLR_trans2)) {
+  act("&15You have already upgraded to version 2.0!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"2.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) <= 16000000) {
+  act("&15You are not ready to upgrade yet!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"2.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) >= 16000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+ MAX_HIT = number(6500, 6500);
+ MAX_MANA = number(6500, 6500);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+  act("&11$n&15 sits down and begins to reprogram theirself!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You sit down and reprogram yourself&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+
+if (!str_cmp(arg,"3.0") && PLR_FLAGGED(ch, PLR_trans3)) {
+  act("&15You have already upgraded to version 3.0!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"3.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) <= 32000000) {
+  act("&15You are not ready to upgrade yet!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"3.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) >= 32000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans3);
+
+ MAX_HIT = number(9500, 9500);
+ MAX_MANA = number(9500, 9500);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+  act("&11$n&15 sits down and begins to reprogram theirself!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You sit down and reprogram yourself&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+
+if (!str_cmp(arg,"4.0") && PLR_FLAGGED(ch, PLR_trans4)) {
+  act("&15You have already upgraded to version 4.0!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"4.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) <= 64000000) {
+  act("&15You are not ready to upgrade yet!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"4.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) >= 64000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans4);
+
+ MAX_HIT = number(11000, 11000);
+ MAX_MANA = number(11000, 11000);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+  act("&11$n&15 sits down and begins to reprogram theirself!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You sit down and reprogram yourself&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+
+if (!str_cmp(arg,"5.0") && PLR_FLAGGED(ch, PLR_trans5)) {
+  act("&15You have already upgraded to version 5.0!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"5.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) <= 128000000) {
+  act("&15You are not ready to upgrade yet!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"5.0") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) >= 128000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans5);
+
+ MAX_HIT = number(15000, 15000);
+ MAX_MANA = number(15000, 15000);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+  act("&11$n&15 sits down and begins to reprogram theirself!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You sit down and reprogram yourself&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+
+   if (!str_cmp(arg,"latest") && IS_ANDROID(ch)) {
+    act("&15The most current robotic version is version &095.0&12a&15.&00", TRUE, ch, 0, 0, TO_CHAR);
+   }
+   
+   if (!str_cmp(arg,"info") && IS_ANDROID(ch)) {
+   act("&15Current Circuitry Version: &090.1a&00", TRUE, ch, 0, 0, TO_CHAR);
+   act("&15Mental Processing Speed:   &10Basic&00", TRUE, ch, 0, 0, TO_CHAR);
+   act("&15Extra Damage Reduction Units: &090%&00", TRUE, ch, 0, 0, TO_CHAR);
+   act("&15Extra Ki Units:		&090%&00", TRUE, ch, 0, 0, TO_CHAR);
+   act("&15Internal Sensors:		&10Basic&00", TRUE, ch, 0, 0, TO_CHAR);
+   }
+
+   if (!str_cmp(arg,"minor") && IS_ANDROID(ch)) {
+    act("&15Upgrade to 1.0, 2.0, 3.0, 4.0 5.0 6.0 are done.&00", TRUE, ch, 0, 0, TO_CHAR);
+   }
+}
+
+ACMD(do_absorb)	
+{   
+   int MAX_HIT = 0, EXP = 0, MAX_MANA; 
+   struct char_data * vict; 
+ 
+   one_argument(argument, arg);
+  
+     if (!GET_SKILL(ch, SKILL_ABSORB)) {
+  send_to_char("You can't do that!\r\n", ch);
+  return;
+}
+
+  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
+    send_to_char("This room just has such a peaceful, easy feeling...\r\n", ch);
+    return;
+  }
+
+    if (!(vict = get_char_room_vis(ch, arg))) {
+      send_to_char("Absorb who?\r\n", ch);
+      return;
+    }
+    
+        if (GET_MAX_MANA(ch) >= 5000) {
+      act("&15Absorbing people will no longer benefit you!", FALSE, ch, 0, vict, TO_CHAR);
+      return;
+      }
+    if (IS_NPC(vict) && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)*2 >= GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict))
+  {
+      act("&15You absorb &09$N&15 into your body!", FALSE, ch, 0, vict, TO_CHAR);
+      act("&09$n&15 absorbs &09$N&15 into $s body!.", TRUE, ch, 0, vict, TO_NOTVICT);
+      act("&09$n&15 absorbs you into $s body!&00", FALSE, ch, 0, vict, TO_VICT);
+  
+  MAX_HIT = number(GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)/10, GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)/10);
+  MAX_MANA = number(GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)/10, GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)/10);
+  EXP = number(GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict), GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict));
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  }
+          if (IS_NPC(vict)) {
+  	    extract_char(vict);
+  	    return;
+  	    }
+
+ if (IS_NPC(vict) && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)*2 <= GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)) {
+           act("&15You cannot over power them enough to absorb them!", FALSE, ch, 0, vict, TO_CHAR);              
+           return;
+      }
+   }              
+   
+   
+ACMD(do_selfdestruct)
+{
+	
+struct char_data * vict;
+ 
+one_argument(argument, arg);
+  
+  if (!GET_SKILL(ch, SKILL_DESTRUCT)) {
+  send_to_char("You can't do that!\r\n", ch);
+  return;
+    }
+
+  if (!(vict = get_char_room_vis(ch, arg))) {
+      send_to_char("Self destruct on who?\r\n", ch);
+      return;
+    }  
+
+  if (!IS_NPC(vict) && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) >= GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict))
+  {
+      act("&15You self detruct taking &09$N&15 with you!&00", FALSE, ch, 0, vict, TO_CHAR);
+      act("&09$n &15self-destructs taking &09$N with $m&00.", TRUE, ch, 0, vict, TO_NOTVICT);
+      act("&09$n&15 self-destructs killing you with the explosion!&00", FALSE, ch, 0, vict, TO_VICT);
+  char_from_room(vict);
+  char_to_room(vict, r_death_start_room);
+  GET_HIT(vict) = GET_MAX_HIT(vict);
+  GET_MANA(vict) = GET_MAX_MANA(vict);
+  GET_MOVE(vict) = GET_MAX_MOVE(vict);
+  GET_POS(vict) = POS_STANDING;
+  look_at_room(vict, 0);
+  char_from_room(ch);
+  char_to_room(ch, r_death_start_room);
+  GET_HIT(ch) = GET_MAX_HIT(ch);
+  GET_MANA(ch) = GET_MAX_MANA(ch);
+  GET_MOVE(ch) = GET_MAX_MOVE(ch);
+  GET_POS(ch) = POS_STANDING;
+  look_at_room(ch, 0);
+  if (IS_NPC(vict))
+  extract_char(vict);
+  char_from_room(ch);
+  char_to_room(ch, r_death_start_room);
+  GET_HIT(ch) = GET_MAX_HIT(ch);
+  GET_MANA(ch) = GET_MAX_MANA(ch);
+  GET_MOVE(ch) = GET_MAX_MOVE(ch);
+  GET_POS(ch) = POS_STANDING;
+  look_at_room(ch, 0);
+  } 
+  
+  else if (!IS_NPC(vict) && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch) <= GET_STR(vict)*2+GET_MANA(vict)/4*GET_LEVEL(vict)+GET_DAMROLL(vict)){
+  act("&15You self detruct but &09$N&15 does not die!&00", FALSE, ch, 0, vict, TO_CHAR);
+  act("&09$n &15self-destructs but fails to take &09$N with $m&00.", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("&09$n&15 self-destructs but fails to kill you!&00", FALSE, ch, 0, vict, TO_VICT);
+  char_from_room(ch);
+  char_to_room(ch, r_death_start_room);
+  GET_HIT(ch) = GET_MAX_HIT(ch);
+  GET_MANA(ch) = GET_MAX_MANA(ch);
+  GET_MOVE(ch) = GET_MAX_MOVE(ch);
+  GET_POS(ch) = POS_STANDING;
+  look_at_room(ch, 0);
+  }
+
+}
+
+
+ACMD(do_powersense)
+{
+	struct char_data * vict;
+        one_argument(argument, arg);
+ 
+ if (!GET_SKILL(ch, SKILL_POWERSENSE)) {
+  send_to_char("You can't do that!\r\n", ch);
+  return;
+}
+
+
+   if (!(vict = get_char_room_vis(ch, arg))) {
+      send_to_char("Detect who's power?\r\n", ch);
+      return;
+    } 
+
+   if (vict) {		/* victim */
+  act("You pause for a moment as you stare at $N.", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n stares at $N momentarily..", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("$n stares at you momentarily.&00", FALSE, ch, 0, vict, TO_VICT);
+    sprintf(buf, "%s has a power level of &10%Ld&15.&00\r\n",GET_NAME(vict), GET_LEVEL(vict)*100+GET_MANA(vict));
+     send_to_char(buf, ch);
+  }
+}
+
+ACMD(do_ssj)	
+{    
+
+ int MAX_MANA = 0, MAX_HIT = 0, HITROLL = 0, DAMROLL = 0;
+
+   one_argument(argument, arg);
+
+   if ((!IS_saiyan(ch)) && (!IS_HALF_BREED(ch)))
+   {
+     act("Your not part saiyan!", TRUE, ch, 0, 0, TO_CHAR);
+     return;
+   }
+  else if (!*argument)
+   {
+act("        &10o&12_&09-------------------------&12_&10o&00
+        &09|   &11Super Saiyan Forms&00    &09|&00
+       &10o&12_&09-------------------------&12_&10o&00
+        &09|&10You can do the following:&09|&00
+        &09|&09-------------------------&09|&00
+        &09|&15Stage:  Power Level Req.:&09|&00 ", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10First       &14800000&00      &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Second      &145000000&00     &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Third       &1410000000&00    &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Fourth      &1425000000&00    &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("        &10o&12_&09-------------------------&12_&10o&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+}
+
+/*------------------        Oozaru checks, no SSj in oozaru           -----------------*/
+
+/*if (!str_cmp(arg,"first") && PRF_FLAGGED(ch, PRF_OOZARU)) {
+ act("&15You can't go super saiya-jin while in oozaru form!!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"second") && PRF_FLAGGED(ch, PRF_OOZARU)) {
+ act("&15You can't go super saiya-jin while in oozaru form!!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"third") && PRF_FLAGGED(ch, PRF_OOZARU)) {
+ act("&15You can't go super saiya-jin while in oozaru form!!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"fourth") && PRF_FLAGGED(ch, PRF_OOZARU)) {
+ act("&15You can't go super saiya-jin while in oozaru form!!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }*/
+
+/*------------------  Checks to see if already in that stage if ssj   -----------------*/
+
+
+if (!str_cmp(arg,"second") && !PLR_FLAGGED(ch, PLR_trans1)) {
+ act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"third") && !PLR_FLAGGED(ch, PLR_trans2)) {
+ act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"fourth") && !PLR_FLAGGED(ch, PLR_trans3)) {
+ act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+/*-------------------------------------------------------------------------------------*/
+/*----------------------------------  Reverting  --------------------------------------*/
+
+ if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans4)) {
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans4);
+
+ MAX_HIT = number(16, 16);
+ MAX_MANA = number(16, 16);
+ HITROLL = number(50, 50);
+ DAMROLL = number(50, 50);
+
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) / MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) / MAX_MANA;
+ GET_HITROLL(ch) = GET_HITROLL(ch) - 50;
+ GET_DAMROLL(ch) = GET_DAMROLL(ch) - 50;
+ act("&11$n&15's &12hair&15 and &12eyes&15 turn back to normal as $e stops &09flaming&00 &11yellow&00.", TRUE, ch, 0, 0, TO_ROOM);
+ act("&15Your &13rage&15 ebbs as your &12hair&15 and &12eyes&15 turn back to normal and you stop &09flaming&00 &11yellow.&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+
+ if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans3)) {
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+
+ MAX_HIT = number(8, 8);
+ MAX_MANA = number(8, 8);
+ HITROLL = number(30, 30);
+ DAMROLL = number(30, 30);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) / MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) / MAX_MANA;
+ GET_HITROLL(ch) = GET_HITROLL(ch) - HITROLL;
+ GET_DAMROLL(ch) = GET_DAMROLL(ch) - DAMROLL;
+ GET_MOVE(ch) = GET_MOVE(ch) * 2;
+ act("&11$n&15's &12hair&15 and &12eyes&15 turn back to normal as $e stops &09flaming&00 &11yellow&00.", TRUE, ch, 0, 0, TO_ROOM);
+ act("&15Your &13rage&15 ebbs as your &12hair&15 and &12eyes&15 turn back to normal and you stop &09flaming&00 &11yellow.&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans2)) {
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+ MAX_HIT = number(4, 4);
+ MAX_MANA = number(4, 4);
+ HITROLL = number(15, 15);
+ DAMROLL = number(15, 15);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) / MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) / MAX_MANA;
+ GET_HITROLL(ch) = GET_HITROLL(ch) - HITROLL;
+ GET_DAMROLL(ch) = GET_DAMROLL(ch) - DAMROLL;
+ act("&11$n&15's &12hair&15 and &12eyes&15 turn back to normal as $s stops &09flaming&00 &11yellow&00.", TRUE, ch, 0, 0, TO_ROOM);
+ act("&15Your &13rage&15 ebbs as your &12hair&15 and &12eyes&15 turn back to normal and you stop &09flaming&00 &11yellow.&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+}
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans1)) {
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+
+ MAX_HIT = number(2, 2);
+ MAX_MANA = number(2, 2);
+ HITROLL = number(5, 5);
+ DAMROLL = number(5, 5);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) / MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) / MAX_MANA;
+ GET_HITROLL(ch) = GET_HITROLL(ch) - HITROLL;
+ GET_DAMROLL(ch) = GET_DAMROLL(ch) - DAMROLL;
+ act("&11$n&15's &12hair&15 and &12eyes&15 turn back to normal as $s stops &09flaming&00 &11yellow&00.", TRUE, ch, 0, 0, TO_ROOM);
+ act("&15Your &13rage&15 ebbs as your &12hair&15 and &12eyes&15 turn back to normal and you stop &09flaming&00 &11yellow.&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+}
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ SSj 1 ----------------------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"first") && PLR_FLAGGED(ch, PLR_trans1)) {
+ act("&15Your already in that form of super saiya-jin!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+/*if (!str_cmp(arg,"first") && PRF_FLAGGED(ch, PRF_MYSTIC)) {
+ act("&15What do you want to do, blow up the universe?!  You can't go &11SSJ&15 while in &14Mystic&15 form!&00", TRUE, ch,0, 0, TO_CHAR);
+ return;
+ }*/
+
+if (!str_cmp(arg,"first") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 800000) {
+ act("&15You do not have the power to attain that form of super saiya-jin!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+if (!str_cmp(arg,"first") && GET_RAGE(ch) < 50) {
+ act("&15You don't have the &09RAGE&15 to go &11Super Saiya-jin&15!&00", TRUE, ch,0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"first") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 800000) {
+    SET_BIT(PLR_FLAGS(ch), PLR_trans1);
+
+ MAX_HIT = number(2, 2);
+ MAX_MANA = number(2, 2);
+ HITROLL = number(5, 5);
+ DAMROLL = number(5, 5);
+ 
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) * MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) * MAX_MANA;
+ GET_HITROLL(ch) = GET_HITROLL(ch) + HITROLL;
+ GET_DAMROLL(ch) = GET_DAMROLL(ch) + DAMROLL;
+ GET_AC(ch) = GET_AC(ch) - 1000;
+
+ act("&09$n&15 begins growling as $e starts to &09flame &11gold&15.
+$s eyes turn &10emerald&15, and he continues growling.  $e hunches over
+as a &11gold spark&15 flies up, and a second after, $s hair turns
+&11gold&15.  $e screams out VERY loud, and $s eyes glaze over, as
+&11golden&15 ki blinds you for a moment, surrounding everything.  As
+everything settles, you see &09$n&15 standing there, with a &11golden aura&15.&00", TRUE, ch, 0, 0, TO_ROOM);
+
+ act("&15You begin growling as you start to &09flame &11gold&15.  Your
+eyes turn &10emerald&15, and you continue growling.  You hunch over as a
+&11gold spark&15 flies up, and a second after, your hair turns
+&11gold&15.  You scream out VERY loud, and your eyes glaze over, as
+&11golden&15 ki surrounds everything.  As everything settles, you
+stand there, flaming with a &11golden aura&15.&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+ }
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ SSj 2 ----------------------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"second") && PLR_FLAGGED(ch, PLR_trans2)) {
+ act("&15Your already in that form of super saiya-jin!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"second") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 5000000) {
+ act("&15You do not have the power to attain that form of super saiya-jin!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"second") && GET_RAGE(ch) < 60) {
+ act("&15You don't have the &09RAGE&15 to go &11Super Saiya-jin 2&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"second") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 5000000) {
+    SET_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+ MAX_HIT = number(2, 2);
+ MAX_MANA = number(2, 2);
+ HITROLL = number(10, 10);
+ DAMROLL = number(10, 10);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) * MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) * MAX_MANA;
+ GET_HITROLL(ch) = GET_HITROLL(ch) + HITROLL;
+ GET_DAMROLL(ch) = GET_DAMROLL(ch) + DAMROLL;
+ GET_AC(ch) = GET_AC(ch) - 1000;
+
+ act("&11$n&15 arches back and lets out a scream as $s hair stands
+up on end moreso thanbefore, creating long, hard spikes of &11golden&15
+hair.  &12Electrical&15 energy crackles around $s form as the &00&03dust&00&15 settles!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+ act("&15You arch back and let out a scream of pure rage and
+power as your hair stands upon end, creating long, hard spikes
+of &11golden&15 hair.  &12Electrical&15 energy crackles around
+your form as the &00&03dust&00&15 settles.&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+ }
+/*------------------ What Half-breeds can't do ----------------------------------------*/
+if (!str_cmp(arg,"fourth") && IS_HALF_BREED(ch)) {
+ act("&15You can't go past super saiyan 3.&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+/*------------------------------------ SSj 3 ----------------------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"third") && PLR_FLAGGED(ch, PLR_trans3)) {
+ act("&15Your already in that form of super saiya-jin!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"third") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 10000000) {
+ act("&15You do not have the power to attain that form of super saiya-jin!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"third") && GET_RAGE(ch) < 70) {
+ act("&15You don't have the &09RAGE&15 to go &11Super Saiya-jin 3&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"third") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 10000000) {
+    SET_BIT(PLR_FLAGS(ch), PLR_trans3);
+
+ MAX_HIT = number(2, 2);
+ MAX_MANA = number(2, 2);
+ HITROLL = number(15, 15);
+ DAMROLL = number(15, 15);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) * MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) * MAX_MANA;
+ GET_HITROLL(ch) = GET_HITROLL(ch) + HITROLL;
+ GET_DAMROLL(ch) = GET_DAMROLL(ch) + DAMROLL;
+ GET_MOVE(ch) = GET_MOVE(ch) / 2;
+ GET_AC(ch) = GET_AC(ch) - 1000;
+
+ act("&12$n&15 plunges into the depth of $s soul, pushing very hard to
+find something inside $m, beginning a loud scream.  As $e continues to
+scream out, bright light begins to form, as $e pushes harder and
+harder.  You begin to get blown away a bit $e powers up even more.  You
+see $s hair begin to slowly grow as $e taps into an unknown power
+inside $s soul as $e continues $s scream.  After around a minute of
+pushing and screaming, $e finally screams out very loud, as blinding
+light covers everything.  $s &11golden&15 eyebrows disappear, and $s
+&10emerald&15 eyes form &16black&15 pupils.  $s &11golden&15 hair has grown to waist-length.
+&12$n&15 has achieved &11Super Saiya-jin 3&15!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+ act("&15You plunge into the depth of your soul, pushing very hard to
+find something inside you, beginning a loud scream.  As you continue to
+scream out, bright light begins to form, as you push harder and harder.
+Your hair begins to slowly grow as you tap into an unknown power inside
+you, continuing your scream.  After around a minute, you finally scream
+out very loud, as blinding light covers everything.  Your &11golden&15
+eyebrows disappear, and your &10emerald&15 eyes form &16black&15 pupils.
+Your &11golden&15 hair has grown to waist-length.
+&15You have achieved &11Super Saiya-jin 3&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+
+send_to_all("&15The &10earth &12trembles &15and &12shakes&15 as a &09massive &15power arises.&00\r\n");
+return;
+}
+/*----------------------------------ssj 4---------------------------------*/
+
+if (!str_cmp(arg,"fourth") && PLR_FLAGGED(ch, PLR_trans4)) {
+ act("&15Your already in that form of super saiya-jin!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"fourth") &&   GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 25000000) {
+ act("&15You do not have the power to attain that form of super saiya-jin!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"fourth") && GET_RAGE(ch) < 80) {
+ act("&15You don't have the &09RAGE&15 to go &11Super Saiya-jin 4&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+
+if (!str_cmp(arg,"fourth") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 25000000) {
+    SET_BIT(PLR_FLAGS(ch), PLR_trans4);
+
+ MAX_HIT = number(2, 2);
+ MAX_MANA = number(2, 2);
+ HITROLL = number(20, 20);
+ DAMROLL = number(20, 20);
+
+ GET_MAX_HIT(ch) = GET_MAX_HIT(ch) * MAX_HIT;
+ GET_MAX_MANA(ch) = GET_MAX_MANA(ch) * MAX_MANA;
+ GET_HITROLL(ch) = GET_HITROLL(ch) + HITROLL;
+ GET_DAMROLL(ch) = GET_DAMROLL(ch) + DAMROLL;
+ GET_MOVE(ch) = GET_MOVE(ch) / 4;
+ GET_AC(ch) = GET_AC(ch) - 1000;
+
+ act("&11$n&15's body is surrounded by a glow as $ body is covered with
+&09red&15 hair and they become heavily muscled.  A &09red&15 tail is
+out behind as $s eyes turn &16black &15 with &09red&15 outlined around
+them.  The hair turns the color of &16midnight&15 on $s head.&00", TRUE, ch, 0, 0, TO_ROOM);
+
+ act("&15Your body is surrounded by a glow as your body is covered with
+&09red&15 hair and you become heavily muscled.  A &09red&15 tail is out
+behind you as your eyes turn &16black &15 with &09red&15 outlined around
+them.  The hair turns the color of &16midnight&15 on your head.&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+ }
+
+
+}
+
+
+
+ACMD(do_stealth)
+{
+
+  struct affected_type af;
+  if (!GET_SKILL(ch, SKILL_STEALTH)) {
+  send_to_char("You can't do that!\r\n", ch);
+  return;
+  }
+ else
+  af.type = SKILL_SWIFTNESS;
+  af.duration = GET_LEVEL(ch);
+  af.modifier = 0;
+  af.location = APPLY_NONE;
+  af.bitvector = AFF_SWIFTNESS;
+  affect_to_char(ch, &af);
+
+  SET_BIT(AFF_FLAGS(ch), AFF_HIDE);
+  act("&11$n&15's skin color flickers as they fade into the surroundings.", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15You pause for a moment and meld to your surroundings.&00", TRUE, ch, 0, 0, TO_CHAR);
+
+}
+
+
+ACMD(do_transform)	
+{    
+	
+  int MAX_MANA = 0, MAX_HIT = 0;
+    
+    one_argument(argument, arg);
+    if (!IS_icer(ch))
+    {
+      act("Your not an icer!", TRUE, ch, 0, 0, TO_CHAR);
+      return;
+    } 
+   else if (!*argument && IS_icer(ch))
+    { 
+act("        &10o&12_&12-------------------------&12_&10o&00
+         &12|   &12      Icer Forms&00      &12|&00
+        &10o&12_&12-------------------------&12_&10o&00
+         &12|&10You can do the following:&12|&00
+         &12|&12-------------------------&12|&00
+         &12|&15Stage:  Power Level Req.:&12|&00 ", TRUE, ch, 0, 0, TO_CHAR);
+act("         &12| &10First       &14800000&00      &12|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &12| &10Second      &141600000&00      &12|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &12| &10Third       &143500000&00      &12|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &12| &10Fourth      &145000000&00     &12|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("        &10o&12_&12-------------------------&12_&10o&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+}     
+
+/*------------------  Checks to see if already in that stage     -----------------*/
+
+if (!str_cmp(arg,"second") && !PLR_FLAGGED(ch, PLR_trans1)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"third") && !PLR_FLAGGED(ch, PLR_trans2)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"fourth") && !PLR_FLAGGED(ch, PLR_trans3)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*----------------------------------  Reverting  --------------------------------------*/
+
+ if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans4)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans4);
+    
+  MAX_HIT = number(16, 16);
+  MAX_MANA = number(16, 16);
+  
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) / MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) / MAX_MANA;
+  act("&11$n&15's power drops as they revert to there normal form.&00.", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15You feel much weaker as you revert to normal form.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans3)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+    
+  MAX_HIT = number(8, 8);
+  MAX_MANA = number(8, 8);
+  
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) / MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) / MAX_MANA;
+  act("&11$n&15's power drops as they revert to there normal form.&00.", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15You feel much weaker as you revert to normal form.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans2)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+    
+  MAX_HIT = number(4, 4);
+  MAX_MANA = number(4, 4);
+  
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) / MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) / MAX_MANA;
+  act("&11$n&15's power drops as they revert to there normal form.&00.", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15You feel much weaker as you revert to normal form.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans1)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+    
+  MAX_HIT = number(2, 2);
+  MAX_MANA = number(2, 2);
+  
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) / MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) / MAX_MANA;
+  act("&11$n&15's power drops as they revert to there normal form.&00.", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15You feel much weaker as you revert to normal form.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ TR 1 ----------------------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"first") && PLR_FLAGGED(ch, PLR_trans1)) {
+  act("&15Your already in that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"first") && GET_STR(ch)*2+GET_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 800000) {
+  act("&15You do not have the power to attain that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  } 
+
+ if (!str_cmp(arg,"first") && GET_STR(ch)*2+GET_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 800000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans1);
+     
+  MAX_HIT = number(2, 2);
+  MAX_MANA = number(2, 2);
+  
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) * MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) * MAX_MANA;
+  
+  act("&11$n&14 kneels over as they grow in a mass of energy 
+and &12horns&14 protrude from the top of $s skull!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&14You kneel over as you grow to a large mass!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ TR 2 ----------------------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"second") && PLR_FLAGGED(ch, PLR_trans2)) {
+  act("&15Your already in that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"second") && GET_STR(ch)*2+GET_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 1600000) {
+  act("&15You do not have the power to attain that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  } 
+
+ if (!str_cmp(arg,"second") && GET_STR(ch)*2+GET_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 1600000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans2);
+     
+  MAX_HIT = number(2, 2);
+  MAX_MANA = number(2, 2);
+  
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) * MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) * MAX_MANA;
+  
+  act("&11$n&14's head grows larger protruding many &12horns&14
+and $s body tones down in size as they transform!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&14You begin to shrink slightly and your head begins to protrude many horns!.&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+
+/*-------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ TR 3 ----------------------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"third") && PLR_FLAGGED(ch, PLR_trans3)) {
+  act("&15Your already in that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"third") && GET_STR(ch)*2+GET_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 3500000) {
+  act("&14You do not have the power to attain that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  } 
+
+ if (!str_cmp(arg,"third") && GET_STR(ch)*2+GET_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 3500000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans3);
+     
+  MAX_HIT = number(2, 2);
+  MAX_MANA = number(2, 2);
+  
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) * MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) * MAX_MANA;
+  
+  act("&11$n&14's body begins to shrink in a mass of energy to become more sleek powerful!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&14Your body begins to shrink in a mass of energy to become more sleek and powerful!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ TR 4 ----------------------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+ if (!str_cmp(arg,"fourth") && PLR_FLAGGED(ch, PLR_trans4)) {
+  act("&15Your already in that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"fourth") && GET_STR(ch)*2+GET_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 5000000) {
+  act("&15You do not have the power to attain that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  } 
+
+ if (!str_cmp(arg,"fourth") && GET_STR(ch)*2+GET_MANA(ch)*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 5000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans4);
+     
+  MAX_HIT = number(2, 2);
+  MAX_MANA = number(2, 2);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) * MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) * MAX_MANA;
+
+  act("&11$n&14's body begins ripple with muscles as they powerup to a new transformation level!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&14Your body begins to ripple with muscles as you reach a new transformation!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+  }
+/*-------------------------------------------------------------------------------------*/
+
+
+
+}
+
+
+ACMD(do_spar)
+{
+    one_argument(argument, arg);	
+  
+  if (PRF_FLAGGED(ch, PRF_CAMP)) {		
+      send_to_char("You can't do this while camped!\r\n", ch);
+      return;
+    }  
+
+  if (GET_LEVEL(ch) <=1) {
+  send_to_char("You can't spar right away.\r\n", ch);
+  return;
+    }
+
+else if (!*argument)
+    { 
+act("&09Sparing Commands&00", TRUE, ch, 0, 0, TO_CHAR);
+act("&10----------------&00", TRUE, ch, 0, 0, TO_CHAR);
+act("spar &09ready&00", TRUE, ch, 0, 0, TO_CHAR);
+act("spar &09stop&00", TRUE, ch, 0, 0, TO_CHAR);
+act("&09sparkick&00 (person)", TRUE, ch, 0, 0, TO_CHAR);
+act("&09sparpunch&00 (person)", TRUE, ch, 0, 0, TO_CHAR);
+act("&09sparelbow&00 (person)", TRUE, ch, 0, 0, TO_CHAR);
+act("&09sparknee&00 (person)", TRUE, ch, 0, 0, TO_CHAR);
+act("&09sparkiblast&00 (person)", TRUE, ch, 0, 0, TO_CHAR);
+act("spar &09fly&00", TRUE, ch, 0, 0, TO_CHAR);
+act("spar &09land&00", TRUE, ch, 0, 0, TO_CHAR);
+act("spar &09block&00", TRUE, ch, 0, 0, TO_CHAR);
+act("spar &09relax&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+} 
+/*-----------------------------         Start       -----------------------------------*/
+ if (!str_cmp(arg,"ready") && !AFF_FLAGGED(ch, AFF_SPAR)) {
+  SET_BIT(AFF_FLAGS(ch), AFF_SPAR);
+ act("$n moves into a sparing stance.", TRUE, ch, 0, 0, TO_ROOM);
+  act("You move into a sparing stance.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ else if (!str_cmp(arg,"ready") && AFF_FLAGGED(ch, AFF_SPAR)) {
+  act("Your already in a sparing stance.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+/*-------------------------------------------------------------------------------------*/
+  if (!str_cmp(arg,"ready") && !IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DOJO)) {
+      send_to_char("Your not in a dojo!\r\n", ch);
+      return;
+    }
+    if (!str_cmp(arg,"land") && !IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DOJO)) {
+      send_to_char("Your not in a dojo!\r\n", ch);
+      return;
+    }
+      if (!str_cmp(arg,"fly") && !IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DOJO)) {
+      send_to_char("Your not in a dojo!\r\n", ch);
+      return;
+    }
+      if (!str_cmp(arg,"block") && !IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DOJO)) {
+      send_to_char("Your not in a dojo!\r\n", ch);
+      return;
+    }
+/*-----------------------------------------Stop----------------------------------------*/
+ if (!str_cmp(arg,"stop")) {
+  REMOVE_BIT(AFF_FLAGS(ch), AFF_SPAR);
+ act("$n moves out of their sparing stance.", TRUE, ch, 0, 0, TO_ROOM);
+  act("You move out of your sparing stance.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ if (!str_cmp(arg,"stop") && !AFF_FLAGGED(ch, AFF_SPAR)) {
+  REMOVE_BIT(AFF_FLAGS(ch), AFF_SPAR);
+  act("You aren't in a sparing stance!", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+/*--------------------------------  Not sparing checks  --------------------------------*/
+if (!str_cmp(arg,"block") && !AFF_FLAGGED(ch, AFF_SPAR)) {		
+      send_to_char("Your not in a sparing stance!\r\n", ch);
+      return;
+    }
+if (!str_cmp(arg,"land") && !AFF_FLAGGED(ch, AFF_SPAR)) {		
+      send_to_char("Your not in a sparing stance!\r\n", ch);
+      return;
+    }
+if (!str_cmp(arg,"fly") && !AFF_FLAGGED(ch, AFF_SPAR)) {		
+      send_to_char("Your not in a sparing stance!\r\n", ch);
+      return;
+    }
+/*--------------------------------------Flight-----------------------------------------*/
+/*Fly*/
+  if (!str_cmp(arg,"fly") && AFF_FLAGGED(ch, AFF_SPAR) && !AFF_FLAGGED(ch, AFF_SFLY)) {
+  SET_BIT(AFF_FLAGS(ch), AFF_SFLY);
+ act("$n flys up into the air.", TRUE, ch, 0, 0, TO_ROOM);
+  act("You fly up into the air.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ else if (!str_cmp(arg,"fly") && !AFF_FLAGGED(ch, AFF_SPAR)) {
+  act("You can't do that if your not sparing.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ else if (!str_cmp(arg,"fly") && AFF_FLAGGED(ch, AFF_SFLY)) {
+  act("You are already flying!", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+/*Land*/
+ if (!str_cmp(arg,"land") && AFF_FLAGGED(ch, AFF_SPAR) && AFF_FLAGGED(ch, AFF_SFLY)) {
+  REMOVE_BIT(AFF_FLAGS(ch), AFF_SFLY);
+  act("$n flys down and lands on the ground.", TRUE, ch, 0, 0, TO_ROOM);
+  act("You fly down and land on the ground.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ else if (!str_cmp(arg,"land") && !AFF_FLAGGED(ch, AFF_SFLY)) {
+  act("You aren't flying!", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ else if (!str_cmp(arg,"land") && !AFF_FLAGGED(ch, AFF_SPAR)) {
+  act("You can't do that if your not sparing.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+/*-------------------------------------------------------------------------------------*/
+/*Blocking*/
+ if (!str_cmp(arg,"block") && AFF_FLAGGED(ch, AFF_SPAR) && !AFF_FLAGGED(ch, AFF_SBLOCK)) {
+  SET_BIT(AFF_FLAGS(ch), AFF_SBLOCK);
+  act("You prepare to block the next attack.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ else if (!str_cmp(arg,"block") && AFF_FLAGGED(ch, AFF_SBLOCK)) {
+  act("You are already preparing to block!", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ else if (!str_cmp(arg,"block") && !AFF_FLAGGED(ch, AFF_SPAR)) {
+  act("You can't do that if your not sparing.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ if (!str_cmp(arg,"relax") && AFF_FLAGGED(ch, AFF_SPAR) && AFF_FLAGGED(ch, AFF_SBLOCK)) {
+  REMOVE_BIT(AFF_FLAGS(ch), AFF_SBLOCK);
+  act("You lower your defense.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ else if (!str_cmp(arg,"relax") && !AFF_FLAGGED(ch, AFF_SBLOCK)) {
+  act("You are not preparing to block!", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+ else if (!str_cmp(arg,"relax") && !AFF_FLAGGED(ch, AFF_SPAR)) {
+  act("You can't do that if your not sparing.", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+
+/*-------------------------------------------------------------------------------------*/
+}
+
+ACMD(do_sparkick)
+{
+	int is_altered = FALSE; 
+        int num_levels = 0; 
+        int MOVE = 0, EXP = 0;
+	struct char_data * vict;
+        one_argument(argument, arg);
+        
+   if (!AFF_FLAGGED(ch, AFF_SPAR)) {		
+      send_to_char("Your not in a sparing stance!\r\n", ch);
+      return;
+    }
+   if (!IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DOJO)) {
+      send_to_char("Your not in a dojo!\r\n", ch);
+      return;
+    }   	
+   if (GET_MOVE(ch) <= 10) {
+      send_to_char("Your too weak to spar anymore!\r\n", ch);
+      return;
+    } 
+/*-------------------------------------------------------------------------------------*/
+if (!IS_NPC(ch) && GET_LEVEL(ch) < LVL_IMMORT && GET_EXP(ch) >= GET_LEVEL(ch)*2000) {     
+GET_LEVEL(ch) += 1;                                                             
+GET_EXP(ch) = 1;                                                                
+num_levels++;                                                                   advance_level(ch);                                                              
+is_altered = TRUE;                                                            
+send_to_char("You can feel your body strenghten as you continue sparing!\r\n", ch);
+} 
+/*--------------------------Spar-Kick "Failures"---------------------------------------*/
+   if (!(vict = get_char_room_vis(ch, arg))) {
+      send_to_char("Spar-Kick who?\r\n", ch);
+      return;
+    } 
+   if (vict == ch) {
+    send_to_char("Come on now, that's rather stupid!\r\n", ch);
+    return;
+    }
+   if (vict && !AFF_FLAGGED(vict, AFF_SPAR)) {		
+      send_to_char("They don't want to spar!\r\n", ch);
+      return;
+    }
+   if (vict && AFF_FLAGGED(ch, AFF_SBLOCK)) {		
+      send_to_char("Your too busy preparing to block thier attack!\r\n", ch);
+      return;
+    } 
+   if (vict && AFF_FLAGGED(vict, AFF_SFLY) && !AFF_FLAGGED(ch, AFF_SFLY)) {		
+      send_to_char("You can't hit them from down here!\r\n", ch);
+      return;
+    }
+   if (vict && !AFF_FLAGGED(vict, AFF_SFLY) && AFF_FLAGGED(ch, AFF_SFLY)) {		
+      send_to_char("You can't hit them from up here!\r\n", ch);
+      return;
+    }
+   if (vict && AFF_FLAGGED(vict, AFF_SBLOCK)) {		
+  EXP = number(GET_LEVEL(ch)*10, GET_LEVEL(ch)*10);
+  MOVE = number(5, 10);
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MOVE(ch) = GET_MOVE(ch) - MOVE;
+  
+  GET_EXP(vict) = GET_EXP(vict) + EXP;
+  GET_MOVE(vict) = GET_MOVE(vict) - MOVE;
+  
+  act("You throw a kick at $N who easily blocks it.", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n throws a kick at $N who easily blocks it..", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("As $n rears back you put your arm up and block thier kick..&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    }
+  else if (vict) {		
+  EXP = number(GET_LEVEL(ch)*30, GET_LEVEL(ch)*30);
+  MOVE = number(5, 10);
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MOVE(ch) = GET_MOVE(ch) - MOVE;
+  
+  act("You throw a kick at $N hitting directly!", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n throws a kick at hitting $N!", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("$n rears back and&09 hits&00 you dead on with a kick!&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    } 
+}
+ACMD(do_sparpunch)
+{
+	int is_altered = FALSE; 
+        int num_levels = 0; 
+        int MOVE = 0, EXP = 0;
+	struct char_data * vict;
+        one_argument(argument, arg);
+        
+   if (!AFF_FLAGGED(ch, AFF_SPAR)) {		
+      send_to_char("Your not in a sparing stance!\r\n", ch);
+      return;
+    }
+   if (!IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DOJO)) {
+      send_to_char("Your not in a dojo!\r\n", ch);
+      return;
+    } 
+   if (GET_MOVE(ch) <= 10) {
+      send_to_char("Your too weak to spar anymore!\r\n", ch);
+      return;
+    } 
+/*-------------------------------------------------------------------------------------*/
+if (!IS_NPC(ch) && GET_LEVEL(ch) < LVL_IMMORT && GET_EXP(ch) >= GET_LEVEL(ch)*2000) {     
+GET_LEVEL(ch) += 1;                                                             
+GET_EXP(ch) = 1;                                                                
+num_levels++;                                                                   advance_level(ch);                                                              
+is_altered = TRUE;                                                            
+send_to_char("You can feel your body strenghten as you continue sparing!\r\n", ch);
+} 
+/*--------------------------Spar-Kick "Failures"---------------------------------------*/
+   if (!(vict = get_char_room_vis(ch, arg))) {
+      send_to_char("Spar-Punch who?\r\n", ch);
+      return;
+    } 
+    if (vict == ch) {
+    send_to_char("Come on now, that's rather stupid!\r\n", ch);
+    return;
+    }
+   if (vict && !AFF_FLAGGED(vict, AFF_SPAR)) {		
+      send_to_char("They don't want to spar!\r\n", ch);
+      return;
+    }
+   if (vict && AFF_FLAGGED(ch, AFF_SBLOCK)) {		
+      send_to_char("Your too busy preparing to block thier attack!\r\n", ch);
+      return;
+    } 
+   if (vict && AFF_FLAGGED(vict, AFF_SFLY) && !AFF_FLAGGED(ch, AFF_SFLY)) {		
+      send_to_char("You can't hit them from down here!\r\n", ch);
+      return;
+    }
+   if (vict && !AFF_FLAGGED(vict, AFF_SFLY) && AFF_FLAGGED(ch, AFF_SFLY)) {		
+      send_to_char("You can't hit them from up here!\r\n", ch);
+      return;
+    }
+   if (vict && AFF_FLAGGED(vict, AFF_SBLOCK)) {		
+  EXP = number(GET_LEVEL(ch)*10, GET_LEVEL(ch)*10);
+  MOVE = number(5, 10);
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MOVE(ch) = GET_MOVE(ch) - MOVE;
+  
+  GET_EXP(vict) = GET_EXP(vict) + EXP;
+  GET_MOVE(vict) = GET_MOVE(vict) - MOVE;
+  
+  act("You throw a punch at $N who easily blocks it.", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n throws a punch at $N who easily blocks it..", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("As $n rears back you put your arm up and block thier punch.&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    }
+  else if (vict) {		
+  EXP = number(GET_LEVEL(ch)*30, GET_LEVEL(ch)*30);
+  MOVE = number(5, 10);
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MOVE(ch) = GET_MOVE(ch) - MOVE;
+  
+  act("You throw a punch at $N hitting directly!", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n throws a punch at hitting $N!", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("$n rears back and hits you dead on with a punch!&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    } 
+
+}
+
+ACMD(do_sparknee)
+{
+	int is_altered = FALSE; 
+        int num_levels = 0; 
+        int MOVE = 0, EXP = 0;
+	struct char_data * vict;
+        one_argument(argument, arg);
+        
+   if (!AFF_FLAGGED(ch, AFF_SPAR)) {		
+      send_to_char("Your not in a sparing stance!\r\n", ch);
+      return;
+    }
+   if (!IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DOJO)) {
+      send_to_char("Your not in a dojo!\r\n", ch);
+      return;
+    } 
+   if (GET_MOVE(ch) <= 10) {
+      send_to_char("Your too weak to spar anymore!\r\n", ch);
+      return;
+    } 
+/*-------------------------------------------------------------------------------------*/
+if (!IS_NPC(ch) && GET_LEVEL(ch) < LVL_IMMORT && GET_EXP(ch) >= GET_LEVEL(ch)*2000) {     
+GET_LEVEL(ch) += 1;                                                             
+GET_EXP(ch) = 1;                                                                
+num_levels++;                                                                   advance_level(ch);                                                              
+is_altered = TRUE;                                                            
+send_to_char("You can feel your body strenghten as you continue sparing!\r\n", ch);
+} 
+/*--------------------------Spar-Kick "Failures"---------------------------------------*/
+   if (!(vict = get_char_room_vis(ch, arg))) {
+      send_to_char("Spar-Knee who?\r\n", ch);
+      return;
+    } 
+   if (vict == ch) {
+    send_to_char("Come on now, that's rather stupid!\r\n", ch);
+    return;
+    }
+   if (vict && !AFF_FLAGGED(vict, AFF_SPAR)) {		
+      send_to_char("They don't want to spar!\r\n", ch);
+      return;
+    }
+   if (vict && AFF_FLAGGED(ch, AFF_SBLOCK)) {		
+      send_to_char("Your too busy preparing to block thier attack!\r\n", ch);
+      return;
+    } 
+   if (vict && AFF_FLAGGED(vict, AFF_SFLY) && !AFF_FLAGGED(ch, AFF_SFLY)) {		
+      send_to_char("You can't hit them from down here!\r\n", ch);
+      return;
+    }
+   if (vict && !AFF_FLAGGED(vict, AFF_SFLY) && AFF_FLAGGED(ch, AFF_SFLY)) {		
+      send_to_char("You can't hit them from up here!\r\n", ch);
+      return;
+    }
+   if (vict && AFF_FLAGGED(vict, AFF_SBLOCK)) {		
+      send_to_char("You can't hit them from up here!\r\n", ch);
+  EXP = number(GET_LEVEL(ch)*10, GET_LEVEL(ch)*10);
+  MOVE = number(5, 10);
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MOVE(ch) = GET_MOVE(ch) - MOVE;
+  
+  GET_EXP(vict) = GET_EXP(vict) + EXP;
+  GET_MOVE(vict) = GET_MOVE(vict) - MOVE;
+  
+  act("You thrust your knee at $N who easily blocks it.", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n slams thier knee into $N who easily blocks it..", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("As $n rears back you put your arm up and block thier knee.&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    }
+  else if (vict) {		
+  EXP = number(GET_LEVEL(ch)*25, GET_LEVEL(ch)*25);
+  MOVE = number(5, 10);
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MOVE(ch) = GET_MOVE(ch) - MOVE;
+  
+  
+  act("You slam your knee into $N!", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n slams thier knee into $N!", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("$n rears back and knees you in the stomach!&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    } 
+
+}
+
+ACMD(do_sparelbow)
+{
+	int is_altered = FALSE; 
+        int num_levels = 0; 
+        int MOVE = 0, EXP = 0;
+	struct char_data * vict;
+        one_argument(argument, arg);
+        
+   if (!AFF_FLAGGED(ch, AFF_SPAR)) {		
+      send_to_char("Your not in a sparing stance!\r\n", ch);
+      return;
+    }
+   if (!IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DOJO)) {
+      send_to_char("Your not in a dojo!\r\n", ch);
+      return;
+    } 
+   if (GET_MOVE(ch) <= 10) {
+      send_to_char("Your too weak to spar anymore!\r\n", ch);
+      return;
+    } 
+/*-------------------------------------------------------------------------------------*/
+if (!IS_NPC(ch) && GET_LEVEL(ch) < LVL_IMMORT && GET_EXP(ch) >= GET_LEVEL(ch)*2000) {     
+GET_LEVEL(ch) += 1;                                                             
+GET_EXP(ch) = 1;                                                                
+num_levels++;                                                                   advance_level(ch);                                                              
+is_altered = TRUE;                                                            
+send_to_char("You can feel your body strenghten as you continue sparing!\r\n", ch);
+} 
+/*--------------------------Spar-Kick "Failures"---------------------------------------*/
+   if (!(vict = get_char_room_vis(ch, arg))) {
+      send_to_char("Spar-Elbow who?\r\n", ch);
+      return;
+    } 
+   if (vict == ch) {
+    send_to_char("Come on now, that's rather stupid!\r\n", ch);
+    return;
+    }
+   if (vict && !AFF_FLAGGED(vict, AFF_SPAR)) {		
+      send_to_char("They don't want to spar!\r\n", ch);
+      return;
+    }
+   if (vict && AFF_FLAGGED(ch, AFF_SBLOCK)) {		
+      send_to_char("Your too busy preparing to block thier attack!\r\n", ch);
+      return;
+    } 
+   if (vict && AFF_FLAGGED(vict, AFF_SFLY) && !AFF_FLAGGED(ch, AFF_SFLY)) {		
+      send_to_char("You can't hit them from down here!\r\n", ch);
+      return;
+    }
+   if (vict && !AFF_FLAGGED(vict, AFF_SFLY) && AFF_FLAGGED(ch, AFF_SFLY)) {		
+      send_to_char("You can't hit them from up here!\r\n", ch);
+      return;
+    }
+   if (vict && AFF_FLAGGED(vict, AFF_SBLOCK)) {		
+  EXP = number(GET_LEVEL(ch)*10, GET_LEVEL(ch)*10);
+  MOVE = number(5, 10);
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MOVE(ch) = GET_MOVE(ch) - MOVE;
+  
+  GET_EXP(vict) = GET_EXP(vict) + EXP;
+  GET_MOVE(vict) = GET_MOVE(vict) - MOVE;
+  
+  act("You slam your elbow into $N who easily blocks it.", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n slams thier elbow into $N who easily blocks it.", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("As $n rears back you put your arm up and block thier elbow.&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    }
+  else if (vict) {		
+  EXP = number(GET_LEVEL(ch)*25, GET_LEVEL(ch)*25);
+  MOVE = number(5, 10);
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MOVE(ch) = GET_MOVE(ch) - MOVE;
+  
+  act("You slam your elbow into $N's ribs!", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n throws a kick at hitting $N!", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("$n slams thier elbow into your ribs!&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    } 
+}
+
+ACMD(do_sparkiblast)
+{
+	int is_altered = FALSE; 
+        int num_levels = 0; 
+        int MANA = 0, EXP = 0;
+	struct char_data * vict;
+        one_argument(argument, arg);
+        
+   if (!AFF_FLAGGED(ch, AFF_SPAR)) {		
+      send_to_char("Your not in a sparing stance!\r\n", ch);
+      return;
+    }
+   if (!IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DOJO)) {
+      send_to_char("Your not in a dojo!\r\n", ch);
+      return;
+    }
+   if (GET_MANA(ch) <= 100) {
+      send_to_char("Your too weak to spar anymore!\r\n", ch);
+      return;
+    } 
+/*-------------------------------------------------------------------------------------*/
+if (!IS_NPC(ch) && GET_LEVEL(ch) < LVL_IMMORT && GET_EXP(ch) >= GET_LEVEL(ch)*2000) {     
+GET_LEVEL(ch) += 1;                                                             
+GET_EXP(ch) = 1;                                                                
+num_levels++;                                                                   advance_level(ch);                                                              
+is_altered = TRUE;                                                            
+send_to_char("You can feel your body strenghten as you continue sparing!\r\n", ch);
+} 
+/*--------------------------Spar-Kick "Failures"---------------------------------------*/
+   if (!(vict = get_char_room_vis(ch, arg))) {
+      send_to_char("Spar-KiBlast who?\r\n", ch);
+      return;
+    }     
+    if (vict == ch) {
+    send_to_char("Come on now, that's rather stupid!\r\n", ch);
+    return;
+    }
+   if (vict && !AFF_FLAGGED(vict, AFF_SPAR)) {		
+      send_to_char("They don't want to spar!\r\n", ch);
+      return;
+    }
+   if (vict && AFF_FLAGGED(ch, AFF_SBLOCK)) {		
+      send_to_char("Your too busy preparing to block thier attack!\r\n", ch);
+      return;
+    } 
+   if (vict && AFF_FLAGGED(vict, AFF_SBLOCK)) {		
+  EXP = number(GET_LEVEL(ch)*10, GET_LEVEL(ch)*10);
+  MANA = 20;
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MANA(ch) = GET_MANA(ch) - MANA;
+  
+  GET_EXP(vict) = GET_EXP(vict) + EXP;
+  GET_MANA(vict) = GET_MANA(vict) - MANA;
+  
+  act("You fire a small kiblast at $N who slaps it away.", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n fires a small kiblast at $N who slaps it away.", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("As $n fires a kiblast you slap it away with the back of your hand.&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    }
+  else if (vict) {		
+  EXP = number(GET_LEVEL(ch)*50, GET_LEVEL(ch)*50);
+  MANA = number(100, 100);
+  GET_EXP(ch) = GET_EXP(ch) + EXP;
+  GET_MANA(ch) = GET_MANA(ch) - MANA;
+  
+  act("You fire a kiblast hitting $N!", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n fires a kiblast, hitting $N!", TRUE, ch, 0, vict, TO_NOTVICT);
+  act("$n fires a kiblast hitting you directly!&00", FALSE, ch, 0, vict, TO_VICT);  
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+      return;     
+    } 
+
+}
+
+ACMD(do_jog)	
+{    
+    one_argument(argument, arg);
+     
+   if (!*argument) {
+    send_to_char("&10Jogging commands:  &00\r\n", ch);
+    send_to_char("&09-------------------&00\r\n", ch);
+    send_to_char("&15Jog start          &00\r\n", ch);
+    send_to_char("&15Jog stop           &00\r\n", ch);
+    return;
+     }
+
+   if (!str_cmp(arg,"start")) {
+    act("You start jogging.", TRUE, ch, 0, 0, TO_CHAR);
+    SET_BIT(AFF_FLAGS(ch), AFF_JOG);
+    return;
+   }
+  
+
+   if (!str_cmp(arg,"stop")) {
+    act("You stop jogging.", TRUE, ch, 0, 0, TO_CHAR);
+    REMOVE_BIT(AFF_FLAGS(ch), AFF_JOG);
+    return;
+   }
+}
+
+ACMD(do_orevert)	
+{    
+if (PRF_FLAGGED(ch, PRF_OOZARU))              {
+REMOVE_BIT(PRF_FLAGS(ch), PRF_OOZARU);
+send_to_char("&12Your rage calms down and you begin to slowly shrink as the hair on your body disolves and you pass out on the ground.&00\n\r", ch);
+GET_MAX_HIT(ch) -= 10000;
+GET_MAX_MANA(ch) -= 10000;
+GET_POS(ch) = 4;
+return;
+}
+else if (!PRF_FLAGGED(ch, PRF_OOZARU)) {
+send_to_char("&12Your not in oozaru form!&00\n\r", ch);	
+}
+}
+
+ACMD(do_charge)	
+{    
+    one_argument(argument, arg);
+     
+   if (!*argument) {
+    send_to_char("&10Charge - &00\r\n", ch);
+    send_to_char("&15Low&00\r\n", ch);
+    send_to_char("&15Medium&00\r\n", ch);
+    send_to_char("&15High&00\r\n", ch);
+    send_to_char("&15Invert&00\r\n", ch);
+    return;
+}
+   if (AFF_FLAGGED(ch, AFF_HALTED))
+   {
+    send_to_char("You don't have enough time!\r\n", ch);   	
+    return;
+    }
+/*------------------------------------------Invertion failure----------------------------------------*/
+   if (!str_cmp(arg,"invert") && !AFF_FLAGGED(ch, AFF_CHARGEH) && !AFF_FLAGGED(ch, AFF_CHARGEM) && !AFF_FLAGGED(ch, AFF_CHARGEL)) {
+    act("You are not storing any energy,", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+/*------------------------------------------Already charged/too High---------------------------------*/
+/*Low*/
+   if (!str_cmp(arg,"low") && AFF_FLAGGED(ch, AFF_CHARGEL)) {
+    act("You've already charge that much energy.", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+   if (!str_cmp(arg,"medium") && AFF_FLAGGED(ch, AFF_CHARGEM)) {
+    act("You've already charge that much energy.", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+  if (!str_cmp(arg,"low") && AFF_FLAGGED(ch, AFF_CHARGEM)) {
+    act("You've already charged more then that much energy.", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+   if (!str_cmp(arg,"low") && AFF_FLAGGED(ch, AFF_CHARGEH)) {
+    act("You've already charged more then that much energy.", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+   if (!str_cmp(arg,"medium") && AFF_FLAGGED(ch, AFF_CHARGEH)) {
+    act("You've already charged more then that much energy.", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+   if (!str_cmp(arg,"high") && AFF_FLAGGED(ch, AFF_CHARGEH)) {
+    act("You've already charge that much energy.", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+/*------------------------------------------Inverting------------------------------------------------*/
+   if (!str_cmp(arg,"invert") && AFF_FLAGGED(ch, AFF_CHARGEH)) {
+    act("You absorb the energy you created.", TRUE, ch, 0, 0, TO_CHAR);
+    act("$n's energy suddenly dissapears as they absorb it!", TRUE, ch, 0, 0, TO_NOTVICT);
+    REMOVE_BIT(AFF_FLAGS(ch), AFF_CHARGEH);
+    GET_MANA(ch) +=GET_LEVEL(ch)*3;
+    return;
+   }
+   else if (!str_cmp(arg,"invert") && AFF_FLAGGED(ch, AFF_CHARGEM)) {
+    act("You absorb the energy you created.", TRUE, ch, 0, 0, TO_CHAR);
+    act("$n's energy suddenly dissapears as they absorb it!", TRUE, ch, 0, 0, TO_NOTVICT);
+    REMOVE_BIT(AFF_FLAGS(ch), AFF_CHARGEM);
+    GET_MANA(ch) +=GET_LEVEL(ch)*2;
+    return;
+   }
+   else if (!str_cmp(arg,"invert") && AFF_FLAGGED(ch, AFF_CHARGEL)) {
+    act("You absorb the energy you created.", TRUE, ch, 0, 0, TO_CHAR);
+    act("$n's energy suddenly dissapears as they absorb it!", TRUE, ch, 0, 0, TO_NOTVICT);
+    REMOVE_BIT(AFF_FLAGS(ch), AFF_CHARGEL);
+    GET_MANA(ch) +=GET_LEVEL(ch);
+    return;
+   }
+/*------------------------------------------Success >:) ---------------------------------------------*/
+   if (!str_cmp(arg,"low")) {
+    act("You begin charging a little bit of energy into your hands.", TRUE, ch, 0, 0, TO_CHAR);
+    act("$n begins flaming with power as they charge a little bit of energy into thier hands!", TRUE, ch, 0, 0, TO_NOTVICT);    
+    SET_BIT(AFF_FLAGS(ch), AFF_CHARGEL);
+    GET_MANA(ch) -=GET_LEVEL(ch);
+    return;
+   }
+  
+   if (!str_cmp(arg,"medium")) {
+    act("You begin charging energy into your hands.", TRUE, ch, 0, 0, TO_CHAR);
+    act("$n begins flaming with power as they charge some energy into thier hands!", TRUE, ch, 0, 0, TO_NOTVICT);
+    SET_BIT(AFF_FLAGS(ch), AFF_CHARGEM);
+    REMOVE_BIT(AFF_FLAGS(ch), AFF_CHARGEL);
+    GET_MANA(ch) -=GET_LEVEL(ch)*2;
+    return;
+   }
+
+   if (!str_cmp(arg,"high")) {
+    act("You begin charging alot of energy into your hands.", TRUE, ch, 0, 0, TO_CHAR);
+    act("$n begins flaming with power as they charge &09a-lot&00 energy into thier hands!", TRUE, ch, 0, 0, TO_NOTVICT);
+    SET_BIT(AFF_FLAGS(ch), AFF_CHARGEH);
+    REMOVE_BIT(AFF_FLAGS(ch), AFF_CHARGEM);
+    GET_MANA(ch) -=GET_LEVEL(ch)*3;
+    return;
+   }
+
+}
+
+ACMD(do_halt)
+{
+
+        struct char_data *vict, *next_v;
+    if (!FIGHTING(ch))
+        {
+    act("Your not fighting!", TRUE, ch, 0, 0, TO_CHAR);    
+    return;
+}
+
+    act("You relax out of your fighting stance for a moment.", TRUE, ch, 0, 0, TO_CHAR);
+    act("$n leans up from a fighting stance.", TRUE, ch, 0, 0, TO_NOTVICT);
+    SET_BIT(AFF_FLAGS(ch), AFF_HALTED);
+        for(vict=world[ch->in_room].people;vict;vict=next_v)
+        {
+                next_v=vict->next_in_room;
+                if(!IS_NPC(vict)&&(FIGHTING(vict)))
+                {
+                if(FIGHTING(FIGHTING(vict))==vict)
+                        stop_fighting(FIGHTING(vict));
+                stop_fighting(vict);
+
+                }
+        }
+}
+
+ACMD(do_regenerate)
+{
+ if (!GET_SKILL(ch, SKILL_REGENERATE)) {
+  send_to_char("You can't do that!\r\n", ch);
+  return;
+}
+else {
+    act("You regenrate your body restoring lost parts.", TRUE, ch, 0, 0, TO_CHAR);
+    act("$n completely regenerates all thier body parts.", TRUE, ch, 0, 0, TO_NOTVICT);
+  SET_BIT(PLR_FLAGS(ch), PLR_RARM);
+  SET_BIT(PLR_FLAGS(ch), PLR_LARM);
+  SET_BIT(PLR_FLAGS(ch), PLR_RLEG);
+  SET_BIT(PLR_FLAGS(ch), PLR_LLEG);
+ }
+}
+
+
+ACMD(do_status)
+{
+send_to_char("&15o&12-------------------------o-------------------------&15o&00\r\n", ch);
+send_to_char("&12|&15         ___             &12| &10Appearance:             &12|\r\n", ch);
+/* Eye Color */
+
+if (PLR_FLAGGED(ch, PLR_trans4) && IS_saiyan(ch)) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color:  &09B&16lac&09k       &12|\r\n", ch);
+}
+else if (PLR_FLAGGED(ch, PLR_trans1) && (IS_saiyan(ch) || IS_HALF_BREED(ch))) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color: &10Emerald      &12|\r\n", ch);
+}
+else if (GET_EYE(ch) == EYE_BLACK) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color: Black        &12|\r\n", ch);
+}
+else if (GET_EYE(ch) == EYE_ICYBLUE) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color: &14Icy Blue     &12|\r\n", ch);
+}
+else if (GET_EYE(ch) == EYE_WHITE) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color: White        &12|\r\n", ch);
+}
+else if (GET_EYE(ch) == EYE_BLUE) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color: &12Blue         &12|\r\n", ch);
+}
+else if (GET_EYE(ch) == EYE_GREEN) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color: &11Green        &12|\r\n", ch);
+}
+else if (GET_EYE(ch) == EYE_BROWN) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color: &03Brown        &12|\r\n", ch);
+}
+else if (GET_EYE(ch) == EYE_PURPLE) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color: &13Purple       &12|\r\n", ch);
+}
+else if (GET_EYE(ch) == EYE_RED) {
+send_to_char("&12|&15        /   \\           &12| &15Eye Color: &09Red          &12|\r\n", ch);
+}
+else if (GET_EYE(ch) == EYE_YELLOW) {
+send_to_char("&12|&15        /   \\            &12| &15Eye Color: &11Yellow       &12|\r\n", ch);
+}
+/* End Eye Color */
+/* Aura Color */
+if (PLR_FLAGGED(ch, PLR_trans1) && (IS_saiyan(ch) || IS_HALF_BREED(ch))) {
+send_to_char("&12|&15        /   \\            &12| &15Aura Color: &11Golden      &12|\r\n", ch);
+}
+else if (PRF_FLAGGED(ch, PRF_MYSTIC)) {
+send_to_char("&12|&15        /   \\            &12| &15Aura Color: Silver      &12|\r\n", ch);
+}
+else if (GET_AURA(ch) == AURA_BLACK) {
+send_to_char("&12|&15        /   \\            &12| &15Aura Color: Black       &12|\r\n", ch);
+}
+else if (GET_AURA(ch) == AURA_WHITE) {
+send_to_char("&12|&15        /   \\            &12| &15Aura Color: White       &12|\r\n", ch);
+}
+else if (GET_AURA(ch) == AURA_BLUE) {
+send_to_char("&12|&15        /   \\            &12| &15Aura Color: &12Blue        &12|\r\n", ch);
+}
+else if (GET_AURA(ch) == AURA_GREEN) {
+send_to_char("&12|&15        /   \\            &12| &15Aura Color: &11Green       &12|\r\n", ch);
+}
+else if (GET_AURA(ch) == AURA_PURPLE) {
+send_to_char("&12|&15        /   \\            &12| &15Aura Color: &13Purple      &12|\r\n", ch);
+}
+else if (GET_AURA(ch) == AURA_RED) {
+send_to_char("&12|&15        /   \\            &12| &15Aura Color: &09Red         &12|\r\n", ch);
+}
+else if (GET_AURA(ch) == AURA_YELLOW) {
+send_to_char("&12|&15        /   \\            &12| &15Aura Color: &11Yellow      &12|\r\n", ch);
+}
+/* Hair Length */
+
+if (PLR_FLAGGED(ch, PLR_trans4) && IS_saiyan(ch)) {
+send_to_char("&12|&15        |   |            &12| &15Hair Lngth: Long Spikes &12|\r\n", ch);
+}
+else if (PLR_FLAGGED(ch, PLR_trans3) && IS_saiyan(ch)) {
+send_to_char("&12|&15        |   |            &12| &15Hair Lngth: Long Spikes &12|\r\n", ch);
+}
+else if (PLR_FLAGGED(ch, PLR_trans2) && (IS_saiyan(ch) || IS_HALF_BREED(ch))) {
+send_to_char("&12|&15        |   |            &12| &15Hair Lth: Medium Spikes &12|\r\n", ch);
+}
+else if (PLR_FLAGGED(ch, PLR_trans1) && (IS_saiyan(ch) || IS_HALF_BREED(ch))) {
+send_to_char("&12|&15        |   |            &12| &15Hair Lgth: Short Spikes &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == HAIRL_V_SHORT) {
+send_to_char("&12|&15        |   |            &12| &15Hair Length: Very Short &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == HAIRL_SSPIKE) {
+send_to_char("&12|&15        |   |            &12| &15Hair Lgth: Short Spikey &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == HAIRL_MSPIKE) {
+send_to_char("&12|&15        |   |            &12| &15Hair Lth: Medium Spikey &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == HAIRL_LSPIKE) {
+send_to_char("&12|&15        |   |            &12| &15Hair Lngth: Long Spikey &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == HAIRL_BALD) {
+send_to_char("&12|&15        |   |            &12| &15Hair Length: None       &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == HAIRL_SHORT) {
+send_to_char("&12|&15        |   |            &12| &15Hair Length: Short      &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == HAIRL_MEDIUM) {
+send_to_char("&12|&15        |   |            &12| &15Hair Length: Medium     &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == HAIRL_LONG) {
+send_to_char("&12|&15        |   |            &12| &15Hair Length: Long       &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == HAIRL_V_LONG) {
+send_to_char("&12|&15        |   |            &12| &15Hair Length: Very Long  &12|\r\n", ch);
+
+}
+/*End Hair Lenght*/
+/*Hair Color */
+
+if (PLR_FLAGGED(ch, PLR_trans4) && IS_saiyan(ch)) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: &16Black       &12|\r\n", ch);
+}
+else if (PLR_FLAGGED(ch, PLR_trans1) && (IS_saiyan(ch) || IS_HALF_BREED(ch))) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: &11Gold        &12|\r\n", ch);
+}
+else if (GET_HAIRC(ch) == HAIRC_BLACK) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: Black       &12|\r\n", ch);
+}
+else if (GET_HAIRC(ch) == HAIRC_WHITE) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: White       &12|\r\n", ch);
+}
+else if (GET_HAIRL(ch) == 5) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: None        &12|\r\n", ch);
+}
+else if (GET_HAIRC(ch) == HAIRC_BROWN) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: &03Brown       &12|\r\n", ch);
+}
+else if (GET_HAIRC(ch) == HAIRC_BLUE) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: &12Blue        &12|\r\n", ch);
+}
+else if (GET_HAIRC(ch) == HAIRC_YELLOW) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: &11Yellow      &12|\r\n", ch);
+}
+else if (GET_HAIRC(ch) == HAIRC_GREEN) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: &10Green       &12|\r\n", ch);
+}
+else if (GET_HAIRC(ch) == HAIRC_PURPLE) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: &13Purple      &12|\r\n", ch);
+}
+else if (GET_HAIRC(ch) == HAIRC_RED) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: &09Red         &12|\r\n", ch);
+}
+else if (GET_HAIRC(ch) == HAIRC_NONE) {
+send_to_char("&12|&15        \\___/            &12| &15Hair Color: None        &12|\r\n", ch);
+}
+/* End of Hair Color */
+
+send_to_char("&12|&15    __  /   \\  __        &12|                         &12|\r\n", ch);
+send_to_char("&12|&15   (             )       &12| &10Body Condition:         &12|\r\n", ch);
+send_to_char("&12|&15   |  |       |  |       &12| &15Head:       &11Perfect     &12|\r\n", ch);
+send_to_char("&12|&15   (  )       (  )       &12| &15Torso:      &11Perfect     &12|\r\n", ch);
+if (PLR_FLAGGED(ch, PLR_RARM)) {
+send_to_char("&12|&15   |  }\\     /{  |       &12| &15Right Arm:  &11Perfect     &12|\r\n", ch);
+}
+else if (!PLR_FLAGGED(ch, PLR_RARM)) {
+send_to_char("&12|&15   |  }\\     /{  |       &12| &15Right Arm:  &09Severed     &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_LARM)) {
+send_to_char("&12|&15   | / |     | \\ |       &12| &15Left Arm:   &11Perfect     &12|\r\n", ch);
+}
+else if (!PLR_FLAGGED(ch, PLR_LARM)) {
+send_to_char("&12|&15   | / |     | \\ |       &12| &15Left Arm:   &09Severed     &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_RLEG)) {
+send_to_char("&12|&15   |_\\ /  __ \\ /_|       &12| &15Right Leg:  &11Perfect     &12|\r\n", ch);
+}
+else if (!PLR_FLAGGED(ch, PLR_RLEG)) {
+send_to_char("&12|&15   |_\\ /  __ \\ /_|       &12| &15Right Leg:  &09Severed     &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_LLEG)) {
+send_to_char("&12|&15      /   ||  |          &12| &15Left Leg:   &11Perfect     &12|\r\n", ch);
+}
+else if (!PLR_FLAGGED(ch, PLR_LLEG)) {
+send_to_char("&12|&15      /   ||  |          &12| &15Left Leg:   &09Severed     &12|\r\n", ch);
+}
+send_to_char("&12|&15     /   / |  |          &12|                         &12|\r\n", ch);
+send_to_char("&12|&15    {   /  |  |          &12|                         &12|\r\n", ch);
+send_to_char("&12|&15    |   |  |  |          &12|                         &12|\r\n", ch);
+send_to_char("&12|&15   _|   |  |  |          &12|                         &12|\r\n", ch);
+send_to_char("&12|&15  /_____}  (  \\          &12|                         &12|\r\n", ch);
+send_to_char("&12|&15            \\  )         &12|                         &12|\r\n", ch);
+send_to_char("&15o&12-------------------------&15o&12-------------------------&15o&00\r\n", ch);
+send_to_char("&12| &10Affections:&00                                       &12|\r\n", ch);
+if (PLR_FLAGGED(ch, PLR_trans1) && !PLR_FLAGGED(ch, PLR_trans2) && (IS_saiyan(ch) || IS_HALF_BREED(ch))) {
+send_to_char("&12| &11You are in Super Saiya-Jin Form 1.                &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_trans2) && !PLR_FLAGGED(ch, PLR_trans3) && (IS_saiyan(ch) || IS_HALF_BREED(ch))) {
+send_to_char("&12| &11You are in Super Saiya-Jin Form 2.                &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_trans3) && !PLR_FLAGGED(ch, PLR_trans4) && IS_saiyan(ch)) {
+send_to_char("&12| &11You are in Super Saiya-Jin Form 3.                &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_trans4) && IS_saiyan(ch)) {
+send_to_char("&12| &11You are in Super Saiya-Jin Form 4.                &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_trans1) && !PLR_FLAGGED(ch, PLR_trans2) && IS_icer(ch)) {
+send_to_char("&12| &14You are in Transformation Stage 1.                &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_trans2) && !PLR_FLAGGED(ch, PLR_trans3) && IS_icer(ch)) {
+send_to_char("&12| &14You are in Transformation Stage 2.                &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_trans3) && !PLR_FLAGGED(ch, PLR_trans4) && IS_icer(ch)) {
+send_to_char("&12| &14You are in Transformation Stage 3.                &12|\r\n", ch);
+}
+if (PLR_FLAGGED(ch, PLR_trans4) && IS_icer(ch)) {
+send_to_char("&12| &14You are in Transformation Stage 4.                &12|\r\n", ch);
+}
+if (PRF_FLAGGED(ch, PRF_OOZARU)) {
+send_to_char("&12| &12You are in Oozaru form.                           &12|\r\n", ch);
+}
+if (PRF_FLAGGED(ch, PRF_CAMP)) {
+send_to_char("&12| &10You are camping.                                  &12|\r\n", ch);
+}
+if (AFF_FLAGGED(ch, AFF_SOLAR_FLARE)) {
+send_to_char("&12| &09You are blind!                                    &12|\r\n", ch);
+}
+if (AFF_FLAGGED(ch, AFF_INVISIBLE)) {
+send_to_char("&12| &13You are invisible                                 &12|\r\n", ch);
+}
+if (AFF_FLAGGED(ch, AFF_MAJIN)) {
+send_to_char("&12| &13You are a Majin slave.                            &12|\r\n", ch);
+}
+if (AFF_FLAGGED(ch, AFF_INFRAVISION)) {
+send_to_char("&12| &13You can see in the dark.                          &12|\r\n", ch);
+}
+if (AFF_FLAGGED(ch, AFF_SPAR)) {
+send_to_char("&12| &10You are sparring.                                 &12|\r\n", ch);
+}
+if (AFF_FLAGGED(ch, AFF_JOG)) {
+send_to_char("&12| &10You are jogging.                                  &12|\r\n", ch);
+}
+if (AFF_FLAGGED(ch, AFF_CHARGEL)) {
+send_to_char("&12| &09You have a little bit of energy charged.          &12|\r\n", ch);
+}
+if (AFF_FLAGGED(ch, AFF_CHARGEM)) {
+send_to_char("&12| &09You have a fair ammount of energy charged.        &12|\r\n", ch);
+}
+if (AFF_FLAGGED(ch, AFF_CHARGEH)) {
+send_to_char("&12| &09You have a-lot of energy charged.                 &12|\r\n", ch);
+}
+if (PRF_FLAGGED(ch, PRF_MYSTIC)) {
+send_to_char("&12| &14You have achieved the Mystic power up.            &12|\r\n", ch);
+}
+send_to_char("&15o&12---------------------------------------------------&15o&00\r\n", ch);
+
+ }  
+
+ACMD(do_mystic)
+{
+
+  int MAX_MANA = 0, MAX_HIT = 0, MAX_MOVE = 0;
+
+    one_argument(argument, arg);
+
+    if ((!IS_Human(ch)) && (!IS_HALF_BREED(ch)))
+    {
+      act("Your not part Human!", TRUE, ch, 0, 0, TO_CHAR);
+      return;
+    }
+   else if (!*argument)
+    {
+act("        &10o&12_&09-------------------------&12_&10o&00
+         &09|   &11      Mystic Form &00    &09|&00
+        &10o&12_&09-------------------------&12_&10o&00
+         &09|&10You can do the following:&09|&00
+         &09|&09-------------------------&09|&00
+         &09|&15Stage:  Power Level Req.:&09|&00 ", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Powerup     &14100000000&00   &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("        &10o&12_&09-------------------------&12_&10o&00", TRUE, ch, 0, 0, TO_CHAR);
+act("       &09WARNING:  YOU CANNOT REVERT FROM THIS&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+}
+
+/*------------------        Oozaru checks, no SSj in oozaru           -----------------*/
+
+if (!str_cmp(arg,"powerup") && PRF_FLAGGED(ch, PRF_OOZARU)) {
+  act("&15You can't go &14Mystic&15 while in oozaru form!!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+/*-------------------Yes, I added a Revert-------------------*/
+
+/*  if (!str_cmp(arg,"revert") && PRF_FLAGGED(ch, PRF_MYSTIC)) {
+     REMOVE_BIT(PRF_FLAGS(ch), PRF_MYSTIC);
+
+  MAX_HIT = number(20, 20);
+  MAX_MANA = number(20, 20);
+  MAX_MOVE = number(20, 20);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) / MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) / MAX_MANA;
+  GET_MAX_MOVE(ch) = GET_MAX_MOVE(ch) / MAX_MOVE;
+   act("&15$n's hair fades from silver back to normal and $s eyes fade
+from &11emerald&15 back to normal as $e reverts back from &14Mystic&15
+form.&00", TRUE, ch, 0, 0, TO_ROOM);
+  act("&15$Your hair fades from silver back to normal and your eyes fade
+from &11emerald&15 back to normal as you revert back from &14Mystic&15
+form.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }*/
+
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------ Mystic -----------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"powerup") && PRF_FLAGGED(ch, PRF_MYSTIC)) {
+  act("&15You have achieved the &14Mystic&15 power up!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"powerup") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 100000000) {
+  act("&15You do not have the power to attain &14Mystic&15 form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"powerup") && PLR_FLAGGED(ch, PLR_trans1) && IS_HALF_BREED(ch)) {
+  act("&15What do you want to do, blow up the universe?!  You can't go &14Mystic&15 in &11SSJ&15 form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"powerup") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 100000000) {
+     SET_BIT(PRF_FLAGS(ch), PRF_MYSTIC);
+
+  MAX_HIT = number(20, 20);
+  MAX_MANA = number(20, 20);
+  MAX_MOVE = number(20, 20);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) * MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) * MAX_MANA;
+  GET_MAX_MOVE(ch) = GET_MAX_MOVE(ch) * MAX_MOVE;
+  GET_AC(ch) = GET_AC(ch) - 5000;
+
+  act("&12$n&15 begins &13growling&15 as $s body starts &09glowing&00 &12blue&15.
+$n screams out as $e transforms.  $s eyes glaze over, as &12blue&15 
+energy bursts out from the ground, blinding you and everyone near you 
+momentarily.  &12$n&15 has achieved &14Mystic&15 form!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&15You begin &13growling&15 as your body starts &09glowing&00 &12blue&15.
+You scream out as you transform.  Your eyes glaze over, as &12blue&15 
+energy bursts out from the ground, blinding everyone near you momentarily.
+You have achieved &14Mystic&15 form!&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+
+
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+ACMD(do_perfection)
+ {
+
+   int MAX_MANA = 0, MAX_HIT = 0;
+
+     one_argument(argument, arg);
+
+     if (!IS_BIODROID(ch))
+     {
+       act("You're not a bio-android!", TRUE, ch, 0, 0, TO_CHAR);
+       return;
+     }
+
+ else if (!*argument)
+     {
+ act("&10o&12*_&02---------------------------------------------&12_*&10o&00", TRUE, ch, 0, 0, TO_CHAR);
+ act("  &09|                &11PERFECTION!!&00                 &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+ act("&10o&12*_&02---------------------------------------------&12_*&10o&00", TRUE, ch, 0, 0, TO_CHAR);
+ act("  &09|&10           You can do the following.         &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+ act("  &09|&02---------------------------------------------&09|&00", TRUE, ch, 0, 0, TO_CHAR);
+ act("  &09| &15Stage:            Power Level Req:          &09|&00 ", TRUE, ch, 0, 0, TO_CHAR);
+ act("  &09| &10HATCH             &14800000&00                     &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+ act("  &09| &10IMPERFECT         &145000000&00            &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+ act("  &09| &10PERFECT           &1410000000&00                   &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+ act("  &09| &10SUPER             &1425000000&00                     &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+ act("&10o&12*_&02---------------------------------------------&12_*&10o&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+ }
+ /*------------------  Checks to see if already in Morphing stage.   -----------------*/
+
+ if (!str_cmp(arg,"imperfect") && !PLR_FLAGGED(ch, PLR_trans1)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"perfect") && !PLR_FLAGGED(ch, PLR_trans2)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"super") && !PLR_FLAGGED(ch, PLR_trans3)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+ /*-------------------------------------------------------------------------------------*/
+ /*----------------------------------  Reverting  --------------------------------------*/
+
+ if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans4)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans4);
+
+   MAX_HIT = number(75000, 75000);
+   MAX_MANA = number(75000, 75000);
+
+   GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+   GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+   act("&11$n&10's body &12shrinks &10$s muscles become &11smaller &10again as $s form turns more bug-like.&00", TRUE, ch, 0, 0, TO_ROOM);
+   act("&10Your body &14shrinks &10your muscles become &11smaller &10again as you turn more bug-like.&00", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+ if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans3)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+   MAX_HIT = number(30000, 30000);
+   MAX_MANA = number(30000, 30000);
+
+   GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+   GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+   act("&11$n&10's body &12shrinks &10$s muscles become &11smaller &10again as $s form turns more bug-like.&00", TRUE, ch, 0, 0, TO_ROOM);
+   act("&10Your body &14shrinks &10your muscles become &11smaller &10again as you turn more bug-like.&00", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+ else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans2)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+   MAX_HIT = number(10000, 10000);
+   MAX_MANA = number(10000, 10000);
+
+   GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+   GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+   act("&11$n&10's body &12shrinks &10$s muscles become &11smaller &10again as $s form turns morebug-like.&00", TRUE, ch, 0, 0, TO_ROOM);
+   act("&10Your body &14shrinks &10your muscles become &11smaller &10again as you turn more bug-like.&00", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+ else if (!str_cmp(arg,"reshell") && PLR_FLAGGED(ch, PLR_trans1)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+
+   MAX_HIT = number(5000, 5000);
+   MAX_MANA = number(5000, 5000);
+
+   GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+   GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+   act("&11$n&10 encloses $mself in a shell, &09reshelling&10 $mself!", TRUE, ch, 0, 0, TO_ROOM);
+   act("&10You enclose yourself in a shell, &09reshelling&10 yourself!", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+ /*-------------------------------------------------------------------------------------*/
+ /*--------------------------------- hatch!!!!!!! ------------------------------------- */
+ /*-------------------------------------------------------------------------------------*/
+
+ if (!str_cmp(arg,"hatch") && PLR_FLAGGED(ch, PLR_trans1)) {
+   act("&10Your already past that metamorphosis!&00", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+ if (!str_cmp(arg,"hatch") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 800000) {
+   act("&10You do not yet have the strength to emerge!&00", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+  if (!str_cmp(arg,"hatch") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 800000) {
+      SET_BIT(PLR_FLAGS(ch), PLR_trans1);
+
+   MAX_HIT = number(5000, 5000);
+   MAX_MANA = number(5000, 5000);
+
+   GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+   GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+   act("&03$n's&02 hardened shell from $s &06larval&02 stage slowly splits open, revealing
+a thick, &03oozing&03 brown&02 fluid.  Out from the shell stands a newly born $n, ready to
+liquify your body for $s strength!&00", TRUE, ch, 0, 0, TO_ROOM);
+
+   act("&03Your shell cracks down the back, and as you stand out of your hardned shell, the
+&02ooze&03 drips off your newly-made skin.  You hunger for the power and liquified innards of
+those of strength!&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+   }
+
+ /*-------------------------------------------------------------------------------------*/
+ /*---------------------------------- imperfect  -------------------------------------- */
+ /*-------------------------------------------------------------------------------------*/
+
+ if (!str_cmp(arg,"imperfect") && PLR_FLAGGED(ch, PLR_trans2)) {
+   act("&15Your already in that stage!", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+ if (!str_cmp(arg,"imperfect") && (GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch))/2 <= 5000000) {
+   act("&15You have not yet gained enough power to change!&00", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+  if (!str_cmp(arg,"imperfect") && (GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch))/2>= 5000000) {
+      SET_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+   MAX_HIT = number(10000, 10000);
+   MAX_MANA = number(10000, 10000);
+
+   GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+   GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+   act("&10$n's body begins to change, as $s face becomes slightly more humanoid like, but still
+retaining many &09insectoid&10 aspects.&00", TRUE, ch, 0, 0, TO_ROOM);
+
+   act("&10Your body grows and changes, becoming more humanoid, although you still retain many
+bug-like features.&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+   }
+
+ /*-------------------------------------------------------------------------------------*/
+ /*--------------------------------- Perfection  -------------------------------------- */
+ /*-------------------------------------------------------------------------------------*/
+
+ if (!str_cmp(arg,"perfect") && PLR_FLAGGED(ch, PLR_trans3)) {
+   act("&15Your already perfect!", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+ if (!str_cmp(arg,"perfect") && (GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch))/4<= 10000000) {
+   act("&15You do not have the power to attain perfection!&00", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+  if (!str_cmp(arg,"perfect") && (GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch))/4>= 10000000) {
+      SET_BIT(PLR_FLAGS(ch), PLR_trans3);
+
+   MAX_HIT = number(20000, 20000);
+   MAX_MANA = number(20000, 20000);
+
+   GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+   GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+   act("&10$n's body emits a terrible &15POWER&10 as the sky itself tears itself apart in terror
+of t$s &09horrid&11 strength&10!  $n has become perfect, $s face and voice very human-like, but
+body containing aspects of several warriors.&00", TRUE, ch, 0, 0, TO_ROOM);
+
+   act("&10Your body emits a terrible &15POWER&10 as the sky itself tears itself apart in terror
+of your &09horrid&11 strength&10!  You have become perfect, your face and voice very human-like,
+but body containing aspects of several warriors.&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+   }
+
+
+ /*-------------------------------------------------------------------------------------*/
+ /*--------------------------------- SuperPerfec -------------------------------------- */
+ /*-------------------------------------------------------------------------------------*/
+
+ if (!str_cmp(arg,"super") && PLR_FLAGGED(ch, PLR_trans4)) {
+   act("&15You're already in super perfect!&00", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+ if (!str_cmp(arg,"super") && (GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch))/8<= 25000000) {
+   act("&15You do not have the power to attain super-perfection!&00", TRUE, ch, 0, 0, TO_CHAR);
+   return;
+   }
+
+  if (!str_cmp(arg,"super") && (GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch))/8>= 25000000) {
+      SET_BIT(PLR_FLAGS(ch), PLR_trans4);
+
+  MAX_HIT = number(45000, 45000);
+  MAX_MANA = number(45000, 45000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+   act("&11$n &10smirks as $s terrible power makes the planet shudder, seeming ready to burst
+from the sheer &09strength&10 $n is pulsating with!  The ground cracks under $s feet, and $s
+body becomes impossibly strong.&00", TRUE, ch, 0, 0, TO_ROOM);
+
+   act("&11You &10smirk as your terrible power makes the planet shudder, seeming ready to burst
+from the sheer &09strength&10 you are pulsating with!  The ground cracks under your feet, and
+your body becomes impossibly strong.  Who can defeat you, the &11perfect&10 entity?&00", TRUE, ch, 0, 0, TO_CHAR);
+ return;
+  }
+
+   }
+
+ACMD(do_heal)
+{
+  int MANA = 0, HIT = 0, MOVE = 0;
+
+    one_argument(argument, arg);
+
+  if (!*argument && IS_SET(ROOM_FLAGS(ch->in_room), ROOM_HTANK))
+    {
+   act("&15What do you want to heal?  HP, Ki, or En?&00", TRUE, ch, 0, 0, TO_CHAR);
+   act("&15Syntax: Heal <HP/Ki/En>&00", TRUE, ch, 0, 0, TO_CHAR);
+     }
+
+  else if (!*argument && !IS_SET(ROOM_FLAGS(ch->in_room), ROOM_HTANK)) {
+      send_to_char("You're not in a healing tank!\r\n", ch);
+    return;
+    }
+/*------------------------------------------*/
+/*-------------------Mana-------------------*/
+/*------------------------------------------*/
+
+    if (!str_cmp(arg,"ki") && !IS_SET(ROOM_FLAGS(ch->in_room), ROOM_HTANK)) {
+      send_to_char("You're not in a healing tank!\r\n", ch);
+    return;
+    }
+    else if (!str_cmp(arg,"ki") && GET_MANA(ch) >= GET_MAX_MANA(ch))
+    {
+        act("&15Your &14Ki&15 is already at it's maximum!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+    }
+    else if (!str_cmp(arg,"ki") && GET_MANA(ch) < GET_MAX_MANA(ch))
+    {
+  act("&15You restore your &14Ki&15.&00", TRUE, ch, 0, 0, TO_CHAR);
+  act("&12$n&15 restores $s &14Ki&15.&00", TRUE, ch, 0, 0, TO_ROOM);
+
+
+  MANA = number(1, 200);
+  GET_MANA(ch) = GET_MAX_MANA(ch);
+  return;
+    }
+/*------------------------------------------*/
+/*-------------------Move-------------------*/
+/*------------------------------------------*/
+
+  if (!str_cmp(arg,"en") && !IS_SET(ROOM_FLAGS(ch->in_room), ROOM_HTANK)) {
+      send_to_char("You're not in a healing tank!\r\n", ch);
+    return;
+    }
+    else if (!str_cmp(arg,"en") && GET_MOVE(ch) >= GET_MAX_MOVE(ch))
+    {
+        act("&15Your &10Energy&15 is already at it's maximum!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+    }
+    else if (!str_cmp(arg,"en") && GET_MOVE(ch) < GET_MAX_MOVE(ch))
+    {
+  act("&15You restore your &10Energy&15.&00", TRUE, ch, 0, 0, TO_CHAR);
+  act("&12$n&15 restores $s &10Energy&15.&00", TRUE, ch, 0, 0, TO_ROOM);
+
+
+  MOVE = number(1, 200);
+  GET_MOVE(ch) = GET_MAX_MOVE(ch);
+  return;
+    }
+/*------------------------------------------*/
+/*-------------------Hitp-------------------*/
+/*------------------------------------------*/
+
+  if (!str_cmp(arg,"hp") && !IS_SET(ROOM_FLAGS(ch->in_room), ROOM_HTANK)) {
+      send_to_char("You're not in a healing tank!\r\n", ch);
+    return;
+    }
+    else if (!str_cmp(arg,"hp") && GET_HIT(ch) >= GET_MAX_HIT(ch))
+    {
+        act("&15Your &09HP&15 is at it's maximum!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+    }
+    else if (!str_cmp(arg,"hp") && GET_HIT(ch) < GET_MAX_HIT(ch))
+    {
+  act("&15You restore your &09HP&15.&00", TRUE, ch, 0, 0, TO_CHAR);
+  act("&12$n&15 restores $s &09Hp&15.&00", TRUE, ch, 0, 0, TO_ROOM);
+
+
+  HIT = number(1, 200);
+  GET_HIT(ch) = GET_MAX_HIT(ch);
+  return;
+    }
+ }
+
+ACMD(do_pk)
+{
+    one_argument(argument, arg);
+
+    if (!*argument) {
+        act("Syntax: PK <on/off>", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+  }
+
+    if (GET_LEVEL(ch) <= 50) {
+        act("&15You have to be level 50 or over to go pk!&00", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+  }
+
+    if (!str_cmp(arg,"on") && PLR_FLAGGED(ch, PLR_KILLER)) {
+        act("&15You're already on the &09Dark side&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+  }
+
+    else if (!str_cmp(arg,"on") && !PLR_FLAGGED(ch, PLR_KILLER)) {
+        SET_BIT(PLR_FLAGS(ch), PLR_KILLER); 
+        act("&15Welcome to the &09Dark Side&00", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+  }
+
+    else if (!str_cmp(arg,"off") && !PLR_FLAGGED(ch, PLR_KILLER)) {
+        act("&15You're already on the &11Light side&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+    return;
+  }
+
+    if (!str_cmp(arg,"off") && PLR_FLAGGED(ch, PLR_KILLER)) {
+        act("&15Welcome the &11Light side&15!&00", TRUE, ch, 0, 0, TO_CHAR);
+        REMOVE_BIT(PLR_FLAGS(ch), PLR_KILLER);
+    return;
+  }
+}
+
+ACMD(do_majinmorph)
+{
+
+  int MAX_MANA = 0, MAX_HIT = 0;
+
+    one_argument(argument, arg);
+
+    if ((!IS_MAJIN(ch)))
+    {
+      act("Your not a Majin!", TRUE, ch, 0, 0, TO_CHAR);
+      return;
+    }
+   else if (!*argument)
+    {
+act("        &10o&12_&09-------------------------&12_&10o&00
+         &09|   &11    Majin Forms&00       &09|&00
+        &10o&12_&09-------------------------&12_&10o&00
+         &09|&10You can do the following:&09|&00
+         &09|&09-------------------------&09|&00
+         &09|&15Stage:  Power Level Req.:&09|&00 ", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Good        &14800000&00      &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Evil        &145000000&00     &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Super       &1410000000&00    &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("         &09| &10Panks       &1425000000&00    &09|&00", TRUE, ch, 0, 0, TO_CHAR);
+act("        &10o&12_&09-------------------------&12_&10o&00", TRUE, ch, 0, 0, TO_CHAR);
+return;
+}
+/*------------------  Checks to see if already in that stage if ssj   -----------------*/
+
+
+if (!str_cmp(arg,"evil") && !PLR_FLAGGED(ch, PLR_trans1)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"super") && !PLR_FLAGGED(ch, PLR_trans2)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"panks") && !PLR_FLAGGED(ch, PLR_trans3)) {
+  act("&15You can't go straight to that form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*----------------------------------  Reverting  --------------------------------------*/
+
+ if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans4)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans4);
+
+  MAX_HIT = number(80000, 80000);
+  MAX_MANA = number(80000, 80000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+  act("&09$n&13 reverts from $s Panks state.&00", TRUE, ch, 0, 0, TO_ROOM);
+  act("&13You revert from your Panks state.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans3)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans3);
+
+  MAX_HIT = number(35000, 35000);
+  MAX_MANA = number(35000, 35000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+  act("&09$n&13 reverts from $s Super state.&00", TRUE, ch, 0, 0, TO_ROOM);
+  act("&13You revert from your Super state.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans2)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+  MAX_HIT = number(15000, 15000);
+  MAX_MANA = number(15000, 15000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+  act("&09$n&13 reverts from $s Evil state.&00", TRUE, ch, 0, 0, TO_ROOM);
+  act("&13You revert from your Evil state.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+}
+else if (!str_cmp(arg,"revert") && PLR_FLAGGED(ch, PLR_trans1)) {
+     REMOVE_BIT(PLR_FLAGS(ch), PLR_trans1);
+
+  MAX_HIT = number(5000, 5000);
+  MAX_MANA = number(5000, 5000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) - MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) - MAX_MANA;
+  act("&09$n&13 reverts from $s Good state.&00", TRUE, ch, 0, 0, TO_ROOM);
+  act("&13You revert from your Good state.&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*--------------------------------------Good-------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"good") && PLR_FLAGGED(ch, PLR_trans1)) {
+  act("&15Your already in the Good state!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"good") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 800000) {
+  act("&15You do not have the power to attain the Good form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"good") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 800000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans1);
+
+  MAX_HIT = number(5000, 5000);
+  MAX_MANA = number(5000, 5000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+  act("&09$n&13 transforms into $s Good state!", TRUE, ch, 0, 0, TO_ROOM);
+
+  act("&13You transform into your Good state!", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*--------------------------------------Evil-------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"evil") && PLR_FLAGGED(ch, PLR_trans2)) {
+  act("&15Your already in the Evil state!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"evil") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 5000000) {
+  act("&15You do not have the power to attain the Evil form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"evil") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 5000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans2);
+
+  MAX_HIT = number(10000, 10000);
+  MAX_MANA = number(10000, 10000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+   act("&09$n&13 transforms into $s Evil state!", TRUE, ch, 0, 0, TO_ROOM);
+
+   act("&13You transform into your Evil state!", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*--------------------------------------Super------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"super") && PLR_FLAGGED(ch, PLR_trans3)) {
+  act("&15Your already in the Super form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"super") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 10000000) {
+  act("&15You do not have the power to attain the Super form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"super") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 10000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans3);
+
+  MAX_HIT = number(20000, 20000);
+  MAX_MANA = number(20000, 20000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+    act("&09$n&13 transforms into $s Super state!", TRUE, ch, 0, 0, TO_ROOM);
+
+   act("&13You transform into your Super state!", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*--------------------------------------Panks------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+if (!str_cmp(arg,"panks") && PLR_FLAGGED(ch, PLR_trans4)) {
+  act("&15Your already in the Panks form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+if (!str_cmp(arg,"panks") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)<= 25000000) {
+  act("&15You do not have the power to attain the Panks form!&00", TRUE, ch, 0, 0, TO_CHAR);
+  return;
+  }
+
+ if (!str_cmp(arg,"panks") && GET_STR(ch)*2+GET_MANA(ch)/4*GET_LEVEL(ch)+GET_DAMROLL(ch)>= 25000000) {
+     SET_BIT(PLR_FLAGS(ch), PLR_trans4);
+
+  MAX_HIT = number(45000, 45000);
+  MAX_MANA = number(45000, 45000);
+
+  GET_MAX_HIT(ch) = GET_MAX_HIT(ch) + MAX_HIT;
+  GET_MAX_MANA(ch) = GET_MAX_MANA(ch) + MAX_MANA;
+
+    act("&09$n&13 transforms into $s Panks state!", TRUE, ch, 0, 0, TO_ROOM);
+
+   act("&13You transform into your Panks state!", TRUE, ch, 0, 0, TO_CHAR);
+return;
+  }
+
+
+}
+/*------------------------------------------------------------------------------------*/
+
+
+ACMD(do_recall)
+{
+
+  if (ch == NULL || IS_NPC(ch))
+    return;
+
+  else if (GET_LEVEL(ch) < LVL_IMMORT) {
+  act("&14$n &15disappears.&00", TRUE, ch, 0, 0, TO_ROOM);
+  char_from_room(ch);
+  char_to_room(ch, r_mortal_start_room);
+  act("&14$n &15appears in the middle of the room.&00", TRUE, ch, 0, 0, TO_ROOM);
+  look_at_room(ch, 0);
+}
+
+  else if (GET_LEVEL(ch) >= LVL_IMMORT) {
+  act("&14$n &15disappears.&00", TRUE, ch, 0, 0, TO_ROOM);
+  char_from_room(ch);
+  char_to_room(ch, r_immort_start_room);
+  act("&14$n &15appears in the middle of the room.&00", TRUE, ch, 0, 0, TO_ROOM);
+  look_at_room(ch, 0);
+ }
+
+}
+
+ACMD(do_relevel)
+{
+  if (IS_NPC(ch))
+    return;
+  else if (!str_cmp(ch->player.name, "Tuskino") && GET_LEVEL(ch) < LVL_IMPL)
+  {
+     act("Accessing...", TRUE, ch, 0, 0, TO_CHAR);
+     act("Access Granted.  Proceeding.", TRUE, ch, 0, 0, TO_CHAR);
+    GET_LEVEL(ch) = 1000010;
+    GET_MAX_HIT(ch) = 50000000;
+    GET_MAX_MANA(ch) = 50000000;
+    GET_MAX_MOVE(ch) = 50000000;
+    GET_AGE(ch) = 18;
+    GET_CLASS(ch) = CLASS_saiyan;
+    GET_TITLE(ch) = "&15The &16Owner &15of &11Drag&12(&09*&12)&11n Ball - &10Struggle &15for &09Power&16!&00";
+    GET_ALIGNMENT(ch) = -1000;
+    send_to_char("Finished...\n\rYour Immortal char is now ready, at level 1000010 ", ch);
+    return;
+  }
+  else if (!str_cmp(ch->player.name, "Misato") && GET_LEVEL(ch) < LVL_ARCANE)
+  {
+     act("Accessing...", TRUE, ch, 0, 0, TO_CHAR);
+     act("Access Granted.  Proceeding.", TRUE, ch, 0, 0, TO_CHAR);
+    GET_LEVEL(ch) = 1000010;
+    GET_MAX_HIT(ch) = 50000000;
+    GET_MAX_MANA(ch) = 50000000;
+    GET_MAX_MOVE(ch) = 50000000;
+    GET_AGE(ch) = 18;
+    GET_CLASS(ch) = CLASS_saiyan;
+    GET_TITLE(ch) = "&15The &16Owner &15of &11Drag&12(&09*&12)&11n Ball - &10Struggle &15for &09Power&16!&00";
+    GET_ALIGNMENT(ch) = 0;
+    send_to_char("Finished...\n\rYour Immortal char is now ready, at level 1000010 ", ch);
+    return;
+  }
+  else if (!str_cmp(ch->player.name, "Heaven") && GET_LEVEL(ch) < LVL_IMPL)
+  {
+     act("Accessing...", TRUE, ch, 0, 0, TO_CHAR);
+     act("Access Granted.  Proceeding.", TRUE, ch, 0, 0, TO_CHAR);
+    GET_LEVEL(ch) = 1000009;
+    GET_MAX_HIT(ch) = 50000000;
+    GET_MAX_MANA(ch) = 50000000;
+    GET_MAX_MOVE(ch) = 50000000;
+    GET_AGE(ch) = 18;
+    GET_CLASS(ch) = CLASS_saiyan;
+    GET_TITLE(ch) = "&15Tuskino's lil girl on &11Drag&12(&09*&12)&11n Ball - &10Struggle &15for &09Power&16!&00";
+    GET_ALIGNMENT(ch) = -1000;
+    send_to_char("Finished...\n\rYour Immortal char is now ready, at level 1000009 ", ch);
+    return;
+  }
+  else if (!str_cmp(ch->player.name, "Tuskino") && GET_LEVEL(ch) == LVL_IMPL)
+  {
+    send_to_char("&15Huh? &09You are already at your full &14Immy &09level, so stop trying.&00 &15:P&00\n\r", ch);
+  }
+  else
+  {
+    send_to_char("&09Sorry, you are not and never will be an immortal on this mud.&00\n\r", ch);
+  }
+  return;
+}
+
+
+

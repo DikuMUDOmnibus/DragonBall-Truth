@@ -1,0 +1,1060 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:537: checking for less
+configure:569: checking for gcc
+configure:646: checking whether the C compiler (gcc  ) works
+configure:660: gcc -o conftest    conftest.c  1>&5
+configure:680: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:685: checking whether we are using GNU C
+configure:694: gcc -E conftest.c
+configure:709: checking whether gcc accepts -g
+configure:740: checking whether gcc -Wall also needs -Wno-char-subscripts
+configure:759: gcc -c -g -O2 -Wall -Werror  conftest.c 1>&5
+cc1: warnings being treated as errors
+configure: In function `main':
+configure:751: warning: `c' might be used uninitialized in this function
+configure: failed program was:
+#line 748 "configure"
+#include "confdefs.h"
+#include <ctype.h>
+int main() {
+ int i; char c;
+         i = isascii(c);
+         i = isdigit(c);
+         i = isprint(c);
+       
+; return 0; }
+configure:776: checking whether gcc accepts -Wno-char-subscripts
+configure:791: gcc -c -g -O2 -Wno-char-subscripts  conftest.c 1>&5
+configure:824: checking for gethostbyaddr
+configure:852: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:913: checking for socket
+configure:941: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1002: checking for malloc
+configure:1030: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1098: checking for crypt
+configure:1126: gcc -o conftest -g -O2   conftest.c  1>&5
+/tmp/cca69193.o: In function `main':
+/usr/home/paul/dbx/configure(.text+0x7): undefined reference to `crypt'
+configure: failed program was:
+#line 1103 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char crypt(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char crypt();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_crypt) || defined (__stub___crypt)
+choke me
+#else
+crypt();
+#endif
+
+; return 0; }
+configure:1147: checking for crypt in -lcrypt
+configure:1166: gcc -o conftest -g -O2   conftest.c -lcrypt   1>&5
+configure:1195: checking how to run the C preprocessor
+configure:1216: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1256: checking for ANSI C header files
+configure:1269: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1336: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1360: checking for sys/wait.h that is POSIX.1 compatible
+configure:1381: gcc -c -g -O2  conftest.c 1>&5
+configure:1405: checking for fcntl.h
+configure:1415: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1405: checking for sys/fcntl.h
+configure:1415: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1405: checking for errno.h
+configure:1415: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1405: checking for net/errno.h
+configure:1415: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1411: net/errno.h: No such file or directory
+configure: failed program was:
+#line 1410 "configure"
+#include "confdefs.h"
+#include <net/errno.h>
+configure:1405: checking for string.h
+configure:1415: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1405: checking for strings.h
+configure:1415: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1445: checking for limits.h
+configure:1455: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1445: checking for sys/time.h
+configure:1455: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1445: checking for sys/select.h
+configure:1455: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1445: checking for sys/types.h
+configure:1455: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1445: checking for unistd.h
+configure:1455: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1485: checking for memory.h
+configure:1495: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1485: checking for crypt.h
+configure:1495: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1491: crypt.h: No such file or directory
+configure: failed program was:
+#line 1490 "configure"
+#include "confdefs.h"
+#include <crypt.h>
+configure:1485: checking for assert.h
+configure:1495: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1485: checking for arpa/telnet.h
+configure:1495: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1485: checking for arpa/inet.h
+configure:1495: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1525: checking for sys/stat.h
+configure:1535: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1525: checking for sys/socket.h
+configure:1535: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1525: checking for sys/resource.h
+configure:1535: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1525: checking for netinet/in.h
+configure:1535: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1525: checking for netdb.h
+configure:1535: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1565: checking for signal.h
+configure:1575: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1565: checking for sys/uio.h
+configure:1575: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1603: checking for working const
+configure:1657: gcc -c -g -O2  conftest.c 1>&5
+configure:1678: checking for pid_t
+configure:1711: checking for size_t
+configure:1744: checking for ssize_t
+configure:1777: checking whether time.h and sys/time.h may both be included
+configure:1791: gcc -c -g -O2  conftest.c 1>&5
+configure:1813: checking return type of signal handlers
+configure:1835: gcc -c -g -O2  conftest.c 1>&5
+configure:1859: checking for inet_addr
+configure:1887: gcc -o conftest -g -O2   conftest.c   1>&5
+configure:1859: checking for inet_aton
+configure:1887: gcc -o conftest -g -O2   conftest.c   1>&5
+configure:1919: checking if accept is prototyped
+configure:1941: gcc -c -g -O2  conftest.c 1>&5
+configure:1934: conflicting types for `accept'
+/usr/include/sys/socket.h:417: previous declaration of `accept'
+configure: failed program was:
+#line 1925 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef accept
+  error - already defined!
+#endif
+void accept(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:1971: checking if atoi is prototyped
+configure:1993: gcc -c -g -O2  conftest.c 1>&5
+configure:1986: conflicting types for `atoi'
+/usr/include/stdlib.h:88: previous declaration of `atoi'
+configure: failed program was:
+#line 1977 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef atoi
+  error - already defined!
+#endif
+void atoi(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2023: checking if atol is prototyped
+configure:2045: gcc -c -g -O2  conftest.c 1>&5
+configure:2038: conflicting types for `atol'
+/usr/include/stdlib.h:89: previous declaration of `atol'
+configure: failed program was:
+#line 2029 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef atol
+  error - already defined!
+#endif
+void atol(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2075: checking if bind is prototyped
+configure:2097: gcc -c -g -O2  conftest.c 1>&5
+configure:2090: conflicting types for `bind'
+/usr/include/sys/socket.h:418: previous declaration of `bind'
+configure: failed program was:
+#line 2081 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef bind
+  error - already defined!
+#endif
+void bind(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2127: checking if bzero is prototyped
+configure:2149: gcc -c -g -O2  conftest.c 1>&5
+configure:2142: conflicting types for `bzero'
+/usr/include/string.h:79: previous declaration of `bzero'
+configure: failed program was:
+#line 2133 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef bzero
+  error - already defined!
+#endif
+void bzero(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2179: checking if chdir is prototyped
+configure:2201: gcc -c -g -O2  conftest.c 1>&5
+configure:2194: conflicting types for `chdir'
+/usr/include/unistd.h:63: previous declaration of `chdir'
+configure: failed program was:
+#line 2185 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef chdir
+  error - already defined!
+#endif
+void chdir(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2231: checking if close is prototyped
+configure:2253: gcc -c -g -O2  conftest.c 1>&5
+configure:2246: conflicting types for `close'
+/usr/include/unistd.h:65: previous declaration of `close'
+configure: failed program was:
+#line 2237 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef close
+  error - already defined!
+#endif
+void close(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2283: checking if crypt is prototyped
+configure:2305: gcc -c -g -O2  conftest.c 1>&5
+configure:2298: conflicting types for `crypt'
+/usr/include/unistd.h:122: previous declaration of `crypt'
+configure: failed program was:
+#line 2289 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef crypt
+  error - already defined!
+#endif
+void crypt(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2335: checking if fclose is prototyped
+configure:2357: gcc -c -g -O2  conftest.c 1>&5
+configure:2350: conflicting types for `fclose'
+/usr/include/stdio.h:202: previous declaration of `fclose'
+configure: failed program was:
+#line 2341 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fclose
+  error - already defined!
+#endif
+void fclose(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2387: checking if fcntl is prototyped
+configure:2409: gcc -c -g -O2  conftest.c 1>&5
+configure:2402: conflicting types for `fcntl'
+/usr/include/fcntl.h:185: previous declaration of `fcntl'
+configure: failed program was:
+#line 2393 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fcntl
+  error - already defined!
+#endif
+void fcntl(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2439: checking if fflush is prototyped
+configure:2461: gcc -c -g -O2  conftest.c 1>&5
+configure:2454: conflicting types for `fflush'
+/usr/include/stdio.h:205: previous declaration of `fflush'
+configure: failed program was:
+#line 2445 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fflush
+  error - already defined!
+#endif
+void fflush(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2491: checking if fprintf is prototyped
+configure:2513: gcc -c -g -O2  conftest.c 1>&5
+configure:2506: conflicting types for `fprintf'
+/usr/include/stdio.h:210: previous declaration of `fprintf'
+configure: failed program was:
+#line 2497 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fprintf
+  error - already defined!
+#endif
+void fprintf(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2543: checking if fputc is prototyped
+configure:2565: gcc -c -g -O2  conftest.c 1>&5
+configure:2558: conflicting types for `fputc'
+/usr/include/stdio.h:211: previous declaration of `fputc'
+configure: failed program was:
+#line 2549 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fputc
+  error - already defined!
+#endif
+void fputc(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2595: checking if fputs is prototyped
+configure:2617: gcc -c -g -O2  conftest.c 1>&5
+configure:2610: conflicting types for `fputs'
+/usr/include/stdio.h:212: previous declaration of `fputs'
+configure: failed program was:
+#line 2601 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fputs
+  error - already defined!
+#endif
+void fputs(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2647: checking if fread is prototyped
+configure:2669: gcc -c -g -O2  conftest.c 1>&5
+configure:2662: conflicting types for `fread'
+/usr/include/stdio.h:213: previous declaration of `fread'
+configure: failed program was:
+#line 2653 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fread
+  error - already defined!
+#endif
+void fread(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2699: checking if fscanf is prototyped
+configure:2721: gcc -c -g -O2  conftest.c 1>&5
+configure:2714: conflicting types for `fscanf'
+/usr/include/stdio.h:215: previous declaration of `fscanf'
+configure: failed program was:
+#line 2705 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fscanf
+  error - already defined!
+#endif
+void fscanf(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2751: checking if fseek is prototyped
+configure:2773: gcc -c -g -O2  conftest.c 1>&5
+configure:2766: conflicting types for `fseek'
+/usr/include/stdio.h:216: previous declaration of `fseek'
+configure: failed program was:
+#line 2757 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fseek
+  error - already defined!
+#endif
+void fseek(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2803: checking if fwrite is prototyped
+configure:2825: gcc -c -g -O2  conftest.c 1>&5
+configure:2818: conflicting types for `fwrite'
+/usr/include/stdio.h:219: previous declaration of `fwrite'
+configure: failed program was:
+#line 2809 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef fwrite
+  error - already defined!
+#endif
+void fwrite(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2855: checking if getpeername is prototyped
+configure:2877: gcc -c -g -O2  conftest.c 1>&5
+configure:2870: conflicting types for `getpeername'
+/usr/include/sys/socket.h:420: previous declaration of `getpeername'
+configure: failed program was:
+#line 2861 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef getpeername
+  error - already defined!
+#endif
+void getpeername(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2907: checking if getpid is prototyped
+configure:2929: gcc -c -g -O2  conftest.c 1>&5
+configure:2922: conflicting types for `getpid'
+/usr/include/unistd.h:83: previous declaration of `getpid'
+configure: failed program was:
+#line 2913 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef getpid
+  error - already defined!
+#endif
+void getpid(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:2959: checking if getrlimit is prototyped
+configure:2981: gcc -c -g -O2  conftest.c 1>&5
+configure:2974: conflicting types for `getrlimit'
+/usr/include/sys/resource.h:140: previous declaration of `getrlimit'
+configure: failed program was:
+#line 2965 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef getrlimit
+  error - already defined!
+#endif
+void getrlimit(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3011: checking if getsockname is prototyped
+configure:3033: gcc -c -g -O2  conftest.c 1>&5
+configure:3026: conflicting types for `getsockname'
+/usr/include/sys/socket.h:421: previous declaration of `getsockname'
+configure: failed program was:
+#line 3017 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef getsockname
+  error - already defined!
+#endif
+void getsockname(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3063: checking if gettimeofday is prototyped
+configure:3085: gcc -c -g -O2  conftest.c 1>&5
+configure:3078: conflicting types for `gettimeofday'
+/usr/include/sys/time.h:297: previous declaration of `gettimeofday'
+configure: failed program was:
+#line 3069 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef gettimeofday
+  error - already defined!
+#endif
+void gettimeofday(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3115: checking if htonl is prototyped
+configure:3137: gcc -c -g -O2  conftest.c 1>&5
+configure:3130: macro `__byte_swap_long' used with too many (8) args
+configure: failed program was:
+#line 3121 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef htonl
+  error - already defined!
+#endif
+void htonl(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3167: checking if htons is prototyped
+configure:3189: gcc -c -g -O2  conftest.c 1>&5
+configure:3182: macro `__byte_swap_word' used with too many (8) args
+configure: failed program was:
+#line 3173 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef htons
+  error - already defined!
+#endif
+void htons(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3219: checking if inet_addr is prototyped
+configure:3241: gcc -c -g -O2  conftest.c 1>&5
+configure:3232: syntax error before `-'
+configure:3234: conflicting types for `__inet_addr'
+/usr/include/arpa/inet.h:87: previous declaration of `__inet_addr'
+configure: failed program was:
+#line 3225 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef inet_addr
+  error - already defined!
+#endif
+void inet_addr(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3271: checking if inet_aton is prototyped
+configure:3293: gcc -c -g -O2  conftest.c 1>&5
+configure:3284: syntax error before `-'
+configure:3286: conflicting types for `__inet_aton'
+/usr/include/arpa/inet.h:88: previous declaration of `__inet_aton'
+configure: failed program was:
+#line 3277 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef inet_aton
+  error - already defined!
+#endif
+void inet_aton(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3323: checking if inet_ntoa is prototyped
+configure:3345: gcc -c -g -O2  conftest.c 1>&5
+configure:3336: syntax error before `-'
+configure:3338: conflicting types for `__inet_ntoa'
+/usr/include/arpa/inet.h:96: previous declaration of `__inet_ntoa'
+configure: failed program was:
+#line 3329 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef inet_ntoa
+  error - already defined!
+#endif
+void inet_ntoa(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3375: checking if listen is prototyped
+configure:3397: gcc -c -g -O2  conftest.c 1>&5
+configure:3390: conflicting types for `listen'
+/usr/include/sys/socket.h:423: previous declaration of `listen'
+configure: failed program was:
+#line 3381 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef listen
+  error - already defined!
+#endif
+void listen(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3427: checking if ntohl is prototyped
+configure:3449: gcc -c -g -O2  conftest.c 1>&5
+configure:3442: macro `__byte_swap_long' used with too many (8) args
+configure: failed program was:
+#line 3433 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef ntohl
+  error - already defined!
+#endif
+void ntohl(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3479: checking if perror is prototyped
+configure:3501: gcc -c -g -O2  conftest.c 1>&5
+configure:3494: conflicting types for `perror'
+/usr/include/stdio.h:227: previous declaration of `perror'
+configure: failed program was:
+#line 3485 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef perror
+  error - already defined!
+#endif
+void perror(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3531: checking if printf is prototyped
+configure:3553: gcc -c -g -O2  conftest.c 1>&5
+configure:3546: conflicting types for `printf'
+/usr/include/stdio.h:228: previous declaration of `printf'
+configure: failed program was:
+#line 3537 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef printf
+  error - already defined!
+#endif
+void printf(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3583: checking if qsort is prototyped
+configure:3605: gcc -c -g -O2  conftest.c 1>&5
+configure:3598: conflicting types for `qsort'
+/usr/include/stdlib.h:101: previous declaration of `qsort'
+configure: failed program was:
+#line 3589 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef qsort
+  error - already defined!
+#endif
+void qsort(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3635: checking if read is prototyped
+configure:3657: gcc -c -g -O2  conftest.c 1>&5
+configure:3650: conflicting types for `read'
+/usr/include/unistd.h:95: previous declaration of `read'
+configure: failed program was:
+#line 3641 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef read
+  error - already defined!
+#endif
+void read(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3687: checking if rewind is prototyped
+configure:3709: gcc -c -g -O2  conftest.c 1>&5
+configure:3702: conflicting types for `rewind'
+/usr/include/stdio.h:234: previous declaration of `rewind'
+configure: failed program was:
+#line 3693 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef rewind
+  error - already defined!
+#endif
+void rewind(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3739: checking if select is prototyped
+configure:3761: gcc -c -g -O2  conftest.c 1>&5
+configure:3754: conflicting types for `select'
+/usr/include/unistd.h:181: previous declaration of `select'
+configure: failed program was:
+#line 3745 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef select
+  error - already defined!
+#endif
+void select(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3791: checking if setitimer is prototyped
+configure:3813: gcc -c -g -O2  conftest.c 1>&5
+configure:3806: conflicting types for `setitimer'
+/usr/include/sys/time.h:299: previous declaration of `setitimer'
+configure: failed program was:
+#line 3797 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef setitimer
+  error - already defined!
+#endif
+void setitimer(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3843: checking if setrlimit is prototyped
+configure:3865: gcc -c -g -O2  conftest.c 1>&5
+configure:3858: conflicting types for `setrlimit'
+/usr/include/sys/resource.h:143: previous declaration of `setrlimit'
+configure: failed program was:
+#line 3849 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef setrlimit
+  error - already defined!
+#endif
+void setrlimit(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3895: checking if setsockopt is prototyped
+configure:3917: gcc -c -g -O2  conftest.c 1>&5
+configure:3910: conflicting types for `setsockopt'
+/usr/include/sys/socket.h:432: previous declaration of `setsockopt'
+configure: failed program was:
+#line 3901 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef setsockopt
+  error - already defined!
+#endif
+void setsockopt(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3947: checking if socket is prototyped
+configure:3969: gcc -c -g -O2  conftest.c 1>&5
+configure:3962: conflicting types for `socket'
+/usr/include/sys/socket.h:434: previous declaration of `socket'
+configure: failed program was:
+#line 3953 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef socket
+  error - already defined!
+#endif
+void socket(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:3999: checking if sprintf is prototyped
+configure:4021: gcc -c -g -O2  conftest.c 1>&5
+configure:4014: conflicting types for `sprintf'
+/usr/include/stdio.h:238: previous declaration of `sprintf'
+configure: failed program was:
+#line 4005 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef sprintf
+  error - already defined!
+#endif
+void sprintf(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:4051: checking if sscanf is prototyped
+configure:4073: gcc -c -g -O2  conftest.c 1>&5
+configure:4066: conflicting types for `sscanf'
+/usr/include/stdio.h:239: previous declaration of `sscanf'
+configure: failed program was:
+#line 4057 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef sscanf
+  error - already defined!
+#endif
+void sscanf(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:4103: checking if system is prototyped
+configure:4125: gcc -c -g -O2  conftest.c 1>&5
+configure:4118: conflicting types for `system'
+/usr/include/stdlib.h:109: previous declaration of `system'
+configure: failed program was:
+#line 4109 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef system
+  error - already defined!
+#endif
+void system(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:4155: checking if time is prototyped
+configure:4177: gcc -c -g -O2  conftest.c 1>&5
+configure:4170: conflicting types for `time'
+/usr/include/time.h:132: previous declaration of `time'
+configure: failed program was:
+#line 4161 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef time
+  error - already defined!
+#endif
+void time(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:4207: checking if unlink is prototyped
+configure:4229: gcc -c -g -O2  conftest.c 1>&5
+configure:4222: conflicting types for `unlink'
+/usr/include/unistd.h:106: previous declaration of `unlink'
+configure: failed program was:
+#line 4213 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef unlink
+  error - already defined!
+#endif
+void unlink(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }
+configure:4259: checking if write is prototyped
+configure:4281: gcc -c -g -O2  conftest.c 1>&5
+configure:4274: conflicting types for `write'
+/usr/include/unistd.h:107: previous declaration of `write'
+configure: failed program was:
+#line 4265 "configure"
+#include "confdefs.h"
+
+#define NO_LIBRARY_PROTOTYPES
+#define __COMM_C__
+#define __ACT_OTHER_C__
+#include "src/sysdep.h"
+#ifdef write
+  error - already defined!
+#endif
+void write(int a, char b, int c, char d, int e, char f, int g, char h);
+
+int main() {
+
+; return 0; }

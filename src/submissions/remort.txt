@@ -1,0 +1,214 @@
+From: Digital <digital@cyberportal.net>
+Subject: Remort snippet
+
+Ok here is my remort code. First off  I would like to give due credit to
+Daniel Koepke for his assistance with my C skills :). This patch will
+require you to do a player_wipe or converter. All I ask is that you give
+me credit in you credits. If you have any questions or comments please mail me
+malcor@usa.net
+
+Malcor
+
+First add to structs.h in the struct char_player_data
+
+   ubyte height;
+/* PC / NPC's height                    */
+   byte was_class;      /* PC's Previos class                   */
+   byte was_class1;     /* PC's Previous class                   */
+   byte was_class2;     /* PC's Previous class                   */
+
+Then at the end of char_file_u
+   byte was_class;
+
+// first remort class
+   byte was_class1;
+
+// second remort class
+   byte was_class2;
+
+// third remort class
+   byte was_class3;
+
+// fourth remort class
+
+
+Next we need to add to utils.h
+
+#define GET_REMORT(ch)
+((ch)->player.was_class)
+#define GET_REMORT_TWO(ch)
+((ch)->player.was_class1)
+#define GET_REMORT_THREE(ch)
+((ch)->player.was_class2)
+
+Then in act.wizard.c we need to have a way of setting the remorted class.
+so add to stat_char
+
+  if (GET_REMORT(k) >= 0){
+    strcpy(buf, "\r\nRemort: ");
+    sprinttype(k->player.was_class, pc_class_types, buf2);
+    strcat(buf, buf2);
+    send_to_char(buf, ch);
+}
+  if (GET_REMORT_TWO(k) >= 0){
+    strcpy(buf, ",  Remort2: ");
+    sprinttype(k->player.was_class1, pc_class_types, buf2);
+    strcat(buf, buf2);
+    send_to_char(buf, ch);
+}
+  if (GET_REMORT_THREE(k) >= 0){
+    strcpy(buf, ",  Remort3: ");
+    sprinttype(k->player.was_class2, pc_class_types, buf2);
+    strcat(buf, buf2);
+    send_to_char(buf, ch);
+}
+
+And also add a part to do_set
+
+   { "remort",          LVL_IMPL,       BOTH,   MISC },
+   { "rtwo",            LVL_IMPL,       BOTH,   MISC },
+   { "rthree",          LVL_IMPL,       BOTH,   MISC },
+
+  case 49:
+    if ((i = parse_class(*val_arg)) == CLASS_UNDEFINED) {
+      send_to_char("That is not a class.\r\n", ch);
+      return;
+    } else
+    GET_REMORT(vict) = i;
+    break;
+  case 50:
+    if ((i = parse_class(*val_arg)) == CLASS_UNDEFINED) {
+      send_to_char("That is not a class.\r\n", ch);
+      return;
+    }
+    GET_REMORT_TWO(vict) = i;
+    break;
+  case 51:
+    if ((i = parse_class(*val_arg)) == CLASS_UNDEFINED) {
+      send_to_char("That is not a class.\r\n", ch);
+      return;
+    }
+    GET_REMORT_THREE(vict) = i;
+    break;
+
+NOTE make sure the numbers of the case are NOT used by another function
+and that they are in order.
+
+Now we need to make sure that it is set so you can save to playerfile so
+in db.c we need to modify
+
+  GET_RACE(ch) = st->race;
+
+/* add these Malcor */
+  GET_REMORT(ch) = st->was_class;
+  GET_REMORT_TWO(ch) = st->was_class1;
+  GET_REMORT_THREE(ch) = st->was_class2;
+
+  GET_LEVEL(ch) = st->level;
+
+and farther down
+
+  st->class = GET_CLASS(ch);
+
+/* add these Malcor */
+  st->was_class = GET_REMORT(ch);
+  st->was_class1 = GET_REMORT_TWO(ch);
+  st->was_class2 = GET_REMORT_THREE(ch);
+
+  st->level = GET_LEVEL(ch);
+
+Next in spec_procs.c change the following
+the
+
+void list_skills(struct char_data * ch)
+to the following
+
+
+void list_skills(struct char_data * ch)
+{
+  extern char *spells[];
+  extern struct spell_info_type spell_info[];
+  int i, sortpos;
+
+  if (!GET_PRACTICES(ch))
+    strcpy(buf, "You have no practice sessions remaining.\r\n");
+  else
+    sprintf(buf, "You have %d practice session%s remaining.\r\n",
+
+    GET_PRACTICES(ch), (GET_PRACTICES(ch) == 1 ? "" : "s"));
+
+  sprintf(buf, "%sYou know of the following %ss:\r\n", buf, SPLSKL(ch));
+
+  strcpy(buf2, buf);
+
+  for (sortpos = 1; sortpos < MAX_SKILLS; sortpos++) {
+    i = spell_sort_info[sortpos];
+    if (strlen(buf2) >= MAX_STRING_LENGTH - 32) {
+      strcat(buf2, "**OVERFLOW**\r\n");
+      break;
+    }
+/* by Daniel Koepke */
+  #define CLASS(ch, i) \
+  ((i) == 0 ? GET_CLASS(ch) : (i) == 1 ? GET_REMORT(ch) : \
+  (i) == 2 ? GET_REMORT_TWO(ch) : GET_REMORT_THREE(ch))
+
+  #define HAS_CLASS(ch, i) (CLASS((ch), (i)) != GET_CLASS(ch))
+
+  #define CLASS_SKILL(ch, i, skl) \
+  (HAS_CLASS((ch), (i)) && \
+  (LVL_IMMORT -1) >= spell_info[(skl)].min_level[CLASS((ch), (i))])
+/* end Koepke changed to LVL_IMMORT -1 in case of lvl change */
+/* new try if statement malcor */
+   if (GET_REMORT(ch) == -1){
+    if (GET_LEVEL(ch) >= spell_info[i].min_level[(int) GET_CLASS(ch)]) {
+      sprintf(buf, "%-20s %s\r\n", spells[i], how_good(GET_SKILL(ch, i)));
+      strcat(buf2, buf);
+      }
+     }
+  else if (GET_REMORT_TWO(ch) == -1) {
+    if ((GET_LEVEL(ch) >= spell_info[i].min_level[(int) GET_CLASS(ch)]) ||
+      CLASS_SKILL(ch, 1, i)){
+      sprintf(buf, "%-20s %s\r\n", spells[i], how_good(GET_SKILL(ch, i)));
+      strcat(buf2, buf);
+     }
+    }
+  else if (GET_REMORT_THREE(ch) == -1){
+    if (GET_LEVEL(ch) >= spell_info[i].min_level[(int) GET_CLASS(ch)]||
+      CLASS_SKILL(ch, 1, i) || CLASS_SKILL(ch, 2, i)){
+      sprintf(buf, "%-20s %s\r\n", spells[i], how_good(GET_SKILL(ch, i)));
+      strcat(buf2, buf);
+     }
+    }
+  else if (GET_LEVEL(ch) >= spell_info[i].min_level[(int) GET_CLASS(ch)]||
+      CLASS_SKILL(ch, 1, i) || CLASS_SKILL(ch, 2, i) ||
+      CLASS_SKILL(ch, 3, i)) {
+      sprintf(buf, "%-20s %s\r\n", spells[i], how_good(GET_SKILL(ch, i)));
+      strcat(buf2, buf);
+   }
+  }
+
+  page_string(ch->desc, buf2, 1);
+}
+
+
+Now to make it so you can cast spells from a class you were before, search
+spell_parser.c for "do not know" and modify that statement to read as
+follows.
+
+ if ((GET_LEVEL(ch) < SINFO.min_level[(int) GET_CLASS(ch)]) &&
+                (30 < SINFO.min_level[(int) GET_REMORT(ch)]) &&
+                (30 < SINFO.min_level[(int) GET_REMORT_TWO(ch)]) &&
+                (30 < SINFO.min_level[(int) GET_REMORT_THREE(ch)])) {
+    send_to_char("You do not know that spell!\r\n", ch);
+    return;
+   }
+
+Now that should be all the code you need to make a remort. As it sits an
+immortal needs to set a players remort and new class/level of new class. I
+am working on a special proc for remorting. The idea is that you train at
+a guildmaster at the max mortal level and have them set your level class
+remort maxhit maxmana etc. not hard just have not gotten to it.
+
+Enjoy
+Malcor
+

@@ -1,0 +1,345 @@
+#3007
+Mrs Briefs~
+Mrs. Briefs~
+Mrs. Briefs is making some yummy smelling cookies.
+~
+Nothing.
+~
+26634 8 900 E
+33 0 -10 1d1+30000 2d8+12
+2000 160000
+8 8 2
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3010
+postmaster post master~
+&15The &12Post&00&07master&00~
+&15The &12Post&00&07master&15 stands here, waiting to help you with your mail.
+~
+The Postmaster seems like a happy old man, though a bit sluggish.  He
+worries about the reputation of the EMS (Earthen Mail Service), as many
+people seem to think that it is slow.
+~
+190475 32776 1000 E
+33 0 -10 1d1+30000 1d8+18
+2000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3020
+Dr. Briefs~
+Dr. Briefs~
+Dr. Briefs is looking over a large blueprint and hmmming quietly to himself.
+~
+Nothing.
+~
+59419 8 1000 E
+34 0 -10 6d10+640 1d8+24
+18794 100000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3034
+Bulma~
+Bulma~
+Bulma is working on a device at her workbench.
+~
+chaos
+~
+16394 8 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3035
+Trunks~
+Trunks~
+Trunks, son of Vegeta and Bulma, is sitting before a computer.
+~
+It looks unfinished.
+~
+16394 8 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3036
+Buula~
+Buula~
+Buula, daughter of Bulma and Vegeta, is sitting on her bed.
+~
+It looks unfinished.
+~
+16394 8 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3062
+fido dog~
+the beastly fido~
+A beastly fido is mucking through the garbage looking for food here.
+~
+The fido is a small dog that has a foul smell and pieces of rotted meat
+hanging around his teeth.
+~
+65769 32768 -200 E
+0 20 10 1d6+4 1d4+0
+0 25
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3063
+merc mercenary yakuza~
+a yakuza~
+A non-descript man is here, fading in with the crowds.
+~
+   Looks very deft and agile..  Could be a difficult opponent to face..  And a
+difficult battle to walk away from.    
+~
+2056 0 -330 E
+5 15 5 2d6+60 1d6+1
+87 900
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3064
+patron drunk golden dragon~
+a Patron to the Golden Dragon~
+A Golden Dragon patron is here, enjoying the refreshments.
+~
+This patron seems to be a bit... tippy.
+~
+10 0 400 E
+2 19 8 2d6+22 1d6+0
+53 200
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3065
+beggar~
+the beggar~
+A beggar is here, asking for a few coins.
+~
+The beggar looks like she is fed up with life.
+~
+10 0 400 E
+1 20 9 2d6+10 1d5+0
+0 100
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3066
+odif yltsaeb~
+the odif yltsaeb~
+An odif yltsaeb is here, walking backwards.
+~
+The odif is a small god that has been reversed by some dog.
+~
+65769 32768 -200 E
+0 20 10 1d6+4 1d4+0
+0 25
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3067
+cityguard guard customs official~
+a customs official~
+A customs official is here, checking all incoming and outgoing people's belongings.
+~
+   A strong, well tested official.  He has the authority to shoot on sight, and
+you notice his holster is already unbuttoned.    
+~
+6219 0 1000 E
+1 10 1 1d12+123 1d8+5
+500 9000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3068
+detective informant cop~
+an informant~
+A non-descript man is here, wandering through the masses.
+~
+   Upon closer inspection, you realize in your mind that this is no yakuza...
+This is a cop.  You get that feeling when you see him stoop and pick up a
+dagger on the floor.  Does he really think he will find anything that links a
+crime to the Yakuza?  Fool...    
+~
+256217 8 0 E
+20 0 0 1d11+325 3d6+5
+1000 40000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3089
+pet shop boy~
+the Pet Shop Boy~
+There is a Pet Shop Boy standing here cuddleing something furry in his hands.
+~
+As you look at him, he opens his hands to reveal a rat!
+~
+26634 0 1000 E
+10 10 1 1d1+30000 20d4+10
+500 9000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3090
+kitten~
+the kitten~
+A small loyal kitten is here.
+~
+The kitten looks like a cute, little, fierce fighter.
+~
+14 0 0 E
+1 20 9 1d6+11 1d4+0
+0 100
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3091
+puppy~
+the puppy~
+A small loyal puppy is here.
+~
+The puppy looks like a cute, little, fierce fighter.
+~
+14 0 0 E
+1 20 9 1d6+13 1d4+0
+0 125
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3092
+beagle~
+the beagle~
+A small, quick, loyal beagle is here.
+~
+The beagle looks like a fierce fighter.
+~
+14 0 0 E
+2 19 8 1d12+22 1d6+0
+0 200
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3093
+rottweiler~
+the rottweiler~
+A large, loyal rottweiler is here.
+~
+The rottweiler looks like a strong, fierce fighter.
+~
+14 0 0 E
+3 18 7 1d12+35 1d7+0
+0 800
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3094
+wolf~
+the wolf~
+A large, trained wolf is here.
+~
+The wolf looks like a strong, fearless fighter.
+~
+14 0 0 E
+4 17 6 1d12+47 1d8+0
+0 1600
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3095
+cryogenicist cryo~
+the cryogenicist~
+The cryogenicist is here, playing with a canister of liquid nitrogen.
+~
+You notice a tired look in her face.  She looks like she isn't paid well
+enough to put up with any crap from mud players with attitudes.
+~
+26635 32808 900 E
+33 0 -10 1d1+30000 2d8+32
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$~

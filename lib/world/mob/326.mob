@@ -1,0 +1,89 @@
+#32600
+Metal Cooler~
+&07M&04e&07t&04a&07l &16Cooler&00~
+&07M&04e&07t&04a&07l &16Cooler&00 &15hovers&00 above the ground here in his &16fifth form&00, &01grinning&00 at you.
+~
+   &07M&04e&07t&04a&07l &16Cooler&00 has came back from before and ready to take any obstacle 
+and defeat it, he will not be defeated again!
+~
+174136 295040 -1000 E
+1000000 0 10 20d30+10000000 30d100+200
+1000000 20000000
+8 8 1
+BareHandAttack: 8
+NumAttacks: 10
+E
+T 150
+#32601
+King Cold~
+&16King &12C&07o&12l&07d&00~
+&16King &12C&07o&12l&07d&00 stands here &15sipping&00 his &01red wine&00.
+~
+   &16King &12C&07o&12l&07d&00 is &13F&07r&13i&07e&13z&07a&13'&07s&00, and &16Cooler's&00 father. He has came 
+here to help his sons and has remade &16Cooler from the battle before...&16Cooler&00 
+being killed by Vegeta!
+~
+32810 32768 -1000 E
+1000000 -20 10 15d40+1000000 20d12+200
+200000 1000000
+8 8 0
+BareHandAttack: 13
+NumAttacks: 5
+E
+#32602
+Frieza~
+&13F&07r&13i&07e&13z&07a&00~
+&13F&07r&13i&07e&13z&07a&00 floats above the ground here.
+~
+   &13F&07r&13i&07e&13z&07a&00 is the brother of &16Cooler&00 and 
+son of &16King &12C&07o&12l&06d&00 has came here to help &16Cooler&00 defeat 
+these puny people who live on these planets.
+~
+34856 32768 -1000 E
+1000000 -10 -20 30d20+5000000 20d25+200
+500000 10000000
+8 8 1
+BareHandAttack: 13
+NumAttacks: 7
+E
+#32603
+evil~
+evil~
+evil
+~
+It looks unfinished.
+evil
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+200000000 0
+8 8 1
+E
+#32604
+A Glowing Vending Machine~
+a Glowing Vending Machine~
+A Glowing Vending Machine is hooked up on the right side of the room here.
+~
+   This vending machine sells various items.
+~
+8 0 350 E
+50 -30 10 30d30+10000000 30d30+100
+100000 100000
+8 8 0
+NumAttacks: 1
+E
+#32605
+ugly man~
+uglyman~
+uglyman sits here
+~
+It looks unfinished.
+ugly
+ugly man
+~
+8 0 0 E
+0 20 10 1d1+1 1d1+0
+10000000 10000000
+8 8 0
+E
+$~

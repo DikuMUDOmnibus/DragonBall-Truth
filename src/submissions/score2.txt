@@ -1,0 +1,243 @@
+Hellfire <bonecrusher@cyberdude.com>
+
+I downloaded Lars' score snippet and have
+included both the snippet and the changes I made so
+it would work with my circle30bpl14. FYI I ported it
+to win95 and added olcplus with dgscripts, liblist,
+and races. Please give credit for the snippet to Lars
+Juul at larsjuul@post2.tele.dk!!
+
+Snippet is as follows.
+First:
+add to top of act.informative.c
+
+/*extern Variables*/
+extern const char *pc_class_types[] ;
+
+Also add 
+
+const char *align_message[];
+const char *ac_message[]; 
+
+/*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+
+
+ From: Lars Juul <larsjuul@post2.tele.dk>
+  Subject: Score code
+
+  A few month ago i wrote a new format to score .... try it :)
+
+  If it also would be added to the snipplets page .. would be great.
+
+  ---- SNIP ----
+
+!  const char *ac_message[10] = { 
+
++  const char *ac_message[11] = { 
+
+      "You are wearing God-like armour.",
+      "You are superbly armoured.",
+      "You have excellent armour.",
+      "You have good armour.",
+      "You have normal armour.",
+      "You have armour.",
+      "You have some armour.",
+      "You have poor armour.",
+      "Your armour is beyond terrible.",
+      "Your armour would be hard pressed to stop a mosquito.",
+      "You are pretty much naked!"
+  };
+
+!  const char *align_message[10] = { 
+        
++  const char *align_message[11] = { 
+        
+      "Takhisis looks like a saint compared to you.",
+      "You are extremely evil.",
+      "How devilish you are.",
+      "You are evil.",
+      "You are sliding towards evil.",
+      "You are Neutral.",
+      "You are sliding towards good.",
+      "You are good.",
+      "How saintly you are.",
+      "You are extremely good.",
+      "If they think Paladine is good they haven't met you."
+  };
+
+
+  ACMD(do_score)  /* LJ score - new format */
+  {
+    struct time_info_data playing_time;
+
+!    struct time_info_data real_time_passed(time_t t2, time_t t1);
+        
++       struct time_info_data *real_time_passed(time_t t2, time_t t1);
+
+
+    sprintf(buf, "Name : %s %s\r\n", GET_NAME(ch), GET_TITLE(ch));
+    /* Change the below line if don't have races */
+    /* If you do remember to add pc_race_types as external in top of
+       act.informative.c or change it to what you use :) */
+    sprintf(buf, "%sRace : %-15s  Age  : %d", buf,pc_race_types[GET_RACE(ch)], GE
+  T_AGE(ch));
+
+!    if ((age(ch).month == 0) && (age(ch).day == 0))
+
++       if ((age(ch)->month == 0) && (age(ch)->day == 0))
+
+      strcat(buf, " (It's your birthday today.)\r\n");
+    else
+      strcat(buf, "\r\n");
+    sprintf(buf, "%sClass: %-15s  Level: %d\r\n",buf,pc_class_types[GET_CLASS(ch)], GET_LEVEL(ch));
+
+    if (GET_LEVEL(ch) > 7) {
+      sprintf(buf, "%sHitp : %4d/%4d     Exp     : %9d   Str: %d\r\n", buf,
+              GET_HIT(ch), GET_MAX_HIT(ch), GET_EXP(ch),GET_STR(ch));
+      if (GET_STR(ch) >= 18) sprintf(buf, "%s/%d\r\n", buf, GET_ADD(ch));
+      if (!IS_NPC(ch) && GET_LEVEL(ch) < LVL_IMMORT)
+        
+!       sprintf(buf, "%sMana : %4d/%4d     Exp2Lvl : %9d   Int: %d\r\n", buf,
+!   GET_MANA(ch), GET_MAX_MANA(ch), ((titles[(int) GET_CLASS(ch)][GET_L
+!   EVEL(ch)+1].exp) - GET_EXP(ch)),GET_INT(ch)); 
+
+ 
++    sprintf(buf, "%sMana : %4d/%4d     Exp2Lvl : %9d   Int: %d\r\n", buf,
++              GET_MANA(ch), GET_MAX_MANA(ch), ((GET_TITLE(ch), GET_CLASS(ch),GET_LEVEL(ch)+1) - GET_EXP(ch)),GET_INT(ch)); 
+
+
+
+      else
+        sprintf(buf, "%sMana : %4d/%4d     Exp2Lvl :      None   Int: %d\r\n",
+              buf, GET_MANA(ch), GET_MAX_MANA(ch),GET_INT(ch));
+      sprintf(buf, "%sMoves: %4d/%4d                           Wis: %d\r\n",
+              buf, GET_MOVE(ch), GET_MAX_MOVE(ch), GET_WIS(ch));
+      sprintf(buf, "%s                                           Dex: %d\r\n", bu  f, GET_DEX(ch));
+      sprintf(buf, "%sHitr : %2d            Gold    : %9d   Con: %d\r\n",
+              buf, ch->points.hitroll, GET_GOLD(ch),GET_CON(ch));
+ 
+!     playing_time = real_time_passed((time(0) - ch->player.time.logon) +
+!
+!    ch->player.time.played, 0);
+
++    playing_time = *real_time_passed((time(0) - ch->player.time.logon) + (ch->player.time.played), 0);
+  
+    sprintf(buf, "%sDamr : %2d            PlayTime: %2d D %2d H   Cha: %d\r\n",
+              buf, ch->points.damroll, playing_time.day,playing_time.hours,GET_CH  A(ch));
+    } else {
+      sprintf(buf, "%sHitp : %4d/%4d     Exp     : %9d\r\n", buf,
+              GET_HIT(ch), GET_MAX_HIT(ch), GET_EXP(ch));
+      if (!IS_NPC(ch) && GET_LEVEL(ch) < LVL_IMMORT)
+!        sprintf(buf, "%sMana : %4d/%4d     Exp2Lvl : %9d\r\n", buf,
+!        GET_MANA(ch), GET_MAX_MANA(ch), ((titles[(int)  /* should be get_title(ch) not titles*/
+!        GET_CLASS(ch)][GET_LEVEL(ch)+1].exp) - GET_EXP(ch))); 
+
+
++    sprintf(buf, "%sMana : %4d/%4d     Exp2Lvl : %9d\r\n", buf,
+              GET_MANA(ch), GET_MAX_MANA(ch), ((GET_TITLE(ch),
+              GET_CLASS(ch),GET_LEVEL(ch)+1) - GET_EXP(ch)));
+
+      else
+        sprintf(buf, "%sMana : %4d/%4d     Exp2Lvl :      None\r\n", buf,
+              GET_MANA(ch), GET_MAX_MANA(ch));
+      sprintf(buf, "%sMoves: %4d/%4d\r\n", buf, GET_MOVE(ch),
+              GET_MAX_MOVE(ch));
+      sprintf(buf, "%sHitr : Not yet       Gold    : %9d\r\n", buf,
+              GET_GOLD(ch));
+
+!    playing_time = real_time_passed((time(0) - ch->player.time.logon) +
+!
+!    ch->player.time.played, 0);
+
++    playing_time = *real_time_passed((time(0) - ch->player.time.logon) + ch->player.time.played, 0);
+
+      sprintf(buf, "%sDamr : Not yet       PlayTime: %2d D %2d H\r\n",
+              buf, playing_time.day, playing_time.hours);
+    }
+
+    sprintf(buf, "%sArmor: %s\r\n", buf, ac_message[(GET_AC(ch)/10)+10]);
+
+!   sprintf(buf, "%sAlign: %s\r\n", buf, align_message[(GET_ALIGN(ch)/10)+10]);
+
++   sprintf(buf, "%sAlign: %s\r\n", buf, align_message[(GET_ALIGNMENT(ch)/10)+10]);
+
+    sprintf(buf, "%sEnchantments: ", buf);
+    if (affected_by_spell(ch, SPELL_ARMOR))
+      strcat(buf, "Armor  ");
+    if (affected_by_spell(ch, SPELL_BLESS))
+      strcat(buf, "Bless  ");
+    if (IS_AFFECTED(ch, AFF_BLIND))
+      strcat(buf, "Blindness  ");
+    if (IS_AFFECTED(ch, AFF_CHARM))
+      strcat(buf, "Charm Person  ");
+    if (IS_AFFECTED(ch, AFF_DETECT_INVIS))
+      strcat(buf, "Detect Invisible  ");
+    if (IS_AFFECTED(ch, AFF_INFRAVISION))
+      strcat(buf, "Infravision  ");
+    if (IS_AFFECTED(ch, AFF_INVISIBLE))
+      strcat(buf, "Invisible  ");
+    if (IS_AFFECTED(ch, AFF_POISON))
+      strcat(buf, "Poison  ");
+    if (IS_AFFECTED(ch, AFF_SANCTUARY))
+      strcat(buf, "Sanctuary  ");
+    strcat(buf, "\r\n");
+
+    switch (GET_POS(ch)) {
+    case POS_DEAD:
+      strcat(buf, "You are DEAD!\r\n");  break;
+    case POS_MORTALLYW:
+      strcat(buf, "You are mortally wounded!  You should seek help!\r\n");
+  break;
+    case POS_INCAP:
+      strcat(buf, "You are incapacitated, slowly fading away...\r\n");
+  break;
+    case POS_STUNNED:
+      strcat(buf, "You are stunned!  You can't move!\r\n");  break;
+    case POS_SLEEPING:
+      strcat(buf, "You are sleeping.\r\n");  break;
+    case POS_RESTING:
+      strcat(buf, "You are resting.\r\n");  break;
+    case POS_SITTING:
+      strcat(buf, "You are sitting.\r\n");  break;
+    case POS_FIGHTING:
+      if (FIGHTING(ch))
+        sprintf(buf, "%sYou are fighting %s.\r\n", buf, PERS(FIGHTING(ch),ch));
+      else
+        strcat(buf, "You are fighting thin air.\r\n");
+      break;
+    case POS_STANDING:
+      if (IS_AFFECTED(ch,AFF_FLYING))  /* LJ spell fly - so it will show up on score */
+        strcat(buf, "You are flying.\r\n");
+      else
+        strcat(buf, "You are standing.\r\n");
+      break;
+    default:
+      strcat(buf, "You are floating.\r\n");  break;
+    }
+
+    if (GET_COND(ch, DRUNK) > 10)
+      strcat(buf, "You are drunk.\r\n");
+    if (GET_COND(ch, FULL) == 0)
+      strcat(buf, "You are hungry.\r\n");
+    if (GET_COND(ch, THIRST) == 0)
+      strcat(buf, "You are thirsty.\r\n");
+
+    if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
+      strcat(buf, "You are summonable by other players.\r\n");
+
+    send_to_char(buf, ch);
+  }
+
+  ----- SNIP -----
+
+  Grettings from Denmark
+
+
+/*oooooooooooooooooooooooooooooooooooooooooooooo*/
+
+ I removed any reference to 'you' from the print functions in my code to add to rp value, but the above is true to Lars' post except where I notated my changes.
+
+
+Peace
+Hellfire
+

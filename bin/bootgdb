@@ -1,0 +1,59 @@
+#! /bin/csh -f set port = 3434
+# Change to circle directory.
+cd ~/dbx
+
+while ( 1 )
+    # If you want to have logs in a different directory,
+    #   change the 'set logfile' line to reflect the directory name.
+    set index = 1000
+    while ( 1 )
+        set logfile = log/$index.gdblog
+        if ( ! -e $logfile ) break
+        @ index++
+    end
+  	set DATE = (`date`);
+  	echo "autoscript starting game $DATE" >> $logfile
+
+    # Run da mud
+
+   #------------------------------------------------------------
+   # This line is to run under the debugger
+    gdb bin/circle < bin/runit >& $logfile
+
+   # This line is to run without the debugger
+   # bin/circle >& $logfile
+   #------------------------------------------------------------
+
+    # Delete this out if no adb.
+    # if ( -e core ) then
+    #         echo '$c' | adb bin/circle
+    # endif
+
+
+	  fgrep "self-delete" $logfile >> log/delete
+	  fgrep "death trap" $logfile >> log/dts
+	  fgrep "killed" $logfile >> log/rip
+	  fgrep "Running" $logfile >> log/restarts
+	  fgrep "advanced" $logfile >> log/levels
+	  fgrep "equipment lost" $logfile >> log/rentgone
+	  fgrep "usage" $logfile >> log/usage
+	  fgrep "new player" $logfile >> log/newplayers
+	  fgrep "SYSERR" $logfile >> log/errors
+	  fgrep "(GC)" $logfile >> log/godcmds
+	  fgrep "Bad PW" $logfile >> log/badpws
+	  fgrep "is writing help" $logfile >> log/help_write
+	  fgrep "OLC:" $logfile >> log/olc
+	  tail -50 $logfile | wall
+          # this sends out the reasons for the crash to everyone online,
+	  # might wanna disable it ;)
+  if (-r .killscript) then
+    set DATE = (`date`);
+    echo "autoscript killed $DATE"  >> syslog
+    rm .killscript
+    exit
+  endif 
+
+    # Restart, giving old connections a chance to die.
+    sleep 1 
+end
+

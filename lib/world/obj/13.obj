@@ -1,0 +1,681 @@
+#1300
+something~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#1301
+Golden Scarab Amulet~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &04S&00&12c&00&14ar&00&12a&00&04b&00 &16A&00&15m&00&07ul&00&15e&00&16t&00~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &04S&00&12c&00&14ar&00&12a&00&04b&00 &16A&00&15m&00&07ul&00&15e&00&16t&00 is lying here.~
+&03G&00&11o&00&03ld&00&11e&00&03n&00 &04S&00&12c&00&14ar&00&12a&00&04b&00 &16A&00&15m&00&07ul&00&15e&00&16t&00 shines beautifully in the sunlight as it's worn.
+~
+11 0 5
+0 0 0 0
+1 3000000 0
+E
+golden :- scarab :- scar~
+This amulet is made up of a beautiful turqoise scarab, expertly crafted and suspended around the neck by a thick golden chain.
+~
+A
+1 2
+A
+6 3
+A
+2 3
+A
+18 30
+A
+19 30
+#1302
+Golden Cobra Armband~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &16C&00&15o&00&07b&00&15r&00&16a&00 &14A&00&06r&00&04m&00&12b&00&04a&00&06n&00&14d&00~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &16C&00&15o&00&07b&00&15r&00&16a&00 &14A&00&06r&00&04m&00&12b&00&04a&00&06n&00&14d&00 is lying here.~
+The sun glimmers off of the gold as you slip it over your bicep.
+~
+11 0 257
+0 0 0 0
+1 3000000 0
+A
+6 4
+A
+18 30
+A
+3 2
+A
+19 30
+#1303
+gold eye of rah ring~
+&00&03G&00&11ol&00&03d&00 &04E&00&12y&00&14e&00 &14of&00 &01R&00&09a&00&11h&00 &00&03R&00&11in&00&03g&00~
+&00&03G&00&11ol&00&03d&00 &04E&00&12y&00&14e&00 &14of&00 &01R&00&09a&00&11h&00 &00&03R&00&11in&00&03g&00 is lying here.~
+As you slide it on, the golden eye seems to open and it starts to heat up.
+~
+11 0 3
+0 0 0 0
+1 3000000 0
+A
+4 2
+A
+2 3
+A
+6 2
+A
+18 30
+A
+19 30
+#1304
+dark turqoise ankh~
+&00&04D&00&12a&00&15r&00&16k&00 &06Tu&00&14r&00&07qo&00&14i&00&06se&00 &03A&00&11nk&00&03h&00~
+&00&04D&00&12a&00&15r&00&16k&00 &06Tu&00&14r&00&07qo&00&14i&00&06se&00 &03A&00&11nk&00&03h&00 is lying here.~
+Nothing.
+~
+11 0 16385
+0 0 0 0
+1 3000000 0
+A
+1 2
+A
+6 3
+A
+2 2
+A
+18 30
+A
+19 30
+#1305
+golden scorpion sword~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &00&07S&00&15co&00&16rp&00&15io&00&07n&00 &16S&00&15w&00&07o&00&15r&00&16d&00~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &00&07S&00&15co&00&16rp&00&15io&00&07n&00 &16S&00&15w&00&07o&00&15r&00&16d&00 is lying here.~
+~
+5 0 4202497
+0 400000 1 3
+1 3000000 0
+A
+6 4
+A
+5 2
+A
+2 4
+A
+18 30
+A
+19 30
+#1306
+eye of the sun god scouter~
+&00&04E&00&12y&00&14e&00 &15of the&00 &01S&00&09u&00&11n&00 &14G&00&12o&00&04d&00 &00&16Scouter&00~
+An ornate, golden scouter with the eye of Rah on the HUD.~
+~
+3 0 513
+100 100000 100000 201
+1 3000000 0
+A
+4 2
+A
+5 3
+A
+3 1
+A
+2 4
+A
+18 30
+A
+19 30
+#1307
+golden jackal god armor~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &16J&00&15a&00&07ck&00&15a&00&16l&00 &14G&00&12o&00&04d&00 &03A&00&11r&00&07m&00&11o&00&03r&00~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &16J&00&15a&00&07ck&00&15a&00&16l&00 &14G&00&12o&00&04d&00 &03A&00&11r&00&07m&00&11o&00&03r&00 is lying here.~
+~
+11 0 8
+0 0 0 0
+1 4000000 0
+A
+5 3
+A
+3 3
+A
+13 100
+A
+18 30
+A
+2 2
+A
+6 3
+#1308
+radiating solar crystal~
+&00&04R&00&12a&00&14di&00&07a&00&14ti&00&12n&00&04g &11S&00&09o&00&01l&00&09a&00&11r&00 &07C&00&14r&00&12y&00&04s&00&12t&00&14a&00&07l&00~
+&00&04R&00&12a&00&14di&00&07a&00&14ti&00&12n&00&04g &11S&00&09o&00&01l&00&09a&00&11r&00 &07C&00&14r&00&12y&00&04s&00&12t&00&14a&00&07l&00 is lying here.~
+~
+1 0 16385
+0 0 -1 0
+1 3000000 0
+A
+5 1
+A
+3 1
+A
+2 5
+A
+18 30
+A
+19 30
+#1309
+golden eagle wing helmet~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &07E&00&11a&00&03g&00&16l&00&15e&00 &03W&00&11in&00&03g&00 &16H&00&15e&00&07lm&00&15e&00&16t&00~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &07E&00&11a&00&03g&00&16l&00&15e&00 &03W&00&11in&00&03g&00 &16H&00&15e&00&07lm&00&15e&00&16t&00 is lying here.~
+~
+11 0 17
+0 0 0 0
+1 3000000 0
+A
+4 3
+A
+6 5
+A
+2 5
+A
+18 30
+A
+19 30
+#1310
+white gold condor wings~
+&00&07W&00&15h&00&07i&00&15t&00&07e&00 &03G&00&11ol&00&03d&00 &03C&00&15o&00&07nd&00&15o&00&03r&00 &16W&00&15i&00&07n&00&15g&00&16s&00~
+&00&07W&00&15h&00&07i&00&15t&00&07e&00 &03G&00&11ol&00&03d&00 &03C&00&15o&00&07nd&00&15o&00&03r&00 &16W&00&15i&00&07n&00&15g&00&16s&00 are lying here.~
+~
+11 0 1025
+0 0 0 0
+1 3000000 0
+A
+3 4
+A
+5 3
+A
+6 3
+A
+4 1
+A
+2 5
+A
+18 30
+#1311
+white gold leg plates~
+&00&07W&00&15h&00&07i&00&15t&00&07e&00 &03G&00&11ol&00&03d&00 &03L&00&15e&00&16g&00 &03P&00&15l&00a&00&16t&00&15e&00&03s&00~
+&00&07W&00&15h&00&07i&00&15t&00&07e&00 &03G&00&11ol&00&03d&00 &03L&00&15e&00&16g&00 &03P&00&15l&00a&00&16t&00&15e&00&03s&00 are lying here.~
+~
+11 0 33
+0 0 0 0
+1 3000000 0
+A
+2 4
+A
+5 1
+A
+4 1
+A
+18 30
+A
+19 30
+#1312
+white gold plated gauntlets~
+&00&07W&00&15h&00&07i&00&15t&00&07e&00 &03G&00&11ol&00&03d&00 &03P&00&15l&00a&00&16t&00&15e&00&03d&00 &15G&00&16a&00&15u&00&07n&00&15t&00&07l&00&15e&00&16t&00&15s&00~
+&00&07W&00&15h&00&07i&00&15t&00&07e&00 &03G&00&11ol&00&03d&00 &03P&00&15l&00a&00&16t&00&15e&00&03d&00 &15G&00&16a&00&15u&00&07n&00&15t&00&07l&00&15e&00&16t&00&15s&00 are lying here.~
+~
+9 0 129
+0 0 0 0
+1 3000000 0
+A
+4 2
+A
+6 4
+A
+18 30
+A
+19 30
+#1320
+drinking fountain~
+a drinking fountain~
+A drinking fountain is here, mounted onto the wall.~
+There is a little button to push to make water come out.
+~
+23 0 0
+2147483647 2147483647 0 0
+2147483647 0 0
+#1321
+ship capsule corp transport~
+a Transport Ship~
+An transport ship is here transporting people to planet Vegeta.~
+Its pretty damn big.
+~
+12 2 0
+0 0 0 0
+2147483647 0 0
+#1322
+elevator button panel~
+a button panel~
+A button panel is mounted on the wall, waiting to be pushed.~
+There is only two buttons on it.  Type:   PUSH BUTTON
+~
+0 0 1
+0 0 0 0
+99999999 0 0
+#1327
+Golden Anubis Daiklave~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#1330
+blessed earth fountain~
+&00&07B&00&14l&00&12e&00&04s&00&12s&00&14e&00&07d&00 &02E&00&10a&00&11r&00&03t&00&02h&00 &04F&00&12o&00&14u&00&07nt&00&14a&00&12i&00&04n&00~
+&00&07B&00&14l&00&12e&00&04s&00&12s&00&14e&00&07d&00 &02E&00&10a&00&11r&00&03t&00&02h&00 &04F&00&12o&00&14u&00&07nt&00&14a&00&12i&00&04n&00 - &14An ancient fountain that has been well maintained.~
+Nothing.
+~
+23 0 0
+2147483647 2147483647 10 0
+-2147483644 0 0
+#1331
+open~
+open~
+Open~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+earth message~
+Use 'look board' to read the board.
+~
+E
+board~
+If you can read this, the board is not working.
+~
+#1351
+backpack~
+a leather backpack~
+A leather backpack is lying here.~
+The backpack can hold alot of stuff.
+~
+15 0 1025
+60 1 -1 0
+2 99 1
+#1352
+a travel bottle~
+a travel bottle~
+A travel bottle of water lies here.~
+~
+17 0 1
+5 5 0 0
+10 25 0
+#1353
+16oz Pepsi~
+a bottle of 16oz Pepsi.~
+A bottle of 16oz Pepsi is lying on the ground.~
+The liquid is black.
+~
+17 0 1
+15 15 9 0
+20 85 0
+#1354
+Flashlight~
+a flashlight~
+A flashlight is lying on the ground.~
+the flashlight gives off light.
+~
+1 0 16385
+0 0 100 0
+1 120 0
+#1355
+Piece of paper~
+&14A piece of scrap &15P&00&07ape&15r&00~
+&14A piece of &15P&00&07ape&15r &14lays here&00~
+~
+16 0 16385
+0 0 0 0
+1 45 0
+#1356
+pen~
+&12P&16e&12n&00~
+&15A &12P&16e&12n &15is laying here.&00~
+~
+21 0 16385
+0 0 0 0
+1 50 0
+#1370
+menu~
+a menu~
+A menu is lying on the ground.~
+Steak          - 139
+Chicken        - 110 
+Red wine       - 99
+White wine     - 100
+
+
+
+(to buy, give the amount of money to your waiter)
+( example: give <number> coins <waiter> )
+~
+16 0 1
+0 0 0 0
+0 0 0
+#1371
+steak~
+a steak~
+A steak is lying here waiting to be eaten.~
+It smells really good.
+~
+19 0 1
+5 0 0 0
+1 139 0
+#1375
+red wine~
+red wine~
+Some red wine is sitting here.~
+The wine is red.
+~
+17 1 16385
+10 10 2 0
+15 99 0
+#1376
+white wine~
+white wine~
+Some white wine is sitting here.~
+The wine is white.
+~
+17 1 16385
+2 2 2 0
+7 99 0
+#1377
+chicken~
+chicken leg~
+A chicken leg is on the ground.~
+It look's well cooked.
+~
+19 0 1
+4 0 0 0
+1 110 0
+#1380
+Dumascus Plated Armor~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03P&00&15l&00&07a&16t&00&15e&00&03d&00 &03A&00&15r&00&16m&00&15o&00&03r&00~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03P&00&15l&00&07a&16t&00&15e&00&03d&00 &03A&00&15r&00&16m&00&15o&00&03r&00 is lying here.~
+~
+9 0 9
+0 0 0 0
+1 50000 0
+A
+5 1
+A
+19 3
+A
+18 3
+#1381
+Dumascus ring~
+&07D&00&15um&00&16as&00&15cu&00&07s&00 &03M&00&02i&00&10n&07e&00&10r&00&02a&00&03l&00 &03R&00&15in&00&03g&00~
+A small, black and grey ring lies here in the dirt.~
+~
+11 0 3
+0 0 0 0
+1 30000 0
+A
+13 100
+A
+12 100
+A
+19 3
+A
+18 3
+#1382
+dumascus forged lantern~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03F&00&01o&00&09rg&00&01e&00&03d&00 &11L&00&03a&00&11n&00&07t&00&11e&00&03r&00&11n&00~
+A small unattractive lantern lies here, giving off a soft light.~
+~
+1 0 16385
+0 0 -1 0
+1 30000 0
+A
+1 1
+#1383
+dumascus mineral choker~
+&07D&00&15um&00&16as&00&15cu&00&07s&00 &03M&00&02i&00&10n&07e&00&10r&00&02a&00&03l&00 &03C&00&16h&00&15ok&00&16e&00&03r&00~
+A unattractive necklace lies here on the ground.~
+~
+11 0 5
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1384
+Dumascus colored cargo pants~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &16Colored&00 &03C&00&02arg&00&03o&00 &07P&00&15a&00&16n&00&15t&00&07s&00~
+A pair of abandoned pants lie here.~
+~
+11 0 33
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+12 100
+A
+18 3
+A
+19 3
+#1385
+dumascus colored gi~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &16Colored&00 &16G&00&15i&00~
+Theres a dirty gi lying here.~
+~
+11 0 1025
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+A
+5 1
+#1386
+dumascus plated gloves~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03P&00&15l&00&07a&00&16t&00&15e&00&03d&00 &03G&00&15l&00&16ov&00&15e&00&03s&00~
+A pair of old gloves lay here.~
+~
+11 0 129
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1387
+dumascus plated boots~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03P&00&15l&00&07a&00&16t&00&15e&00&03d&00 &03B&00&15o&00&16o&00&15t&00&03s&00~
+A pair of old boots lie here covered in dust.~
+~
+11 0 65
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1388
+dumascus plated helmet~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03P&00&15l&00&07a&00&16t&00&15e&00&03d&00 &03H&00&15e&00&16lm&00&15e&00&03t&00~
+An old scratched up helmet lays here.~
+~
+11 0 17
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1389
+dumascus studded belt~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &07S&00&15t&00&16udd&00&15e&00&07d&00 &03B&00&16el&00&03t&00~
+A old discarded belt lies here.~
+~
+11 0 2049
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1390
+Dumascus plated shoulder armor~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03P&00&15l&00&07a&00&16t&00&15e&00&03d&00 &07S&00&15ho&00&16ul&00&15de&00&07r&00 &03A&00&15r&00&16m&00&15o&00&03r&00~
+A rounded plate of metal with leather straps lay here.~
+~
+11 0 257
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1391
+Dumascus Plated Scouter~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03P&00&15l&00&07a&00&16t&00&15e&00&03d&00 &03S&00&16coute&00&03r&00~
+An old scratched scouter lays here.~
+~
+3 0 513
+100 100000 100000 201
+1 30000 0
+A
+13 100
+A
+12 100
+A
+18 3
+A
+19 3
+#1392
+Dumascus Bracer~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03B&00&15r&00&16ac&00&15e&00&03r&00~
+An cut up bracer lies here on the ground.~
+~
+11 0 4097
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1393
+Dumascus mineral earring~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03M&00&02i&00&10n&07e&00&10r&00&02a&00&03l&00 &03E&00&15a&00&16rri&00&15n&00&03g&00 &00(Left)~
+A dirty old earring lies here.~
+~
+11 0 131073
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1394
+Dumascus mineral earring~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03M&00&02i&00&10n&07e&00&10r&00&02a&00&03l&00 &03E&00&15a&00&16rri&00&15n&00&03g&00 &00(Right)~
+A dirty old earring lies here.~
+~
+11 0 262145
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1395
+Dumascus Spiked Shield~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03S&00&16p&00&15ik&00&16e&00&03d&00 &03S&00&16hiel&00&03d&00~
+A slightly rusted shield is lying here.~
+Nothing.
+~
+11 0 16385
+0 0 0 0
+1 30000 0
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1396
+Dumascus War Hammer~
+&00&07D&00&15um&00&16as&00&15cu&00&07s&00 &03W&00&01a&00&09r&00 &16H&00&15a&00&07mm&00&15e&00&16r&00~
+An old heavy hammer is lying here.~
+~
+5 0 4202497
+10 15000 1 5
+1 30000 0
+A
+4 1
+A
+12 100
+A
+13 100
+A
+18 3
+A
+19 3
+#1397
+Dark Anubis Daiklave~
+&00&03G&00&11o&00&03ld&00&11e&00&03n&00 &00&16A&00&15n&00ub&00&15i&00&16s&00 &00&03D&00&16a&00&15i&00kl&15a&00&16v&00&03e&00~
+&00&03The G&11o&00&03ld&11e&00&03n &16A&15nubi&16s &00&03D&16a&15ikla&16v&00&03e is pierced down into the ground here.&00~
+Nothing.
+~
+5 11 4202497
+100 1500000 1 3
+0 0 0
+E
+dark anubis daiklave~
+This dark blade has a golden handle, with the face of the jackal god makes up the protective guard of the hilt. The blade itself is massive, made up of a soft blue energy. The sword hums with power, waiting for its strength to be unleashed.
+~
+$~

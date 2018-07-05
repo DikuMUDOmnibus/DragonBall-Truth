@@ -1,0 +1,1442 @@
+This will allow Vampires to bite players and make them vampires (just
+for the current session). Have a look through the code to get a better
+idea of what i mean. I originally wrote this for my Star Trek MUD, which
+uses Borg instead of Vampires who assimilate each other. There is a lot
+of code here, and for what your getting you may think it's not worth it,
+but as players often tell me, it's the finer details and realism which
+make it great. So have a look through and see what your getting.
+
+Disclaimer: I'm am not responsible for this code, please backup your
+            entire mud before going ahead with this. This doesn't need
+            a pfile wipe or anything though.
+
+
+Open structs.h
+~~~~~~~~~~~~~~
+
+/* Player flags: used by char_data.char_specials.act */
+#define PLR_KILLER	(1 << 0)   /* Player is a player-killer		*/
+#define PLR_THIEF	(1 << 1)   /* Player is a player-thief		*/
+#define PLR_FROZEN	(1 << 2)   /* Player is frozen			*/
+#define PLR_DONTSET     (1 << 3)   /* Don't EVER set (ISNPC bit)	*/
+#define PLR_WRITING	(1 << 4)   /* Player writing (board/mail/olc)	*/
+#define PLR_MAILING	(1 << 5)   /* Player is writing mail		*/
+#define PLR_CRASH	(1 << 6)   /* Player needs to be crash-saved	*/
+#define PLR_SITEOK	(1 << 7)   /* Player has been site-cleared	*/
+#define PLR_NOSHOUT	(1 << 8)   /* Player not allowed to shout/goss	*/
+#define PLR_NOTITLE	(1 << 9)   /* Player not allowed to set title	*/
+#define PLR_DELETED	(1 << 10)  /* Player deleted - space reusable	*/
+#define PLR_LOADROOM	(1 << 11)  /* Player uses nonstandard loadroom	*/
+#define PLR_NOWIZLIST	(1 << 12)  /* Player shouldn't be on wizlist	*/
+#define PLR_NODELETE	(1 << 13)  /* Player shouldn't be deleted	*/
+#define PLR_INVSTART	(1 << 14)  /* Player should enter game wizinvis	*/
+#define PLR_CRYO	(1 << 15)  /* Player is cryo-saved (purge prog)	*/
++#define PLR_VAMPIRE     (1 << 16)
+
+/* Mobile flags: used by char_data.char_specials.act */
+#define MOB_SPEC         (1 << 0)  /* Mob has a callable spec-proc	*/
+#define MOB_SENTINEL     (1 << 1)  /* Mob should not move		*/
+#define MOB_SCAVENGER    (1 << 2)  /* Mob picks up stuff on the ground	*/
+#define MOB_ISNPC        (1 << 3)  /* (R) Automatically set on all Mobs	*/
+#define MOB_AWARE	 (1 << 4)  /* Mob can't be backstabbed		*/
+#define MOB_AGGRESSIVE   (1 << 5)  /* Mob hits players in the room	*/
+#define MOB_STAY_ZONE    (1 << 6)  /* Mob shouldn't wander out of zone	*/
+#define MOB_WIMPY        (1 << 7)  /* Mob flees if severely injured	*/
+#define MOB_AGGR_EVIL	 (1 << 8)  /* auto attack evil PC's		*/
+#define MOB_AGGR_GOOD	 (1 << 9)  /* auto attack good PC's		*/
+#define MOB_AGGR_NEUTRAL (1 << 10) /* auto attack neutral PC's		*/
+#define MOB_MEMORY	 (1 << 11) /* remember attackers if attacked	*/
+#define MOB_HELPER	 (1 << 12) /* attack PCs fighting other NPCs	*/
+#define MOB_NOCHARM	 (1 << 13) /* Mob can't be charmed		*/
+#define MOB_NOSUMMON	 (1 << 14) /* Mob can't be summoned		*/
+#define MOB_NOSLEEP	 (1 << 15) /* Mob can't be slept		*/
+#define MOB_NOBASH	 (1 << 16) /* Mob can't be bashed (e.g. trees)	*/
+#define MOB_NOBLIND	 (1 << 17) /* Mob can't be blinded		*/
++#define MOB_VAMPIRE      (1 << 18)
+
+Open constants.c
+~~~~~~~~~~~~~~~~
+
+/* strings corresponding to ordinals/bitvectors in structs.h ***********/
+
+
+/* (Note: strings for class definitions in class.c instead of here) */
+
+
++/* Vampire Commands (you'll see why we do this later) */
++const char *vampire_cmds[] =
++{
++  "look",
++  "north",
++  "south",
++  "east",
++  "west",
++  "up",
++  "down",
++  "scan",
++  "exits",
++  "equipment",
++  "flee",
++  "gossip",
++  "hit",
++  "kill",
++  "qui",
++  "quit",
++  "say",
++  "score",
++  "tell",
++  "who",
++  "\n"
++};
+
+
+
+Further down:
+
+
+/* PLR_x */
+const char *player_bits[] = {
+  "KILLER",
+  "THIEF",
+  "FROZEN",
+  "DONTSET",
+  "WRITING",
+  "MAILING",
+  "CSH",
+  "SITEOK",
+  "NOSHOUT",
+  "NOTITLE",
+  "DELETED",
+  "LOADRM",
+  "!WIZL",
+  "!DEL",
+  "INVST",
+  "CRYO",
++  "VAMPIRE",
+  "\n"
+};
+
+
+/* MOB_x */
+const char *action_bits[] = {
+  "SPEC",
+  "SENTINEL",
+  "SCAVENGER",
+  "ISNPC",
+  "AWARE",
+  "AGGR",
+  "STAY-ZONE",
+  "WIMPY",
+  "AGGR_EVIL",
+  "AGGR_GOOD",
+  "AGGR_NEUTRAL",
+  "MEMORY",
+  "HELPER",
+  "!CHARM",
+  "!TRANS",
+  "!SLEEP",
+  "!BASH",
+  "!BLIND",
++  "VAMPIRE",
+  "\n"
+};
+
+
+
+Open constants.h
+~~~~~~~~~~~~~~~~
+
+extern const char *circlemud_version;
+extern const char *dirs[];
++extern const char *vampire_cmds[];
+
+
+
+Open utils.h
+~~~~~~~~~~~~
+#define GET_ALIASES(ch)		CHECK_PLAYER_SPECIAL((ch), ((ch)->player_specials->aliases))
+#define GET_LAST_TELL(ch)	CHECK_PLAYER_SPECIAL((ch), ((ch)->player_specials->last_tell))
++
++#define VAMPIRE(ch)    (!IS_NPC(ch) && PLR_FLAGGED(ch, PLR_VAMPIRE))
+
+#define GET_SKILL(ch, i)	CHECK_PLAYER_SPECIAL((ch), ((ch)->player_specials->saved.skills[i]))
+#define SET_SKILL(ch, i, pct)	do { CHECK_PLAYER_SPECIAL((ch), (ch)->player_specials->saved.skills[i]) = pct; } while(0)
+
+Further down:
+
+#define AWAKE(ch) (GET_POS(ch) > POS_SLEEPING)
+#define CAN_SEE_IN_DARK(ch) \
+-   (AFF_FLAGGED(ch, AFF_INFRAVISION) || (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))
++   (AFF_FLAGGED(ch, AFF_INFRAVISION) || (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)) || VAMPIRE(ch))
+
+
+ 
+Open interpreter.c
+~~~~~~~~~~~~~~~~~~
+
+extern struct index_data *mob_index;
+extern struct index_data *obj_index;
+extern struct room_data *world;
++extern const char *vampire_cmds[];
+
+/* external functions */
+void echo_on(struct descriptor_data *d);
+void echo_off(struct descriptor_data *d);
+void do_start(struct char_data *ch);
+
+
+Further down:
+
+
+const char *reserved[] =
+{
+  "a",
+  "an",
+  "self",
+  "me",
+  "all",
+  "room",
+  "someone",
+  "something",
+  "\n"
+};
+
+
++/* (vampire_cmds[] is in constants.c) */
++int vampire_cmd_ok(struct char_data *ch, const char *command)
++{
++ int i;
++
++  if (!VAMPIRE(ch))
++   return(1);
++
++  for (i = 0; *vampire_cmds[i] != '\n'; i++) {
++    if (!str_cmp(vampire_cmds[i], command))
++     return(1);
++  }
++  return(0);
++}
+
+
+Further down:
+
+  /* otherwise, find the command */
+  for (length = strlen(arg), cmd = 0; *cmd_info[cmd].command != '\n'; cmd++)
+    if (!strncmp(cmd_info[cmd].command, arg, length))
+-      if (GET_LEVEL(ch) >= cmd_info[cmd].minimum_level)
++      if ((GET_LEVEL(ch) >= cmd_info[cmd].minimum_level) && vampire_cmd_ok(ch, cmd_info[cmd].command))
+	break;
+
+-  if (*cmd_info[cmd].command == '\n')
+-    send_to_char("Huh?!?\r\n", ch);
++  if ((*cmd_info[cmd].command == '\n') && VAMPIRE(ch))
++    send_to_char("You cannot keep control enough to do that!\r\n", ch);
++  else if ((*cmd_info[cmd].command == '\n') && !VAMPIRE(ch))
++    send_to_char("Huh?!?\r\n", ch);
+
+
+Further down:
+
+      /*
+       * We have to place the character in a room before equipping them
+       * or equip_char() will gripe about the person in NOWHERE.
+       */
+      if ((load_room = GET_LOADROOM(d->character)) != NOWHERE)
+	load_room = real_room(load_room);
+
+      /* If char was saved with NOWHERE, or real_room above failed... */
+      if (load_room == NOWHERE) {
+	if (GET_LEVEL(d->character) >= LVL_IMMORT)
+	  load_room = r_immort_start_room;
+	else
+	  load_room = r_mortal_start_room;
+      }
+
+      if (PLR_FLAGGED(d->character, PLR_FROZEN))
+	load_room = r_frozen_start_room;
+
+      send_to_char(WELC_MESSG, d->character);
+      d->character->next = character_list;
+      character_list = d->character;
+      char_to_room(d->character, load_room);
+      load_result = Crash_load(d->character);
++      REMOVE_BIT(PLR_FLAGS(d->character), PLR_VAMPIRE);
+      save_char(d->character, NOWHERE);
+
+
+
+Open limits.c
+~~~~~~~~~~~~~
+
+In the "hit_gain(struct char_data * ch)" funtion:
+
+    /* Position calculations    */
+    switch (GET_POS(ch)) {
+    case POS_SLEEPING:
+      gain += (gain / 2);	/* Divide by 2 */
+      break;
+    case POS_RESTING:
+      gain += (gain / 4);	/* Divide by 4 */
+      break;
+    case POS_SITTING:
+      gain += (gain / 8);	/* Divide by 8 */
+      break;
+    }
+
++    /* Vampires heal more quickly */
++    if (VAMPIRE(ch))
++      gain += (gain * 2);
+
+    if (IS_MAGIC_USER(ch) || IS_CLERIC(ch))
+      gain /= 2;	/* Ouch. */
+
+
+In the "move_gain(struct char_data * ch)" funtion:
+
+    /* Position calculations    */
+    switch (GET_POS(ch)) {
+    case POS_SLEEPING:
+      gain += (gain / 2);	/* Divide by 2 */
+      break;
+    case POS_RESTING:
+      gain += (gain / 4);	/* Divide by 4 */
+      break;
+    case POS_SITTING:
+      gain += (gain / 8);	/* Divide by 8 */
+      break;
+    }
+
++    /* Vampires gain move more quickly */
++    if (VAMPIRE(ch))
++      gain += (gain * 2);
+
+    if ((GET_COND(ch, FULL) == 0) || (GET_COND(ch, THIRST) == 0))
+      gain /= 4;
+
+In the "gain_condition(struct char_data * ch, int condition, int value)" function:
+
+
+  bool intoxicated;
+
+-  if (IS_NPC(ch) || GET_COND(ch, condition) == -1)      /* No change */
++  if (IS_NPC(ch) || GET_COND(ch, condition) == -1 || VAMPIRE(ch))      /* No change */
+    return;
+
+  intoxicated = (GET_COND(ch, DRUNK) > 0);
+
+
+Open act.informative.c
+~~~~~~~~~~~~~~~~~~~~~~
+
+In the "look_at_char(struct char_data * i, struct char_data * ch)" function:
+
+
+-  if (i->player.description)
++  if (i->player.description && !VAMPIRE(i))
+    send_to_char(i->player.description, ch);
++  else if (VAMPIRE(i))
++    send_to_char("You see a 6ft Vampire, white as a sheet with huge fangs.\r\n", ch);
+  else
+    act("You see nothing special about $m.", FALSE, i, 0, ch, TO_VICT);
+
+  diag_char_to_char(i, ch);
+
+  found = FALSE;
+  for (j = 0; !found && j < NUM_WEARS; j++)
+    if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j)))
+      found = TRUE;
+
+-  if (found) {
++  if (found || VAMPIRE(i)) {
+    send_to_char("\r\n", ch);  /* act() does capitalization. */
+    act("$n is using:", FALSE, i, 0, ch, TO_VICT);
+-    for (j = 0; j < NUM_WEARS; j++)
+-      if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
+-        send_to_char(where[j], ch);
+-        show_obj_to_char(GET_EQ(i, j), ch, 1, 1);
+-      }
++    if (!VAMPIRE(i)) {
++     for (j = 0; j < NUM_WEARS; j++) {
++       if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
++         send_to_char(where[j], ch);
++         show_obj_to_char(GET_EQ(i, j), ch, 1, 1);
++       }
++     }
++    }
++    else {
++      send_to_char("<worn around neck>   a Vampire's Cape\r\n"
++                   "<worn around neck>   a Black Bow Tie\r\n"
++                   "<worn on body>       a Black Jacket\r\n"
++                   "<worn on legs>       Black Trousers\r\n"
++                   "<worn on feet>       a pair of Black Shoes\r\n", ch);
++    }
+  }
+
+
+Further down:
+
+
+  if (IS_NPC(i)) {
+    strcpy(buf, i->player.short_descr);
+    CAP(buf);
+-  } else
++  } else if (VAMPIRE(i))
++    sprintf(buf, "%s the Vampire", i->player.name);
++  else 
+    sprintf(buf, "%s %s", i->player.name, GET_TITLE(i));
+
+  if (AFF_FLAGGED(i, AFF_INVISIBLE))
+    strcat(buf, " (invisible)");
+  if (AFF_FLAGGED(i, AFF_HIDE))
+    strcat(buf, " (hidden)");
+  if (!IS_NPC(i) && !i->desc)
+    strcat(buf, " (linkless)");
+
+
+In the "ACMD(do_score)" function:
+
++  if (VAMPIRE(ch))
++    strcat(buf, "You are a Vampire.\r\n");
++
+  if (GET_COND(ch, DRUNK) > 10)
+    strcat(buf, "You are intoxicated.\r\n");
+
+  if (GET_COND(ch, FULL) == 0)
+    strcat(buf, "You are hungry.\r\n");
+
+  if (GET_COND(ch, THIRST) == 0)
+    strcat(buf, "You are thirsty.\r\n");
+
+
+In the "ACMD(do_equipment)" function:
+
+
+  send_to_char("You are using:\r\n", ch);
+-  for (i = 0; i < NUM_WEARS; i++) {
+-    if (GET_EQ(ch, i)) {
+-      if (CAN_SEE_OBJ(ch, GET_EQ(ch, i))) {
+-        send_to_char(where[i], ch);
+-        show_obj_to_char(GET_EQ(ch, i), ch, 1, 1);
+-        found = TRUE;
+-      } else {
+-        send_to_char(where[i], ch);
+-        send_to_char("Something.\r\n", ch);
+-        found = TRUE;
+-      }
+-    }
+-  }
++  if (!VAMPIRE(ch)) {
++   for (i = 0; i < NUM_WEARS; i++) {
++     if (GET_EQ(ch, i)) {
++       if (CAN_SEE_OBJ(ch, GET_EQ(ch, i))) {
++         send_to_char(where[i], ch);
++         show_obj_to_char(GET_EQ(ch, i), ch, 1, 1);
++         found = TRUE;
++       } else {
++         send_to_char(where[i], ch);
++         send_to_char("Something.\r\n", ch);
++         found = TRUE;
++       }
++     }
++   }
++  }
++  else {
++    send_to_char("<worn around neck>   a Vampire's Cape\r\n"
++                 "<worn around neck>   a Black Bow Tie\r\n"
++                 "<worn on body>       a Black Jacket\r\n"
++                 "<worn on legs>       Black Trousers\r\n"
++                 "<worn on feet>       a pair of Black Shoes\r\n", ch);
++    found = TRUE;
++  }
+
+
+
+In the "ACMD(do_who)" function:
+
+
+      if (GET_INVIS_LEV(tch))
+        sprintf(buf + strlen(buf), " (i%d)", GET_INVIS_LEV(tch));
+      else if (AFF_FLAGGED(tch, AFF_INVISIBLE))
+        strcat(buf, " (invisible)");
++
++      if (VAMPIRE(tch))
++        strcat(buf, " (Vampire)");
+
+      if (PLR_FLAGGED(tch, PLR_MAILING))
+	strcat(buf, " (mailing)");
+      else if (PLR_FLAGGED(tch, PLR_WRITING))
+	strcat(buf, " (writing)");
+
+      if (PRF_FLAGGED(tch, PRF_DEAF))
+	strcat(buf, " (deaf)");
+
+
+
+Open oasis.h/olc.h (depending on OLC version)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#define NUM_ROOM_FLAGS 		16
+#define NUM_ROOM_SECTORS        10
+
+-#define NUM_MOB_FLAGS           18
++#define NUM_MOB_FLAGS           19
+#define NUM_AFF_FLAGS		22
+
+
+Open mobact.c
+~~~~~~~~~~~~~
+
+/* local functions */
+void mobile_activity(void);
++void vampire_activity(void);
++void make_vampire(struct char_data *ch, struct char_data * vict);
+void clearMemory(struct char_data * ch);
+
+
+
+In the "mobile_activity()" function:
+
+    /* Aggressive Mobs */
+-    if (MOB_FLAGGED(ch, MOB_AGGRESSIVE | MOB_AGGR_TO_ALIGN)) {
++    if (MOB_FLAGGED(ch, MOB_AGGRESSIVE | MOB_AGGR_TO_ALIGN | MOB_VAMPIRE)) {
+      found = FALSE;
+      for (vict = world[ch->in_room].people; vict && !found; vict = vict->next_in_room) {
+-        if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE))
++        if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE) || (MOB_FLAGGED(ch, MOB_VAMPIRE) && VAMPIRE(vict)))
+	  continue;
+	if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
+	  continue;
+	if (!MOB_FLAGGED(ch, MOB_AGGR_TO_ALIGN) ||
+	    (MOB_FLAGGED(ch, MOB_AGGR_EVIL) && IS_EVIL(vict)) ||
+	    (MOB_FLAGGED(ch, MOB_AGGR_NEUTRAL) && IS_NEUTRAL(vict)) ||
+	    (MOB_FLAGGED(ch, MOB_AGGR_GOOD) && IS_GOOD(vict))) {
+	  hit(ch, vict, TYPE_UNDEFINED);
+	  found = TRUE;
+	}
+      }
+    }
+
+
+Below "mobile_activity()" put this:
+
++void vampire_activity(void)
++{
++  register struct char_data *ch, *next_ch, *vict;
++  int found = FALSE;
++
++  for (ch = character_list; ch; ch = next_ch) {
++    next_ch = ch->next;
++
++    /*** (MG) This is so the victim isn't repeated for each Vampire */
++    vict = NULL;
++    found = FALSE;
++
++    if (IS_NPC(ch) && !MOB_FLAGGED(ch, MOB_VAMPIRE))
++     continue;
++    if (!IS_NPC(ch) && !PLR_FLAGGED(ch, PLR_VAMPIRE))
++     continue;
++
++
++    for (vict = world[ch->in_room].people; vict && !found; vict = vict->next_in_room) {
++      if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE) || VAMPIRE(vict))
++        continue;
++      else {
++        make_vampire(ch, vict);
++        found = TRUE;
++      }
++    }
++  }
++}
++
++void make_vampire(struct char_data *ch, struct char_data *vict)
++{
++  if (IS_NPC(vict))
++   return;
++
++  if (FIGHTING(ch) == vict)
++   stop_fighting(ch);
++  if (FIGHTING(vict) == ch)
++   stop_fighting(vict);
++
++  act("$n viciously sinked $s fangs into $N's neck.", FALSE, ch, 0, vict, TO_NOTVICT);
++  act("You viciously sink your fangs into $N's neck. As you taste the blood you feel a deep hunger satisfied.", FALSE, ch, 0, vict, TO_CHAR);
++  act("$n viciously sinks $s fangs into your neck.", FALSE, ch, 0, vict, TO_VICT);
++  act("As $n slowly draws the life from you, you feel weak and then suddenly you can breath again and you feel stronger and more alive.", FALSE, ch, 0, vict, TO_VICT);
++  act("Your vision is perfect and you now feel a deep hunger.", FALSE, ch, 0, vict, TO_VICT);
++
++  SET_BIT(PLR_FLAGS(vict), PLR_VAMPIRE);
++  if (vict->affected) {
++   while (vict->affected)
++    affect_remove(vict, vict->affected);
++  }
++}
+
+
+Open comm.c
+~~~~~~~~~
+
+/* extern fcnts */
+void reboot_wizlists(void);
+void boot_world(void);
+void affect_update(void);	/* In spells.c */
+void mobile_activity(void);
++void vampire_activity(void);
+
+
+In the "heartbeat(in pulse)" function:
+
+  if (!(pulse % PULSE_MOBILE))
+    mobile_activity();
+
++  if (!(pulse % (PULSE_MOBILE * 2)))
++    vampire_activity();
+
+
+Open fight.c
+~~~~~~~~~~~~
+
+/* External procedures */
+char *fread_action(FILE * fl, int nr);
+ACMD(do_flee);
+int backstab_mult(int level);
+int thaco(int ch_class, int level);
+int ok_damage_shopkeeper(struct char_data * ch, struct char_data * victim);
++void Crash_rentsave(struct char_data * ch, int cost);
+
+In the "raw_kill(struct char_data * ch)" function:
+
+  if (FIGHTING(ch))
+    stop_fighting(ch);
+
+  while (ch->affected)
+    affect_remove(ch, ch->affected);
+
+  death_cry(ch);
+
++  if (!VAMPIRE(ch)) {
++   make_corpse(ch);
++  }
++  else {
++   Crash_rentsave(ch, 0);
++  }
+-  make_corpse(ch);
+  extract_char(ch);
+
+
+************************************************************************
+* Here's were it gets interesting (btw from here till end is optional) *
+************************************************************************
+
+The following sections are optional code additions to the basic vampire
+code above. Some you may want, some you may not. But to install the
+second piece of code you'll need to have but in the first, and the
+third requires both first and second (you get the idea).
+
+
+OPTIONAL CODE 1. (BITTEN MOBS)
+
+This section allows mobs to be bitten and turn into Vampires, i.e you
+could have a plague of vampires roaming your MUD. Basically it will
+spread like the plague from mob to mob, mob to player, player to mob
+and player to player.
+
+
+Open structs.h
+~~~~~~~~~~~~~~
+
+/* Mobile flags: used by char_data.char_specials.act */
+#define MOB_SPEC         (1 << 0)  /* Mob has a callable spec-proc	*/
+#define MOB_SENTINEL     (1 << 1)  /* Mob should not move		*/
+#define MOB_SCAVENGER    (1 << 2)  /* Mob picks up stuff on the ground	*/
+#define MOB_ISNPC        (1 << 3)  /* (R) Automatically set on all Mobs	*/
+#define MOB_AWARE	 (1 << 4)  /* Mob can't be backstabbed		*/
+#define MOB_AGGRESSIVE   (1 << 5)  /* Mob hits players in the room	*/
+#define MOB_STAY_ZONE    (1 << 6)  /* Mob shouldn't wander out of zone	*/
+#define MOB_WIMPY        (1 << 7)  /* Mob flees if severely injured	*/
+#define MOB_AGGR_EVIL	 (1 << 8)  /* auto attack evil PC's		*/
+#define MOB_AGGR_GOOD	 (1 << 9)  /* auto attack good PC's		*/
+#define MOB_AGGR_NEUTRAL (1 << 10) /* auto attack neutral PC's		*/
+#define MOB_MEMORY	 (1 << 11) /* remember attackers if attacked	*/
+#define MOB_HELPER	 (1 << 12) /* attack PCs fighting other NPCs	*/
+#define MOB_NOCHARM	 (1 << 13) /* Mob can't be charmed		*/
+#define MOB_NOSUMMON	 (1 << 14) /* Mob can't be summoned		*/
+#define MOB_NOSLEEP	 (1 << 15) /* Mob can't be slept		*/
+#define MOB_NOBASH	 (1 << 16) /* Mob can't be bashed (e.g. trees)	*/
+#define MOB_NOBLIND	 (1 << 17) /* Mob can't be blinded		*/
+#define MOB_VAMPIRE      (1 << 18)
++#define MOB_BITTEN       (1 << 19)
+
+Open constants.c
+~~~~~~~~~~~~~~~~
+
+/* MOB_x */
+const char *action_bits[] = {
+  "SPEC",
+  "SENTINEL",
+  "SCAVENGER",
+  "ISNPC",
+  "AWARE",
+  "AGGR",
+  "STAY-ZONE",
+  "WIMPY",
+  "AGGR_EVIL",
+  "AGGR_GOOD",
+  "AGGR_NEUTRAL",
+  "MEMORY",
+  "HELPER",
+  "!CHARM",
+  "!TRANS",
+  "!SLEEP",
+  "!BASH",
+  "!BLIND",
+  "VAMPIRE",
++  "BITTEN",
+  "\n"
+};
+
+
+Open oasis.h/olc.h (depending on OLC version)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#define NUM_ROOM_FLAGS 		16
+#define NUM_ROOM_SECTORS        10
+
+-#define NUM_MOB_FLAGS           19
++#define NUM_MOB_FLAGS           20
+#define NUM_AFF_FLAGS		22
+
+
+Open utils.h
+~~~~~~~~~~~~
+
+#define GET_ALIASES(ch)		CHECK_PLAYER_SPECIAL((ch), ((ch)->player_specials->aliases))
+#define GET_LAST_TELL(ch)	CHECK_PLAYER_SPECIAL((ch), ((ch)->player_specials->last_tell))
+
+#define VAMPIRE(ch)    (!IS_NPC(ch) && PLR_FLAGGED(ch, PLR_VAMPIRE))
++#define MOBVAMPIRE(ch)    (IS_NPC(ch) && MOB_FLAGGED(ch, MOB_BITTEN))
+
+#define GET_SKILL(ch, i)	CHECK_PLAYER_SPECIAL((ch), ((ch)->player_specials->saved.skills[i]))
+#define SET_SKILL(ch, i, pct)	do { CHECK_PLAYER_SPECIAL((ch), (ch)->player_specials->saved.skills[i]) = pct; } while(0)
+
+
+
+Open act.informative.c
+~~~~~~~~~~~~~~~~~~~~~~
+
+In the "look_at_char(struct char_data * i, struct char_data * ch)" function:
+
+
+-  if (i->player.description && !VAMPIRE(i))
++  if (i->player.description && !VAMPIRE(i) && !MOBVAMPIRE(i))
+    send_to_char(i->player.description, ch);
+-  else if (VAMPIRE(i))
++  else if (VAMPIRE(i) || MOBVAMPIRE(i))
+    send_to_char("You see a 6ft Vampire, white as a sheet with huge fangs.\r\n", ch);
+  else
+    act("You see nothing special about $m.", FALSE, i, 0, ch, TO_VICT);
+
+  diag_char_to_char(i, ch);
+
+  found = FALSE;
+  for (j = 0; !found && j < NUM_WEARS; j++)
+    if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j)))
+      found = TRUE;
+
+-  if (found || VAMPIRE(i)) {
++  if (found || VAMPIRE(i) || MOBVAMPIRE(i)) {
+    send_to_char("\r\n", ch);  /* act() does capitalization. */
+    act("$n is using:", FALSE, i, 0, ch, TO_VICT);
+-    if (!VAMPIRE(i)) {
++    if (!VAMPIRE(i) && !MOBVAMPIRE(i)) {
+     for (j = 0; j < NUM_WEARS; j++) {
+       if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
+         send_to_char(where[j], ch);
+         show_obj_to_char(GET_EQ(i, j), ch, 1, 1);
+       }
+     }
+    }
+    else {
+      send_to_char("<worn around neck>   a Vampire's Cape\r\n"
+                   "<worn around neck>   a Black Bow Tie\r\n"
+                   "<worn on body>       a Black Jacket\r\n"
+                   "<worn on legs>       Black Trousers\r\n"
+                   "<worn on feet>       a pair of Black Shoes\r\n", ch);
+    }
+  }
+
+
+Further down:
+
+  const char *positions[] = {
+    " is lying here, dead.",
+    " is lying here, mortally wounded.",
+    " is lying here, incapacitated.",
+    " is lying here, stunned.",
+    " is sleeping here.",
+    " is resting here.",
+    " is sitting here.",
+    "!FIGHTING!",
+    " is standing here."
+  };
+
+-  if (IS_NPC(i) && i->player.long_descr && GET_POS(i) == GET_DEFAULT_POS(i)) {
++  if (IS_NPC(i) && i->player.long_descr && GET_POS(i) == GET_DEFAULT_POS(i) && !MOBVAMPIRE(i)) {
+
+
+Further down:
+
+
+-  if (IS_NPC(i)) {
++  if (IS_NPC(i) && !MOBVAMPIRE(i)) {
+    strcpy(buf, i->player.short_descr);
+    CAP(buf);
+  } else if (VAMPIRE(i))
+    sprintf(buf, "%s the Vampire", i->player.name);
++  else if (MOBVAMPIRE(i)) {
++    sprintf(buf, "%s the Vampire", i->player.short_descr);
++    CAP(buf);
++  }
+  else
+    sprintf(buf, "%s %s", i->player.name, GET_TITLE(i));
+
+  if (AFF_FLAGGED(i, AFF_INVISIBLE))
+    strcat(buf, " (invisible)");
+  if (AFF_FLAGGED(i, AFF_HIDE))
+    strcat(buf, " (hidden)");
+  if (!IS_NPC(i) && !i->desc)
+    strcat(buf, " (linkless)");
+
+
+In the "ACMD(do_equipment)" function:
+
+
+  send_to_char("You are using:\r\n", ch);
+-  if (!VAMPIRE(ch)) {
++  if (!VAMPIRE(ch) && !MOBVAMPIRE(ch)) {
+   for (i = 0; i < NUM_WEARS; i++) {
+     if (GET_EQ(ch, i)) {
+       if (CAN_SEE_OBJ(ch, GET_EQ(ch, i))) {
+         send_to_char(where[i], ch);
+         show_obj_to_char(GET_EQ(ch, i), ch, 1, 1);
+         found = TRUE;
+       } else {
+         send_to_char(where[i], ch);
+         send_to_char("Something.\r\n", ch);
+         found = TRUE;
+       }
+     }
+   }
+  }
+
+
+
+Open mobact.c
+~~~~~~~~~~~~~
+
+In the "mobile_activity()" function:
+
+    /* Aggressive Mobs */
+-    if (MOB_FLAGGED(ch, MOB_AGGRESSIVE | MOB_AGGR_TO_ALIGN | MOB_VAMPIRE)) {
++    if (MOB_FLAGGED(ch, MOB_AGGRESSIVE | MOB_AGGR_TO_ALIGN | MOB_VAMPIRE | MOB_BITTEN)) {
+      found = FALSE;
+      for (vict = world[ch->in_room].people; vict && !found; vict = vict->next_in_room) {
+-        if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE) || (MOB_FLAGGED(ch, MOB_VAMPIRE) && VAMPIRE(vict)))
++        if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE) || (MOB_FLAGGED(ch, MOB_VAMPIRE | MOB_BITTEN) && VAMPIRE(vict)))
+	  continue;
+	if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
+	  continue;
+	if (!MOB_FLAGGED(ch, MOB_AGGR_TO_ALIGN) ||
+	    (MOB_FLAGGED(ch, MOB_AGGR_EVIL) && IS_EVIL(vict)) ||
+	    (MOB_FLAGGED(ch, MOB_AGGR_NEUTRAL) && IS_NEUTRAL(vict)) ||
+	    (MOB_FLAGGED(ch, MOB_AGGR_GOOD) && IS_GOOD(vict))) {
+	  hit(ch, vict, TYPE_UNDEFINED);
+	  found = TRUE;
+	}
+      }
+    }
+
+
+Further Down:
+
+void vampire_activity(void)
+{
+  register struct char_data *ch, *next_ch, *vict;
+  int found = FALSE;
+
+  for (ch = character_list; ch; ch = next_ch) {
+    next_ch = ch->next;
+
+    /*** (MG) This is so the victim isn't repeated for each Vampire */
+    vict = NULL;
+    found = FALSE;
+
+-    if (IS_NPC(ch) && !MOB_FLAGGED(ch, MOB_VAMPIRE))
++    if (IS_NPC(ch) && !MOB_FLAGGED(ch, MOB_VAMPIRE | MOB_BITTEN))
+     continue;
+    if (!IS_NPC(ch) && !PLR_FLAGGED(ch, PLR_VAMPIRE))
+     continue;
+
++    /*
++      This stops a Domino effect in the biting
++      (i.e. A Vampire converting a whole room at once),
++      I use alignment as a marker.
++    */
++
++    if (GET_ALIGNMENT(ch) == 6666) {
++     GET_ALIGNMENT(ch) = -70;
++     continue;
++    }
+
+    for (vict = world[ch->in_room].people; vict && !found; vict = vict->next_in_room) {
+-      if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE) || VAMPIRE(vict))
++      if (MOB_FLAGGED(vict, MOB_VAMPIRE | MOB_BITTEN) || !CAN_SEE(ch, vict) || (!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOHASSLE)) || VAMPIRE(vict))
+        continue;
+      else {
+        make_vampire(ch, vict);
+        found = TRUE;
+      }
+    }
+}
+
+void make_vampire(struct char_data *ch, struct char_data *vict)
+{
+-  if (IS_NPC(vict))
+-   return;
+
+  if (FIGHTING(ch) == vict)
+   stop_fighting(ch);
+  if (FIGHTING(vict) == ch)
+   stop_fighting(vict);
+
+  act("$n viciously sinked $s fangs into $N's neck.", FALSE, ch, 0, vict, TO_NOTVICT);
+  act("You viciously sink your fangs into $N's neck. As you taste the blood you feel a deep hunger satisfied.", FALSE, ch, 0, vict, TO_CHAR);
+  act("$n viciously sinks $s fangs into your neck.", FALSE, ch, 0, vict, TO_VICT);
+  act("As $n slowly draws the life from you, you feel weak and then suddenly you can breath again and you feel stronger and more alive.", FALSE, ch, 0, vict, TO_VICT);
+  act("Your vision is perfect and you now feel a deep hunger.", FALSE, ch, 0, vict, TO_VICT);
+
+-  SET_BIT(PLR_FLAGS(vict), PLR_VAMPIRE);
+-  if (vict->affected) {
+-   while (vict->affected)
+-    affect_remove(vict, vict->affected);
+-  }
++  if (!IS_NPC(vict)) {
++   SET_BIT(PLR_FLAGS(vict), PLR_VAMPIRE);
++   if (vict->affected) {
++    while (vict->affected)
++     affect_remove(vict, vict->affected);
++   }
++  }
++  else {
++   SET_BIT(MOB_FLAGS(vict), MOB_BITTEN);
++   GET_ALIGNMENT(vict) = 6666;
++  }
+}
+
+
+Open act.movement.c
+~~~~~~~~~~~~~~~~~~~
+
+In the "do_simple_move" function:
+
+  /* Now we know we're allow to go into the room. */
+  if (GET_LEVEL(ch) < LVL_IMMORT && !IS_NPC(ch))
+    GET_MOVE(ch) -= need_movement;
+
+  if (!AFF_FLAGGED(ch, AFF_SNEAK)) {
+-    sprintf(buf2, "$n leaves %s.", dirs[dir]);
++    sprintf(buf2, "$n%s leaves %s.", (MOBVAMPIRE(ch) ? " (Vampire)" : ""), dirs[dir]);
+    act(buf2, TRUE, ch, 0, 0, TO_ROOM);
+  }
+  was_in = ch->in_room;
+  char_from_room(ch);
+  char_to_room(ch, world[was_in].dir_option[dir]->to_room);
+
+-  if (!AFF_FLAGGED(ch, AFF_SNEAK))
++  if (!AFF_FLAGGED(ch, AFF_SNEAK) && !MOBVAMPIRE(ch))
+    act("$n has arrived.", TRUE, ch, 0, 0, TO_ROOM);
++  if (!AFF_FLAGGED(ch, AFF_SNEAK) && MOBVAMPIRE(ch))
++    act("$n (Vampire) has arrived.", TRUE, ch, 0, 0, TO_ROOM);
+
+
+OPTIONAL CODE 2. (VAMPIRE LAIRS)
+
+This section allows Vampires to convert rooms into their lairs.
+This is a nice addition, as it creates an atmosphere in the Vampire's
+room. There are two ROOM_FLAGS here, one is ROOM_VAMPIRE, this should
+be set on rooms which you don't want converted (i called it VAMPIRE,
+because the rooms you'll prolly use it on would be the default zone
+of the Vampire, as you won't like a default description for all it's
+rooms). ROOM_LAIR should not be set, as it signifies a converted room.
+
+
+Open structs.h
+~~~~~~~~~~~~~~
+
+/* Room flags: used in room_data.room_flags */
+/* WARNING: In the world files, NEVER set the bits marked "R" ("Reserved") */
+#define ROOM_DARK		(1 << 0)   /* Dark			*/
+#define ROOM_DEATH		(1 << 1)   /* Death trap		*/
+#define ROOM_NOMOB		(1 << 2)   /* MOBs not allowed		*/
+#define ROOM_INDOORS		(1 << 3)   /* Indoors			*/
+#define ROOM_PEACEFUL		(1 << 4)   /* Violence not allowed	*/
+#define ROOM_SOUNDPROOF		(1 << 5)   /* Shouts, gossip blocked	*/
+#define ROOM_NOTRACK		(1 << 6)   /* Track won't go through	*/
+#define ROOM_NOMAGIC		(1 << 7)   /* Magic not allowed		*/
+#define ROOM_TUNNEL		(1 << 8)   /* room for only 1 pers	*/
+#define ROOM_PRIVATE		(1 << 9)   /* Can't teleport in		*/
+#define ROOM_GODROOM		(1 << 10)  /* LVL_GOD+ only allowed	*/
+#define ROOM_HEAL               (1 << 11)
+#define ROOM_DAMAGE             (1 << 12)
+#define ROOM_SHIP               (1 << 13)
+#define ROOM_HOUSE              (1 << 14)  /* (R) Room is a house       */
+#define ROOM_HOUSE_CRASH        (1 << 15)  /* (R) House needs saving    */
+#define ROOM_ATRIUM             (1 << 16)  /* (R) The door to a house   */
+#define ROOM_OLC                (1 << 17)  /* (R) Modifyable/!compress  */
+#define ROOM_BFS_MARK           (1 << 18)  /* (R) breath-first srch mrk */
++#define ROOM_VAMPIRE            (1 << 19)
++#define ROOM_LAIR               (1 << 20)
+
+
+Open constants.c
+~~~~~~~~~~~~~~~~
+
+/* ROOM_x */
+const char *room_bits[] = {
+  "DARK",
+  "DEATH",
+  "!MOB",
+  "INDOORS",
+  "PEACEFUL",
+  "SOUNDPROOF",
+  "!TRACK",
+  "!MAGIC",
+  "TUNNEL",
+  "PRIVATE",
+  "GODROOM",
+  "HEALING",
+  "DAMAGE",
+  "SHIP",
+  "HOUSE",
+  "HCRSH",
+  "ATRIUM",
+  "OLC",
+  "BFS MARK",
++  "VAMPIRE",
++  "LAIR",
+  "\n"
+};
+
+
+Open oasis.h/olc.h (depending on OLC version)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-#define NUM_ROOM_FLAGS          19
++#define NUM_ROOM_FLAGS          21
+#define NUM_ROOM_SECTORS        10
+
+#define NUM_MOB_FLAGS           20
+#define NUM_AFF_FLAGS		22
+
+
+Open utils.h
+~~~~~~~~~~~~
+
+#define GET_ALIASES(ch)		CHECK_PLAYER_SPECIAL((ch), ((ch)->player_specials->aliases))
+#define GET_LAST_TELL(ch)	CHECK_PLAYER_SPECIAL((ch), ((ch)->player_specials->last_tell))
+
+#define VAMPIRE(ch)    (!IS_NPC(ch) && PLR_FLAGGED(ch, PLR_VAMPIRE))
+#define MOBVAMPIRE(ch)    (IS_NPC(ch) && MOB_FLAGGED(ch, MOB_BITTEN))
++#define LAIRROOM(room)  (ROOM_FLAGGED(room, ROOM_LAIR))
++#define VAMPROOM(room)  (ROOM_FLAGGED(room, ROOM_VAMPIRE))
+
+#define GET_SKILL(ch, i)	CHECK_PLAYER_SPECIAL((ch), ((ch)->player_specials->saved.skills[i]))
+#define SET_SKILL(ch, i, pct)	do { CHECK_PLAYER_SPECIAL((ch), (ch)->player_specials->saved.skills[i]) = pct; } while(0)
+
+
+
+Open act.informative.c
+~~~~~~~~~~~~~~~~~~~~~~
+
+In the "ACMD(do_exits)" function:
+
+  for (door = 0; door < NUM_OF_DIRS; door++)
+    if (EXIT(ch, door) && EXIT(ch, door)->to_room != NOWHERE) {
+      if (GET_LEVEL(ch) >= LVL_IMMORT) {
+-        sprintf(buf2, "%-5s - [%5d] %s", dirs[door],
+-                GET_ROOM_VNUM(EXIT(ch, door)->to_room),
+-                world[EXIT(ch, door)->to_room].name);
++        sprintf(buf2, "%-5s - [%5d] %s%s", dirs[door],
++                GET_ROOM_VNUM(EXIT(ch, door)->to_room),
++                (LAIRROOM(EXIT(ch, door)->to_room) ? "Vampire Lair: " : ""),
++                world[EXIT(ch, door)->to_room].name);
+        strcat(buf2, "\r\n");
+      }
+      else {
+       if (!EXIT_FLAGGED(EXIT(ch, door), EX_CLOSED)) {
+        sprintf(buf2, "%-5s - ", dirs[door]);
+	if (IS_DARK(EXIT(ch, door)->to_room) && !CAN_SEE_IN_DARK(ch))
+	  strcat(buf2, "Too dark to tell\r\n");
+	else {
++          if (LAIRROOM(EXIT(ch, door)->to_room))
++           strcat(buf2, "Vampire Lair: ");
+	  strcat(buf2, world[EXIT(ch, door)->to_room].name);
+	  strcat(buf2, "\r\n");
+	}
+       }
+      }
+      strcat(buf, CAP(buf2));
+    }
+
+
+In the "look_at_room" function:
+
+  send_to_char(CCCYN(ch, C_NRM), ch);
+  if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_ROOMFLAGS)) {
+    sprintbit(ROOM_FLAGS(ch->in_room), room_bits, buf);
+-    sprintf(buf2, "[%5d] %s [ %s]", GET_ROOM_VNUM(IN_ROOM(ch)),
++    sprintf(buf2, "[%5d] %s%s [ %s]", (LAIRROOM(ch->in_room) ? "Vampire Lair: " : ""), GET_ROOM_VNUM(IN_ROOM(ch)),
+	    world[ch->in_room].name, buf);
+    send_to_char(buf2, ch);
+
+-  } else
++  } else {
++    if (LAIRROOM(ch->in_room))
++     send_to_char("Vampire Lair: ", ch);
+    send_to_char(world[ch->in_room].name, ch);
++  }
+
+  send_to_char(CCNRM(ch, C_NRM), ch);
+  send_to_char("\r\n", ch);
+
+-  if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief ||
+-      ROOM_FLAGGED(ch->in_room, ROOM_DEATH))
++  if (((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief ||
++      ROOM_FLAGGED(ch->in_room, ROOM_DEATH)) && !LAIRROOM(ch->in_room))
+    send_to_char(world[ch->in_room].description, ch);
++  if (LAIRROOM(ch->in_room)) {
++   send_to_char("This room is now a lair for those creatures of the night,\r\n"
++                "known as Vampires. The room is very dark, you see corpses\r\n"
++                "everywhere, but no blood. Limbs were seperated from body in\r\n"
++                "an effort to drain every last drop. You better keep an eye\r\n"
++                "out for an Vampire around, they are swift killers. Some of\r\n"
++                "the corpses move, they are turning into vampires and will\r\n"
++                "soon wake up to a great hunger, which you can satisfy.\r\n", ch);
++  }
+
+
+Open mobact.c
+~~~~~~~~~~~~~
+
+In the "vampire_activity(void)" function:
+
+    if (IS_NPC(ch) && !MOB_FLAGGED(ch, MOB_VAMPIRE | MOB_BITTEN))
+     continue;
+    if (!IS_NPC(ch) && !PLR_FLAGGED(ch, PLR_VAMPIRE))
+     continue;
+
++    if (!LAIRROOM(ch->in_room) && !VAMPROOM(ch->in_room) && (SECT(ch->in_room) == SECT_INSIDE))
++     SET_BIT(ROOM_FLAGS(ch->in_room), ROOM_LAIR);
+
+
+
+OPTIONAL CODE 3. (PEST CONTROL)
+
+This code will give Greater Gods a command which can clear rooms
+of vampires and return them to normal along with the room, the
+same command can be used to clear the whole world also. This code
+also makes an alteration to "show zones" so you can see which zones
+are infested, if you have a rlist command you should change that
+too so Immortals can see how much of a zone is infested. I've included
+code here to wipe vampire changes every hour. Also with this you
+can disable biting and disable the hourly wipe two from within the
+MUD.
+
+Open act.wizard.c
+~~~~~~~~~~~~~~~~~
+
+ACMD(do_force);
+ACMD(do_wiznet);
+ACMD(do_zreset);
+ACMD(do_wizutil);
+void print_zone_to_buf(char *bufptr, zone_rnum zone);
+ACMD(do_show);
+ACMD(do_set);
++void vamplight(void);
++ACMD(do_vamplight);
+
+
+In the "print_zone_to_buf(char *bufptr, zone_rnum zone)" function:
+
+void print_zone_to_buf(char *bufptr, zone_rnum zone)
+{
++  extern struct room_data *world; 
++  extern room_rnum top_of_world; 
++  int first, last, nr, vampire = FALSE;
++
++
++  first = (zone_table[zone].number * 100); 
++  last = ((zone_table[zone].number * 100) + 99); 
++
++  for (nr = 0; nr <= top_of_world && (world[nr].number <= last); nr++)
++   if (world[nr].number >= first)
++    if (LAIRROOM(nr))
++      vampire = TRUE;
++
+-  sprintf(bufptr, "%s%3d %-30.30s Age: %3d; Reset: %3d (%1d); Top: %5d\r\n",
+-          bufptr, zone_table[zone].number, zone_table[zone].name,
++  sprintf(bufptr, "%s%s%3d %-30.30s Age: %3d; Reset: %3d (%1d); Top: %5d\r\n"KNRM,
++          bufptr, (vampire ? KYEL : ""), zone_table[zone].number, zone_table[zone].name,
+	  zone_table[zone].age, zone_table[zone].lifespan,
+	  zone_table[zone].reset_mode, zone_table[zone].top);
+}
+
+
+At the end of the file:
+
+
++void vamplight(void)
++{
++ struct char_data *vict;
++ int i = 0;
++
++ for (i = 0; i <= top_of_world; i++) {
++  for (vict = world[i].people; vict; vict = vict->next_in_room) {
++   if (VAMPIRE(vict))
++     REMOVE_BIT(PLR_FLAGS(vict), PLR_VAMPIRE);
++   else if (MOBVAMPIRE(vict))
++     REMOVE_BIT(MOB_FLAGS(vict), MOB_BITTEN);
++  }
++  if (LAIRROOM(i))
++   REMOVE_BIT(ROOM_FLAGS(i), ROOM_LAIR);
++ }
++ send_to_all("A Surge of Light comes from the hand of a God and the world is restored.\r\n");
++ return;
++}
++
++ACMD(do_vamplight)
++{
++ struct char_data *vict;
++ int i = 0;
++
++ one_argument(argument, buf);
++
++ if (!*buf) {
++  for (vict = world[ch->in_room].people; vict; vict = vict->next_in_room) {
++   if (VAMPIRE(vict))
++     REMOVE_BIT(PLR_FLAGS(vict), PLR_VAMPIRE);
++   else if (MOBVAMPIRE(vict))
++     REMOVE_BIT(MOB_FLAGS(vict), MOB_BITTEN);
++  }
++  if (LAIRROOM(ch->in_room))
++   REMOVE_BIT(ROOM_FLAGS(ch->in_room), ROOM_LAIR);
++  send_to_room("A Surge of Light comes from the hand of a God and the room is restored.\r\n", ch->in_room);
++ }
++ else {
++  vamplight();
++ }
++}
+
+
+Open config.c
+~~~~~~~~~~~~~
+
+At the end of the file:
+
++/****************************************************************************/
++/****************************************************************************/
++
++
++/* VAMPIRE OPTIONS */
++
++
++/*
++ * Set this to 1 if you want vampires to bite others and spread.
++ * NOTE: This can be changed in game.
++ */
++int vampire_biting = 1;
++
++/*
++ * Set this to 1 if you want vampires to automatically be wiped hourly.
++ * NOTE: This can be changed in game.
++ */
++int auto_vamplight = 1;
+
+
+Open act.other.c
+~~~~~~~~~~~~~~~~
+
+/* extern variables */
+extern struct room_data *world;
+extern struct descriptor_data *descriptor_list;
+extern struct spell_info_type spell_info[];
+extern struct index_data *mob_index;
+extern char *class_abbrevs[];
+extern const char *pc_class_types[];
+extern const char *class_menu;
+extern int free_rent;
+extern int pt_allowed;
+extern int max_filesize;
+extern int nameserver_is_slow;
+extern int auto_save;
+extern int track_through_doors;
++extern int vampire_biting;
++extern int auto_vamplight;
+
+
+In the "ACMD(do_gen_tog)" Function:
+
+    {"Nameserver_is_slow changed to NO; IP addresses will now be resolved.\r\n",
+    "Nameserver_is_slow changed to YES; sitenames will no longer be resolved.\r\n"},
+    {"Autoexits disabled.\r\n",
+    "Autoexits enabled.\r\n"},
+    {"Will no longer track through doors.\r\n",
+-    "Will now track through doors.\r\n"}
++    "Will now track through doors.\r\n"},
++    {"Vampires will no longer bite.\r\n",
++    "Vampires will now bite.\r\n"},
++    {"Vampires will not be wiped hourly.\r\n",
++    "Vampires will be wiped hourly.\r\n"}
+  };
+
+
+Further down:
+
+  case SCMD_AUTOEXIT:
+    result = PRF_TOG_CHK(ch, PRF_AUTOEXIT);
+    break;
+  case SCMD_TRACK:
+    result = (track_through_doors = !track_through_doors);
+    break;
++  case SCMD_VAMPIRE_BITING:
++    result = (vampire_biting = !vampire_biting);
++    break;
++  case SCMD_AUTO_VAMPLIGHT:
++    result = (auto_vamplight = !auto_vamplight);
++    break;
+
+
+Open interpreter.c
+~~~~~~~~~~~~~~~~~~
+
+ACMD(do_ungroup);
+ACMD(do_use);
+ACMD(do_users);
++ACMD(do_vamplight);
+ACMD(do_visible);
+
+
+Further down:
+
+  { "applaud"  , POS_RESTING , do_action   , 0, 0 },
+  { "assist"   , POS_FIGHTING, do_assist   , 1, 0 },
+  { "ask"      , POS_RESTING , do_spec_comm, 0, SCMD_ASK },
+  { "auction"  , POS_SLEEPING, do_gen_comm , 0, SCMD_AUCTION }
++  { "autovamp" , POS_DEAD    , do_gen_tog  , LVL_IMPL, SCMD_AUTO_VAMPLIGHT },
+
+
+Further down:
+
+
+  { "value"    , POS_STANDING, do_not_here , 0, 0 },
++  { "vampbite" , POS_DEAD    , do_gen_tog  , LVL_IMPL, SCMD_VAMPIRE_BITING },
++  { "vamplight", POS_STANDING, do_vamplight, LVL_GRGOD, 0 },
+  { "version"  , POS_DEAD    , do_gen_ps   , 0, SCMD_VERSION },
+  { "vnum"     , POS_DEAD    , do_vnum     , LVL_IMMORT, 0 },
+  { "vstat"    , POS_DEAD    , do_vstat    , LVL_IMMORT, 0 },
+
+
+Open interpreter.h
+~~~~~~~~~~~~~~~~~~
+
+/* do_gen_tog */
+#define SCMD_NOSUMMON   0
+#define SCMD_NOHASSLE   1
+#define SCMD_BRIEF      2
+#define SCMD_COMPACT    3
+#define SCMD_NOTELL	4
+#define SCMD_NOAUCTION	5
+#define SCMD_DEAF	6
+#define SCMD_NOGOSSIP	7
+#define SCMD_NOGRATZ	8
+#define SCMD_NOWIZ	9
+#define SCMD_QUEST	10
+#define SCMD_ROOMFLAGS	11
+#define SCMD_NOREPEAT	12
+#define SCMD_HOLYLIGHT	13
+#define SCMD_SLOWNS	14
+#define SCMD_AUTOEXIT	15
+#define SCMD_TRACK	16
++#define SCMD_VAMPIRE_BITING 17
++#define SCMD_AUTO_VAMPLIGHT 18
+
+
+Open comm.c
+~~~~~~~~~~~
+
+extern int MAX_PLAYERS;
+extern int nameserver_is_slow;	/* see config.c */
+extern int auto_save;		/* see config.c */
+extern int autosave_time;	/* see config.c */
++extern int vampire_biting;
++extern int auto_vamplight;
+
+
+Further down:
+
+/* extern fcnts */
+void reboot_wizlists(void);
+void boot_world(void);
+void affect_update(void);	/* In spells.c */
+void mobile_activity(void);
+void vampire_activity(void);
+void perform_violence(void);
+void show_string(struct descriptor_data *d, char *input);
+int isbanned(char *hostname);
+void weather_and_time(int mode);
++void vamplight(void);
+
+
+In the "heartbeat(int pulse)" function:
+
+-  if (!(pulse % (PULSE_MOBILE * 2)))
++  if (!(pulse % (PULSE_MOBILE * 2)) && vampire_biting)
+    vampire_activity();
++
++  if (!(pulse % (3600 * PASSES_PER_SEC)) && auto_vamplight)
++    vamplight();
+
+
+Thats it's. To make changes to the commands that Vampires can use,
+just change the:
+
+vampire_cmds[] in constants.c, just add the name of the command.
+
+If you wanted to you could make this a lot more detailed, e.g.
+Vampires can't eat food but must suck blood from corpses to survive.
+To make a Vampire, just set VAMPIRE to a mob and if you installed the
+second optional code set VAMPIRE to all the rooms in it's default area.
+The rest of the code works from there, there are 3 new commands if
+you installed optional code three. "vamplight" which cleans the room
+you're in, type "vamplight all" to clear the entire world. Type
+"autovamp" to toggle automatic clearing of the world hourly. Type
+"vampbite" to toggle the entire code, if vamplight is off biting
+stops, but those already bitten will continue to be vampires, just
+won't bite anyone. In "show zones" you'll see infested zone in the
+color yellow.
+
+This was tested on my altered Circle3bpl17
+*************************************************************************
+
+If you use this code please email me and let me know. I'd appreciated it.
+
+Subliminal
+m_gally@hotmail.com
+
+Head Coder/Implementor of "STFMUD: The Second Coming".
+
+http://www.stfmud.com/
+(you can find my other snippets there)
+
+*************************************************************************
+
+

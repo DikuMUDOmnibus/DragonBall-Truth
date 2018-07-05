@@ -1,0 +1,5 @@
+run 4000
+where
+p *ch
+p arg
+quit

@@ -1,0 +1,464 @@
+#1000
+hiker man~
+&00A &12male&00 hiker~
+&00A &12male&00 hiker is standing here stretching.
+~
+This hiker is tall and slender. He is standing here stretching to prepare for a long hike through the mountains.
+~
+253962 0 0 E
+99 -30 10 10d10+0 10d10+99
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1000
+#1001
+hiker man male~
+&00A &12male&00 hiker~
+&00A &12male&00 hiker is climbing through the mountains here.
+~
+This hiker is tall and slender. He is walking here on a hike through the mountains.
+~
+8 0 0 E
+1 -20 0 1d1+3000 1d1+500
+200 170000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1002
+hiker female woman~
+&00A &13female&00 hiker~
+&00A &13female&00 hiker is climbing through the mountains here.
+~
+This hiker is tall and slender. She is walking here on a hike through the mountains.
+~
+8 0 0 E
+1 -20 0 1d1+2000 1d1+500
+200 150000
+8 8 2
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1003
+mountain goat~
+&00&03A mountain &16G&00&07o&03a&16t&00~
+&00&03A mountain &16G&00&07o&03a&16t&00&03 is romping around here, climbing on the rocks with ease.&00
+~
+He is a short but stout mountain goat with two horns and dirty gray fur. All four of it's muscular legs end in strong hooves that give this animal unparalleled traction on the many craggy surfaces of this mountain.
+~
+8 0 0 E
+1 -20 0 1d1+5000 1d1+500
+150 200000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1004
+bear kodiak grizzly~
+&00A &02K&03o&16d&00&03i&16a&00&02k &00&03B&16e&00&02a&03r&00~
+&00A &02K&03o&16d&00&03i&16a&00&02k &00&03B&16e&00&02a&03r&00 is standing here next to a pool, looking for &10fish.&00
+~
+This is a Kodiak bear with thick brown fur and four huge muscular limbs. Each leg ends in a paw filled with sharp claws. It's gaping maw is lined with many razor sharp teeth. This creature looks cuddly at times but can be very aggressive and dangerous.
+~
+58 0 0 E
+0 -40 0 1d1+100000 1d1+5000
+700 1000000
+8 8 1
+BareHandAttack: 9
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1005
+bird enormous eagle~
+&00&15An enormous &00&03G&11o&00&03l&11d&00&03e&11n&00 &03E&07a&16g&00&03l&06e&00~
+&00&15An enormous &00&03G&11o&00&03l&11d&00&03e&11n&00 &03E&07a&16g&00&03l&06e&00&15 with huge talons and a sharp beak.&00
+~
+An enormous golden eagle. This particular eagle must be at least a hundred times better than any normal golden eagle. It has thick brown and golden feathers, a sharp beak, two muscular wings and two strong legs with sharp talons. It's probably pretty protective of it's nest.
+~
+42 0 0 E
+1000 -60 0 1d1+1000000 1d1+30000
+0 2000000
+8 8 2
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1006
+nestmob~
+eagle's spirit~
+mob that unlocks the nest
+~
+Nothing.
+~
+10 0 -1000 E
+15 10 10 1d50+200 15d15+1
+1 860
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1007
+male hiker shopkeeper keeper shop~
+&00A &12male&00 hiker&00~
+&00A &12male&00 hiker&00 is standing here selling a few hiking supplies.
+~
+This hiker is tall and slender. He is standing here leaning on a walking stick, waiting to sell some supplies...or maybe whisper a few rumors.
+~
+26 0 0 E
+99 20 10 1d1+0 1d1+0
+1000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1003
+#1008
+supreme guardian ithosia~
+&00&05S&13u&15p&16r&15e&13m&00&05e&00 &00&14G&00&06u&16a&15r&00&07d&14i&00&06a&16n&00 &00&14of&00 &00&06I&14t&15h&00&06o&14s&15i&00&06a&00~
+&00The &00&05S&13u&15p&16r&15e&13m&00&05e&00 &00&14G&00&06u&16a&15r&00&07d&14i&00&06a&16n&00 &00&14of&00 &00&06I&14t&15h&00&06o&14s&15i&00&06a&00 &00is standing here guarding the gates to his people's underground city.&00
+~
+&00The strongest and most powerful of all the Ithosian warriors. Being larger than the average Ithosian and also clad in a full suit of crystaline plate armor he looks like a giant. Diligently guarding these gates, he has spent his life trying his best to protect his people.&00
+~
+26 0 0 E
+1000 -80 0 0d0+12000000 0d0+150000
+10000 15000000
+8 8 1
+BareHandAttack: 3
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1004
+T 1005
+#1009
+elderly ithosian gatekeeper gate keeper~
+&00&03E&16l&00&07der&16l&00&03y&00 &00&06I&14t&15h&00&06o&14s&15i&00&06a&14n&00 &00&06G&03a&16t&15e&00&06k&16ee&00&06p&07e&06r&00~
+&00An &00&03E&16l&00&07der&16l&00&03y&00 &00&06I&14t&15h&00&06o&14s&15i&00&06a&14n&00 &00&06G&03a&16t&15e&00&06k&16ee&00&06p&07e&06r&00 &00is standing here waiting to open the gate for people leaving the city.&00
+~
+An elderly Ithosian, entrusted with the responsibility of letting people out of Ithosia and greeting newcomers. Considering the Supreme Guardian of Ithosian is never far away he need not be a superb fighter, only polite and friendly to those passing through.
+~
+26 0 0 E
+1 20 0 0d0+0 0d0+0
+0 0
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1006
+T 1007
+#1010
+a wolf~
+a wolf~
+a large black wolf is walking around, stalking prey.
+~
+The wolf's eyes are dark red.  There is something unusual about this wolf, as if he was possessed.
+~
+6842 4136 0 E
+10 10 0 1d50+0 10d5+10
+0 600
+8 8 1
+BareHandAttack: 4
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1011
+Harry~
+Harry, the gun shop guy~
+Harry, the retired gun shop owner is lieing in his bed, sleeping.
+~
+As Harry sleeps, you see some tears running down his cheek.  He must be sad about his shop.
+~
+26698 0 0 E
+30 10 10 1d50+0 5d5+10
+112 100
+4 4 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1012
+real estate lady~
+the real estate lady~
+The real estate lady stands here, waiting for someone to walk in.
+~
+   The lady is very young, she looks to be in her mid 20's.  She has long
+blonde hair with blue eyes.    
+~
+254026 0 0 E
+5 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1012
+#1030
+Cave Bat~
+&00&05C&15a&00&07v&00&05e &16B&15a&16t&00&07~
+&15A &00&05C&15a&00&07v&00&05e &16B&15a&16t&15 flies above you menacingly.&00&07
+~
+A small black cave bat.
+~
+8 1024 0 E
+1000 -40 0 1d1+50000 1d1+5000
+300 500000
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1074
+marry servent woman waitress bitch~
+Marry~
+a person is here waiting to set you, she has a name tag on her that stats "Marry"
+~
+She is very sexy.
+~
+10 8 0 E
+1 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1074
+T 1075
+#1075
+Chef~
+chef~
+a chef stands here cooking.
+~
+Hes has a white hat on.
+~
+10 8 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1076
+#1076
+waitress pam woman bitch waiter2~
+Pam~
+a waitress is here waiting to take your order, she has a name tag on that stats "Pam".
+~
+Her name tag says "Pam" on it.
+~
+10 8 1000 E
+1000010 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1077
+T 1078
+T 1079
+T 1080
+T 1081
+#1083
+Cave Cricket~
+&02C&15a&00v&02e &10C&00&02r&16i&15ck&00&02e&10t&00~
+&15A &02C&15a&00v&02e &10C&00&02r&16i&15ck&00&02e&10t&00 &15chirps loudly.&00
+~
+A small green and black cricket.
+~
+8 1024 0 E
+1050 -40 0 1d1+90000 1d1+15000
+450 900000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1089
+Cave Lion~
+&16C&15a&00&07v&16e &11L&00&03i&15o&16n&00&07~
+&15A &16C&15a&00&07v&16e &11L&00&03i&15o&16n &15roars at you.&00&07
+~
+A large tan colored Lion.
+~
+42 524288 -500 E
+3000 -60 0 1d1+1000000 1d1+30000
+700 3500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1090
+test~
+test~
+test mob
+~
+It looks unfinished.
+~
+8 0 0 E
+1 20 10 1d1+100000000 0d0+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1091
+Security Droid~
+&09S&00&01e&15c&00&07u&15ri&00&01t&09y &15D&07ro&16i&00&07d~
+&15A &09S&00&01e&15c&00&07u&15ri&00&01t&09y &15D&07ro&16i&00&07d &15Raises it's weapon to fire.
+~
+It looks unfinished.
+~
+4104 0 -800 E
+5000 -60 0 1d1+4000000 1d1+60000
+760 1800000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1092
+tanning female citizen~
+a tanning female citizen~
+A female citizen is here tanning.
+~
+It looks unfinished.
+~
+12 0 300 E
+5 19 10 10d10+50 3d3+2
+201 5000
+5 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1093
+tanning man citizen~
+a tanning male citizen~
+A male citizen is here tanning.
+~
+It looks unfinished.
+~
+10 0 200 E
+6 19 10 10d10+50 3d3+3
+28 6000
+5 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1094
+Glowing Metal Orb~
+&11G&15l&00&07owi&15n&11g &15M&00&07eta&15l &00&07O&16r&12b&00&07~
+&15A &11G&15l&00&07owi&15n&11g &15M&00&07eta&15l &00&07O&16r&12b&15 floats above the ground.&00&07
+~
+A Small Silver Orb.
+~
+24586 0 500 E
+15 18 10 30d20+100 8d8+5
+1252 10235
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1094
+T 1093
+#1095
+yound girl~
+a young girl~
+A young girl stands here waiting for your purchase.
+~
+It looks unfinished.
+~
+10 0 0 E
+1 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1098
+Ithiosian Prisoner~
+&13I&00&05t&15h&00&07iosi&00&05a&13n &12P&00&04r&15is&00&07oner~
+&15A &13I&00&05t&15h&00&07iosi&00&05a&13n &12P&00&04r&15is&00&07oner &15 huddles in the dark.
+~
+He is wearing a nice suit and tie, he seems to be very wealthy
+~
+204 0 750 E
+5 -60 10 1d1+10000000 1d1+70000
+900 8000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1099
+baker joe~
+Baker Joe~
+A large baker stands behind the counter waiting to take your order.
+~
+The baker has a name tag on, it says "Joe".
+~
+10 0 0 E
+1 20 10 1d1+0 1d1+0
+10000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

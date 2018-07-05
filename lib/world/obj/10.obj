@@ -1,0 +1,328 @@
+#1000
+sign~
+&00A small &09warning&00 sign is nailed to a post in the ground here.~
+&00A small &09warning&00 sign is nailed to a post in the ground here.~
+    Beware of landslides and wild animals along this trail. Strange disappearances have been reported within the vicinity of Teiman cave, please do not enter.
+~
+16 0 0
+0 0 0 0
+0 0 0
+#1001
+pool~
+&00&14A &15S&14h&15i&14m&15m&14e&15r&14i&15n&14g&00 &12Pool&00~
+&00&14A &15S&14h&15i&14m&15m&14e&15r&14i&15n&14g&00 &12Pool&00 &14of fresh mountain water.&00~
+Nothing.
+~
+23 0 0
+1000000 1000000 15 0
+1000005 0 0
+#1002
+warning sign~
+&00A small &09warning&00 sign is nailed to a post in the ground here.&00~
+&00A small &09warning&00 sign is nailed to a post in the ground here.&00~
+-Teiman Cave-
+
+Spelunkers beware, disappearances have been reported in the vicinity of this cavern.
+~
+16 0 0
+0 0 0 0
+0 10 0
+#1003
+bird nest~
+&00&03A &11B&00&03i&11r&00&03d&11's &00&16N&07e&00&03s&16t&00~
+&00&03A huge &11B&00&03i&11r&00&03d&11's &00&16N&07e&00&03s&16t&00&03 made from tree branches and dried grass.&00~
+This is a huge bird's nest made from tree branches, twigs and dried grass that have been delicately woven together. Considering the immense size of this nest, the bird that lives in it must be enormous. There is a large shiny object within the nest.
+~
+15 0 0
+50 5 -1 0
+0 0 0
+#1004
+huge bird egg~
+&00&03A &11G&00&03olde&11n&00 &12B&16i&00&13r&14d&12's &16E&00&07gg&00~
+&00&03A huge &11G&00&03olde&11n&00 &12B&16i&00&13r&14d&12's &16E&00&07gg&03 covered in &12blue&00 &14s&00&12p&14e&00&12c&14k&00&12l&14e&00&12s.&00~
+A huge golden bird's egg. This egg was laid by a very very large bird. Considering the rarity of the species it could be very valueable.
+~
+8 0 1
+0 0 0 0
+1 300000 0
+E
+undefined~
+Nothing.
+~
+#1005
+key~
+a nest key~
+The key to the huge bird's nest~
+~
+18 0 1
+0 0 0 0
+1 0 0
+E
+carnation~
+It smells really good.
+~
+#1006
+walking stick staff~
+&00An &03O&16a&00&07k &06W&05a&06l&05k&06i&05n&06g &16S&00&07t&16i&00&07c&16k&00~
+&00An &03O&16a&00&07k &06W&05a&06l&05k&06i&05n&06g &16S&00&07t&16i&00&07c&16k&00 with a knobbed end and long smooth shaft.&00~
+Nothing.
+~
+5 0 8193
+10 30000 1 5
+1 300000 0
+A
+19 10
+A
+5 1
+A
+6 1
+#1007
+trail mix food bag~
+&00A bag of &03T&16r&00&07a&16i&00&03l &06M&12i&09x&00~
+&00A bag of &03T&16r&00&07a&16i&00&03l &06M&09i&14x&00 with nuts and &09b&12e&09r&12r&09i&12e&09s&00 in it.&00~
+
+~
+19 0 1
+3 0 0 0
+1 10 0
+#1008
+premium hiking boots~
+&00&03P&16r&15e&00m&03i&16u&15m &00&02H&00&03i&00&06ki&00&03n&00&02g &00&03B&16o&15o&00ts~
+&15A pair of &00&03P&16r&15e&00m&03i&16u&15m &00&02H&00&03i&00&06ki&00&03n&00&02g &00&03B&16o&15o&00ts&15 are lying here.&00~
+~
+11 0 65
+0 0 0 0
+1 300000 0
+A
+2 1
+A
+4 1
+A
+18 10
+A
+19 10
+#1009
+park bench~
+&00A &02P&04a&02r&04k &03B&07e&15n&00&07c&03h&00~
+&00A &02P&04a&02r&04k &03B&07e&15n&00&07c&03h&00 made from polished maple planks.&00~
+~
+12 0 0
+0 0 0 0
+0 0 0
+#1010
+metal canteen~
+&00&16M&00&07eta&16l&00 &12C&00&06antee&12n&00~
+&00A &00&16M&00&07eta&16l&00 &12C&00&06antee&12n&00 with screw on cap.&00~
+&00&16M&00&07eta&16l&00 &12C&00&06antee&12n&00
+~
+17 0 1
+200 200 15 0
+205 50 0
+#1011
+stone well~
+&00&16S&00&07t&16o&00&07n&16e&00 &14W&00&06e&14ll&00~
+&00A &00&16S&00&07t&16o&00&07n&16e&00 &14W&00&06e&14ll&00 with rope and bucket to draw water.&00~
+&00&16S&00&07t&16o&00&07n&16e&00 &14W&00&06e&14ll&00
+~
+23 0 0
+1000000 1000000 15 0
+1000005 0 0
+#1012
+crystaline key~
+&00&07c&14r&00&07y&14s&00&07t&14a&00&07l&14i&00&07n&14e&00 &00&16key&00~
+&00A &00&07c&14r&00&07y&14s&00&07t&14a&00&07l&14i&00&07n&14e&00 &00&16key&00 made from shimmering cave crystals.&00~
+&00&07c&14r&00&07y&14s&00&07t&14a&00&07l&14i&00&07n&14e&00 &00&16key&00
+~
+18 0 1
+0 0 0 0
+1 0 0
+#1013
+camping flashlight flash light camp~
+&00&03C&16a&00&07mpi&16n&00&03g&00 &00&11F&12l&00&03a&11s&12h&00&03l&11i&12g&00&03h&11t&00~
+&00A &00&03C&16a&00&07mpi&16n&00&03g&00 &00&11F&12l&00&03a&11s&12h&00&03l&11i&12g&00&03h&11t&00 &00made from durable hard plastic and powered by lithium batteries.&00~
+&00&03C&16a&00&07mpi&16n&00&03g&00 &00&11F&12l&00&03a&11s&12h&00&03l&11i&12g&00&03h&11t&00
+~
+1 0 16385
+0 0 -1 0
+1 300000 0
+A
+5 1
+A
+19 10
+A
+18 10
+#1034
+a baseball bat~
+a baseball bat~
+A baseball bat lies here.~
+It looks like a baseball bat, yep.
+~
+5 0 24577
+1 5 2 5
+1 400 0
+#1050
+a shotgun~
+a shotgun~
+A shotgun is lying here.~
+Its fully loaded.
+~
+5 0 8193
+1 2 50 12
+5 400 0
+#1080
+doll xylam~
+-_-~
+A doll of Xylam is lying here.~
+It's a classic doll of Xylam.
+~
+12 0 16385
+0 0 0 0
+1 100000 10000
+A
+1 10
+#1081
+doll sheer~
+a doll of Sheer~
+A doll of Sheer is lying here.~
+Its a classic doll of Sheer.
+~
+12 0 16385
+0 0 0 0
+1 100000 1000
+A
+2 10
+A
+3 10
+#1082
+doll Kastion~
+a doll of Kastion~
+A doll of Kastion is lying here.~
+Its a classic doll of Kastion
+~
+12 0 16385
+0 0 0 0
+1 150000 1000
+A
+18 10
+#1083
+doll Dag~
+a doll of Dag~
+A doll of Dag lies here.~
+Its a classic doll of Dag.
+~
+12 0 16385
+0 0 0 0
+1 100000 1000
+A
+4 10
+#1084
+doll mask~
+a doll of Mask~
+A doll of Mask is lying here.~
+Its a classic doll of Mask.
+~
+12 0 16385
+0 0 0 0
+1 150000 1000
+A
+19 10
+#1085
+doll Thrain~
+a doll of Thrain~
+A doll of Thrain is lying here.~
+Its a classic doll of Thrain.
+~
+12 0 16385
+0 0 0 0
+1 100000 1000
+A
+13 100
+#1086
+1000~
+a doll of Frost~
+A doll of Frost is lying here.~
+Its a classic doll of Frost.
+~
+12 0 16385
+0 0 0 0
+1 100000 1000
+A
+6 10
+#1088
+Black Keycard~
+&16Black &15K&00&07e&15ycard&00&07~
+&00&07A &16Black &15K&00&07e&15ycard&00&07 covered with goo.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#1089
+A Crumpled Paper~
+&00&07A &16C&00&07r&15um&16p&00&07le&15d &00&07Paper~
+&00&07A &16C&00&07r&15um&16p&00&07le&15d &00&07Paper &15lies here balled up.~
+   &00&07I was hiking along and found a entrance to a strange cave.  Inside
+were lots of monsters but I managed to sneak past them until i found a metal
+door with a strange mech type things marching through a large metal door.  As i
+sat there watching I overheard one say, "Don't Forget the password, it's the
+name of Gero's most hated rival.  "
+~
+16 0 1
+0 0 0 0
+1 0 0
+#1094
+Key~
+Key~
+Key~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#1095
+Chocolate cookies~
+some newly made chocolate cookies.~
+Chocolate cookies are lying on the floor.~
+The cookies look MMM MMM good.
+~
+19 0 1
+2 0 0 0
+2 13 1
+#1096
+old bread~
+some old bread~
+Some old bread is resting on the floor.~
+It doesnt look that good.
+~
+19 0 1
+1 0 0 0
+1 6 1
+#1097
+Fresh baked bread~
+some freshly baked bread~
+Some freshly baked bread is lying on the ground.~
+The bread looks very good.
+~
+19 0 1
+3 0 0 0
+2 14 2
+#1098
+Newspaper paper~
+newspaper~
+An newspaper is lying here.~
+                                 *Newspaper*
+
+
+    New stuff in the game is - EVERYTHING this mud is new what do you want :).
+~
+16 0 1
+0 0 0 0
+0 0 0
+#1099
+Newspaper Stand~
+Newspaper stand~
+An free Newspaper stand is resting on the ground.~
+The stand is cover with words Reading "FREE NEWSPAPERS!!".
+~
+15 156 0
+1000 5 -1 0
+1 0 0
+$~

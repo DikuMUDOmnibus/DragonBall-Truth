@@ -1,0 +1,868 @@
+#500
+Shadow Fire Shozoku~
+&15S&16h&00&06a&15d&16o&00&06w &11F&00&09i&00&01r&00&03e &16S&15h&00o&06z&16o&15k&00u~
+&15A S&16h&00&06a&15d&16o&00&06w &11F&00&09i&00&01r&00&03e &16S&15h&00o&06z&16o&15k&00u&15 is lying here.&00~
+~
+11 0 9
+0 0 0 0
+1 4000000 0
+A
+5 3
+A
+3 3
+A
+2 4
+A
+6 3
+A
+19 30
+A
+18 30
+#501
+Shadow Fire Headguard~
+&15S&16h&00&06a&15d&16o&00&06w &11F&00&09i&00&01r&00&03e &16H&15e&00a&06d&16g&15u&00a&06r&16d&00~
+&15A &15S&16h&00&06a&15d&16o&00&06w &11F&00&09i&00&01r&00&03e &16H&15e&00a&06d&16g&15u&00a&06r&16d&15 is lying here.&00~
+~
+11 0 17
+0 0 0 0
+1 4000000 0
+A
+4 3
+A
+6 5
+A
+2 5
+A
+18 30
+A
+19 30
+A
+13 127
+#502
+Shadow Fire Gi~
+&15S&16h&00&06a&15d&16o&00&06w &11F&00&09i&00&01r&00&03e &15G&16i&00~
+&15A &15S&16h&00&06a&15d&16o&00&06w &11F&00&09i&00&01r&00&03e &15G&16i&15 is lying here.&00~
+~
+11 0 1025
+20 0 0 0
+1 4000000 0
+A
+18 5
+A
+19 5
+#503
+bloody razor wire~
+&09bloody&00 &16razor-wire&00~
+&09bloody&00 &16razor-wire&00 lies here.~
+~
+9 0 5
+20 0 0 0
+0 0 0
+A
+18 5
+A
+19 5
+#504
+reinforced platinum vambraces~
+&16reinforced pl&15ati&16num vambraces~
+&16reinforced pl&15ati&16num vambraces&00 lie here.~
+~
+9 0 4097
+20 0 0 0
+0 0 0
+A
+18 5
+A
+19 5
+#505
+Cell's Claws~
+Cell's claws~
+This should not be on the ground.~
+You see Cell's claws.  They are sharpened to very sharp points.
+~
+5 0 8193
+50 2 2500 8
+0 0 0
+#506
+black combat boots~
+&16Black Combat &00&07Boots&00~
+&16Black Combat &00&07Boots&00 lie here.~
+~
+9 0 65
+20 0 0 0
+0 0 0
+A
+18 5
+A
+19 5
+#507
+pair spiked black cesti~
+&16a pair of spiked black cesti&00~
+&16A pair of spiked black cesti&00 lie here.~
+~
+9 0 129
+20 0 0 0
+0 0 0
+A
+18 5
+A
+19 5
+#508
+loose black pants~
+&16loose-fitting black pants&00~
+&16Loose-fitting black pants&00 lie here.~
+~
+9 0 33
+20 0 0 0
+0 0 0
+A
+18 5
+A
+19 5
+#509
+monkey tail~
+&00&03Necron's monkey tail&00~
+&00&03Necron's monkey tail&00 lies here.~
+~
+9 0 2049
+20 0 0 0
+0 0 0
+A
+18 5
+A
+19 5
+#510
+still beating heart~
+&09a still-beating heart&00 ~
+&09A still-beating heart&00 lies here. Beating. STILL!~
+~
+9 0 16385
+20 0 0 0
+0 0 0
+A
+18 5
+A
+19 5
+#511
+Cell's Claws~
+Cell's claws~
+This should NOT be here.~
+~
+5 0 8193
+1000 100 100 8
+0 0 0
+#512
+big bag~
+&15A &00&14Big &00&10B&00&02a&00&10g &00of &15M&00o&15o&00~
+&15A &00&14Big &00&10B&00&02a&00&10g &00of &15M&00o&15o&00~
+~
+15 0 1
+2147483647 1 -1 0
+0 0 0
+#520
+Sapphire Ice Katana~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00K&15a&14t&00&06a&16n&15a&00~
+&15A &00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00K&15a&14t&00&06a&16n&15a is stabbed into the earth here.&00~
+~
+5 134217728 4202497
+0 600000 1 3
+1 4000000 0
+A
+5 3
+A
+6 5
+A
+2 3
+A
+18 30
+A
+19 30
+A
+12 127
+#521
+Crimson Ice Katana~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e &00K&15a&09t&00&01a&16n&15a&00~
+&15A &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e &00K&15a&09t&00&01a&16n&15a is lying here.&00~
+~
+5 134217728 4202497
+0 600000 1 3
+1 4000000 0
+A
+5 3
+A
+2 5
+A
+6 5
+A
+18 30
+A
+19 30
+A
+13 127
+#522
+Sapphire Ice Oyoroi~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04O&12y&15or&12o&00&04i&00~
+&15A &00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04O&12y&15or&12o&00&04i&15 is lying here.&00~
+~
+11 134217728 9
+0 0 0 0
+1 5000000 0
+A
+5 3
+A
+3 3
+A
+2 2
+A
+6 3
+A
+18 30
+A
+19 30
+#523
+Sapphire Ice Haramaki~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04H&12a&15r&00am&15a&12k&00&04i&00~
+&15A &00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04H&12a&15r&00am&15a&12k&00&04i&15 is lying here.&00~
+~
+11 134217728 1025
+0 0 0 0
+1 4000000 0
+A
+3 4
+A
+5 3
+A
+6 5
+A
+2 5
+A
+18 30
+A
+19 30
+#524
+Sapphire Ice Sode~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04S&12o&15d&00e~
+&15A &00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04S&12o&15d&00e&15 is lying here.&00~
+~
+11 134217728 257
+0 0 0 0
+1 4000000 0
+A
+6 5
+A
+3 2
+A
+18 30
+A
+19 30
+A
+12 127
+A
+13 127
+#525
+Sapphire Ice Kabuto~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04K&12a&15bu&12t&00&04o&00~
+&15A &00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04K&12a&15bu&12t&00&04o&15 is lying here.&00~
+~
+11 134217728 17
+0 0 0 0
+1 4000000 0
+A
+4 3
+A
+6 5
+A
+2 5
+A
+18 30
+A
+19 30
+A
+13 127
+#526
+Sapphire Ice Tekou~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04T&12e&15k&00o&15u&00~
+&15A pair of &00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04T&12e&15k&00o&15u are lying here.&00~
+~
+11 134217728 129
+0 0 0 0
+1 4000000 0
+A
+4 2
+A
+6 5
+A
+18 30
+A
+19 30
+A
+12 127
+A
+13 127
+#527
+Sapphire Ice Suneate~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04S&12u&15n&00e&15a&12t&00&04e&00~
+&15A pair of &00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04S&12u&15n&00e&15a&12t&00&04e&15 are lying here.&00~
+~
+11 134217728 33
+0 0 0 0
+1 4000000 0
+A
+2 4
+A
+5 1
+A
+4 2
+A
+18 30
+A
+19 30
+A
+13 127
+#528
+Sapphire Ice Zaban~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04Z&12a&15b&12a&00&04n&00~
+&15A &00&04S&12a&15p&00ph&15i&12r&00&04e &00&06I&14c&15e &00&04Z&12a&15b&12a&00&04n&15 is lying here.&00~
+~
+11 134217728 4097
+0 0 0 0
+1 4000000 0
+A
+2 5
+A
+6 5
+A
+18 30
+A
+19 30
+A
+12 127
+A
+13 127
+#529
+Crimson Ice Zaban~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e &00&01Z&09a&15b&00a&00&01n&00~
+&15A &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e &00&01Z&09a&15b&00a&00&01n&15 is lying here.&00~
+~
+11 134217728 4097
+0 0 0 0
+1 4000000 0
+A
+2 5
+A
+6 5
+A
+18 30
+A
+19 30
+A
+12 127
+A
+13 127
+#530
+Crimson Ice Oyoroi~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e &00&01O&09y&15o&00r&01o&09i&00~
+&15A &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e &00&01O&09y&15o&00r&01o&09i&15 is lying here.&00~
+~
+11 134217728 9
+0 0 0 0
+1 4000000 0
+A
+5 3
+A
+3 3
+A
+2 2
+A
+6 3
+A
+18 30
+A
+19 30
+#531
+Crimson Ice Kabuto~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e &00&01K&09a&15b&00u&01t&09o&00~
+&15A &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e &00&01K&09a&15b&00u&01t&09o&15 is lying here.&00~
+~
+11 134217728 17
+0 0 0 0
+1 4000000 0
+A
+4 3
+A
+6 5
+A
+2 5
+A
+18 30
+A
+19 30
+A
+13 127
+#532
+Crimson Ice Tekou~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01T&09e&15k&00o&15u&00~
+&15A pair of &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01T&09e&15k&00o&15u are lying here.&00~
+~
+11 134217728 129
+0 0 0 0
+0 4000000 0
+A
+4 2
+A
+6 5
+A
+18 30
+A
+19 30
+A
+12 127
+A
+13 127
+#533
+Crimson Ice Haramaki~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01H&09a&15r&00am&15a&09k&00&01i&00~
+&15A &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01H&09a&15r&00am&15a&09k&00&01i&15 is lying here.&00~
+~
+11 134217728 1025
+0 0 0 0
+0 4000000 0
+A
+3 4
+A
+5 3
+A
+6 5
+A
+2 5
+A
+18 30
+A
+19 30
+#534
+Crimson Ice Sode~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01S&09o&15d&00e~
+&15A &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01S&09o&15d&00e&15 is lying here.&00~
+~
+11 134217728 257
+0 0 0 0
+0 4000000 0
+A
+6 5
+A
+3 2
+A
+18 30
+A
+19 30
+A
+12 127
+A
+13 127
+#535
+Crimson Ice Suneate~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01S&09u&15n&00e&15a&09t&00&01e&00~
+&15A pair of &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01S&09u&15n&00e&15a&09t&00&01e&15 are lying here.&00~
+~
+11 134217728 33
+0 0 0 0
+0 4000000 0
+A
+2 4
+A
+5 1
+A
+4 2
+A
+18 30
+A
+19 30
+A
+13 127
+#536
+Crimson Ice Ring~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01R&09i&15n&00g~
+&15A &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01R&09i&15n&00g &15is lying here.&00~
+~
+11 134217728 3
+0 0 0 0
+0 4000000 0
+#537
+Sapphire Ice Ring~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &06I&14c&15e &00&04R&12i&15n&00g~
+&15A &00&04S&12a&15p&00ph&15i&12r&00&04e &06I&14c&15e &00&04R&12i&15n&00g&15 is lying here.&00~
+~
+11 134217728 3
+0 0 0 0
+0 4000000 0
+#538
+Crimson Ice Earring Left~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01E&09a&15r&00r&15i&09n&00&01g &00(Left)~
+&15A &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01E&09a&15r&00r&15i&09n&00&01g&15 is lying here.&00~
+~
+11 134217728 131073
+0 0 0 0
+0 4000000 0
+#539
+Crimson Ice Earring Right~
+&00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01E&09a&15r&00r&15i&09n&00&01g &00(Right)~
+&15A &00&01C&09r&15i&00m&01s&09o&15n &00&06I&14c&15e&00 &01E&09a&15r&00r&15i&09n&00&01g&15 is lying here.&00~
+~
+11 134217728 262145
+0 0 0 0
+0 4000000 0
+#540
+Necrid's Hunting Rifle~
+&10N&09e&16c&10r&09i&16d&10's &00&03H&16u&00&03nt&16i&00&03ng &16R&09i&00&07f&16l&09e&00~
+&10N&09e&16c&10r&09i&16d&10's &00&03H&16u&00&03nt&16i&00&03ng &16R&09i&00&07f&16l&09e &15is lying here on the ground with a box of shells sitting next to it. &00~
+A Marlin 30/30 Deer Hunting Rifle. It has a long black barrel with a high powered scope mounted on it. The stock is made of a dark oak wood and a rubber shock absorber on the end and a band that holds 5 rounds. There is a padded camouflage sling that stretches from the barrel to the stock.
+~
+5 268435459 8193
+150 700000 200 12
+1 0 0
+A
+2 5
+A
+5 3
+A
+18 75
+A
+19 75
+A
+1 2
+#541
+Sapphire Ice Earring Left~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &06I&14c&15e&00 &04E&12a&15r&00r&15i&12n&00&04g &00(Left)~
+&15A &00&04S&12a&15p&00ph&15i&12r&00&04e &06I&14c&15e&00 &04E&12a&15r&00r&15i&12n&00&04g&15 is lying here.&00~
+~
+11 134217728 131073
+0 0 0 0
+0 4000000 0
+#542
+Sapphire Ice Earring Right~
+&00&04S&12a&15p&00ph&15i&12r&00&04e &06I&14c&15e&00 &04E&12a&15r&00r&15i&12n&00&04g &00(Right)~
+&15A &00&04S&12a&15p&00ph&15i&12r&00&04e &06I&14c&15e&00 &04E&12a&15r&00r&15i&12n&00&04g&15 is lying here.&00~
+~
+11 134217728 262145
+0 0 0 0
+0 4000000 0
+#545
+scarf~
+scarf~
+An unfinished object is lying here.~
+~
+9 0 1029
+0 0 0 0
+0 0 0
+A
+5 25
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+#550
+Enhancer~
+Spiked Ring~
+A spiked ring is on the ground here.~
+You see a spiked ring.
+~
+11 0 3
+0 0 0 0
+0 0 0
+A
+18 125
+A
+18 125
+A
+18 125
+A
+19 125
+A
+19 125
+A
+19 125
+#551
+Saiya-Jin Bracer~
+a Saiya-Jin bracer~
+A bracer made from the same material as saiya-jin armor lies discarded on the ground here.~
+You see a saiya-jin bracer.
+~
+9 0 4097
+100 0 0 0
+0 0 0
+A
+1 50
+A
+2 50
+A
+3 50
+A
+4 50
+A
+5 50
+A
+6 50
+#552
+Bag of lots~
+a tiny bag~
+A tiny bag, too small to hold anything real, is on the ground here.~
+~
+15 0 16385
+2147483647 1 -1 0
+0 0 0
+A
+18 125
+A
+18 125
+A
+18 125
+A
+19 125
+A
+19 125
+A
+19 125
+#553
+Silence's Armplates~
+an armplate of very hard material~
+An armplate lies here.~
+~
+9 0 257
+0 0 0 0
+0 0 0
+A
+18 125
+A
+18 125
+A
+18 125
+A
+19 125
+A
+19 125
+A
+19 125
+#554
+Silence's Pants~
+a pair of hard armored pants~
+A pair of armored pants lies here.~
+~
+9 0 33
+0 0 0 0
+0 0 0
+A
+18 125
+A
+18 125
+A
+18 125
+A
+19 125
+A
+19 125
+A
+19 125
+#555
+Silence's Boots~
+hard armored boots~
+A pair of hard armored boots.~
+~
+9 0 65
+0 0 0 0
+0 0 0
+A
+18 125
+A
+18 125
+A
+18 125
+A
+19 125
+A
+19 125
+A
+19 125
+#556
+Silence's Belt~
+a belt with a large upside down pentagram on it,~
+A pentagram belt lies here.~
+~
+9 0 2049
+0 0 0 0
+0 0 0
+A
+18 125
+A
+18 125
+A
+18 125
+A
+19 125
+A
+19 125
+A
+19 125
+#566
+Huge Bag~
+an energy pocket~
+Some unused energy is floating here.~
+   You see some energy that has been manipulated to make a pocket.    
+~
+15 67 1
+2147483647 1 -1 0
+0 0 0
+#567
+Blaster~
+a small hole in Cell's wrist~
+This cannot be dropped or donated.~
+~
+24 92 8193
+100 100 100 12
+0 0 0
+A
+3 100
+A
+4 100
+#580
+necklace of the apocalypse~
+&15the &11N&10e&11c&10k&11l&10a&11c&10e &15of &09A&12p&09o&12c&09a&12l&09y&12p&09s&12e&00~
+One of the 4 Members of Apocalypse have left thier necklace here.~
+~
+9 3 5
+100 0 0 0
+0 0 0
+#581
+a blood fountain~
+&09the blood fountain&00~
+&09A dark fountain filled with blood is here.&00~
+~
+23 0 1
+1000000000 1000000000 10 0
+1000000005 0 0
+#583
+a cloak of pitch black color~
+&08a cloak of pitch black color&00~
+&08A cloak of pitch black color has been left here.&00~
+~
+9 3 1025
+40 0 0 0
+0 0 0
+A
+19 5
+#584
+a blood covered scythe~
+&09a blood covered scythe&00~
+&09a blood covered scythe was dropped here.&00~
+~
+9 0 16385
+0 0 0 0
+0 0 0
+A
+18 5
+#586
+a black leather spiked wristband.~
+&15a &08black &03leather &09sp&10i&09ked &10wristband&00~
+&1Aa &08black &03leather &09sp&10i&09ked &10wristband was dropped here.&00~
+~
+9 3 4097
+10 0 0 0
+0 0 0
+A
+18 2
+#587
+a flaming skull of the Apocalypse~
+&15a &09flaming&15 skull of the &09A&12p&09o&12c&09a&12l&09y&12p&09s&12e&00~
+&15a &09flaming&15 skull of the &09A&12p&09o&12c&09a&12l&09y&12p&09s&12e &15is here.&00 ~
+~
+1 0 1
+0 0 -1 0
+0 0 0
+#588
+pitch black sleeves~
+&08pitch black sleeves&00~
+&08pitch black sleeves have been tossed here.&00~
+~
+9 3 257
+20 0 0 0
+0 0 0
+#589
+pitch black gloves~
+&08pitch black gloves&00~
+&08pitch black gloves have been left here.&00~
+Nothing.
+~
+9 0 129
+20 0 0 0
+0 0 0
+#590
+Poisoness Spiked Boots~
+&09Poisoness Spiked Boots&00~
+&09Poisoness Spiked Boots are just sitting here waiting to be picked up.&00~
+~
+9 3 65
+20 0 0 0
+0 0 0
+A
+19 5
+#591
+black leather pants~
+&08black leather pants&00~
+&08Black leather pants are sitting here.&00~
+~
+9 3 33
+30 0 0 0
+0 0 0
+#592
+a skull shaped helmet~
+&13a &12skull&13 shaped helmet&00~
+&13A &04skull&13 shaped helmet is sitting here.&00~
+~
+9 3 17
+40 0 0 0
+0 0 0
+#593
+a gold ring with a small black sapphire embedded~
+&15a &11gold&15 ring with a small &08black &09sapphire&15 embedded&00~
+An unfinished object is lying here.~
+~
+9 0 3
+20 0 0 0
+0 0 0
+#594
+a black spiked collar~
+&12a &08black&12 spiked collar&00~
+&12a &08black&12 spiked collar is here.&00~
+~
+9 3 5
+20 0 0 0
+0 0 0
+#595
+a titanium breastplate with two serpents colliding~
+&15a &08titanium breastplate with two &10serpents&08 colliding&00~
+&15a &08titanium breastplate with two &10serpents&08 colliding is here&00~
+~
+9 0 9
+200 0 0 0
+0 0 0
+#599
+Chocolate for Buu~
+a piece of chocolate~
+A piece of chocolate is on the ground here.~
+You see a piece of Nestle chocolate.
+~
+5 3 8193
+10 10 10 5
+0 0 0
+A
+19 10
+A
+18 10
+A
+2 10
+$~

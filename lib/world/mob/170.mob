@@ -1,0 +1,161 @@
+#17000
+Samuel~
+&00&06S&14a&00mu&14e&00&06l&00~
+&00&06S&14a&00mu&14e&00&06l&00, the &11s&00&03u&11n&00 twin, is sharpening a newly made Katana.
+~
+It looks unfinished.
+~
+8202 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17001
+Alexander~
+&00&01A&09l&00&16e&15x&00a&15n&16d&09e&00&01r&00~
+&00&01A&09l&00&16e&15x&00a&15n&16d&09e&00&01r&00, the &16m&15oo&16n&00 twin, is sitting on a stool watching over a pile of scales.
+~
+It looks unfinished.
+~
+8202 0 0 E
+0 20 0 1d1+0 1d1+0
+2147483647 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17002
+Mosquito~
+&09M&00&01o&16s&09q&00&01u&16i&09t&00&01o&00~
+&00&03A large &01blood &03thirsty &09M&00&01o&16s&09q&00&01u&16i&09t&00&01o&00 &03buzzes around in search its next victim to drain.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17003
+Sand Viper~
+&00&03S&11a&00&03n&11d&00 &01V&05i&16p&00&05e&01r&00~
+&00A &00&03S&11a&00&03n&11d&00 &01V&05i&16p&00&05e&01r&00 slithers here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17004
+Warthog~
+&00&03W&16a&15r&00&03t&16h&15o&00&03g&00~
+&00A &00&03W&16a&15r&00&03t&16h&15o&00&03g&00 snorts about the ground looking for some food.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17005
+Armored Beetle~
+&16A&15r&00m&15or&16ed &10B&00&02e&15e&16t&00&02l&10e&00~
+&03A well &16A&15r&00m&15or&16ed &10B&00&02e&15e&16t&00&02l&10e&00 &03scurries across the hot desert sand.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17006
+Giant Sandworm~
+&10G&00&02i&00a&02n&10t&00 &03S&15a&00&03n&15d&00&03w&15o&00&03r&15m&00~
+&00A &10G&00&02i&00a&02n&10t&00 &03S&15a&00&03n&15d&00&03w&15o&00&03r&15m&00 glides across the sand floor.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17007
+Wildcat Trainee~
+&14W&00&03i&15l&16d&14c&00&03a&15t &14T&00&06raine&14e&00~
+&00A &14W&00&03i&15l&16d&14c&00&03a&15t &14T&00&06raine&14e&00 stands practicing a new fighting stance.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -40 0 1d1+50000 1d1+5000
+300 500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17008
+Wildcat Novice~
+&09W&00&03i&15l&16d&09c&00&03a&15t &00&01N&09o&15vi&09c&00&01e&00~
+&00A &09W&00&03i&15l&16d&09c&00&03a&15t &00&01N&09o&15vi&09c&00&01e&00 stands with its arms crossed.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -40 0 1d1+75000 1d1+5000
+400 750000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17009
+Wildcat Expert~
+&12W&00&03i&15l&16d&12c&00&03a&15t &12E&16x&00p&15e&04r&12t&00~
+&00A &12W&16i&15l&16d&12c&16a&15t &12E&16x&00p&15e&12rt&00 glares across the room with a stone like grin.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -40 0 1d1+100000 1d1+5000
+500 1000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

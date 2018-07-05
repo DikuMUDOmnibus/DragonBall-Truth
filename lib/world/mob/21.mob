@@ -1,0 +1,1763 @@
+#2100
+Gretz~
+Gretz~
+&10Gretz&15 the &14icer &15depot owner stands here&00&07.&00
+~
+It looks unfinished.
+&14Gretz stands here looking quite happy about his line of work, a sly smile twisting at his face continuously.&00
+~
+16392 0 0 E
+0 20 10 1d1+0 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2101
+Mutant Guard~
+Mutant Guard~
+&00&01Mutant &16G&15u&00&07a&15r&16d&00
+~
+&15 A grissly Mutant guard, keeping an eye on the prison populace carefully. These guards can be pretty rough, so be careful around them.&00 
+~
+8 0 0 E
+10 -20 1 3d3+1000 3d3+10
+100 30000
+8 8 1
+BareHandAttack: 12
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2102
+Icer Guard~
+Icer Guard~
+&14Icer &16G&15u&00&07a&15r&16d&00
+~
+&15 A grissly Icer guard, keeping an eye on the prison populace carefully. These guards can be pretty rough, so be careful around them.&00 
+~
+8 0 0 E
+10 -20 1 3d20+1000 3d3+10
+100 35000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2103
+Mutant Prisoner~
+Mutant Prisoner~
+&00&01Mutant &16P&15r&00&07i&15s&00&07o&15ne&16r&00
+~
+&15This is a vicious prisoner, don't look at him wrong, it would be bad for you punk....&00
+~
+8 0 0 E
+8 -20 0 10d5+300 3d2+3
+75 15000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2104
+Icer Prisoner~
+Icer Prisoner~
+&14Icer &16P&15r&00&07i&15s&00&07o&15ne&16r&00
+~
+&15This is a viscious prisoner, treat them with respect unless you are capable of defending yourself....&00
+~
+8 0 0 E
+8 -20 0 10d2+325 3d2+10
+75 20000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2105
+Gnarl Beast~
+&10G&00&02n&10a&00&02r&10l &09B&00&01e&09a&00&01s&09t&00~
+&10G&00&02n&10a&00&02r&10l &09B&00&01e&09a&00&01s&09t&15 stands here.&00
+~
+&15A dangerous clawed creature much like a bear.&00
+~
+8 0 0 E
+500 -20 0 0d0+5000 0d0+500
+200 200000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2106
+Jackalope~
+&11J&16a&00&03ck&11a&16l&00&03o&11p&16e&00~
+&11J&16a&00&03ck&11a&16l&00&03o&11p&16e&15 stands here.&00
+~
+A strange animal. A rabbit with deer antlers.
+~
+8 0 0 E
+800 -20 0 0d0+2000 0d0+1000
+150 150000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2107
+Glug~
+&10G&00&02lu&10g&00~
+&10G&00&02lu&10g &15the &14icer &15stands here on a metal platform...&00
+~
+   &15Glug is a vicious hermit Icer, rumored to be one of the strongest.  He
+was rumored to have went into hiding to avoid the bounty placed on his head.  
+It seems that this volcano is where he lives, with a titanium platform and
+house over this lava pool....  &00
+~
+8202 0 0 E
+425000 -60 10 0d0+20000000 0d0+150000
+3000 10000000
+8 8 0
+BareHandAttack: 3
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2100
+T 2200
+#2108
+Holo Machine~
+Holo Machine~
+&11H&00&07o&11l&00&07o &16M&15a&00&07chi&15n&16e&14 is placed here, humming quietly&00
+~
+It looks unfinished.
+~
+10 0 0 E
+1 20 10 1d1+1000000000 1d1+250000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2108
+T 2109
+#2109
+Saiba Hologram~
+Saiba Hologram~
+&00&02S&10a&00&02i&10b&00&02a &11H&00&07o&11l&00&07o&12g&00&04r&12a&00&04m &15stands here, mimicing real saiba behavior.&00
+~
+&15A Saiba Hologram&00
+~
+40 0 0 E
+5000 -80 10 0d0+200000 0d0+15000
+0 1500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2110
+Lava Beast~
+&09L&11a&15v&09a &10B&00&02eas&10t&00~
+&15A &09L&11a&15v&09a &10B&00&02eas&10t &15stands here.&00
+~
+   &15A terrible creature made out of living lava....  &00
+~
+10 0 0 E
+5000 -25 10 1d1+1000000 1d1+30000
+700 3500000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2111
+Magma Beast~
+&16M&11a&09g&16m&00&01a &10B&00&02eas&10t&00~
+&15A &16M&11a&09g&16m&00&01a &10B&00&02eas&10t &15stands here dripping molten minerals...&00
+~
+&15A fierce magma creature....&00
+~
+10 0 0 E
+5000 -60 10 1d1+750000 1d1+30000
+600 3000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2112
+Deranged Icer~
+&16De&00&01r&15an&00&01g&16ed &14I&12c&00&04e&00&06r&00~
+&15A &16De&00&01r&15an&00&01g&16ed &14I&12c&00&04e&00&06r &15stands here, biting it's own flesh.&00
+~
+&15An icer in hiding. It has been secluded for so long that it has gone more than a little mad. Be careful.&00
+~
+10 0 0 E
+1000 -40 10 1d1+800000 4d4+10000
+500 1000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2113
+Crazy Icer~
+&16C&00&01r&15a&00&01z&16y &14I&12c&00&04e&00&06r&00~
+&15A &16C&00&01r&15a&00&01z&16y &14I&12c&00&04e&00&06r &15stands here clawing her own arm...&00
+~
+&15Icer women are scary enough, but this one is completely insane. Don't mess with her unless you can handle the insanity...&00
+~
+10 0 0 E
+800 -40 10 1d1+700000 1d1+10000
+500 800000
+8 8 2
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2114
+Lava Worm~
+&09L&11a&15v&09a &10W&11o&00&02r&10m&00~
+&15A &09L&11a&15v&09a &10W&11o&00&02r&10m &15crawls here, leaving a trail of lava in it's wake.&00
+~
+&15Nasty little creatures that live in the lava and eat the minerals of the volcano.&00
+~
+8 0 0 E
+1500 -60 10 1d1+1000000 1d1+25000
+600 2000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2115
+frigid transport pilot~
+&12F&16r&15i&16g&00&04i&12d &15T&16r&00&07anspo&16r&15t &14P&16ilo&14t&00~
+&00A &12F&16r&15i&16g&00&04i&12d &15T&16r&00&07anspo&16r&15t &14P&16ilo&14t&00 stands here, waiting for passengers.
+~
+It looks unfinished.
+~
+253962 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2115
+T 2116
+#2116
+Mineral Gnaw~
+&14M&00&04i&12n&00&06e&00&04r&14a&00&07l &12G&00&04n&16a&12w&00~
+&15A &14M&00&04i&12n&00&06e&00&04r&14a&00&07l &12G&00&04n&16a&12w &15scuttles across the floor here...&00
+~
+   &15This creature can climb walls and even hang from the cieling.  It's body
+is mostly made out of minerals that have been boun to it's shell as it matured.
+It eats various creatures that wander into the caves.  &00
+~
+8 0 0 E
+10000 -60 10 1d1+6000000 1d1+70000
+800 7000000
+8 8 0
+BareHandAttack: 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2117
+Mineral Dragon~
+&14M&00&04i&12n&00&06e&00&04r&14a&00l &10D&15r&00&02a&15g&00&02o&10n&00~
+&15A &14M&00&04i&12n&00&06e&00&04r&14a&00l &10D&15r&00&02a&15g&00&02o&10n &15stands here, it's eyes gleaming brightly.&00
+~
+   &15The proud mineral dragon.  It's scales are made out of hardened minerals,
+as are it's claws and teeth.  Not something you want to take lightly.  &00
+~
+10 0 0 E
+15000 -60 10 1d1+15000000 1d1+125000
+1000 12000000
+8 8 0
+BareHandAttack: 6
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2118
+Crystal Worm~
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &10W&11o&00&02r&10m&00~
+&15A &14C&00&07r&00&06y&12s&14t&00&07a&00&06l &10W&11o&00&02r&10m &15slithers around here, munching on gems...&00
+~
+   &15A relative to the lava worm.  This worm is a lot more dangerous, with
+it's skin made out of hardened cyrstals...  &00
+~
+10 0 0 E
+10000 -60 10 1d1+10000000 1d1+70000
+900 10000000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2119
+Crystal Dragon~
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &10D&15r&00&02a&15g&00&02o&10n&00~
+&15A &14C&00&07r&00&06y&12s&14t&00&07a&00&06l &10D&15r&00&02a&15g&00&02o&10n &15lays here sharpening it's claws...&00
+~
+&15Dangerous dragon....&00
+~
+10 0 0 E
+15000 -60 10 1d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+BareHandAttack: 8
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2120
+Icer Hiker~
+&14I&00&06c&12e&00&06r &09H&00&01i&09k&00&01er&00~
+&15A &14I&00&06c&12e&00&06r &09H&00&01i&09k&00&01er &15slowly walks through the snow here....&00
+~
+&15A gruff Icer hiker...&00
+~
+8 0 0 E
+500 -20 10 0d0+100000 0d0+5000
+300 500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2121
+Frost Chipmunk~
+&14F&00&06r&00&07o&14s&00&06t &00&03C&16h&00&03ip&00&06mun&00&03k&00~
+&15A &14F&00&06r&00&07o&14s&00&06t &00&03C&16h&00&03ip&00&06mun&00&03k &15twitters around here...&00
+~
+   &15A type of chipmunk that has adapted to the cold environment of Subzero
+quite well...  &00
+~
+8 0 0 E
+500 -20 10 0d0+50000 0d0+5000
+300 350000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2122
+Flarn the Bellhop~
+&11Flarn &15the &12Bell&15-&10hop&00~
+&11Flarn &15the &12Bell&15-&10hop &15stands here looking over the checkin sheets...&00
+~
+   &15A sour exspression constantly tugs at Flarn's face as he worries over the
+hotel boarding logs.  &00
+~
+253962 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2102
+#2123
+Jark the pizza man~
+&11Jark &15the &09P&11i&00&01z&00&02z&10a&09r&11i&09a &16Owner&00~
+&11Jark &15the &09P&11i&00&01z&00&02z&10a&09r&11i&09a &16Owner &15stands here...&00
+~
+   &15This icer is constantly flipping pizzas, a food he learned how to make on
+earth...  &00
+~
+131082 0 0 E
+0 20 10 1d1+0 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2124
+Iis Depot Owner~
+&14I&00&06i&14s &16D&11e&16p&11o&16t &15Owner&00~
+&14I&00&06i&14s &16D&11e&16p&11o&16t &15Owner stands here...&00
+~
+&15A crafty Icer that has learned his trade well....&00
+~
+131082 0 0 E
+0 20 10 1d1+0 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2125
+Dem Pawn Shop Owner~
+&12D&00&04e&12m&00~
+&12D&00&04e&12m &15the pawn shop owner, stands here....&00
+~
+   &15Don't let his tired look decieve you.  This mutant has killed before and
+will again if need be.  He always keeps a heavy blaster ready in case of rowdy
+patrons in his shop.  &00
+~
+131082 0 0 E
+0 20 10 1d1+0 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2126
+King Cold~
+&11K&00&03i&15n&11g &14C&00&06o&12l&00&04d&00~
+&11K&00&03i&15n&11g &14C&00&06o&12l&00&04d &15sits here, drinking a glass of wine.&00
+~
+   &15King Cold, the highest power in the universe.  According to him anyway.
+He uses his sons to enforce his power, but do not underestimate him.  He is a
+formidable opponent.  &00
+~
+8202 0 -40 E
+5000 -60 10 1d1+30000000 1d1+150000
+50000 25000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2126
+T 2104
+T 2141
+#2127
+Elite Royal Guard~
+&16E&09l&00&01i&09t&16e &00&06R&14o&12y&00&04a&00&05l &16G&15u&00&07a&15r&16d&00~
+&15An &16E&09l&00&01i&09t&16e &00&06R&14o&12y&00&04a&00&05l &16G&15u&00&07a&15r&16d &15stands at attention here...&00
+~
+   &15A sturdy icer guard.  Trained to give their life up on a momment's notice
+for their king.  &00
+~
+8 0 0 E
+4000 -20 10 1d1+10000000 1d1+70000
+900 8000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2128
+Mutant Palace Guard~
+&00&01M&00&05u&16ta&00&05n&00&01t &15P&00&07alac&15e &16G&15u&00&07a&15r&16d&00~
+&15A &00&01M&00&05u&16ta&00&05n&00&01t &15P&00&07alac&15e &16G&15u&00&07a&15r&16d &15is on patrol here.&00
+~
+&15A deligent guard.&00
+~
+8 0 0 E
+2000 -20 10 0d0+100000 0d0+5000
+500 1000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2129
+Icer Palace Guard~
+&14I&00&06c&12e&00&04r &15P&00&07alac&15e &16G&15u&00&07a&15r&16d&00~
+&15A &14I&00&06c&12e&00&04r &15P&00&07alac&15e &16G&15u&00&07a&15r&16d &15patrols here.&00
+~
+&15A tough palace guard.&00
+~
+8 0 0 E
+2000 -20 10 1d1+800000 1d1+10000
+500 900000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2130
+Icer servant~
+&14I&00&06c&12e&00&04r &16servant&00~
+&15A &14I&00&06c&12e&00&04r &15servant stands here while holding a tray.&00
+~
+&15A trusted servant of the palace.&00
+~
+8 0 0 E
+100 -10 10 1d1+35000 1d1+1500
+200 150000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2131
+Mutant servant~
+&00&01M&00&05u&16ta&00&05n&00&01t &16servant&00~
+&15A &00&01M&00&05u&16ta&00&05n&00&01t &16servant &15stands here ready to serve.&00
+~
+&15She is carrying a small platter.&00
+~
+8 0 0 E
+1000 -20 10 0d0+2000 0d0+1500
+200 150000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2132
+Icer palace cook~
+&14I&00&06c&12e&00&04r &15p&00&07alac&15e &16cook&00~
+&15An &14I&00&06c&12e&00&04r &15p&00&07alac&15e &16cook &15is stirring a stew here.&00
+~
+&15A very talented cook...&00
+~
+10 0 0 E
+1000 -20 10 1d1+30000 1d1+1500
+150 100000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2133
+Mutant palace cook~
+&00&01M&00&05u&16ta&00&05n&00&01t &15p&00&07alac&15e &16cook&00~
+&15A &00&01M&00&05u&16ta&00&05n&00&01t &15p&00&07alac&15e &16cook &15is chopping some meat here.&00
+~
+&15A very talented chef.&00
+~
+10 0 0 E
+1000 -20 10 0d0+2000 0d0+1500
+150 110000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2134
+Mutant Recruit~
+&00&01M&00&05u&16ta&00&05n&00&01t &16R&15e&00&07cru&15i&16t&00~
+&15A &00&01M&00&05u&16ta&00&05n&00&01t &16R&15e&00&07cru&15i&16t &15stands here fidgeting&00
+~
+   &15A new recruit to the palace guard.  Inexperienced at just about
+everything.  Freash bruises are apparent on his flesh from training.  &00
+~
+10 0 0 E
+100 -20 10 0d0+3000 0d0+1500
+200 100000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2135
+Icer Recruit~
+&14I&00&06c&12e&00&04r &16R&15e&00&07cru&15i&16t&00~
+&15An &14I&00&06c&12e&00&04r &16R&15e&00&07cru&15i&16t &15stands here trying to look serious.&00
+~
+   &15A fresh recruit to the palace guard.  He doesn't look like he is very
+experienced.  &00
+~
+10 0 0 E
+100 -10 10 1d1+30000 1d1+2000
+200 200000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2136
+Jail Keeper~
+&15J&00&07ai&15l &10K&00&02eepe&10r&00~
+&15The &15J&00&07ai&15l &10K&00&02eepe&10r &15stands here&00
+~
+&15This gruff mutant doesn't look to be very friendly...&00
+~
+10 0 0 E
+1000 -60 10 1d1+50000000 1d1+125000
+300 35000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2137
+Saiyan Renegade~
+&11S&00&03a&11i&00&03y&11a&00&03n &09R&00&01e&16nega&00&01d&09e&00~
+&15A &11S&00&03a&11i&00&03y&11a&00&03n &09R&00&01e&16nega&00&01d&09e &15stands here, twitching their scarred tail.&00
+~
+&15A saiyan that was too wild to be controlled as a slave.&00
+~
+10 0 0 E
+10000 -60 10 1d1+30000000 1d1+150000
+2000 25000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2138
+Icer jail bitch~
+&14I&00&06c&12e&00&04r &16J&15a&00&07i&16l &13B&00&05itc&13h&00~
+&15An &14I&00&06c&12e&00&04r &16J&15a&00&07i&16l &13B&00&05itc&13h &15stands here flaunting her goods.&00
+~
+&15Was this icer always a girl? No way to tell in this place.....&00
+~
+10 0 0 E
+10000 -60 10 1d1+25000000 1d1+150000
+1800 24000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2139
+Icer Convict~
+&14I&00&06c&12e&00&04r &10C&00&02o&10nvi&00&02c&10t&00~
+&15An &14I&00&06c&12e&00&04r &10C&00&02o&10nvi&00&02c&10t &15stands here, looking vicious...&00
+~
+&15This icer doesn't look friendly, even for someone trapped in this place.&00
+~
+10 0 0 E
+10000 -60 10 1d1+30000000 1d1+150000
+2000 25000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2140
+Tita-gear Clerk~
+&16T&15i&00&07t&16a&15-&10g&00&02e&00&06a&14r &12Clerk&00~
+&15The &16T&15i&00&07t&16a&15-&10g&00&02e&00&06a&14r &12Clerk &15stands here, looking bored.&00
+~
+   &15She doesn't look very happy with her job.  It carries high risk on
+Subzero, and gives little pay too....  &00
+~
+131082 0 0 E
+1 20 10 1d1+0 1d1+0
+900000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2141
+Ice Shark~
+&14I&12c&00&04e &14S&16h&15a&00&07r&14k&00~
+&15An &14I&12c&00&04e &14S&16h&15a&00&07r&14k &15swims here.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+2000 -20 10 1d1+100000 1d1+5000
+400 800000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2142
+Mutant Seagull~
+&10M&00&02u&10t&00&02a&10n&00&02t &14S&00&06e&12a&15g&00&07u&15ll&00~
+&15A &10M&00&02u&10t&00&02a&10n&00&02t &14S&00&06e&12a&15g&00&07u&15ll &15flies slowly here.&00
+~
+   &15This is a strange mutated seagull, it is oblivious to the cold cause of
+it's mutated feathers that help keep it warm.  &00
+~
+8 0 0 E
+5000 -30 10 1d1+75000 1d1+5000
+350 600000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2143
+Saiyan Slave~
+&11S&00&03a&11i&00&03y&11a&00&03n &10S&15l&16a&15v&10e&00~
+&15A &11S&00&03a&11i&00&03y&11a&00&03n &10S&15l&16a&15v&10e &15stands here, a wild look in their eyes.&00
+~
+&15A captured saiyan. He doesn't look like he will go along with a master, and will probably end up in some kind of gambling deathmatches.&00
+~
+8 0 0 E
+400 -40 10 1000d1+2000000 1d1+30000
+0 3500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2105
+#2144
+Saiyan Female Slave~
+&11S&00&03a&11i&00&03y&11a&00&03n &13Female &10S&15l&16a&15v&10e&00~
+&15A &11S&00&03a&11i&00&03y&11a&00&03n &13Female &10S&15l&16a&15v&10e &15stands here, with clenched fists.&00
+~
+&15A captured female saiyan. She is flicking her tail irritably at her situation. Don't bet on her being very receptive of any commands.&00
+~
+8 0 0 E
+300 -30 10 1000d1+1800000 1d1+30000
+0 3250000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2106
+#2145
+Namek Slave~
+&10N&00&02a&10m&00&02e&10k &10S&15l&16a&15v&10e&00~
+&15A &10N&00&02a&10m&00&02e&10k &10S&15l&16a&15v&10e &15stands here looking beaten down.&00
+~
+&15Ever obstinate, this namek has been beaten often for disobeying it's master.&00
+~
+8 0 0 E
+300 -40 10 1000d1+1700000 1d1+30000
+0 3250000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2146
+Human Slave~
+&14H&00&06u&14m&00&06a&14n &10S&15l&16a&15v&10e&00~
+&15A &14H&00&06u&14m&00&06a&14n &10S&15l&16a&15v&10e &15slave stands here, looking underfed.&00
+~
+   &15This human looks to have just recently been captured.  Intelligent eyes
+look back at you as he seems to ponder a way out of his situation.  &00
+~
+8 0 0 E
+300 -40 10 1000d1+1700000 1d1+30000
+0 3500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2147
+Mutant Slave Mistress~
+&09M&00&01u&00&05ta&00&01n&09t &10S&15l&16a&15v&10e &12Mistress&00~
+&15A &09M&00&01u&00&05ta&00&01n&09t &10S&15l&16a&15v&10e &12Mistress &15stands here, a whip strapped to her belt.&00
+~
+&15She doesn't appear to be very friendly, but she is very hot. Dressed in black leather, and thigh-high boots, this is one sexy sadist.&00
+~
+8 0 0 E
+400 -30 10 1000d1+2000000 1d1+30000
+700 3000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2110
+#2148
+Icer Slave Master~
+&14I&00&06c&12e&00&04r &10S&15l&16a&15v&10e &09Master&00~
+&15An &14I&00&06c&12e&00&04r &10S&15l&16a&15v&10e &09Master &15stands here, looking very shrewd.&00
+~
+&15He is constantly counting the money from his profits.&00
+~
+8 0 0 E
+1000 -40 10 1000d1+2000000 1d1+30000
+1000 2900000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2110
+#2149
+Icer Market Guard~
+&14I&00&06c&12e&00&04r &10M&00&02a&00&06rk&00&02e&10t &14Guard&00~
+&15An &14I&00&06c&12e&00&04r &10M&00&02a&00&06rk&00&02e&10t &14Guard &15patrols here.&00
+~
+   &15A heavily armed icer guard, charged with protecting Slave City's chief
+economic process.  &00
+~
+4104 0 0 E
+500 -30 10 1000d1+6000000 1d1+70000
+900 5000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2150
+Garn Bounty Hunter~
+&11Garn &15the &09B&00&01ount&09y &10H&00&02u&00&06n&14t&00&02e&10r&00~
+&11Garn &15the &09B&00&01ount&09y &10H&00&02u&00&06n&14t&00&02e&10r &15stands here...&00
+~
+   Garn the icer bounty hunter, wearing his trademark Blood-shield Armor.  He
+twitches his tail constantly as he scans the crowd for his latest quary.  &00
+~
+155658 0 0 E
+20000 -60 10 1000d1000+30000000 1d1+250000
+2000 40000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2103
+T 2107
+#2151
+Slave Merchant~
+&10S&15l&16a&15v&10e &12Merchant&00~
+&15A &10S&15l&16a&15v&10e &12Merchant &15stands here, rubbing his hands together.&00
+~
+   &15A devious slave merchant.  Don't expect the price for slaves to be low,
+with this guy....    
+&00
+~
+10 0 0 E
+1 20 10 1d1+1000000000 1d1+250000
+0 0
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2111
+T 2112
+T 2110
+#2152
+Ticket Taker~
+&11T&00&03i&16c&15k&00&07et &10Taker&00~
+&15A &11T&00&03i&16c&15k&00&07et &10Taker &15stands here.&00
+~
+   &15She is working hard, trying to keep up with the large crowd, checking
+tickets and admiting visitors.  &00
+~
+253962 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2113
+T 2114
+#2153
+Rampage Vendor~
+&16R&15a&00&01m&09p&00&01a&15g&16e &11V&00&03e&10n&00&02d&16o&15r&00~
+&15The &16R&15a&00&01m&09p&00&01a&15g&16e &11V&00&03e&10n&00&02d&16o&15r &15stands here.&00
+~
+It looks unfinished.
+~
+221194 0 0 E
+0 20 10 1d1+0 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2154
+Fat Rampage Fan~
+&11Fat &16R&15a&00&01m&09p&00&01a&15g&16e &10Fan&00~
+&15A &11Fat &16R&15a&00&01m&09p&00&01a&15g&16e &10Fan &15stands here, cheese stains on his shirt.&00
+~
+   &15This is one fat icer, it seems to live, breathe, drink, and yes even eat
+the Rampage sport.  Eat fast, or you won't eat at all with him around.  &00
+~
+8 0 0 E
+100 -10 10 1d1+1000 1d1+1000
+200 2000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2155
+Icer Contender~
+&14I&00&06c&12e&00&04r &10C&00&02o&00&07n&15t&16e&15n&00&07d&00&02e&10r&00~
+&15An &14I&00&06c&12e&00&04r &10C&00&02o&00&07n&15t&16e&15n&00&07d&00&02e&10r &15stands here, fiddling with her glove laces.&00
+~
+   &15She looks like one buff girl.  She would look good, if she didn't appear
+to be such a bitch.  &00
+~
+10 0 0 E
+1000 -60 10 1000d1+18000000 1d1+125000
+0 14000000
+8 8 2
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2156
+Male Icer Contender~
+&12Male &14I&00&06c&12e&00&04r &10C&00&02o&00&07n&15t&16e&15n&00&07d&00&02e&10r&00~
+&15A &12Male &14I&00&06c&12e&00&04r &10C&00&02o&00&07n&15t&16e&15n&00&07d&00&02e&10r &15is standing here, flexing his muscles.&00
+~
+   &15His life seems to be this sport, and he represents it all the time.  &00
+~
+10 0 0 E
+1000 -60 10 1000d1+20000000 1d1+125000
+1200 15000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2157
+Nerdy Rampage Fan~
+&10Nerdy &16R&15a&00&01m&09p&00&01a&15g&16e &11Fan&00~
+&15A &10Nerdy &16R&15a&00&01m&09p&00&01a&15g&16e &11Fan &15stands here, trying to look cool.&00
+~
+   &15This fan only feels powerful when watching this sport.  You won't be able
+to get him to shut up about it either.  &00
+~
+8 0 0 E
+1000 -480 10 1d1+1000 1d1+1000
+250 1000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2158
+Ring Keeper~
+&11R&00&03i&11n&00&03g &10K&15e&16ep&15e&10r&00~
+&15The &16R&15a&00&01m&09p&00&01a&15g&16e &11R&00&03i&11n&00&03g &10K&15e&16ep&15e&10r &15is standing here, holding a microphone.&00
+~
+   &15He is constantly shout out to the crowd, reving them up for some more
+action.  Dressed all in black leather, he looks like the badass he is supposed
+to portray.  &00
+~
+237578 0 0 E
+0 20 10 1d1+1000000000 1d1+250000
+0 0
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2120
+T 2121
+#2159
+Yargth~
+&11Y&00&03a&10r&00&02g&15t&16h&00~
+&11Y&00&03a&10r&00&02g&15t&16h &15is standing here.&00
+~
+   &15The icer champion.  Be careful, he isn't all talk.  He really is strong.
+&00
+~
+42 0 0 E
+10000 20 10 1000d1+50000000 1d1+199999
+0 35000000
+8 8 1
+BareHandAttack: 6
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2160
+Jiors~
+&14Jiors &15the &16A&15c&00&07ade&15m&16y &09H&00&01e&00&05a&09d&10m&00&02a&00&06s&10t&00&02e&00&06r&00~
+&14Jiors &15the &16A&15c&00&07ade&15m&16y &09H&00&01e&00&05a&09d&10m&00&02a&00&06s&10t&00&02e&00&06r &15stands here.&00
+~
+   &15Jiors is dressed in his full dress military uniform, complete with shiney
+black boots.  A hard leather crop is tucked under his right arm, and his tail
+swishes thoughtfully behind his back.  &00
+~
+10 0 0 E
+1000 -70 10 1000d1+10000000 1d1+70000
+900 8000000
+8 8 1
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2118
+T 2119
+#2161
+Junior Cadet~
+&10J&00&02unio&10r &14C&00&06ade&14t&00~
+&15A &10J&00&02unio&10r &14C&00&06ade&14t &15stands here.&00
+~
+   &15This cadet is still pretty new to the academy.  He fidgets when at
+attention, is late to classes, and his uniform is rarely on right.  &00
+~
+8 0 0 E
+1000 -60 10 1000d1+6000000 1d1+70000
+800 5000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2162
+Sophmore Cadet~
+&10Sophmore &14C&00&06ade&14t&00~
+&15A &10Sophmore &14C&00&06ade&14t &15stands here.&00
+~
+   &15This cadet knows the routine.  He has been here for a while already, and
+is no longer a junior grade cadet.  &00
+~
+8 0 0 E
+1000 -20 10 1000d1+7000000 1d1+70000
+825 6000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2163
+Academy Instructor~
+&16A&15c&00&07ade&15m&16y &10I&00&02nstructo&10r&00~
+&15An &16A&15c&00&07ade&15m&16y &10I&00&02nstructo&10r&15 is standing here.&00
+~
+   &15This instructor was once in the academy himself, and after retiring from
+the Subzero military, has come back to teach instead of learn.  &00
+~
+10 0 0 E
+1000 -60 10 1000d1+9000000 1d1+70000
+875 7000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2164
+Senior Cadet~
+&09S&00&01enio&09r &10C&00&02ade&10t&00~
+&15A &09S&00&01enio&09r &10C&00&02ade&10t &15is standing here.&00
+~
+   &15This cadet is on his last year at the academy.  He already has been given
+command over the lower cadets, and will soon be getting a position as an
+officer in the Subzero military.  Command over the lower cadets, and will soon
+be getting a position as an officer in the Subzero military.  &00
+~
+8 0 0 E
+1000 -60 10 1000d1+8000000 1d1+70000
+850 6750000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2165
+Wererat~
+&09W&00&01e&09r&00&01e&09r&00&01a&09t&00~
+&15A &09W&00&01e&09r&00&01e&09r&00&01a&09t &15stands here, drooling.&00
+~
+   &15This rat is huge, about the size of a small bear.  It has two large teeth
+sticking out of it's mouth.  &00 &00
+~
+42 1024 0 E
+2000 -60 10 1000d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2166
+Mutant Rat~
+&09M&00&05utan&09t &11R&00&03a&16t&00~
+&15A &09M&00&05utan&09t &11R&00&03a&16t &15chitters here.&00
+~
+&15This is a rather large rat, with big fangs.&00
+~
+40 1024 0 E
+1000 -60 10 1000d1+2000000 1d1+30000
+600 3500000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2167
+Cybernetic Platinum Owner~
+&16C&15y&00&06b&14e&00&07rn&14e&00&06t&15i&16c &15P&00&07la&15ti&00&07nu&15m &16Owner&00~
+&15The &16C&15y&00&06b&14e&00&07rn&14e&00&06t&15i&16c &15P&00&07la&15ti&00&07nu&15m &16Owner &15stands here.&00
+~
+   &15This bored Mutant stands here, absentmindly polishing various pieces of
+merchandise.  &00
+~
+188426 0 0 E
+0 20 0 1d1+0 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2168
+Ice wolf~
+&14I&00&06c&14e &15w&16o&00&07l&15f&00~
+&15An &14I&00&06c&14e &15w&16o&00&07l&15f is prowling here.&00
+~
+&15A large wolf, with ice crystals stuck to it's shaggy fur.&00
+~
+8 0 0 E
+100 -60 0 0d0+8000000 0d0+70000
+900 7000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2169
+Possessed Ice wolf~
+&09P&00&01o&00&05ss&09e&00&01ss&00&05e&09d &14I&00&06c&14e &15w&16o&00&07l&15f&00~
+&15A glowing &09P&00&01o&00&05ss&09e&00&01ss&00&05e&09d &14I&00&06c&14e &15w&16o&00&07l&15f stands here.&00
+~
+   &15An Ice wold that succumb to the evil of the cavern.  And now eats souls
+as well as fleash.  &00
+~
+40 0 0 E
+0 -60 0 0d0+10000000 0d0+70000
+900 8000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2170
+Ice Warrior~
+&14I&00&06c&14e &09W&00&01arrio&09r&00~
+&15An &14I&00&06c&14e &09W&00&01arrio&09r &15stands here, eating ice crystals.&00
+~
+&15A strange creature made of ice, that also eats ice.&00
+~
+10 0 0 E
+0 -60 0 0d0+30000000 0d0+150000
+2000 25000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2171
+Ice Fiend~
+&14I&00&06c&14e &00&01F&16i&15e&16n&00&01d&00~
+&15An &14I&00&06c&14e &00&01F&16i&15e&16n&00&01d &15stands here.&00
+~
+&15An ice warrior that has evolved into a greater ice....being.&00
+~
+10 0 0 E
+0 -60 0 0d0+50000000 0d0+200000
+3000 35000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2172
+Ice Gnaw~
+&14I&00&06c&14e &16G&00&06n&15a&16w&00~
+&15An &14I&00&06c&14e &16G&00&06n&15a&16w &15scurries around here.&00
+~
+   &15A cousin to a regular Gnaw, this Gnaw has adapted to the cold of the
+caves, and has become a top preditor here.  &00
+~
+8 0 0 E
+0 -60 0 0d0+20000000 0d0+125000
+1000 15000000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2173
+Ice Queen~
+&14I&00&06c&14e &12Q&00&04u&00&06e&00&04e&12n&00~
+&15The &14I&00&06c&14e &12Q&00&04u&00&06e&00&04e&12n &15stands here.&00
+~
+   &15This strange being rules over the Chill Cavern, her subjects in the
+floors above carry out her every order.  &00
+~
+131082 0 0 E
+100000 -60 0 0d0+70000000 0d0+300000
+5000 50000000
+8 8 2
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2130
+#2174
+Sushi Cook~
+&00&06S&14u&00&07s&14h&00&06i &12C&00&04o&00&05o&09k&00~
+&15A &00&06S&14u&00&07s&14h&00&06i &12C&00&04o&00&05o&09k &15stands cutting up raw fish here.&00
+~
+&15This cook is in the process of preparing various sorts of sushi. The sushi he is making is from fish from the ocean to the south, rare and delecious fish.&00
+~
+24586 0 0 E
+0 20 0 1d1+0 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2175
+Carrisa~
+&12C&00&04arris&12a&00~
+&12C&00&04arris&12a &15stands here.&00
+~
+   &15Owner and manager of this strange little store, Carrisa doesn't look very
+interested in anything not to do with strange technology.  &00
+~
+24586 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2176
+Slavia Clerk~
+&00&04S&12l&14a&00&06via &10C&00&02ler&10k&00~
+&15The &00&04S&12l&14a&00&06via &10C&00&02ler&10k &15stands here.&00
+~
+&15Some icer working part-time at the Slavia Pawn shop.&00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2177
+Wealthy Icer~
+&11W&00&03e&11a&00&03l&11t&00&03h&11y &14I&00&06c&12e&00&04r&00~
+&15A &11W&00&03e&11a&00&03l&11t&00&03h&11y &14I&00&06c&12e&00&04r &15is standing here.&00
+~
+   &15A wealthy icer, dressed nicely, and with a haughtier attitude than even
+normal icer's carry about themselves.  &00
+~
+8 0 0 E
+100 0 0 0d0+50000 0d0+5000
+500 500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2178
+Wealthy Mutant~
+&11W&00&03e&11a&00&03l&11t&00&03h&11y &09M&00&01u&00&05ta&00&01n&09t&00~
+&15A &11W&00&03e&11a&00&03l&11t&00&03h&11y &09M&00&01u&00&05ta&00&01n&09t &15stands here.&00
+~
+   &15This mutant seems to be rather well off, and flaunts both her wealth and
+other features.  &00
+~
+8 0 0 E
+100 0 0 0d0+100000 0d0+5000
+500 1000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2179
+Slave City Mutant~
+&10S&00&02lav&10e &14C&00&06i&14t&00&06y &09M&00&01u&00&05ta&00&01n&09t&00~
+&15A &10S&00&02lav&10e &14C&00&06i&14t&00&06y &09M&00&01u&00&05ta&00&01n&09t &15is walking here.&00
+~
+&15Just an Average everyday mutant trying to get by.&00
+~
+8 0 0 E
+200 -10 0 0d0+500000 0d0+30000
+300 2500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2180
+Slave City Icer~
+&10S&00&02lav&10e &14C&00&06i&14t&00&06y &14I&00&06c&12e&00&04r&00~
+&15A &10S&00&02lav&10e &14C&00&06i&14t&00&06y &14I&00&06c&12e&00&04r &15is standing here.&00
+~
+&15A normal icer living in slave city.&00
+~
+8 0 0 E
+200 -10 0 0d0+500000 0d0+30000
+300 2500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2181
+Wooly Bear~
+&15W&00&07ool&15y &00&03B&00&01e&15a&00&03r&00~
+&15A &15W&00&07ool&15y &00&03B&00&01e&15a&00&03r &15stands here, eating a fish.&00
+~
+   &15This type of bear only lives around Icetip mountain, because it's frozen
+waters have rare fish that the bears live on.  &00
+~
+8 0 0 E
+3000 -60 0 0d0+6000000 0d0+70000
+800 5000000
+8 8 0
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2182
+Wooly Mountain Tiger~
+&15W&00&07ool&15y &00&06M&14o&00&07u&00&03nt&00&07a&14i&00&06n &09T&00&01i&16g&00&07e&09r&00~
+&15A &15W&00&07ool&15y &00&06M&14o&00&07u&00&03nt&00&07a&14i&00&06n &09T&00&01i&16g&00&07e&09r &15stalks here.&00
+~
+   &15This is a dangerous animal, it reigns supreme over all prey on the
+mountainside.  &00
+~
+8 0 0 E
+5000 -60 0 0d0+7000000 0d0+70000
+900 6500000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2183
+Icer Climber~
+&14I&00&06c&12e&00&04r &00&03C&15l&00&01i&00&03m&15b&00&01e&00&03r&00~
+&15An &14I&00&06c&12e&00&04r &00&03C&15l&00&01i&00&03m&15b&00&01e&00&03r &15climbs the slope here.&00
+~
+   &15A brave or foolish soul who braves the mountainside to either reach the
+otherside, or for the thrill of climbing this challenge of a mountain.  &00
+~
+8 0 0 E
+7000 -60 0 0d0+8000000 0d0+70000
+900 8000000
+8 8 0
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2184
+Froz'en~
+&00&07F&14r&00&06o&00&07z&15'&14e&00&06n&00~
+&15A &00&07F&14r&00&06o&00&07z&15'&14e&00&06n &15floats here.&00
+~
+   &15This is a strange monster, which looks lab created.  No one is sure how
+they came to appear on the mountain, but they suddenly arrived onto it from the
+west.  They have long sharp claws and teeth which make them extremely
+dangerous.  &00
+~
+10 0 0 E
+10000 -60 0 0d0+15000000 0d0+125000
+1200 10000000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2185
+Hermit Smith Icor~
+&11Hermit &00&06S&16m&15i&16t&00&06h &09I&00&01co&09r&00~
+&15The &11Hermit &00&06S&16m&15i&16t&00&06h &09I&00&01co&09r &15sits here hammering some metal into a shape.&00
+~
+   &15This is the Hermit smith Icor, rumored to be the best silver smith on all
+of planet Frigid.  He is an ageing Mutant, hunched over from his years and
+blistered from his work.  &00
+~
+16394 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2133
+T 2134
+T 12808
+#2186
+Hermit Smith Icor~
+&11Hermit &00&06S&16m&15i&16t&00&06h &09I&00&01co&09r&00~
+&15The &11Hermit &00&06S&16m&15i&16t&00&06h &09I&00&01co&09r &15sits here hammering some metal into a shape.&00
+~
+&15The hermit smith Icor.&00
+~
+16394 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2135
+#2187
+Frost Worm~
+&14F&00&06r&00&07o&14s&00&06t &10W&11o&00&02r&10m&00~
+&15A &14F&00&06r&00&07o&14s&00&06t &10W&11o&00&02r&10m &15slithers here.&00
+~
+   &15A unique preditor of planet Frigid.  Burying through deep snow banks it
+catches most of it's prey while underneath said prey.  Sudden shifts in wind
+often topple or smooth out where these worms are hiding leaving them out in the
+open, blindly seeking another hideing place.  &00
+~
+8 0 0 E
+1000 -60 0 0d0+18000000 0d0+125000
+1000 15000000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2188
+Saber Droid~
+&12S&00&04a&00&05b&00&04e&12r &16D&15r&00&07o&15i&16d&00~
+&15A &12S&00&04a&00&05b&00&04e&12r &16D&15r&00&07o&15i&16d &15stands here, scanning the perimiter.&00
+~
+   &15These are the droids the Robotics division of the labs seem to have been
+working on.  A small combact combat droid, armed with several tactical vulvan
+machineguns.  &00
+~
+10 0 0 E
+20000 -60 0 0d0+40000000 0d0+200000
+3000 30000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2189
+Hydralisk~
+&10H&00&02y&00&05d&00&01r&09a&00&01l&00&05i&00&02s&10k&00~
+&15A &10H&00&02y&00&05d&00&01r&09a&00&01l&00&05i&00&02s&10k &15prowls viciously here.&00
+~
+   &15This vicious beast looks to be a creation of the biological laboratory of
+this facility.  It is an insane creature that possesses an acidic spittying
+ability for it's main form of attack.  &00&00
+~
+10 0 0 E
+20000 -60 0 0d0+50000000 0d0+200000
+2500 35000000
+8 8 0
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2190
+Security Droid~
+&00&04S&12e&00&05curi&12t&00&04y &16D&15r&00&07o&15i&16d&00~
+&15A &00&04S&12e&00&05curi&12t&00&04y &16D&15r&00&07o&15i&16d &15patrolls here.&00
+~
+   &15This is the first type of droid this facility manufactured for the
+kingdom, basing it off of a model the Royal Army found on the planet Earth.  
+&00
+~
+40 0 0 E
+15000 -60 0 0d0+25000000 0d0+150000
+2000 20000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2191
+Command Droid~
+&12C&00&04om&15m&00&04an&12d &16D&15r&00&07o&15i&16d&00~
+&15A &12C&00&04om&15m&00&04an&12d &16D&15r&00&07o&15i&16d &15stands here.&00
+~
+   &15This is a regular Security Droid that seems to have been upgraded to
+command the simple minded security droids.  &00
+~
+42 0 0 E
+20000 -60 0 0d0+35000000 0d0+200000
+2000 25000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2192
+Zombie Scientist~
+&10Z&00&02o&16m&15b&00&07ie &00&04S&12c&00&06i&14e&00&06n&14t&00&06i&12s&00&04t&00~
+&15A &10Z&00&02o&16m&15b&00&07ie &00&04S&12c&00&06i&14e&00&06n&14t&00&06i&12s&00&04t &15stumbles about here.&00
+~
+   &15Some wierd expirement has turned this formaly dead scientist into a
+walking corpse.  Unlike normal zombies this one doesn't seem interested in
+eating flesh, as it most likely doesn't feel hunger.  It however does have a
+bionic implant built into the side of it's head, and probably receives orders
+from somewhere.  &00
+~
+10 0 0 E
+20000 -60 0 0d0+70000000 0d0+250000
+5000 50000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2193
+Doctor Natasha~
+&10D&00&02o&00&06ct&00&02o&10r &12N&00&04a&00&05t&13as&00&05h&12a&00~
+&15A &10D&00&02o&00&06ct&00&02o&10r &12N&00&04a&00&05t&13as&00&05h&12a &15stands here, shivering.&00
+~
+   &15Doctor Natasha is one of the scientists assigned to this facility.  She
+is a human, she must have been "recruited" by the kingdom because of her
+skills.  She is a biogenecist.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000 1d1+0
+350 100000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2137
+T 2138
+#2194
+General Danton~
+&16G&15e&00&07ner&15a&16l &10D&00&02a&00&03nt&00&02o&10n&00~
+&16G&15e&00&07ner&15a&16l &10D&00&02a&00&03nt&00&02o&10n &15sits here with a smile on his face.&00
+~
+   &15The Administrator of the Royal Labs.  He doesn't look to troubled about
+the state the facility has fallen into.  He also doesn't quite look like a
+natural icer anymore....  &00
+~
+188426 0 0 E
+500000 -60 0 0d0+100000000 0d0+500000
+25000 75000000
+6 6 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2140
+T 2104
+T 97
+#2195
+Blurb~
+&00&05B&13lur&00&05b&00~
+&15A &00&05B&13lur&00&05b &15sits in a pool of slime here.&00
+~
+   &15This strange creature appears to be a massive slug, with large eyes.  It
+travels around on a stream of slime that it excretes.  &00
+~
+8 0 0 E
+300 -40 0 0d0+50000 0d0+5000
+300 500000
+8 8 0
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2196
+Mist Salamander~
+&14M&00&07i&15s&00&07t &09S&00&01a&09l&00&01a&09m&00&01a&09n&00&01d&09e&00&01r&00~
+&15A &14M&00&07i&15s&00&07t &09S&00&01a&09l&00&01a&09m&00&01a&09n&00&01d&09e&00&01r &15scurries around here.&00
+~
+   &15A strange salamander, it has grown to over 3 feet long.  It scurries
+along on it's low set legs, propelled by its suctioncupped fingertips.  &00
+~
+8 0 0 E
+500 -40 0 0d0+100000 0d0+5000
+400 1000000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2197
+Sludge Creep~
+&10S&00&02l&11ud&00&02g&10e &00&03C&00&02r&10e&00&02e&00&03p&00~
+&15A &10S&00&02l&11ud&00&02g&10e &00&03C&00&02r&10e&00&02e&00&03p &15sloshes around here.&00
+~
+   &15This strange being appears to be made out of goo.  It gets around by
+sloshing back and forth.  &00
+~
+8 0 0 E
+500 -60 0 0d0+500000 0d0+30000
+750 2000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2198
+Primative Icer~
+&09Primative &14I&00&06c&12e&00&04r&00~
+&15A &09Primative &14I&00&06c&12e&00&04r &15hunts here.&00
+~
+   &15This icer grew up far from most icer civilization.  Him and his kind have
+clung to the traditional ways of his icer ancestors.  &00
+~
+8 0 0 E
+600 -60 0 0d0+750000 0d0+30000
+600 2500000
+8 8 0
+BareHandAttack: 14
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2199
+Bunnyosaur~
+&13Bu&00&05n&13ny&11o&10s&00&02au&10r&00~
+&15A &13Bu&00&05n&13ny&11o&10s&00&02au&10r &15hops around here&00
+~
+   &15This eight foot tall bunny rabbit is needless to say massive for it's
+kind.  It survives on the mushrooms that grow in this place.  &00
+~
+8 0 0 E
+800 -60 0 0d0+600000 0d0+30000
+500 2000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

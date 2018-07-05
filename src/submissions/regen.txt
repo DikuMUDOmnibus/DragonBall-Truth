@@ -1,0 +1,75 @@
+From: John Evans <evansj@texas.net>
+Subject: Regen Rooms
+
+>    I was thinking 3 times regen as much per tick. If anyone has
+> any ideas about this please let me know. Thank you for your time
+> and patience in reading this.
+
+Here is what I did:
+
+In structs.h ----
+Search for:
+#define ROOM_OLC                (1 << 14)
+
+Find the last ROOM_XXXX flag and add:
+
+#define ROOM_GOOD_REGEN
+
+(1 << 15)  /* Good Regen Room */
+
+NOTE: The "15" needs to be one number higher than the one above it. This
+means that if the last one listed is number 17, the one you add needs to
+be number 18.
+
+In olc.h ----
+Search For:
+#define NUM_ROOM_FLAGS
+
+14
+
+Change it to:
+#define NUM_ROOM_FLAGS
+
+15
+
+In constants.c ----
+Search for:
+/* ROOM_x */
+const char *room_bits[] = {
+  "DARK",
+
+Goto the bottom of that list, and before:
+"\n"
+
+add in:
+"GOOD_REGEN"
+
+Those are the basic steps for adding new room flags. Now you have to write
+the code for doing something with those flags. In this case, the flags are
+only checked every tick, so....
+
+In limits.c ----
+Search for:;
+int mana_gain(struct char_data * ch)
+
+At the bottom of this function is:
+return (gain);
+
+BEFORE that line do something like:
+  if (IS_SET(ROOM_FLAGS(ch->in_room), ROOM_GOOD_REGEN))
+    gain += (gain * 2);
+
+You will need to do the same thing in hit_gain() and in move_gain() as
+well. All three of those functions are basically the same, so you should
+be able to handle it from there.
+
+Most of this was written in the mailer because I completly yanked the
+stock regen code and wrote my own from scratch. Not saying that the stock
+one was bad. It just wasn't what I wanted. I coded one that takes into
+account race, class, age, conditions, and affected bys as well as the room
+flags: ROOM_GOOD_REGEN, ROOM_BAD_REGEN, and ROOM_TINY_REGEN.
+
+Good luck!
+
+John Evans
+

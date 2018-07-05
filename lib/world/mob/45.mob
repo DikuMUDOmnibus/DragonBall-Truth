@@ -1,0 +1,250 @@
+#4500
+test~
+test~
+test
+~
+It looks unfinished.
+~
+8 0 0 E
+1 20 10 1d10000+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4510
+Kaioshin~
+Kaioshin~
+Kaioshin, the god of the kaio's is standing here.
+~
+Nothing.
+~
+10 0 0 E
+500 10 0 1d1+2000 10d10+10
+0 0
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4511
+Puipui~
+&13Majin Puipui&00~
+&10The alien Puipui is standing here.&00
+~
+Nothing.
+~
+10 0 0 E
+100 -30 5 1d1+5000 1d1+10
+0 1000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4512
+Yakon Monster~
+&13Majin Yakon&00~
+A giant monster with an M on his forhead is standing here.
+~
+Nothing.
+~
+10 0 0 E
+150 -30 1 1d1+8000 1d10+25
+0 1000000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4513
+Majin Dabula ~
+&13Majin Dabula&00~
+&09A tall red skinned, almost devilish looking person stands here.&00
+~
+Nothing.
+~
+10 0 0 E
+0 -30 0 1d1+12000 1d1+30
+0 1000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4514
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4515
+Majin buu~
+&13Majin Buu&00~
+The evil fat buu is standing here!
+~
+Nothing.
+~
+10 0 0 E
+1000000 -30 0 1d1+5000000 1d1+30
+100000 10000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4520
+Mr Dressup~
+Mr Dressup~
+Mr Dressup is standing here.
+~
+Nothing.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4550
+squirel~
+squirel~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4560
+an old black women~
+an old black women~
+An old black women is standing here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4570
+Granyx the Saiyan~
+&15Granyx&00~
+&11A large saiyan with bulging muscles is standing here.&00
+~
+Nothing.
+~
+10 0 0 E
+10000000 -30 0 1d1+800000 1d1+150
+50000 60000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4580
+Zerack Saiyan Saiya-jin~
+&09Zerack&09~
+A small saiyan with short spiky hair is standing here.
+~
+Nothing.
+~
+237578 136 0 E
+10000 20 0 1d1+1500000 30d1+200
+200000 5000000
+8 8 0
+BareHandAttack: 13
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4590
+&13Majin Buu&00~
+&13Majin Buu&00~
+&13The dreaded Majin Buu is standing here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+1000000 -30 0 10d10+500000 10d10+100
+50000 50000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4598
+namek baby egg slave~
+&10N&00&02a&10m&00&02e&10k &12C&00&04h&12i&00&04l&12d&00~
+&10N&00&02a&10m&00&02e&10k &12C&00&04h&12i&00&04l&12d &15is standing here looking about the room.&00
+~
+Nothing.
+~
+8 0 0 E
+20 10 10 10d5+10000 1d1+10
+0 1
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4599
+a saibamen~
+&10S&00&02a&00&03i&00&02b&10a&00~
+&15A small &10S&00&02a&00&03i&00&02b&10a&15 is here jumping around.&00
+~
+Nothing.
+~
+8 0 0 E
+100000 -60 -10 8d20+100000 20d2+125000
+10 10000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

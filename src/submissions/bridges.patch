@@ -1,0 +1,380 @@
+diff -uprN src/act.informative.c circle/src/act.informative.c
+--- src/act.informative.c	Sun Jan 03 19:10:01 1999
++++ circle/src/act.informative.c	Wed Jan 06 00:21:23 1999
+@@ -51,6 +51,7 @@ extern char *race_abbrevs[];
+ extern char *room_bits[];
+ extern char *spells[];
+ extern char *sector_types[];
++extern char *bridges[];
+ extern char *pc_class_types[];
+ extern char *pc_race_types[];
+ 
+@@ -463,12 +466,15 @@ void look_at_room(struct char_data * ch,
+   send_to_char(CCCYN(ch, C_NRM), ch);
+   if (PRF_FLAGGED(ch, PRF_ROOMFLAGS)) {
+     sprintbit((long) ROOM_FLAGS(ch->in_room), room_bits, buf);
+-/*    sprintf(buf2, "[%5d] %s [ %s]", world[ch->in_room].number,
+-            world[ch->in_room].name, buf); */
+     sprinttype(SECT(ch->in_room), sector_types, buf1);
++    sprinttype(BRIDGE(ch->in_room), bridges, buf3);
+ 
+-    sprintf(buf2, "[%5d] %s [ %s] [ %s ]", world[ch->in_room].number,
+-        world[ch->in_room].name, buf, buf1);
++    if (BRIDGE(ch->in_room) > 0)
++      sprintf(buf2, "[%5d] %s [ %s] [ %s ] [ %s ]", world[ch->in_room].number,
++          world[ch->in_room].name, buf, buf1, buf3);
++    else
++      sprintf(buf2, "[%5d] %s [ %s] [ %s ]", world[ch->in_room].number,
++          world[ch->in_room].name, buf, buf1);
+     send_to_char(buf2, ch);
+   } else
+     send_to_char(world[ch->in_room].name, ch);
+diff -uprN src/act.movement.c circle/src/act.movement.c
+--- src/act.movement.c	Sun Jan 03 18:02:31 1999
++++ circle/src/act.movement.c	Wed Jan 06 09:45:37 1999
+@@ -30,6 +30,7 @@ extern struct index_data *obj_index;
+ extern int rev_dir[];
+ extern char *dirs[];
+ extern char *sector_types[];
++extern char *bridges[];
+ extern int movement_loss[];
+ 
+ /* external functs */
+@@ -64,7 +65,26 @@ int has_boat(struct char_data *ch)
+   return 0;
+ }
+ 
+-  
++
++void damagerolls(struct char_data * ch)
++{
++  int dam;
++
++  if (IS_AFFECTED(ch, AFF_SANCTUARY)) {
++    dam = MIN(dam, 18);  /* Max 18 damage when sanctuary */
++    send_to_char("Your sanctuary eases some of the blow!\r\n", ch);
++  }
++  dam = MIN(dam, 100);  /* no more than 100 hp per round */
++  dam = MAX(dam, 0);    /* no less than 0 hp per round */
++  /* You can't damage an immortal! */
++  if ((GET_LEVEL(ch) >= LVL_IMMORT) && !IS_NPC(ch))
++    dam = 0;
++  GET_MAX_HIT(ch) -= dam;
++  GET_HIT(ch) = GET_MAX_HIT(ch);
++  sprintf(buf, "You've permanently lost %d hitpoints due to the damage caused!\r\n", dam);
++  send_to_char(buf, ch);
++}
++
+ 
+ /* do_simple_move assumes
+  *    1. That there is no master and no followers.
+@@ -131,7 +151,6 @@ int do_simple_move(struct char_data *ch,
+     }
+   }
+ 
+-
+   /* move points needed is avg. move loss for src and destination sect type */
+   need_movement = (movement_loss[SECT(ch->in_room)] +
+ 		   movement_loss[SECT(EXIT(ch, dir)->to_room)]) >> 1;
+@@ -168,7 +187,7 @@ int do_simple_move(struct char_data *ch,
+       return 0;
+     }
+   }
+-  
++
+   if ((riding || ridden_by) && IS_SET(ROOM_FLAGS(EXIT(ch, dir)->to_room), ROOM_TUNNEL)) {
+     send_to_char("There isn't enough room there, while mounted.\r\n", ch);
+     return 0;
+@@ -245,6 +264,14 @@ int do_simple_move(struct char_data *ch,
+ 
+   if (ch->desc != NULL)
+     look_at_room(ch, 0);
++
++  /* Okies, did they bridge it? */
++  if (((BRIDGE(ch->in_room) == BRIDGE_SMALL) && (GET_WEIGHT(ch) >= 100)) ||
++    ((BRIDGE(ch->in_room) == BRIDGE_MEDIUM) && (GET_WEIGHT(ch) >= 150)) ||
++    ((BRIDGE(ch->in_room) == BRIDGE_LARGE) && (GET_WEIGHT(ch) >= 200))) {
++    send_to_char("Uh oh, you're too heavy and fall off the bridge!\r\n", ch);
++    damagerolls(ch);
++  }
+ 
+   // DT! (Hopefully these are rare in your MUD) -dak
+   if (IS_SET(ROOM_FLAGS(ch->in_room), ROOM_DEATH)) {
+diff -uprN src/constants.c circle/src/constants.c
+--- src/constants.c	Sun Jan 03 22:04:03 1999
++++ circle/src/constants.c	Tue Jan 05 21:14:57 1999
+@@ -93,6 +93,18 @@ const char *sector_types[] = {
+ };
+ 
+ 
++/* BRIDGE_ */
++/* Make SURE you change the BUFFER (buf3) in redit.c and act.informative.c *
++ * if the text here is enlargened. JB 04/01/99                             */
++const char *bridges[] = {
++  "None",
++  "Small",
++  "Medium",
++  "Large",
++  "\n"
++};
++
++
+ /* SEX_x */
+ const char *genders[] =
+ {
+diff -uprN src/db.c circle/src/db.c
+--- src/db.c	Sun Jan 03 22:04:43 1999
++++ circle/src/db.c	Mon Jan 04 22:33:15 1999
+@@ -733,13 +733,14 @@ void parse_room(FILE * fl, int virtual_n
+   world[room_nr].name = fread_string(fl, buf2);
+   world[room_nr].description = fread_string(fl, buf2);
+ 
+-  if (!get_line(fl, line) || sscanf(line, " %d %s %d ", t, flags, t + 2) != 3) {
++  if (!get_line(fl, line) || sscanf(line, " %d %s %d %d ", t, flags, t + 2, t + 3) != 4) {
+     fprintf(stderr, "SYSERR: Format error in room #%d\n", virtual_nr);
+     exit(1);
+   }
+   /* t[0] is the zone number; ignored with the zone-file system */
+   world[room_nr].room_flags = asciiflag_conv(flags);
+   world[room_nr].sector_type = t[2];
++  world[room_nr].bridge = t[3];
+ 
+   world[room_nr].func = NULL;
+   world[room_nr].contents = NULL;
+diff -uprN src/db.h circle/src/db.h
+--- src/db.h	Thu Dec 24 00:45:41 1998
++++ circle/src/db.h	Mon Jan 04 22:44:17 1999
+@@ -215,11 +215,13 @@ struct ban_list_element {
+ char	buf[MAX_STRING_LENGTH];
+ char	buf1[MAX_STRING_LENGTH];
+ char	buf2[MAX_STRING_LENGTH];
++char    buf3[MAX_STRING_LENGTH];
+ char	arg[MAX_STRING_LENGTH];
+ #else
+ extern char	buf[MAX_STRING_LENGTH];
+ extern char	buf1[MAX_STRING_LENGTH];
+ extern char	buf2[MAX_STRING_LENGTH];
++extern char     buf3[MAX_STRING_LENGTH];
+ extern char	arg[MAX_STRING_LENGTH];
+ #endif
+ 
+diff -uprN src/olc.h circle/src/olc.h
+--- src/olc.h	Sun Dec 27 00:12:05 1998
++++ circle/src/olc.h	Mon Jan 04 22:15:27 1999
+@@ -32,13 +32,14 @@
+ 
+ #define NUM_ROOM_FLAGS          18  /* Indoors, Death, etc              */
+ #define NUM_ROOM_SECTORS        13  /* Fly, Underwater, etc             */
++#define NUM_BRIDGES             4   /* Bridge types                     */
+ 
+ #define NUM_MOB_FLAGS           21  /* Nobash, Sentinel, etc            */
+ #define NUM_OBJAFF_FLAGS        22
+ #define NUM_ATTACK_TYPES	15
+ 
+-#define NUM_ITEM_TYPES          33  /* Weapon, Note, etc                */
+-#define NUM_ITEM_FLAGS          30  /* Glow, hum, etc                   */
++#define NUM_ITEM_TYPES          32  /* Weapon, Note, etc                */
++#define NUM_ITEM_FLAGS          32  /* Glow, hum, etc                   */
+ #define NUM_ITEM_WEARS          18  /* Wield, Hold, etc                 */
+ #define NUM_AFF_FLAGS           24  /* Affects                          */
+ #define NUM_APPLIES             28  /* Regen, Hitroll, etc              */
+@@ -215,6 +216,7 @@ extern struct olc_save_info *olc_save_li
+ #define REDIT_EXTRADESC_MENU 		14
+ #define REDIT_EXTRADESC_KEY 		15
+ #define REDIT_EXTRADESC_DESCRIPTION 	16
++#define REDIT_BRIDGE                    17
+ 
+ /*
+  * Submodes of ZEDIT connectedness.
+diff -uprN src/redit.c circle/src/redit.c
+--- src/redit.c	Wed Oct 21 20:28:27 1998
++++ circle/src/redit.c	Mon Jan 04 22:43:47 1999
+@@ -30,6 +30,7 @@ extern struct obj_data *obj_proto;
+ extern struct char_data *mob_proto;
+ extern char *room_bits[];
+ extern char *sector_types[];
++extern char *bridges[];
+ extern char *exit_bits[];
+ extern struct zone_data *zone_table;
+ extern sh_int r_mortal_start_room;
+@@ -51,6 +52,7 @@ void redit_disp_exit_menu(struct descrip
+ void redit_disp_exit_flag_menu(struct descriptor_data *d);
+ void redit_disp_flag_menu(struct descriptor_data *d);
+ void redit_disp_sector_menu(struct descriptor_data *d);
++void redit_disp_bridge_menu(struct descriptor_data *d);
+ void redit_disp_menu(struct descriptor_data *d);
+ void redit_parse(struct descriptor_data *d, char *arg);
+ void redit_setup_new(struct descriptor_data *d);
+@@ -351,10 +354,10 @@ void redit_save_to_disk(int zone_num)
+       /*
+        * Forget making a buffer, lets just write the thing now.
+        */
+-      fprintf(fp, "#%d\n%s~\n%s~\n%d %d %d\n", counter,
++      fprintf(fp, "#%d\n%s~\n%s~\n%d %d %d %d\n", counter,
+ 	      room->name ? room->name : "undefined", buf1,
+ 	      zone_table[room->zone].number,
+-	      room->room_flags, room->sector_type);
++              room->room_flags, room->sector_type, room->bridge);
+ 
+       /*
+        * Handle exits.
+@@ -499,6 +502,7 @@ void redit_disp_extradesc_menu(struct de
+   OLC_MODE(d) = REDIT_EXTRADESC_MENU;
+ }
+ 
++
+ /*
+  * For exits.
+  */
+@@ -600,6 +604,26 @@ void redit_disp_sector_menu(struct descr
+   OLC_MODE(d) = REDIT_SECTOR;
+ }
+ 
++
++/*
++ * For bridges.
++ */
++void redit_disp_bridge_menu(struct descriptor_data *d)
++{
++  int counter, columns = 0;
++
++#if defined(CLEAR_SCREEN)
++  send_to_char("[H[J", d->character);
++#endif
++  for (counter = 0; counter < NUM_BRIDGES; counter++) {
++    sprintf(buf, "%s%2d%s) %-20.20s %s", grn, counter, nrm,
++                bridges[counter], !(++columns % 2) ? "\r\n" : "");
++    send_to_char(buf, d->character);
++  }
++  send_to_char("\r\nEnter bridge type : ", d->character);
++  OLC_MODE(d) = REDIT_BRIDGE;
++}
++
+ /*
+  * The main menu.
+  */
+@@ -612,6 +636,7 @@ void redit_disp_menu(struct descriptor_d
+ 
+   sprintbit((long)room->room_flags, room_bits, buf1);
+   sprinttype(room->sector_type, sector_types, buf2);
++  sprinttype(room->bridge, bridges, buf3);
+   sprintf(buf,
+ #if defined(CLEAR_SCREEN)
+ 	  "[H[J"
+@@ -627,10 +652,7 @@ void redit_disp_menu(struct descriptor_d
+           "%s8%s) Exit west      : %s%d\r\n"
+           "%s9%s) Exit up        : %s%d\r\n"
+           "%sA%s) Exit down      : %s%d\r\n"
+-/*          "%sB%s) Exit northeast : %s%d\r\n"
+-          "%sC%s) Exit northwest : %s%d\r\n"
+-          "%sD%s) Exit southeast : %s%d\r\n"
+-          "%sE%s) Exit southwest : %s%d\r\n" */
++          "%sB%s) Bridge Data    : %s%s\r\n"
+           "%sF%s) Extra descriptions menu\r\n"
+           "%sS%s) Script      : %s%s\r\n"
+ 	  "%sQ%s) Quit\r\n"
+@@ -660,19 +682,8 @@ void redit_disp_menu(struct descriptor_d
+ 	  grn, nrm, cyn,
+ 	  room->dir_option[DOWN] && room->dir_option[DOWN]->to_room != -1 ?
+ 	  world[room->dir_option[DOWN]->to_room].number : -1,
+-/*          grn, nrm, cyn,
+-          room->dir_option[NORTHEAST] && room->dir_option[NORTHEAST]->to_room != -1 ?
+-          world[room->dir_option[NORTHEAST]->to_room].number : -1,
+-	  grn, nrm, cyn,
+-          room->dir_option[NORTHWEST] && room->dir_option[NORTHWEST]->to_room != -1 ?
+-          world[room->dir_option[NORTHWEST]->to_room].number : -1,
+-	  grn, nrm, cyn,
+-          room->dir_option[SOUTHEAST] && room->dir_option[SOUTHEAST]->to_room != -1 ?
+-          world[room->dir_option[SOUTHEAST]->to_room].number : -1,
+-	  grn, nrm, cyn,
+-          room->dir_option[SOUTHWEST] && room->dir_option[SOUTHWEST]->to_room != -1 ?
+-          world[room->dir_option[SOUTHWEST]->to_room].number : -1, */
+-	  grn, nrm, 
++          grn, nrm, cyn, buf3,
++	  grn, nrm,
+           grn, nrm, cyn, room->proto_script?"Set.":"Not Set.",
+           grn, nrm
+ 	  );
+@@ -780,26 +791,10 @@ void redit_parse(struct descriptor_data 
+       OLC_VAL(d) = DOWN;
+       redit_disp_exit_menu(d);
+       break;
+-/*    case 'b':
++    case 'b':
+     case 'B':
+-      OLC_VAL(d) = NORTHEAST;
+-      redit_disp_exit_menu(d);
+-      break;
+-    case 'c':
+-    case 'C':
+-      OLC_VAL(d) = NORTHWEST;
+-      redit_disp_exit_menu(d);
+-      break;
+-    case 'd':
+-    case 'D':
+-      OLC_VAL(d) = SOUTHEAST;
+-      redit_disp_exit_menu(d);
++      redit_disp_bridge_menu(d);
+       break;
+-    case 'e':
+-    case 'E':
+-      OLC_VAL(d) = SOUTHWEST;
+-      redit_disp_exit_menu(d);
+-      break; */
+     case 'f':
+     case 'F':
+       /*
+@@ -867,6 +862,16 @@ void redit_parse(struct descriptor_data 
+       return;
+     } else
+       OLC_ROOM(d)->sector_type = number;
++    break;
++
++  case REDIT_BRIDGE:
++    number = atoi(arg);
++    if (number < 0 || number >= NUM_BRIDGES) {
++      send_to_char("Invalid choice!", d->character);
++      redit_disp_bridge_menu(d);
++      return;
++    } else
++      OLC_ROOM(d)->bridge = number;
+     break;
+ 
+   case REDIT_EXIT_MENU:
+diff -uprN src/structs.h circle/src/structs.h
+--- src/structs.h	Sun Jan 03 19:52:01 1999
++++ circle/src/structs.h	Tue Jan 05 20:36:27 1999
+@@ -80,6 +80,13 @@
+ #define SECT_BOOK            12            /* Inside a book             */
+ #define SECT_ARENA           13            /* In the arena              */
+ 
++
++/* Bridge types: used in room_data.bridge */
++#define BRIDGE_NONE          0             /* Not a bridge              */
++#define BRIDGE_SMALL         1             /* Small bridge              */
++#define BRIDGE_MEDIUM        2             /* Medium bridge             */
++#define BRIDGE_LARGE         3             /* Large bridge              */
++
+ /* char and mob-related defines *****************************************/
+ 
+ 
+@@ -711,6 +721,7 @@ struct room_data {
+    room_vnum number;		/* Rooms number	(vnum)		      */
+    sh_int zone;                 /* Room zone (for resetting)          */
+    int	sector_type;            /* sector type (move/hide)            */
++   int  bridge;                 /* bridge type (small/medium/large)   */
+    char	*name;                  /* Rooms name 'You are ...'           */
+    char	*description;           /* Shown when entered                 */
+    struct extra_descr_data *ex_description; /* for examine/look       */
+diff -uprN src/utils.h circle/src/utils.h
+--- src/utils.h	Sun Dec 27 02:43:43 1998
++++ circle/src/utils.h	Mon Jan 04 22:12:59 1999
+@@ -213,6 +213,8 @@ void    set_email(struct char_data *ch, 
+ 
+ 
+ #define SECT(room)	(world[(room)].sector_type)
++#define BRIDGE(room)    (world[(room)].bridge)
++
+ 
+ #define IS_DARK(room)  ( !world[room].light && \
+                          (ROOM_FLAGGED(room, ROOM_DARK) || \

@@ -1,0 +1,239 @@
+/* Ranged Room Combat V2.2
+   Tres`ni (aka Brian Hartvigsen)
+   tresni@ikickass.org
+
+   (c) Brian Hartvigsen 2001
+   WARNING: NOTHING IS MY FAULT!
+
+  COMMANDS:
+    retreat - FIGHT retreat from opponent
+    advance - FIGHT advance on opponent
+    range   - !FIGHT set range
+
+  NOTES:  Uses the value[0] of weapons for range.  (It is unused in stock
+          CircleMUDs)
+*/
+
+/*  Things to Add:
+act.movement.c [163] do_simple_move
+   was_in = ch->in_room;
+   char_from_room(ch);
+   char_to_room(ch, world[was_in].dir_option[dir]->to_room);
+ + set_range_enter(ch,dir); //BAH
+
+
+fight.c [658] damage
+   if (ch != victim && ROOM_FLAGGED(ch->in_room, ROOM_PEACEFUL)) {
+     send_to_char("This room just has such a peaceful, easy feeling...\r\n", ch);
+     return (0);
+   }
+
+ + if(!in_range(ch,victim)){ //BAH
+ +	  act("$N is out of range!",FALSE,ch,NULL,victim,TO_CHAR);
+ +	  return(0);
+ + }
+
+
+interpreter.c
+ + { "range"    , POS_STANDING, do_range_set, 0, 0 }, //BAH
+ + { "retreat"  , POS_FIGHTING, do_range_retreat,0,0}, //BAH
+ + { "advance"  , POS_FIGHTING,do_range_advance,0,0}, //BAH
+
+
+structs.h [719] char_player_data
+   ubyte weight;       * PC / NPC's weight                    *
+   ubyte height;       * PC / NPC's height                    *
+ + int range[2];       * PC / NPC Range Placement BAH         *
+
+
+structs.h [930] char_file_u
+   ubyte weight;
+   ubyte height;
+ + int range[2]; // BAH Ranged Combat
+
+
+utils.h [263]
+   #define GET_WEIGHT(ch)	((ch)->player.weight)
+   #define GET_SEX(ch)	((ch)->player.sex)
+ + #define GET_RANGE(ch,i) ((ch)->player.range[i])  //BAH Ranged Combate
+*/
+
+#include "conf.h"
+#include "sysdep.h"
+
+
+#include "structs.h"
+#include "utils.h"
+#include "comm.h"
+#include "interpreter.h"
+#include "handler.h"
+#include "db.h"
+
+#define X 0
+#define Y 1
+
+ACMD(do_range_set){
+	int x,y;
+	char arg1[MAX_INPUT_LENGTH];
+    char arg2[MAX_INPUT_LENGTH];
+
+	two_arguments(argument,arg1,arg2);
+	
+	if(FIGHTING(ch)) {
+		send_to_char("Use advance or retreat!\r\n",ch);
+		return;
+	}
+
+	if(!*arg2 || !*arg1) {
+		send_to_char("syntax: range X Y\r\n",ch);
+		return;
+	}
+	x = atoi(arg1);
+	y = atoi(arg2);
+
+	if(x < 0 || x > 6 || y<0 || y > 6) {
+		send_to_char("Range must be 0 - 6!\r\n",ch);
+		return;
+	}
+	
+	GET_RANGE(ch,X) = x;
+	GET_RANGE(ch,Y) = y;
+}
+
+
+ACMD(do_range_advance) {
+  struct char_data *vict;
+
+  if(!FIGHTING(ch)) {
+    send_to_char("You must be fighting to retreat!\r\n",ch);
+    return;
+  }
+
+  if (FIGHTING(ch) && IN_ROOM(ch) != IN_ROOM(FIGHTING(ch))) {
+	send_to_char("You can not advance on someone you can't see!\r\n", ch);
+    return;
+  }
+  vict = FIGHTING(ch);
+  if(GET_RANGE(ch,X) > GET_RANGE(vict,X))
+	GET_RANGE(ch,X) += 1;
+  else if(GET_RANGE(ch,X) < GET_RANGE(vict,X))
+	GET_RANGE(ch,X) += -1;
+
+  if(GET_RANGE(ch,Y) > GET_RANGE(vict,Y))
+	GET_RANGE(ch,Y) += 1;
+  else if(GET_RANGE(ch,Y) < GET_RANGE(vict,Y))
+	GET_RANGE(ch,Y) += -1;
+
+  act("$N advances on you!", FALSE, vict, 0, ch, TO_CHAR);
+  act("You advance on $n!", FALSE, vict, 0, ch, TO_VICT);
+  act("$N advances on $n!", FALSE, vict, 0, ch, TO_NOTVICT);
+}
+
+
+ACMD(do_range_retreat) {
+  struct char_data *vict;
+  int room_hash[7][7],x,y,victX,victY,win[3]={0,0,100};
+
+  if(!FIGHTING(ch)) {
+    send_to_char("You must be fighting to retreat!\r\n",ch);
+    return;
+  }
+
+  if (FIGHTING(ch) && IN_ROOM(ch) != IN_ROOM(FIGHTING(ch))) {
+	send_to_char("You can not retreat from someone you can't see!\r\n", ch);
+    return;
+  }
+
+  vict = FIGHTING(ch);
+
+  victX = GET_RANGE(vict,X);
+  victY = GET_RANGE(vict,Y);
+
+  for(x=0;x<7;x++) {
+	for(y=0;y<7;y++) {
+	  room_hash[x][y] = number(0,5);//Randomization
+	  if(x == 3 || y == 3)
+		  room_hash[x][y] += 0;
+	  else if ((x == 0 || x == 6) && (y==0 || y ==6))
+		  room_hash[x][y] += 3;
+	  else if ((x <=1 || x >= 5) && (y <= 1 || y >= 5))
+		  room_hash[x][y] += 2;
+	  else
+		  room_hash[x][y] += 1;
+	  if((victX - x) >= (victY - y))
+		  room_hash[x][y] -= (victX - x);
+	  else
+		  room_hash[x][y] -= (victY - y);
+
+	}
+  }
+  for(x=GET_RANGE(ch,X)-1;x<=GET_RANGE(ch,X) + 1;x++){
+	if(x < 1 || x > 7)
+	  continue;
+	else
+	  for(y=GET_RANGE(ch,Y)-1;y<=GET_RANGE(ch,Y) +1;y++){
+		if(y <1 || y > 7)
+		  continue;
+		else {
+			if (room_hash[x][y] < win[3]) {
+				win[X] = x;
+				win[Y] = y;
+				win[3] = room_hash[x][y];
+			}
+			else continue;
+		}
+	  }
+  }
+
+  GET_RANGE(ch,X) = win[X];
+  GET_RANGE(ch,Y) = win[Y];
+
+  act("$N retreats from you!", FALSE, vict, 0, ch, TO_CHAR);
+  act("You retreat from $n!", FALSE, vict, 0, ch, TO_VICT);
+  act("$N retreats from $n!", FALSE, vict, 0, ch, TO_NOTVICT);
+}
+
+void set_range_enter(struct char_data *ch, int direction){
+	switch(direction){
+	case NORTH:
+		GET_RANGE(ch,X) = 0;
+		GET_RANGE(ch,Y) = 3;
+		break;
+	case EAST:
+		GET_RANGE(ch,X) = 6;
+		GET_RANGE(ch,Y) = 3;
+		break;
+	case SOUTH:
+		GET_RANGE(ch,X) = 3;
+		GET_RANGE(ch,Y) = 6;
+		break;
+	case WEST:
+		GET_RANGE(ch,X) = 3;
+		GET_RANGE(ch,Y) = 0;
+		break;
+	case UP:
+	case DOWN:
+	default:
+		GET_RANGE(ch,X) = 3;
+		GET_RANGE(ch,Y) = 3;
+		break;
+	}
+}
+
+int in_range(struct char_data *ch, struct char_data *vict) {
+	int x,y,range;
+	struct obj_data *wielded = GET_EQ(ch, WEAR_WIELD);
+
+	x = abs(GET_RANGE(ch,X) - GET_RANGE(vict,X));
+	y = abs(GET_RANGE(ch,Y) - GET_RANGE(vict,Y));
+
+	if(x<y)
+		range = x;
+	else
+		range = y;
+
+	if(range > GET_OBJ_VAL(wielded,0))
+		return FALSE;
+	else
+		return TRUE;
+}

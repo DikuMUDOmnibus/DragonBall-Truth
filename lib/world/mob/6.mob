@@ -1,0 +1,338 @@
+#600
+Gir~
+&10G&00&02i&16r&00~
+&10G&00&02i&16r&00 is standing here, playing with his toy pig.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#601
+Nail~
+&00&02N&10a&00&03i&00&01l&00~
+&00&02N&10a&00&03i&00&01l&00 hovers here, scanning the sky.
+~
+It looks unfinished.
+~
+253962 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10978
+T 10977
+T 10976
+#602
+Tarrasque~
+&16T&15a&00r&03r&00&06a&14s&15q&00u&16e&00~
+&15The &16T&15a&00r&03r&00&06a&14s&15q&00u&16e&15 is rampaging here, roaring loudly.&00
+~
+   &15This huge monster is rampaging around here.  Blood stains it's legs from
+where it trampled several different animals today alone.  &00
+~
+253960 1152 0 E
+500000 -80 0 1d1+100000000 1d1+250000
+30000 60000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#603
+Toteppo~
+&00T&15o&14t&00&06e&00&03p&11p&15o&00~
+&00T&15o&14t&00&06e&00&03p&11p&15o is standing here, watching over the delegates.&00
+~
+It looks unfinished.
+~
+10 128 0 E
+250000 -80 0 1d1+200000000 1d1+250000
+150000 95000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#604
+Nightmare Tarrasque~
+&00N&15i&16g&00&06h&00&02t&00&06m&16a&15r&00e &16T&15a&00r&03r&00&06a&14s&15q&00u&16e&00~
+&00N&15i&16g&00&06h&00&02t&00&06m&16a&15r&00e &16T&15a&00r&03r&00&06a&14s&15q&00u&16e&00 is roaring here, ripping up the earth beneath its feet.
+~
+It looks unfinished.
+~
+8 0 0 E
+999999 20 0 1d1+1000000000 1d1+500000
+100000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#605
+Jello Elemental~
+&00&05J&13e&14l&00&06l&00&05o &13E&14l&00&06e&00&05m&13e&14n&00&06t&00&05a&13l&00~
+&15A &00&05J&13e&14l&00&06l&00&05o &13E&14l&00&06e&00&05m&13e&14n&00&06t&00&05a&13l&15 is wiggling here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+125000 -80 0 1d1+10000000 1d1+125000
+1200 10000000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#606
+Jello Priestess~
+&00&05J&13e&14l&00&06l&00&05o P&13r&14i&00&06e&00&05s&00&06t&14e&13s&00&05s&00~
+&00&05J&13e&14l&00&06l&00&05o P&13r&14i&00&06e&00&05s&00&06t&14e&13s&00&05s&15 is standing here, praying to the gelatin gods.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+125000 -80 0 1d1+10000000 1d1+125000
+1200 10000000
+8 8 2
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#607
+Gobbler God~
+&00&03G&00&01o&09b&16b&00&03l&00&01e&09r &00&01G&16o&15d&00~
+&00&03G&00&01o&09b&16b&00&03l&00&01e&09r &00&01G&16o&15d&00 is standing here, pecking at the landscape.
+~
+It looks unfinished.
+~
+253994 128 0 E
+500000 -80 0 1d1+500000000 1d1+500000
+250000 250000000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#608
+Medical Researcher~
+&00&01M&09e&15d&00i&15c&09a&00&01l R&09e&16s&15e&00ar&15c&16h&09e&00&01r&00~
+&00&01M&09e&15d&00i&15c&09a&00&01l R&09e&16s&15e&00ar&15c&16h&09e&00&01r&00 is standing here, checking over medical files.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#609
+Medical Researcher~
+&00&01M&09e&15d&00i&15c&09a&00&01l R&09e&16s&15e&00ar&15c&16h&09e&00&01r&00~
+&00&01M&09e&15d&00i&15c&09a&00&01l R&09e&16s&15e&00ar&15c&16h&09e&00&01r&00 is sitting here, examining a viral simulation.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#610
+Cybernetics Researcher~
+&16C&15y&00&06b&14e&00rne&14t&00&06i&15c&16s R&15e&00&06s&14e&00ar&14c&00&06h&15e&16r&00~
+&16C&15y&00&06b&14e&00rne&14t&00&06i&15c&16s R&15e&00&06s&14e&00ar&14c&00&06h&15e&16r&00 is standing here, working on a robotic arm.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#644
+Bluntman~
+&00&02B&10l&09u&00&01nt&00&09m&10a&00&02n&00~
+&00&02B&10l&09u&00&01nt&00&09m&10a&00&02n&00 is standing here, wielding his legendary bong saber.
+~
+It looks unfinished.
+~
+10 128 0 E
+600 -80 0 1d1+42000000 1d1+420000
+42000 1000000
+8 8 0
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#645
+Chronic~
+&00&02C&10h&09r&00&01o&09n&10i&00&02c&00~
+&00&02C&10h&09r&00&01o&09n&10i&00&02c&00 is standing here, practicing token-jitsu.
+~
+It looks unfinished.
+~
+10 128 0 E
+300 -80 0 1d1+42000000 1d1+420000
+42000 1000000000
+8 8 1
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#646
+Johnny Badguy~
+&15J&00o&16h&15n&00n&16y &00&03B&16a&15d&00g&03u&16y&00~
+&15J&00o&16h&15n&00n&16y &00&03B&16a&15d&00g&03u&16y&00 is standing here, collecting nuts.
+~
+It looks unfinished.
+~
+8 0 0 E
+100000 -80 0 1d1+200000000 1d1+350000
+313373 75000000
+8 8 1
+BareHandAttack: 14
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#648
+Super Buu~
+&16S&00&05u&13p&15e&00r &16B&00&05u&13u&00~
+&16S&00&05u&13p&15e&00r &16B&00&05u&13u&00 is standing here, his body glowin in a bright pink aura.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+250000 -80 0 1d1+150000000 1d1+400000
+75000 100000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#649
+Frosty the Snow Ninja~
+&00F&15r&14o&00s&15t&14y &16t&15h&14e &00S&15n&14o&00w &00N&15i&14n&16j&00a~
+&00F&15r&14o&00s&15t&14y &16t&15h&14e &00S&15n&14o&00w &00N&15i&14n&16j&00a is standing here, trying to blend into the trees.
+~
+Nothing.
+~
+8 0 0 E
+400000 20 0 1d1+400000000 1d1+400000
+40000 40000000
+8 8 0
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#666
+streea~
+&16S&15t&16r&15e&16ea&00~
+&16The dark &09K&00&01u&16v&00&01o&09c&00&01ia&16n Raven S&15t&16r&15e&16ea soars through the shadows.&00
+~
+It looks unfinished.
+~
+253960 128 0 E
+1000000 -480 10 1d1+500000000 1d1+500000
+0 0
+9 9 2
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#667
+Kuvoc's Bitch~
+&09K&00&01u&16v&00&01o&09c's &09Bitch&00~
+&09K&00&01u&16v&00&01o&09c's &09Bitch&00 stands here.
+~
+   If you can't figure out what this is, you're stoopid.    
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+100000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 666
+#692
+Teslagato~
+&10T&00&02e&16s&15l&00a&15g&16a&00&06t&14o&00~
+&10T&00&02e&16s&15l&00a&15g&16a&00&06t&14o&00 is hovering here, honing his powers.
+~
+It looks unfinished.
+~
+10 0 0 E
+250000 -80 0 1d1+100000000 1d1+250000
+50000 75000000
+8 8 1
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12841
+#693
+Guranimus~
+&00&02G&10u&16r&15a&00n&15i&16m&14u&00&06s&00~
+&00&02G&10u&16r&15a&00n&15i&16m&14u&00&06s&00, father of Siilv and Teslagato, is standing here.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+300000 -80 0 1d1+110000000 1d1+300000
+75000 90000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 12841
+$

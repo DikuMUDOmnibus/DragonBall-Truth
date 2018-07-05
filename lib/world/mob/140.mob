@@ -1,0 +1,768 @@
+#14000
+Glazed Candy Clerk~
+&00&07G&14l&00&06az&14e&00&07d &13C&00&05a&09n&00&05d&13y &14C&00&06ler&14k&00~
+&15The &00&07G&14l&00&06az&14e&00&07d &13C&00&05a&09n&00&05d&13y &14C&00&06ler&14k &15is sitting here, munching on old armor.&00
+~
+   &15This majin seems to half heartedly take care of the store, enjoying
+eating old armor more than making sells.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14001
+Fum~
+&11F&00&03u&11m&00~
+&11F&00&03u&11m &15the candyshop clerk.&00
+~
+   &15This majin seems to think he can make money off of candy in Majinton.  
+&00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14002
+Glucus~
+&14G&00&06l&16u&15c&00&07us&00~
+&14G&00&06l&16u&15c&00&07us &15the store owner stands here.&00
+~
+   &15Glucus is one of the few good majins still left in charge of something in
+Majinton.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14003
+Ravaged Atlas Clerk~
+&13R&00&05a&16v&15a&16g&00&05e&13d &10A&00&02t&16l&00&02a&10s &14Clerk&00~
+&15The &13R&00&05a&16v&15a&16g&00&05e&13d &10A&00&02t&16l&00&02a&10s &14Clerk &15is standing here.&00
+~
+   &15This clerk seems to just give off a powerful aura of evil....  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14004
+Weak Majin~
+&14W&00&06ea&14k &13M&00&05a&13j&00&05i&13n&00~
+&15A &14W&00&06ea&14k &13M&00&05a&13j&00&05i&13n &15is munching on candy here.&00
+~
+   &15This majin is contented to eat candy and obey whoever is currently king
+majin.  &00
+~
+8 0 0 E
+1000 0 0 0d0+550 0d0+40
+100 35000
+8 8 1
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14005
+Female Majin~
+&14Female &13M&00&05a&13j&00&05i&13n&00~
+&15A &14Female &13M&00&05a&13j&00&05i&13n &15is eating candy here.&00
+~
+   &15This majin is focused on finishing this bit of candy.  &00
+~
+8 0 0 E
+1000 0 0 0d0+400 0d0+40
+75 30000
+8 8 2
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14006
+King Majin~
+&11K&00&03in&11g &13M&00&05a&13j&00&05i&13n&00~
+&15The &11K&00&03in&11g &13M&00&05a&13j&00&05i&13n &15is sitting on the throne here.&00
+~
+   &15This is the current, and probably temporary, King Majin of Majinton.  
+&00
+~
+10 0 0 E
+3000 -20 0 0d0+10000 0d0+500
+1000 400000
+8 8 1
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 14000
+#14007
+Local Fat Majin~
+&11Local &00&07F&15a&00&07t &13M&00&05a&13j&00&05i&13n&00~
+&15A &11Local &00&07F&15a&00&07t &13M&00&05a&13j&00&05i&13n &15is walking down the street.&00
+~
+   &15This majin sure is well fed.  &00
+~
+8 0 0 E
+1000 0 0 0d0+325 0d0+40
+75 28000
+8 8 1
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14008
+Local Majin~
+&11Local &13M&00&05a&13j&00&05i&13n&00~
+&15A &11Local &13M&00&05a&13j&00&05i&13n &15is resting here.&00
+~
+   &15This majin looks rather lazy.  &00
+~
+8 0 0 E
+1000 0 0 0d0+245 0d0+40
+65 22000
+8 8 2
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14009
+Gummy Worm~
+&13G&00&05umm&13y &10W&11o&00&02r&10m&00~
+&15A &13G&00&05umm&13y &10W&11o&00&02r&10m &15is munching on liqourish here.&00
+~
+   &15This worm looks rather tasty.  &00
+~
+8 0 0 E
+2000 -20 0 0d0+3500 0d0+500
+175 175000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14010
+Living Jawbreaker~
+&14L&00&06ivin&14g &13J&00&05a&16w&00&05b&13re&00&05a&16k&00&05e&13r&00~
+&15A &14L&00&06ivin&14g &13J&00&05a&16w&00&05b&13re&00&05a&16k&00&05e&13r &15is hiding under some liqourish here.&00
+~
+   &15This poor person wandered into majinton and was the victim of some hungry
+majin's candybeam.  &00
+~
+8 0 0 E
+2000 -20 0 0d0+4000 0d0+500
+190 190000
+8 8 0
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14011
+Majin Security Guard~
+&13M&00&05a&13j&00&05i&13n &16S&15e&00&07c&15ur&00&07i&15t&16y &12G&00&04uar&12d&00~
+&15A &13M&00&05a&13j&00&05i&13n &16S&15e&00&07c&15ur&00&07i&15t&16y &12G&00&04uar&12d &15is standing guard here.&00
+~
+   &15This security guard is completly trusted by the owner of the factory, and
+has been trained to protect it's product.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+450000 0d0+25000
+500 2000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14012
+Ingredients Tech~
+&09I&00&01n&00&05g&13r&09e&00&01d&00&05i&13e&09n&00&01t&00&05s &10T&00&02e&16c&15h&00~
+&15A &09I&00&01n&00&05g&13r&09e&00&01d&00&05i&13e&09n&00&01t&00&05s &10T&00&02e&16c&15h &15is mixing ingredients here.&00
+~
+   &15This majin's only job is taking care of ingredients.  &00
+~
+10 0 0 E
+200000 -60 0 0d0+480000 0d0+25000
+600 2100000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14013
+Pouring Tech~
+&13P&00&05ourin&13g &10T&00&02e&16c&15h&00~
+&15A &13P&00&05ourin&13g &10T&00&02e&16c&15h &15is pouring mixed ingredients here.&00
+~
+   &15This majin pours the mixed ingredients into prepared capsules in
+preparation of their cooking.  &00
+~
+10 0 0 E
+200000 -60 0 0d0+500000 0d0+25000
+610 2200000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14014
+Cooking Tech~
+&00&03C&11o&15o&16k&15i&11n&00&03g &10T&00&02e&16c&15h&00~
+&15A &00&03C&11o&15o&16k&15i&11n&00&03g &10T&00&02e&16c&15h &15is cooking the candy here.&00
+~
+   &15This majin is doing the final job of the candy making process.  &00
+~
+10 0 0 E
+200000 -60 0 0d0+525000 0d0+25000
+635 2300000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14015
+Mixing Tech~
+&12M&00&04i&16x&15i&00&04n&12g &10T&00&02e&16c&15h&00~
+&15A &12M&00&04i&16x&15i&00&04n&12g &10T&00&02e&16c&15h &15is mixing ingredients here.&00
+~
+   &15This majin mixes the ingredients for the candy exactly as ordered.  &00
+~
+10 0 0 E
+200000 -60 0 0d0+600000 0d0+25000
+650 2400000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14016
+Candy Factory Manager~
+&09C&00&01a&00&02n&10d&14y &11F&00&03a&16c&15t&00&07ory &00&07M&15a&16n&00&02a&16g&15e&00&07r&00~
+&15The &09C&00&01a&00&02n&10d&14y &11F&00&03a&16c&15t&00&07ory &00&07M&15a&16n&00&02a&16g&15e&00&07r &15is munching on candy here.&00
+~
+   &15This manager seems to take advantage of his unlimited supply of candy,
+and profits.  The candy from this factory circulates throughout the whole
+universe and is very much in demand.  &00
+~
+10 0 0 E
+500000 -60 0 0d0+20000000 0d0+125000
+8000 20000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 14004
+#14400
+Skullarch Hierophant~
+&16S&00&07k&00&15u&00&16l&00&07l&00&15a&00&16r&00&07c&00&15h&00 &01H&00&09i&00&11e&00&09r&00&01o&00&01p&00&09h&00&11a&00&09n&00&01t&00~
+&15A&00 &16S&00&07k&00&15u&00&16l&00&07l&00&15a&00&16r&00&07c&00&15h&00 &01H&00&09i&00&11e&00&09r&00&01o&00&01p&00&09h&00&11a&00&09n&00&01t&00 &15stands here, bony claws at the ready.&00
+~
+   &15The rattle of a thousand small and large bones heralds the arrival of a
+&16S&00&07k&00&15u&00&16l&00&07l&00&15a&00&16r&00&07c&00&15h&00
+&01H&00&09i&00&11e&00&09r&00&01o&00&01p&00&09h&00&11a&00&09n&00&01t&00.  
+&15Hunchbacked, drooling crosses between a black bear and a gorilla, they have
+been given power over the bones of the living by their lord Baphomet.  &00
+~
+4136 0 0 E
+0 -60 0 1d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14401
+Skullarch Nobility~
+&16S&00&07k&00&15u&00&16l&00&07l&00&15a&00&16r&00&07c&00&15h&00 &05N&00&09o&00&05b&00&09i&00&05l&00&09i&00&05t&00&09y&00~
+&15A member of the&00 &16S&00&07k&00&15u&00&16l&00&07l&00&15a&00&16r&00&07c&00&15h&00 &05N&00&09o&00&05b&00&09i&00&05l&00&09i&00&05t&00&09y&00 &15mutters, trapped in an insane delusion.&00
+~
+   &15Those among the Skullarch that catch Baphomet's eye, for whatever reason,
+are transformed by blood magic into
+&16S&00&07k&00&15u&00&16l&00&07l&00&15a&00&16r&00&07c&00&15h&00
+&05N&00&09o&00&05b&00&09i&00&05l&00&09i&00&05t&00&09y&00&15.  Improved in
+strength, agility, and dementia, they strike out at anything that moves.    
+~
+4136 0 0 E
+0 -60 0 1d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14402
+Cyphri~
+&00&01C&00&09y&00&16p&00&15h&00&09r&00&01i&00~
+&00&15Standing seven feet tall, a &00&01C&00&09y&00&16p&00&15h&00&09r&00&01i&00&15 guards this area.&00
+~
+   &00&15Beings of animated stone twisted into hellish shapes, the
+&00&01C&00&09y&00&16p&00&15h&00&09r&00&01i&00&15 are massive demons who act as
+sentinels in Baphomet's Lair.  Of course, anything that is in there must be
+approved by Baphomet, so these sentinels are mainly for when war breaks out.  
+They handle war quite readily, as the imagination and the fields of slaughter
+can attest to.  &00
+~
+4136 0 0 E
+0 -60 0 1d1+30000000 1d1+150000
+2000 25000000
+8 8 0
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14403
+Witherchild~
+&07Wit&00&15her&00&01c&00&09h&00&01i&00&09l&00&01d&00~
+&15A congregation of dark energies, a&00 &07Wit&00&15her&00&01c&00&09h&00&01i&00&09l&00&01d&00&15, floats here.&00
+~
+   &15A &00&07Wit&00&15her&00&01c&00&09h&00&01i&00&09l&00&01d&00&15 is a sphere
+of dark energies that draws power from others around it.  They actively seek
+out new sources of power to drain.  Thankfully, since they are manifested in
+the physical plane, they can be dealt with using physical means.  &00
+~
+4136 0 0 E
+0 -60 0 1d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14404
+Slaughtered Zombie~
+&00Sla&15ug&00&16ht&00&09er&00&01ed &00&05Z&00&13o&00&02m&00&10b&00&15i&00e~
+&00Sla&15ug&00&16ht&00&09er&00&01ed &00&05Z&00&13o&00&02m&00&10b&00&15i&00e &15stumbles around here carelessly.&00
+~
+Nothing.
+~
+4136 0 0 E
+0 -60 0 1d1+6000000 1d1+70000
+800 5000000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14405
+Witherbeast~
+&00&07Wit&00&15her&00&02b&00&01e&00&09a&00&01s&00&02t&00~
+&15The amalgation of multiple &07Wit&00&15her&00&01c&00&09h&00&01i&00&09l&00&01d&00&15s, a &00&07Wit&00&15her&00&02b&00&01e&00&09a&00&01s&00&02t&00&15 stands here.&00
+~
+   &15The &00&07Wit&00&15her&00&02b&00&01e&00&09a&00&01s&00&02t&00 &15is the
+next step in the formation of dark energies.  Multiple
+&07Wit&00&15her&00&01c&00&09h&00&01i&00&09l&00&01d&00&15s&00 &15 gather
+together for mutual protection, forming a hellish four-legged demon five feet
+from floor to shoulder, and with teeth of black poison.  One thing is for sure
+- these won't fall easy...  &00
+~
+4136 0 0 E
+0 -60 0 1d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14406
+Witherdrake~
+&00&07Wit&00&15her&00&01d&00&03r&00&09a&00&03k&00&01e&00~
+&15Staring at you with tail lashing beneath it, a &00&07Wit&00&15her&00&01d&00&03r&00&09a&00&03k&00&01e&00&15 flies here.&00
+~
+   &15A &00&07Wit&00&15her&00&01d&00&03r&00&09a&00&03k&00&01e&00&15 is only
+created when entirely too many groups of
+&00&07Wit&00&15her&00&01c&00&09h&00&01i&00&09l&00&01d&00&15s mass together to
+form a humongous nexus of black energies.  Why these weren't slain before they
+gathered together is not known, but now the Witherdrake is in existence, much
+to our chagrin.  &00
+~
+4136 0 0 E
+0 -60 0 1d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14407
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+4136 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14443
+Guardian of Baphomet~
+&00&02G&00&10u&00&16a&00&15r&00d&15i&00&16a&00&10n&00&02&00 &15of&00 &00&03B&00&11a&00&16p&00&15ho&00&16m&00&11e&00&03t&00~
+&00&02G&00&10u&00&16a&00&15r&00d&15i&00&16a&00&10n&00&02&00 &15of&00 &00&03B&00&11a&00&16p&00&15ho&00&16m&00&11e&00&03t&00 &15hovers here with his arms crossed.&00
+~
+Nothing.
+~
+266 32776 0 E
+0 -80 0 1d1+70000000 0d1+250000
+5000 50000000
+9 9 1
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 14443
+T 14444
+#14450
+Agni~
+&00&10A&00&02g&00&16n&00&15i&00~
+&00&10A&00&02g&00&16n&00&15i&00 &15is standing here, waiting for an opposing challenger.&00
+~
+It looks unfinished.
+~
+253962 0 0 E
+999999 -180 0 100d300+1000000000 44d100+500000
+0 0
+9 9 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14451
+Lamb~
+&00&15Lamb&00~
+&00&15A Lamb walks around the room lost.&00
+~
+It looks unfinished.
+~
+16392 0 0 E
+0 20 0 1d1+100 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3891
+#14495
+Baphomet~
+&00&03B&00&11a&00&16p&00&15ho&00&16m&00&11e&00&03t&00~
+&00&15&00&03B&00&11a&00&16p&00&15ho&00&16m&00&11e&00&03t&00 &15stands here with the fires of &00&01H&00&16e&00&09l&00&15l&00&15 orbiting his body!&00
+~
+   &00&16Baphomet is a was a man that had his head severed off and replace with
+a sacrificed goats head.  Baphomet was banished to hell for eternity to cause
+trouble all throughout Konack.  &00
+~
+49418 32776 0 E
+0 -80 0 1d1+120000000 1d1+275000
+7500 75000000
+8 8 1
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 14495
+#14499
+Philemon~
+&00&12P&00&05h&00&06i&00&15le&00&06m&00&05o&00&12n&00~
+&00&12P&00&05h&00&06i&00&15le&00&06m&00&05o&00&12n&00, &15Master of the Collective Unconscious, stands here.
+~
+&00&12P&00&05h&00&06i&00&15le&00&06m&00&05o&00&12n&00 &15wears a mask of a golden butterfly over his face, and is dressed in a long grey shirt and pants. His face is almost eternally smiling...
+~
+237576 0 1000 E
+0 20 1 1d100000000+1000000000 44d100+100000
+0 0
+6 8 1
+BareHandAttack: 12
+NumAttacks: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14501
+Wandering Child~
+&11W&00&03a&15n&11d&00&07e&11r&00&03i&11n&00&07g &11C&00&03h&15i&00&03l&11d&00~
+&15A &11W&00&03a&15n&11d&00&07e&11r&00&03i&11n&00&07g &11C&00&03h&15i&00&03l&11d&00 &15watches the crowds in awe.&00
+~
+   &15A small child is wandering around here.  He has a baseball cap with the
+insignia of his father's favorite team on his head and a flag of his mother's
+favorite team in his hand.  He runs around, joining the crowds in their
+excitement.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+3000000 0d0+30000
+200 3000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14502
+Energetic Fan~
+&14E&00&06n&00&07e&00&06r&00&07g&14e&00&06t&15i&14c &10F&00&06a&00&02n&00~
+&15An &14E&00&06n&00&07e&00&06r&00&07g&14e&00&06t&15i&14c &10F&00&06a&00&02n&00 &15stands nearby.&00
+~
+   &15An energetic fan is near you, incredibly excited over the coming matches.
+He is decked out in a full outfit of his favorite fighter's apparel and is
+reading up on the stats of the different fighters in the Arena Brochure.  &00
+~
+8 0 0 E
+150000 -60 0 0d0+5500000 0d0+50000
+400 6000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14503
+Drunken Fan~
+&00&01D&16r&00&03u&00&01n&15k&00&03e&00&01n &10F&00&06a&00&02n&00~
+&15A &00&01D&16r&00&03u&00&01n&15k&00&03e&00&01n &10F&00&06a&00&02n&00 &15is stumbling around.&00
+~
+   &15There is a middle-aged man wandering around the lawns near you, who is
+obviously drunk.  He is stumbling around and acting very strangely.  You can
+smell the liquor on his breath from nearly 5 feet away.  &00
+~
+8 0 0 E
+125000 -50 0 0d0+5000000 0d0+55000
+100 5000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14504
+Street Vendor~
+&15S&16t&15r&00&07ee&15t&00 &11V&00&03e&16n&00&03d&11o&00&03r&00~
+&15A &15S&16t&15r&00&07ee&15t&00 &11V&00&03e&16n&00&03d&11o&00&03r&00&15 stands here, selling his wares.
+~
+   &15This young man is wearing the uniform of the Arena.  He has a tray at his
+waist that is suspended by chords that go behind his neck.  His tray is covered
+in food, drink, clothes and memorabilia.  &00
+~
+8 0 0 E
+120000 -60 0 0d0+4000000 0d0+45000
+800 4500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14505
+Sports Gambler~
+&12S&00&04p&00&06o&15r&00&04t&00&06s &12G&00&04a&16m&00&04b&12l&00&07e&12r&00~
+&15A &12S&00&04p&00&06o&15r&00&04t&00&06s &12G&00&04a&16m&00&04b&12l&00&07e&12r&00 &15is calculating odds.&00
+~
+   &15A calculator in one hand, a pad of paper in the other and a pencil behind
+his ear, this Gambler is trying to figure out the odds of the fights and record
+each statistic hoping to come out ahead at the end of the day.  &00
+~
+8 0 0 E
+175000 -60 0 0d0+6500000 0d0+70000
+1000 8500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14506
+Hyperactive Fan~
+&09H&00&01y&16p&15e&00&07r&15a&16c&00&01t&09i&00&01v&16e &10F&00&06a&02n&00~
+&15A &09H&00&01y&16p&15e&00&07r&15a&16c&00&01t&09i&00&01v&16e &10F&00&06a&02n &15is yelling and cheering madly.&00
+~
+   &15This Arena fan is going nuts.  He is screaming and raving at the top of
+his lungs, expressing support and disgust for all the fighters alike.  He
+frequents the arena and is the biggest supporters of some of the fighters down
+on the ground.  &00
+~
+8 0 0 E
+200000 -55 0 0d0+8000000 0d0+75000
+800 10000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14507
+Novice Contender~
+&16N&00&05o&13v&15i&00&05c&16e &16C&15o&13n&00&05t&00&07e&00&05n&13d&15e&16r&00~
+&15A &16N&00&05o&13v&15i&00&05c&16e &16C&15o&13n&00&05t&00&07e&00&05n&13d&15e&16r&00 &15is fighting here.&00
+~
+   &15This fighter is an aspiring superstar.  They train nearly every single
+day in the Arena, honing their skills, hoping to one be the master of the
+Tournament.  &00
+~
+8 0 0 E
+225000 -65 0 0d0+9000000 0d0+75000
+500 12000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14508
+Tourney fighter~
+&10T&00&02o&16u&15r&16n&00&02e&10y &16F&15i&16g&00&02h&15t&16e&00&02r&00~
+&15A &10T&00&02o&16u&15r&16n&00&02e&10y &16F&15i&16g&00&02h&15t&16e&00&02r&00 &15is standing here, over watching the novices train.&00
+~
+   &15This fighter is one of the best in the Arena.  He has won numerous titles
+and earned his rights as one of the greats of the Arena.  &00
+~
+8 0 0 E
+250000 -65 0 0d0+11000000 0d0+85000
+800 15000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#14509
+Tournament Announcer~
+&10T&00&02o&16u&15r&00&07n&15a&16m&00&02e&10n&00&02t &12A&00&04n&16n&15o&00&07u&15n&16c&00&04e&12r&00~
+&15The &10T&00&02o&16u&15r&00&07n&15a&16m&00&02e&10n&00&02t &12A&00&04n&16n&15o&00&07u&15n&16c&00&04e&12r&00 &15yells and cheers, screaming into his microphone.&00
+~
+   &15The tournament stands here, yelling into his microphone.  He has short
+blond hair and always wears dark sunglasses.  He is incredibly energetic and
+obviously really gets into this Martial Arts stuff.  &00
+~
+10 0 0 E
+1 -480 0 0d0+1000000000 0d0+100
+0 1
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 14501
+T 14502
+#14510
+Giran~
+&00&06G&14i&00&06r&00&02a&00&06n&00~
+&00&06G&14i&00&06r&00&02a&00&06n&00&15, a large dino-like creature is waiting to fight.&00
+~
+   &15Giran is a large creature that somewhat resembles a dinosaur.  He is
+large, green, and is waiting for a fight.  &00
+~
+10 0 0 E
+0 -60 0 0d0+30000000 0d0+300000
+0 40000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 14503
+T 14513
+#14511
+Videl~
+&00&05V&15i&16d&00&05e&13l&00~
+&15Here stands &00&05V&15i&16d&00&05e&13l&15, waiting to take you down.&00
+~
+   &15Videl stands tall and proud, knowing she is one of the best to make it
+this far into the Tournament.  She is tall and thin and looks dangerous.  &00
+~
+10 0 0 E
+200000 -70 0 0d0+45000000 0d0+300000
+0 60000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 14504
+T 14505
+#14512
+Jackie Chun~
+&00&03J&15a&16c&15k&00&03i&16e &16C&15h&00&07u&15n&00~
+&15The Tournament Champ, &00&03J&15a&16c&15k&00&03i&16e &16C&15h&00&07u&15n&15, is waiting to claim his prize.&00
+~
+   &15Jackie Chun is a force to be reckoned with.  He is not too huge, but he
+is incredibly strong and has awesome fighting abilities.  He has won this
+tournament many times, and plans to do so again.  &00
+~
+10 0 0 E
+400000 -70 0 0d0+70000000 0d0+400000
+50000 75000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 14507
+T 14508
+$

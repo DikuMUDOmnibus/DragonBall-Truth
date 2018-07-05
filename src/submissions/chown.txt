@@ -1,0 +1,95 @@
+From: Crimson Wizard <cwizard@GIBLETS.COM>
+Subject: Change Ownership Command
+
+Thanks to everyone that input to this command, I feel like it is ready
+for public consumption, and would like to submit it for everyone to use
+freely.
+
+-- Insert at end of act.wizard.c --
+
+/* Change Ownership of item from player to IMM
+   Idea from Highlands II (hlii.highlands.org 9001)
+
+   Additional code by:
+   Christian Duvall - Getting Equipped EQ From Char
+   Patrick Dughi    - Schooling me in act()
+   AFCervo          - Moral support
+
+   Thanks to everyone that helped make this command! */
+
+ACMD(do_chown)
+{
+  struct char_data *victim;
+  struct obj_data *obj;
+  char buf2[80];
+  char buf3[80];
+  int i, k = 0;
+
+  two_arguments(argument, buf2, buf3);
+
+  if (!*buf2)
+    send_to_char("Syntax: chown <object> <character>.\r\n", ch);
+  else if (!(victim = get_char_vis(ch, buf3)))
+    send_to_char("No one by that name here.\r\n", ch);
+  else if (victim == ch)
+    send_to_char("Are you sure you're feeling ok?\r\n", ch);
+  else if (GET_LEVEL(victim) >= GET_LEVEL(ch))
+    send_to_char("That's really not such a good idea.\r\n", ch);
+  else if (!*buf3)
+    send_to_char("Syntax: chown <object> <character>.\r\n", ch);
+  else {
+    for (i = 0; i < NUM_WEARS; i++) {
+      if (GET_EQ(victim, i) && CAN_SEE_OBJ(ch, GET_EQ(victim, i)) &&
+         isname(buf2, GET_EQ(victim, i)->name)) {
+        obj_to_char(unequip_char(victim, i), victim);
+        k = 1;
+      }
+    }
+
+  if (!(obj = get_obj_in_list_vis(victim, buf2, victim->carrying))) {
+    if (!k && !(obj = get_obj_in_list_vis(victim, buf2, victim->carrying))) {
+      sprintf(buf, "%s does not appear to have the %s.\r\n", GET_NAME(victim),
+buf2);
+      send_to_char(buf, ch);
+      return;
+    }
+  }
+
+  act("&n$n makes a magical gesture and $p&n flies from $N to $m.",FALSE,ch,obj
+,
+       victim,TO_NOTVICT);
+  act("&n$n makes a magical gesture and $p&n flies away from you to $m.",FALSE,
+ch,
+       obj,victim,TO_VICT);
+  act("&nYou make a magical gesture and $p&n flies away from $N to you.",FALSE,
+ch,
+       obj, victim,TO_CHAR);
+
+  obj_from_char(obj);
+  obj_to_char(obj, ch);
+  save_char(ch, NOWHERE);
+  save_char(victim, NOWHERE);
+  }
+
+}
+
+-- Add to interpreter.c --
+
+At end of /* prototypes for all do_x functions. */
+
+ACMD(do_chown);
+
+At end of /* This is the Master Command List(tm). */
+
+  { "chown"    , POS_STANDING, do_chown    , 54, 0 },
+
+-- end --
+
+Note: I am a 50 level system with 10 god levels 51-60, my load command is
+level 54, so I feel that anyone that can load should be able to chown.
+
+If you use this snippet please gimme a hollar and the mud you're using it
+on I'd like to come see how you're doing with it.  This is my first real
+command that I started on my own, and the help from this list has been
+priceless.
+

@@ -1,0 +1,301 @@
+#1409
+evil zombie midget~
+&00&01E&00&09v&00&16i&00&15l&00 &10Z&00&06o&16mb&00&06i&00&10e&00 &00&06M&00&14i&00&15dg&14e&00&06t&00~
+&00&01E&00&09v&00&16i&00&15l&00 &10Z&00&06o&16mb&00&06i&00&10e&00 &00&06M&00&14i&00&15dg&14e&00&06t&00 is shuffling here, attacking any warm flesh nearby.
+~
+Nothing.
+~
+253994 0 0 E
+1 18 0 1d1+750000 3d3+5000
+0 4000000
+8 8 1
+BareHandAttack: 9
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1410
+Dark Summoner~
+&00&04D&00&12a&00&14r&00&06k&00 &01S&00&09u&00&16m&00&15mo&00&16n&00&09e&00&01r&00~
+&00&04D&00&12a&00&14r&00&06k&00 &01S&00&09u&00&16m&00&15mo&00&16n&00&09e&00&01r&00 is standing here, hoping some sap comes here and asks for his services.
+~
+   
+~
+253962 0 0 E
+400000 -80 10 1d1+100000000 30d50+500000
+10000 0
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1410
+T 1411
+#1411
+Laurette~
+&00&03Laurette&00&15 the baker.~
+&00&03Laurette&00&15, the baker, is standing here smiling.
+~
+A middle aged woman with deep smile lines, is here wanting to make you something good to eat.
+~
+253962 0 -100 E
+1000000 -30 -10 1d1+399999 30d50+100
+20000 200000
+8 8 2
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1415
+Tepoztecal~
+&00&02T&10e&00&01p&09o&11z&00&03t&09e&00&01c&10a&00&02l&00~
+&00&02T&10e&00&01p&09o&11z&00&03t&09e&00&01c&10a&00&02l&00 is standing here, polishing some beer mugs.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+50000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1424
+Manuel the jeweler~
+&00&14Manuel, the jeweler&00~
+&00&14Manuel, the jeweler&00 is standing here polishing a necklace.
+~
+An elderly old man is standing here, waiting to sell something.
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1425
+Pakelika~
+&00&06P&00&14ak&00el&14ik&00&06a&00, the silent K&00&10ot&00&02tonMo&00&10ut&00h &03K&00&11in&00&03g&00~
+&00&06P&00&14ak&00el&14ik&00&06a&00, the silent K&00&10ot&00&02tonMo&00&10ut&00h &03K&00&11in&00&03g&00, is sitting smoking a blunt while he cleans a bong.
+~
+This odd man is wearing a mask over his face, just his eyes and mouth showing, which has a cigar sized blunt hangs out the corner of his mouth.
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+2147483647 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1426
+Lilly~
+Lilly~
+&00&05Lilly&00, the plushy lover, is standing here hugging a plushy doll.
+~
+This teenage girl was brought up with plushy's all her life, and wants to sell her old plushy's for new ones.
+~
+10 0 0 E
+1 20 10 1d1+0 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1428
+Final Fantasy Fan~
+&09F&00&01in&16a&15l &12F&00&04ant&15as&16y &16F&00&07a&16n&00~
+&00A &09F&00&01in&16a&15l &12F&00&04ant&15as&16y &16F&00&07a&16n&00 twitches here.
+~
+   &15A completely obsessed final fantasy fan twitches here, randomly gibbering
+all the equipment statistics for all of the final fantasies.  &00
+~
+253962 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1431
+Shady Pawnshop Dealer~
+&16S&15h&00&07ady &11P&00&03awnsho&11p &14D&00&06eale&14r&00~
+&15The &16S&15h&00&07ady &11P&00&03awnsho&11p &14D&00&06eale&14r &15sits here, smoking a cigar.&00
+~
+   &15This balding midle aged man looks quite pleased with his business.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1433
+Theo~
+&00&01T&09h&16e&15o&00~
+&00&01T&09h&16e&15o&00 the shop owner, is standing here pricing clothing.
+~
+It looks unfinished.
+~
+122890 0 0 E
+0 20 0 1d1+0 1d1+0
+1000000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1434
+Michelle~
+&00&05M&13i&15c&00h&16e&00&05l&13l&15e&00~
+&00&05M&13i&15c&00h&16e&00&05l&13l&15e&00 is standing behind the counter, smiling to all who enter.
+~
+It looks unfinished.
+~
+253962 0 0 E
+0 20 0 1d1+0 1d1+0
+100000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1444
+Frost~
+&14F&00&06r&16o&15s&00t~
+&14F&00&06r&16o&15s&00t is standing here, looking over an apple catalog.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+1000000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1447
+Novice Fighter~
+&00&01N&09o&15vi&09c&00&01e &16Fi&15g&00h&15t&16er&00~
+&00&01N&00&09o&00&15vi&00&09c&00&01e&00 &16Fi&00&15g&00&07h&00&15t&00&16er&00 is standing here, looking around nervously.
+~
+This fighter is no more then 14 years old, and is shaking like a leaf, being that this is his first time fighting.
+~
+10 8 0 E
+3 -30 0 0d0+10000 2d30+1500
+150 150000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1448
+Kagome~
+&00&07K&11a&00&03go&11m&00&07e~
+&00&07K&00&11a&00&03go&00&11m&00&07e&00 is standing here, waiting to admit new fighters.
+~
+A lovely young woman who does all the admittance work of the dojo. She works her hardest and always has a smile for everyone.
+~
+188490 8 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1448
+#1449
+Expert Fighter~
+Expert Fighter~
+&00&12E&00&16x&00&07p&00&15e&00&12r&00&04t&00 &00&16Fi&00&15g&00&07h&00&15t&00&16er&00 is standing here, waiting for an opponent.
+~
+An average fighter, confident in his skills to take people on.
+~
+10 0 0 E
+60 -40 0 0d0+100000 100d100+5000
+400 750000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1450
+Master Fighter~
+Master Fighter~
+&00&05M&00&13a&00&07st&00&13e&00&05r&00 &16Fi&00&15g&00&07h&00&15t&00&16er&00 is standing here confidently, smirking at you.
+~
+He stands here, one of the best of the dojo, waiting to take on any newcomers.
+~
+10 0 0 E
+0 -60 0 1d1+1000000 1d1+30000
+700 3500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1451
+Grand Master Fighter~
+&00&06G&14r&00a&14n&00&06d &00&05M&13a&00st&13e&00&05r &16Fi&15g&00h&15t&16er&00~
+&00&06G&00&14r&00&07a&00&14n&00&06d&00 &00&05M&00&13a&00&07st&00&13e&00&05r&00 &16Fi&00&15g&00&07h&00&15t&00&16er&00 is standing here, laughing at your patheticness.
+~
+One of the greatest martial artists on earth, waiting to challenge anyone who crosses his path.
+~
+10 0 0 E
+0 -60 0 1d1+10000000 1d1+50000
+900 8000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#1453
+Junbei~
+&09J&00&01u&16nb&00&01e&09i&00~
+&00&09J&00&01u&00&16nb&00&01e&00&09i&00 is meditating here, his body covered by a soft white aura.
+~
+A young man dressed in a simple brown gi and brown baggy training pants. His body is covered in a soft white aura as he meditates to increase his inner power.
+~
+10 0 0 E
+345000 -60 0 0d0+20000000 100d100+125000
+2000 15000000
+8 8 1
+BareHandAttack: 13
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1453
+T 109
+$

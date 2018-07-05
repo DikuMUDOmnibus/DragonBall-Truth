@@ -1,0 +1,1530 @@
+#1410
+&00&03C&16av&00&03e&00 &16of&00 &01E&00&09v&00&16i&00&15l&00~
+   This gaping cave slopes downward greatly, making it hard to enter safely or
+exit at all.  An old man stands here, arcane and archaic objects surrounding
+him in a half-circle.    
+~
+14 32780 0
+D0
+~
+~
+0 0 1346
+S
+#1411
+&09A&00&01k&00ibu&09r&00&01a &16Shopping &12M&00a&15l&12l&00~
+   &15This road has a beautiful canopy made up of various kinds of materials,
+completely blocking out the sky above, giving it a interesting element to it.
+Lining the sides are various shops and vendors selling their goods.  The smells
+of food and other goods pervade the air.  &00&07
+~
+14 32772 0
+D0
+~
+~
+0 0 1412
+D1
+~
+~
+0 0 1423
+D2
+~
+~
+0 0 1326
+D3
+~
+~
+0 0 1424
+S
+#1412
+&09A&00&01k&00ibu&09r&00&01a &16Shopping &12M&00a&15l&12l&00~
+   &15This road has a beautiful canopy made up of various kinds of materials,
+completely blocking out the sky above, giving it a interesting element to it.
+Lining the sides are various shops and vendors selling their goods.  The smells
+of food and other goods pervade the air.  &00&07
+~
+14 32772 0
+D0
+~
+~
+0 0 1413
+D1
+~
+~
+0 0 1425
+D2
+~
+~
+0 0 1411
+D3
+~
+~
+0 0 1426
+S
+#1413
+&09A&00&01k&00ibu&09r&00&01a &16Shopping &12M&00a&15l&12l&00~
+   &15This road has a beautiful canopy made up of various kinds of materials,
+completely blocking out the sky above, giving it a interesting element to it.
+Lining the sides are various shops and vendors selling their goods.  The smells
+of food and other goods pervade the air.  &00&07
+~
+14 32768 0
+D0
+~
+~
+0 0 1414
+D1
+~
+~
+0 0 20002
+D2
+~
+~
+0 0 1412
+D3
+~
+~
+0 0 1428
+S
+#1414
+&09A&00&01k&00ibu&09r&00&01a &16Shopping &12M&00a&15l&12l&00~
+   &15This road has a beautiful canopy made up of various kinds of materials,
+completely blocking out the sky above, giving it a interesting element to it.
+Lining the sides are various shops and vendors selling their goods.  The smells
+of food and other goods pervade the air.  &00&07
+~
+14 32788 0
+D0
+~
+~
+0 0 1415
+D1
+You see nothing special.
+~
+~
+0 -1 1444
+D2
+~
+~
+0 0 1413
+D3
+You see nothing special.
+~
+~
+0 -1 5762
+S
+#1415
+&09A&00&01k&00ibu&09r&00&01a &16Shopping &12M&00a&15l&12l&00~
+   &15This road has a beautiful canopy made up of various kinds of materials,
+completely blocking out the sky above, giving it a interesting element to it.
+Lining the sides are various shops and vendors selling their goods.  The smells
+of food and other goods pervade the air.  &00&07
+~
+14 32768 0
+D0
+~
+~
+0 0 1416
+D1
+~
+~
+0 0 1430
+D2
+~
+~
+0 0 1414
+D3
+~
+~
+0 0 1431
+S
+#1416
+&09A&00&01k&00ibu&09r&00&01a &16Shopping &12M&00a&15l&12l&00~
+   &15This road has a beautiful canopy made up of various kinds of materials,
+completely blocking out the sky above, giving it a interesting element to it.
+Lining the sides are various shops and vendors selling their goods.  The smells
+of food and other goods pervade the air.  &00&07
+~
+14 32768 0
+D0
+~
+~
+0 0 1417
+D1
+~
+~
+0 0 1432
+D2
+~
+~
+0 0 1415
+D3
+~
+~
+0 0 1433
+S
+#1417
+&09A&00&01k&00ibu&09r&00&01a &16Shopping &12M&00a&15l&12l&00~
+   &15This road has a beautiful canopy made up of various kinds of materials,
+completely blocking out the sky above, giving it a interesting element to it.
+Lining the sides are various shops and vendors selling their goods.  The smells
+of food and other goods pervade the air.  &00&07
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1349
+D1
+~
+~
+0 0 1435
+D2
+~
+~
+0 0 1416
+D3
+~
+~
+0 0 1434
+S
+#1418
+&14Ne&00&06xu&16s &00C&15i&16t&00y &16T&00&04h&12e&14a&12t&00&04e&16r&00&07: &15Ticket Booth&00~
+   &15A large wooden booth has been built into the center of this room.  A
+class window with a slot at the bottom is built into the wide front of the
+booth, and is where tickets are purchased.  &00
+~
+14 32916 0
+D0
+~
+~
+0 0 1436
+D2
+You see nothing special.
+~
+~
+0 -1 1419
+S
+#1419
+&14Ne&00&06xu&16s &00C&15i&16t&00y &16T&00&04h&12e&14a&12t&00&04e&16r&00&07: &15Entrance&00~
+   &15This carpeted room is sheltered from the elements outside.  Movie posters
+of coming attractions are plastered on every wall, with blinking lights
+surrounding each.  A few benches have been placed near the walls, and velvet
+ropes stack out the area for long lines.  &00
+~
+14 32772 0
+D0
+~
+~
+0 0 1418
+D2
+~
+~
+0 0 1352
+S
+#1420
+&14Ne&00&06xu&16s &00C&15i&16t&00y &16T&00&04h&12e&14a&12t&00&04e&16r&00&07: &15Back of the Theater&00~
+   &15This is the back of the theater.  Row upon row of seats line from east to
+west here all the way to the front of the theater.  Popcorn, drinks, and other
+trash have been left in many of the isles from careless movie patrons.  &00
+~
+14 1073774592 0
+D0
+~
+~
+0 0 1439
+D1
+You see nothing special.
+~
+~
+0 -1 1436
+S
+#1421
+&14Ne&00&06xu&16s &00C&15i&16t&00y &16T&00&04h&12e&14a&12t&00&04e&16r&00&07: &15Front of the Theater&00~
+   &15The large movie screen looms to the north of here.  All kinds of movies
+have been played on this screen, from action thrillers, to romance movies, and
+even retarded low budget films that 'artists' spew on the public.  Currently a
+horror movie is playing on the screen.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1422
+D2
+~
+~
+0 0 1436
+D3
+You see nothing special.
+~
+~
+0 -1 1439
+S
+#1422
+&14Ne&00&06xu&16s &00C&15i&16t&00y &16T&00&04h&12e&14a&12t&00&04e&16r&00&07: &15Front of the Theater&00~
+   &15The large movie screen looms to the north of here.  All kinds of movies
+have been played on this screen, from action thrillers, to romance movies, and
+even retarded low budget films that 'artists' spew on the public.  Currently a
+horror movie is playing on the screen.  &00
+~
+14 32768 0
+D2
+~
+~
+0 0 1437
+D3
+You see nothing special.
+~
+~
+0 -1 1421
+S
+#1423
+&00&06L&14a&15u&00r&06e&14t&15t&00e's &03B&11a&00&03k&11e&00&03r&11y&00~
+   &00&03The smell of fresh baked goods fills the air.  The sight of baked good
+lies beneath glass display cases.  The owner is a kindly woman, who does what
+she does most all days, baking.&00
+~
+14 32916 0
+D3
+~
+~
+0 0 1411
+S
+#1424
+&15M&00a&16n&15u&00e&16l's&00 J&14e&00&06wel&14r&00y&16 Store&00~
+   &14This shop almost blinds anyone who enters.  Diamonds, rubies, sapphires
+and varieties of other gems glow from the large lights above.  Security guards
+keep an eye on all display cases and exits.&00
+~
+14 32916 0
+D1
+~
+~
+0 0 1411
+S
+#1425
+&07S&15t&14a&00&06ir&14w&15a&00&07y &15to &14Heaven&00&07~
+   &10A thick haze of smoke wavers in the air.  The smells of burning marijuana
+permeate the senses as &00&02The Kottonmouth Kings&10 play in the background.
+&00
+~
+14 32916 0
+D3
+~
+~
+0 0 1412
+S
+#1426
+&16The &13P&15l&00&05u&13s&00h&13y &15Store&00~
+   The smell of freshly manufactured plushies fills the room.  All sorts of
+plushies - varying widely in size, color, and design - practically fill an
+already small room.  The air is hot and muggy, only changing slightly when
+someone opens the small door to the front of the store.  The back of the room
+has a small desk with a cash register for totaling up sales.    
+~
+14 32788 0
+D1
+~
+~
+0 0 1412
+S
+#1427
+&00&04W&12i&00&06s&14h&00&06i&12n&00&04g &11S&09t&00&01a&00&05r&00 &15Shop&00~
+   &15This shop's walls seem to shimmer, flickering through thousands of
+beautiful paterns when looked upon.  A small counter blocks off the far corner
+of the shop, and extrodinary goods can be seen placed behind it.  &00
+~
+14 0 0
+D3
+~
+~
+0 0 1413
+S
+#1428
+&09F&00&01in&16a&15l &12F&00&04ant&15as&16y &16F&00&07re&15a&15k&16 Shop&00~
+   &15The walls of this shop are cluttered with hundreds of famous items,
+equipment, and other assorted Final Fantasy memorabilia.  The absolute mass of
+products is able to satisfy even the most crazed Final Fantasy freak.  &00
+~
+14 32916 0
+D1
+~
+~
+0 0 1413
+S
+#1429
+Empty House~
+If you are interested in buying, talk to Solbet.
+~
+14 0 0
+S
+#1430
+&16T&00&05h&13e &15S&13n&00&05o&16bb&00&05e&13r&15y &00&05W&13i&15n&00e&13r&00&05y&00~
+   &13This is one of the many shops owned by the Snobbery Winery Corporation.
+This particular shop is run by Tepoztecal, coincidently the Mayan god of
+alcohol.  This shop is considered best in the world, just cause of his
+influence.  &00
+~
+14 32788 0
+D3
+~
+~
+0 0 1415
+S
+#1431
+&16S&15h&00&07ady &14D&00&06ealin'&14s &11P&00&03aw&11n &12S&00&04h&16op&00~
+   This is a small, squalid pawn shop.  Old stereos and fake jewelry line the
+shelves and cases in cluttered heaps.  A small ceiling fan whirrs overhead,
+with an irritating squealing noise accompanying it.    
+~
+14 32916 0
+D1
+~
+~
+0 0 1415
+S
+#1432
+&00&01F&16a&00&07c&00&01e &10T&00&02a&16'&00&02m&00&06a&10t &16D&15o&00&07j&16o&00~
+   &15You are standing in the Face Ta'mat Dojo's main room here.  A large straw
+training platform has been set up over a gravity generator.  The dojo is
+unusually quiet right now, maybe if some serious fighters came along to liven
+it up it would have the life it diserves indeed.  &00
+~
+14 285769748 0
+D3
+~
+~
+0 0 1416
+S
+#1433
+&00&01T&09h&16e&15o&16's Clothing Store&00~
+   &01The pounding sounds of hip-hop music blare from the store's speakers.  
+The walls, from floor to ceiling, are lined with t-shirts, jeans, and
+sweatshirts.  The owner of this shop is a young man named Theo, who got lucky
+and won a local lottery, giving him enough money to start his own store.  &00
+~
+14 32796 0
+D1
+~
+~
+0 0 1416
+S
+#1434
+&14Ne&00&06xu&16s &00C&15i&16t&00y &10B&00&02an&10k&00~
+   &15This tidy room is where everyone in Nexus City comes to make
+transactions.  ATM machines are spread out along the various walls, as well as
+human tellers behind the large oak counter.  A large computer screen is set up
+in the middle of the room displaying information for anyone new.  &00
+~
+14 32916 0
+D1
+~
+~
+0 0 1417
+S
+#1435
+&16D&00&03e&00&01a&16d E&15n&00d &16A&15l&00l&16e&15y&00~
+   &16The alleyway is dark, dank, and has a bizarre odor to it.  Bags of trash
+lay against the walls of the alley.  There is a large garbage dumpster pressed
+up against the northern wall, that seems to be glowing lightly on the inside.
+&00
+~
+14 32769 0
+D0
+You see nothing special.
+~
+Dumpster~
+1 -1 1443
+D3
+~
+~
+0 0 1417
+S
+#1436
+&14Ne&00&06xu&16s &00C&15i&16t&00y &16T&00&04h&12e&14a&12t&00&04e&16r&00&07: &15Back of the Theater&00~
+   &15This is the back of the theater.  Row upon row of seats line from east to
+west here all the way to the front of the theater.  Popcorn, drinks, and other
+trash have been left in many of the isles from careless movie patrons.  &00
+~
+14 1073774592 0
+D0
+You see nothing special.
+~
+~
+0 -1 1421
+D1
+You see nothing special.
+~
+~
+0 -1 1437
+D2
+You see nothing special.
+~
+~
+0 -1 1418
+D3
+~
+~
+0 0 1420
+S
+#1437
+&14Ne&00&06xu&16s &00C&15i&16t&00y &16T&00&04h&12e&14a&12t&00&04e&16r&00&07: &15Back of the Theater&00~
+   &15This is the back of the theater.  Row upon row of seats line from east to
+west here all the way to the front of the theater.  Popcorn, drinks, and other
+trash have been left in many of the isles from careless movie patrons.  &00
+~
+14 1073774592 0
+D0
+You see nothing special.
+~
+~
+0 -1 1422
+D3
+You see nothing special.
+~
+~
+0 -1 1436
+S
+#1438
+&11Larry&15'&11s &16S&00&02u&10p&15p&00&02l&16y &16S&15h&00&07op&00~
+   &15This store is full of racks and tables, stacked high with supplies any
+new adventurer would be lucky to have.  Canteens hang on the walls, cheap
+flashlights are stacked on tables, and even cashcards are found here.  &00
+~
+14 32916 0
+D0
+You see nothing special.
+~
+~
+0 -1 1378
+S
+#1439
+&14Ne&00&06xu&16s &00C&15i&16t&00y &16T&00&04h&12e&14a&12t&00&04e&16r&00&07: &15Front of the Theater&00~
+   &15The large movie screen looms to the north of here.  All kinds of movies
+have been played on this screen, from action thrillers, to romance movies, and
+even retarded low budget films that 'artists' spew on the public.  Currently a
+horror movie is playing on the screen.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1421
+D2
+You see nothing special.
+~
+~
+0 -1 1420
+S
+#1440
+Crackers and Cheese~
+You are in an unfinished room.
+~
+14 0 0
+D3
+~
+~
+0 0 1421
+S
+#1441
+The Solar Cafe~
+You are in an unfinished room.
+~
+14 0 0
+D1
+~
+~
+0 0 1421
+S
+#1442
+Gerrand's Gummi Hut~
+You are in an unfinished room.
+~
+14 0 0
+S
+#1443
+&00&03G&16a&00&01r&00&02b&16a&00&06g&00&03e &00&04D&16u&00&06m&00&04p&16s&00&06t&00&04e&16r&00~
+   &00&02The inside of this garbage can is bizarrely....  Clean.  The inside of
+it is so spotless, it could be ate off of.  There is an odd plate on the inside
+of the dumpster.  &00
+~
+14 33024 0
+D2
+You see nothing special.
+~
+Dumpster~
+1 -1 1435
+E
+Plate~
+   &10To go to the stars, simply say "Nirvana".  &00
+~
+S
+T 1443
+#1444
+&14A&00&06p&16p&15l&00e&15g&16e&00&06e&14k S&00&06t&16o&15r&00e~
+   &14The Apple logo is prominently displayed on every wall, glowing a soft sky
+blue.  The smell of electronics and computer duster hover in the air, as row
+upon row of apple products line the shelves.  There is a large containment ball
+in the corner, specifically saved for one customer.  &00
+~
+14 32788 0
+D3
+You see nothing special.
+~
+~
+0 -1 1414
+S
+#1445
+Empty House~
+You are in an unfinished room.
+~
+14 0 0
+S
+#1446
+Empty House~
+You are in an unfinished room.
+~
+14 0 0
+S
+#1447
+&00&01N&00&09o&15vi&00&09c&00&01e&00 &16Training Area&00~
+   &00&03The walls, floors, and ceilings are padded heavily with soft
+cushioning.  There are a few bloodstains on the otherwise perfectly white room.
+There are cameras in the corners of the rooms, so the fighters can go back and
+look at their mistakes from a different angle.  It is evident that the fighters
+in here have had it slightly easy.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1448
+S
+#1448
+&00&03He&00&11a&00&15v&11e&00&03ns G&00&11a&15t&00e D&15o&11j&00&03o&00~
+   &03 The area opens up to candy apple red oriental pillars lining the
+entryway.  In the center is a small garden, and at the entrance to the dojo is
+a sign requesting that shoes be removed.  &00
+~
+14 32796 0
+D0
+You see nothing special.
+~
+~
+0 -1 1450
+D1
+You see nothing special.
+~
+~
+0 -1 1447
+D2
+~
+~
+0 0 1375
+D3
+You see nothing special.
+~
+~
+0 -1 1449
+S
+#1449
+&00&01N&00&09o&15vi&00&09c&00&01e&00 &16Training Area&00~
+   &00&03The walls, floors, and ceilings are padded heavily with soft
+cushioning.  There are a few bloodstains on the otherwise perfectly white room.
+There are cameras in the corners of the rooms, so the fighters can go back and
+look at their mistakes from a different angle.  It is evident that the fighters
+in here have had it slightly easy.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1448
+S
+#1450
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1452
+D2
+You see nothing special.
+~
+~
+0 -1 1448
+S
+#1451
+&00&01N&00&09o&15vi&00&09c&00&01e&00 &16Training Area&00~
+   &00&03The walls, floors, and ceilings are padded heavily with soft
+cushioning.  There are a few bloodstains on the otherwise perfectly white room.
+There are cameras in the corners of the rooms, so the fighters can go back and
+look at their mistakes from a different angle.  It is evident that the fighters
+in here have had it slightly easy.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1452
+S
+#1452
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1454
+D1
+You see nothing special.
+~
+~
+0 -1 1453
+D2
+You see nothing special.
+~
+~
+0 -1 1450
+D3
+You see nothing special.
+~
+~
+0 -1 1451
+S
+#1453
+&00&01N&00&09o&15vi&00&09c&00&01e&00 &16Training Area&00~
+   &00&03The walls, floors, and ceilings are padded heavily with soft
+cushioning.  There are a few bloodstains on the otherwise perfectly white room.
+There are cameras in the corners of the rooms, so the fighters can go back and
+look at their mistakes from a different angle.  It is evident that the fighters
+in here have had it slightly easy.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1452
+S
+#1454
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1556
+D2
+You see nothing special.
+~
+~
+0 -1 1452
+S
+#1455
+&00&01N&00&09o&15vi&00&09c&00&01e&00 &16Training Area&00~
+   &00&03The walls, floors, and ceilings are padded heavily with soft
+cushioning.  There are a few bloodstains on the otherwise perfectly white room.
+There are cameras in the corners of the rooms, so the fighters can go back and
+look at their mistakes from a different angle.  It is evident that the fighters
+in here have had it slightly easy.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1556
+S
+#1456
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojos disciplines, and of the great warriors who have come
+from it.  The floor is a simple grass mat, soft underfoot and smooth to the
+touch.  &00
+~
+14 0 0
+S
+#1457
+&00&01N&00&09o&15vi&00&09c&00&01e&00 &16Training Area&00~
+   &00&03The walls, floors, and ceilings are padded heavily with soft
+cushioning.  There are a few bloodstains on the otherwise perfectly white room.
+There are cameras in the corners of the rooms, so the fighters can go back and
+look at their mistakes from a different angle.  It is evident that the fighters
+in here have had it slightly easy.  &00
+~
+14 0 0
+S
+#1458
+&00&03S&00&16t&00&15a&00&07ir&00&15w&00&16a&00&03y&00~
+   &00&03There is an open, stone stairway going from this section of dojo to
+the next.  Apple blossom trees line the steps, giving the area a fragrant
+aroma.  &00
+~
+14 32772 0
+D2
+You see nothing special.
+~
+~
+0 -1 1556
+D4
+You see nothing special.
+~
+~
+0 -1 1459
+S
+#1459
+&00&03S&00&16t&00&15a&00&07ir&00&15w&00&16a&00&03y&00~
+   &00&03There is an open, stone stairway going from this section of dojo to
+the next.  Apple blossom trees line the steps, giving the area a fragrant
+aroma.  &00
+~
+14 32772 0
+D0
+You see nothing special.
+~
+~
+0 -1 1461
+D5
+You see nothing special.
+~
+~
+0 -1 1458
+S
+#1460
+&00&12E&00&16x&00p&15e&00&12r&00&04t&00 &16Training Area&00~
+   &03 This area has lightly padded walls, grass mats, and a bamboo ceiling.  
+The telltale signs of battle are evident, with spots of blood, sweat, and other
+things staining the walls, floors, and ceiling of this room.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1461
+S
+#1461
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1463
+D1
+You see nothing special.
+~
+~
+0 -1 1462
+D2
+You see nothing special.
+~
+~
+0 -1 1459
+D3
+You see nothing special.
+~
+~
+0 -1 1460
+S
+#1462
+&00&12E&00&16x&00p&15e&00&12r&00&04t&00 &16Training Area&00~
+   &03 This area has lightly padded walls, grass mats, and a bamboo ceiling.  
+The telltale signs of battle are evident, with spots of blood, sweat, and other
+things staining the walls, floors, and ceiling of this room.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1461
+S
+#1463
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1465
+D2
+You see nothing special.
+~
+~
+0 -1 1461
+S
+#1464
+&00&12E&00&16x&00p&15e&00&12r&00&04t&00 &16Training Area&00~
+   &03 This area has lightly padded walls, grass mats, and a bamboo ceiling.  
+The telltale signs of battle are evident, with spots of blood, sweat, and other
+things staining the walls, floors, and ceiling of this room.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1465
+S
+#1465
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1467
+D1
+You see nothing special.
+~
+~
+0 -1 1464
+D2
+You see nothing special.
+~
+~
+0 -1 1463
+D3
+You see nothing special.
+~
+~
+0 -1 1466
+S
+#1466
+&00&12E&00&16x&00p&15e&00&12r&00&04t&00 &16Training Area&00~
+   &03 This area has lightly padded walls, grass mats, and a bamboo ceiling.  
+The telltale signs of battle are evident, with spots of blood, sweat, and other
+things staining the walls, floors, and ceiling of this room.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1465
+S
+#1467
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1469
+D2
+You see nothing special.
+~
+~
+0 -1 1465
+S
+#1468
+&00&12E&00&16x&00p&15e&00&12r&00&04t&00 &16Training Area&00~
+   &03 This area has lightly padded walls, grass mats, and a bamboo ceiling.  
+The telltale signs of battle are evident, with spots of blood, sweat, and other
+things staining the walls, floors, and ceiling of this room.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1469
+S
+#1469
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1471
+D1
+You see nothing special.
+~
+~
+0 -1 1468
+D2
+You see nothing special.
+~
+~
+0 -1 1467
+D3
+You see nothing special.
+~
+~
+0 -1 1470
+S
+#1470
+&00&12E&00&16x&00p&15e&00&12r&00&04t&00 &16Training Area&00~
+   &03 This area has lightly padded walls, grass mats, and a bamboo ceiling.  
+The telltale signs of battle are evident, with spots of blood, sweat, and other
+things staining the walls, floors, and ceiling of this room.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1469
+S
+#1471
+&00&03S&00&16t&00&15a&00&07ir&00&15w&00&16a&00&03y&00~
+   &00&03There is an open, stone stairway going from this section of dojo to
+the next.  Apple blossom trees line the steps, giving the area a fragrant
+aroma.  &00
+~
+14 32772 0
+D2
+You see nothing special.
+~
+~
+0 -1 1469
+D4
+You see nothing special.
+~
+~
+0 -1 1472
+S
+#1472
+&00&03S&00&16t&00&15a&00&07ir&00&15w&00&16a&00&03y&00~
+   &00&03There is an open, stone stairway going from this section of dojo to
+the next.  Apple blossom trees line the steps, giving the area a fragrant
+aroma.  &00
+~
+14 32772 0
+D0
+You see nothing special.
+~
+~
+0 -1 1474
+D5
+You see nothing special.
+~
+~
+0 -1 1471
+S
+#1473
+&00&05M&00&13a&00st&13e&00&05r&00 &16Training Area&00~
+   &00&03Highly reinforced with steel beams and titanium plated walls, this
+room is outfitted to survive hurricanes and the occasional free for all fight.
+There are body shaped dents all in the walls, and even some in the support
+beams.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1474
+S
+#1474
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1476
+D1
+You see nothing special.
+~
+~
+0 -1 1473
+D2
+You see nothing special.
+~
+~
+0 -1 1472
+D3
+You see nothing special.
+~
+~
+0 -1 1475
+S
+#1475
+&00&05M&00&13a&00st&13e&00&05r&00 &16Training Area&00~
+   &00&03Highly reinforced with steel beams and titanium plated walls, this
+room is outfitted to survive hurricanes and the occasional free for all fight.
+There are body shaped dents all in the walls, and even some in the support
+beams.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1474
+S
+#1476
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1478
+D2
+You see nothing special.
+~
+~
+0 -1 1474
+S
+#1477
+&00&05M&00&13a&00st&13e&00&05r&00 &16Training Area&00~
+   &00&03Highly reinforced with steel beams and titanium plated walls, this
+room is outfitted to survive hurricanes and the occasional free for all fight.
+There are body shaped dents all in the walls, and even some in the support
+beams.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1478
+S
+#1478
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1480
+D1
+You see nothing special.
+~
+~
+0 -1 1477
+D2
+You see nothing special.
+~
+~
+0 -1 1476
+D3
+You see nothing special.
+~
+~
+0 -1 1479
+S
+#1479
+&00&05M&00&13a&00st&13e&00&05r&00 &16Training Area&00~
+   &00&03Highly reinforced with steel beams and titanium plated walls, this
+room is outfitted to survive hurricanes and the occasional free for all fight.
+There are body shaped dents all in the walls, and even some in the support
+beams.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1478
+S
+#1480
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1482
+D2
+You see nothing special.
+~
+~
+0 -1 1478
+S
+#1481
+&00&05M&00&13a&00st&13e&00&05r&00 &16Training Area&00~
+   &00&03Highly reinforced with steel beams and titanium plated walls, this
+room is outfitted to survive hurricanes and the occasional free for all fight.
+There are body shaped dents all in the walls, and even some in the support
+beams.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1482
+S
+#1482
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1484
+D1
+You see nothing special.
+~
+~
+0 -1 1481
+D2
+You see nothing special.
+~
+~
+0 -1 1480
+D3
+You see nothing special.
+~
+~
+0 -1 1483
+S
+#1483
+&00&05M&00&13a&00st&13e&00&05r&00 &16Training Area&00~
+   &00&03Highly reinforced with steel beams and titanium plated walls, this
+room is outfitted to survive hurricanes and the occasional free for all fight.
+There are body shaped dents all in the walls, and even some in the support
+beams.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1482
+S
+#1484
+&00&03S&00&16t&00&15a&00&07ir&00&15w&00&16a&00&03y&00~
+   &00&03There is an open, stone stairway going from this section of dojo to
+the next.  Apple blossom trees line the steps, giving the area a fragrant
+aroma.  &00
+~
+14 32768 0
+D2
+You see nothing special.
+~
+~
+0 -1 1482
+D4
+You see nothing special.
+~
+~
+0 -1 1485
+S
+#1485
+&00&03S&00&16t&00&15a&00&07ir&00&15w&00&16a&00&03y&00~
+   &00&03There is an open, stone stairway going from this section of dojo to
+the next.  Apple blossom trees line the steps, giving the area a fragrant
+aroma.  &00
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1487
+D5
+You see nothing special.
+~
+~
+0 -1 1484
+S
+#1486
+&00&03Me&00&11d&00i&00&11ta&00t&11i&00&03on&00 &16Room&00~
+   &03This is where the the strongest fighters of the dojo reside.  Instead of
+training their bodies, they now train their minds.  They work tirelessly to
+strengthen themselves, so they can one day take on the dojo leader, and be
+considered one of the greatest.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1487
+S
+#1487
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1489
+D1
+You see nothing special.
+~
+~
+0 -1 1486
+D2
+You see nothing special.
+~
+~
+0 -1 1485
+D3
+You see nothing special.
+~
+~
+0 -1 1488
+S
+#1488
+&00&03Me&00&11d&00i&00&11ta&00t&11i&00&03on&00 &16Room&00~
+   &03This is where the the strongest fighters of the dojo reside.  Instead of
+training their bodies, they now train their minds.  They work tirelessly to
+strengthen themselves, so they can one day take on the dojo leader, and be
+considered one of the greatest.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1487
+S
+#1489
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1491
+D2
+You see nothing special.
+~
+~
+0 -1 1487
+S
+#1490
+&00&03Me&00&11d&00i&00&11ta&00t&11i&00&03on&00 &16Room&00~
+   &03This is where the the strongest fighters of the dojo reside.  Instead of
+training their bodies, they now train their minds.  They work tirelessly to
+strengthen themselves, so they can one day take on the dojo leader, and be
+considered one of the greatest.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1491
+S
+#1491
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1493
+D1
+You see nothing special.
+~
+~
+0 -1 1490
+D2
+You see nothing special.
+~
+~
+0 -1 1489
+D3
+You see nothing special.
+~
+~
+0 -1 1492
+S
+#1492
+&00&03Me&00&11d&00i&00&11ta&00t&11i&00&03on&00 &16Room&00~
+   &03This is where the the strongest fighters of the dojo reside.  Instead of
+training their bodies, they now train their minds.  They work tirelessly to
+strengthen themselves, so they can one day take on the dojo leader, and be
+considered one of the greatest.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1491
+S
+#1493
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1495
+D2
+You see nothing special.
+~
+~
+0 -1 1491
+S
+#1494
+&00&03Me&00&11d&00i&00&11ta&00t&11i&00&03on&00 &16Room&00~
+   &03This is where the the strongest fighters of the dojo reside.  Instead of
+training their bodies, they now train their minds.  They work tirelessly to
+strengthen themselves, so they can one day take on the dojo leader, and be
+considered one of the greatest.  &00
+~
+14 32768 0
+D3
+You see nothing special.
+~
+~
+0 -1 1495
+S
+#1495
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+14 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 1497
+D1
+You see nothing special.
+~
+~
+0 -1 1494
+D2
+You see nothing special.
+~
+~
+0 -1 1493
+D3
+You see nothing special.
+~
+~
+0 -1 1496
+S
+#1496
+&00&03Me&00&11d&00i&00&11ta&00t&11i&00&03on&00 &16Room&00~
+   &03This is where the the strongest fighters of the dojo reside.  Instead of
+training their bodies, they now train their minds.  They work tirelessly to
+strengthen themselves, so they can one day take on the dojo leader, and be
+considered one of the greatest.  &00
+~
+14 32768 0
+D1
+You see nothing special.
+~
+~
+0 -1 1495
+S
+#1497
+&16D&00&01o&09j&00o &16M&00&01a&09s&00t&09e&00&01r&16s Chamber&00~
+   &03This is a simple room, small, filled with candles that line the walls.  
+The room has a thick, fragrant scent, which makes the mind want to wander.  In
+the middle of it rests a simple grass mat, with a circle of candles around it.
+~
+14 32772 0
+D2
+You see nothing special.
+~
+~
+0 -1 1495
+S
+#1498
+&16F&00&06o&14r&15s&00a&16k&00&06e&14n &00&02D&10r&00&03a&16g&00&02o&10n &09A&00&01r&16e&00&01n&09a&16: Under the Stands&00~
+   &16The dark alcove of the stands.  Trash and garbage fly about with each
+breath of the wind as the sounds of the spectators roar from up above.  There
+is a small sign hanging from one of the bleachers here, looking suspicious.  
+&00
+~
+14 0 0
+D4
+You see nothing special.
+~
+~
+0 -1 8142
+E
+sign~
+   &16For a trip of a lifetime, answer this question.  What sound does a duck
+make?  &00
+~
+S
+T 1498
+#1499
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0
+S
+$~

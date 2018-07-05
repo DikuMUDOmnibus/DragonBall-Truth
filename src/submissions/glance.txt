@@ -1,0 +1,114 @@
+Luke Ehresman <lkehresman@hotmail.com>
+
+This is my first snippet to contribute to the community, so I hope I do this
+right.  (=  I wrote this to improve the glance command.  With this, you can
+glance at any mobile or PC by doing ("glance <name>") but when you're fighting
+someone, you can type "glance" and it assumes you're wanting to glance at the
+fightee.
+
+It's been a while since I wrote this, so I'm not sure what the stock "glance"
+command is, but if there is one, just replace it with the following function.
+If it's not there, you'll need to go into interpreter.c and add the standard
+new command stuff.
+
+Forgive me for not being too good about commenting my code.  Here it is anyhow:
+
+ACMD(do_glance)
+{
+  int percent, bits, found = FALSE;
+  struct char_data *i;
+  struct char_data *found_char = NULL;
+  struct obj_data  *found_obj  = NULL;
+
+  half_chop(argument, arg, buf2);
+
+	if (*arg)
+	{
+		bits = generic_find(arg, FIND_CHAR_ROOM, ch, &found_char, &found_obj);
+
+
+  	if ((i = found_char) != NULL)
+    {
+		  if (GET_MAX_HIT(i) > 0)
+  		  percent = (100 * GET_HIT(i)) / GET_MAX_HIT(i);
+	  	else
+  	  	percent = -1;		/* How could MAX_HIT be < 1?? */
+
+		  strcpy(buf, PERS(i, ch));
+
+		  if (percent >= 100)
+  		  strcat(buf, " is in excellent condition.\r\n");
+	  	else if (percent >= 95)
+  	  	strcat(buf, " has a few scratches.\r\n");
+		  else if (percent >= 85)
+  		  strcat(buf, " has some small wounds and bruises.\r\n");
+	  	else if (percent >= 75)
+  	  	strcat(buf, " has some minor wounds.\r\n");
+		  else if (percent >= 63)
+  		  strcat(buf, " has quite a few wounds.\r\n");
+	  	else if (percent >= 50)
+  	  	strcat(buf, " has some big nasty wounds and scratches.\r\n");
+		  else if (percent >= 40)
+  		  strcat(buf, " looks pretty hurt.\r\n");
+	  	else if (percent >= 30)
+  	  	strcat(buf, " has some large wounds.\r\n");
+		  else if (percent >= 20)
+  		  strcat(buf, " is in bad condition.\r\n");
+	  	else if (percent >= 10)
+  	  	strcat(buf, " is nearly dead.\r\n");
+		  else if (percent >= 0)
+  		  strcat(buf, " is in awful condition.\r\n");
+	  	else
+  	  	strcat(buf, " is bleeding awfully from big wounds.\r\n");
+
+  		CAP(buf);
+    }
+    else
+	  	strcpy(buf, "Who do you wish to glance at?\r\n");
+
+  }
+	else
+  {
+  	if (FIGHTING(ch))
+    {
+			i = FIGHTING(ch);
+		  if (GET_MAX_HIT(i) > 0)
+	  	  percent = (100 * GET_HIT(i)) / GET_MAX_HIT(i);
+		  else
+  		  percent = -1;		/* How could MAX_HIT be < 1?? */
+
+		  strcpy(buf, PERS(i, ch));
+
+		  if (percent >= 100)
+  		  strcat(buf, " is in excellent condition.\r\n");
+	  	else if (percent >= 95)
+  	  	strcat(buf, " has a few scratches.\r\n");
+		  else if (percent >= 85)
+  		  strcat(buf, " has some small wounds and bruises.\r\n");
+	  	else if (percent >= 75)
+  	  	strcat(buf, " has some minor wounds.\r\n");
+		  else if (percent >= 63)
+  		  strcat(buf, " has quite a few wounds.\r\n");
+	  	else if (percent >= 50)
+  	  	strcat(buf, " has some big nasty wounds and scratches.\r\n");
+		  else if (percent >= 40)
+  		  strcat(buf, " looks pretty hurt.\r\n");
+	  	else if (percent >= 30)
+  	  	strcat(buf, " has some large wounds.\r\n");
+		  else if (percent >= 20)
+  		  strcat(buf, " is in bad condition.\r\n");
+	  	else if (percent >= 10)
+  	  	strcat(buf, " is nearly dead.\r\n");
+		  else if (percent >= 0)
+  		  strcat(buf, " is in awful condition.\r\n");
+	  	else
+  	  	strcat(buf, " is bleeding awfully from big wounds.\r\n");
+
+  		CAP(buf);
+    }
+    else
+	  	strcpy(buf, "Who do you wish to glance at?\r\n");
+  }
+	send_to_char(buf, ch);
+}
+

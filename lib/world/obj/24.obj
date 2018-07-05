@@ -1,0 +1,46 @@
+#2400
+ship capsule corp transport~
+a Transport Ship~
+&10A transport ship is here transporting people to planet Namek.&00~
+Its pretty damn big.
+~
+12 2 0
+0 0 0 0
+2147483647 0 0
+T 2400
+#2401
+ship capsule corp transport~
+a Transport Ship~
+&10A transport ship is here transporting people to planet Earth.&00~
+Its pretty damn big.
+~
+12 2 0
+0 0 0 0
+2147483647 0 0
+#2402
+Emerald Dragon Skull~
+&00&06E&00&02m&10e&00&07r&10a&00&02l&00&06d &16D&15r&00&07ag&15o&16n &00&07S&15k&16u&00&01l&09l&00~
+&15A &00&06E&00&02m&10e&00&07r&10a&00&02l&00&06d &16D&15r&00&07ag&15o&16n &00&07S&15k&16u&00&01l&09l &15has been dropped here.&00~
+~
+11 0 17
+0 0 0 0
+1 1 0
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 -5
+A
+6 -5
+#2450
+Fountain~
+a Large Saiyan Fountain~
+&10A Saiyan fountain is sitting here in the middle of the throne room.&00~
+~
+23 0 0
+2147483647 2147483647 2 0
+2147483647 0 0
+$~

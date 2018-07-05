@@ -1,0 +1,30 @@
+***************
+*** 665,676 ****
+  void heartbeat(int pulse)
+  {
+    static int mins_since_crashsave = 0;
+  
+    if (!(pulse % PULSE_ZONE))
+      zone_update();
+  
+    if (!(pulse % (15 * PASSES_PER_SEC)))		/* 15 seconds */
+      check_idle_passwords();
+  
+    if (!(pulse % PULSE_MOBILE))
+      mobile_activity();
+--- 665,679 ----
+  void heartbeat(int pulse)
+  {
+    static int mins_since_crashsave = 0;
++   void auction_update();
+  
+    if (!(pulse % PULSE_ZONE))
+      zone_update();
+  
+    if (!(pulse % (15 * PASSES_PER_SEC)))		/* 15 seconds */
+      check_idle_passwords();
++   if (!(pulse % (15 * PASSES_PER_SEC)))
++     auction_update();
+  
+    if (!(pulse % PULSE_MOBILE))
+      mobile_activity();

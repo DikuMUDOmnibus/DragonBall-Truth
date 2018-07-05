@@ -1,0 +1,307 @@
+CircleMUD v3.0 Shop File~
+#5800~
+32628
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+32604
+0
+10
+-1
+0
+28
+0
+0
+#5824~
+5824
+5825
+12845
+5826
+2240
+16016
+10600
+-1
+1.00
+0.25
+11
+3
+2
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5823
+0
+5824
+-1
+0
+28
+0
+28
+#5827~
+5828
+5829
+5830
+-1
+1.00
+0.25
+11
+3
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5828
+0
+5828
+-1
+0
+28
+0
+28
+#5833~
+5833
+5834
+-1
+1.00
+0.25
+11Dark Scorpion Crest
+11
+3
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5833
+0
+5833
+-1
+0
+28
+0
+0
+#5837~
+5838
+5839
+5840
+5836
+-1
+1.00
+0.25
+11
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5838
+0
+5841
+-1
+0
+28
+0
+28
+#5842~
+5842
+5843
+-1
+1.00
+0.25
+11
+3
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+0
+0
+5846
+-1
+0
+28
+0
+28
+#5846~
+5842
+5843
+5844
+4275
+603
+10622
+16016
+2240
+10601
+20010
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5846
+0
+5846
+-1
+0
+28
+0
+0
+#5851~
+5848
+5849
+5850
+16016
+2240
+10601
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5851
+0
+5851
+-1
+0
+28
+0
+0
+#5868~
+5869
+5870
+5871
+2240
+16016
+-1
+1.00
+0.25
+3
+11
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5869
+0
+5871
+-1
+0
+28
+0
+28
+#5887~
+5886
+5887
+5888
+-1
+1.00
+0.25
+3
+11
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5886
+0
+5887
+-1
+0
+28
+0
+28
+#5894~
+5891
+5890
+5893
+10600
+16016
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+5515
+0
+5894
+-1
+0
+28
+0
+0
+$~

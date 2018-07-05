@@ -1,0 +1,280 @@
+#16419
+Kirk Hemmet~
+&16K&15i&00&07r&16k &00&01H&09e&16m&15m&09e&00&01t&00~
+&16K&15i&00&07r&16k &00&01H&09e&16m&15m&09e&00&01t&00 stands here guitar in hand.
+~
+&16K&15i&00&07r&16k &00&01H&09e&16m&15m&09e&00&01t&00 replaced the origional lead guitarist very early on and has been with the band well over twenty years.
+~
+4106 128 0 E
+0 -30 0 1d1+1000000000 1d1+400000
+100000 15000000
+8 8 1
+BareHandAttack: 7
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16420
+larz ulric~
+&16L&15a&00&07r&16z&00&04 U&12l&16r&00&07i&15c&00~
+&16L&15a&00&07r&16z&00&04 U&12l&16r&00&07i&15c&00 sits here behind his drum set.
+~
+&16L&15a&00&07r&16z&00&04 U&12l&16r&00&07i&15c&00 is one of the two remaining founders of Metallica whos still in the band.
+~
+4106 128 0 E
+0 -30 0 1d1+1000000000 1d1+400000
+100000 15000000
+8 8 1
+BareHandAttack: 5
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16421
+James Hetfield~
+&16J&15a&00&07m&15e&16s&00&03 H&11e&16t&15f&00&07i&15e&11l&00&03d&00~
+&16J&15a&00&07m&15e&16s&00&03 H&11e&16t&15f&00&07i&15e&11l&00&03d&00 is standing here his guitar in hand.
+~
+&16J&15a&00&07m&15e&16s&00&03 H&11e&16t&15f&00&07i&15e&11l&00&03d&00 is a founding member and still lead singer of Metallica.
+~
+4106 128 0 E
+0 -30 0 1d1+1000000000 1d1+400000
+100000 150000000
+8 8 1
+BareHandAttack: 10
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16491
+T 5040
+T 5041
+T 5042
+T 5044
+#16422
+Jason Newstead~
+&16J&15a&00&07s&15o&16n &00&06N&14e&16w&15s&00&07t&16e&14a&00&06d&00~
+&16J&15a&00&07s&15o&16n &00&06N&14e&16w&15s&00&07t&16e&14a&00&06d&00 stands here bass in hand.
+~
+&16J&15a&00&07s&15o&16n &00&06N&14e&16w&15s&00&07t&16e&14a&00&06d&00 was the only bass player to ever stay in Metallica for over five years.
+~
+4106 128 0 E
+0 -30 0 1d1+1000000000 1d1+400000
+100000 150000000
+8 8 1
+BareHandAttack: 9
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16433
+third class saiyan~
+&16Third &15Class &00&03S&11a&00&03i&11y&00&03a&11n&00~
+&00A &16Third &15Class &00&03S&11a&00&03i&11y&00&03a&11n&00 is standing here.
+~
+It looks unfinished.
+~
+10 0 0 E
+5000 -40 0 1d1+100000 1d1+6000
+300 500000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16444
+second class saiyan~
+&16Second &15Class &00&03S&11a&00&03i&11y&00&03a&11n&00~
+&00A &16Second &15Class &00&03S&11a&00&03i&11y&00&03a&11n&00 is standing here.
+~
+It looks unfinished.
+~
+10 0 0 E
+7500 -60 0 1d1+500000 1d1+30000
+700 1500000
+8 8 1
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16458
+bardock~
+&00&02B&10a&16r&00&07d&15o&10c&00&02k&00~
+&00&02B&10a&16r&00&07d&15o&10c&00&02k&00 stands here grinning evily.
+~
+&00&02B&10a&16r&00&07d&15o&10c&00&02k&00 is a tall Saiyan, he greatly resembles Son Goku from planet Earth.
+~
+10 128 0 E
+200000 -80 0 1d1+150000000 1d1+200000
+50000 1
+8 8 1
+BareHandAttack: 12
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16478
+first class saiyan~
+&16First&15 Class&00&03 S&11a&00&03i&11y&00&03a&11n&00~
+&00A &16First&15 Class&00&03 S&11a&00&03i&11y&00&03a&11n&00 is standing here.
+~
+He looks like a decent opponent.
+~
+10 0 0 E
+400000 -60 0 1d1+20000000 1d1+125000
+1200 15000000
+8 8 1
+BareHandAttack: 7
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16480
+The Phantom Lord~
+&16The &00&06P&14h&16a&15n&00&07t&14o&00&06m &16Lord&00~
+&16The &00&06P&14h&16a&15n&00&07t&14o&00&06m &16Lord&00 hovers here.
+~
+&16The &00&06P&14h&16a&15n&00&07t&14o&00&06m &16Lord&00 appears to be guarding the Studio door.
+~
+10 128 0 E
+0 -30 0 1d1+200000000 1d1+250000
+25000 90000000
+9 9 1
+BareHandAttack: 12
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16481
+Record Producer~
+&16R&15e&00&07c&16o&15r&00&07d &00&04P&12r&16o&15d&00&07u&16c&12e&00&04r&00~
+A &16R&15e&00&07c&16o&15r&00&07d &00&04P&12r&16o&15d&00&07u&16c&12e&00&04r&00 is standing here.
+~
+He looks over paid.
+~
+8 0 0 E
+0 20 0 1d1+1000000 1d1+20000
+700 2500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16482
+Member of the light crew~
+&16M&15e&00&07m&16b&15e&16r of the &00&03L&11i&16g&15h&00&07t&16 Crew&00~
+A &16M&15e&00&07m&16b&15e&16r of the &00&03L&11i&16g&15h&00&07t&16 Crew&00 is ajusting lights here.
+~
+He looks busy.
+~
+8 0 0 E
+0 20 0 1d1+1000000 1d1+20000
+700 2500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16483
+Member of the Sound Crew~
+&16M&15e&00&07m&16b&15e&16r of the &00&01S&09o&16u&15n&00&07d Crew&00~
+A &16M&15e&00&07m&16b&15e&16r of the &00&01S&09o&16u&15n&00&07d Crew&00 is working here.
+~
+He looks busy.
+~
+8 0 0 E
+0 20 0 1d1+1000000 1d1+20000
+700 2500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16485
+elite saiyan shop keeper~
+&00&01E&09l&16i&09t&00&01e&00&03 S&11a&00&03i&11y&00&03a&11n&16 Shop Keeper&00~
+&00The &00&01E&09l&16i&09t&00&01e&00&03 S&11a&00&03i&11y&00&03a&11n&16 Shop keeper&00 is standing here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16490
+Retired Soldier~
+&15Retired &00&03S&11o&16l&15d&00&07i&11e&00&03r&00~
+&00A &15Retired &00&03S&11o&16l&15d&00&07i&11e&00&03r&00 is sitting here
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+6 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16491
+crazed fan~
+&00&05C&13r&16a&15z&13e&00&05d &16Fan&00~
+&00A &00&05C&13r&16a&15z&13e&00&05d &16Fan&00 is standing here trying to get in.&00
+~
+&00She looks desperate to get in and see the band.&00
+~
+4106 0 0 E
+0 20 0 1d1+5000000 1d1+200000
+1000 5000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16493
+#16492
+Metallica Fanatic~
+&16M&15e&00&07t&16a&15l&16l&00&07i&15c&16a Fanatic&00~
+A &16M&15e&00&07t&16a&15l&16l&00&07i&15c&16a Fanatic&00 is trying to get in.
+~
+He looks ready to kill to get in.
+~
+4106 0 0 E
+0 20 0 1d1+5000000 1d1+200000
+1000 5000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16492
+$

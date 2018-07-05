@@ -1,0 +1,2814 @@
+#1900
+&00&04E&12n&00&07t&15ra&00&07n&12c&00&04e&00: &00&01R&15i&16kk&15a&00&01i&15's&00 &00&03P&11a&00&03y&00 &00&12L&00&07a&15k&12e&00~
+   &03This path leads to Rikkai's Pay Lake where people can come to catch all
+sorts of fresh water fish.  This dirt path is very well maintained and
+landscaped.  The ground is level and smooth making it comfortable to walk on
+and various cultivated wildflowers grow along the side of the path.  To the
+west you can see the lake in the distance, but a large cast iron gate is in the
+way.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1999
+D3
+You see nothing special.
+~
+~
+0 -1 1901
+S
+#1901
+&00&04E&12n&00&07t&15ra&00&07n&12c&00&04e&00: &00&01R&15i&16kk&15a&00&01i&15's&00 &00&03P&11a&00&03y&00 &00&12L&00&07a&15k&12e&00~
+   &00&03This path leads to Rikkai's Pay Lake where people can come to catch
+all sorts of fresh water fish.  This dirt path is very well maintained and
+landscaped.  The ground is level and smooth making it comfortable to walk on
+and various cultivated wildflowers grow along the side of the path.  There is a
+large cast iron gate here blocking the way to the lake.  &00
+~
+19 16 0
+D1
+You see nothing special.
+~
+~
+0 -1 1900
+D3
+You see nothing special.
+~
+gate~
+2 1904 1902
+S
+#1902
+&00&04E&12n&00&07t&15ra&00&07n&12c&00&04e&00: &00&01R&15i&16kk&15a&00&01i&15's&00 &00&03P&11a&00&03y&00 &00&12L&00&07a&15k&12e&00~
+   &00&03This path leads to Rikkai's Pay Lake where people can come to catch
+all sorts of fresh water fish.  This dirt path is very well maintained and
+landscaped.  The ground is level and smooth making it comfortable to walk on
+and various cultivated wildflowers grow along the side of the path.  To the
+west you can see the lake in the distance.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+door~
+1 1904 1901
+D3
+You see nothing special.
+~
+~
+0 -1 1903
+S
+#1903
+&00&04E&12n&00&07t&15ra&00&07n&12c&00&04e&00: &00&01R&15i&16kk&15a&00&01i&15's&00 &00&03P&11a&00&03y&00 &00&12L&00&07a&15k&12e&00~
+   &00&03This path leads to Rikkai's Pay Lake where people can come to catch
+all sorts of fresh water fish.  This dirt path is very well maintained and
+landscaped.  The ground is level and smooth making it comfortable to walk on
+and various cultivated wildflowers grow along the side of the path.  To the
+west you can see the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1904
+D1
+You see nothing special.
+~
+~
+0 -1 1902
+D3
+You see nothing special.
+~
+~
+0 -1 1951
+S
+#1904
+&00&02F&07i&10s&00&02h&10i&00&07n&02g&00 &00&14S&13u&15p&00&07p&14l&13i&15e&00&07s&00 &00&07S&15t&00&03o&15r&00&07e&00~
+   &00&06This is a small but well stocked fishing supply store.  There are
+various artificial baits hanging all over the walls and a large selection of
+fishing poles on the shelves.  Despite the disgusting nature of dealing with
+slimy fish and live bait, this store is surprisingly clean and tidy.  Near the
+rear of the store is a counter with a cash register on it.  &00
+~
+19 16 0
+D2
+You see nothing special.
+~
+~
+0 -1 1903
+S
+#1905
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1906
+D2
+You see nothing special.
+~
+~
+0 -1 1913
+S
+#1906
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1907
+D2
+You see nothing special.
+~
+~
+0 -1 1914
+D3
+You see nothing special.
+~
+~
+0 -1 1905
+S
+#1907
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1908
+D2
+You see nothing special.
+~
+~
+0 -1 1915
+D3
+You see nothing special.
+~
+~
+0 -1 1906
+S
+#1908
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1909
+D2
+You see nothing special.
+~
+~
+0 -1 1916
+D3
+You see nothing special.
+~
+~
+0 -1 1907
+S
+#1909
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1910
+D2
+You see nothing special.
+~
+~
+0 -1 1917
+D3
+You see nothing special.
+~
+~
+0 -1 1908
+S
+#1910
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1911
+D2
+You see nothing special.
+~
+~
+0 -1 1918
+D3
+You see nothing special.
+~
+~
+0 -1 1909
+S
+#1911
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1919
+D3
+You see nothing special.
+~
+~
+0 -1 1910
+S
+#1912
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1913
+D2
+You see nothing special.
+~
+~
+0 -1 1921
+S
+#1913
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1905
+D1
+You see nothing special.
+~
+~
+0 -1 1914
+D2
+You see nothing special.
+~
+~
+0 -1 1922
+D3
+You see nothing special.
+~
+~
+0 -1 1912
+S
+#1914
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1906
+D1
+You see nothing special.
+~
+~
+0 -1 1915
+D2
+You see nothing special.
+~
+~
+0 -1 1923
+D3
+You see nothing special.
+~
+~
+0 -1 1913
+S
+#1915
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1907
+D1
+You see nothing special.
+~
+~
+0 -1 1916
+D2
+You see nothing special.
+~
+~
+0 -1 1924
+D3
+You see nothing special.
+~
+~
+0 -1 1914
+S
+#1916
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1908
+D1
+You see nothing special.
+~
+~
+0 -1 1917
+D2
+You see nothing special.
+~
+~
+0 -1 1925
+D3
+You see nothing special.
+~
+~
+0 -1 1915
+S
+#1917
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1909
+D1
+You see nothing special.
+~
+~
+0 -1 1918
+D2
+You see nothing special.
+~
+~
+0 -1 1926
+D3
+You see nothing special.
+~
+~
+0 -1 1916
+S
+#1918
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1910
+D1
+You see nothing special.
+~
+~
+0 -1 1919
+D2
+You see nothing special.
+~
+~
+0 -1 1927
+D3
+You see nothing special.
+~
+~
+0 -1 1917
+S
+#1919
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1911
+D1
+You see nothing special.
+~
+~
+0 -1 1920
+D2
+You see nothing special.
+~
+~
+0 -1 1928
+D3
+You see nothing special.
+~
+~
+0 -1 1918
+S
+#1920
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1929
+D3
+You see nothing special.
+~
+~
+0 -1 1919
+S
+#1921
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1912
+D1
+You see nothing special.
+~
+~
+0 -1 1922
+D2
+You see nothing special.
+~
+~
+0 -1 1931
+S
+#1922
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1913
+D1
+You see nothing special.
+~
+~
+0 -1 1923
+D2
+You see nothing special.
+~
+~
+0 -1 1932
+D3
+You see nothing special.
+~
+~
+0 -1 1921
+S
+#1923
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1914
+D1
+You see nothing special.
+~
+~
+0 -1 1924
+D2
+You see nothing special.
+~
+~
+0 -1 1933
+D3
+You see nothing special.
+~
+~
+0 -1 1922
+S
+#1924
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1915
+D1
+You see nothing special.
+~
+~
+0 -1 1925
+D2
+You see nothing special.
+~
+~
+0 -1 1934
+D3
+You see nothing special.
+~
+~
+0 -1 1923
+S
+#1925
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1916
+D1
+You see nothing special.
+~
+~
+0 -1 1926
+D2
+You see nothing special.
+~
+~
+0 -1 1935
+D3
+You see nothing special.
+~
+~
+0 -1 1924
+S
+#1926
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1917
+D1
+You see nothing special.
+~
+~
+0 -1 1927
+D2
+You see nothing special.
+~
+~
+0 -1 1936
+D3
+You see nothing special.
+~
+~
+0 -1 1925
+S
+#1927
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1918
+D1
+You see nothing special.
+~
+~
+0 -1 1928
+D2
+You see nothing special.
+~
+~
+0 -1 1937
+D3
+You see nothing special.
+~
+~
+0 -1 1926
+S
+#1928
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1919
+D1
+You see nothing special.
+~
+~
+0 -1 1929
+D2
+You see nothing special.
+~
+~
+0 -1 1938
+D3
+You see nothing special.
+~
+~
+0 -1 1927
+S
+#1929
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1920
+D2
+You see nothing special.
+~
+~
+0 -1 1939
+D3
+You see nothing special.
+~
+~
+0 -1 1928
+S
+#1930
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1931
+D2
+You see nothing special.
+~
+~
+0 -1 1941
+S
+#1931
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1921
+D1
+You see nothing special.
+~
+~
+0 -1 1932
+D2
+You see nothing special.
+~
+~
+0 -1 1942
+D3
+You see nothing special.
+~
+~
+0 -1 1930
+S
+#1932
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1922
+D1
+You see nothing special.
+~
+~
+0 -1 1933
+D2
+You see nothing special.
+~
+~
+0 -1 1943
+D3
+You see nothing special.
+~
+~
+0 -1 1931
+S
+#1933
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1923
+D1
+You see nothing special.
+~
+~
+0 -1 1934
+D2
+You see nothing special.
+~
+~
+0 -1 1944
+D3
+You see nothing special.
+~
+~
+0 -1 1932
+S
+#1934
+&00&01C&03e&09n&00&07t&03e&01r&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water here is deep enough that it's impossible to see the bottom
+even on the best days.  Because of the distance from the shore there aren't any
+lilipads, clumps of moss, or cattails visible but occasionally a fish leaps
+from the water trying to escape from a larger fish, causing a splash and
+ripples across the placid waters.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1924
+D1
+You see nothing special.
+~
+~
+0 -1 1935
+D2
+You see nothing special.
+~
+~
+0 -1 1945
+D3
+You see nothing special.
+~
+~
+0 -1 1933
+D5
+You see nothing special.
+~
+~
+0 -1 1988
+S
+#1935
+&00&01C&03e&09n&00&07t&03e&01r&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water here is deep enough that it's impossible to see the bottom
+even on the best days.  Because of the distance from the shore there aren't any
+lilipads, clumps of moss, or cattails visible but occasionally a fish leaps
+from the water trying to escape from a larger fish, causing a splash and
+ripples across the placid waters.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1925
+D1
+You see nothing special.
+~
+~
+0 -1 1936
+D2
+You see nothing special.
+~
+~
+0 -1 1946
+D3
+You see nothing special.
+~
+~
+0 -1 1934
+D5
+You see nothing special.
+~
+~
+0 -1 1989
+S
+#1936
+&00&01C&03e&09n&00&07t&03e&01r&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water here is deep enough that it's impossible to see the bottom
+even on the best days.  Because of the distance from the shore there aren't any
+lilipads, clumps of moss, or cattails visible but occasionally a fish leaps
+from the water trying to escape from a larger fish, causing a splash and
+ripples across the placid waters.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1926
+D1
+You see nothing special.
+~
+~
+0 -1 1937
+D2
+You see nothing special.
+~
+~
+0 -1 1947
+D3
+You see nothing special.
+~
+~
+0 -1 1935
+D5
+You see nothing special.
+~
+~
+0 -1 1990
+S
+#1937
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1927
+D1
+You see nothing special.
+~
+~
+0 -1 1938
+D2
+You see nothing special.
+~
+~
+0 -1 1948
+D3
+You see nothing special.
+~
+~
+0 -1 1936
+S
+#1938
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1928
+D1
+You see nothing special.
+~
+~
+0 -1 1939
+D2
+You see nothing special.
+~
+~
+0 -1 1949
+D3
+You see nothing special.
+~
+~
+0 -1 1937
+S
+#1939
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1929
+D1
+You see nothing special.
+~
+~
+0 -1 1940
+D2
+You see nothing special.
+~
+~
+0 -1 1950
+D3
+You see nothing special.
+~
+~
+0 -1 1938
+S
+#1940
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1951
+D3
+You see nothing special.
+~
+~
+0 -1 1939
+S
+#1941
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02Here is the Shore of Rikkai's Pay Lake.  The ground is covered in
+grass almost all the way to the water and small rocks pop up through the blades
+of grass here and there.  The lake is surrounded by a small forest that borders
+the shoreline.  Here the sounds of people enjoying fishing and the sounds of
+the forest blend together.  Though the lake is large the other side of the lake
+is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1930
+D1
+You see nothing special.
+~
+~
+0 -1 1942
+D2
+You see nothing special.
+~
+~
+0 -1 1952
+S
+#1942
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1931
+D1
+You see nothing special.
+~
+~
+0 -1 1943
+D2
+You see nothing special.
+~
+~
+0 -1 1953
+D3
+You see nothing special.
+~
+~
+0 -1 1941
+S
+#1943
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1932
+D1
+You see nothing special.
+~
+~
+0 -1 1944
+D2
+You see nothing special.
+~
+~
+0 -1 1954
+D3
+You see nothing special.
+~
+~
+0 -1 1942
+S
+#1944
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1933
+D1
+You see nothing special.
+~
+~
+0 -1 1945
+D2
+You see nothing special.
+~
+~
+0 -1 1955
+D3
+You see nothing special.
+~
+~
+0 -1 1943
+S
+#1945
+&00&01C&03e&09n&00&07t&03e&01r&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water here is deep enough that it's impossible to see the bottom
+even on the best days.  Because of the distance from the shore there aren't any
+lilipads, clumps of moss, or cattails visible but occasionally a fish leaps
+from the water trying to escape from a larger fish, causing a splash and
+ripples across the placid waters.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1934
+D1
+You see nothing special.
+~
+~
+0 -1 1946
+D2
+You see nothing special.
+~
+~
+0 -1 1956
+D3
+You see nothing special.
+~
+~
+0 -1 1944
+D5
+You see nothing special.
+~
+~
+0 -1 1991
+S
+#1946
+&00&01C&03e&09n&00&07t&03e&01r&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water here is deep enough that it's impossible to see the bottom
+even on the best days.  Because of the distance from the shore there aren't any
+lilipads, clumps of moss, or cattails visible but occasionally a fish leaps
+from the water trying to escape from a larger fish, causing a splash and
+ripples across the placid waters.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1935
+D1
+You see nothing special.
+~
+~
+0 -1 1947
+D2
+You see nothing special.
+~
+~
+0 -1 1957
+D3
+You see nothing special.
+~
+~
+0 -1 1945
+D5
+You see nothing special.
+~
+~
+0 -1 1992
+S
+#1947
+&00&01C&03e&09n&00&07t&03e&01r&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water here is deep enough that it's impossible to see the bottom
+even on the best days.  Because of the distance from the shore there aren't any
+lilipads, clumps of moss, or cattails visible but occasionally a fish leaps
+from the water trying to escape from a larger fish, causing a splash and
+ripples across the placid waters.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1936
+D1
+You see nothing special.
+~
+~
+0 -1 1948
+D2
+You see nothing special.
+~
+~
+0 -1 1958
+D3
+You see nothing special.
+~
+~
+0 -1 1946
+D5
+You see nothing special.
+~
+~
+0 -1 1993
+S
+#1948
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1937
+D1
+You see nothing special.
+~
+~
+0 -1 1949
+D2
+You see nothing special.
+~
+~
+0 -1 1959
+D3
+You see nothing special.
+~
+~
+0 -1 1947
+S
+#1949
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1938
+D1
+You see nothing special.
+~
+~
+0 -1 1950
+D2
+You see nothing special.
+~
+~
+0 -1 1960
+D3
+You see nothing special.
+~
+~
+0 -1 1948
+S
+#1950
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1939
+D1
+You see nothing special.
+~
+~
+0 -1 1951
+D2
+You see nothing special.
+~
+~
+0 -1 1961
+D3
+You see nothing special.
+~
+~
+0 -1 1949
+S
+#1951
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1940
+D1
+You see nothing special.
+~
+~
+0 -1 1903
+D2
+You see nothing special.
+~
+~
+0 -1 1962
+D3
+You see nothing special.
+~
+~
+0 -1 1950
+S
+#1952
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1941
+D1
+You see nothing special.
+~
+~
+0 -1 1953
+S
+#1953
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1942
+D1
+You see nothing special.
+~
+~
+0 -1 1954
+D2
+You see nothing special.
+~
+~
+0 -1 1963
+D3
+You see nothing special.
+~
+~
+0 -1 1952
+S
+#1954
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1943
+D1
+You see nothing special.
+~
+~
+0 -1 1955
+D2
+You see nothing special.
+~
+~
+0 -1 1964
+D3
+You see nothing special.
+~
+~
+0 -1 1953
+S
+#1955
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1944
+D1
+You see nothing special.
+~
+~
+0 -1 1956
+D2
+You see nothing special.
+~
+~
+0 -1 1965
+D3
+You see nothing special.
+~
+~
+0 -1 1954
+S
+#1956
+&00&01C&03e&09n&00&07t&03e&01r&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water here is deep enough that it's impossible to see the bottom
+even on the best days.  Because of the distance from the shore there aren't any
+lilipads, clumps of moss, or cattails visible but occasionally a fish leaps
+from the water trying to escape from a larger fish, causing a splash and
+ripples across the placid waters.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1945
+D1
+You see nothing special.
+~
+~
+0 -1 1957
+D2
+You see nothing special.
+~
+~
+0 -1 1966
+D3
+You see nothing special.
+~
+~
+0 -1 1955
+D5
+You see nothing special.
+~
+~
+0 -1 1994
+S
+#1957
+&00&01C&03e&09n&00&07t&03e&01r&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water here is deep enough that it's impossible to see the bottom
+even on the best days.  Because of the distance from the shore there aren't any
+lilipads, clumps of moss, or cattails visible but occasionally a fish leaps
+from the water trying to escape from a larger fish, causing a splash and
+ripples across the placid waters.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1946
+D1
+You see nothing special.
+~
+~
+0 -1 1958
+D2
+You see nothing special.
+~
+~
+0 -1 1967
+D3
+You see nothing special.
+~
+~
+0 -1 1956
+D5
+You see nothing special.
+~
+~
+0 -1 1995
+S
+#1958
+&00&01C&03e&09n&00&07t&03e&01r&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water here is deep enough that it's impossible to see the bottom
+even on the best days.  Because of the distance from the shore there aren't any
+lilipads, clumps of moss, or cattails visible but occasionally a fish leaps
+from the water trying to escape from a larger fish, causing a splash and
+ripples across the placid waters.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1947
+D1
+You see nothing special.
+~
+~
+0 -1 1959
+D2
+You see nothing special.
+~
+~
+0 -1 1968
+D3
+You see nothing special.
+~
+~
+0 -1 1957
+D5
+You see nothing special.
+~
+~
+0 -1 1996
+S
+#1959
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1948
+D1
+You see nothing special.
+~
+~
+0 -1 1960
+D2
+You see nothing special.
+~
+~
+0 -1 1969
+D3
+You see nothing special.
+~
+~
+0 -1 1958
+S
+#1960
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1949
+D1
+You see nothing special.
+~
+~
+0 -1 1961
+D2
+You see nothing special.
+~
+~
+0 -1 1970
+D3
+You see nothing special.
+~
+~
+0 -1 1959
+S
+#1961
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1950
+D1
+You see nothing special.
+~
+~
+0 -1 1962
+D2
+You see nothing special.
+~
+~
+0 -1 1971
+D3
+You see nothing special.
+~
+~
+0 -1 1960
+S
+#1962
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1951
+D3
+You see nothing special.
+~
+~
+0 -1 1961
+S
+#1963
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1953
+D1
+You see nothing special.
+~
+~
+0 -1 1964
+D2
+You see nothing special.
+~
+~
+0 -1 1972
+S
+#1964
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lilipads and patches of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1954
+D1
+You see nothing special.
+~
+~
+0 -1 1965
+D2
+You see nothing special.
+~
+~
+0 -1 1973
+D3
+You see nothing special.
+~
+~
+0 -1 1963
+S
+#1965
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lilipads and patches of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1955
+D1
+You see nothing special.
+~
+~
+0 -1 1966
+D2
+You see nothing special.
+~
+~
+0 -1 1974
+D3
+You see nothing special.
+~
+~
+0 -1 1964
+S
+#1966
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lilipads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1956
+D1
+You see nothing special.
+~
+~
+0 -1 1967
+D2
+You see nothing special.
+~
+~
+0 -1 1975
+D3
+You see nothing special.
+~
+~
+0 -1 1965
+S
+#1967
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1957
+D1
+You see nothing special.
+~
+~
+0 -1 1968
+D2
+You see nothing special.
+~
+~
+0 -1 1976
+D3
+You see nothing special.
+~
+~
+0 -1 1966
+S
+#1968
+&00&16O&00&03u&07t&00 &00&14in the&00 &00&12L&00&07a&15k&12e&00~
+   &00&12The water is signifigantly deeper here but the bottom of the lake is
+still visible from the surface.  There are a few lillypads floating along the
+surface of the water here and occasionally clumps of green moss can be seen
+floating around.  Down below the surface of the water there are many large
+rocks decorating the bottom of the lake.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1958
+D1
+You see nothing special.
+~
+~
+0 -1 1969
+D2
+You see nothing special.
+~
+~
+0 -1 1977
+D3
+You see nothing special.
+~
+~
+0 -1 1967
+S
+#1969
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1959
+D1
+You see nothing special.
+~
+~
+0 -1 1970
+D2
+You see nothing special.
+~
+~
+0 -1 1978
+D3
+You see nothing special.
+~
+~
+0 -1 1968
+S
+#1970
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1960
+D1
+You see nothing special.
+~
+~
+0 -1 1971
+D2
+You see nothing special.
+~
+~
+0 -1 1979
+D3
+You see nothing special.
+~
+~
+0 -1 1969
+S
+#1971
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1961
+D2
+You see nothing special.
+~
+~
+0 -1 1980
+D3
+You see nothing special.
+~
+~
+0 -1 1970
+S
+#1972
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1963
+D1
+You see nothing special.
+~
+~
+0 -1 1973
+S
+#1973
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1964
+D1
+You see nothing special.
+~
+~
+0 -1 1974
+D2
+You see nothing special.
+~
+~
+0 -1 1981
+D3
+You see nothing special.
+~
+~
+0 -1 1972
+S
+#1974
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1965
+D1
+You see nothing special.
+~
+~
+0 -1 1975
+D2
+You see nothing special.
+~
+~
+0 -1 1982
+D3
+You see nothing special.
+~
+~
+0 -1 1973
+S
+#1975
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1966
+D1
+You see nothing special.
+~
+~
+0 -1 1976
+D2
+You see nothing special.
+~
+~
+0 -1 1983
+D3
+You see nothing special.
+~
+~
+0 -1 1974
+S
+#1976
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1967
+D1
+You see nothing special.
+~
+~
+0 -1 1977
+D2
+You see nothing special.
+~
+~
+0 -1 1984
+D3
+You see nothing special.
+~
+~
+0 -1 1975
+S
+#1977
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1968
+D1
+You see nothing special.
+~
+~
+0 -1 1978
+D2
+You see nothing special.
+~
+~
+0 -1 1985
+D3
+You see nothing special.
+~
+~
+0 -1 1976
+S
+#1978
+&00&07S&15h&00&07a&15l&00&07l&15o&00&07w&00 &00&12W&14a&00&04t&14e&12r&00~
+   &00&14The water is only a few feet deep at the most in places but some
+smaller fish still swim up this close to the shore to avoid larger predatory
+fish.  There are lillypads and patchs of cattails spotting the surface of the
+water here.  Occasionally clumps of green moss can be seen floating around.  
+Down below the surface of the water there are many large rocks decorating the
+bottom of the lake.  &00
+~
+19 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 1969
+D1
+You see nothing special.
+~
+~
+0 -1 1979
+D2
+You see nothing special.
+~
+~
+0 -1 1986
+D3
+You see nothing special.
+~
+~
+0 -1 1977
+S
+#1979
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1970
+D1
+You see nothing special.
+~
+~
+0 -1 1980
+D2
+You see nothing special.
+~
+~
+0 -1 1987
+D3
+You see nothing special.
+~
+~
+0 -1 1978
+S
+#1980
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1971
+D3
+You see nothing special.
+~
+~
+0 -1 1979
+S
+#1981
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1973
+D1
+You see nothing special.
+~
+~
+0 -1 1982
+S
+#1982
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1974
+D1
+You see nothing special.
+~
+~
+0 -1 1983
+D3
+You see nothing special.
+~
+~
+0 -1 1981
+S
+#1983
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1975
+D1
+You see nothing special.
+~
+~
+0 -1 1984
+D3
+You see nothing special.
+~
+~
+0 -1 1982
+S
+#1984
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1976
+D1
+You see nothing special.
+~
+~
+0 -1 1985
+D3
+You see nothing special.
+~
+~
+0 -1 1983
+S
+#1985
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1977
+D1
+You see nothing special.
+~
+~
+0 -1 1986
+D3
+You see nothing special.
+~
+~
+0 -1 1984
+S
+#1986
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1978
+D1
+You see nothing special.
+~
+~
+0 -1 1987
+D3
+You see nothing special.
+~
+~
+0 -1 1985
+S
+#1987
+&00&12L&00&07a&15k&12e&00 &00&03S&02h&07o&02r&03e&00~
+   &00&02The shore of Rikkai's Pay Lake is covered in grass almost all the way
+to the water.  Small rocks pop up through the blades of grass in a few places.
+A small forest borders most of the shoreline.  The sounds of people enjoying
+fishing and the sounds of the forest blend together.  Though the lake is large,
+the other side of the lake is clearly visible.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1979
+D3
+You see nothing special.
+~
+~
+0 -1 1986
+S
+#1988
+&00&04B&12o&00&04tt&12o&00&04m&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&04Down here on the bottom the water is very cold so only fish that like
+cold water stay here for long.  There are many things that people have dropped
+in the lake mixed in with the silt.  Sun glasses, fishing poles, lost fishing
+lures, even empty fishing worm containers litter the bottom and mingle with the
+mud.  There are also remains here and there of small fishing boats that have
+sunk for various reasons.  &00
+~
+19 0 7
+D1
+You see nothing special.
+~
+~
+0 -1 1989
+D2
+You see nothing special.
+~
+~
+0 -1 1991
+D4
+You see nothing special.
+~
+~
+0 -1 1934
+S
+#1989
+&00&04B&12o&00&04tt&12o&00&04m&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&04Down here on the bottom the water is very cold so only fish that like
+cold water stay here for long.  There are many things that people have dropped
+in the lake mixed in with the silt.  Sun glasses, fishing poles, lost fishing
+lures, even empty fishing worm containers litter the bottom and mingle with the
+mud.  There are also remains here and there of small fishing boats that have
+sunk for various reasons.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1990
+D2
+You see nothing special.
+~
+~
+0 -1 1992
+D3
+You see nothing special.
+~
+~
+0 -1 1988
+D4
+You see nothing special.
+~
+~
+0 -1 1935
+S
+#1990
+&00&04B&12o&00&04tt&12o&00&04m&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&04Down here on the bottom the water is very cold so only fish that like
+cold water stay here for long.  There are many things that people have dropped
+in the lake mixed in with the silt.  Sun glasses, fishing poles, lost fishing
+lures, even empty fishing worm containers litter the bottom and mingle with the
+mud.  There are also remains here and there of small fishing boats that have
+sunk for various reasons.  &00
+~
+19 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1993
+D3
+You see nothing special.
+~
+~
+0 -1 1989
+D4
+You see nothing special.
+~
+~
+0 -1 1936
+S
+#1991
+&00&04B&12o&00&04tt&12o&00&04m&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&04Down here on the bottom the water is very cold so only fish that like
+cold water stay here for long.  There are many things that people have dropped
+in the lake mixed in with the silt.  Sun glasses, fishing poles, lost fishing
+lures, even empty fishing worm containers litter the bottom and mingle with the
+mud.  There are also remains here and there of small fishing boats that have
+sunk for various reasons.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1988
+D1
+You see nothing special.
+~
+~
+0 -1 1992
+D2
+You see nothing special.
+~
+~
+0 -1 1994
+D4
+You see nothing special.
+~
+~
+0 -1 1945
+S
+#1992
+&00&04B&12o&00&04tt&12o&00&04m&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&04Down here on the bottom the water is very cold so only fish that like
+cold water stay here for long.  There are many things that people have dropped
+in the lake mixed in with the silt.  Sun glasses, fishing poles, lost fishing
+lures, even empty fishing worm containers litter the bottom and mingle with the
+mud.  There are also remains here and there of small fishing boats that have
+sunk for various reasons.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1989
+D1
+You see nothing special.
+~
+~
+0 -1 1993
+D2
+You see nothing special.
+~
+~
+0 -1 1995
+D3
+You see nothing special.
+~
+~
+0 -1 1991
+D4
+You see nothing special.
+~
+~
+0 -1 1946
+S
+#1993
+&00&04B&12o&00&04tt&12o&00&04m&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&04Down here on the bottom the water is very cold so only fish that like
+cold water stay here for long.  There are many things that people have dropped
+in the lake mixed in with the silt.  Sun glasses, fishing poles, lost fishing
+lures, even empty fishing worm containers litter the bottom and mingle with the
+mud.  There are also remains here and there of small fishing boats that have
+sunk for various reasons.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1990
+D2
+You see nothing special.
+~
+~
+0 -1 1996
+D3
+You see nothing special.
+~
+~
+0 -1 1992
+D4
+You see nothing special.
+~
+~
+0 -1 1947
+S
+#1994
+&00&04B&12o&00&04tt&12o&00&04m&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&04Down here on the bottom the water is very cold so only fish that like
+cold water stay here for long.  There are many things that people have dropped
+in the lake mixed in with the silt.  Sun glasses, fishing poles, lost fishing
+lures, even empty fishing worm containers litter the bottom and mingle with the
+mud.  There are also remains here and there of small fishing boats that have
+sunk for various reasons.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1991
+D1
+You see nothing special.
+~
+~
+0 -1 1995
+D4
+You see nothing special.
+~
+~
+0 -1 1956
+S
+#1995
+&00&04B&12o&00&04tt&12o&00&04m&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&04Down here on the bottom the water is very cold so only fish that like
+cold water stay here for long.  There are many things that people have dropped
+in the lake mixed in with the silt.  Sun glasses, fishing poles, lost fishing
+lures, even empty fishing worm containers litter the bottom and mingle with the
+mud.  There are also remains here and there of small fishing boats that have
+sunk for various reasons.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1992
+D1
+You see nothing special.
+~
+~
+0 -1 1996
+D3
+You see nothing special.
+~
+~
+0 -1 1994
+D4
+You see nothing special.
+~
+~
+0 -1 1957
+S
+#1996
+&00&04B&12o&00&04tt&12o&00&04m&00 &00&14of the&00 &00&12L&00&07a&15k&12e&00~
+   &00&04Down here on the bottom the water is very cold so only fish that like
+cold water stay here for long.  There are many things that people have dropped
+in the lake mixed in with the silt.  Sun glasses, fishing poles, lost fishing
+lures, even empty fishing worm containers litter the bottom and mingle with the
+mud.  There are also remains here and there of small fishing boats that have
+sunk for various reasons.  &00
+~
+19 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1993
+D3
+You see nothing special.
+~
+~
+0 -1 1995
+D4
+You see nothing special.
+~
+~
+0 -1 1958
+S
+#1997
+&00&03S&15o&00&04gg&00&03y P&16a&00&03th&00~
+   &00&03A small muddy path covered in small footprints filled with water winds
+its way out towards a moderately sized lake.  The sound of insects fills the
+air as they dart back and forth across the path.  &00
+~
+19 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 1371
+D3
+You see nothing special.
+~
+~
+0 -1 1998
+S
+#1998
+&00&03S&15o&00&04gg&00&03y P&16a&00&03th&00~
+   &00&03A small muddy path covered in small footprints filled with water winds
+its way out towards a moderately sized lake.  The sound of insects fills the
+air as they dart back and forth across the path.  &00
+~
+19 8192 0
+D0
+~
+~
+0 0 -1
+D1
+You see nothing special.
+~
+~
+0 -1 1997
+D2
+~
+~
+0 0 -1
+D3
+You see nothing special.
+~
+~
+0 -1 1999
+D5
+~
+~
+0 0 -1
+S
+#1999
+&00&03S&15o&00&04gg&00&03y P&16a&00&03th&00~
+   &00&03A small muddy path covered in small footprints filled with water winds
+its way out towards a moderately sized lake.  The sound of insects fills the
+air as they dart back and forth across the path.  &00
+~
+19 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1998
+D3
+You see nothing special.
+~
+~
+0 -1 1900
+S
+$~

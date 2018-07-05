@@ -1,0 +1,197 @@
+#300
+a toilet~
+&10a toilet&00~
+&10A toilet is placed here against the wall.&00~
+~
+0 0 0
+0 0 0 0
+0 0 0
+#301
+&03An Orange Gi&00~
+&03An Orange Gi&00~
+&03An Orange Gi has been dropped here.&00~
+Nothing.
+~
+9 3 9
+-200 0 0 0
+0 1000 0
+A
+19 10
+A
+18 10
+A
+1 2
+A
+13 100
+#302
+&03Orange Pants&00~
+&03Orange Pants&00~
+&03Someone left there Orange Pants here.&00~
+~
+9 3 33
+20 0 0 0
+0 1000 0
+A
+19 5
+A
+18 5
+#303
+&12A Blue Belt&00~
+&12A Blue Belt&00~
+&12A Blue Belt has been tossed here.&00~
+~
+9 3 2049
+15 0 0 0
+0 1000 0
+A
+19 3
+A
+18 3
+#304
+&12A blue wristband&00~
+&12A blue wristband&00~
+&12A blue wristband has been dropped here.&00~
+~
+9 3 4097
+5 0 0 0
+0 1000 0
+#305
+&09A Red Belt&00~
+&09A Red Belt&00~
+&09A Red Belt has been tossed here.&00~
+~
+9 3 2049
+10 0 0 0
+0 1000 0
+A
+19 3
+A
+18 3
+#306
+&09A red wristband&00~
+&09A red wristband&00~
+&09A red wristband has been lost here.&00~
+~
+9 3 4097
+5 0 0 0
+0 1000 0
+#307
+&12A blue Gi&00~
+&12A blue Gi&00~
+&12A blue Gi is here.&00~
+~
+9 3 9
+20 0 0 0
+0 1000 0
+A
+19 10
+A
+18 10
+#308
+Black Boots~
+&16black&16 &00boots&00~
+&00some &00&16black&16 &00boots are lying here.&00~
+~
+9 0 65
+10 0 0 0
+0 1000 0
+#309
+&12Blue Pants&00~
+&12Blue Pants&00~
+&12Blue Pants are lying here.&00~
+~
+9 3 33
+20 0 0 0
+0 1000 0
+A
+19 5
+A
+18 5
+#310
+a tiny Majin statue~
+a tiny &13Majin&00 statue~
+Its a small statue of Daos.~
+~
+8 0 1
+0 0 0 0
+0 0 0
+#311
+a large candycane sign~
+&09A &15C&09a&15n&09d&15y&09c&15a&09n&15e &09S&15i&09g&15n&00~
+&09A &15C&09a&15n&09d&15y&09c&15a&09n&15e &09S&15i&09g&15n&15 is stuck in the ground here.~
+~
+0 0 0
+0 0 0 0
+0 0 0
+E
+sign candy cane candycane~
+Construction payed for and owned by: &13Daos&00
+Builder of the area: &13Kastion&00
+~
+#312
+a large statue of buu daos and kastion fountain~
+&13A large fountain&00~
+&13A large fountain with a statue of Kastion standing in the middle of Daos and Buu is here.&00~
+~
+23 0 0
+2147483647 2147483647 10 0
+2147483647 0 0
+#320
+Holy Water Warning Sign~
+&00&07H&14o&00&07l&15y &14W&00&06at&12e&00&04r &00&01Warning &15Sign&00~
+&00A &00&07H&14o&00&07l&15y &14W&00&06at&12e&00&04r &00&01Warning &15Sign&00 is posted here.~
+Nothing.
+~
+12 0 0
+0 0 0 0
+0 0 0
+E
+holy water warning sign~
+   &15A warning to all of those who wish to make use of Holy Water to increase
+their power.  Holy water is a special substance that is heavily infused with
+ki.  As such, these items are NOT USABLE in rooms protected against ki, such as
+shops and the recall points on each planet.  If you use the Holy water there,
+they will be consumed and give no effect.  There will be no reimbursements
+made, so do not waste your holy waters.  If you unsure whether or not the room
+allows ki, try using a ki ability to be sure.  &00
+~
+#330
+golden saiyan armor~
+&11Golden &07Saiyan Armor&00~
+A one-of-a-kind &11Golden &07Saiyan Armor&00 lies here.~
+~
+9 0 9
+-30 0 0 0
+0 0 0
+A
+18 10
+A
+19 10
+A
+12 100
+A
+2 10
+#344
+white ruffled collar~
+&15White &16ruffled collar&00~
+A white collar is lying here.~
+~
+9 0 5
+35 0 0 0
+2 0 0
+A
+12 100
+A
+17 -15
+A
+1 4
+#390
+a large bed~
+large bed~
+A large bed is resting against the corner.~
+The bed is made nicely.
+~
+13 0 0
+0 0 0 0
+0 0 0
+$~

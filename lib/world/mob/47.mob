@@ -1,0 +1,106 @@
+#4701
+Bubbles~
+&14B&00&06u&00&11bb&00&06l&00&10e&00&14s&00~
+&14B&00&06u&00&11bb&00&06l&00&10e&00&14s&00 &15is sitting here under the shade of a tree.&00
+~
+&14B&00&06u&00&11bb&00&06l&00&10e&00&14s&00 &15is a monkey and King Kai's Loyal friend.  He helps King Kai train the visitors who come to see him.&00
+~
+10 0 0 E
+99 20 10 1d1+5000 30d5+0
+500 25000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 4701
+#4702
+Pikkon~
+&05P&00&11i&00&03kk&00&11o&00&05n&00~
+&05P&00&11i&00&03kk&00&11o&00&05n&00 &15stands here waiting to train you.&00
+~
+&05P&00&11i&00&03kk&00&11o&00&05n&00 &15follows the orders of King Kai to train you after you've helped King Kai.&00
+~
+65546 0 0 E
+950000 -480 20 1000d1000+1000000000 100d100+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 4705
+T 4706
+#4703
+Kaioshin Warrior~
+&11Ka&00&14i&00&06o&00&14s&00&06h&00&11in&00 &09W&00&01ar&00ri&00&01o&00&09r&00~
+&15A &00&11Ka&00&14i&00&06o&00&14s&00&06h&00&11in&00 &09W&00&01ar&00ri&00&01o&00&09r&00 &15stands here ready to fight you.&00
+~
+&11Ka&00&14i&00&06o&00&14s&00&06h&00&11in&00 &09W&00&01ar&00ri&00&01o&00&09r&00 &15stands here waiting to help you train following Pikkon's commands.&00
+~
+10 0 0 E
+0 -40 0 1d1+500000 1d1+5000
+0 2000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4704
+Tien~
+&10T&00&11i&00&03e&15n&00~
+&10T&00&11i&00&03e&15n&00 &15is here training.&00
+~
+&10T&00&11i&00&03e&15n&00 &15is one of the most powerful people on earth.  But it would seem he is dead right now.&00
+~
+81946 128 1000 E
+50 -60 10 1d1+1000000 10d10+70000
+700 3500000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4711
+King Yema~
+&11K&00&03i&00&11n&00&03g&00 &09Y&00&05e&00&01m&00a~
+&11K&00&03i&00&11n&00&03g &09Y&00&05e&00&01m&16a&00 &15is sitting on his chair, writing in a book.&00
+~
+   King Yema is the judge of souls who come to the next dimension hopefully he
+will pass good judgment on you.    
+~
+81930 0 0 E
+300000 -60 10 0d0+35000000 0d0+345000
+12000 30000000
+8 8 0
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 4711
+#4730
+King Kai~
+&11K&00&03in&00&11g &00&14K&00&10a&00&14i&00~
+&11K&00&03in&00&11g &00&14K&00&10a&00&14i&00 &15stands here looking at you.&00
+~
+&15This is the legendary &00&11K&00&03in&00&11g &00&14K&00&10a&00&14i&00 &15of the next dimension.  He is one of the greatest trainers.&00
+~
+10 0 0 E
+100 19 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 4702
+T 4703
+$

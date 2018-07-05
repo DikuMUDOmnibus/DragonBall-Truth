@@ -1,0 +1,1883 @@
+#2200
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2199
+D1
+You see nothing special.
+~
+~
+0 -1 2203
+D3
+~
+~
+0 0 2197
+S
+#2201
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+22 8 0
+D2
+~
+~
+0 0 2202
+D3
+~
+~
+0 0 2198
+S
+#2202
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+22 4 0
+D0
+~
+~
+0 0 2201
+D1
+~
+~
+0 0 2204
+D2
+~
+~
+0 0 2203
+D3
+~
+~
+0 0 2199
+S
+#2203
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2202
+D3
+~
+~
+0 0 2200
+S
+#2204
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+22 4 0
+D1
+~
+~
+0 0 2205
+D3
+~
+~
+0 0 2202
+S
+#2205
+&10G&00&02lu&10g &00&01V&09o&15l&00&01c&16a&09n&15o &16Cavern&00~
+   &00&01Heat fills this winding cave, accompanied by thin streams of lava
+running down and out of the cave in a tiny stream.  Rocks fall from the cave
+ceiling every now and then, shook loose by the rumbling volcano.  &00
+~
+22 0 0
+D1
+Four hallways come together forming a junction to the east.
+~
+~
+0 0 2206
+D3
+A small landing pad is to the west.
+~
+~
+0 0 2204
+S
+#2206
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D1
+An empty hallway leads east.
+~
+~
+0 0 2207
+D3
+~
+~
+0 0 2205
+S
+#2207
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D1
+~
+~
+0 0 2208
+D3
+~
+~
+0 0 2206
+S
+#2208
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D1
+Nothing.
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 2207
+D4
+~
+~
+0 0 2209
+S
+#2209
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 4 0
+D1
+~
+~
+0 0 2210
+D5
+~
+~
+0 0 2208
+S
+T 2200
+#2210
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2211
+D1
+~
+~
+0 0 2213
+D2
+~
+~
+0 0 2212
+D3
+~
+~
+0 0 2209
+S
+#2211
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D1
+~
+~
+0 0 2214
+D2
+~
+~
+0 0 2210
+S
+#2212
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2210
+D1
+~
+~
+0 0 2215
+S
+#2213
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2214
+D1
+~
+~
+0 0 2216
+D2
+~
+~
+0 0 2215
+D3
+~
+~
+0 0 2210
+S
+#2214
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D1
+~
+~
+0 0 2217
+D2
+~
+~
+0 0 2213
+D3
+~
+~
+0 0 2211
+S
+#2215
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2213
+D1
+~
+~
+0 0 2218
+D3
+~
+~
+0 0 2212
+S
+#2216
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2217
+D1
+~
+~
+0 0 2219
+D2
+~
+~
+0 0 2218
+D3
+~
+~
+0 0 2213
+S
+#2217
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D2
+~
+~
+0 0 2216
+D3
+~
+~
+0 0 2214
+S
+#2218
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &16Shaft&00~
+   &00&01Heat continuously fills this room, as super heated molten lava flows
+past the thin walkway.  The noxious gases of the volcano filter through these
+shafts, smothering all breathing lifeforms.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2216
+D3
+~
+~
+0 0 2215
+S
+#2219
+&00&01V&09o&15l&00&01c&16a&09n&15o &09L&11a&15v&09a &15Pool&00~
+   &00&01Lava fills most of this area, so hot that things burn up only a few
+feet away from the molten rock.  The noxious gases of the volcano are the worst
+here, and charred bones of various creatures litter the shores of the lava
+pool...  &00
+~
+22 4 0
+D1
+~
+boulder~
+1 2124 2220
+D3
+~
+~
+0 0 2216
+S
+#2220
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 1 2
+D1
+~
+~
+0 0 2221
+D3
+~
+boulder~
+1 2124 2219
+S
+#2221
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D1
+~
+~
+0 0 2222
+D3
+~
+~
+0 0 2220
+S
+#2222
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D2
+~
+~
+0 0 2223
+D3
+~
+~
+0 0 2221
+S
+#2223
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D0
+~
+~
+0 0 2222
+D1
+~
+~
+0 0 2224
+S
+#2224
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 4 2
+D2
+~
+~
+0 0 2225
+D3
+~
+~
+0 0 2223
+S
+#2225
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D0
+~
+~
+0 0 2224
+D1
+~
+~
+0 0 2226
+D2
+~
+~
+0 0 2228
+D3
+~
+~
+0 0 2227
+S
+#2226
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D2
+~
+~
+0 0 2229
+D3
+~
+~
+0 0 2225
+S
+#2227
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D1
+~
+~
+0 0 2225
+D2
+~
+~
+0 0 2230
+S
+#2228
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D0
+~
+~
+0 0 2225
+D1
+~
+~
+0 0 2229
+D2
+You see nothing special.
+~
+~
+0 -1 2231
+D3
+~
+~
+0 0 2230
+S
+#2229
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D0
+~
+~
+0 0 2226
+D2
+You see nothing special.
+~
+~
+0 -1 2232
+D3
+~
+~
+0 0 2228
+S
+#2230
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D0
+~
+~
+0 0 2227
+D1
+~
+~
+0 0 2228
+D2
+You see nothing special.
+~
+~
+0 -1 2233
+S
+#2231
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D0
+~
+~
+0 0 2228
+D1
+~
+~
+0 0 2232
+D2
+You see nothing special.
+~
+~
+0 -1 2234
+D3
+~
+~
+0 0 2233
+S
+#2232
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D0
+~
+~
+0 0 2229
+D3
+~
+~
+0 0 2231
+S
+#2233
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 0 2
+D0
+~
+~
+0 0 2230
+D1
+~
+~
+0 0 2231
+S
+#2234
+&16H&15i&00&07dd&15e&16n &00&04C&12a&14v&00&06e&00&04r&12n&00~
+   &15This is a hidden cave built by Glug himself.  It's air is noticably
+cooler, with a brisk wind being funneled down the cavern.  The lava flow of the
+Volcano bypasses this cave completly, leaving it a comfortable temperature.  
+&00
+~
+22 4 2
+D0
+~
+~
+0 0 2231
+D2
+You see nothing special.
+~
+~
+0 -1 2235
+S
+#2235
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &00&03Path&00~
+   &15Rare rocks and gems litter this thin part of the cave.  Gleaming brightly
+with any source of light.  Strange creatures taht live off of the minerals that
+are found here, lurk about.  In the dark shadows red glowing eyes can somtimes
+be seen.  &00
+~
+22 0 2
+D0
+~
+~
+0 0 2234
+D2
+~
+~
+0 0 2236
+S
+#2236
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &00&03Path&00~
+   &15Rare rocks and gems litter this thin part of the cave.  Gleaming brightly
+with any source of light.  Strange creatures taht live off of the minerals that
+are found here, lurk about.  In the dark shadows red glowing eyes can somtimes
+be seen.  &00
+~
+22 0 2
+D0
+~
+~
+0 0 2235
+D1
+~
+~
+0 0 2237
+S
+#2237
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &00&03Path&00~
+   &15Rare rocks and gems litter this thin part of the cave.  Gleaming brightly
+with any source of light.  Strange creatures taht live off of the minerals that
+are found here, lurk about.  In the dark shadows red glowing eyes can somtimes
+be seen.  &00
+~
+22 0 2
+D2
+~
+~
+0 0 2238
+D3
+~
+~
+0 0 2236
+S
+#2238
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &00&03Path&00~
+   &15Rare rocks and gems litter this thin part of the cave.  Gleaming brightly
+with any source of light.  Strange creatures taht live off of the minerals that
+are found here, lurk about.  In the dark shadows red glowing eyes can somtimes
+be seen.  &00
+~
+22 0 2
+D0
+~
+~
+0 0 2237
+D2
+~
+~
+0 0 2239
+S
+#2239
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &00&03Path&00~
+   &15Rare rocks and gems litter this thin part of the cave.  Gleaming brightly
+with any source of light.  Strange creatures taht live off of the minerals that
+are found here, lurk about.  In the dark shadows red glowing eyes can somtimes
+be seen.  &00
+~
+22 4 2
+D0
+~
+~
+0 0 2238
+D2
+~
+~
+0 0 2240
+S
+#2240
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &12Ch&00&04amb&12er&00~
+   &15This is a large open chamber, full of the same minerals as seen before.
+An echo accompanies every action in this chamber, giving it a spooky quality
+magnified by the strange reflextions from the larger minerals....  &00
+~
+22 0 2
+D0
+~
+~
+0 0 2239
+D1
+~
+~
+0 0 2241
+D2
+You see nothing special.
+~
+~
+0 -1 2243
+D3
+~
+~
+0 0 2242
+S
+#2241
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &12Ch&00&04amb&12er&00~
+   &15This is a large open chamber, full of the same minerals as seen before.
+An echo accompanies every action in this chamber, giving it a spooky quality
+magnified by the strange reflextions from the larger minerals....  &00
+~
+22 0 2
+D2
+~
+~
+0 0 2244
+D3
+~
+~
+0 0 2240
+S
+#2242
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &12Ch&00&04amb&12er&00~
+   &15This is a large open chamber, full of the same minerals as seen before.
+An echo accompanies every action in this chamber, giving it a spooky quality
+magnified by the strange reflextions from the larger minerals....  &00
+~
+22 0 0
+D1
+~
+~
+0 0 2240
+D2
+You see nothing special.
+~
+~
+0 -1 2245
+S
+#2243
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &12Ch&00&04amb&12er&00~
+   &15This is a large open chamber, full of the same minerals as seen before.
+An echo accompanies every action in this chamber, giving it a spooky quality
+magnified by the strange reflextions from the larger minerals....  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2240
+D1
+You see nothing special.
+~
+~
+0 -1 2244
+D2
+You see nothing special.
+~
+~
+0 -1 2246
+D3
+You see nothing special.
+~
+~
+0 -1 2245
+S
+#2244
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &12Ch&00&04amb&12er&00~
+   &15This is a large open chamber, full of the same minerals as seen before.
+An echo accompanies every action in this chamber, giving it a spooky quality
+magnified by the strange reflextions from the larger minerals....  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2241
+D2
+You see nothing special.
+~
+~
+0 -1 2247
+D3
+You see nothing special.
+~
+~
+0 -1 2243
+S
+#2245
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &12Ch&00&04amb&12er&00~
+   &15This is a large open chamber, full of the same minerals as seen before.
+An echo accompanies every action in this chamber, giving it a spooky quality
+magnified by the strange reflextions from the larger minerals....  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2242
+D1
+You see nothing special.
+~
+~
+0 -1 2243
+D2
+You see nothing special.
+~
+~
+0 -1 2248
+S
+#2246
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &12Ch&00&04amb&12er&00~
+   &15This is a large open chamber, full of the same minerals as seen before.
+An echo accompanies every action in this chamber, giving it a spooky quality
+magnified by the strange reflextions from the larger minerals....  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2243
+D1
+You see nothing special.
+~
+~
+0 -1 2247
+D3
+You see nothing special.
+~
+~
+0 -1 2248
+S
+#2247
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &12Ch&00&04amb&12er&00~
+   &15This is a large open chamber, full of the same minerals as seen before.
+An echo accompanies every action in this chamber, giving it a spooky quality
+magnified by the strange reflextions from the larger minerals....  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2244
+D3
+You see nothing special.
+~
+~
+0 -1 2246
+S
+#2248
+&14C&00&07r&00&06y&12s&14t&00&07a&00&06l &12Ch&00&04amb&12er&00~
+   &15This is a large open chamber, full of the same minerals as seen before.
+An echo accompanies every action in this chamber, giving it a spooky quality
+magnified by the strange reflextions from the larger minerals....  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2245
+D1
+You see nothing special.
+~
+~
+0 -1 2246
+S
+#2249
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A long winding dirt path, patches of the road are covered in piles of
+snow, giving it a gloomy look to travelers who dare to venture down it.  A dark
+frozen forest looms far down the path&00.    
+~
+22 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2250
+D2
+~
+~
+0 0 2138
+S
+#2250
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2252
+D2
+~
+~
+0 0 2249
+D3
+You see nothing special.
+~
+~
+0 -1 2251
+S
+#2251
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2253
+D1
+~
+~
+0 0 2250
+S
+#2252
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2269
+D3
+~
+~
+0 0 2250
+S
+#2253
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2254
+D2
+~
+~
+0 0 2251
+S
+#2254
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2255
+D2
+~
+~
+0 0 2253
+S
+#2255
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D2
+~
+~
+0 0 2254
+D3
+You see nothing special.
+~
+~
+0 -1 2256
+S
+#2256
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2257
+D1
+~
+~
+0 0 2255
+D3
+You see nothing special.
+~
+~
+0 -1 2259
+S
+#2257
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2258
+D2
+~
+~
+0 0 2256
+S
+#2258
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2265
+D2
+~
+~
+0 0 2257
+S
+#2259
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D1
+~
+~
+0 0 2256
+D3
+You see nothing special.
+~
+~
+0 -1 2260
+S
+#2260
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2261
+D1
+~
+~
+0 0 2259
+S
+#2261
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2262
+D2
+~
+~
+0 0 2260
+S
+#2262
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2263
+D2
+~
+~
+0 0 2261
+S
+#2263
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2264
+D2
+~
+~
+0 0 2262
+S
+#2264
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2265
+D3
+~
+~
+0 0 2263
+S
+#2265
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2266
+D2
+~
+~
+0 0 2258
+D3
+~
+~
+0 0 2264
+S
+#2266
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2267
+D3
+~
+~
+0 0 2265
+S
+#2267
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2278
+D1
+You see nothing special.
+~
+~
+0 -1 2268
+D3
+~
+~
+0 0 2266
+S
+#2268
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 2277
+D3
+~
+~
+0 0 2267
+S
+#2269
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2270
+D3
+~
+~
+0 0 2252
+S
+#2270
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2271
+D3
+~
+~
+0 0 2269
+S
+#2271
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2272
+D2
+~
+~
+0 0 2270
+S
+#2272
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2273
+D2
+~
+~
+0 0 2271
+S
+#2273
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2274
+D2
+~
+~
+0 0 2272
+S
+#2274
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2275
+D2
+~
+~
+0 0 2273
+S
+#2275
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D2
+~
+~
+0 0 2274
+D3
+You see nothing special.
+~
+~
+0 -1 2276
+S
+#2276
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D1
+~
+~
+0 0 2275
+D3
+You see nothing special.
+~
+~
+0 -1 2277
+S
+#2277
+&14F&00&06r&00&07o&14s&00&06t &10F&00&02or&00&06e&00&02s&10t&00~
+   &00&06Thin shafts of light break through the frozen leaves of long dead
+trees.  There is no telling how long this forest has been frozen, or how it
+ever grew in the first place.  Small creatures scamper through the underbrush,
+searching for rare bits of food.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2268
+D1
+~
+~
+0 0 2276
+S
+#2278
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of the Frost Forest here.  Its surface
+appears to be well used, icer foot prints sprawled across it as it leads away
+from the forest.  &00
+~
+22 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2279
+D2
+~
+~
+0 0 2267
+S
+#2279
+&00&03D&00&01i&11r&00&03t &16P&15a&00&07t&16h&00~
+   &00&03A dark dirt path leads out of Frost forest here.  It's surface well
+used it appears, with icer foot prints sprawled across it leading away from the
+forest.  &00
+~
+22 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2400
+D2
+~
+~
+0 0 2278
+S
+#2280
+&12Jark&15'&12s &09P&11i&00&01z&00&02z&10a&09r&11i&09a&00~
+   &15Smells of the freshly cooking pizzas fill the air of this small
+resturant.  Customers line up to the counter, waiting to get their mouth
+watering pizzas.  Jark the owner, can be seen running around the resturant
+handleing all the duties by himself.  &00
+~
+22 144 0
+D3
+~
+~
+0 0 2123
+S
+#2281
+&14Iis&15'&00&06s &15Su&00&07pp&15ly &16D&11e&16p&11o&16t&00~
+   &15Row after row of shelves line this small store.  Every trinket a travelor
+of Frigid needs is located in this store, equipment of exceptional quality.  
+Heat blows from a large heater located behind the store counter, keeping the
+shopkeeper warm even as the customers freeze.  &00
+~
+22 148 0
+D2
+~
+~
+0 0 2127
+S
+#2282
+&12D&00&04e&12m&15'&00&06s &11P&00&07a&00&03w&11n &16Shop&00~
+   &15A foul stench fill this luke warm room.  Dust builds up on old
+electronics, jewelry, and weapons.  This pawn shop looks pretty run down,
+probably from lack of business.  The bored owner sits behind a counter,
+protected by titanium bars.  &00
+~
+22 148 0
+D3
+~
+~
+0 0 2133
+S
+#2283
+&15O&00&07l&15d &16R&15o&00&07a&16d&00~
+   &15This is the old road leading from Cicle City to the Royal Palace of
+Frigid, where the icer Royal family lives.  The common folk do not travel that
+way often unless it is to pay service to the royals.  It's hard concreate
+surface is cracked and broken up from the extreme cold, sheets of ice
+frequently coat the road as well.  &00
+~
+22 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2125
+D2
+~
+~
+0 0 2284
+S
+#2284
+&15O&00&07l&15d &16R&15o&00&07a&16d&00~
+   &15This is the old road leading from Cicle City to the Royal Palace of
+Frigid, where the icer Royal family lives.  The common folk do not travel that
+way often unless it is to pay service to the royals.  It's hard concreate
+surface is cracked and broken up from the extreme cold, sheets of ice
+frequently coat the road as well.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2283
+D2
+You see nothing special.
+~
+~
+0 -1 2285
+S
+#2285
+&15O&00&07l&15d &16R&15o&00&07a&16d&00~
+   &15This is the old road leading from Cicle City to the Royal Palace of
+Frigid, where the icer Royal family lives.  The common folk do not travel that
+way often unless it is to pay service to the royals.  It's hard concreate
+surface is cracked and broken up from the extreme cold, sheets of ice
+frequently coat the road as well.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2284
+D2
+You see nothing special.
+~
+~
+0 -1 2286
+S
+#2286
+&15O&00&07l&15d &16R&15o&00&07a&16d&00~
+   &15This is the old road leading from Cicle City to the Royal Palace of
+Frigid, where the icer Royal family lives.  The common folk do not travel that
+way often unless it is to pay service to the royals.  It's hard concreate
+surface is cracked and broken up from the extreme cold, sheets of ice
+frequently coat the road as well.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2285
+D2
+You see nothing special.
+~
+~
+0 -1 2287
+S
+#2287
+&15O&00&07l&15d &16R&15o&00&07a&16d&00~
+   &15This is the old road leading from Cicle City to the Royal Palace of
+Frigid, where the icer Royal family lives.  The common folk do not travel that
+way often unless it is to pay service to the royals.  It's hard concreate
+surface is cracked and broken up from the extreme cold, sheets of ice
+frequently coat the road as well.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2286
+D2
+You see nothing special.
+~
+~
+0 -1 2818
+D4
+You see nothing special.
+~
+~
+0 -1 2288
+S
+#2288
+&14Flying &16into &10the &00&07Cl&15ou&00&07ds&00~
+   &15Clouds slowly float past this area, as below the snow can be seen piling
+up on the ground.  Cicle city can be seen in the distance below this area, it's
+concrete and metal buildings partially hidden by the near constant snow storm.
+  
+~
+22 4 9
+D4
+You see nothing special.
+~
+~
+0 -1 2289
+D5
+~
+~
+0 0 2287
+S
+#2289
+&14Flying &16into &10the &00&07Cl&15ou&00&07ds&00~
+   &15Clouds slowly float past this area, as below the snow can be seen piling
+up on the ground.  Cicle city can be seen in the distance below this area, it's
+concrete and metal buildings partially hidden by the near constant snow storm.
+  
+~
+22 0 9
+D4
+You see nothing special.
+~
+~
+0 -1 2290
+D5
+~
+~
+0 0 2288
+S
+#2290
+&14Flying &16into &10the &00&07Cl&15ou&00&07ds&00~
+   &15Clouds slowly float past this area, as below the snow can be seen piling
+up on the ground.  Cicle city can be seen in the distance below this area, it's
+concrete and metal buildings partially hidden by the near constant snow storm.
+  
+~
+22 0 9
+D4
+You see nothing special.
+~
+~
+0 -1 2291
+D5
+~
+~
+0 0 2289
+S
+#2291
+&14Flying &16into &10the &00&07Cl&15ou&00&07ds&00~
+   &15Clouds slowly float past this area, as below the snow can be seen piling
+up on the ground.  Cicle city can be seen in the distance below this area, it's
+concrete and metal buildings partially hidden by the near constant snow storm.
+  
+~
+22 0 9
+D2
+You see nothing special.
+~
+~
+0 -1 2292
+D5
+~
+~
+0 0 2290
+S
+#2292
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Gate&00~
+   &15A large platform sticks out of from where the palace gate opens up.  The
+large palace is a unique sight, floating in mid air, held aloft by the
+anti-gravity generators located in the depths of the castle.  Heavily armed
+guards patrol the palace walls, ever watchful for threats.  &00
+~
+22 65556 0
+D0
+You see nothing special.
+~
+~
+0 -1 2291
+D2
+You see nothing special.
+~
+~
+0 -1 2293
+S
+#2293
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Guardroom&00~
+   &15Just inside the gate of the palace, this room is full of security
+equipment, and emergency blast doors.  A check point is set up, where the
+palace guards can inspect visitors one at a time.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2292
+D2
+You see nothing special.
+~
+~
+0 -1 2294
+S
+#2294
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Court-yard&00~
+   &15This large area stretches out, it's floor made completely out of hardened
+concrete.  This area is completely free of snow, the environment shield keeping
+the entire palace a mild temperature.  &00
+~
+22 4 0
+D0
+~
+~
+0 0 2293
+D2
+You see nothing special.
+~
+~
+0 -1 2295
+S
+#2295
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Court-yard&00~
+   &15This large area stretches out, it's floor made completely out of hardened
+concrete.  This area is completely free of snow, the environment shield keeping
+the entire palace a mild temperature.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2294
+D1
+You see nothing special.
+~
+~
+0 -1 2297
+D2
+You see nothing special.
+~
+~
+0 -1 2299
+D3
+You see nothing special.
+~
+~
+0 -1 2296
+S
+#2296
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Court-yard&00~
+   &15This large area stretches out, it's floor made completely out of hardened
+concrete.  This area is completely free of snow, the environment shield keeping
+the entire palace a mild temperature.  &00
+~
+22 0 0
+D1
+~
+~
+0 0 2295
+D2
+You see nothing special.
+~
+~
+0 -1 2298
+S
+#2297
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Court-yard&00~
+   &15This large area stretches out, it's floor made completely out of hardened
+concrete.  This area is completely free of snow, the environment shield keeping
+the entire palace a mild temperature.  &00
+~
+22 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 2300
+D3
+~
+~
+0 0 2295
+S
+#2298
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Court-yard&00~
+   &15This large area stretches out, it's floor made completely out of hardened
+concrete.  This area is completely free of snow, the environment shield keeping
+the entire palace a mild temperature.  &00
+~
+22 0 0
+D0
+~
+~
+0 0 2296
+D1
+You see nothing special.
+~
+~
+0 -1 2299
+S
+#2299
+&00&06R&14o&12y&00&04a&00&05l &15P&00&07alac&15e &16Court-yard&00~
+   &15This large area stretches out, it's floor made completely out of hardened
+concrete.  This area is completely free of snow, the environment shield keeping
+the entire palace a mild temperature.  &00
+~
+22 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2295
+D1
+You see nothing special.
+~
+~
+0 -1 2300
+D2
+You see nothing special.
+~
+~
+0 -1 2301
+D3
+~
+~
+0 0 2298
+S
+$~

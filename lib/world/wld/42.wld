@@ -1,0 +1,2070 @@
+#4200
+&16Space&00~
+&00&07*      *   *    ^   *  *     *           *
+       *       *              *  *         *
+
+      *    * *                 <>    *
+*                    * *              *  *
+    *                     *      *  * *     *
+*         *         *           *
+        *                     *           *
+ *          @             *        *
+~
+42 536871088 0
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#4201
+&10Kastion Kruise North&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4202
+D2
+You see nothing special.
+~
+~
+0 -1 4200
+S
+#4202
+&10Kastion Kruise&15 and &14Luceid Lane&15 Junction&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4203
+D3
+You see nothing special.
+~
+~
+0 -1 4201
+S
+#4203
+&14Luceid Lane West&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4204
+D2
+You see nothing special.
+~
+~
+0 -1 4202
+S
+#4204
+&14Luceid Lane West&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4205
+D3
+You see nothing special.
+~
+~
+0 -1 4203
+S
+#4205
+&14Luceid Lane West&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+You see nothing special.
+~
+~
+0 -1 4204
+S
+#4206
+&14Luceid Lane East&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4207
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#4207
+&14Luceid Lane East&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4208
+D3
+You see nothing special.
+~
+~
+0 -1 4206
+S
+#4208
+&14Luceid Lane East&00~
+You are in an unfinished room.
+~
+42 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 4209
+D3
+You see nothing special.
+~
+~
+0 -1 4207
+S
+#4209
+&14Luceid Lane&15 and &13Daos Drive&15 Junction&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4208
+D1
+You see nothing special.
+~
+~
+0 -1 4210
+S
+#4210
+&13Daos Drive North&00~
+You are in an unfinished room.
+~
+42 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 4211
+D3
+You see nothing special.
+~
+~
+0 -1 4209
+S
+#4211
+&13Daos Drive North&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4210
+D2
+You see nothing special.
+~
+~
+0 -1 4212
+S
+#4212
+&13Daos Drive North&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4211
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#4213
+&13Daos Drive South&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 4214
+S
+#4214
+&13Daos Drive South&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4213
+D2
+You see nothing special.
+~
+~
+0 -1 4215
+S
+#4215
+&13Daos Drive South&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4214
+D3
+You see nothing special.
+~
+~
+0 -1 4216
+S
+#4216
+&12Buu Bulivard&15 and &13Daos Drive&15 Junction&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4215
+D2
+You see nothing special.
+~
+~
+0 -1 4217
+S
+#4217
+&12Buu Bulivard East&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4216
+D3
+You see nothing special.
+~
+~
+0 -1 4218
+S
+#4218
+&12Buu Bulivard East&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4217
+D3
+You see nothing special.
+~
+~
+0 -1 4219
+S
+#4219
+&12Buu Bulivard East&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4218
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#4220
+&12Buu Bulivard West&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+You see nothing special.
+~
+~
+0 -1 4221
+S
+#4221
+&12Buu Bulivard West&00~
+You are in an unfinished room.
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4220
+D3
+You see nothing special.
+~
+~
+0 -1 4222
+S
+#4222
+&12Buu Bulivard West&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4223
+D1
+You see nothing special.
+~
+~
+0 -1 4221
+S
+#4223
+&12Buu Bulivard&15 and &10Kastion Kruise&15 Junction&00~
+You are in an unfinished room.
+~
+42 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 4222
+D3
+You see nothing special.
+~
+~
+0 -1 4224
+S
+#4224
+&10Kastion Kruise South&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4225
+D1
+You see nothing special.
+~
+~
+0 -1 4223
+S
+#4225
+&10Kastion Kruise South&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4226
+D2
+You see nothing special.
+~
+~
+0 -1 4224
+S
+#4226
+&10Kastion Kruise South&00~
+You are in an unfinished room.
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 4225
+S
+#4227
+&15The &03ButterFinger&15 Dojo&00~
+The chocolate road extends right into this room of crispty goodness, The
+&11ButtleFinger&00 Dojo.  The inside structure is made of sweat crunchy stuff
+while the outside is coated with &15chocolate&00 like the road.  Large mats are
+on the floor for safety and the ceiling is high enough for you to fly around
+safetly.    
+~
+42 8388632 0
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#4228
+&15The &14Buu-Buu&15 Armor Shop&00~
+The room here gives off a feeling of happiness and chocolately goodness.  
+Everything in his is made out of chocolate or resembling chocolate.  Armor is
+racked all over the walls and a counter sits to the south end of the room,
+where a Majin sits.    
+~
+42 4120 0
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#4229
+&13The Bubble Gum Bank&00~
+You are in a finely crafted building made exactly out of Bubble Gum...  All of
+it.  Everything in his has the pinkish bubble gum hue to it, including the
+chairs, tables, and pillars that hold up the elegant place.  Teller machine are
+planted into the walls for you to access your bank accounts.    
+~
+42 4120 0
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#4230
+&13Chibi-Daos's Weapon'o'Maiming&00~
+Much like most of the bubble gum buildings in the city, this one is carved out
+of a chunk of bubble gum.  The interior is all pink with the wooden weapon
+racks that stand out.  A bubble is the basic shape of the building, giving the
+inside a bloated look.    
+~
+42 4120 0
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#4231
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Armory&00~
+   &16Here, the page's can purchase their first set of Otori equipment.  The
+store keep, Ji-hang, stand behind the counter, polishing a small dagger.  
+Behind him, on multiple shelves, are trophies, all embrossed with his name.  
+It seems the store keep was quiet a fighter when he was younger, winning
+multiple competitions.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4250
+S
+#4232
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Hallway&00~
+   &16The blood red carpeting seems to stretch on into infinity in the hall,
+its walls covered in depictions of batles and the god Shigeru.  Many people
+like to wander into this hall and admire portraits of Shigeru and his equaly
+handsome disciple Lord Takeo.  Otori Clan warriors stand to attention at equal
+paces, their hands hovering over their weapon belts, watching those that enter
+and exit.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4233
+D2
+You see nothing special.
+~
+~
+0 -1 4250
+S
+#4233
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Hallway&00~
+   &16The blood red carpeting seems to stretch on into infinity in the hall,
+its walls covered in depictions of batles and the god Shigeru.  Many people
+like to wander into this hall and admire portraits of Shigeru and his equaly
+handsome disciple Lord Takeo.  Otori Clan warriors stand to attention at equal
+paces, their hands hovering over their weapon belts, watching those that enter
+and exit.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4234
+D2
+You see nothing special.
+~
+~
+0 -1 4232
+S
+#4234
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Hallway&00~
+   &16The blood red carpeting seems to stretch on into infinity in the hall,
+its walls covered in depictions of batles and the god Shigeru.  Many people
+like to wander into this hall and admire portraits of Shigeru and his equaly
+handsome disciple Lord Takeo.  Otori Clan warriors stand to attention at equal
+paces, their hands hovering over their weapon belts, watching those that enter
+and exit.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4239
+D2
+You see nothing special.
+~
+~
+0 -1 4233
+S
+#4235
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Sleeping Quarters&00~
+   &16Here, the sounds of the Pages, Warriors and Officers merges to become
+one, undistinguishable hum.  Konatsuians from these three classes pass here,
+coming back or going to some job, errand or training session.  To the west are
+the Page's Chambers, the east the Warriors Chambers.  Southward is the
+Officer's Chambers, were the postal officer resides.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4250
+D1
+You see nothing special.
+~
+~
+0 -1 4237
+D2
+You see nothing special.
+~
+~
+0 -1 4236
+D3
+You see nothing special.
+~
+~
+0 -1 4238
+S
+#4236
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Officer's Chambers&00~
+   &16Officers mill about in this room, some lying on thier bed mats studying
+maps, others confering with their fellow officers over some rumor about the
+opposing clans.  Two warriors stand to attention on either side of the door,
+their hands hovering above their swords.  A post officer stands in the far
+corner, his arms crossed over his muscular chest.  &00
+~
+42 17039504 0
+D0
+You see nothing special.
+~
+~
+0 -1 4235
+S
+#4237
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Warrior's Chambers&00~
+   &16The warriors of the Otori Clan spend their spare hours in this room,
+talking to friends or catching up on lost sleep.  Due to their duties and rank,
+swords are never far from arms reach.  The rusty smel of driede blood hangs in
+the air here, wafting from the pile of bloodstained clothes used in today's
+drills in the far corner.  &00
+~
+42 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 13029
+D3
+You see nothing special.
+~
+~
+0 -1 4235
+S
+#4238
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Page's Chambers&00~
+   &16This is where the Page's of the Otori Clan spend their nights, sleeping
+on floor mats in the one, large room.  Some would say that this is outragous,
+but it is designed to prove to the Page's that they are no better nor worse
+than their fellow Page's.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4235
+S
+#4239
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Entrance&00~
+   &16A huge stone archway stretches into the sky here, the entrance into the
+Otori Castle.  Warriors stand to attention at either side, their katana drawn
+with the tips resting on the ground.  Officers mill through the crowd, the
+hands never far from wakizashi nor katana.  A black phoenix cries out from
+above, and the crown turns as one to stare at the magestic bird.  It is rumored
+that Lord Shigeru had the bird as a compannion.  The phoenix would fly over him
+as he rode, and cry out if it spotted any of his foes.  People point and stare,
+before the bird wavers and disappears.  Was it just a trick of the light, or a
+sign of trouble brewing?    
+~
+42 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 4245
+D2
+You see nothing special.
+~
+~
+0 -1 4234
+S
+#4240
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Hallway&00~
+   &16The blood red carpeting seems to stretch on into infinity in the hall,
+its walls covered in depictions of batles and the god Shigeru.  Many people
+like to wander into this hall and admire portraits of Shigeru and his equaly
+handsome disciple Lord Takeo.  Otori Clan warriors stand to attention at equal
+paces, their hands hovering over their weapon belts, watching those that enter
+and exit.  &00
+~
+42 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 4241
+D5
+You see nothing special.
+~
+~
+0 -1 4250
+S
+#4241
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Hallway&00~
+   &16The blood red carpeting seems to stretch on into infinity in the hall,
+its walls covered in depictions of batles and the god Shigeru.  Many people
+like to wander into this hall and admire portraits of Shigeru and his equaly
+handsome disciple Lord Takeo.  Otori Clan warriors stand to attention at equal
+paces, their hands hovering over their weapon belts, watching those that enter
+and exit.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4240
+D2
+You see nothing special.
+~
+~
+0 -1 4242
+S
+#4242
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Transport Gateway&00~
+   &16This is Konack's Transport Gateway.  From here, you can pay for a shuttle
+to take you around to other planets.  Dock workers bustle around here, slipping
+through the gaps in the crowd as they rush to start a new job, or guide a ship
+into place.  Arriving travellers are greated by tourist guides, who quickly
+start to fill them in on Konack's wonders.  Those departing Konack are greated
+by a large sign.  &00 &00
+~
+42 148 0
+D0
+You see nothing special.
+~
+~
+0 -1 4241
+D2
+You see nothing special.
+~
+~
+0 -1 742
+S
+#4243
+&15Takeo's Bedroom~
+You are in an unfinished room.
+~
+42 0 0
+S
+#4244
+&15Gym~
+You are in an unfinished room.
+~
+42 2097152 0
+D1
+~
+~
+0 0 4244
+S
+#4245
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4254
+D1
+You see nothing special.
+~
+~
+0 -1 4257
+D2
+You see nothing special.
+~
+~
+0 -1 4239
+D3
+You see nothing special.
+~
+~
+0 -1 4246
+S
+#4246
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4245
+D2
+You see nothing special.
+~
+~
+0 -1 13053
+D3
+You see nothing special.
+~
+~
+0 -1 4247
+S
+#4247
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4246
+D2
+You see nothing special.
+~
+~
+0 -1 4248
+D3
+You see nothing special.
+~
+~
+0 -1 4249
+S
+#4248
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 4247
+D2
+You see nothing special.
+~
+~
+0 -1 4283
+S
+#4249
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4247
+D3
+You see nothing special.
+~
+~
+0 -1 4252
+S
+#4250
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Meeting Chamber&00~
+   &16This is the central chamber of the Otori Clan's Castle.  The Otori Clan,
+founded by Lord Otori Shigeru, fought and killed the bandits and evil clans
+that plagued the land, before uniting Konack under one just rule.  Their's.  
+Lord Otori Shigeru lead his followers through this bloody time, his sword Jato
+spilling the blood of his enemies.  It was insatiable.  Finally, when the war
+was won, Shigeru became a God, and handed down control of the Otori Clan to his
+Page, Lord Otori Takeo&00 &00
+~
+42 73948 0
+D0
+You see nothing special.
+~
+~
+0 -1 4232
+D1
+You see nothing special.
+~
+~
+0 -1 4251
+D2
+You see nothing special.
+~
+~
+0 -1 4235
+D3
+You see nothing special.
+~
+~
+0 -1 4231
+D4
+You see nothing special.
+~
+~
+0 -1 4240
+S
+#4251
+&09O&00&01t&15o&00&06r&09i &16C&14a&00&06s&15tl&16e: &15Dining Hall&00~
+   &16This is where the Clan's members dine and drink.  You can see the
+different classes grouped together, the page's grouped over here, the novices
+over there, and the officers in between.  The mambers are always loud, their
+laughter echoing in the large hall.  Sometimes Lord Takeo himself will grace
+this hall with his presence, smiling and laughing as his followers sing and
+dance.  &00
+~
+42 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 4250
+S
+#4252
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4253
+D1
+You see nothing special.
+~
+~
+0 -1 4249
+S
+#4253
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Front Gate&00~
+   &16The Gate of the Shaengarn Clan is made of thick, heavy wood, and is 10
+foot high.  The wall's sorrounding the complex are just as high, and just a
+thick, but are made of solid stone.  Two guards stand to attention at the gate,
+yet a glint off an arrow head tells all that archers are also hidden away in
+the shadows above the gate, their arrows nocked and ready &00
+~
+42 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 4267
+D2
+You see nothing special.
+~
+~
+0 -1 4252
+S
+#4254
+&16S&15t&16e&15a&16l&15t&16h &15Lane&00~
+   &16This lane is heavily shadowed, making those that pass through it very
+wary.  A large majority of people have been killed in the small lane, so the
+Otori have dispatched a number of warriors to patrol the lane and streets
+around it.  Something moves in the shadows, knocking over a bin and causing a
+racket.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4255
+D2
+You see nothing special.
+~
+~
+0 -1 4245
+S
+#4255
+&00&01A&16s&00&01sa&09s&00&01s&16in &15A&16v&00&01en&09u&16e&00~
+   &16This particular cobblestone passage is called Assassin Avenue, because
+this is where the majority of assassins, novice and veteran, are cut down by
+the Otori forces.  The cobblestones underfoot are stained a dark red, the blood
+of those that died here impossible to wash away.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 703
+D2
+You see nothing special.
+~
+~
+0 -1 4254
+D3
+You see nothing special.
+~
+~
+0 -1 4256
+S
+#4256
+&09P&11h&00&01o&11e&00&03n&16i&09x &11O&00&01r&11i&00&03o&09n &15Bar&00~
+   &16Phoenix Orion Bar is Konack's largest and most visited bar.  Built in the
+first days of the Otori reign, the Phoenix Orion Bar has grown and grown over
+the centuries.  The Bar was named after the magnificent bird that followed
+Otori Shigeru in the days he walked the planet.  A fountain sits in the center
+of the room, shaped in the form of a phoenix.  Crystal clear water drops from
+its wing tips to the pool below.  &00
+~
+42 16 0
+D1
+You see nothing special.
+~
+~
+0 -1 4255
+S
+#4257
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4258
+D3
+You see nothing special.
+~
+~
+0 -1 4245
+S
+#4258
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4262
+D1
+You see nothing special.
+~
+~
+0 -1 4259
+D3
+You see nothing special.
+~
+~
+0 -1 4257
+S
+#4259
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4260
+D2
+You see nothing special.
+~
+~
+0 -1 4263
+D3
+You see nothing special.
+~
+~
+0 -1 4258
+S
+#4260
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4261
+D3
+You see nothing special.
+~
+~
+0 -1 4259
+S
+#4261
+&15S&16p&15a&16d&15a &00&07Di &14S&00&06p&00&14i&00&06r&00&14i&00&06t&00&14o &00&07St.~
+   &16Spada Di Spirito St, or Street of the Sword Spirit, is the main street on
+Konack.  Tourists wander out onto its marble street in awe, their eyes darting
+from the townsfolk, to the armed Otori guards that wander its path.  Three
+robed figures hurry westwards, ignoring the guards.  One bumps into a
+pedestrian, and coupled with a strong gust of wind, his robe flutters open.  
+The sheath at his side glints in the sunlight as he growls at the other.  The
+coloring of his hidden tunic tells all that he is of the Shaengarn Clan, a
+renegade clan that is planning to overthrow the Otori.    
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 708
+D3
+You see nothing special.
+~
+~
+0 -1 4260
+S
+#4262
+&13K&16a&00&05r&15i&00y&14u&16m&00&06a&15'&00&06s &15Equipment Shop&00~
+   &16This is Kayiyuma's Equipment Shop.  Here, one can purchase some average
+equipment at a reasonable price.  Kariyuma also stocks some medicinal herbs as
+well as reshfreshments.  Behind Kariyuma are the awards he won for "Best
+Buisnessman of the Year", which he will gladly brag about to anyone that comes
+near.  &00
+~
+42 148 0
+D2
+You see nothing special.
+~
+~
+0 -1 4258
+S
+#4263
+&16M&00&01i&09t&00&01s&16u&09r&00&01ug&16i &09A&16c&09a&00&01de&16m&09y&00~
+   &16This is the Mitsurugi Academy Fighting School, the finest martial arts
+school under the Otori banner.  Founded by one of the Otori Clan's finest
+warriors, it is said that Lord Otori Takeo was trained by Mitsurugi himself,
+and that until the day of Takeo's graduation, he had no better in battle.  All
+the Otori Clan attends this school at least 4 times a week to learn from
+Mitsurugi's Trainers.  &00
+~
+42 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 4259
+D1
+You see nothing special.
+~
+~
+0 -1 4265
+D2
+You see nothing special.
+~
+~
+0 -1 4266
+D3
+You see nothing special.
+~
+~
+0 -1 4264
+S
+#4264
+&10A&00&02d&06ep&02t&15'&10s &15T&16r&15a&16i&15n&16i&15n&16g&00 &03H&11al&00&03l&00~
+   &16The adepts glare at each other, rivalry's forming and developing, hatred
+springing forth as the students battle to become the best.  The instructors
+walk between the students, shouting at students that execute a move wrong,
+sometimes even using the student as an example that will leave him in the med
+bay for at least 3 days.  No more do the students laugh.  These are blossoming
+Otori warriors, the cream of the cake.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4263
+S
+#4265
+&14N&00&06o&12v&00&06ic&14e&15'&12s &15T&16r&15a&16i&15n&16i&15n&16g&00 &03H&11al&00&03l&00~
+   &16There is a sense of calmness and joy in this room as the Novice's of the
+Mitsurugi Academy learn the basics of martial arts.  The instructors here walk
+aroun with a smile on their face, pointing out to the novices what move they
+executed wrong and showing them how to do it correctly.  &00
+~
+42 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 4263
+S
+#4266
+&16M&09a&00&01st&09e&16r&15'&00&01s &15T&16r&15a&16i&15n&16i&15n&16g&00 &03H&11al&00&03l&00~
+   &16The ring of steel against steel echo's as the Master's of the Mitsurugi
+Academy battle with sharpened blades.  Blood splatter can be seen on the floor
+from when a sword got through defenses, causing a minor wound.  Yet this does
+not make the Master's despise each other.  They are much like a family here,
+helping each other, encouraging each other.  It is hard to believe these were
+once Adepts of the Mitsurugi Academy.  Now, they are officer's of the Otori
+Clan.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4263
+S
+#4267
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4280
+D2
+You see nothing special.
+~
+~
+0 -1 4253
+D3
+You see nothing special.
+~
+~
+0 -1 4268
+S
+#4268
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4267
+D3
+You see nothing special.
+~
+~
+0 -1 4269
+S
+#4269
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4270
+D1
+You see nothing special.
+~
+~
+0 -1 4268
+S
+#4270
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4272
+D1
+You see nothing special.
+~
+~
+0 -1 4271
+D2
+You see nothing special.
+~
+~
+0 -1 4269
+S
+#4271
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Training Hall&00~
+   &16Screams of pain echo in the air here as the warriors of the Shaengarn
+Clan duel using real blades.  Having taken the assassination attempts as an
+insult, Lord Kadyuka informed his Training Masters that all pupils will train
+with sharpened blades, to properly get them ready for the life and death
+battle's that are sure to come.  &00
+~
+42 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 4270
+S
+#4272
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4273
+D2
+You see nothing special.
+~
+~
+0 -1 4270
+S
+#4273
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4274
+D3
+You see nothing special.
+~
+~
+0 -1 4272
+S
+#4274
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyuka.  &00 &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+Door~
+2 4271 4281
+D1
+You see nothing special.
+~
+~
+0 -1 4275
+D2
+You see nothing special.
+~
+~
+0 -1 4282
+D3
+You see nothing special.
+~
+~
+0 -1 4273
+S
+#4275
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4276
+D3
+You see nothing special.
+~
+~
+0 -1 4274
+S
+#4276
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 4277
+D3
+You see nothing special.
+~
+~
+0 -1 4275
+S
+#4277
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4276
+D2
+You see nothing special.
+~
+~
+0 -1 4279
+D3
+You see nothing special.
+~
+~
+0 -1 4278
+S
+#4278
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Training Hall&00~
+   &16Screams of pain echo in the air here as the warriors of the Shaengarn
+Clan duel using real blades.  Having taken the assassination attempts as an
+insult, Lord Kadyuka informed his Training Masters that all pupils will train
+with sharpened blades, to properly get them ready for the life and death
+battle's that are sure to come.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4277
+S
+#4279
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4277
+D3
+You see nothing special.
+~
+~
+0 -1 4280
+S
+#4280
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Outside&00~
+   &16The cracked, lifeless grounds of the Shanegarn complex still show the
+marks from past battles.  Blood stained patches of dirt can be seen, evidence
+of the battles fought between spy and clan member.  The walls still display
+dull red stains from where blood was splattered.  Yet the other clans continue
+to send ninja over the 10 foot high walls in an attempt to assassinate Lord
+Shaengarn Kadyaku.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4279
+D3
+You see nothing special.
+~
+~
+0 -1 4267
+S
+#4281
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Kadyuka's Room&00~
+   &16Two of the Shaengarn most elite stand here, beside their Lord, Shanegarn
+Kadyuka.  The windowless room seems to contract inwards as the creak of leather
+can be heard.  The once clean wooden floor now carries with it the stench of
+blood, and dark stains litter the floor.  Discarded weaponry, ranging from
+large broadswords to small, assassins daggers litter the room, evident of
+botched attempts on Kadyuka's life.  &00
+~
+42 0 0
+D2
+You see nothing special.
+~
+Door~
+2 4271 4274
+S
+#4282
+&16S&00&06h&14a&15e&00&02n&06g&14a&15r&00&02n &15C&16l&00&02a&16n&15: Office&00~
+   &16Like most office's, the desk's in this room are littered with paperwork.
+Whether it be bills, payments or records of some of the clan's more 'illegal'
+workings, it all gets reviewed and stored here.  Yet, because of the raise in
+thenumber of assassination attemps on Lord Shanegarn, weapons are never far
+from a wielders hand.  Large katana's rest against some desks, whilst glimpses
+of daggers can be seen from underneath the paperwork.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4274
+S
+#4283
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4248
+D2
+You see nothing special.
+~
+~
+0 -1 4284
+D3
+You see nothing special.
+~
+~
+0 -1 4290
+S
+#4284
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4283
+D2
+You see nothing special.
+~
+~
+0 -1 4285
+D3
+You see nothing special.
+~
+~
+0 -1 4289
+S
+#4285
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4284
+D2
+You see nothing special.
+~
+~
+0 -1 4286
+D3
+You see nothing special.
+~
+~
+0 -1 4288
+S
+#4286
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4285
+D3
+You see nothing special.
+~
+~
+0 -1 4287
+S
+#4287
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4288
+D1
+You see nothing special.
+~
+~
+0 -1 4286
+D3
+You see nothing special.
+~
+~
+0 -1 4294
+S
+#4288
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4289
+D1
+You see nothing special.
+~
+~
+0 -1 4285
+D2
+You see nothing special.
+~
+~
+0 -1 4287
+D3
+You see nothing special.
+~
+~
+0 -1 4293
+S
+#4289
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4290
+D1
+You see nothing special.
+~
+~
+0 -1 4284
+D2
+You see nothing special.
+~
+~
+0 -1 4288
+D3
+You see nothing special.
+~
+~
+0 -1 4292
+S
+#4290
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4283
+D2
+You see nothing special.
+~
+~
+0 -1 4289
+D3
+You see nothing special.
+~
+~
+0 -1 4291
+S
+#4291
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4290
+D2
+You see nothing special.
+~
+~
+0 -1 4292
+D3
+You see nothing special.
+~
+~
+0 -1 4298
+S
+#4292
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4291
+D1
+You see nothing special.
+~
+~
+0 -1 4289
+D2
+You see nothing special.
+~
+~
+0 -1 4293
+D3
+You see nothing special.
+~
+~
+0 -1 4297
+S
+#4293
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4292
+D1
+You see nothing special.
+~
+~
+0 -1 4288
+D2
+You see nothing special.
+~
+~
+0 -1 4294
+D3
+You see nothing special.
+~
+~
+0 -1 4296
+S
+#4294
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 4293
+D1
+You see nothing special.
+~
+~
+0 -1 4287
+D2
+You see nothing special.
+~
+~
+0 -1 13011
+D3
+You see nothing special.
+~
+~
+0 -1 4295
+S
+#4295
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4296
+D1
+You see nothing special.
+~
+~
+0 -1 4294
+D3
+You see nothing special.
+~
+~
+0 -1 702
+S
+#4296
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4297
+D1
+You see nothing special.
+~
+~
+0 -1 4293
+D2
+You see nothing special.
+~
+~
+0 -1 4295
+D3
+You see nothing special.
+~
+~
+0 -1 701
+S
+#4297
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 4298
+D1
+You see nothing special.
+~
+~
+0 -1 4292
+D2
+You see nothing special.
+~
+~
+0 -1 4296
+D3
+You see nothing special.
+~
+~
+0 -1 700
+S
+#4298
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4291
+D2
+You see nothing special.
+~
+~
+0 -1 4297
+D3
+You see nothing special.
+~
+~
+0 -1 4299
+S
+#4299
+&10E&00&02v&10e&00&02r&06gr&02e&10e&00&06n &10F&00&02or&10e&00&06st&00~
+   &16Evergreen Forest is just that.  Always green.  Never do the leaves rot
+and drop to the ground, never do the animals here leave for winter.  Somehow,
+this forest resists the forces of nature.  Because of this, researches litter
+this forest, trying to grasp what exactly it is that makes this forest so
+special.  Some say it is blessed by Shigeru Otori, and others swear on their
+lives that they have heard the call of a phoenix hidden away.  &00
+~
+42 0 0
+D0
+You see nothing special.
+~
+Door~
+2 5837 5837
+D1
+You see nothing special.
+~
+~
+0 -1 4298
+D2
+~
+~
+0 0 700
+S
+$~

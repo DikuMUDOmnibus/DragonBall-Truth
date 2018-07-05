@@ -1,0 +1,84 @@
+#3000
+Cashier~
+&16C&00&04a&12s&00&06h&12i&00&04e&16r&00~
+&15The &16C&00&04a&12s&00&06h&12i&00&04e&16r &15is smiling here.&00
+~
+   &15Smiling and being friendly seems to be a part of this poor bastard's job.
+&00
+~
+10 0 0 E
+100000 -60 0 1d1+1000000000 1d1+500000
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3001
+Bartender~
+&00&03B&16a&15r&00&07ten&15d&16e&00&03r&00~
+&15The &00&03B&16a&15r&00&07ten&15d&16e&00&03r &15is wiping a mug here.&00
+~
+   &15This bartender looks like he has been doing this job for years.  &00
+~
+10 0 0 E
+100000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3002
+SRU Clerk~
+&10S&09R&12U &16C&15le&00&07rk&00~
+&15A &10S&09R&12U &16C&15le&00&07rk &15is standing here, ready to help you.&00
+~
+   &15THis clerk has been trained on all the information of every available
+scouter model for sale.  &00
+~
+10 0 0 E
+100000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3004
+Joan the Baker~
+&12J&00&04oa&12n&15 the &00&03B&11a&00&03ke&11r&00~
+&12J&00&04oa&12n&15 the &00&03B&11a&00&03ke&11r &15is neading some dough here.&00
+~
+   &15Joan looks like she is getting on in years.  She looks extremely
+experienced at baking all kinds of sweets.  &00
+~
+10 0 0 E
+100000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3010
+Postmaster~
+&15P&16o&15s&00&07t&12m&00&04aste&12r&00~
+&15The &15P&16o&15s&00&07t&12m&00&04aste&12r &15is standing here.&00
+~
+&15A postal worker, working?!?!?!&00
+~
+10 0 0 E
+100 -180 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

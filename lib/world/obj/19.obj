@@ -1,0 +1,85 @@
+#1900
+fishing pole~
+&00&02F&15i&00&07shi&15n&00&02g&00 &00&10P&00&06o&16l&00&03e&00~
+&00A &00&02F&15i&00&07shi&15n&00&02g&00 &00&10P&00&06o&16l&00&03e&00 with 20lb test fishing line.&00~
+Nothing.
+~
+5 0 8193
+3 15000 1 10
+1 50000 0
+A
+19 3
+A
+13 100
+A
+12 100
+#1901
+fishing hat~
+&00&02F&15i&00&07shi&15n&00&02g&00 &16H&00&02a&10t&00~
+&00A &00&02F&15i&00&07shi&15n&00&02g&00 &16H&00&02a&10t&00 with fishing lures stuck on it's sides.&00~
+Nothing.
+~
+9 0 17
+0 0 0 0
+1 30000 0
+A
+18 3
+A
+19 3
+A
+13 100
+A
+12 100
+#1902
+hip waders~
+&00&05H&07i&16p&00 &00&16W&00&07a&16d&00&03e&07r&16s&00~
+&00A pair of &00&05H&07i&16p&00 &00&16W&00&07a&16d&00&03e&07r&16s&00 with suspenders to hold them up.&00~
+Nothing.
+~
+9 0 33
+0 0 0 0
+1 30000 0
+A
+18 3
+A
+19 3
+A
+13 100
+A
+12 100
+#1903
+life jacket~
+&00&09L&00&01i&07f&09e&00 &00&16J&00&07a&04c&16k&00&07e&16t&00~
+&00A &00&09L&00&01i&07f&09e&00 &00&16J&00&07a&04c&16k&00&07e&16t&00 made especially for fishing with pockets to hold tackle.&00~
+Nothing.
+~
+9 0 9
+0 0 0 0
+1 50000 0
+A
+5 1
+A
+18 3
+A
+19 3
+A
+13 100
+A
+12 100
+#1904
+key~
+rikkai's gate key~
+An unfinished object is lying here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#1999
+Iovan Buck~
+&15One &16I&15o&00&07v&15a&16n &10B&00&02u&16c&00&02k&00~
+&15One &16I&15o&00&07v&15a&16n &10B&00&02u&16c&00&02k &15has been dropped here.&00~
+~
+8 0 1
+0 0 0 0
+1 500000 0
+$~

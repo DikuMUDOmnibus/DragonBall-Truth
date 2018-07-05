@@ -1,0 +1,27 @@
+CircleMUD v3.0 Shop File~
+#1799~
+1797
+1796
+-1
+1.00
+1.00
+5weapon
+-1
+%s Sorry, I dont have that crap in stock.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s What the fuck you come here for if you dont have money?~
+%s That'll be %d coins, Nice doing business with you SUCKER!!!~
+%s I'll give you %d coins for that.~
+0
+2
+1799
+0
+1799
+-1
+0
+28
+0
+0
+$~

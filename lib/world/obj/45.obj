@@ -1,0 +1,311 @@
+#4500
+orange small newbie gi~
+&03An Orange &01N&04e&01W&04b&01I&04e&03 Gi&00~
+An Orange newbie Gi was tossed here.~
+~
+9 0 9
+10 0 0 0
+0 0 0
+A
+19 3
+#4501
+orange newbie pants leggings~
+&03Orange &04N&01e&04W&01b&04I&01e&03 Pants&00~
+Orange Newbie Pants lie here.~
+~
+9 0 33
+10 0 0 0
+2 0 0
+A
+19 3
+#4502
+&12Blue N&09e&12W&09b&12I&09e&12 Boots&00~
+&12Blue N&09e&12W&09b&12I&09e&12 Boots&00~
+Some blue, red and yellow rimmed boots.~
+~
+9 0 65
+10 0 0 0
+2 0 0
+A
+19 2
+A
+18 2
+#4507
+Black&15 and &09Red&15 Boots&00~
+Black&15 and &09Red&15 Boots&00~
+Black&15 and &09Red&15 Boots are just sitting here waiting to be picking up.&00~
+~
+9 3 65
+10 0 0 0
+0 0 0
+A
+19 5
+A
+18 5
+#4510
+A small computer panel~
+a small computer panel~
+&13A small computer pannel is placed on the wall where you can set the gravity.&00~
+Nothing.
+~
+13 0 0
+100 0 0 0
+0 0 0
+E
+a small computer panel~
+&15Command - Setgravity&00
+Gravity settings: 10, 100, 200, 300, 400
+~
+#4511
+The Z Sword~
+the Z Sword~
+The Z Sword is lying here unguarded.~
+~
+5 0 8193
+100 150 150 3
+0 0 0
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+#4515
+Small Bag~
+&15Small &00&03B&16a&15g&00~
+&15A &15Small &00&03B&16a&15g is lying here.&00~
+~
+15 0 1
+25 1 -1 0
+1 150000 0
+#4550
+Saiba Seed~
+&10S&00&02aib&10a &11S&00&03e&00&02e&10d&00~
+&15A &10S&00&02aib&10a &11S&00&03e&00&02e&10d &15has been dropped here.&00~
+~
+10 0 1
+0 26 0 0
+1 5000 0
+#4551
+Senzu Bean~
+&00&03S&00&06e&00&03n&00&06z&00&03u &16Bean&00~
+&15A &00&03S&00&06e&00&03n&00&06z&00&03u &16Bean&15 lays here.&00~
+~
+2 0 1
+1 39 0 0
+1 50000 0
+#4560
+wrist blaster~
+a wrist blaster~
+A wrist blaster is here~
+~
+24 0 4097
+10 1 30 12
+0 0 0
+#4561
+a laser blaster~
+a laser blaster~
+A laser blaster is lying here.~
+~
+5 0 8193
+20 20 20 12
+2 0 0
+#4565
+Energy Blade~
+&00E&14n&00&06er&14g&00y &16B&15l&00a&16d&15e&00~
+&00E&14n&00&06er&14g&00y &16B&15l&00a&16d&15e is burned into the ground here.&00~
+~
+5 113111044 4202497
+0 50000 1 3
+1 0 0
+#4567
+bubble gum vest~
+&13a bubble gum vest&00~
+Daos' for some reason left his chewy vest here.~
+~
+9 61443 9
+-500 0 0 0
+0 0 0
+A
+1 2
+A
+3 2
+A
+18 10
+A
+19 10
+A
+2 3
+#4570
+saiyan space pod~
+a Saiyan Spacepod~
+&15A small spacepod is sitting in a large crater.&00~
+~
+0 0 0
+0 0 0 0
+0 0 0
+#4575
+can of spam~
+a can of spam~
+Some spammer left some spam here.~
+~
+19 0 1
+100 0 0 0
+0 0 0
+#4578
+a benny~
+a benny~
+A benny~
+~
+2 0 1
+10 3 9 2
+0 0 0
+#4580
+staff~
+Babidi's &09M&10a&11g&12i&13c&00 Staff~
+The staff of a powerful sorcerer is spiked in the ground here and glowing.~
+~
+8 1 16385
+0 0 0 0
+0 0 0
+A
+19 50
+A
+18 50
+#4581
+a robe with "&09M"&00 on it~
+a robe with "&09M&00" on it~
+A robe with "&09M"&00 on it has been dropped here.~
+~
+9 0 9
+100 0 0 0
+0 0 0
+A
+12 100
+#4582
+an orange cloak~
+an &09orange&09&00 cloak&00~
+An orange cloak was  dropped here.~
+~
+9 0 1025
+100 0 0 0
+0 0 0
+#4583
+some puffy pants~
+&14some puffy pants&00~
+&14some puffy pants are here.&00~
+~
+9 0 33
+-100 0 0 0
+0 0 0
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+#4584
+some cloth shoes~
+&13some cloth shoes&00~
+&13Some cloth shoes have been left here.&00~
+~
+9 0 65
+100 0 0 0
+0 0 0
+A
+18 25
+A
+24 25
+#4587
+a fountain~
+a fountain~
+A large drinking fountain is here.~
+~
+23 0 0
+10000000 10000000 0 0
+10000005 0 0
+#4589
+a water cooler~
+a water cooler~
+A water cooler is leaned up against the wall.~
+~
+23 0 0
+10000000 10000000 10 0
+10000005 0 0
+#4590
+dragonball dragon ball~
+&11A Dragonball&00~
+&11A small orange ball sits on the ground here.&00~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#4595
+a cigar~
+a cigar~
+Someone dropped a perfectly good cigar.~
+~
+0 0 16385
+0 0 0 0
+0 0 0
+#4596
+a gold ring~
+&00a&00 &11gold&11 &00ring&00~
+&00A valuable&00 &11gold&11 &00ring has been left here.&00~
+~
+9 0 3
+14 0 0 0
+1 1000 0
+A
+12 50
+#4597
+a scouter~
+a scouter~
+A scouter has been dropped on the ground here.~
+~
+3 0 513
+1 10000 10000 207
+0 4684 382
+#4598
+mannd head spear pole~
+Mannd's bloody head~
+&15A large pole sticks in the grounds with Mannd's bloody head stuck on it.&00~
+~
+0 0 0
+0 0 0 0
+1000 0 0
+E
+pole spear mannd head bloody~
+Mannd was killed by Kastion and though immortal will never come back. He is an example to all defies Kastion.
+~
+#4599
+katana god~
+&04Kastions &01Ka&05ta&01na&00~
+Why is Kastions katana lying here?~
+~
+5 0 8193
+100 1 20 3
+2 0 1
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+$~

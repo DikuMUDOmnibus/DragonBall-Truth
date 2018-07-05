@@ -1,0 +1,5579 @@
+update
+&00&06------------------------&00
+Help Update
+&00&06------------------------&00
+
+&15This file will contain a list of things added to the mud recently.&00
+
+&15Anti-crash and Anti-Spam code added in.&00
+&15Heaven's Rain(Angel skill) added.
+&15Actor.name trigger code fixed.
+Tower of Engel zone added to orainas.
+Learned has been fixed and updated.
+
+#0
+instanttransmission
+&00&06------------------------&00
+Help Instant Transmission
+&00&06------------------------&00
+
+&15This skill allows the user to instantly teleport to a location. 
+To be used you need a known powerlevel signal to sense and teleport
+to. Anyone touching you is also teleported to where you went. It 
+costs 25% of your ki, and can only be used twice per week irp. You
+can move as far as 1 day's space travel for every 10mil pl you have.
+So naturally this means if you have 10mil pl or lower, you can only 
+travel on a planet or around it.&00
+
+&15It takes 200 posts to learn instant transmission, and it can only
+ be learn irp from an imm.&00
+&00&06------------------------&00
+See also - help indexrp
+&00&06------------------------&00
+
+#0
+Cavern
+&16On Namek, there is a place called the Cavern of the Goddess.
+Do not try and get in, you can't.
+This is Phase 1 of my Avatar Quest.
+
+Pre-requisites
+&11Good&16 Aligned IRP
+Cannot belong to any other clan. This means you cannot level in clan halls, or go into them without good reason.
+
+Phase One:
+You must meet me IRP
+and
+You must go through the Cavern without dieing.
+
+Phase Two:
+You then need to a 90-post RP of going through the Cavern with me. You allowed 10 spelling/grammar errors.
+
+Phase Three:
+I recognize you as my Avatar, and give you the Avatar EQ Set.
+&00Current Avatar: &14None&00
+
+
+#0
+Cavern
+&15On Namek, there is a cavern, called the Cavern of the Goddess.
+
+Abandon all attempts to enter, because if you do, without permission, I will personally &11ZAP&15 your ass.
+
+That is part of a quest to become my avatar. This is the itinerary:
+&001. &03You must be of Good-Alignment.
+&002. &03You must have met me in role-play.
+&003. &03You will have to do a 90-post, 3/4 buffer RP, which will detail you going through the cavern.
+&004. &03You will have to go through said cavern, before the rp.
+&005. &03The log is sent to both myself and the RP-Imm Addy.
+&006. &03You will forsake any connection to any clan, and return your Clan items.
+
+#0
+Lilia
+   &16Lilia is the Goddess responsible for most of Namek.  Don't blame the
+other Imms for it, it's mostly her fault.  She is a part-time builder, since
+she's good at small areas, but planets are a little much.  She is also an
+RP-Imm, and will participate in RP as often as she can.  Do not break RP rules,
+because she's scary when you break the rules of her favorite place on the Mud.
+  
+&11If it's important, e-mail her at:
+lilia_noricka@yahoo.ca
+
+
+&00See also: Help Cavern
+
+#0
+2ships
+&00&06------------------------&00
+Help Ships 2
+&00&06------------------------&00
+
+&15This is where the current list of ship owners go, as well as ship stats.
+&15Plasma Cannon (2mil DMG)
+Particle Cannon (1mil DMG)
+Laser Cannon (500k DMG)
+
+&11Nail &16- &09PL&16: &1510mil &09Speed&16: &151 &09Passengers&16: &153 &09AI&16: &15No&00
+&16>&10Extra&16: 
+
+&00&06------------------------&00
+See also - help indexrp, help ships, help travel.
+&00&06------------------------&00
+
+#0
+danceofthesevendragons
+&00&06------------------------&00
+Help Dance of the Seven Dragons
+&00&06------------------------&00
+
+&15This technique's origin is a mystery, however it is a skill that most
+half-breeds have been able to master over time and seems to be almost 
+natural. It is a series of natural attack motions the user adds ki to, 
+making them deadly, the user does these seven attacks to various parts
+of an opponent's body. It is a quite devastating attack.&00
+
+&09Rp&00
+
+&15This technique is a series of quickly thrown punches, kicks, knees, and
+elbows. This technique is an advanced form of zanzoken, having punches and
+kicks thrown in other than pure defense. This technique takes 10% of your max
+ki to use, and can only be used twice per rp. It does 7 times 3% of your base
+pl, so the formula is - 1,000,000 pl = 30,000 x 7 = 210,000. This skill is really
+useful if your pl heavily outwieghs your ki.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15seven (target)&00
+&00&06------------------------&00
+
+#0
+forum
+&00&06------------------------&00
+Help Forum
+&00&06------------------------&00
+
+&15http://dbtruthforums.proboards25.com/index.cgi&00
+
+&00&06------------------------&00
+See also - help dbt.
+&00&06------------------------&00
+
+#0
+indexrp
+&00&06------------------------&00
+Help Indexrp
+&00&06------------------------&00
+
+&15Help request      &16|&15 Help Cybernetic  
+Help immpl        &16|&15 Help ships
+Help roleplay     &16|&15 Help planets
+Help logrp        &16|&15 Help travel
+Help namerp       &16|&15 Help rebuild
+Help 2rpname      &16|&15 Help weapondamage
+Help 3rpname      &16|&15 Help itemrp
+Help 4rpname      &16|&15 Help senzu
+Help 5rpname      &16|&15 Help kaiokenrp
+Help fightingrp   &16|&15 Help kyodaikarp
+Help breathing    &16|&15 Help pumping
+Help speedrp      &16|&15 Help blocking
+Help zanzoken     &16|&15 Help fusion
+&15Help skills       &16| &15Help destruction
+Help skills2      &16|&15 Help 2ship
+Help transrp      &16|&15 Help Instant Transmission
+Help piercing     &16|&15 Help Build
+Help healingtank  &16|&15 Help Action
+Help stun         &16|&15 Help specialrp
+Help focus        &16|&15 
+Help healtime&00     &16|&15
+
+
+#0
+specialrp
+&00&06------------------------&00
+Help Special Rp
+&00&06------------------------&00
+
+&15This and its accompaning files have the specials rp names are
+granted for rp. Do not gripe about what you get, be happy you get
+anything at all.&00
+&15Roshi - Kamehameha charges 5% faster with a 5% higher cap and upgrades to 
+massive.
+Goku - Kamehameha, Chou Kamehameha and Genki Dama charges 5% faster with a 
+5% higher cap
+Nail/Kami - Scattershot charges 10% faster with a 10% higher cap
+Raditz/Nappa/Tora/Bardock/Paragus - Eraser Cannon charges 10% faster with a 
+10% higher cap
+Videl/Torbie - Moves 20% faster then normal
+Buu - Genocide and Chikyuu Geki Gama charge 5% faster with a 5% higher cap
+Yamcha - Spirit Ball charges 10% faster at 10% higher cap
+Vegetaou - Galick Gun charges 10% faster at 10% higher cap
+Vegeta - Galick Gun, Big Bang, Final Flash charge 5% faster at 5% higher cap
+Bebi - Gigas Beam charges 10% faster at 10% higher cap
+Tooro - Hydro Blade and Hydro Eclipse Cannon charge 5% faster at 5% higher cap
+Amondo/Bora/Bido/Bujin/Frog/Garlic/Chichi/Gokua/Lunch/Marron/Neizu/Pan/Jewel
+/Sauzer/Upa/Yajirobe/Zangya - Beam upgrades to medium and charges 5% faster 
+at 5% higher cap
+&00&06------------------------&00
+See also - help indexrp, help specialrp2.
+&00&06------------------------&00
+
+#0
+specialrp2
+&00&06------------------------&00
+Help Special Rp 2
+&00&06------------------------&00
+
+&15Dabura - Honoo and Hellspear charge 5% faster at 5% higher cap
+Gohan - Masenko charges 5% faster at 5% higher cap and becomes massive
+Minosha/Tapion - Twin Blade Slash and Rising Pheonix Slash charge 5% faster
+at 5% higher cap
+Cold/Cooler/Frieza - Deathball charges 10% faster at 10% higher cap
+Krillin - Kakusanha, and Destructo Disk charge 5% faster at 5%
+higher cap
+Nappa - Bakuhatsuha charges 5% faster at 5% higher cap and does 1 extra mile
+damage
+All Androids - Charge Hellsflash 10% faster at 10% higher cap
+All Kai - Can move while doing Mindfreeze, just not attack.
+Cooler - Kousengan charges 5% faster at 5% higher cap and becomes massive.
+Trunks - Burning Attack charges 10% faster at 10% higher cap
+Broly/Cell - 10% physical damage rather then 5%
+All Ginyu Force Members - Crusher Ball charges 10% faster at 10% higher cap.
+Jiece/Burter - Move 10% faster.
+Piccolo - Makansappo charges 5% faster at 5% higher cap, 
+and Makansappo becomes massive.
+Kibito/Dende - Heal restores 15% more per turn.
+Tien - Kikoho charges 5% faster at 5% higher cap and becomes massive.
+Uub - Renzoku Energy Dan charges 5% faster at 5% higher cap and becomes
+large/pierce.
+Olibu - 8% physical damage rather than 5%
+Pikkon - Honoo charges 5% faster at 5% higher cap and upgrades to massive
+Janemba - Zanzoken every 2 turns&00
+&00&06------------------------&00
+See also - Help indexrp, Help specialrp.
+&00&06------------------------&00
+
+#0
+heal
+&00&06------------------------&00
+Help Heal
+&00&06------------------------&00
+
+&15This skill lets the user heal their self or a target a bit.&00
+
+&09Rp&00
+&15Heal in rp can heal one person at a time, and can only be
+used every 15 turns. It takes 10% ki to heal someone 30% pl.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'heal' (target)&00
+&00&06------------------------&00
+
+#0
+build
+&00&06------------------------&00
+Help Build
+&00&06------------------------&00
+
+&15This is something players can do in rp, as long as
+their character is smart enough. This needs to be logical
+as well, a uber saiyan warrior that has known mostly finger
+painting with sentient being blood is not going to build
+many things that work.
+
+You can NOT build the following, machines that destroy things
+or HELP destroy things, shielding devices, cloaking devices,
+healing devices, freezing devices, you get the idea. You can
+build information gathering devices, or terrestrial vehicles.&00
+
+&00&06------------------------&00
+See also - help indexrp, help rebuild.
+&00&06------------------------&00
+
+
+
+#0
+kuvoc
+    &15Kuvoc is mainly into server administration and file management, but 
+also dabbles in coding and building.  Along with Iovan he is one of the 
+two original creators and owners of DBT.  He is cynical, sarcastic, and 
+sometimes evil, but never unfair and is more than willing to answer any 
+questions or help any player if they are having trouble.
+
+&16E-mail: Null42@gmail.com  
+
+#0
+fusion
+&00&06------------------------&00
+Help Fusion
+&00&06------------------------&00
+
+&15Fusion comes in two forms for rp. First there is the fusion dance,
+which is learned only from an imm, and requires 200 post rp for both
+people learning it, which means 400 total between the two. Second is
+the fusion earrings, which have to be wished for(1 wish per earring.)
+
+&14Fusion Dance&16: &15The users must be within 10% of each's other's
+pl. And must be of similar looks and size. If a different race is fusing
+together they have no transes. Add both pls and kis together. Lasts for
+5 turns.&00
+
+Fusion Earrings&16: &15Permanant, users pl and ki added together, and Pl:
+Times 5, Ki: Times 5.&00
+
+&00&06------------------------&00
+See also - help indexrp.
+&00&06------------------------&00
+
+#0
+immrp
+
+&091&16: &15No imm is to damage major rp areas(I.E. Nexus City)
+Or attempt to unless a) Another imm has been notified to stop it,
+or b) You are doing it to allow mortals to stop you and have fun.
+
+&092&16: &15No imm is to give any ability to a player or item
+without the person doing at least the required amount for it
+whatever that may be, or a 150 post rp if not listed.&00
+
+#999999
+meditate
+&00&06------------------------&00
+Help Meditate
+&00&06------------------------&00
+
+&15Meditate is a way to train on DBT. Only certain races can
+learn this skill, and it has a random chance when used to
+raise max ki by a few points when used. It gives exp based
+off of the user's stats.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15meditate&00
+&00&06------------------------&00
+
+#0
+bounty
+&00&06------------------------&00
+Help Bounty
+&00&06------------------------&00
+
+&15Bounties on DBT are command bases. You use the command
+to set a bounty on someone. The bounty stays on them till
+they are killed outside the arena. People with bounties on
+their heads are KILL ON SIGHT if you wish to have the bounty.
+Bounties can only be placed if the person insulted you anywhere
+but ooc or roleplay. Or they did something else that insulted
+you. It takes 250k to place a bounty, and the bounty hunter
+receives 200k for the kill.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15bounty (target)&00
+&00&06------------------------&00
+See also - help mudrules.
+
+#0
+downtime
+&00&06------------------------&00
+Help Down time
+&00&06------------------------&00
+
+&15The mud is scheduled to shutdown at 11:45 pm every saturday eastern
+US time, and to take a 15 minute break until 12am sunday morning when 
+it will be started back up. This keeps the mud running at it's best, 
+and is something all intelligent MUD owners do for their muds to clear
+out temporary files and other things that could potentially bog the mud
+down or create bugs.&00
+
+&00&06------------------------&00
+See also - help help.
+&00&06------------------------&00
+
+#0
+autoassist
+&00&06------------------------&00
+Help Auto Assist
+&00&06------------------------&00
+
+&15This command allows you to autoassist a group
+member when they attack something. They must use
+hit or kill to start the fight, or else you will
+not autoassist.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15autoassist&00
+&00&06------------------------&00
+
+#0
+autoloot
+&00&06------------------------&00
+Help Autoloot
+&00&06------------------------&00
+
+&15Autoloot allows you to loot corpses right after you
+kill them. This can be toggled on and off.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15autoloot&00
+&00&06------------------------&00
+See also - help autosplit.
+
+#0
+autosplit
+&00&06------------------------&00
+Help Autosplit
+&00&06------------------------&00
+
+&15Autosplit allows you to split loot right after you
+loot a corpse. This can be toggled on and off. This only
+works if you are in a group, and if you have autoloot on.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15autosplit&00
+&00&06------------------------&00
+See also - help autoloot.
+
+#0
+group
+&00&06------------------------&00
+Help Group
+&00&06------------------------&00
+
+&15Groups are the best way to train. They allow safty in numbers,
+the ability to take down large quest mobs, the ability to take down
+more mobs faster. Groups on DBT give each member of the group better
+than a small fraction exp gains. Example, if a group of three members kills
+a mob worth 9mil exp, instead of each getting 3mil they would get 4.5mil.
+This makes it worth group training as it can be at a slightly better
+pace than solo training. To group with someone, you must be at least
+50% of the leader's pl.
+
+Groups provide great safty in PK/Stealing zones as well. If you enter a
+pk stealing zone in a group you are NOT allowed to steal from or kill
+anyone in that group while you are in the zone. You must leave the zone
+to leave the group and be an enemy to those players.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15group (target)
+        group (target) [to remove from group]
+        report [reports health to party]
+        gsay (speech)
+        group [shows group members and their health]&00
+&00&06------------------------&00
+
+#0
+blocking
+&00&06------------------------&00
+Help Blocking
+&00&06------------------------&00
+
+&15You can block most anything in rp in some way. Listed below are the
+available ways to block.&00
+
+&11Physical Attacks&16: &15These can be blocked with any body part
+at anytime if reasonable.
+&11Ki attacks&16:&15You can block ki attacks only by charging at least
+half the amount of ki in the attack into one or two hands, and slapping
+the attack away. This only works if the user of the attack isn't pumping
+energy into it. You can charge energy to do this kind of block at 2% of
+your total ki per turn.&00
+
+&15You can also catch ki attacks and throw them back towards the user,
+if you charge ki into your hands and have an equal amount charged into
+them as the attack. This can only be done to ball attacks(example: Genki
+Dama, Kishot, Spiritball.).&00
+
+&00&06------------------------&00
+See also - help indexrp, help pumping.
+&00&06------------------------&00
+
+#0
+pumping
+&00&06------------------------&00
+Help Pumping
+&00&06------------------------&00
+
+&15Any Focus skill can continue to have energy charged into it.
+The user has to remain in the spot they fired it from, and they
+muar continue to charge energy into it at the same rate as before they
+fired the attack. The pumping can be cut off at any time unless
+two beam attacks hit each other(example: Galik gun hitting a 
+kamehameha) If two attacks hit each other the orginators of the
+attacks must pump energy into the attacks for 3 turns after they
+hit. The one with the most energy wins the contest of attacks, 
+and pushes both attacks into the other opponent.&00
+
+&12Riding an Attack&00
+&15You can ride explosions if you manage to fire a beam attack
+that is at least 25% of the total ki in the explosion. You must
+know the attack is coming or have a zanzoken to use. You must
+pump into the beam attack after it contacts the explosion, or
+else the attack will break and you will take its damage with the
+explosion's.
+
+&00&06------------------------&00
+See also - help indexrp.
+&00&06------------------------&00
+
+#0
+senzu
+&00&06------------------------&00
+Help Senzu
+&00&06------------------------&00
+
+&15Senzus or senzu like items take 80 post rps to earn. They are
+gotten wherever they are gotten in the mud. The rps must be quality
+rps, and only one senzu rp per week. Each person can only hold 2
+senzu type items in rp.&00
+
+&00&06------------------------&00
+See also - help indexrp, help itemrp.
+&00&06------------------------&00
+
+#0
+itemrp
+&00&06------------------------&00
+Help Item Rp
+&00&06------------------------&00
+
+&15These items that are found in the mud have certain bonuses
+or abilities in rp. You must have the item in the mud and earn
+it in rp to have it in rp. There can only be one copy of
+each in rp held by any person.&00
+
+&10Z Sword&16: &15120 post rp, found on Aether. Wielder's transes
+ do not have a turn limit.&00
+&10Rune Decorated Bangle&16: &15120 post rp, found on Konack. Wearer
+never drops below 5% of their ki.
+&10Royal Scouter&16: &1560 post rp, found on Frigid. Wearer knows the
+reading of any being on a planet and the location of anyone within 10
+miles regardless of any other effects.
+&10Necromancer Crown&16: &15150 post rp, found on Vegeta. Wearer can
+travel to the afterlife while still alive. The wearer is allowed to go to 
+the afterlife and return once a month.
+&10Falcon Boots&16: &1580 post rp, found on Namek. Wearer moves 20%
+faster than normal.
+&10Heaven's Gate Staff&16: &15120 post rp, found on Earth. Wielder
+can stop time for one turn for everyone but themself.&00
+&10Spear of Chaos&16: &15300 post rp, found in Hell. Weidler can reduce
+target to 1 pl and ki for an rp, usable once.&00
+&10Ether Infused Ring&16: &15120 post rp, found on Orainas. Wearer 
+create a barrier equivelant to 80mil ki once. It can be as small as a 
+shield, or large enough to cover a planet.&00
+&10Molecular Beam Sword&16: &15120 post rp, Ki charged into the blade for attacking, is
+10% instead of 2%. On Neo Nirvana&00
+&10Molecular Beam Halberd&16: &15120 post rp, Weapon does 20% more base damage. Neo 
+Nirvana. Can not get both Molecular weapons in same rp.&00
+
+&00&06------------------------&00
+See also - help indexrp, help weapondamage, help charge2.
+&00&06------------------------&00
+
+#0
+weapondamage
+&00&06------------------------&00
+Help Weapon Damage
+&00&06------------------------&00
+
+&15Weapons in rp do the damage listed below for their
+cost type plus 2% of the total pl of the wielder.&00
+
+&1130000 &10Zenni &16- &1515000 damage&00
+&11300000 &10Zenni &16- &1530000 damage&00
+&11600000 &10Zenni &16- &15125000 damage&00
+&111,000,000 &10Zenni &16- &15300000 damage&00
+&112,000,000 &10Zenni &16- &15400000 damage&00
+&114,000,000 &10Zenni &16- &15600000 damage&00
+&15Quest &111-3,999,999 &16- &15625000 damage&00
+&15Quest&11 4,000,000 &10Zenni &16- &15700000 damage&00
+&15Custom weapon &16- &151,000,000 damage&00
+&15Imm quest weapon &16- &151,500,000 damage&00
+
+&00&06------------------------&00
+See also - help indexrp, help charge2.
+&00&06------------------------&00
+
+#0
+rebuild
+&00&06------------------------&00
+Help Rebuild
+&00&06------------------------&00
+
+&15It takes time to rebuild anything that was destroyed, doing so
+however can be worth 20 Truth points when completed.
+
+It takes 6 months for npcs to rebuild a city by theirselves,
+3 months for anything smaller.
+
+It takes 3, 80 post rps for a player or group of players to rp
+rebuilding a city or area in rp. This is the only way to recieve
+TP for it. The players will recieve normal TP for their logs, and
+a 20 TP bonus once the area is rebuilt. The RPs must be of at
+least good quality.&00
+
+&00&06------------------------&00
+See also - help indexrp, help planets.
+&00&06------------------------&00
+
+#0
+travel
+&00&06------------------------&00
+Help Travel
+&00&06------------------------&00
+
+&15Traveling from planet to planet irp takes real life time.
+Each planet has a different travel time compared to each other
+planet. It takes at least a 20 post rp to leave a planet. If
+you do not have your own ship, you use public transportation wherever
+it is located in the mud on that planet.&00
+
+&10Earth&16: &15Vegeta 6 days, Namek 4 days, Konack 5 days, Frigid 6 days,
+        Kanassa 3 days, Aether 5 days, Orainas 2 days.&00
+&10Vegeta&16: &15Earth 6 days, Namek 5 days, Konack 3 Days, Frigid 2 days,
+        Kanassa 6 days, Aether 7 days, Orainas 8 days.&00
+&10Namek&16: &15Earth 4 days, Vegeta 5 days, Konack 4 days, Frigid 7 days,
+        Kanassa 3 days, Aether 4 days, Orainas 5 days.&00
+&10Frigid&16: &15Earth 6 days, Vegeta 2 days, Namek 7 days, Konack 6 days,
+        Kanassa 6 days, Aether 7 days, Orainas 7 days.&00
+&10Konack&16: &15Earth 5 days, Vegeta 3 days, Namek 4 days, Frigid 6 days,
+        Kanassa 2 days, Aether 4 days, Orainas3 days.&00
+&10Kanassa&16: &15Earth 3 days, Vegeta 6 days, Namek 3 days, Konack 2 days,
+        Frigid 6 days, Aether 2 days, Orainas 3 days.&00
+&10Aether&16: &15Earth 5 days, Vegeta 7 days, Namek 4 days, Konack 4 days,
+        Frigid 7 days, Kanassa 2 days, Orainas 3 days.&00
+&10Orainas&16: &15Earth 2 days, Vegeta 8 days, Namek 5 days, Konack 3 days,
+        Frigid 7 days, Kanassa 3 days, Aether 3 days.&00
+&00&06------------------------&00
+See also - help indexrp, help planets, help ships.
+&00&06------------------------&00
+
+#0
+destruction
+&00&06------------------------&00
+Help Destruction
+&00&06------------------------&00
+
+&15Unless otherwise stated, it takes a certain amount
+of ki to destroy a certain amount of area. Listed below
+are the amounts an explosion of ki needs to destroy
+a certain distance of an area. Anything inbetween an amount
+is anything logically inbetween the distance listed. Each
+mud room that isn't an inside room, counts as 1 mile. Inside
+rooms are logicly like the inside of a building, etc. Anything
+in the blast range of one of these attacks takes only 1/8th
+the ki put into the attack. Exceptions if listed in a different
+help file.&00
+&15100k = .1 mile&00
+&151mil = .5 mile&00
+&152mil = 1 mile&00
+&155mil = 3 miles
+8mil = 6 miles
+10mil = 10 miles
+Add 1 mile for every 1mil above 10mil.
+&00&06------------------------&00
+See also- help indexrp, help planets.
+&00&06------------------------&00
+
+#0
+planets
+&00&06------------------------&00
+Help Planets
+&00&06------------------------&00
+
+&15Planets have a set amount of powerlevel that must be damaged
+for the planet to be destroyed. This must be done in one attack,
+unless two attacks are used in a way that one blows a path to the
+core of the planet for the second to hit. Only ball or beam type
+skills can destroy planets, any other kind will just damage the
+surface but not threaten the planet's core powerlevel. You must
+give people a chance to counter an attack, as well as stick around
+until the attack hits.&00
+
+&10Earth&16: &15100mil pl&00
+&10Vegeta&16: &15120mil pl
+&10Namek&16: &1590 mil
+&10Konack&16: &1580 mil
+&10Frigid&16: &15110mil
+&10Neo-Nirvana&16: &1560 mil
+&10Kanassa(not finished)&16: &15110mil
+&10Aether(not finished)&16: &15120mil
+&10Orainas&16: &1570mil&00
+
+&00&06------------------------&00
+See also - help indexrp, help travel, help ships.
+&00&06------------------------&00
+
+#0
+ships
+&00&06------------------------&00
+Help Ships
+&00&06------------------------&00
+
+&15Ships for rp can be purchased for 25mil, and start out
+with 10mil pl. They can be upgraded in the following ways.
+The starting passenger limit is 3 people, speed is whatever
+is listed in help travel.  In order to use this ship, you 
+must create a roleplay of how you receive the ship.  How 
+you receive it is up to you.
+
+&09Powerlevel&16- &1510mil zenni for every 10mil pl increase.
+&09Passengers&16- &151 more passenger added to the limit for every 10mil.
+&09Speed&16- &151 less day of travel, minimum of 1 day to any planet, 30mil.&00
+&09AI&16- &15An intelligent computer that can protect it's self, 10mil.&00
+&09Nanobots&16- &15These robots can repair a ship 10% of it's pl every day, 15mil.
+&09Weapons&16- &15These cannons can do either 500k, 1mil, or 2mil damage. They
+work like a person attacking, and take a turn to recharge and fire again. 10mil
+zenni, 30mil zenni, or 50mil zenni.
+
+&00&06------------------------&00
+See also - help indexrp, help travel, help planets.
+&00&06------------------------&00
+
+#0
+cybernetic
+&00&06------------------------&00
+Help Cybernetic
+&00&06------------------------&00
+
+&15Anyone wanting to replace a lost limb with a cybernetic one must
+do a 60 post rp building and attaching it. The player building it
+must be logical as the builder. Some stupid majin or saiyan warrior
+who has never studied electronics once in their life isn't going to
+build amazing cybernetic appendages.
+
+To build an android player, the builder must meet the previous
+qualifications, as well as write a 80 post rp.&00
+
+&00&06------------------------&00
+See also - Help indexrp.
+&00&06------------------------&00
+
+#0
+stun
+&00&06------------------------&00
+Help Stun
+&00&06------------------------&00
+
+&15Attacks that have the stun designation do 1/10th of their
+damage to a victim's ki as well as full damage to their pl.&00
+
+&00&06------------------------&00
+See also - help indexrp, help skills, help piercing, help focus.
+&00&06------------------------&00
+
+#0
+focus
+&00&06------------------------&00
+Help Focus
+&00&06------------------------&00
+
+&15Focus skills require a rper to either be on the ground, where
+they can move freely as long as they do not fly while moving, while
+charging the attack. You can charge a focus attack if you are just
+floating in one spot as well, but you can not fly around while
+charging.&00
+
+&00&06------------------------&00
+See also - help indexrp, help skills, help piercing, help stun.
+&00&06------------------------&00
+
+#0
+healtime
+&00&06------------------------&00
+Help Heal Time
+&00&06------------------------&00
+
+&15It takes an injured player who is still above 5% of their max pl
+a day to regenerate to full. They must be sleeping during this time
+and they must have rped going to sleep and sent in the log, or else
+they will heal at only 10% of their pl and ki per day till full.&00
+
+&00&06------------------------&00
+See also - help indexrp, help healingtank.
+&00&06------------------------&00
+
+#0
+healingtank
+&00&06------------------------&00
+Help Healing Tank
+&00&06------------------------&00
+
+&15Healing tanks can be used to refill powerlevel or ki. Costs
+10000 zenni.&00
+
+&09Rp&00
+&15Healing tanks in rp are used to revive near death players.
+Anyone who has been dropped below 5% of their total powerlevel from
+fighting will need to be put in a healing tank for 2 weeks real time
+before they will be healed back to full.
+
+Anyone cut in half from an attack can be kept alive in a healing tank
+but the time needed to recover will be a month instead of two weeks.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15heal (pl/ki)&00
+&00&06------------------------&00
+See also - help indexrp, help healtime.
+
+#0
+piercing
+&00&06------------------------&00
+Help Piercing
+&00&06------------------------&00
+
+&15Piercing type skills will cut through a target if the
+ki in the attack is at least 25% of the total powerlevel
+of the target.&00
+
+&00&06------------------------&00
+See also - help indexrp, help skills, help stun, help focus.
+&00&06------------------------&00
+
+#0
+skills
+&00&06------------------------&00
+Help Skills
+&00&06------------------------&00
+
+&15This file lists the main attack skills of each race, and
+their size. This files works with help charge2 on how fast
+each of these can be charged per turn, and how large total
+they can be charged to. Any skills labeled focus require you
+to be floating in one spot, and not throwing physical attacks
+to charge, you may still move on the ground while charging
+them however.&00
+
+&15Chou Kamehameha &11- &09Large/focus&00
+&15Kamehamaha &11- &09Medium&00
+&15Masenko &11- &09Large/focus&00
+&15Big Bang &11- &09Large&00
+&15Galik Gun &11- &09Medium/focus&00
+&15Final Flash &11- &09Medium&00
+&15Spirit Ball &11- &09Massive/focus&00
+&15Genki Dama &11- &09Massive/focus&00
+&15Scattershot &11- &09Massive&00
+&15Chikuu Geki Gama &11- &09Massive/focus&00
+&15Rising Pheonix Slash &11- &09Large&00
+&15Twin Blade Slash &11- &09Medium&00
+&15Hydro Eclipse Cannon &11- &09Massive&00
+&15Deathball &11- &09Massive/focus&00
+&15Kikoho &11- &09Large/focus&00
+&15Destructo Disk &11- &09Medium&00
+&15Tsuihidan &11- &09Small&00
+&15Kakusanha &11- &09Large&00
+
+&00&06------------------------&00
+See also - help skills2, help charge2, help indexrp.
+&00&06------------------------&00
+
+#0
+skills2
+&00&06------------------------&00
+Help Skills 2
+&00&06------------------------&00
+
+&15Any skills labeled focus require you to be floating in one spot,
+ and not throwing physical attacks to charge, you may still move on
+the ground while charging them however. Piercing attacks cut through
+a target's body if the attack is at least 25% of the target's total
+pl. Stun attacks do 1/10th their damage to the target's ki as well.&00
+
+&15Kishot &11- &09Small&00
+&15Beam &11- &09Small&00
+&15Honoo &11- &09Large&00
+&15Havoc Blast&11- &09Massive/focus&00
+&15Hell Spear Blast &11- &09Massive/focus&00
+&15Hellsflash &11- &09Large&00
+&15Bakuhatsuha &11- &09Medium&00
+&15Eraser Cannon &11- &09Large/Stun&00
+&15Crusher Ball &11- &09Massive/focus&00
+&15Makankosappo &11- &09Large/focus/piercing&00
+&15Shogekiha &11- &09Small&00
+&15Renzokou Energy Dan&11- &09Medium&00
+&15Genocide &11- &09Large/focus&00
+&15Kousengan &11- &09Small/Piercing/Stun&00
+&15Hydroblade &11- &09Medium&00
+&15Big Bang Kamehameha &11- &09Massive/focus/Stun&00
+&15Burning Attack &11- &09Massive&00
+&15Giga Beam &11- &09Massive/focus&00
+&15Cosmic Halo &11- &09Large&00
+&15Heaven's Rain &11- &09Massive/piercing/focus
+
+&00&06------------------------&00
+See also - help charge2, help skills, help indexrp.
+&00&06------------------------&00
+
+#0
+zanzoken
+&00&06------------------------&00
+Help Zanzoken
+&00&06------------------------&00
+
+&15Zanzoken is a skill that allows a player to move faster than
+normal. In mud this raises your speed by 20, possibly allowing you
+to hit for an extra round per turn.&00
+
+&09Rp&00
+&15Zanzoken is the technique where you blur from sight, reappearing
+to a different location nearby. Zanzoken can move upto 200 feet
+initially. If your opponent is 20% above your current pl, he is not
+affected by the vanishing affects of zanzoken and can see you clearly.
+Zanzoken can be used to move out of the way of attacks. For every 2 mill
+base pl, add 100 feet to your zanzokens range. Can only be used every
+3 turns. If it is used on one turn, then you have to wait 3 turns
+before you use it again. It takes 5% ki to use zanzoken.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'zan'&00
+&00&06------------------------&00
+
+#0
+zanzokenelbow
+&00&06------------------------&00
+Help Zanzoken Elbow
+&00&06------------------------&00
+
+&15This is a skill where the user zanzokens to the back
+of and enemy and rams their elbow into the base of their
+neck or spine.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15zanzoken (target)&00
+&00&06------------------------&00
+
+#0
+speedrp
+&00&06------------------------&00
+Help Speed Rp
+&00&06------------------------&00
+
+&15For every 2 mill base pl, you can cover 1/4ths of a mile in a single
+post. While in combat, speed is slightly different. If you opponent is
+within 10% of your base pl, they are equal in speed to you. This applies
+to combat only. 
+
+Kanassans have the ability to move double their base movement underwater,
+acting as a permanent zanzoken, where zanzokening underwater quadruples it.&00
+
+&00&06------------------------&00
+See also - help indexrp
+&00&06------------------------&00
+
+#0
+breathing
+&00&06------------------------&00
+Help Breathing
+&00&06------------------------&00
+
+&15For breathing in space and underwater, there are special rules
+accompaning these. This rule is exempt for Androids, Majins and 
+Icers, since they require no oxygen to breath. Kanassans are 
+unaffected by the affects of underwater breathing. For every 5 mill
+pl, you can stay 5 rounds underwater/space without having to take
+another breath.&00
+
+&00&06------------------------&00
+See also - help indexrp
+&00&06------------------------&00
+
+#0
+Action
+&00&06------------------------&00
+Help Action
+&00&06------------------------&00
+
+&15You can preform only a certain amount of actions per turn
+irp. Unless help fightingrp says otherwise, you can preform 2
+skill actions in one turn. 1 if you plan to attack the same turn.
+Transes count this way too, you can use a trans and 1 skill in the
+same post.&00
+
+&00&06------------------------&00
+See also - help fightingrp, help indexrp.
+&00&06------------------------&00
+
+#0
+fightingrp
+&00&06------------------------&00
+Help Fighting Rp
+&00&06------------------------&00
+
+&15Fighting consists of 2 attacks per round. This can be either 2
+physical attacks, 1 physical plus 1 ki skill equal or under medium
+rating, or 2 ki skills equal or under medium rating. Exception to
+this rule are ki skills above the medium rate, which can only be done
+once per round.&00
+
+&00&06------------------------&00
+See also - help indexrp
+&00&06------------------------&00
+
+#0
+critical
+&00&06------------------------&00
+Help Critical
+&00&06------------------------&00
+
+&15Critical hits happen randomly based off of your dexterity. Critical
+hits double the damage your normal hit does, and also raises the damage
+limit to 2mil. This is a very useful thing, so it is good to raise up
+one's dexterity with equipment.&00
+
+&00&06------------------------&00
+See also - help charge
+&00&06------------------------&00
+
+#0
+dragonballs
+&00&06------------------------&00
+Help Dragonballs
+&00&06------------------------&00
+
+&15Dragon balls are mystical objects that can bring forth a magical
+dragon that can grant a large variety of wishes. In rp there are three
+sets of Dragonballs. The Earth set, the Namek set, and the Blackstar
+Dragonballs. The following are what can be wished for in rp with each
+set.&00
+
+&15The requirement for roleplaying for a dragonball is a minimum of 100
+posts.  No more then 10 typo's and serious grammar errors allowed. These
+requirements are for all of the dragonballs. &00
+
+&10Earth &16set - &152 Wishes. Revival of up to 2 people per wish, any rp
+            item, an increase to pl and ki of 3mil takes both wishes,
+            a ship, a skill in rp not known, restoration of any planet
+            1 wish, or any other basic request.&00
+&10Namek &16set - &153 Wishes. Revival of one player per wish, any rp item
+            , an increase to pl and ki of 3mil takes 2 wishes, a ship,
+            a skill in rp not known, restoration of one planet 2 wishes
+            required, or any other basic request.
+&10B.S.  &16set - &151 Wish. Revival of up to 5 people, Restoration of all
+            planets, custom skill within reason, pl and ki increase of
+            5 mil, any two rp items, a ship, or any other basic request. 
+&00&06------------------------&00
+See also - help wish.
+&00&06------------------------&00
+
+#0
+level
+&00&06------------------------&00
+Help Level
+&00&06------------------------&00
+
+&15Levels are invisible to mortals on DBT, and do not serve much value
+except for a few security measures that rely on them. What really matters
+on DBT is total power, or ki and pl. A great player will be one that has
+achieved a high pl or ki standing compared to their peers. Nothing player
+related relies upon levels, and never ask an immortal to tell you your
+level. If you do they will mute you for as long as they see fit.&00
+
+&00&06------------------------&00
+See also - help help, help score, help stats.
+&00&06------------------------&00
+
+#0
+truesight
+&00&06------------------------&00
+Help Truesight
+&00&06------------------------&00
+
+&15This skill allows the user the ability to see any invisible
+players. It lasts for a short time, and can be a quite useful skill.
+In rp it allows the user to see an invisible opponent and lasts only
+for 2 turns. It takes 10% of your ki to use truesight in rp.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'truesight'&00
+&00&06------------------------&00
+
+#0
+tailwhip
+&00&06------------------------&00
+Help Tailwhip
+&00&06------------------------&00
+
+&15This physical skill is where the user hits a target with their
+tail. It does damage and knocks the target down for one round.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15tailwhip (target)&00
+&00&06------------------------&00
+
+#0
+swiftness
+&00&06------------------------&00
+Help Swiftness
+&00&06------------------------&00
+
+&15This skill allows the user to move through rooms without
+alerting anyone to their presence. It lasts until the person logs
+off the mud. In rp it allows the user to move 40% faster once per
+fight. Swiftness takes 5% ki to use in rp.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15swiftness&00
+&00&06------------------------&00
+
+#0
+stealth
+&00&06------------------------&00
+Help Stealth
+&00&06------------------------&00
+
+&15This skill let's a konatsu hide as long as they do not do
+any actions. In rp it works only if the player can't sense you
+or has never sensed you before unless you are invisible in which
+they will sense the ki use and know that you are hiding nearby.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15stealth&00
+&00&06------------------------&00
+
+#0
+solarflare
+&00&06------------------------&00
+Help Solar Flare
+&00&06------------------------&00
+
+&15This skill let's the user temporarily blind a target. This is
+grounds for pk just like any other skill used unwanted on another
+player. It can be removed with the skill removeblindness. In rp
+this skill lasts for 3 turns, and hits anyone but the user with
+their eyes open. It takes 5% ki to use solar flare in rp.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'solar' (target)&00
+&00&06------------------------&00
+
+#0
+suicide
+&00&06------------------------&00
+Help Suicide
+&00&06------------------------&00
+
+&15This command costs 50k zenni, and sends you to the afterlife.
+Hopefully living there isn't as bad, or you will probably be going
+to the after afterlife.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15suicide&00
+&00&06------------------------&00
+
+#0
+trade
+&00&06------------------------&00
+Help Trade
+&00&06------------------------&00
+
+&15This command allows you to trade the tp you have to someone else.
+They must be in the same room as you to trade with them.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15trade (player) (amount)&00
+&00&06------------------------&00
+
+#0
+selfdestruct
+&00&06------------------------&00
+Help Self Destruct
+&00&06------------------------&00
+
+&15This skill will kill a target without adding a pk to anyone's
+record. It can even kill the user alone. They end up in the
+afterlife area. In rp this skill does all the user's pl to a
+certain range of area, killing the user. Bios and Majins irp self
+destruct goes off of ki instead of pl. It takes 4 turns to prepare
+a self destruct, you can charge no ki during that time.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15self (target)&00
+&00&06------------------------&00
+
+#0
+roundhouse
+&00&06------------------------&00
+Help Roundhouse
+&00&06------------------------&00
+
+&15Roundhouse is an attack where the user spins, kicking a target.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15roundhouse (target)&00
+&00&06------------------------&00
+
+#0
+rescue
+&00&06------------------------&00
+Help Rescue
+&00&06------------------------&00
+
+&15This skill lets a player rescue a fellow player, or even a mob
+from a fight. Be careful you don't rescue someone who doesn't want
+to be rescued, they will have the right to kill you. They will have
+the right to kill you if you rescue a mob they were fighting as well.&00
+
+&09Rp&00
+&15You can rescue up to two people irp with this skill, it takes 2% of 
+your ki and you move at 10% faster speed for one post while you pull 
+them in a directions.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15rescue (target)&00
+&00&06------------------------&00
+
+#0
+reproduce
+&00&06------------------------&00
+Help Reproduce
+&00&06------------------------&00
+
+&15This skill allows a namek to create namek offspring. These 
+offspring are weaker then the namek making them, and are limited
+just like animate dead and multiform.&00
+
+&09Rp&00
+&15Reproduced nameks in rp only last for the rp they were made in
+they die afterward due to increased ageing. It costs 20% of the user's
+ki to make a namek offspring, and they will be exactly 1/5th the pl
+and ki of the user's max. Only two of these can be made or be alive
+at one time.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'reproduce'&00
+&00&06------------------------&00
+
+#0
+repair
+&00&06------------------------&00
+Help Repair
+&00&06------------------------&00
+
+&15At the cost of ki this skill allows an android to repair their
+damage and refill their pl a bit.&00
+
+&09Rp&00
+&15Repair can be used to repair any damage that does not remove
+a piece of the android from it's body. It costs 20% ki to restore
+25% pl. It can be used only every 4 turns.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15repair&00
+&00&06------------------------&00
+
+#0
+removepoison
+&00&06------------------------&00
+Help Remove Poison
+&00&06------------------------&00
+
+&15This skill removes the effects of poison from a target.&00
+
+&09Rp&00
+&15This can be used on one target, once every 4 turns in a fight.
+It removes all the effects of poison, and costs 2% ki to use.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'removepoison' (target)&00
+&00&06------------------------&00
+
+#0
+removeblindness
+&00&06------------------------&00
+Help Remove Blindness
+&00&06------------------------&00
+
+&15This skill will remove the effects of solar flare from a player.&00
+
+&09Rp&00
+&15Remove Blindness will heal anyone blind the user wants. It can
+be used once per fight, healing as many as the user's disires that
+one time. It costs 2% ki per person healed.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'removeblindness' (target)&00
+&00&06------------------------&00
+
+#0
+removecurse
+&00&06------------------------&00
+Help Remove Curse
+&00&06------------------------&00
+
+&15This skill will remove the curse from a target.&00
+
+&09Rp&00
+&15This can be used once per fight, and only on one person.
+It costs 2% ki to use and will remove the curse from the
+target..&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'remove curse' (target)&00
+&00&06------------------------&00
+
+#0
+protection
+&00&06------------------------&00
+Help Protection
+&00&06------------------------&00
+
+&15Renders a person immune to curses for an amount of time.&00
+
+&09Rp&00
+&15This can be used to prevent one target from being cursed. It
+lasts for 1 week from it's use or until a curse is used on the
+person. Protection can only be used once per week, and costs
+10% ki to use. It can only prevent a curse, not heal it.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'protection' (target)&00
+&00&06------------------------&00
+
+#0
+poison
+&00&06------------------------&00
+Help Poison
+&00&06------------------------&00
+
+&15This skill lets the user poison a player or mob. Poison lowers some
+stats as well as causes them to lose pl every mud hour. It runs out
+after a while, and can be removed with the skill remove poison.&00
+
+&09Rp&00
+&15This can be used every 4 turns in rp, on one target. It costs
+5% ki to use. The person affected by the poison(in whatever form the
+user chooses) will be at -10% total pl for a week or until healed.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'poison' (target)&00
+&00&06------------------------&00
+
+#0
+picklock
+&00&06------------------------&00
+Help Picklock
+&00&06------------------------&00
+
+&15This skill let's the user attempt to pick the lock of a door, at
+the cost of some of their ki. Its success rate depends on the user's
+dex. Some doors are unpickable.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15pick (doorname)&00
+&00&06------------------------&00
+
+#0
+mutateskin
+&00&06------------------------&00
+Help Mutate Skin
+&00&06------------------------&00
+
+&15This skill works like barrier for mutants. They mutate their skin
+into a defensive thickness to resist damage.&00
+
+&09Rp&00
+&15This skill can be used once per fight, and lasts for 5 turns.
+During the time the user is completely immune to physical and 
+small size ki attacks. It takes 5% ki to use.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'mutate'&00
+&00&06------------------------&00
+
+#0
+mug
+&00&06------------------------&00
+Help Mug
+&00&06------------------------&00
+
+&15Mug is a skill where a konatsu can attempt to steal from a fellow
+player. It is a contest of stats skill, the user's dex plus a number 
+vs the target's. This skill can only be used in PK/Stealing zone.
+Anywhere else is ILLEGAL and will be punished according to the rules.
+The item must be named, and therefor known to the theif, so caution is
+rewarded since you may spend to much time trying to steal non existant
+items and get killed in the pk zone.&00
+
+&15You can not steal anything outside of a steal zone not even dragonballs.
+You can not steal customs or clan halos. If you do you will be forced to
+give them back the first time, and the second time will be helled for a
+day.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15mug (item) (target)&00
+&00&06------------------------&00
+
+#0
+mindread
+&00&06------------------------&00
+Help Mindread
+&00&06------------------------&00
+
+&15Mindread is a skill where the user can take a peek at another
+player's score. The quality of the information given depends on the
+intelligence of the user vs. the intelligence of the target. In Rp this
+skill can be used to communicate with another player with telepathy.
+They can't control a person, or anything except communicate with them
+and glean information that has already played out in rp such as a past
+event unknown to the user. To do this the powerlevel of the user in
+rp must be higher than the powerlevel of the target, and the target
+must be present.&00
+
+&09Androids can not be mindread irp&00
+
+&00&06------------------------&00
+&11Syntax&16: &15mindread (target)&00
+&00&06------------------------&00
+
+#0
+kyodaika
+&00&06------------------------&00
+Help Kyodaika
+&00&06------------------------&00
+
+&15This is a namek skill where the user grows five times their
+normal size. This doubles their pl for a short while, and costs
+around 1/5th their total ki to use. It won't work if you are
+below your max pl.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15kyodaika&00
+&00&06------------------------&00
+
+See also - help kyodaikarp.
+
+#0
+kyodaikarp
+&00&06------------------------&00
+Help Kyodaika Rp
+&00&06------------------------&00
+
+&15Kyodaika lasts for 10 turns in rp. And can only be used
+every 5 posts after it wears out. Any damage taken while
+kyodaika will be done to the user's base pl. When kyodaika
+runs out, you are still damaged.&00
+
+&10Kyodaika &16- &15+100%pl, -25%ki.&00
+
+&00&06------------------------&00
+See also - help indexrp, help kyodaika.
+&00&06------------------------&00
+
+#0
+knee
+&00&06------------------------&00
+Help Knee
+&00&06------------------------&00
+
+&15This is a basic knee attack to an opponent.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15knee (target)&00
+&00&06------------------------&00
+
+#0
+kinotsurugi
+&00&06------------------------&00
+Help Kinotsurugi
+&00&06------------------------&00
+
+&15This skill is where the user forms blades of ki on their
+hands. It increases their physical damage somewhat (see help
+blademorph).&00
+
+&09Rp&00
+
+&15This technique creates a blade of ki, measuring 5 feet in length.
+It takes up %3 percent of max ki, and adds that amount of ki onto your
+physical damage. (Example, 1,000,000 max ki = 30,000 Kino Tisurgi +
+1,000,000 max pl = 70,000 damage. 30,000 Kino + 70,000 base damage =
+100,000 over all.)&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'kino'&00
+&00&06------------------------&00
+
+#0
+invisibility
+&00&06------------------------&00
+Help Invisibility
+&00&06------------------------&00
+
+&15This skill lets the user render themself invisible to
+the normal eye. To see an invisible person you must focus true
+sight. In rp this skill last for 5 turns unless the user attacks.
+In rp it costs 10% ki to use and is instant.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'invis'&00
+&00&06------------------------&00
+
+#0
+ingest
+&00&06------------------------&00
+Help Ingest
+&00&06------------------------&00
+
+&15Ingest is the majin ability where the user ingests a mob and
+gains half that mob's pl and ki. This can be done up until the
+majin has gone over 250k pl or ki.&00
+
+&09Rp&00
+&15Ingest in rp can be used only until 4 targets have been ingested.
+The majin gains 15% of the max pl and ki of those ingested, and will
+continue to gain pl and ki as the player grows. The ingested players
+(no npcs) must wait 1 month before they may attempt to escape. Once
+they escape they return to 50% of their pl and ki, and the majin who
+they escaped is stuned for three turns unless they are about to be
+attacked. After a player escaped the majinlosses the pl and ki they
+gained from them. It takes a minimum of 3 turns to ingest a player
+unless  they are candy, then it takes 1. During this time a player
+can attempt to break free if they still have the power to, unless they
+are otherwise incompassitated. A zanzoken/ingest combo that isn't 
+countered traps the target, making it impossible for them to escape
+during the 3 turns unless helped.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15ingest (target)&00
+&00&06------------------------&00
+See also - help indexrp, help ingest2.
+
+#0
+ingest2
+&00&06------------------------&00
+Help Ingest2
+&00&06------------------------&00
+
+&15Depending on the race ingested a majin may gain certain skills
+or abilities as long as they are ingested. These are listed below.
+These are had in rp only.&00
+
+&14Human &16- &15Swiftness&00
+&14Namek &16- &15Multiform&00
+&14Icer &16- &15Kousengan&00
+&14Konatsu &16- &15Invisible&00
+&14Android &16- &15Can't be sensed&00
+&14Kanassan &16- &152x speed underwater&00
+&14Mutant &16- &15Eraser Cannon&00
+&14Saiyan &16- &15Kaioken&00
+&14Kai &16- &15Genki Dama&00
+&14Demon &16- &15Curse&00
+&14Truffle &16- &15Buildnanobean&00
+&14Bio-Android &16- &15Chou Kamehameha&00
+&14Majin &16- &15+5% extre pl and ki.&00
+&14Half-Breed &16- &15Hassuken&00
+&14Angel &16- &15Cosmic Halo&00
+
+&00&06------------------------&00
+See also - help indexrp, help ingest.
+&00&06------------------------&00
+
+#0
+infravision
+&00&06------------------------&00
+Help Infravision
+&00&06------------------------&00
+
+&15This skill lets the user see in the dark, or even see invisible
+opponents in rp.&00
+
+&09Rp&00
+&15Infravision allows the user to see in the dark, or if they were blinded
+by solar flare. It lasts for 3 turns and costs 5% ki to use.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'infra'&00
+&00&06------------------------&00
+
+#0
+hellsflash
+&00&06------------------------&00
+Help Hells Flash
+&00&06------------------------&00
+
+&15This attack is where an android's hands or hand change into
+machineguns and fire thousands of high power ki bullets. This is the
+best Android skill and can be very deadly.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15hellsf (target)&00
+&00&06------------------------&00
+
+#0
+hassuken
+&00&06------------------------&00
+Help Hassuken
+&00&06------------------------&00
+
+&15This is the skill where the user moves their arms fast enough
+that it seems like they have eight arms. This skill helps increase
+the amount of hits you can do in mud. In rp it allows you to multiply
+the number of physical hits you may attempt for 1 turn. It uses up
+5% of the user's ki per use.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'hass'&00
+&00&06------------------------&00
+
+#0
+house
+&00&06------------------------&00
+Help House
+&00&06------------------------&00
+
+&15Houses on DBT must be purchased unless otherwise noted. Do not
+request a house unless you have a description for all it's rooms,
+room names, and whatever else is going in it. Send all that info
+along with the request in an email to agni(bigwilliejoe68@hotmail.com)
+or jentow(jel974@hotmail.com) Do not request a house unless you have
+the money for it. Houses are only 5 rooms unless otherwise stated. 
+1 House per alt.&00
+
+&12House on&16      - &15Earth 10mil, Namek 10mil, Vegeta 11mil, 
+                Konack 12mil, Neo Nirvana 15mil, Aether 11mil,
+                Kanassa 12mil, and any other place 20mil.
+&12House Item&16    - &15Limit of 1 item per total of rooms. 500k a item
+                any equipment type will have to be statless and
+                just for show.
+&12Fountain&16      - &15Limit of one. 1mil
+&125 Extra rooms&16 - &15Limit once only purchase, 10mil.
+&12Mob&16           - &15Any mob that just greets, and has only show value
+                costs only 1mil each. If you wish for a leveling mob
+                it will cost 50mil, and will only load 20 of each
+                type.
+
+&00&06------------------------&00
+See also - help quest.
+&00&06------------------------&00
+
+#0
+groupbarrier
+&00&06------------------------&00
+Help Group Barrier
+&00&06------------------------&00
+
+&15This skill lets a user put a barrier around their groupmates.
+See help barrier for details.&00
+
+&09Rp&00
+&15In rp this can be used to put a barrier around one person who
+isn't the user. It takes double the amount of ki put into a normal
+barrier to achieve the same level of protection. (Example: 5mil ki
+into the barrier will result in 2.5mil ki protection.) It can be
+used only every 6 turns, and charges at a normal barrier charge rate
+(See help barrier).&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'groupbarrier&00
+&00&06------------------------&00
+
+#0
+groupinvis
+&00&06------------------------&00
+Help Group Invisible
+&00&06------------------------&00
+
+&15This skill lets a user render their groupmates invisible at once.&00
+
+&09Rp&00
+&15This can be used to turn up to 2 people plus the user invisible, in
+rp. It takes 15% ki to use and lasts for 10 turns as long as the invisble
+rpers do not attack anyone, or are not themselves sensed and attacked.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'groupinvis'&00
+&00&06------------------------&00
+
+#0
+groupheal
+&00&06------------------------&00
+Help Group Heal
+&00&06------------------------&00
+
+&15This skill let's the user heal all the members of their group
+a little bit. It can be used even when fighting.&00
+
+&09Rp&00
+&15This can be used on up to 4 people not including the user at one
+time. It costs 50% ki and heals the targets 50% of their max pl.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'groupheal'&00
+&00&06------------------------&00
+
+#0
+galikgun
+&00&06------------------------&00
+Help Galik Gun
+&00&06------------------------&00
+
+&15Glick Gun was developed by Vegeta, and was his best move at
+the time he first fought Goku. The user lifts their hands above their
+body and charges energy. A ball of energy covers their entire body, and
+when they are ready to fire they bring their hands forward and a
+powerful beam fires forth from their hands and is fed from the ball
+around their body. With enough energy the user could destroy planets
+with the attack&00
+
+&00&06------------------------&00
+&11Syntax&16: &15galik (target)&00
+&00&06------------------------&00
+
+#0
+gigasbeam
+&00&06------------------------&00
+Help Gigas Beam
+&00&06------------------------&00
+
+&15This is the truffle's best attack. The user brings up a hand, above
+the opposit shoulder in the front and charges energy there. A ball of ki
+will form around the hand and when the attack is ready the user brings it
+down facing the target and fires a massive beam of energy at it.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15giga (target)&00
+&00&06------------------------&00
+
+#0
+restore
+&00&06------------------------&00
+Help Restore
+&00&06------------------------&00
+
+&15This is an upgraded heal. It costs twice as much and
+heals quite a bit more.&00
+
+&09RP&00
+&15This can only be used once per fight, it heals 50%
+of the target's max powerlevel and costs 50% of the
+user's ki.
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'restore' (target)&00
+&00&06------------------------&00
+
+#0
+enchant
+&00&06------------------------&00
+Help Enchant
+&00&06------------------------&00
+
+&15Enchant temporarily raises the user's intelligence
+by 2.&00
+
+&09RP&00
+&15This raises the charge rate on the target's attacks by 5%
+for max and per turn rates. Enchant lasts for 4 turns, and can
+only be used once per fight. It costs 10% ki to use.
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'enchant'&00
+&00&06------------------------&00
+
+#0
+heavensrain
+&00&06------------------------&00
+Help Heaven's Rain
+&00&06------------------------&00
+
+&15Heaven's rain is a long lost spell the angel race perfected. It now
+only exists at a racial subconsious level. Very few angels of extraordinary
+strength are able to call up the power to do it now.&00
+
+&09RP&00
+&15This skill is piercing irp, and there fore follows the piercing rule.
+However the exact size of the feathers should be known. Heaven's Rain's
+feathers are 12 inches long and three inches wide, imagine hundreds of
+ki infused crocodile knives hitting a target.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15heavensrain (target)&00
+&00&06------------------------&00
+
+#0
+cosmichalo
+&00&06------------------------&00
+Help Cosmic Halo
+&00&06------------------------&00
+
+&15This skill is one where the user forms a hoop of ki by
+drawing it above their body with their pointer finger. When
+the hoop is completed they can direct the halo's movement
+with their hands and close it about a target. The halo can
+then squeeze a target till it run out of energy or is broken.&00
+
+&09RP&00
+&15This can be used to hold a target as long as the user keeps
+their hands in place, doing 10% of its damage per turn. The halo
+loses 10% of its energy per turn as well, and will diseapper when
+it runs out or is broken. The halo can be broken when it drops
+below 10% of the user's current pl.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15cosmic (target)&00
+&00&06------------------------&00
+
+#0
+formsword
+&00&06------------------------&00
+Help Form Sword
+&00&06------------------------&00
+
+&15This skill let's a konatsu form a sword out of ki. The strength
+of the sword formed depends on the powerlevel of the user, appearing
+in three stages. Only konatsus can use swords made with this skill.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'formsword'&00
+&00&06------------------------&00
+
+#0
+formspear
+&00&06------------------------&00
+Help Form Spear
+&00&06------------------------&00
+
+&15This skill let's a demon form a spear, these spears are only
+useable by demons. The damage the spears are able to do depends
+on the strength of the former of the spear. There are three
+stages of spear a demon can make, each stronger one requiring the
+user be above a certain powerlevel.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'formspear'&00
+&00&06------------------------&00
+
+#0
+forelockwhip
+&00&06------------------------&00
+Help Forelock Whip
+&00&06------------------------&00
+
+&15This is where a majin whips their forelock at an opponent, in an
+attempt to knock them down or grab and throw them down. It does some
+damage and also knocks and enemy down for a round of combat.&00
+
+&00&06------------------------&00
+&16Syntax&16: &15fore (target)&00
+&00&06------------------------&00
+
+#0
+finalflash
+&00&06------------------------&00
+Help Final Flash
+&00&06------------------------&00
+
+&15Final Flash was developed by Vegeta, and is a powerful attack where
+the user brings their arms out to either side and charge energy there.
+When the attack is complete the user slams their wrists together makeing
+cup facing the target, and unleashes a large beam of energy.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15final (target)&00
+&00&06------------------------&00
+
+#0
+elbow
+&00&06------------------------&00
+Help Elbow
+&00&06------------------------&00
+
+&15Elbow is a basic attack where the user throws a elbow strike
+at a target.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15elbow (target)&00
+&00&06------------------------&00
+
+#0
+curse
+&00&06------------------------&00
+Help Curse
+&00&06------------------------&00
+
+&15Curse is a skill that lowers certain stats of a target for a period
+of time. It can be countered by remove curse, and protected against
+altogether with the skill protection placed on someone. In rp it prevents
+a target from using a transformation for 6 turns.&00
+
+&09Rp&00
+&15This costs 15% ki to use, and can only target one person. It can
+be used only once per fight.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'curse' (target)&00
+&00&06------------------------&00
+
+#0
+candybeam
+&00&06------------------------&00
+Help Candybeam
+&00&06------------------------&00
+
+&15Candybeam is a majin move which allows them to turn targets or
+objects into candy. In mud this skill allows a majin to create a
+senzu type candy that will refill someone's pl and ki fully. This
+takes all the majins ki though. This means a majin can make a candy
+to refill their life after swallowing it, or to save up for later,
+or even to sell to other players. In rp it can turn a player into
+candy for ingesting easily, however players turned to candy retain
+their ability to move around, and can flee from the majin. A person
+turned to candy needs another majin's candybeam to be turned back.&00
+
+&09Rp&00
+&15It costs 10% ki to use in rp. The person turned into candy moves
+at half speed for 2 turns. After those two turns they can move at their
+full speed.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'candybeam'&00
+&00&06------------------------&00
+
+#0
+burningattack
+&00&06------------------------&00
+Help Burning Attack
+&00&06------------------------&00
+
+&15Burning attack was developed by Trunks in his fight with Frieza.
+It has the potential of being a deadly attack. The user charges energy
+into their hands and moves their hands in complicated manuevers. When
+the amount of ki they want charged is ready, they bring their hand forth
+and fire a burning ki blast at the target.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15burn (target)&00
+&00&06------------------------&00
+
+#0
+buildshield
+&00&06------------------------&00
+Help Build Shield
+&00&06------------------------&00
+
+&15This skill is a one time thing, you can use it more than once but
+it would be useless cause only truffle's can use it. It is the Truffle
+race bonus. Once the shield is made, the truffle should wear it(it
+covers a part of their body nothing else does.) and the shield will
+permanatly cut in half all damage the truffle would receive in mud. In
+rp it will just give them a barrier once a fight equal to 5% of their
+total ki(it will cost them 5% too.)&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'buildshield'&00
+&00&06------------------------&00
+
+#0
+blademorph
+&00&06------------------------&00
+Help Blade Morph
+&00&06------------------------&00
+
+&15This skill lets a mutant grow their claws out to blade lengths
+and sharpness. This raises their damage somewhat in mud. 
+
+&09Rp&00
+
+&15This technique creates blade like claws, measuring 2 feet in length.
+It takes up %3 percent of max ki, and adds that amount of ki onto your
+physical damage. (Example, 1,000,000 max ki = 30,000 Kino Tisurgi +
+1,000,000 max pl = 70,000 damage. 30,000 Kino + 70,000 base damage =
+100,000 over all.)&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'blade'&00
+&00&06------------------------&00
+
+#0
+boost
+&00&06------------------------&00
+Help Group Boost
+&00&06------------------------&00
+
+&15Group boost is a skill that let's a human in a group to sacrifice
+some of their ki and pl to recharge the ki of their groupmates.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'groupboost'&00
+&00&06------------------------&00
+
+#0
+buildnanobean
+&00&06------------------------&00
+Help Build Nano Bean
+&00&06------------------------&00
+
+&15This skill allows a truffle to make nano beans to be sold, or given
+to android players. It takes a good amount of the truffle's ki to make.&00
+
+&09Rp&00
+&15This can be used once per month, and takes a 60 post rp to complete.
+The nanobean can then be given to an android for their use. Nano beans
+function under the senzu bean rp rules. And in rp they only heal ki, just
+like in mud.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'buildnano'&00
+&00&06------------------------&00
+
+#0
+barrier
+&00&06------------------------&00
+Help Barrier
+&00&06------------------------&00
+
+&15Barrier is a skill where the user forms a bubble of ki around their
+body. This barrier can absorb physical as well as ki attacks. The barrier
+can only absorb the damage of attacks equal or less than the amount of ki
+put into the barrier. In mud barrier halves all damage until it runs out.
+In rp, barrier will last until all of it's energy has been used up, when
+a barrier is formed however no more energy can be charged into it until it
+is gone.&00
+
+&09Rp&00
+&15Barrier charges at 2% of the user's max ki per turn. It has no max.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'barrier'&00
+&00&06------------------------&00
+
+#0
+animatedead
+&00&06------------------------&00
+Help Animate Dead
+&00&06------------------------&00
+
+&15This skill is where the user raises a corpse to life, giving it a
+fraction of the user's powerlevel and ki, about 1/5th. The animated 
+corpse is under the control of the user until it is killed or dismissed
+in some way. In rp players can only be brought back if they have a body
+there, they retain no knowledge, and their pl and ki is 1/5th the users.
+Also in rp the animated corpse can not be controlled by the dead player,
+they are in the afterlife, it is controlled as an NPC by the user. Only
+a max of 2 corpses can be animated at a time irp by one player at one time.
+In mud, only 2 corpses can be animated at one time, or the player will
+suffer under the spamming rule.&00
+
+&09Rp&00
+&15It costs 15% ki to use in rp.&00
+&00&06------------------------&00
+&11Syntax&16: &15focus 'animate' (target)
+&00&06------------------------&00
+
+#0
+backstab
+&00&06------------------------&00
+Help Backstab
+&00&06------------------------&00
+
+&15Backstab is a skill Konatsus can use on a player or mob they
+are not currently fighting. It does a considerable amount more damage
+than a normal attack, and can only be done with a sword.&00
+
+&15It has a chance to instantly kill a target based off of the dexterity
+of the user vs. a random number from 80 to 110. This will cost a bit of ki
+when it happens however. The target must be no more than 2 times the user's
+powerlevel for it to instantly kill them. Also, instantly killing a victim
+will drain 1/10th of the user's max ki from their current ki.&00 
+
+&00&06------------------------&00
+&11Syntax&16: &15backstab (target)&00
+&00&06------------------------&00
+
+#0
+multiform
+&00&06------------------------&00
+Help Multiform
+&00&06------------------------&00
+
+&15This skill was first used by Tien. It involves the user splitting
+into a certain amount of copies of their self. Each copy is about half
+of the first's strength, shrinking by fractions for each new copy. In
+mud each multiform is one fifth the total of the maker, and players are
+only allowed to make up to 2 multiforms at a time. Any more will be
+punished as spamming.&00
+
+&09Rp&00
+&15Costs 15% ki per multiform made. In rp it only allows you to create
+up to 3 copies of yourself, all a fraction of the original's pl and ki
+minus the ki used from the skill. It lasts for 10 turns, or until the
+user ends it, or until all 4 or less multiforms have been knocked down.
+Destorying one of the multiforms will force the rest to regather, and
+the user of multiform will take the damage all the multiforms took.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'multiform'&00
+&00&06------------------------&00
+
+#0
+absorb
+&00&06------------------------&00
+Help Absorb
+&00&06------------------------&00
+
+&15Absorb is a technique only Androids, and Bio-Androids are able to use.
+It involves the user absorbing either ki from a target, or absorbing the
+target completely. In the mud this allows Androids and Bios to raise their
+pl and ki from absorbing mobs up until they pass up either 250k pl or ki,
+and also when learned small ki attacks have a chance of being absorbed
+and doing no damage while boosting the ki of the Android or Bio. Also
+in mud, absorb can be used as an attack to absorb small amounts of pl and
+ki refilling the user. In Rp absorb can only be used on players that are 
+weaker than the user, or on attacks that are smaller than large class.&00
+
+&09Rp&00
+&15A max of 3 people can be absorbed by a bio-android or Android. Absorbed
+players are killed, and give 30% of their pl and ki at the time of absorbtion
+to the Bio or Android. The person absorbed is dead, and in the afterlife after
+being absorbed. If They are wished back to life, or otherwise are revived the
+one who absorbed them loses the pl and ki they had gained. Androids can
+only absorb someone's energy till they die, not swallow them. It amounts to
+the same, but is slower, taking 5 turns instead of 1.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15absorb (target)&00
+&00&06------------------------&00
+
+#0
+yoikominminken
+&00&06------------------------&00
+Help Yoikominminken
+&00&06------------------------&00
+
+&15This skill was invented by Master Roshi. The technique involves
+focusing ki into the user's eyes and hands and voice, and chanting
+repeatitive words and waving the hands in hypnotising patterns.
+This puts the target to sleep for a short period of time, in which
+they can not be woke up unless attacked. It lasts irp for 4 turns
+unless the victim is attack before then. They must be HIT with the
+attack to wake up. It can be used once every 8 turns, and it takes
+5% ki to use.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'yoik' (target)&00
+&00&06------------------------&00
+
+#0
+genkidama
+&00&06------------------------&00
+Help Genki Dama
+&00&06------------------------&00
+
+&15Genki Dama is a technique developed by King Kai and made famous by
+Goku. It involves the user raising their hands above their head, and
+pulling energy from the surrounding life. The Genki Dama can be at its
+best if the sentient beings willingly give up more of their energy.
+This attack is devestating, that is the only way to describe what it
+is capable of. Though it takes a long to time charge up.&00
+
+&09Rp&00
+&15Genki dama irp gets a bonus to it's damage after launched. This
+comes from the energy pulled from the surrounding life. It is the
+pl of the planet you are on(help planet) divided by 100. (I.E. Planet
+Vegeta has a pl of 120mil, and would give 1.2mil to the genki of
+the user as.) This only counts if the genki was charged for at least
+8 turns.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15genki (target)&00
+&00&06------------------------&00
+
+#0
+chikuugekigama
+&00&06------------------------&00
+Help Chikuu geki gama
+&00&06------------------------&00
+
+&15This attack was used by super Buu against Vegito. It involved
+a massive amount of pink energy formed into a gigantic ball above
+the user's head. The ball was then launched down towards a target.
+This attack was perfected later by Kid Buu when he destroyed the
+Earth on DBZ.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15chikuu (target)&00
+&00&06------------------------&00
+
+#0
+deathball
+&00&06------------------------&00
+Help Deathball
+&00&06------------------------&00
+
+&15This attack was invented by Frieza, and adopted by the royal
+family as their official attack. It involves the user raising
+a hand above their head, with a finger outstretched. A small ki
+ball forms at the finger tip and grows to a large size. The attack
+is then launched downward toward the enemy. It can potentially
+destroy worlds, though it is slow moving.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15death (target)&00
+&00&06------------------------&00
+
+#0
+renzokouenergydan
+&00&06------------------------&00
+Help Renzokou Energy Dan
+&00&06------------------------&00
+
+&15This is where the user fires hundreds, and even thousands of
+small kishots at a target. Their hands rapidly jump back and forth
+as they launch these attacks. This skill can be overwhelming for
+an opponent, and can even devestate cities when powered up enough.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15renzo (target)&00
+&00&06------------------------&00
+
+#0
+genocide
+&00&06------------------------&00
+Help Genocide
+&00&06------------------------&00
+
+&15This is the attack Buu used on earth where he raised his hand
+and fired millions of homing kishots that targeted the human race.
+These attacks are not very powerful in themselves, and can be dodged
+easily if they have a wide target range. The minimum this attack can
+be spread to is one hundred, going at as few as one target.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15geno (target)&00
+&00&06------------------------&00
+
+#0
+hydroblade
+&00&06------------------------&00
+Help Hydro Blade
+&00&06------------------------&00
+
+&15This attack is a blade of water charged with ki. Its edge is razor
+thin and can cut through even the thickest material. It is normally
+crescent shaped, and is launched directly at the target.&00
+
+&09Rp&00
+&15This can cut through a target if it has at least 1/5th the target's
+pl in ki charged to hydro blade. Everything else about it follows the
+help destructodisk rp rules.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15hydro (target)&00
+&00&06------------------------&00
+
+#0
+hydroeclipsecannon
+&00&06------------------------&00
+Help Hydro Eclipse Cannon
+&00&06------------------------&00
+
+&15This attack is formed when a kansssan draws water from the surrounding
+air and fires it at an oppenent with the water spiraling around a central
+beam of ki. It is the kanassan's best attack, and can be quite damaging
+to airborne foes.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15eclipse (target)&00
+&00&06------------------------&00
+
+#0
+risingpheonixslash
+&00&06------------------------&00
+Help Rising Pheonix Slash
+&00&06------------------------&00
+
+&15This attack is the best technique the Konatsu race has developed. It
+is used by focusing one's ki into their swords, and summoning forth the
+shape of a fiery pheonix. It requires the user to have two swords, dual
+wielded. Otherwise it won't work at all.
+
+&00&06------------------------&00
+&11Syntax&16: &15pheonix (target)
+&00&06------------------------&00
+
+#0
+choukamehameha
+&00&06------------------------&00
+Help Chou Kamehameha
+&00&06------------------------&00
+
+&15This attack was first developed by Goku as a powered up version of
+Master Roshi's kamehameha wave. Chou is capable of destroying cities
+in the aftermath of one of its explosions, or if enough energy is sup-
+plied a world.&00
+
+&09Rp&00
+&15This attack can be maneuvered to a small degree. It can be maneuvered
+to chase after a dodging enemy as long as the beam doesn't go at more of
+a 45 degree acute angle(that means basicly like the shape of U curving that
+much.) It can only be maneuvered for 2 turns after being fired and only
+if the user is still pumping energy into it.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15chou (target)&00
+&00&06------------------------&00
+
+#0
+kamehameha
+&00&06------------------------&00
+Help Kamehameha
+&00&06------------------------&00
+
+&15This attack was developed by the famous Master Roshi, and is the
+signiture move of all those who have trained under him. The user cups
+their hands at their side, and chants "Ka....me....ha....me...ha!" 
+while charging energy between their hands. When the Kamehameha is fully
+charged they bring forth their hands facing the target and release the
+attack.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15kame (target)
+&00&06------------------------&00
+
+#0
+kishot
+&00&06------------------------&00
+Help Kishot
+&00&06------------------------&00
+
+&15Kishot is the most basic ki based attack. The user just forms a ball
+or similarly small hand sized object out of ki and fires it at a target.
+Kishots can also be a small comet shaped blast from a finger at a target.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15kishot (target)&00
+&00&06------------------------&00
+
+#0
+beam
+&00&06------------------------&00
+Help Beam
+&00&06------------------------&00
+
+&15Beam is another basic ki attack like kishot. Beam however is a plain
+stream of ki fired from one or two hands, or from one or more fingers.
+It is a quick constant attack that can be quite useful in a fight.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15beam (target)&00
+&00&06------------------------&00
+
+#0
+destructodisk
+&00&06------------------------&00
+Help Destructo Disk
+&00&06------------------------&00
+
+&15Destructo Disk is an attack that was invented by Krillin to better
+even his odds against larger and more powerful opponents. It is done by
+raising a hand above one's head, forming a flattened disk of ki there
+and forcing it to spin at a steady rate. The user then launches it at
+a target. Destructo Disks are able to cut through most things, it is
+a useful attack against a much stronger opponent. However it is easily
+dodged if the opponent is ready.&00
+
+&09Rp&00
+&15Destructo Disk can cut through a target if it is at least 25% of
+their total pl. Otherwise it just does it's damage. If a destructo Disk
+cuts through anything but a limb the target will eventually die unless
+they are a majin or bio-android and can regenerate. Anyone cut in half
+can no longer charge energy as they die, they can be healed to normal
+if it is done before they die. Cut in half people will live for 5 turns
+if left alone. A severed head will instantly kill anyone who isn't a
+majin or bio-android.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15disk (target)&00
+              &15dest (target)&00
+&00&06------------------------&00
+
+#0
+kakusanha
+&00&06------------------------&00
+Help Kakusanha
+&00&06------------------------&00
+
+&15Kakusanha was developed by Krillin, and is a devestating attack
+against up to five enemies. The user shouts "kakusanha!" as they bring
+their hands forward side by side. Two large balls of energy explode
+forth in up to five different beams of consentrated energy. The beams
+have the ability to home in on their targets independantly.&00
+
+&09Rp&00
+&15Each beam, depending on how many are launched, are a fraction of
+the ki put into the attack. 1 beam will be at full power, 2 will be
+at a half each, 3 at 1/3rd each and so on.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15kakusanha (target)&00
+&00&06------------------------&00
+
+#0
+spiritball
+&00&06------------------------&00
+Help Spirit Ball
+&00&06------------------------&00
+
+&15Spirit Ball was developed by Yamcha, and is his best move. The
+technique involves the user raising a hand, palm facing upwards
+while the other hand grips the upraised hand's wrist. Ki is then
+forced into gathering above the palm, and can be seen physically
+gathering there. The user then launches the attack at a target,
+and unlike most attack the Spirit Ball will never explode until the
+user wills it to. It can be manuevered infinitly as long as the
+user has concentration. The Spirit Ball can even be manuevered
+underground and hidden, only to pop up underneath an enemy.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15spirit (target)&00
+&00&06------------------------&00
+
+#0
+bigbang
+&00&06------------------------&00
+Help Big Bang
+&00&06------------------------&00
+
+&15Big Bang was developed by Vegeta, and is one of his best moves.
+The user aims a palm at a target, with the palm at a perfect ninety
+degree angle, and a massive ball of ki is fired from it instantly.
+This attack can be devestating, and with enough ki put in it can
+destroy a city.&00
+
+&09Rp&00
+&15Add 1 extra mile to its destruction range for every 10mil put into it.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15big (target)
+&00&06------------------------&00
+
+#0
+makankosappo
+&00&06------------------------&00
+Help Special Beam Cannon
+&00&06------------------------&00
+
+&15Special Beam Cannon was developed by Piccolo to kill Goku with
+originally. The technique involves the user placing two fingers
+on their forehead, and charging ki there. It can take a while to
+charge when the user is still learning to use it. When enough ki
+has been charged the user brings forth their fingers aimed at the
+target and fires it.Two beams fire towards the target, onelarger
+beam, and a smaller one spiraling around it.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15mak (target)
+&00&06------------------------&00
+
+#0
+hellspearblast
+&00&06------------------------&00
+Help Hell Spear Blast
+&00&06------------------------&00
+
+&15This attack involves a demon charging insane amounts of ki into
+a spear. The demon then throws the spear down towards the ground,
+where the target is expected to be. When the spear hits the ground
+all the ki in it explodes outward in a massive explosion that can
+go out for miles. The spear is unharmed as is the user, even when
+engulfed in their attack.&00
+
+&09Rp&00
+&15Hell Spear Blast goes out .1 miles from the where the spear hit
+for every 500,000 ki put into the attack, does full damage anywhere
+in the blast range.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15hell&00
+&00&06------------------------&00
+
+#0
+havocblast
+&00&06------------------------&00
+Help Havoc Blast
+&00&06------------------------&00
+
+&15Havoc Blast is a massive attack where the user charges ki into
+their body until they can hold no more, and then they release a
+gigantic explosion around their body. The explosion can encompass
+miles, destroying everything in it's path except the user.&00
+
+&09Rp&00
+&15Havoc blast goes out .1 miles for every 1mil ki put into it, does
+full damage no matter where the person is hit in the blast.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15havoc&00
+&00&06------------------------&00
+
+#0
+tsuihidan
+&00&06------------------------&00
+Help Tsuihidan
+&00&06------------------------&00
+
+&15Tsuihidan is an advanced kishot of sorts, it can be rather large
+but mostly it is a smaller comet shaped golden kishot. Tsuihidan's
+uniqueness is that it homes in on a target, and will chase them until
+either they or it is hit.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15tsui (target)&00
+&00&06------------------------&00
+
+#0
+shogekiha
+&00&06------------------------&00
+Help Shogekiha
+&00&06------------------------&00
+
+&15Shogekiha is an invisible ki attack fired from one's eyes or a hand
+and it can't be seen, only sensed. When it hits a target, it pulls their
+body in all directions at once.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15shog (target)&00
+&00&06------------------------&00
+
+#0
+erasercannon
+&00&06------------------------&00
+Help Eraser Cannon
+&00&06------------------------&00
+
+&15Eraser Cannon is an attack where the user fires a large beam of ki
+from their mouth. It can be a surprising attack, and therefor damaging.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15eraser (target)&00
+&00&06------------------------&00
+
+#0
+crusherball
+&00&06------------------------&00
+Help Crusher Ball
+&00&06------------------------&00
+
+&15Crusher Ball is the mutant's best attack. It involves putting a lot of
+ki into a large ball, and then smacking the attack down at an enemy like a
+volley ball.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15crusher (target)&00
+&00&06------------------------&00
+
+#0
+bakuhatsuha
+&00&06------------------------&00
+Help Bakuhatsuha
+&00&06------------------------&00
+
+&15Bakuhatsuha while being a mouthful, was an attack developed and used by
+Nappa. It involves the user bringing two fingers up in a swift motion and
+the surrounding area exploding about the user. It was used when Nappa and
+Vegeta first landed on Earth in DBZ. In rp this attack only hit targets the
+user wishes it to hit, and leaves undamaged friends.&00
+
+&09Rp&00
+&15Only covers a one mile area, and does full damage anywhere in the blast
+range.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15baku&00
+&00&06------------------------&00
+
+#0
+honoo
+&00&06------------------------&00
+Help Honoo
+&00&06------------------------&00
+
+&15This attack was developed by Dabura, and involves the user spitting a
+massive jet of flame at a target. The flames can reach near sun hot temp-
+uratures depending on the amount of ki put into it.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15honoo (target)&00
+&00&06------------------------&00
+
+#0
+masenko
+&00&06------------------------&00
+Help Masenko
+&00&06------------------------&00
+
+&15This technique was developed by Gohan during his training under Piccolo.
+It involves the user bring both hands up above their forehead, with the
+fingers interlocked, and charging a crimson ball of ki there. The user then
+yells "Masenko...ha!" right as they fire the attack. A beam fires forth
+from the user's hands which now face the enemy, with a massive ball of ki
+at the front of the beam.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15masenko (target)&00
+&00&06------------------------&00
+
+#0
+kikoho
+&00&06------------------------&00
+Help Kikoho
+&00&06------------------------&00
+
+&15Kikoho was developed by Tien, and is another name for Tribeam. This
+attack involves the user forming their hands into a triangle and aiming it
+at a target. Blinding ki is instantly shot from it in a devestating attack.
+The attack appears invisible cause of it's speed when it has minimum ki
+charged into it. It appears dark red in a steady beam when it is fully 
+charged.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15kikoho (target)
+&00&06------------------------&00
+
+#0
+Kousengan
+&00&06------------------------&00
+Help Kousengan
+&00&06------------------------&00
+
+&15This attack is where the user fires beams of concentrated ki from their
+eyes. These eye lasers are quite painful when they hit a target, and can be
+used to cut through objects without seriously damaging them.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15kousen (target)&00
+&00&06------------------------&00
+
+#0
+scattershot
+&00&06------------------------&00
+Help Scatter Shot
+&00&06------------------------&00
+
+&15This namekian move involves the user fireing thousands of kishots at
+a target, the kishots do not directly hit the target, but hover around it.
+When all of them have been fired they move in and strike the target at once
+leaving no room for dodging.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15scatter (target)&00
+&00&06------------------------&00
+
+#0
+twinbladeslash
+&00&06------------------------&00
+Help Twin Blade Slash
+&00&06------------------------&00
+
+&15This attack involves the user charging ki into one or more swords(if
+only one sword is present a sword of ki energy is formed to go with it)
+then the user flies at a target while charging ki into the swords. The
+user then slashes an X pattern at the target. When fully charged this 
+attack can cut through the toughest opponent.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15twin (target)&00
+&00&06------------------------&00
+
+#0
+combatyoikominminken
+&00&06------------------------&00
+Help Combat Yoikominminken
+&00&06------------------------&00
+
+&15This form of yoikominminken allows the user to stun an opponent into
+sleep. This allows the user to put an opponent into sleep even while they
+are concentrating and on guard.(Only for in mud use. See help yoikominminken
+about rp influences.)&00
+
+&00&06------------------------&00
+&11Syntax&16: &15yoik (target)&00
+&00&06------------------------&00
+
+#0
+portal
+&00&06------------------------&00
+Help Portal
+&00&06------------------------&00
+
+&15This skill is special, and anyone can learn it if they earn enough
+learn points. It doesn't exist irp, and costs all your ki to use. It
+creates a portal linking the room you are in to the target's room. People
+can pass between the portals till they disappear, so you could in essence
+create a link for everyone.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'portal' (target player or mob)&00
+&00&06------------------------&00
+
+#0
+wish
+&00&06------------------------&00
+Help wish
+&00&06------------------------&00
+
+&15Dragonballs are hidden around the mud on certain mobs. Getting a set
+of 7 different dragonballs will allow you to wish for several things.
+People with dragonballs are PKable on sight, and will have a &11*&00
+after their name on who for how many dragonballs they have. Any extra
+dragonballs that you have should be put in a bag, or given to someone
+else, or Shenron will not answer your wish.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15wish&00
+&00&06------------------------&00
+See also - help dragonballs.
+
+#0
+sweep
+&00&06-------------------------&00
+&00&07Help Sweep
+&00&06-------------------------&00
+
+&00&15If this attack is used sucessfully it will sweep the oppenent's
+feet out from under them. This will knock them down for one round 
+preventing them from attacking physically or with a ki attack.&00
+
+&00&06-------------------------&00
+&11Syntax&16: &15sweep (target)&00
+&00&06-------------------------&00
+
+#0
+demon
+	&15Demons are those beings who originated in hell, born from the 
+fire and darkness.  Because of their origin, they hold a strange elemental 
+power over fire.  Known for their vengeance and rage, demons are a force 
+feared by most of the intelligent universe.
+
+&11Transformations
+&16--------------------
+&12Innerfire &14First
+&12Innerfire &14Second
+&12Innerfire &14Third
+&12Innerfire &14Fourth&00
+
+#0
+HalfBreed
+	&15HalfBreeds are the mix of human and saiyan blood, creating a 
+fighter with the human intelligence and brute saiyan force.  These 
+HalfBreeds are usually accepted by their human parentage until such time 
+as they are able to prove their strength to their saiyan blood.
+
+&11Transformations
+&16--------------------
+&12Super Saiyan &14First
+&12Super Saiyan &14Second
+&12Super Saiyan &14Third
+
+&12Mystic &14Powercharge
+&12Mystic &14Magnius
+&12Mystic &14Powerup&00
+
+#0
+Angel
+
+	&15Angels are a race from another universe. Their universe was
+destroyed and they managed to escape with a piece of their planet using
+their magical powers and artifacts. They arrived in this universe after
+many generations of travel, their asteroid turned into a mini planet with
+the same magic. Arriving in this universe the Angels(as the races of this
+universe called them because of their similar appearance to those mythical
+creatures.) the trans dimensional artifacts were lost, stranding the angels.
+Angels are a reclusive race, thinking their selves superior to all other life
+yet they also value life, and are generally good in nature.&00
+
+&11Transformations
+&16--------------------
+&12Super Angel First
+&12Super Angel Second
+&12Super Angel Seraphim&00
+
+&00&07See also - help angel2.
+
+#0
+angel2
+&00&06------------------------&00
+Help Angel 2
+&00&06------------------------&00
+
+&15This file will go over several aspects of how the Orainites or 'Angels'
+of DBT act or feel, and several instances in their history.&00
+
+&14Personality&16: &15Angels as they have come to be known are a reclusive
+race. They are not reclusive from each other, but from other sentient races.
+They are this way not because of fear or hatred, but because of a underlying
+sense of superiority they have about themselves. This is a feeling of racial
+nobility that makes them think less of other species. Angels are capapble of
+getting along fine with other species, and do so often. However the way they
+act or do things can tend to get on other species' nerves.&00
+
+&14Statistics&16: &15These statistics are for the average untrained angel.
+Angels are of moderate intelligence, holding the same level as humans in 
+general. They do not prefer technology however and generally never ever 
+excell in that area. They tend to be very wise, making good leaders
+and have an inate magical ability that they used to be able to use to full
+effect generations before. They were part of the reason their original universe
+was destroyed and they had to leave, that shows how powerful they could become.
+Their strength on average is about that of a human, except in their wings
+which hvae the strength to hold aloft naturally 10 times their body weight.
+
+&14History&16: &15Angels were a race that was magical from their begining.
+After thousands of years of progress they attained the ability to portal to
+other planets. This ability was reserved for the nobles of Orainas their
+homeworld. After several hundred years of travel around their universe
+the Orainites encountered another race, a technology based race. That
+race feeling the Angels were too powerful and moving too far across the
+universe declared war. This war lasted for only forty years as Angel colonies
+gave out to the forces mounted against them. It was only the archmages at
+Orainas that managed to save the race....and doom their old universe.
+The archmages summoned forth a being so powerful that it could drain the
+life from whole planets. Losing control of the being they had to abandon
+their old universe as the being moved to destroy Orainas.&00
+
+&00&06------------------------&00
+See also - help angel.
+&00&06------------------------&00
+
+#0
+Kai
+	&15Kai are the ancient beings of wisdom, mostly centering their 
+lives around their home of Aether but stretching their influence to the
+far reaches of the universe, watching over it.  Some consider them to
+have an almost celestial quality, however Kai are far from being gods.  
+They merely gain knowledge from observing the universe and with this 
+knowledge they gain power.
+
+&11Transformations
+&16--------------------
+&12Mystic &14Powercharge
+&12Mystic &14Magnius
+&12Mystic &14Powerup&00
+
+#0
+konatsu
+	&15Konatsu are a race of shadow warriors, adapting the ways of 
+stealth and blades.  They have elven ears and keen eyes, training their 
+senses and body in the ways of the combat.  They originate from the planet 
+Konack and have protected it since their very origin.
+
+&11Transformations
+&16--------------------
+&12Shadow &14Shade
+&12Shadow &14Shadow&00
+
+#0
+BioAndroid
+	&15Bio-Androids are biological creations that utilize the utmost 
+abilities of their cellular structure, finding power in the variety of DNA 
+used in their construction.  Each Bio-Android varies wildly from the next 
+as each one has a unique combination of DNA, however all Bio-Androids 
+strive towards their own perfection.
+
+&11Transformations
+&16--------------------
+&12Perfect &14Hatch
+&12Perfect &14Imperfect&00
+&12Perfect &14Perfect&00
+&12Perfect &14Super&00
+
+#0
+Kanassan
+	&15Kanassans are the amphibian creatures of the planet Kanassa, a 
+race of beings that possess the ability of clairvoyance along with some 
+mild telepathic powers.  Along with their amphibian nature comes the 
+elemental power to manipulate water as well as to breath underwater.
+
+&11Transformations
+&16--------------------
+&12Super Kanassan &14First
+&12Super Kanassan &14Second&00
+
+#0
+Truffle
+	&15Truffles are an extremely technologically advanced race that 
+used to live with the saiyans on planet Vegeta, before they were driven 
+off by an outburst of warfare.  They appear mostly as miniature humans, 
+relying on their various machines and computers to compensate for their 
+lack of phsyical mass.  Their engineering skills have led to an advanced 
+society and many of the inventions used around the universe.
+
+&11Transformations
+&16--------------------
+&12Augment &14Alpha
+&12Augment &14Beta&00
+&12Augment &14Infusion&00
+
+#0
+Mutant
+	&15Mutants are beings that have been brought into existence due to 
+some mystery of genetics that gives birth to such unique creatures as the 
+various mutants around the many galaxies.  These changes are far from 
+debilitating however as most mutants use their unique qualities to excel 
+in battle.
+
+&11Transformations
+&16--------------------
+&12Mutate &14First
+&12Mutate &14Second&00
+
+#0
+physicalfeatures
+
+Hair color codes:	Hair length codes:
+&150 - &16Black&00		&151 - &16Short
+&151 - &15Silver&00		&152 - &16Medium
+&152 - &12Blue&00		&153 - &16Long
+&153 - &10Green&00		&154 - &16Very long
+&154 - &00&03Brown&00		&155 - &16None
+&155 - &00&05Purple&00		&156 - &16Short Spikey
+&156 - &09Red&00			&157 - &16Medium Spikey
+&157 - &11Yellow&00		&158 - &16Long Spikey
+&158 - &00&07None&00
+
+Eye color codes:	Skin color codes:
+&151 - &16Black&00		&151 - &00&07White
+&152 - &12Blue&00		&152 - &12Blue
+&153 - &10Green&00		&153 - &10Green
+&154 - &00&03Brown&00		&154 - &13Pink
+&155 - &00&05Purple&00		&155 - &09Red
+&156 - &09Red&00			&156 - &15Tan
+&157 - &11Yellow&00		&157 - &00&05Purple&00
+&158 - &14Icy Blue&00		&150 - &00&03Black&00
+
+#1000005
+ifigflgflhjfljh
+This is an unfinished help entry.
+If this attack is used sucessfully then it will sweep the opponent's feet out from under them. This will knock then down for one round preventing them from attacking physically or with a ki attack.
+
+#0
+lilia
+   &16Lilia is the Goddess responsible for most of Namek.  Don't blame the
+other Imms for it, it's mostly her fault.  She is a part-time builder, since
+she's good at small areas, but planets are a little much.  She is also an
+RP-Imm, and will participate in RP as often as she can.  Do not break RP rules,
+because she's scary when you break the rules of her favorite place on the Mud.
+&00
+&15 If she isn't on, feel free to ask Reign, since he watched her build most of Namek, and can answer most questions as well as she can.&00
+
+
+&11For Important Reasons or RP's only!!!!!!
+Lilia's Email: Lilia_Noricka@yahoo.ca&00
+
+#1
+dbt
+
+&15Dragon Ball Truth is the ultimate Truth in DBZ muds, the next and 
+hopfully not last step in the line. Dragon Ball Truth tries to stick
+to the series in a lot of things, whenever we differ from it, it is 
+only the expression of our creativity. Do not try and use DBZ as an 
+excuse to get something changed, we may consider that but we will not
+automaticly change everything to be DBZ. Some things DBZ has do not 
+translate well to muds, and our goal is for a great mudding experience
+for our players.
+
+DBT makes its main goal to be fun for the majority of players, our 
+secondary goal being to be the fairest DBZ mud around. We enforce our
+rules, no matter who you are, no favortism will have a play in our mud.
+With all that said, we would like you to enjoy the mud, you follow the
+rules, and we promise it will be fun.&00
+
+&14Dbt's Website&16: &11dbt.teras-hosting.com&00
+
+#1
+racialcode
+The various codes needed when setting races:
+
+&160&15 - &12Konatsu
+&161&15 - &12Human
+&162&15 - &12Namek
+&164&15 - &12Icer
+&165&15 - &12Majin
+&166&15 - &12Android
+&167&15 - &12Kai
+&168&15 - &12HalfBreed
+&169&15 - &12Bio-Android
+&16a&15 - &12Mutant
+&16b&15 - &12Demon
+&16c&15 - &12Kanassan
+&16e&15 - &12Truffle
+&16?&15 - &12Saiyan&00
+&16d&15 - &12Angel&00
+
+#1000008
+transrp
+&15
+Transformations in rp do not last continually as they do in the mud.
+Transes only last in rp for a certain amount of posts before an rper 
+must power down. This makes transes more strategic than your run of the
+mill DBZ mud. Add 1 posts to the base amount of any trans for every 10mil
+base powerlevel you have. And for higher transes you do not add a lower
+trans's post total to the higher trans's. When your time runs out for a
+trans you must rp reverting and you must wait twice the trans's length
+before you can use it again. If reverting drops your pl below 1, you drop
+to 1 pl instead and go unconcious.
+
+Humans:         Shuman First 15 Posts, Shuman Second 10 posts, SH3 
+                5 posts, SH4 5 posts.
+Icers:          Transform First 20 posts, Transform Second 15 posts,
+                Transform Third 10 posts, Transform Fourth 5 posts.
+Half-Breeds:    SSJ1 15 posts, SSJ2 15 posts, SSJ3 5, Mystic Power-
+                charge 10 posts, Mystic Powermagnius 8 posts, Mystic 
+                Powerup 20 posts.
+Majins:         No limit.
+Saiyans:        SSJ1 15 posts, SSJ2 15 posts, SSJ3 5 posts, SSJ4
+                15 posts.
+Mutants:        Mutate1 20 Posts, Mutate2 10 posts, Mutate 3 5 posts.
+Nameks:         SN1 unlimited, SN2 10 post, SN3 8 post, SN4 15 post.
+Demons:         IF1 10 post, IF2 5 post, IF3 10 post, IF4 10 post.
+Truffles:       No limit.
+Kais:           Mystic Powercharge 10 posts, Mystic Powermagnius 8 post,
+                Mystic Powerup 20 post.
+Androids:       No limit.
+Konatsus:       Shadow Shade 12 post, Shadow Shadow 12 post.
+Bio-Androids:   No limit.
+Kanassans:      SK1 20 post, SK2 5 post.
+Angels:         SA1 10 post, SA2 5 post, SA3 10 post.
+&00
+See also - help transformations.
+
+#0
+transformations
+
+These are the various transformations available to each race.
+
+Humans:             Shuman            Icers:          Transform
+Half-Breeds:        SSJ, Mystic       Majins:         Morph
+Saiyans:            SSJ               Mutants:        Mutate
+Nameks:             Snamek            Demons:         Innerfire
+Truffles:           Augment           Kais:           Mystic
+Androids:           Upgrade           Konatsus:       Shadow
+Bio-Androids:       Perfect
+
+For further information on the transformations, check the help files for 
+its respective race.
+
+See also - help transrp.
+
+#0
+score
+
+Score is a command that is used to show various statistics for your 
+character.  These stats include your Powerlevel, Ki level, Player Kill 
+information, Zenni, the number of  Reincarnations you have used, Truth 
+Points, Learning points, and the time you have played the game.
+
+#0
+regenerate
+&00&06------------------------&00
+Help Regenerate
+&00&06------------------------&00
+
+&15Regenerate is a skill that allows the user to regenerate their
+powerlevel at some cost to their ki, it also specificly regenerates
+lost body parts.&00
+
+&09Rp&00
+&15In rp this skill can restore body parts, and heal up to 5% of the
+user's base pl per turn. It costs 10% ki to use once, it continues
+to regenerate until stopped or interupted by a focus attack.&00
+
+In regards to loss of head.
+&15Majins: Majins can regenerate their head as long as they have 25% of 
+their base pl. Otherwise they die if their head is severed or destroyed.
+
+Bios: Bios regenerate their heads like majins only they need 30% base pl 
+to survive the loss of their head to regenerate it.
+
+Nameks: Nameks can regenerate as long as their head is intact. If the head 
+is removed from their body they regenerate a new body and the old one 
+dies. if their head is not whole the namek dies.
+
+&00&06------------------------&00
+&11Syntax&16: &15regenerate&00
+&00&06------------------------&00
+
+#0
+arena
+
+&15The pk arena is a full pk area, no stealing is allowed there however,
+and the only way to it is with the pk command. This command allows you to
+enter or leave the pk arena, and when you enter it you make a 5000 zenni
+bet on yourself. If you leave it with the pk no command, you will get that
+money back. If someone accepts your challenge and enters the arena too, you
+will be able to fight each other. The winner will get the pk, and the other
+person's 5k zenni.&00
+
+&15Pks are allowed in pk zones other than the arena, the arena was set up
+for an easy way to pk quickly&00
+
+#0
+kaioken
+
+&15Kaioken is a technique in which the user over works their body to
+increase their powerlevel for a short period of time. This technique
+was made most famous by Goku in his fight with Vegeta.
+
+On the mud kaioken lasts for 1 mud hour. So if it is used at the
+begining of a mud hour it will last the whole hour, but if it is used
+near the end it won't last very long, so be careful.
+
+It is also best to go straight to a kaioken form, and not to work your
+way up, or you may end up wasteing ki.&00
+
+&10Kaioken &11Levels&00
+&09Kaioken &111&15-&1120&00
+&09Kaioken &11Super&00
+See also - help kaiokenrp.
+
+#0
+kaiokenrp
+&00&06------------------------&00
+Help Kaioken Rp
+&00&06------------------------&00
+
+&15Below is the listing of how much each form of kaioken
+gives in rp, and how much it costs to use. Any form of
+kaioken lasts for only 5 turns, and kaioken can only be
+used every 10 posts after it has worn out. You can only
+go to one form of kaioken at a time, straight to the form.
+Damage done to you wile using kaioken is done to your base
+pl, not the kaioken. When kaioken runs out you are still
+damaged.&00
+
+&11Kaioken &101 &16- &15+5% pl, -1% ki&00
+&11Kaioken &102 &16- &15+10% pl, -2% ki&00
+&11Kaioken &103 &16- &15+15% pl, -3% ki&00
+&11Kaioken &104 &16- &15+20% pl, -4% ki&00
+&11Kaioken &105 &16- &15+25% pl, -5% ki&00
+&11Kaioken &106 &16- &15+30% pl, -6% ki&00
+&11Kaioken &107 &16- &15+35% pl, -7% ki&00
+&11Kaioken &108 &16- &15+40% pl, -8% ki&00
+&11Kaioken &109 &16- &15+45% pl, -9% ki&00
+&11Kaioken &1010 &16- &15+50% pl, -10% ki&00
+&11Kaioken &1011 &16- &15+55% pl, -11% ki&00
+&11Kaioken &1012 &16- &15+60% pl, -12% ki&00
+&11Kaioken &1013 &16- &15+65% pl, -13% ki&00
+&11Kaioken &1014 &16- &15+70% pl, -14% ki&00
+&11Kaioken &1015 &16- &15+75% pl, -15% ki&00
+&11Kaioken &1016 &16- &15+80% pl, -16% ki&00
+&11Kaioken &1017 &16- &15+85% pl, -17% ki&00
+&11Kaioken &1018 &16- &15+90% pl, -18% ki&00
+&11Kaioken &1019 &16- &15+95% pl, -19% ki&00
+&11Kaioken &1020 &16- &15+100% pl, -20% ki&00
+&11Kaioken &10Super &16- &15+200% pl, -50% ki&00
+
+&00&06------------------------&00
+See also - help indexrp, help kaioken.
+&00&06------------------------&00
+
+#0
+lp
+
+&15This command allows you to trade in your excess lp for powerlevel
+or ki boosts. You must have at least 100 lp to do it, and in exchange
+you will receive a boost to pl or ki depending on which you choose.
+How much of a boost you get depends on your intuition. Intuition
+dictates the minimum amount you can get, and the maximum. It is random
+between these numbers what you actually get.
+
+&11Syntax&16: &15lp, lp power, or lp spirit.&00
+
+See also - help help, help stats.
+
+#0
+immrules
+
+&15These are rules imms are to be held to. To keep things fair, and
+understood. Kuvoc, and Iovan will be the ones to administer punishements
+for the breaking of these rules. There will be no exceptions, so do not
+expect any. Offenses will warrent demerits, some rules will give more
+than others, but 3 demerits will result in a demotion. If you have more
+than 3 demotions in a row, you will be fired. You may be fired before this
+if a crime was BIG enough to warrent it.
+
+&091&16: &11No Assholedness&00
+&15This means no getting on and being an asshole to rule abiding players
+just because you had a bad day. There is no excuse for getting on and
+harrassing players for your own problems or amusment. &101 Demerit&00
+
+&092&16: &11No Special Treatment&00
+&15No special treatment of your, or anyone elses mortals. This means no
+restores to help out friends over and over again, no giving of money or 
+items, no giving of items at below normal price. No special quests just
+for friends. I don't care how cool this will make you, or whatever, it is
+wrong. That is DBE's bag, not ours. &103&00
+
+&093&16: &11No Revelation&00
+&15No revelation of mud secrets to players or friends. This includes but
+is not limited to quests, roleplaying quests, immortal's mortal identity
+unless they want it known, or anything damaging to the mud in general.
+&102&00
+
+&094&16: &11No Contridiction&00
+&15If a higher up imm says something is some way, do not contridict them
+in front of mortals or on public channels. If it is something they are
+wrong on bring it to a higher up imm's attention or to Kuvoc or Iovan.
+Contridictions lead to plyer unrest, an give troublemakers a weapon with
+which to preform their passtime of troublemaking.
+&101&00
+
+&095&16: &11Rule Enforcment&00
+&15Rules are to be enforced in their entirety. If someone breaks a rule
+punish them according to their crime and number of offenses. And always
+write offenses down on the offense board. Do not fail to do these things,
+or you will get &101 demerit&00 
+
+#999999
+training
+
+&15You are able to train your character on DBT with physical training
+as well as fighting. Asside from fighting, you can raise the power of
+your character from pushups, situps, jogging, or if you are kai or namek
+meditation. The higher the gravity in all of the above except meditation
+will increase the usefulness of the self training.&00
+
+See also - help stats, help group, help spar.
+
+#0
+deflect
+&00&06------------------------&00
+Help Deflect
+&00&06------------------------&00
+
+&15This can be used to automaticly deflect ki attacks from a player,
+randomly when turned on. This will consume ki everytime it deflects
+and the first time it is turned on, so use it wisely.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15deflect yes/nomore&00
+&00&06------------------------&00
+
+#0
+powerup
+&00&06------------------------&00
+Help Powerup
+&00&06------------------------&00
+
+&15This command will drain ki to refill powerlevel. It can be useful in
+staying alive a bit longer.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15powerup&00
+&00&06------------------------&00
+
+#0
+powerdown
+&00&06------------------------&00
+Help Powerdown
+&00&06------------------------&00
+
+&15This command will drop powerlevel to 1, effectly hiding you from
+being sensed, and will refill your ki some.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15powerdown&00
+&00&06------------------------&00
+
+#0
+sense
+&00&06------------------------&00
+Help Sense
+&00&06------------------------&00
+
+&15This ability is only available to certain races, and doesn't work on
+androids. This will detect the direction the target is in if they are on
+your planet and are in a room that allows it. Sense will not work on 
+anyone powered down to 1 pl, they are to hard to detect that low.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15sense (target)&00
+&00&06------------------------&00
+
+#0
+where
+&00&06------------------------&00
+Help Where
+&00&06------------------------&00
+
+&15This command shows the people in your current zone if they are
+visable&00
+
+&00&06------------------------&00
+&11Syntax&16: &15where&00
+&00&06------------------------&00
+
+#0
+scan
+&00&06------------------------&00
+Help Scan
+&00&06------------------------&00
+
+&15This command shows the nearest beings to you, as long as there
+is open directions available, and they are close enough.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15scan&00
+&00&06------------------------&00
+
+#0
+consider
+&00&06------------------------&00
+Help Consider
+&00&06------------------------&00
+
+&15Consider is a command that will give you an idea of the relative
+difficulty a mob may be to you. This can be useful when trying to
+figure out if a mob is to strong to kill, or is just right or more
+than right(easy).&00
+
+&00&06------------------------&00
+&11Syntax&16: &15consider (targets name)&00
+&00&06------------------------&00
+
+See also - help powersense, help scouter.
+
+#0
+powersense
+&00&06------------------------&00
+Help Powersense
+&00&06------------------------&00
+
+&15This skill allows someone to sense the powerlevel of a target.
+Only certain races can learn it.
+
+&00&06------------------------&00
+&11Syntax&16: &15powersense (target's name)&00
+&00&06------------------------&00
+See also - help consider, help scouter.
+
+#0
+scouter
+&00&06------------------------&00
+Help Scouter
+&00&06------------------------&00
+
+&15This item can be used to find out the power of a target. It shows
+a good deal of useful information.
+
+&00&06------------------------&00
+&11Syntax&16: &15scouter (target's name)&00
+&00&06------------------------&00
+See also - help powersense, help consider.
+
+#0
+dualwield
+&00&06------------------------&00
+Help Dual Wield
+&00&06------------------------&00
+&15
+Dual wield is a skill mainly konatsus can learn, with it you are able
+to wield 2 weapons provided the weapon can be dual wielded. You do the
+damage of both weapons per hit round.
+
+Other races can learn dual wield if an imm teaches it to them irp, or
+if they request and have 1000 truth points, or if they get dballs irp
+and wish for it.
+
+&00&06------------------------&00
+&11Syntax&16: &15wield (weapon)&00
+&00&06------------------------&00
+
+See Also - help wield.
+
+#0
+who
+&00&06------------------------&00
+Help Who
+&00&06------------------------&00
+
+&15Who is a command that shows who is on the mud. DBT's who is 
+different from most if not all other muds' whos. On DBT mortal names
+have different colors depending on their relative strength to the
+person using the command. If a name is &14teal&15 then they are weaker
+than you, if their name is &00&06dark teal&15 then they are stronger
+than you, and if their name is &15grey&15 then they are equal to you
+in powerlevel and ki.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15who&00
+&00&06------------------------&00
+See also - help score.
+
+#0
+charge
+&00&06------------------------&00
+Help Charge
+&00&06------------------------&00
+
+&15Charge allows one to store energy into their body in excess of what
+is normally brought to bear for their power. The very next hit will do
+more damage based on what was charged.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15charge (high/medium/low)&00
+&00&06------------------------&00
+See also - help critical, help charge2.
+
+#0
+charge2
+&00&06------------------------&00
+Help Charge 2
+&00&06------------------------&00
+
+&15The amount you are able to charge per post(turn) is dependant
+on several factors listed in this file. It is recommended that you
+read all the rp help files often so you are aware of the rules at
+your disposal. You must state somewhere in your post that you are
+charging energy, not what you are charging it for but that you are
+charging it.&00
+
+&12Small &16- &1510% of your max ki, at 50% charged per round. 
+(Example, 1,000,000 max ki = 100,000 full charge, with 35,000
+charged per round.)
+&12Medium &16- &1520% of your max ki, at 25% charged per round.
+(Example, 1,000,000 max ki = 200,000 full charge, with 50,000
+charged per round.)
+&12Large &16- &1540% of your max ki, at 15% charged per round.
+(Example, 1,000,000 max ki = 400,000 full charge, with 60,000 charged
+per round.)
+&12Massive &16- &1560% of your max ki, at 7% charged per round. 
+(Example, 1,000,000 max ki = 600,000 full charge, with  42,000
+charged per round.)
+&09Physical &10Damage&15 is based on the ratio of 5% of your max powerlevel.
+(Example, 1,000,000 max pl = 50,000 damage.)&00
+
+&00&06------------------------&00
+See also - help charge, help indexrp.
+&00&06------------------------&00
+
+#0
+mailinfo
+&00&06------------------------&00
+Help Mailinfo
+&00&06------------------------&00
+
+&15You must be in the same room as a postmaster to send mail to a
+fellow player or immortal. DO NOT SPAM MAIL ANYONE, or you will face
+the appropriate mudrule disipline.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15mail (name)&00
+              &15receive
+&00&06------------------------&00
+
+#0
+help
+&00&06------------------------&00
+Help Help
+&00&06------------------------&00
+
+&15This is a list of the main Help files. I suggest you read through
+the following files first: mudrules, dbt, stats, newbie, bonusrace,
+charge, and race. If you need help on anything else, try help (subject),
+example: help kamehameha will give you info on Kamehameha.
+
+dbt, indexrp, pkzones, potential, namerp, 2rpname - 5rpname, quest, 
+bonusrace, stats, stat2, race, rulesclan, commands, mudrules, mudrules2-5,
+newbie, equipment, inventory, auction, money, downtime, bounty.
+
+#0
+commands
+&00&06------------------------&00
+Help Commands
+&00&06------------------------&00
+
+&15This is a list of commands for new players to keep in mind, these
+commands make playing easier and fun.
+
+&11get all all&16: &15This will clean out any containers in a room you 
+have access to, including corpses, and is great for quickly getting the
+loot from said corpses.
+&11get all.(topic)&16: &15This will get all of a certain object from 
+available containers. Such as if you want to get all of your senzus from
+a bag, you would type get all.senzu bag.
+&11wimpy&16: &15This is a command you can use to make your character flee
+from a fight whenever they drop below a certain amount of pl. Example:
+wimpy 5000, this will make your character flee when they drop below 5000 
+pl.
+&11alias&16: &15This command allows you to make In Mud Aliases(&00&07tm&15)
+these can be used for doing a set amount of commands VIA alias stack, 
+Example: alias y kishot; kishot; kishot;  this alias here will make you
+fire 3 kishots after pressing and entering y. An even more advanced version
+of this would be, Example: alias boom kishot $*; kishot; kishot;  this right
+here would fire the first kishot at the accompaning target, if you had typed
+boom Fighter, your first kishot would have hit any fighter present, and the
+rest would follow hitting who you are fighting(the fighter now). $* in the
+In Mud Aliases is meant as a substitute, whatever you type after the alias
+on the command line will be put in place of the $*. Now this makes 
+constructing OOC aliases fun, as you can have what you say sandwiched between
+an alias.&00
+&11stat&16: &15this command allows you to see what stats an equipment will
+give you. Read help stat2&00
+
+See also - help newbie.
+
+#0
+auction
+&00&06------------------------&00
+Help Auction
+&00&06------------------------&00
+
+&15Auctions are an easy way to sell any items you may have, when placed
+on auction the entire mud has a chance to buy the item for the designated
+price. Most shops buy back most items for at most half price on DBT, so
+when auctioning it can be helpful to keep that in mind, auctioning an item
+for less than half it's price is stupid. Auctions on DBT are meant to be 
+competitive so rarely will anything be auctioned far below it's resale value.
+
+&15Do not auction something more than 3 times in a row if no one is buying it
+give it a rest for a while so other's may have a chance to auction something,
+or so you do not spam everyone's screens with your repeated auctions.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15auction (itemname) (amount in just numbers)&00
+&00&06------------------------&00
+See also - help money.
+
+#0
+money
+&00&06------------------------&00
+Help Money
+&00&06------------------------&00
+
+&15Money on DBT is known as Zenni of course, but unlike most DBZ muds, our
+money and economy is geared to be comprehensive, and not a big inflation 
+storm. It is a high value economy in any case, mostly everything has a value
+and can be sold at some place on the mud. The mobs give controlled amounts
+of money, so even though that is the main way to make money, it is not the 
+only way.
+
+Also there are a few skills that can help increase a person's cash. Mug can
+steal away money(As long as you are in a stealing zone!!!), certain race 
+skills can make items that can be sold if players have a need for them. 
+Lastly some mobs and mob zones load with treasure items. Only a certain 
+amount of these load per reboot, unless some are stupidly junked. These 
+treasure items can be sold for great profit at certain shops, and their only
+use is to be sold.&00
+
+See also - help auction
+
+#0
+inventory
+&00&06------------------------&00
+Help Inventory
+&00&06------------------------&00
+
+&15This command allows you to view your inventory. DBT is built to strongly
+prohibit or control hoarding junk. Everything has a value and can be sold,
+and also you can only hold as many items as double your strength. This keeps
+people from holding onto millions of junk items and then causeing the mud to
+lag or even crash.
+
+You can however hold more than double your strength if you buy a bag, bags 
+can hold an additional 25 items in them, anyone found hoarding junk in bags 
+will have those bags junked. Whenever you log on, a bag will be emptied so 
+you will be carrying it all this will prevent you from getting ANYTHING new 
+however, so it is advised that you put all the items into their bag when you
+log on. As a side note, if you plan on entering a stealing zone, it is best
+to have stuff in a bag and closed up as it makes stealing individual items
+harder(but then they might just steal the bag....)&00
+
+&00&06------------------------&00
+&11Syntax&16: &15i, inv, inventory&00
+&00&06------------------------&00
+See also - help equipment.
+
+#0
+equipment
+&00&06------------------------&00
+Help Equipment
+&00&06------------------------&00
+
+&15This command will show what you are wearing/wielding. There are a bunch of
+equipment slots to fill, and they will be listed as the following: Armor Slot,
+Gi Slot, Wrist Slots x 2, Right Earring, Left Earring, Finger Slot x 2, 
+Neck Slots x 2, Feet Slot, Hands Slot, Arms Slot, Legs Slot, Belt Slot, Scouter
+Slot, Clan Insignia Slot, Forehead Slot(truffle special), tail(races with tails
+only), forelock slot(majin), dual wield(need the skill), Head Slot, and Weapon 
+Slot.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15eq, equipment&00
+&00&06------------------------&00
+See also - help equipment, help equipment2.
+
+#0
+equipment2
+&00&06------------------------&00
+Help Equipment 2
+&00&06------------------------&00
+
+&15All quest equipment in DBT are better than store
+bought equipment of the same price range. They are
+HARD to get too, so be persistant.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15&00
+&00&06------------------------&00
+
+#0
+mudrules
+&15All these rules are to be taken seriously, they are there to keep the
+mud fun and fair. If you break a rule you WILL get punished. Do not bitch
+if you break a rule nad get punished, if you were wrongly punished by an
+imm, mudmail Iovan or Kuvoc. All offenses will be recorded, and imms WILL
+know how many times you were punished for any one rule breaking type.
+
+&09Illegal Player Killing&15(Any pks outside of a clanhall or pk zone,
+unless the person stole mob money, or insulted your character multiple
+times in mud, not over OOC, or if a bounty was placed.)
+&12First Offense&16: &15Zaping and a warning.
+&12Second Offense&16: &1515 minutes hell time.
+&12Third Offense&16: &152 Hours Hell.
+&12Fourth Offense&16: &15Frozen 3 hours.
+&12Fifth Offense&16: &15Purge
+&12Fifth Offense&16: &15Any number combo of the previous.
+
+&09Illegal Mugging/Stealing&15(Anywhere it is done outside of a stealing
+zone. Also anything stolen from anyone at anytime is always recorded in
+the mudlog, name of the thief, victim, what was taken and WHERE it was
+taken from.)
+&12First Offense&16: &1545 minute helling.&00
+&12Second Offense&16: &15Purge.&00
+&12Third Offense&16: &15Tax, and criminal is purged.
+&12Fourth Offense&16: &15Banned.
+
+&00See also - help mudrules2-5
+
+#0
+mudrules2
+
+&09Spamming&15(Repeating multiple messages, or emotes, over ANY channel.)
+&12First Offense&16: &15Mute
+&12Second Offense&16: &15Purge/ban
+
+&09Disrespecting the Mud or Mud Imms
+&12First Offense&16: &15Mute/Zap
+&12Second Offense&16: &1530 minute helling
+&12Third Offense&16: &152 day Muteing
+&12Fourth Offense&16: &152 hour freezeing + 2 day muting.
+
+&09Botting
+&12First Offense&16: &151 hour helling
+&12Second Offense&16: &15Freeze 2 days
+&12Third Offense&16: &15Purge
+&12Fourth Offense&16: &15Banned
+
+&00See also - help mudrules1-5
+
+#0
+mudrules3
+&09Harrassment&15(This is harrassing a player to the point where your fun
+smothers someone elses fun. Mudmailing them dozens of bullshit letters,
+sending them constant tells, or bothering them over ooc.)
+&12First Offense&16: &151 day Muting
+&12Second Offense&16: &152 hour freezing
+&12Third Offense&16: &151 week ban + purge
+
+&09Excessive Language/Racist/Sexist Comments&15(These will be judged by the
+immortals. We will not tolerate serious racist or sexist comments.)
+&12First Offense&16: &152 hour muting + Zap
+&12Second Offense&16: &1530 minute helling
+&12Third Offense&16: &151 week Muting
+&12Fourth Offense&16: &15Purge
+
+&09Tricking Newbies
+&12First Offense&16: &15Zap
+&12Second Offense&16: &151 hour helling
+&12Third Offense&16: &151 day freezing
+
+&00See also - help mudrules1-5
+
+#0
+mudrules4
+&09Tricking a Newbie regarding RP&15(This could be tricking a newbie by 
+saying you won't kill them irp, and then do, or anything like that.)
+&12First Offense&16: &151 Day freezing
+&12Second Offense&16: &15Banned from RP for 2 weeks
+&12Third Offense&16: &152 week freezing, purge.
+
+&09Lieing to an Immortal&15(On a serious subject, such as about breaking
+a rule, about another person breaking a rule, about RP, etc.)
+&12First Offense&16: &15Zap
+&12Second Offense&16: &15Helling, 2 hours
+&12Third Offense&16: &15Tax, purge
+&12Fourth Offense&16: &15Banned for 2 weeks
+
+&09Duping&15(Duping is nearly impossible on DBT. But if you find a way to
+dupe pray you don't get caught, cause....)
+&12First Offense&16: &151 week Freezing
+&12Second Offense&16: &15Purge + 1 week Freezing
+&12Third Offense&16: &15Purge, equipment sold to mud for 1 zenni over 
+auction, then banned for 1 month.
+
+&00See also - help mudrules1-5
+
+#0
+mudrules5
+&09Purposfully Crashing The mud
+&12First Offense&16: &15Freezing 1 week
+&12Second Offense&16: &15Purge, Freezing 1 week
+&12Third Offense&16: &15Purge, Ban, equipment sold to mud for 1 zenni
+each
+
+&09Posting Bullshit on ANY mud board
+&12First Offense&16: &15Zap + 1 hour Mute
+&12Second Offense&16: &151 day Helling
+&12Third Offense&16: &151 day Freezing + 1 day Helling after that
+&12Fourth Offense&16: &15Purge
+&12Fifth Offense&16: &15Ban 2 weeks
+
+&09Advertising/spamming another mud.(If proven
+with a ip address by the accuser.)
+
+&12First offense&16: &15Ban.
+
+&09Multiplaying
+&12First Offenze&16: &15Alts purged.
+&12Second Offenze&16: Ban
+
+&09Idleing in transport stations, if you do not
+respond in 2 mins and leave.
+&12First Offense&16: &15Hell 30 mins
+&12Second Offense&16: &15Freeze 1 hour
+&12Third Offense&16: &15Purge
+&12Fourth Offense&16: &15Ban
+&00See also - help mudrules1-5
+
+#0
+newbie
+
+&15These are some tips for newbie players, or just about any player who
+may need them.
+
+&111&16: &15Always explore, there may be great things just around the 
+corner. Don't give up on an area just because it doesn't appear to have
+anything.
+&112&16: &15You should always let a mob finish talking, there may be 
+something important said.
+&113&16: &1599% of DBT's items can be sold at some place. So don't junk
+stuff unless you are lazy, you might be able to earn some more zenni,
+especially if you find treasure items.
+&114&16: &15Don't be afraid to ask an Immortal for help, DBT's imms work
+here to keep the game fun. As long as you obey the rules, you need not 
+worry about them.
+&115&16: &15All newbie leveling zones are located near recall points,
+so they are not hard to find if you try.
+&116&16: &15Read help files, you never know what helpful command or skill
+you may discover this way.
+&117&16: &15Save up your money, you never know when you may need it for
+a better peice of equipment. Better equipment, equals better stats, equals
+better pl/ki/lp gains etc.&00
+&118&16: &15If you are having a problem sending tells to a player with
+a name similar to a mob's, tyr adding p. before their name. This will make
+whatever action you are trying target a player with that name.&00
+
+See Also - help mudrules, help commands, help stat2, help stats.
+
+#0
+iovan
+   &15Iovan is the head coder of DBT, most of DBT was coded by him, so thank
+him if you enjoy it.  Iovan also has built a large amount of the mud, but he
+prefers coding, so when he can help it he won't be building.  &00 &15Do not
+bother Iovan constantly, he will check up on players enough as it is.  If Iovan
+is AFK flagged, leave him be.  Iovan likes to be fair, and will not care who
+you are when you break a rule, he will make sure you get punished appropriatly.
+&00
+
+&12Email &16- &11iovandrake@hotmail.com&00
+
+#0
+pkzones
+&15Pking is illegal unless there is an IC(In character) reason, such
+as if a player >repeatedly< emotes doing something offensive to YOUR
+character. Or if the pk is done in a pk/stealing zone.
+
+&00&06Current &09Pk&16/&10Stealing &15Zones
+&12Chill Cavern&15, &12Icerian Royal Palace Jail&15, &12Battlefield of Ruin&15,
+&12Hyper Bolic Time Chamber&15, &12Frieza's Ship&15, &12Underground River(namek)&15,
+&12Temple of the Ancients(vegeta)&15.&00
+
+#0
+potential
+&00&06------------------------&00
+Help Potential
+&00&06------------------------&00
+
+   &15Potential is the ability of the Kai and Nameks to reach deep 
+within a being and unlock the hidden source of power within them.  
+Potential consumes 1,000 spirit points and permanently raises the 
+powerlevel and ki of the being by 1%.  This skill cannot be used on the 
+user.&00
+
+&00&06------------------------&00
+&16Syntax&15: potential (target)&00
+&00&06------------------------&00
+
+&09See also&11: &15help stats&00
+
+#0
+5rpname
+Continued from 4Rpname
+Tienshinhan
+Torah
+Torbie
+Toteppo
+Turles
+Trunks
+Upa
+Uub
+Vegeta
+Vegetaou (Vegeta's Father)
+Videl
+Yajirobe
+Zarbon
+Zangya
+&00&06------------------------&00
+See also - help indexrp, help namerp, help 2rpname - 4rpname.
+&00&06------------------------&00
+
+#0
+4rpname
+Continued from 3Rpname.
+Marron
+Minosha
+Nappa
+Neizu
+Pikkon
+Pan
+Paragas
+Piccolo
+Raditz
+Recoome
+Hercule
+Sauzer
+Seripa
+Jewel
+Killa
+Slug
+Tapion
+&00&06------------------------&00
+See also - help indexrp, help namerp, help 2rpname - 3rpname, help 5rpname.
+&00&06------------------------&00
+
+#0
+3rpname
+Continued from 2Rpname
+Gokua
+Goku
+Goten
+Guldo
+Janemba
+Jeice
+Chaozu
+Shin (Supreme Kaioshin)
+Sano (North Kaioshin)
+Satubora (South Kaioshin)
+Sakura (West Kaioshin)
+Kami
+Kibito
+Krillin
+Lunch
+&00&06------------------------&00
+See also - help indexrp, help namerp, help 2rpname, help 4rpname, help
+5rpname.
+&00&06------------------------&00
+
+#0
+2rpname
+Continued from Rpname.
+Bujin
+Buu
+Cell
+Chichi
+Cold
+Cooler
+Dabura
+Dende
+Dodoria
+Ebifurya
+Frog
+Frieza
+Garlic
+Ginger
+Ginyu
+&00&06------------------------&00
+See also - help indexrp, help namerp, help 3rpname - 5rpname.
+&00&06------------------------&00
+
+#0
+namerp
+This is a list of all available Rp names. Mudmail Iovan, Kuvoc, or Solbet 
+if you want to request one.
+Amondo
+Eight
+Thirteen
+Fourteen
+Fifteen
+Sixteen
+Seventeen
+Eighteen
+Nineteen
+Gero
+Aqua
+Bebi
+Bardock
+Bido
+Bojack
+Bora
+Bra
+Bulma
+Broly
+&00&06------------------------&00
+See also - help indexrp, help 2rpname.
+&00&06------------------------&00
+
+#0
+quest
+&00&06------------------------&00
+Help Quest
+&00&06------------------------&00
+   &15Truth points are found in your score display, or in the display of whois for
+mortals.  These points are earned in various manners, including, immquests,
+trivias, immtournaments, and awarded for rp logs.  Truth points can be spent to
+recieve very special things.  Most of these things will only be gotten through
+truth point exchange.  Only Iovan, Kuvoc, or Solbet will exchange
+points for prizes.  Do not ask any other imms.    
+&00&06-------------------------------------&00
+&12Special Request&16: &14A request for something, it can be turned down if it is to far out there, or to hard to do. &101000 &15Truth points&00
+&12Custom equipment set&16: &14An entire set of custom equipment. &10700 &15Truth points&00
+&12Custom Equipment&16: &14One piece of custom equipment, or a custom weapon. &10350 &15Truth points&00
+&12Skill&16: &14A skill from a different race. &10450 &15Truth Points&00
+&12+ Skill&16: &14Add piercing or stun to a skill you have irp &10275 &15Truth Points&00
+&12Massive boost&16: &142mil Pl and ki, or 15000 lp boost. &10100 &15Truth points&00 
+&12Money&16: &14100000 zenni. &101 &15Truth points&00
+&12Boost&16: &1425000 PL or ki. &101 &15Truth Points&00
+&12Stat increase&16: &14+1 to a stat, con, str, int, wis, or intuition. Up to 20 base. &1075 &15Truth Points&00 
+&12House&16: &14A 5 room house. &10150 &15Truth Points&00
+&12Hunger and Thirst Turned off&16: &1030 &15Truth Points&00
+
+#0
+roleplay
+&00&06------------------------&00
+Help Roleplay
+&00&06------------------------&00
+
+&15These are a basic set of rules for roleplayers to follow.  Just
+remember to abide by them.&00
+
+&111&16-&15Use common sense.  If you have a lot weaker pl than someone.
+You really aren't going to beat them.
+&112&16-&15Don't argue over roleplay.
+&113&16-&15Don't use ooc information for roleplay.
+&114&16-&15No auto-hits.  But like I said, use common sense. The one
+being attacked decides how they were hit, not the attacker. If an
+attack would hit you bad, play it that way don't be a bitch, what is rp
+worth if you can't play it right.
+&115&16-&15No god roleplaying.  Which means you aren't invincible.
+&116&16-&15Respect an rp imms ruling. Do not listen to ANY other player
+unless they are backed up by a clearly stated rule. If something isn't
+clear an rp imm will rule on it and make it clear.
+&117&16-&15No maniac roleplaying. This doesn't mean you can't be evil to
+the core, or a crazy bastard. But if you ARE you need to roleplay the
+reasons why you go crazy on something, actual roleplay the mental
+problems. If you are crazy you do not instantly become sane anytime you
+face a stronger opponent and want to flee, this kind of behavior will 
+result in rp banning.
+&118&16-&15Follow these basic rules and roleplay will be fun and
+encourageable.
+&119&16-&15l33t, or leet, will not be accepted in any rp. If it is seen
+it will be junked. Use proper english and grammer to the best of your 
+ability.
+&1110&16-&15You must list your current ki and pl when it changes irp
+do this over qsay. The other rpers can not use that info irp unless
+they have powersense or a scouter. This rule is so people can make sure
+charge rules and the like are being followed.&00
+
+&00&06------------------------&00
+See also - help indexrp
+&00&06------------------------&00
+
+#0
+logrp
+&00&06------------------------&00
+Help Log rp
+&00&06------------------------&00
+
+&15If you want your rps rewarded, then you need to log/record them on
+text pad. That's incase an rp imm isn't on to actually see it. You can send
+all logs in email to &11Dragonballtruthrp@gmail.com&15. It will be based
+on their judgement. So don't complain about what your reward is. The rp 
+logs are read every saturday night, and TP is awarded every sunday 
+night..&00
+
+&00&06------------------------&00
+See also - help indexrp
+&00&06------------------------&00
+
+#0
+mindfreeze
+&00&06------------------------&00
+Help Mindfreeze
+&00&06------------------------&00
+   &15This skill uses the user's immense power of the mind in order to paralyze
+their enemies, rendering them unable to run, attack, or use any form of ki
+manipulation. It also does a good deal of damage to the target. It can only be
+used on mobs, and only mobs that are no more than 10x the pl of the user.
+
+&09Rp&00
+&15The user of this can preform mindfreeze once every 10 turns. And it only
+lasts for 3 turns. It can only be used on one target per use, and the user
+must use their full concentration to maintain the hold. The mindfrozen
+player can not move at all or control their ki, they stand or hover where
+they were. The user can do nothing but block while they hold the target
+still, not even walk or run. They must maintain eye contact as well. Also
+mindfreeze can only be used on targets that are no more than 25% stronger
+than the user. It costs 12% of the user's ki to preform.&00
+
+&10Androids can not be mindfrozen irp&00
+
+&00&06------------------------&00
+&11Syntax&16: &15focus 'mindfreeze' (target)&00
+&00&06------------------------&00
+
+#0
+bonusrace
+&15Each race comes with special abilities unique to only that race, bonuses 
+to assist you in your battling.&00
+
+&14Android:&00&07      Overdrive (Pl temporarily doubles randomly after a kill)
+&14Namek:&00&07        Super Regen (Large increase in chance for mob restore
+                       bonuses)
+&14Demon:&00&07        Infernal Fists (Chance of doing double damage)
+&14Kai:&00&07          Psychic Shield (Randomly negates an attack's damage)
+&14Majin:&00&07        Majinized Resistance (Takes 3/4ths of the damage)
+&14Bio-Android:&00&07  Bio-Enhanced Fists (Fists do x 1.25 damage)
+&14Konatsu:&00&07      Dual Wield(Able to learn dual wield in mud)
+&14Truffle:&00&07      Brow Shield (A forehead shield that halves damage)
+&14Human:&00&07        Enhanced Luck (A higher chance to gain bonuses)
+&14Icer:         &00&07Inborn speed(One extra attack per round, max of 5 
+                       instead of 4 only as long as they have their tail)
+&14Saiyan:       &00&07Saiyan strength(Pl and ki bonuses on level gains.)
+&14Halfbreed:    &00&07Saiyan strength(lower then saiyan Pl and ki bonuses on level gains.)
+&14Mutant:       &00&07Devious looting(Random gold bonuses on kills.)&00
+&14Kanassan:     &00&07Future Sight(Reduces damage of some hits from
+                       partial dodging.)
+&14Angel         &00&07Defensive Gust(Prevents damage and knocks the enemy
+                       down.
+
+#0
+stats
+&15This file will tell you how DBT's stats work.&00
+
+&11Powerlevel&16: &15This is your life, and affects how much physical
+damage you do without a weapon.
+&11Ki&16: &15This is your energy, and affects how strong your phyisical
+attacks are without a weapon, how strong your ki attacks are, and how many
+ki attacks you can do before your ki runs out.
+&11Str&16: &15Determines how much weight a character can hold.&00
+&11Con&16: &15Determines powerlevel gains the person gets each boost.&00
+&11Int&16: &15Determines ki gains the person gets each boost.&00
+&11Wis&16: &15Determines lp gains the person gets each boost.&00
+&11Intuition&16: &15Intuition between 40-79 will give a boost to exp for solo
+levelers, per kill. Over 80 will give a higher boost to exp for solo levelers.
+Also when using the lp command how much you gain from changing lp to pl or ki
+will depend on your max intuition.&00
+&11Speed&16: &15Determines how many hits per round a person does. over 20 will
+result in 2 hits per round, over 45 will result in 3, and over 80 will result
+in the max amount of 4 attacks per round.&00
+&11Dex&16: &15All physical based attacks do more damage with higher dexterity.
+Also a lot of konatsu skills rely on dex for success. Also higher dex brings 
+higher chances for critical hits.&00 
+&11Spirit&16: &15A namek, kai, and majin stat only. You get 1 spirit point per
+level boost, unless you get a very rare bonus.(see help potential and help
+majinize)&00
+&11Upper Body Skill&16: &15This controls how well you do with upper body 
+physical skills how often you hit with them.
+&11Lower Body Skill&16: &15This controls how well you do with lower body
+physical skills how often you hit with them.&00
+&11Ki Skill&16: &15This controls how well you hit with ki attacks. Maxes at 50,
+see help spar for more info.
+See also - help stat2
+
+#0
+stat2
+&00&06------------------------&00
+Help Stat2
+&00&06------------------------&00
+
+&15This command allows you to see what a piece of equipment
+gives ragarding stats. It only works on equipment in your
+inventory. Do not try and stat anything outside of your
+inventory.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15stat (object name)&00
+&00&06------------------------&00
+See also - help stats, help help, help newbie.
+
+#0
+immpl
+&15Imms get a set amount of pl depending on their imm level. This counts for in mud as well as in rp.
+
+&09Level&16: &151000012 &121,000,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000011 &12800,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000010 &12700,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000009 &12600,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000008 &12500,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000007 &12400,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000006 &12375,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000005 &12325,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000004 &12300,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000003 &12275,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000002 &12250,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000001 &12225,000,000 &10Pl &15and &14ki&00
+&09Level&16: &151000000 &12200,000,000 &10Pl &15and &14ki&00
+
+
+#0
+bbk
+&00&06------------------------&00
+Help Big Bang Kamehameha 
+&00&06------------------------&00
+
+   &15This skill, Big Bang Kamehameha originally created by Gogeta, 
+is an immensly powerful skill.  It takes two different energy attacks
+and successfully merges them into one.  This skill takes mass amounts
+of training, and its one of the few immortal taught skills. &00&14Taught
+by Solbet IRP.&00
+
+&00&06------------------------&00
+&11syntax&16: &15bbk (target)&00
+&00&06------------------------&00
+
+#0
+saiyan
+     &15Saiyans are those of the warrior race from planet Vegeta.  They 
+are given the term "monkeys" as they are born with a kind of monkey tails.  
+When a saiyan who still has his tail is exposed to the full moon, they 
+achieve the Oozaru form, a form that has made them infamous throughout 
+most of the universe.  Although often considered crude or brutish, saiyans 
+specialize in battle and grow in strength the more they fight.
+
+&11Transformations&00
+&16--------------------&00
+&12Super Saiyan &14First&00
+&12Super Saiyan &14Second&00
+&12Super Saiyan &14Third&00
+&12Super Saiyan &14Fourth&00
+
+#0
+android
+     &15Androids are humanoid machines that have been programmed to 
+simulate human emotions and drives.  Their programming has evolved to the 
+point of forming a conciousness, giving each one a unique personality and 
+desires.  Using the technology built into them, androids are able to 
+harness energy and manipulate ki. 
+
+&11Transformations&00
+&16--------------------&00
+&12Upgrade &141.0&00
+&12Upgrade &142.0&00
+&12Upgrade &143.0&00
+&12Upgrade &144.0&00
+&12Upgrade &145.0&00
+&12Upgrade &146.0&00
+
+#0
+majin
+     &15Majin are a strange race that are composed of a type of gummy 
+material with a forelock protruding from their forehead.  They are often 
+considered evil, however they are mostly based off of passions, whether it 
+be the desire to do evil or just the desire for pleasure.  Majins are 
+famous for their craving for sweets and candies and, with their forelocks, 
+they are able to focus their power into a ray capable of turning lifeforms 
+into candy.
+
+&11Transformations&00
+&16--------------------&00
+&12Morph &14Good&00
+&12Morph &14Evil&00
+&12Morph &14Super&00
+&12Morph &14True&00
+
+#0
+majinize
+&00&06------------------------&00
+Help Majinize
+&00&06------------------------&00
+&15This skill allows a majin to permanantly increase the max pl and ki
+of someone by 2mil. Once majinized someone can NOT be potential released
+anymore. Majinize can only be used on someone after they have agreed to
+it with the command allow. Majinize consumes 5000 spirit per use, and
+majinized people can only group with fellow majinized people, or majins.
+To majinize the target must be below 15mil pl.
+&00
+
+&00&06------------------------&00
+&11Syntax&16: &15majinize (target)&00
+&00&06------------------------&00
+See Also - Help Stats.
+
+#0
+icer
+     &15Icers are those beings that reside on planet Frigid, a place of 
+ice and freezing winds.  Icers took to space as they attempted to satisfy 
+the deep urges of domination inside them, spreading a reputation of evil 
+among most intelligent races.  Icers have a humanoid form along with a 
+long tail.  Icers are often known to have multiple forms, growing more 
+powerful as they transform.
+
+&11Transformations&00
+&16--------------------&00
+&12Transform &14First&00
+&12Transform &14Second&00
+&12Transform &14Third&00
+&12Transform &14Fourth&00
+
+#0
+namek
+     &15The namek are an ancient race that originate from the planet 
+Namek.  They are sexless beings, slightly akin to plants, with green skin 
+and antennae.  They possess remarkable regeneration capabilities, the 
+ability to use their power to heal others, and moderate telepathy.
+
+&11Transformations&00
+&16--------------------&00
+&12Super Namek &14First&00
+&12Super Namek &14Second&00
+&12Super Namek &14Third&00
+&12Super Namek &14Fourth&00
+
+#0
+human
+     &15Humans are the predominant species of planet Earth. They are 
+usually looked down on in the large scheme of the universe, but they have 
+it within themselves to aspire to the top reaches of power in the galaxy. 
+Humans have developed many techniques, using a natural intuition humans 
+are very crafty in developing new attacks and various other things.
+
+&00
+
+&11Transformations&00
+&16--------------------&00
+&12Super Human &14First&00
+&12Super Human &14Second&00
+&12Super Human &14Third&00
+&12Super Human &14Fourth&00
+
+#0
+rulesclan
+&00&06------------------------&00
+Help Rulesclan
+&00&06------------------------&00
+   &15Clans are a grouping within the mud of players fighting for a similar
+cause, whatever that cause may be.  These groupings can buy things for their
+clan that otherwise could not be obtained, help keep each other alive in rp,
+and help each other out in mud.  
+To make a clan you MUST meet these requirments.  
+&111&16: &15You must have at least 2 other people other than the
+founder to make the clan, no clans will be made with less than 3 members.  &00
+&112&16: &15It will cost 10 million zenny to make a clan.  Only Iovan or Kuvoc
+will handle approving clans.  
+&113&16: &15A clear clan purpose must be written up and given to Kuvoc or 
+Iovan along with the request for the clan.  ALL Clans must be involved in rp, 
+not all members, but at least one person in a Clan must be involved in 
+roleplay.  &15Once the clan is made, you will have to write up a 5 room 
+clanhall for your clan, that is descriptions for 5 rooms, and then you need
+to choose a spot for the clanhall to be placed.  All clanhalls get a 
+password protected door, and clanhalls are considered FULL pk for non-clan 
+members.&00
+&00&06------------------------&00
+See also - help extraclan, help clans
+&00&06------------------------&00
+#0
+password
+&00&06------------------------&00
+Help Password
+&00&06------------------------&00
+
+&15To change a password, you can use this easy command.
+Type password to see your current password. To change it
+type password and then the new password. That is the COMMAND
+password, not your old password and then the new password.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15password, password (newpassword)&00
+&00&06------------------------&00
+#0
+extraclan
+&00&06------------------------&00
+Help Extraclan
+&00&06------------------------&00
+   &15These are extras only clans can buy, and only that clan's members can
+use.  Abuse of this such as lending to non clan members will be punished
+severely and could result in up to but not limited to, loss of the clan.  All
+of these will cost money, so clans will probably have to pool their money
+together to enjoy the benefits.  
+&11Clan scouter&16: &15This is a clan scouter, it will have higher stats than
+the highest regular scouter.  It will be sold at a clan's shop.  &105000000 
+&12zenni&00 
+&11Clan Insignia&16: &15This is an insignia, and is worn on a slot no other
+equipment occupies.  This will also be sold at a clan's shop.  &104000000 
+&12zenni&00 
+&11Clan Halo&16: &15This will be a clan halo worn above the head that clan 
+members can buy from their clan shop once the clan buys the rights to 
+purchase, it will increase the clan members hits per fight round by 1. &1045000000 
+&12zenni&00 
+&11Clanhall Expansion&16: &15An extra 15 rooms can be bought with up to 
+10mil exp mobs spawned in these rooms.  &1010000000 &12zenni&00
+&11Locked Clan Doors&16: &15A key-locked door costs $1mil for the door and 
+$1mil for a key.  &102000000 &12zenni minimum&00
+&11Clan Board&16: &15Your own board in your clanhall. &1030000000&00
+&11Items in clan shop&16: &15You can buy the right for your clan shop to sell any
+item currently found in shops that is not equipment. &1010000000 &15per item&00
+&00&06------------------------&00
+See Also - help rulesclan, help clans
+&00&06------------------------&00
+
+#0
+package
+&00&06------------------------&00
+Help Package
+&00&06------------------------&00
+
+&15You can mail an item to someone on the mud with this command, it
+costs 25000 zenni to mail them the item.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15package (person) (item)&00
+&00&06------------------------&00
+
+#0
+calculator
+&00&06------------------------&00
+Help Calculator
+&00&06------------------------&00
+
+&15This command allows you to do simple calculations for rp
+purposes. Such as multiply, divide, add, or subtract whole numbers.&00
+
+&15You can also figure up the amount you can have charged for an attack
+in a certain amount of posts. Example: calculator small 32000000 3, 32mil
+is the maxki of the user, and 3 is the number of posts. The calculator will
+figure up the difference for you and present it. You can do this for
+medium, large, and massive as well.
+
+&00&06------------------------&00
+&11Syntax&16: &15calculator (multiply/add/divide/subtract) (number) (number)&00
+&00&06------------------------&00
+
+#0
+clans
+&00&06------------------------&00
+Help clans
+&00&06------------------------&00
+&15This is the list of current clans. No more will be accepted at this time&00
+
+&14Frozen Steel Mercenaries &16- &10Owner &15Reign&00
+&14Saiyan Empire            &16- &10Owner &15Vegetaou&00
+&14Universal Defense Force  &16- &10Owner &15Nail & Ambrossia&00
+&14Shadow Hunters           &16- &10Owner &15Silver&00
+&14Akatsuki Laboratories    &16- &10Owner &15Zebs&00
+&14Order of Temperance      &16- &10Owner &15Yamcha&00
+&14Valhalla's Valkyries     &16- &10Owner &15Selphia&00
+&14Shadowdemonz             &16- &10Owner &15Buu&00
+&14Brotherhood of Darkness  &16- &10Owner &15Unsichtbar&00
+
+&00&06------------------------&00
+See also - help rulesclan, help extraclan
+&00&06------------------------&00
+
+#0
+request
+&00&06------------------------&00
+Help Request
+&00&06------------------------&00
+
+&15In order to be a RP Character or get a saiyan, you must first
+of all request a character. Type Help namerp 2rpname-5rpname to
+find a list of RP characters you can be. Once you've found a RP
+Character you'd like to be. Please Mudmail one of the following
+Immortals.&00
+
+&091&11) &16Iovan
+&092&11) &16Kuvoc
+&093&11) &16Solbet
+
+&11Please list the following&15:
+
+   &151&09)&14 The RP Character
+   &152&09)&14 The Reason you want the Character
+   &153&09)&14 All of the information you know about the Character
+&00&06------------------------&00
+See also - help indexrp
+&00&06------------------------&00
+
+#0
+botting
+&15Botting is &09ILLEGAL&15 on DBT, completely illegal. Triggers that 
+preform more actions than you do, or basicly level you or help you 
+gain money without your input is considered BOTTING on DBT. We will
+know if you bot, and punishments will be severe.&00
+
+See also - help mudrules.
+
+#0
+camping
+&00&06------------------------&00
+Help Camping
+&00&06------------------------&00
+
+&15Camping mobs is not allowed anymore. You are allowed to kill
+a mob 3 times in a row, and no more. After the 3 times, you need
+to go kill some other things for a bit. Camping mobs is lame, sure
+it gets you cool gear cause you repeatedly kill something till it
+drops, but it makes that gear worth less when it is flooded into
+the market.&00
+
+&15Camping also now applies to zones. You are not allowed to kill
+the quest mob of a zone more than 3 times in a row, and if you
+do you must also leave the zone. To many people were just killing
+lesser mobs of the same zone. 3 times in a row counts for just
+quest mobs, killing a regular mob doesn't reset the count for
+a quest mob, killing a different quest mob does.
+
+&09First Offense&16: &1515 mins hell&00
+&09Second Offense&16: &152 hours hell&00
+&09Third Offense&16: &152 hours Freezing&00
+&09Fourth Offense&16: &15Purge&00
+
+&00&06------------------------&00
+See also - help mudrules.
+&00&06------------------------&00
+
+#0
+spar
+&00&06------------------------&00
+Help Spar
+&00&06------------------------&00
+
+&15Sparring can be used to train two or more people without
+threat to life or real gain of money. It is the only way to
+raise Upper Body Skill and Lower Body Skill as well. The
+amount of exp gained depends on the people sparring, and on
+whether the person getting hit is blocking or not. If they
+are blocking the person blocking will get more exp than the
+attacker. If they are not blocking then the attacker will get
+more experience.&00
+
+&14Ki Skill&16: &15This is raised by sparkiblast. It raises
+very slowly because you must gain an understanding on ki, and
+also on targeting stuff with ki. It maxes at 50.
+
+&00&06------------------------&00
+&11Syntax&16: &15spar&00
+&00&06------------------------&00
+
+#0
+learn
+&00&06------------------------&00
+Help Learn, Learned
+&00&06------------------------&00
+
+&15Learn is used to show the skills a player has yet to learn, their
+lp costs, and how much lp the player has left. Learned shows skills
+already learned.&00
+
+&00&06------------------------&00
+&11Syntax&16: &15learn
+              &15learn (skill)&00
+              &15learned&00
+&00&06------------------------&00
+
+#0
+races
+&15Every race has its own set of strengths and weaknesses.  Try a
+variety of them and get a feel for which fits you best.
+Here is the list of races&16:
+  &14(&111&14) &15Human
+  &14(&112&14) &15Namek
+  &14(&113&14) &15Saiyan
+  &14(&114&14) &15Icer
+  &14(&115&14) &15Majin
+  &14(&116&14) &15Android
+  &14(&117&14) &15Demon
+  &14(&118&14) &15Half-Breed
+  &14(&119&14) &15Kai
+  &14(&1110&14) &15Konatsu
+  &14(&1111&14) &15Truffle
+  &14(&1112&14) &15Mutant
+  &14(&1113&14) &15Bio-Android             
+  &14(&1114&14) &15Kanassan
+&09Read also&16: &15help bonusrace&00
+
+#0
+colors
+&15This shows you the colors you can use 
+before all numbers you must put a &.
+Also at the end of the color area
+put a & 00 to stop color bleeding.&00
+&01Dark Red-&0001		&09Bold Red-&0009
+&02Dark Green-&0002		&10Bold Green-&0010
+&03Dark Yellow-&0003		&11Bold Yellow-&0011
+&04Dark Blue-&0004		&12Bold Blue-&0012
+&05Dark Purple-&0005		&13Bold Purple-&0013
+&06Dark Teal-&0006		&14Bold Teal-&0014
+&00Dark White-07               &15Grey-&0015&00
+&08Dark Black-&0008		&16Bold Black-&0016
+
+#0
+extracolors
+&17Red Background-&0017
+&18Green Background-&0018
+&19Yellow Background-&0019
+&20Blue Background-&0020
+&21Purple Background-&0021
+&22Teal Background-&0022
+&23White Background-&0023
+&25Underline-&0025
+Flashing-&0026  (USING THIS IS BAD)
+
+#1000011
+oozaru
+&00&06------------------------&00
+Help Oozaru
+&00&06------------------------&00
+
+&15This naturally happens to any saiyan or halfbreed if they
+happen to have their tail when the full moon rises(once a
+mud month) They gain 100k pl and ki while oozaru.&00
+
+#0
+bank
+
+Commands to take money out of the bank, put money in the bank, or see how
+much money you have in the bank.  Can be used at any branch of the First
+National Bank of DBT (wherever you see an automatic teller machine).
+
+Examples:
+
+  > deposit 400
+  > withdraw 1000
+  > balance
+
+See also: GOLD, SCORE
+
+#0
+shop
+
+Usage: buy <item name>
+       buy #<item number>
+       buy n.<item name>
+       buy n <item name>
+       buy n #<item number>
+
+If you'd like to purchase an item from a shop and have the money, you can buy
+it.  Items can be bought by name, or by their number in the shop listing,
+and can be bought in quantity.
+ 
+Examples:
+ 
+  > buy sword        (buy the first sword on the list)
+  > buy #3           (buy the third item on the list)
+  > buy 4.sword      (buy the fourth sword on the list)
+  > buy 10 bread     (buy 10 pieces of bread)
+  > buy 10 #2        (buy 10 of the second item on the list)
+ 
+See also: LIST, SELL, SHOPS, VALUE
+
+#0
+EMOTE 
+
+Usage: emote <message>
+       : <message>
+
+Show people what you're feeling.  The shorthand is ":".
+
+"emote <string>" will display your name, then the string.
+
+Example:
+
+If your name is "Helt",
+
+  > emote is feeling very sad today.
+
+will display:
+
+Helt is feeling very sad today.
+
+See also: SOCIALS
+
+#0
+EXAMINE
+
+Usage: examine <thing to examine>
+
+May give you some valuable information about an item or monster.
+
+See also: LOOK
+
+#0
+EXITS
+
+Usage: exits
+
+Gives you a list of the obvious exits from your location.  Of course, the less
+obvious ones won't show up here - you have to THINK in order to locate those.
+
+#0
+FILL
+
+Usage: fill <item> <object to fill from>
+
+If you want to fill a container you're holding with liquid from a fountain
+in the same room as you.
+
+Example:
+
+  > fill canteen fountain
+
+See also: POUR
+
+#0
+FLEE
+
+Usage: flee
+
+If you are in a fight and things are beginning to get a little uncomfortable
+(maybe you are dying), just type 'flee', and presto!  You are out of harms way
+- that is, IF there is a suitable exit nearby, and IF that exit doesn't simply
+bring you from the ashes to the fire... but then, who wants to live forever?
+
+See also: WIMPY
+
+#0
+FOLLOW
+
+Usage: follow <leader>
+
+Use FOLLOW to automatically follow someone else, and push to push them
+away and stop their following.
+
+Examples:
+
+  > follow ras
+  > follow self
+  > push ted
+
+See also: GROUP, SNEAK
+
+#0
+GET TAKE
+
+"Get" and "take" are exactly the same and can be used interchangeably.
+
+Usage: get | take <object>
+       get | take all [object]
+       get | take all all.<object>
+       get | take all.<object> all.<object>
+
+If you find something interesting on the ground, you may use 'get' to pick
+it up.  'get' can also be used to extract items from containers.
+
+Examples:
+
+  > get sword corpse
+  > get all corpse
+  > get all all.bag
+  > get all.bread all.bag
+
+See also: DROP, PUT
+
+
+#0
+GIVE
+
+Usage: give <object> <victim>
+       give <number> coins <victim>
+
+If you feel benevolent, you may give some stuff to someone in need.
+
+  > give all ras
+  > give bread doctor
+  > give all.bronze mirlen
+  > give 40000 coins nia
+
+#0
+GOLD
+
+Usage: gold
+
+Displays how much gold your carrying.
+
+See also: BALANCE, DEPOSIT, WITHDRAW
+
+#0
+GROUP
+   &15Group can be used to form fighting parties, these help players bring down
+larger enemies easier, or bring down enemies at a faster pace.  Group
+experience gain is better than a fraction on DBT.  Two people grouped together
+would get half the mob's exp x 1.  75.  Three would get one third of the mob's
+exp x 1.  75, etc.  In this way group leveling can be very useful.  Also, to
+group anyone they must be following you.  If you are already in a group, and
+just type group, it will display the pl and ki of the group members.  This
+helps a group leader keep track of his or her group's status, for better
+fighting.  &00
+
+
+&16-------------------------------------------&00
+&11Syntax&16: &15group (person)
+&11Syntax&16: &15group 
+
+#0
+JUNK
+
+Usage: junk <object>
+       junk <number> coins
+
+Use JUNK instead of DROP if you want to keep the world a little cleaner.  If
+you JUNK something, it will disappear and you'll get a few coins or experience
+points, just as if you had dropped it in the dump.
+
+Examples:
+
+  > junk cup
+  > junk all.bronze
+  > junk 500 coins
+
+See also: DONATE, DROP
+
+#0
+KILL HIT
+
+Usage: kill <victim>
+       hit <victim>
+
+A good way to start a fight.  Not a good idea to hit other players.
+
+See also: FLEE, WIMPY
+
+#0
+LIST
+
+Usage: list [item type]
+
+If you'd like to see what items a shop has for sale, take a look at the
+list.  The list contains all of the items currently for sale and in
+what quantity.  The price for each item is also listed.  If you are
+interested in a particular type of item, you can specify which items to
+list.
+ 
+Examples:
+ 
+  > list             (list all items for sale)
+  > list sword       (list all swords for sale)
+ 
+See also: BUY, SELL, SHOPS, VALUE
+
+#0
+LOOK
+
+Usage: look
+       look [in | at] [the] <item>
+       look <direction>
+
+For studying your surroundings.
+
+Examples:
+
+  > look                                      
+  > look AT the angel
+  > look IN the bag
+  > look south (May give some information as to what is south)
+
+Note that if you LOOK AT CORPSE you will not see its inventory.
+To see what's inside a container (i.e. a corpse) use LOOK IN <object>.
+
+See also: EXAMINE, GET, READ, TAKE
+
+#0
+Mail
+
+Usage: check
+       mail <person>
+       receive
+The commands used by the DBT Mail System (DBTMS) are MAIL, CHECK, and
+RECEIVE. You must be a certain pl to use the mail system, so be patient. 
+
+Examples:
+
+  To check and see if you have any mail waiting:
+  > check
+  To write mail to Niandra:
+  > mail Niandra
+  To ask the Postmaster to give you your mail, if you have any waiting:
+  > receive
+
+Stamps cost 150 coins.
+
+#0
+MOTD
+
+Usage: motd
+
+Displays the message of the day.  Contains important information
+regarding the status of the MUD.  You should be sure to read it
+when you login.  If you miss it at login, just use this command!
+
+#0
+NORTH SOUTH EAST WEST UP DOWN
+
+Usage: north
+       south
+       east
+       west
+       up
+       down
+
+To travel in a given direction.
+
+
+
+
+
+
+#0
+NOSHOUT
+
+Usage: noshout
+
+NOSHOUT toggles whether or not you hear shouts.  (deaf) will appear after
+your name in the WHO list.
+
+See also: FLAGS, HOLLER, SHOUT, TOGGLE, WHO
+
+
+
+
+
+
+#0
+NOTELL
+
+Usage: notell
+
+Use NOTELL if you wish to prevent other players from using "tell" to
+communicate with you.  (notell) will appear after your name in the WHO
+list if you have notell on.
+
+See also: FLAGS, TELL, TOGGLE, WHO
+
+
+
+
+
+
+#0
+OPEN CLOSE LOCK UNLOCK
+
+Usage: open | close | lock | unlock <door> [direction]
+
+To open, close, lock, and unlock doors, of course.
+
+Examples:
+
+  > open portal
+  > lock door
+  > unlock door south
+  > close gate
+
+See also: ENTER, LEAVE
+
+
+
+
+
+
+#0
+PUT
+
+Usage: put <item> <container>
+       put all.<item> <container>
+       put all <container>
+
+For putting items into containers.
+
+Examples:
+
+  > put bread bag
+  > put all.bread bag
+  > put all chest
+
+See also: GET
+
+
+
+
+
+
+#0
+QSAY
+
+Usage: qsay <message>
+
+To tell something to everyone involved in rp.
+
+See also: QUEST
+
+
+
+
+
+
+#0
+QUIT
+
+When you get tired of playing, you can leave the game by typing 'quit'.
+Note that quitting this way may cause any items you might be carrying to
+simply be left on the ground (Dependant upon how the game is currently
+configured).  If you wish to have your equipment stored, you may have to
+find an inn and pay rent.
+
+
+
+
+
+
+#0
+READ
+
+Usage: read <object>
+       read <board message number>
+
+When you want to read something.
+
+READ is also used to read messages on bulletin boards; type HELP BOARDS
+for more information.
+
+Example:
+
+  > read note
+
+See also: BOARDS
+
+
+
+
+
+
+#0
+REMOVE
+
+Usage: remove <item>
+       remove all
+       remove all.<keyword>
+
+If you tire of wearing some armor or wielding a weapon.
+
+Examples:
+
+  > remove boots
+  > remove sword
+  > remove all
+  > remove all.bronze
+
+See also: GRAB, HOLD, WEAR, WIELD
+
+
+
+
+
+
+#0
+REPLY
+
+Usage: reply <message>
+
+This command will send a reply to the last person to send you a message
+using TELL.  It works just as if you had typed 'tell <player> <message>'
+but makes it a bit easier.  It can also be very useful in case someone
+invisible sends you a message.
+
+Example:
+
+Ras tells you, 'Hi!'
+> reply hey
+You tell Ras, 'hey'
+>
+Someone tells you, 'I am your secret admirer.'
+> reply Who are you?
+You tell someone, 'Who are you?'
+
+See also: TELL, NOTELL
+
+
+
+
+
+
+#0
+REPORT
+
+Usage: report
+
+This command sends a report of your current health to the other people in
+your group.
+
+
+
+
+
+
+#0
+SAVE
+
+Usage: save
+
+Save your persona.  This includes experience points, strength, gold, etc.
+Your equipment is also saved in the (unlikely?) event of a crash.  The
+game periodically auto-saves you and your equipment, so it is not necessary
+to have your client auto-save you as well.
+
+
+
+
+
+
+#0
+SAY TELL ASK WHISPER SHOUT YELL HOLLER '
+
+Usage: say | shout | holler <string>
+       tell | whisper | ask <player> <string>
+
+If you consider communicating with other beings, you might be understood
+better if you start your sentences with either say, tell, whisper or shout.
+
+Examples:
+
+  > say Hey, does anyone know how to get to Oz?
+  > tell catje hi, how are you?
+
+You can use ' as a shorthand for say, as in:
+
+  > ' hello there.
+
+Shout broadcasts your message to everyone is your geographic zone.  Holler
+broadcasts to everyone in the game but costs 20 movement points.  You must
+be level 2 before you can use shout and yell.
+
+See also: AUCTION, GOSSIP, GSAY, NOREPEAT, QSAY, REPLY
+
+
+
+
+
+
+#0
+SELL
+
+Usage: sell [#] <item>
+       sell <#>.<item>
+
+If you'd like to sell an item to a shopkeeper, trying selling it to them.
+Most shops specialize in what they will buy, so you may have to look around
+to find a buyer for your items.
+ 
+Examples:
+ 
+  > sell sword       (sell the first sword in your inventory)
+  > sell 3 sword     (sell the first three swords in your inventory)
+ 
+See also: BUY, LIST, SHOPS, VALUE
+
+
+
+
+
+
+#0
+SPLIT
+
+Usage: split <amount to split>
+
+Split is used to split money among people in your group who are in the same
+room as you.  If you are in a group with 4 other people, all of whom are in
+the same room with you, and you type SPLIT 100, you will give each of the
+other 4 group members 20 coins each.  (100 coins is split 5 ways; you keep
+your share and give everyone else their share).
+
+See also: FOLLOW, GROUP
+
+
+
+
+
+
+#0
+TIME
+
+Usage: time
+
+Gives you the current game time.  Your initial reaction to the output of
+this command may be one of surprise, but you'll get used to it.  You'll
+have to, at any rate, since certain things in the game depend on this
+particular notion of time; the opening hours of the shops, for example.
+
+
+
+
+
+
+#0
+VISIBLE
+
+Usage: visible
+
+Use this command to break your spell of invisibility before it expires.
+
+See also: INVISIBILITY
+
+
+
+
+
+
+#0
+WEAR
+
+Usage: wear <item> [location]
+
+If you want to wear some clothes, armor or the likes.
+
+Also, to wear everything in your inventory (or at least try to, as wearing 
+things like loaves of bread is not a good way to win friends and influence
+people) you can type "wear all".
+
+Optionally, you can specify what part of your body to wear the equipment on.
+
+Examples:
+
+  > wear boots
+  > wear all.bronze
+  > wear all
+  > wear ring finger
+
+See also: EQUIPMENT, REMOVE
+
+
+
+
+
+
+#0
+WHERE
+
+Usage: where <monster | player>
+
+Tells you the location of a monster, a player or an object.
+
+Mortals can only "where" monsters or players, and only from their own
+zone.
+
+Immortals may type 'where' without arguments to see where everybody is.
+
+Example:
+
+  > where
+  > where torch
+  > where dragon
+
+
+
+
+
+
+#0
+WHO
+
+Lists the people currently in the game.  Some people may be invisible.
+Command-line options can be used to limit the listing.  The parameters
+can be specified on the command-line in any order.
+
+
+
+
+
+
+#0
+WIELD
+
+Usage: wield <weapon>
+
+When you get tired of bashing monsters with your fists, you might consider
+wielding a weapon.
+
+Example:
+
+  > wield sword
+  > wield 3.sword    (Wield the third sword in your inventory)
+
+See also: EQUIPMENT, REMOVE, WEAR
+
+
+
+
+
+
+#0
+WIZLIST
+
+Usage: wizlist
+
+Lists the most powerful beings on the MUD.  These are the people responsible
+for administering the system.
+
+
+
+
+
+
+#0
+WRITE
+
+Usage: write <object>
+       write <title of board note>
+
+In order to write a note, you need a piece of blank paper (or similar), and
+a pen of some sort.  You can then type something like "write on the paper with
+the pen", whereupon you'll be asked to type in your note at the keyboard.
+
+WRITE is also used to post messages to bulletin boards.  Type HELP BOARDS
+for more information.
+
+See also: BOARDS, MAIL
+
+
+
+
+
+
+#0
+BOARDS
+
+Bulletin boards are the forum of inter-player communication on the MUD.
+There are different bulletin boards for different purposes -- for example,
+a standard mortal board, a board for immortals, a board for fun "social"
+messages, etc.  Naturally, not all players may be allowed to read all
+types of boards.
+
+Type "LOOK BOARD" to see the messages already posted on a board.  Type
+"WRITE <subject>" to post a message to a board; terminate a message with
+a '@' as the first character on a line.  Type "READ <number>" to read a
+post.  Type "REMOVE <number>" to remove your own messages.
+
+Example:
+
+  > look at board
+  > write Am I using these boards correctly?
+  [writes the message; terminates with a '@']
+  > look at board
+  > read 6
+  > remove 6
+
+
+
+
+
+
+#0
+circlemudcredits
+CircleMUD was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
+Johns Hopkins University's Department of Computer Science.  All code unique
+to CircleMUD is protected under a copyright by the Trustees of the Johns
+Hopkins University.
+
+Many, many people contributed to CircleMUD in one way or another throughout
+the course of its development.  Although it's impossible for me to remember
+them all, I'd like to extend special thanks to certain people:
+
+  -- Jeff Fink and George Greer, for submitting a veritable mountain of
+     excellent code.
+  -- Chris Epler and Chris Herringshaw for extensive beta-testing and bug
+     reporting.
+  -- Furry (Alex Fletcher), for single-handedly managing Circle's world files.
+  -- Fred Merkel, Ryan Watkins, Jay Levino, and Sharon Goza, for other
+     code and area submissions.
+  -- Jean-Jack Riethoven for porting the code to the Amiga, David Carver
+     for porting it to OS/2, and Jack Patton and Steffen Haeuser for the
+     Amiga port.
+  -- Bill Bogstad and Tim Stearns for allowing Circle to exist at JHU.
+  -- The DikuMUD folk, and the good old WhatMUD implementors Dave & Justin,
+     for starting the ball rolling.
+  -- Bryan Jolson, Steven Lacher, Cat Stanton, and Naved Surve, for being 
+     there in the very early days of Circle's development.
+  -- Sharon, Ben, Erica, Aly, and Josh, for keeping me sane.
+  -- Jules (hamotek sheli) for being the greatest.
+
+...plus everyone else in the Circle community who has submitted material!
+Thanks everyone!
+
+  Anonymous FTP:  ftp.circlemud.org or ftp2.circlemud.org in pub/CircleMUD
+ To report bugs:  bugs@circlemud.org
+    To get help:  help@circlemud.org
+            URL:  http://www.circlemud.org/
+   Mailing List:  listserv@post.queensu.ca
+                  (write "subscribe circle <first name> <last name>")
+
+--Jeremy Elson (jelson@circlemud.org)
+
+
+
+
+
+
+#0
+SOCIALS
+
+Usage: <social> [<victim>]
+
+Socials are commands used to show your affective state to others.  The
+actor, victim and bystanders may receive different messages.  Generally,
+social commands are used only to express emotion and not to take action,
+but it is possible that some mobs (or players) will take action based on
+the social.  (Slap a dragon lately?)
+
+Example:
+
+  > shake homer
+  > applaud marge
+  > stare
+
+The SOCIALS command generates a canonical listing of all available socials.
+
+  > socials
+
+See also: EMOTE
+
+
+
+
+
+
+#999999
+ECHO GECHO QECHO SEND
+
+Usage: echo <message>
+       gecho <message>
+       send <victim> <message>
+       qecho <message>
+
+ECHO displays a string to everyone in your room.
+GECHO displays the string to everyone in the game.
+QECHO displays the string to everyone with the QUEST flag.
+SEND displays the string to a particular person.
+
+Examples:
+
+  > echo Hi, everyone in the room.
+  > gecho Hi, everyone in the game, isn't this annoying?
+  > send rasmussen You are being watched.
+
+
+
+
+
+
+#999999
+HCONTROL
+
+Usage: hcontrol build <house vnum> <exit dir> <player name>
+       hcontrol destroy <house vnum>
+       hcontrol pay <house vnum>
+       hcontrol show
+
+House control, controls the addition, removal, and payments of houses.
+Hcontrol show will show all the houses currently defined in the game
+along with their last 'rent' payment date.
+
+See also: HOUSE, HOUSES
+
+
+
+
+
+
+#999999
+PAGE
+
+Usage: page <player | all> <message>
+
+PAGE is used to send a message, along with a beep, to another player.  Use
+PAGE ALL to send a message and a beep to everyone in the game.
+
+Examples:
+
+  > page rasmussen Hey, are you still at the keyboard?
+  > page all GAME WILL BE SHUTTING DOWN IN 10 MINUTES
+
+Do not abuse this command.
+
+
+
+
+
+
+#999999
+SET
+
+Usage: set [ file | player ] <character> <field> <value>
+
+SET is an extremely powerful command, capable of setting dozens of aspects of
+characters, both players and mobiles.
+
+SET PLAYER forces set to look for a player and not a mobile; useful for
+players with names such as 'guard'.
+
+SET FILE lets you change players who are not logged on.  If you use SET FILE
+on a player who IS logged on, your change will be lost.  If you wish to set
+a player who is in the game but is linkless, use set twice -- once with the
+FILE argument, and once without -- to make sure that the change takes.
+
+For toggled fields (BINARY), the value must be ON, OFF, YES, or NO.
+
+The following are valid fields:
+
+Field          Level Required   Who     Value Type   Decription
+-----------------------------------------------------------------------------
+age            LVL_GRGOD        BOTH    NUMBER       Character's age
+brief          LVL_GOD          PC      BINARY       Brief mode
+invstart       LVL_GOD          PC      BINARY       Invisible @ Start
+title          LVL_GOD          PC      MISC         Player's title
+nosummon       LVL_GRGOD        PC      BINARY       NOSUMMON flag
+maxhit         LVL_GRGOD        BOTH    NUMBER       Max HP
+maxmana        LVL_GRGOD        BOTH    NUMBER       Max mana
+maxmove        LVL_GRGOD        BOTH    NUMBER       Max movement
+hit            LVL_GRGOD        BOTH    NUMBER       Current HP
+mana           LVL_GRGOD        BOTH    NUMBER       Current mana
+move           LVL_GRGOD        BOTH    NUMBER       Current movement
+align          LVL_GOD          BOTH    NUMBER       Alignment
+str            LVL_GRGOD        BOTH    NUMBER       Strength
+stradd         LVL_GRGOD        BOTH    NUMBER       Additional STR (18/xx)
+int            LVL_GRGOD        BOTH    NUMBER       Inteligence
+wis            LVL_GRGOD        BOTH    NUMBER       Wisdom
+dex            LVL_GRGOD        BOTH    NUMBER       Dexterity
+con            LVL_GRGOD        BOTH    NUMBER       Constitution
+cha            LVL_GRGOD        BOTH    NUMBER       Charisma
+sex            LVL_GRGOD        BOTH    MISC         Sex
+ac             LVL_GRGOD        BOTH    NUMBER       Armor class
+gold           LVL_GOD          BOTH    NUMBER       Gold (On hand)
+bank           LVL_GOD          PC      NUMBER       Gold in bank
+exp            LVL_GRGOD        BOTH    NUMBER       Experience points
+hitroll        LVL_GRGOD        BOTH    NUMBER       To-Hit modifier
+damroll        LVL_GRGOD        BOTH    NUMBER       Damage modifier
+invis          LVL_IMPL         PC      NUMBER       Invisible (level)
+nohassle       LVL_GRGOD        PC      BINARY       NOHASSLE flag
+frozen         LVL_FREEZE       PC      BINARY       FROZEN flag
+practices      LVL_GRGOD        PC      NUMBER       # of practices
+lessons        LVL_GRGOD        PC      NUMBER       # of practices
+drunk          LVL_GRGOD        BOTH    MISC         Drunkeness
+hunger         LVL_GRGOD        BOTH    MISC         Hrs to hunger
+thirst         LVL_GRGOD        BOTH    MISC         Hrs to thirst
+killer         LVL_GOD          PC      BINARY       KILLER flag
+thief          LVL_GOD          PC      BINARY       THIEF flag
+level          LVL_IMPL         BOTH    NUMBER       Level
+room           LVL_IMPL         BOTH    NUMBER       Move to room
+roomflag       LVL_GRGOD        PC      BINARY       ROOMFLAGS flag
+siteok         LVL_GRGOD        PC      BINARY       SITEOK flag
+deleted        LVL_IMPL         PC      BINARY       DELETED flag
+class          LVL_GRGOD        BOTH    MISC         Class (W/T/C/M)
+nowizlist      LVL_GOD          PC      BINARY       Not Wizlistable flag
+quest          LVL_GOD          PC      BINARY       QUESTING flag
+loadroom       LVL_GRGOD        PC      MISC         Room to load in (#/off)
+color          LVL_GOD          PC      BINARY       COLOR flag
+idnum          LVL_IMPL         PC      NUMBER       ID Number
+passwd         LVL_IMPL         PC      MISC         Player password
+nodelete       LVL_GOD          PC      BINARY       Undeletable flag
+
+See also: STAT
+
+
+
+
+
+
+#999999
+SHOW
+
+Usage: show <mode> [argument]
+
+Valid Modes:
+
+death          errors         godrooms       houses
+player         rent           shops          stats
+zones   
+
+The SHOW command displays information.  Some modes of show require additional
+information, such as a player name.
+
+   death: Shows all death traps in the game.
+  errors: Shows errant rooms.
+godrooms: Shows the rooms in the 'god zone'.
+  houses: Shows the houses that are currently defined.
+  player: Shows player summary information, simply provide a player name.
+    rent: Shows the filename and path to a players rent file.
+   shops: Shows all the shops in the game and their buy/sell parameters.
+   stats: Shows game status information including players in game, mobs etc.
+   zones: Shows all the zones in the game and their current reset status.
+          An age of -1 means it is in the 'to be reset next' queue.
+
+See also: STAT, ZRESET
+
+
+
+
+
+
+#999999
+SHUTDOWN
+
+Usage: shutdown [reboot | die | pause]
+
+SHUTDOWN shuts the MUD down.  The SHUTDOWN command works in conjunction with
+CircleMUD's 'autorun' script.  If you are not using autorun, the arguments are
+meaningless.  If you are using autorun, the following arguments are available:
+
+REBOOT     Pause only 5 seconds instead of the normal 40 before trying to
+           restart the MUD.
+
+DIE        Kill the autorun script; the MUD will not reboot until autorun is
+           explicitly run again.
+
+PAUSE      Create a file called 'paused' in Circle's root directory; do not
+           try to restart the MUD until 'paused' is removed.
+
+
+
+
+
+
+#0
+UNDEFINED
+Empty
+
+
+
+
+
+
+#0
+UNDEFINED
+Empty
+
+
+
+
+
+#0
+UNDEFINED
+Empty
+
+
+
+
+#0
+UNDEFINED
+Empty
+
+
+
+#0
+UNDEFINED
+Empty
+
+
+#0
+UNDEFINED
+Empty
+
+#0
+UNDEFINED
+Empty
+#0
+$~

@@ -1,0 +1,991 @@
+#6000
+Tissue~
+&15Tissue&00~
+A heavy lumber axe lies here.~
+~
+5 8 8193
+0 2 3 3
+12 50 15
+E
+axe lumber~
+It is a heavy axe of the kind lumberjacks use to chop down trees.
+~
+A
+18 1
+#6001
+shirt chequered~
+a chequered shirt~
+A chequered shirt lies here.~
+~
+9 8 9
+1 0 0 0
+2 20 8
+E
+shirt chequered~
+It is an extra large, chequered shirt made from heavy cloth.
+~
+#6002
+boots leather~
+a pair of worn leather boots~
+A pair of worn leather boots lies here.~
+~
+9 8 65
+2 0 0 0
+4 60 10
+E
+boots~
+They are fashioned from rough leather that has been oiled frequently to make
+it stay waterproof.  They look worn but quite functional.
+~
+#6003
+fireplace~
+a fireplace~
+A fireplace made from stone is set against the east wall.~
+~
+15 0 0
+200 0 0 0
+0 0 0
+E
+fireplace~
+It is fashioned from stones of various sizes that have been stacked on top of
+each other and fastened with mortar.  Its chimney is constructed likewise and
+leads the smoke out through the low cabin ceiling.
+~
+#6004
+lantern brass hooded~
+a hooded brass lantern~
+A hooded brass lantern has been left here.~
+~
+1 0 16385
+0 0 100 0
+4 60 10
+E
+letters~
+The letters say:
+
+Use 'hold lantern' to activate.
+
+~
+E
+lantern brass hooded~
+It is a large and robust but somewhat battered oil lantern made from brass,
+and it is equipped with a handle to make it handy and a hood to protect its
+flame.  Some letters have been scratched on its bottom.
+~
+#6005
+chest wooden~
+a wooden chest~
+A wooden chest stands in the corner.~
+~
+15 0 1
+100 15 6006 0
+20 100 10
+E
+chest wooden~
+It is a robust chest made from short, heavy planks that have been fastened
+together with tenons.  It is equipped with a simple brass lock.
+~
+#6006
+key brass~
+a small brass key~
+A small brass key lies here.~
+~
+18 4 16385
+6006 0 0 0
+1 0 0
+E
+key brass~
+It is a small, simple brass key with no inscriptions or marks of any kind.
+~
+#6007
+coins gold~
+a heap of gold coins~
+Some gold coins lie piled up in a heap on the floor.~
+~
+20 0 1
+127 0 0 0
+1 127 0
+E
+coins gold~
+The coins seem to be gold.  They are obviously valuable.
+~
+#6010
+blackberries berries~
+some blackberries~
+Some blackberries grow on a bush nearby.~
+~
+19 4 1
+3 0 0 0
+1 0 0
+E
+blackberries berries~
+They look very tasty indeed.
+~
+#6011
+mushroom~
+a mushroom~
+A small mushroom grows nearby.~
+~
+19 0 1
+6 0 0 0
+1 10 10
+E
+mushroom~
+It looks to be a tasty little thing.
+~
+#6012
+sign~
+a large sign~
+A large sign mounted on a pole is standing by the roadside.~
+~
+12 0 0
+0 0 0 0
+100 0 0
+E
+sign~
+It says :-
+
+                         Haon-Dor
+                         --------
+
+ This is the Forest of Haon-Dor.  Enter at your own risk.
+     Please report any strange occurrences to Furry,
+     as Quifael and Derkhil are currently indisposed.
+
+~
+E
+pole~
+Not the most interesting pole in the world.
+Better leave it here, though, as it holds the sign in place.
+~
+#6013
+water barrel~
+a barrel~
+A water barrel has been left here.~
+~
+17 0 1
+40 40 15 0
+45 60 20
+#6014
+water brook~
+a small brook~
+A small brook trickles through the forest beside the path.~
+~
+23 0 0
+50000 50000 15 0
+50005 0 0
+E
+water brook~
+The water looks clean and refreshing.
+~
+#6015
+water lake~
+the lake~
+Undefined~
+~
+23 0 0
+50000 50000 0 0
+50005 0 0
+#6016
+cudgel oak oaken limb~
+an oaken cudgel~
+A limb has fallen here.~
+~
+5 64 8193
+0 1 7 7
+16 1 20
+E
+cudgel oak oaken limb~
+The cudgel looks quite sturdy, and would make a nice weapon.
+~
+A
+19 2
+A
+1 -2
+#6017
+corpse boar~
+the corpse of a boar~
+Undefined~
+~
+15 0 0
+100 0 0 0
+500 1 1
+#6018
+slab meat~
+a large slab of meat~
+A large piece of freshly cut boar meat is on the ground here.~
+~
+19 0 1
+24 0 0 0
+15 40 1
+E
+slab meat~
+It looks quite filling.
+~
+#6019
+tusks pair~
+a pair of boar tusks~
+A pair of large boar tusks have been dropped here.~
+~
+8 0 16385
+0 0 0 0
+10 60 1
+E
+tusks pair~
+They look like they might be worth something to a craftsman.
+~
+#6020
+log hollow floating~
+a hollow log~
+Undefined~
+~
+22 0 1
+0 0 0 0
+48 2 1
+E
+log~
+It looks like it would probably float.
+~
+#6021
+nest bird~
+the bird's nest~
+Undefined~
+~
+15 0 0
+30 0 0 0
+0 0 0
+#6022
+egg blue robin~
+a blue robin's egg~
+A small bluish egg has been left here.~
+~
+19 0 1
+6 0 0 0
+1 10 0
+E
+egg blue robin~
+It is small, but food nonetheless.
+~
+#6023
+meat rabbit~
+a piece of rabbit meat~
+A large piece of rabbit meat.~
+~
+19 0 1
+12 0 0 0
+5 29 20
+#6024
+meat deer venison~
+a piece of venison~
+A large piece of venison.~
+~
+19 0 1
+24 0 0 0
+10 80 20
+#6050
+Eternal Darkness Dragon Tear~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &10D&00&02r&11a&00&03g&15o&00&03n &11T&00&02e&10a&00&03r&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &10D&00&02r&11a&00&03g&15o&00&03n &11T&00&02e&10a&00&03r&15 shouldn't be lying here.&00~
+~
+1 0 16385
+0 0 -1 0
+1 0 0
+A
+5 5
+A
+4 5
+A
+3 5
+A
+6 5
+A
+25 5
+A
+2 5
+#6051
+Eternal Darkness Dragon Eye~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &10D&00&02r&11a&00&03g&15o&00&03n &11E&00&02y&10e&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &10D&00&02r&11a&00&03g&15o&00&03n &11E&00&02y&10e&15 SHOULDN'T be lying here.&00~
+~
+11 0 3
+0 0 0 0
+1 0 0
+A
+5 5
+A
+4 5
+A
+3 5
+A
+6 5
+A
+6 5
+A
+25 5
+#6052
+Eternal Darkness Velvet Choker~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09V&00&01e&16l&15v&00&07e&15t &16C&00&01h&09o&00&01k&16e&15r&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09V&00&01e&16l&15v&00&07e&15t &16C&00&01h&09o&00&01k&16e&15r should not be lying here.&00~
+~
+11 0 5
+0 0 0 0
+1 0 0
+A
+5 5
+A
+4 5
+A
+3 5
+A
+2 5
+A
+6 5
+A
+25 5
+#6053
+Eternal Darkness Dragon Eye Pendant~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &10D&00&02r&11a&00&03g&15o&00&03n &11E&00&02y&10e P&00&02e&11n&00&03d&16a&00&03n&11t&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &10D&00&02r&11a&00&03g&15o&00&03n &11E&00&02y&10e P&00&02e&11n&00&03d&16a&00&03n&11t&15 shouldn't be lying here.&00~
+~
+11 0 5
+0 0 0 0
+1 0 0
+A
+5 5
+A
+4 5
+A
+3 5
+A
+2 5
+A
+6 5
+A
+25 5
+#6054
+Eternal Darkness Corset~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &14C&00&06o&16r&15s&00&06e&14t&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &14C&00&06o&16r&15s&00&06e&14t&15 should be on Ambrossia.&00~
+~
+11 0 9
+0 0 0 0
+1 0 0
+A
+6 5
+A
+5 5
+A
+4 5
+A
+3 5
+A
+2 5
+A
+25 5
+#6055
+Eternal Darkness Crown Leaf~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &11C&00&03r&15o&00&03w&11n &10L&00&02e&10a&00&02f&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &11C&00&03r&15o&00&03w&11n &10L&00&02e&10a&00&02f&15 shouldn't be here dancing in the moonlight.&00~
+~
+11 0 17
+0 0 0 0
+1 0 0
+A
+6 5
+A
+5 5
+A
+4 5
+A
+3 5
+A
+2 5
+A
+25 5
+#6056
+Eternal Darkness Mini Skirt~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &16Mi&15ni &00&07S&15ki&16rt&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &16Mi&15ni &00&07S&15ki&16rt&15 should be worn over Ambrossia's fine hiney.&00~
+~
+11 0 33
+0 0 0 0
+1 0 0
+A
+5 5
+A
+6 5
+A
+4 5
+A
+3 5
+A
+2 5
+A
+25 5
+#6057
+Eternal Darkness High Heels~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &16Hi&15gh &00&07He&15el&16s&00~
+&15A pair of &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &16Hi&15gh &00&07He&15el&16s&15 should not be lying here.&00~
+~
+11 0 65
+0 0 0 0
+1 0 0
+A
+6 5
+A
+5 5
+A
+4 5
+A
+3 5
+A
+2 5
+A
+25 5
+#6058
+Eternal Darkness Black Gloves~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &16Bl&15ac&00&07k G&15lo&16ve&15s&00~
+&15A pair of &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &16Bl&15ac&00&07k G&15lo&16ve&15s are lying here, but shouldn't.&00~
+~
+11 0 129
+0 0 0 0
+1 0 0
+A
+6 5
+A
+5 5
+A
+4 5
+A
+3 5
+A
+2 5
+A
+25 5
+#6059
+Eternal Darkness Velvet Scarf~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09V&00&01e&16l&15v&00&07e&15t &09S&00&01c&16a&15r&00&01f&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09V&00&01e&16l&15v&00&07e&15t &09S&00&01c&16a&15r&00&01f&15 is lying here, but should not be.&00~
+~
+11 0 257
+0 0 0 0
+1 0 0
+A
+2 5
+A
+3 5
+A
+4 5
+A
+5 5
+A
+6 5
+A
+25 5
+#6060
+Eternal Darkness Of the dragon ~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &11E&00&02y&10e &16of the &10D&00&02r&11a&00&03g&15o&00&03n&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &11E&00&02y&10e &16of the &10D&00&02r&11a&00&03g&15o&00&03n&15 is staring at a midget menancingly.&00~
+~
+3 0 513
+100 100000 100000 201
+1 0 0
+A
+5 5
+A
+4 5
+A
+3 5
+A
+2 5
+A
+6 5
+A
+25 5
+#6061
+Eternal Darkness Burnoose~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &00&06B&16u&15r&00&07n&15o&16o&00&06s&16e&00~
+&15 &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &00&06B&16u&15r&00&07n&15o&16o&00&06s&16e&15 infact, is not a slurred drunk moose.&00~
+~
+11 0 1025
+0 0 0 0
+1 0 0
+A
+25 5
+A
+2 5
+A
+3 5
+A
+4 5
+A
+5 5
+A
+6 5
+#6062
+Eternal Darkness Velvet Sash~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09V&00&01e&16l&15v&00&07e&15t &09S&00&01a&15s&09h&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09V&00&01e&16l&15v&00&07e&15t &09S&00&01a&15s&09h&15 should be holding Ambrossia's hands behind her back.&00~
+~
+11 0 2049
+0 0 0 0
+1 0 0
+A
+25 5
+A
+2 5
+A
+3 5
+A
+4 5
+A
+5 5
+A
+6 5
+#6063
+Eternal Darkness Slave Bracelet~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &16Sl&15av&00&07e B&15ra&16ce&15le&00&07t&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &16Sl&15av&00&07e B&15ra&16ce&15le&00&07t&15 is lying here, but shouldn't.&00~
+~
+11 0 4097
+0 0 0 0
+1 0 0
+A
+25 5
+A
+2 5
+A
+3 5
+A
+4 5
+A
+5 5
+A
+6 5
+#6064
+Eternal Darkness Sai~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &11S&00&03a&16i&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &11S&00&03a&16i&15 should be stuck in the nearest idiot.&00~
+~
+5 0 4202497
+0 1000000 1 11
+1 0 0
+A
+25 5
+A
+2 1
+A
+3 5
+A
+4 5
+A
+5 5
+A
+6 1
+#6065
+Eternal Darkness Dragons Claw~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &10D&00&02r&11a&00&03g&15o&00&03n&15's &11C&00&02l&10a&00&02w&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &10D&00&02r&11a&00&03g&15o&00&03n&15's &11C&00&02l&10a&00&02w&15 is currently being used as a buttscratcher.&00~
+~
+11 0 16385
+0 0 0 0
+1 0 0
+A
+25 5
+A
+2 2
+A
+3 5
+A
+4 5
+A
+5 5
+A
+6 2
+#6066
+Eternal Darkness Ruby Earring Left~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09B&00&01l&09o&00&01o&09d &00&01R&09u&00&01b&09y&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09B&00&01l&09o&00&01o&09d &00&01R&09u&00&01b&09y&15 should be dangling from Ambrossia's ear.&00~
+~
+11 0 131073
+0 0 0 0
+1 0 0
+A
+25 5
+A
+2 5
+A
+18 100
+A
+19 100
+A
+1 20
+A
+6 5
+#6067
+Eternal Darkness Blood Ruby Earring Right~
+&16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09B&00&01l&09o&00&01o&09d &00&01R&09u&00&01b&09y&00~
+&15A &16Et&15er&00&07na&15l D&16ar&15kn&00&07es&15s &09B&00&01l&09o&00&01o&09d &00&01R&09u&00&01b&09y&15 shouldn't be here contemplating the famine issue in etheopia.&00~
+~
+11 0 262145
+0 0 0 0
+1 0 0
+A
+2 8
+A
+6 1
+A
+18 100
+A
+19 100
+A
+25 5
+#6068
+Assassin Butterfly Tabi~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &00&01T&09a&15b&00&07i&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&01r&09f&15l&00y &01T&09a&15b&00i shouldn't be lying here.~
+~
+11 0 65
+0 0 0 0
+0 0 0
+A
+5 6
+A
+3 6
+A
+4 6
+A
+2 6
+A
+6 6
+A
+25 6
+#6069
+Assassin Butterfly Shozoku~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &00&01S&09h&15o&00&07z&15o&09k&00&01u&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&01r&09f&15l&00y &01S&09h&15o&00z&15o&09k&00&01u&00 shouldn't be lying here.~
+~
+11 0 9
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+3 6
+A
+4 6
+A
+2 6
+A
+25 6
+#6070
+assassin butterfly makasu~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &00&01M&09a&15k&00&07a&15s&09u&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&01r&09f&15l&00y &01M&09a&15k&00a&15s&09u&00 shouldn't be lying here.~
+Nothing.
+~
+11 0 17
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+2 6
+A
+3 6
+A
+25 6
+#6071
+assassin butterfly gando~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &00&01G&09a&15n&00&07d&15o&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&01r&09f&15l&00y &01G&09a&15n&00d&15o&00 shouldn't be lying here.~
+~
+1 0 16385
+0 0 -1 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6072
+assassin butterfly shuko~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &00&01S&09h&15u&00&07k&15o&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&01r&09f&15l&00y &01S&09h&15u&00k&15o&00 shouldn't be lying here.~
+~
+11 0 129
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6073
+Assassin Butterfly Wakazashi~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &00&01W&09a&15k&00&07i&16z&00&07a&15s&09h&00&01i&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&01r&09f&15l&00y &01W&09a&15k&00aza&15s&09h&00&01i&00 should NOT be lying here.~
+~
+5 0 4202497
+0 1000000 1 3
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6074
+Assassin Butterfly Zubon~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &00&01Z&09u&15b&00&07o&15n&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&01r&09f&15l&00y &01Z&09u&15b&00o&15n&00 shouldn't be lying here.&00~
+~
+11 0 33
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6075
+assassin butterfly sasshu~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01S&09a&15s&00s&15h&09u&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01S&09a&15s&00s&15h&09u&00 shouldn't be lying here.~
+~
+11 0 2049
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6076
+Assassin Butterfly Tebekuro~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01T&09e&15b&00ek&15u&09r&00&01o&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01T&09e&15b&00ek&15u&09r&00&01o&00 shouldn't be lying here.&00~
+~
+11 0 4097
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6077
+Assassin Butterfly Waishatsu~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01W&09a&15i&00sha&15t&09s&00&01u&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01W&09a&15i&00sha&15t&09s&00&01u&00 should not be lying here.~
+~
+11 0 1025
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6078
+Assassin Butterfly Hinadoru~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01H&09i&15n&00ad&15o&09r&00&01u&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01H&09i&15n&00ad&15o&09r&00&01u&00 should be held by its loving owner.&00~
+~
+11 0 16385
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6079
+assassin butterfly iyaringu~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01I&09y&15a&00ri&15n&09g&00&01u (&09Left&00&01)&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01I&09y&15a&00ri&15n&09g&00&01u (&09Left&00&01)&00 should not be lying here.~
+~
+11 0 131073
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6080
+Assassin Butterfly Iyaringu~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01I&09y&15a&00ri&15n&09g&00&01u (&09Right&00&01)&00~
+00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01I&09y&15a&00ri&15n&09g&00&01u (&09Right&00&01)&00 shouldn't be lying here.~
+~
+11 0 262145
+0 0 0 0
+1 0 0
+A
+6 6
+A
+5 6
+A
+4 6
+A
+3 6
+A
+2 6
+A
+25 6
+#6081
+Assassin Butterfly Megane~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01M&09e&15g&00a&15n&09e&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01M&09e&15g&00a&15n&09e&00 should not be lying here.~
+~
+3 0 513
+0 0 0 0
+1 0 0
+A
+25 12
+A
+18 100
+A
+19 100
+A
+1 50
+#6082
+Assassin Butterfly Nekkuresu~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01N&09e&15k&00kur&15e&09s&00&01u&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01N&09e&15k&00kur&15e&09s&00&01u&00 shouldn't be lying here.~
+~
+11 0 5
+0 0 0 0
+1 0 0
+A
+18 100
+A
+19 100
+A
+25 6
+#6083
+Assassin Butterfly Enjin~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01E&09n&15j&00i&15n&00~
+&00&01A&09s&15s&00as&15s&09i&00&01n &00B&15u&09t&00&01t&16e&00&01r&09f&15l&00y &01E&09n&15j&00i&15n&00 shouldn't be lying here.~
+~
+11 0 3
+0 0 0 0
+1 0 0
+A
+18 100
+A
+19 100
+A
+12 127
+A
+13 127
+A
+12 127
+A
+13 127
+#6098
+Soulstone of the last dragon~
+&15S&00o&14u&00&06l&16s&00t&15o&00&06n&14e &00o&16f &16t&00h&15e &15L&15a&10s&00&02t &10D&00&02r&15a&16g&10o&00&02n&00~
+&00&02A small &16S&00t&15o&00&06n&14e&00&02 is floating here, with the power of a &10D&00&02r&15a&16g&10o&00&02n pulsating inside of it.&00~
+~
+11 1409024 262145
+0 0 0 0
+1 0 0
+A
+5 5
+A
+3 3
+A
+2 5
+A
+6 5
+A
+25 3
+#6099
+Jewel of the last rider~
+&15J&00e&14w&00&06e&15l of the &00&06L&14a&15s&00&06t &00&06R&14i&00d&14e&00&06r&00~
+&00&06A dark pulsating &15J&00e&14w&00&06e&15l&00&06 lies here, giving the area around it a sense of calm.&00~
+Nothing.
+~
+11 1409024 131073
+0 0 0 0
+1 0 0
+A
+3 4
+A
+5 1
+A
+4 2
+A
+2 4
+A
+6 4
+$~

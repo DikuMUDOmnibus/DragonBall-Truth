@@ -1,0 +1,2071 @@
+#1500
+&00&01D&09i&16l&15ap&00&07i&15da&16t&09e&00&01d &16Church&00~
+   &00&15The church stretches nearly into the clouds, the dark stone walls
+seemingly absorbing all light cast upon it.  One of its formerly beautiful
+steeples now lays shattered and broken by the door, nearly blocking any
+entrance in.  An eerie groan escapes from the building as the wind washes
+against it, making it shift ever so slighty.  &15With a crash of lightning, the
+heavens begin to pour upon the broken church, the spark of light casting an
+creepy shadow on the face of the church.  &00
+~
+15 4 4
+D0
+You see nothing special.
+~
+~
+0 -1 1501
+D2
+~
+~
+0 0 203
+S
+#1501
+&00&16Front Hallway&00~
+   &00&15As the thunder crashes outside, dust from the roof falls slowly from
+the sound shockwaves.  Strands of cobwebs line the narrow hallway, while chunks
+of fallen debris lay in the pathway.  A whisper of sound comes up from ahead,
+sounding like a mix of childrens crying and a woman screaming in pain.  What
+happened in this church?  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1502
+D2
+You see nothing special.
+~
+~
+0 -1 1500
+S
+#1502
+&00&16Front Hallway&00~
+   &00&15As the thunder crashes outside, dust from the roof falls slowly from
+the sound shockwaves.  Strands of cobwebs line the narrow hallway, while chunks
+of fallen debris lay in the pathway.  A whisper of sound comes up from ahead,
+sounding like a mix of childrens crying and a woman screaming in pain.  What
+happened in this church?  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1503
+D2
+You see nothing special.
+~
+~
+0 -1 1501
+S
+#1503
+&00&16Four Way Hall&00~
+   &00&15A scream fills the skies, echoing from all directions.  "Help me!  "
+The screaming seeps into the skull, slowly twisting the neurons of the brain.
+But which direction did it come from?  The sound seems to come from all around,
+and just as it seems the right direction is found, another blood-curdling
+scream comes, this time coming from the other direction.    
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1504
+D1
+You see nothing special.
+~
+~
+0 -1 1529
+D2
+You see nothing special.
+~
+~
+0 -1 1502
+D3
+You see nothing special.
+~
+~
+0 -1 1530
+S
+#1504
+&00&16North Hallway&00~
+   &00&15The scream suddenly dies out, replaced with the soft, heart ripping
+sounds of children crying.  Their sobs rip across the walls, and beams of light
+come through those rips, basking eerie shadows along the ground.  The church
+shakes again with another hard shudder, sending chunks of mortar and wood down
+onto the floor, one chunk smashing through the &00&15rotted floorboards.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1505
+D2
+You see nothing special.
+~
+~
+0 -1 1503
+S
+#1505
+&00&16North Hallway&00~
+   &00&15The scream suddenly dies out, replaced with the soft, heart ripping
+sounds of children crying.  Their sobs rip across the walls, and beams of light
+come through those rips, basking eerie shadows along the ground.  The church
+shakes again with another hard shudder, sending chunks of mortar and wood down
+onto the floor, one chunk smashing through the &00&15rotted floorboards.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1506
+D2
+You see nothing special.
+~
+~
+0 -1 1504
+S
+#1506
+&00&16North Hallway&00~
+   &00&15The scream suddenly dies out, replaced with the soft, heart ripping
+sounds of children crying.  Their sobs rip across the walls, and beams of light
+come through those rips, basking eerie shadows along the ground.  The church
+shakes again with another hard shudder, sending chunks of mortar and wood down
+onto the floor, one chunk smashing through the &00&15rotted floorboards.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1507
+D2
+You see nothing special.
+~
+~
+0 -1 1505
+S
+#1507
+&00&16North Hallway&00~
+   &00&15The scream suddenly dies out, replaced with the soft, heart ripping
+sounds of children crying.  Their sobs rip across the walls, and beams of light
+come through those rips, basking eerie shadows along the ground.  The church
+shakes again with another hard shudder, sending chunks of mortar and wood down
+onto the floor, one chunk smashing through the &00&15rotted floorboards.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1508
+D2
+You see nothing special.
+~
+~
+0 -1 1506
+S
+#1508
+&00&16North Hallway&00~
+   &00&15The scream suddenly dies out, replaced with the soft, heart ripping
+sounds of children crying.  Their sobs rip across the walls, and beams of light
+come through those rips, basking eerie shadows along the ground.  The church
+shakes again with another hard shudder, sending chunks of mortar and wood down
+onto the floor, one chunk smashing through the &00&15rotted floorboards.  &00
+~
+15 12 0
+D0
+You see nothing special.
+~
+~
+0 -1 1511
+D2
+You see nothing special.
+~
+~
+0 -1 1507
+S
+#1509
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1515
+D3
+You see nothing special.
+~
+~
+0 -1 1510
+S
+#1510
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1516
+D1
+You see nothing special.
+~
+~
+0 -1 1509
+D3
+You see nothing special.
+~
+~
+0 -1 1511
+S
+#1511
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1517
+D1
+You see nothing special.
+~
+~
+0 -1 1510
+D2
+You see nothing special.
+~
+~
+0 -1 1508
+D3
+You see nothing special.
+~
+~
+0 -1 1512
+S
+#1512
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1518
+D1
+You see nothing special.
+~
+~
+0 -1 1511
+D3
+You see nothing special.
+~
+~
+0 -1 1513
+S
+#1513
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1519
+D1
+You see nothing special.
+~
+~
+0 -1 1512
+S
+#1514
+&00&04D&00&12a&00&14r&00&06k&00 &16P&00&15r&00ie&15s&00&16t Shop&00~
+   Under Construction
+~
+15 28 0
+D3
+You see nothing special.
+~
+~
+0 -1 1515
+S
+#1515
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1521
+D1
+You see nothing special.
+~
+door~
+1 1500 1514
+D2
+You see nothing special.
+~
+~
+0 -1 1509
+D3
+You see nothing special.
+~
+~
+0 -1 1516
+S
+#1516
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1522
+D1
+You see nothing special.
+~
+~
+0 -1 1515
+D2
+You see nothing special.
+~
+~
+0 -1 1510
+D3
+You see nothing special.
+~
+~
+0 -1 1517
+S
+#1517
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1523
+D1
+You see nothing special.
+~
+~
+0 -1 1516
+D2
+You see nothing special.
+~
+~
+0 -1 1511
+D3
+You see nothing special.
+~
+~
+0 -1 1518
+S
+#1518
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1524
+D1
+You see nothing special.
+~
+~
+0 -1 1517
+D2
+You see nothing special.
+~
+~
+0 -1 1512
+D3
+You see nothing special.
+~
+~
+0 -1 1519
+S
+#1519
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1525
+D1
+You see nothing special.
+~
+~
+0 -1 1518
+D2
+You see nothing special.
+~
+~
+0 -1 1513
+D3
+You see nothing special.
+~
+door~
+1 1500 1520
+S
+#1520
+&00&03L&00&11i&00g&11h&00&03t&00 &16P&00&15r&00ie&15s&00&16t Shop&00~
+Under Construction
+~
+15 28 0
+D1
+You see nothing special.
+~
+~
+0 -1 1519
+S
+#1521
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D2
+You see nothing special.
+~
+~
+0 -1 1515
+D3
+You see nothing special.
+~
+~
+0 -1 1522
+S
+#1522
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 1521
+D2
+You see nothing special.
+~
+~
+0 -1 1516
+D3
+You see nothing special.
+~
+~
+0 -1 1523
+S
+#1523
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1526
+D1
+You see nothing special.
+~
+~
+0 -1 1522
+D2
+You see nothing special.
+~
+~
+0 -1 1517
+D3
+You see nothing special.
+~
+~
+0 -1 1524
+S
+#1524
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 1523
+D2
+You see nothing special.
+~
+~
+0 -1 1518
+D3
+You see nothing special.
+~
+~
+0 -1 1525
+S
+#1525
+&00&03C&00&11o&00n&15gr&00&16eg&00&15at&00i&11o&00&03n&00 &16Hall&00~
+   &00&15In the massive meeting hall, pue after pue are lined up, where the
+church goers would sit, and pray to their god, hoping to bring peace and joy to
+their lifes and everyone elses.  A clash of lightning showns through the
+shattered stained glass windows, revealing hundreds of eyes staring,
+unblinking.  &00 &00&15A growl from the very back starts to rise, and slowly
+multiple growls start to rise.  &00
+~
+15 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 1524
+D2
+You see nothing special.
+~
+~
+0 -1 1519
+S
+#1526
+&00&01B&00&09l&16o&00&15od&00&16i&09e&00&01d&00 A&11l&00&03t&00&11a&00r~
+   &00&15With a rumble, the altar shakes, almost a cue as the candles flicker
+once, twice, then burst into life, revealing the old, bloodstained parchments
+sitting upon the aged oak.  The detail the life of the god of this church, how
+he brought upon the revelation, and rid the world of its wicked brother.  
+&00&15The flames flicker in the breeze, and amazingly, out from seemingly no
+where, a book and a key appear on the middle of the altar.  &00
+~
+15 12 0
+D2
+You see nothing special.
+~
+~
+0 -1 1523
+S
+#1527
+&00&16East Wing&00~
+   &00&15The scream starts to lengthen, a soft light coming out from beneath
+the floorboards, washing the area in a eerie light as the floor creaks beneath.
+The walls seem to push out, like faces pushing through a bedsheet, muffled
+screems seeming to come from them.  &00
+~
+15 12 0
+D3
+You see nothing special.
+~
+~
+0 -1 1528
+D5
+~
+~
+0 0 1565
+S
+#1528
+&00&16East Wing&00~
+   &00&15The scream starts to lengthen, a soft light coming out from beneath
+the floorboards, washing the area in a eerie light as the floor creaks beneath.
+The walls seem to push out, like faces pushing through a bedsheet, muffled
+screems seeming to come from them.  &00
+~
+15 9 0
+D1
+You see nothing special.
+~
+~
+0 -1 1527
+D3
+You see nothing special.
+~
+~
+0 -1 1529
+S
+#1529
+&16East Wing&00~
+   &00&15The scream starts to lengthen, a soft light coming out from beneath
+the floorboards, washing the area in a eerie light as the floor creaks beneath.
+The walls seem to push out, like faces pushing through a bedsheet, muffled
+screems seeming to come from them.  &00
+~
+15 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 1528
+D3
+You see nothing special.
+~
+~
+0 -1 1503
+S
+#1530
+&00&16West Wing&00~
+   &00&15The scream starts to lengthen, a soft light coming out from beneath
+the floorboards, washing the area in a eerie light as the floor creaks beneath.
+The walls seem to push out, like faces pushing through a bedsheet, muffled
+screams seeming to come from them.  &00
+~
+15 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 1503
+D3
+You see nothing special.
+~
+~
+0 -1 1531
+S
+#1531
+&00&16West Wing&00~
+   &00&15The scream starts to lengthen, a soft light coming out from beneath
+the floorboards, washing the area in a eerie light as the floor creaks beneath.
+The walls seem to push out, like faces pushing through a bedsheet, muffled
+screams seeming to come from them.  &00
+~
+15 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 1530
+D3
+You see nothing special.
+~
+~
+0 -1 1532
+S
+#1532
+&00&16West Wing&00~
+   &00&15The scream starts to lengthen, a soft light coming out from beneath
+the floorboards, washing the area in a eerie light as the floor creaks beneath.
+The walls seem to push out, like faces pushing through a bedsheet, muffled
+screams seeming to come from them.  &00
+~
+15 12 0
+D1
+You see nothing special.
+~
+~
+0 -1 1531
+D4
+You see nothing special.
+~
+~
+0 -1 1533
+S
+#1533
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 8 0
+D1
+You see nothing special.
+~
+~
+0 -1 1534
+D5
+~
+~
+0 -1 1532
+S
+#1534
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 12 0
+D1
+You see nothing special.
+~
+~
+0 -1 1535
+D3
+You see nothing special.
+~
+~
+0 -1 1533
+S
+#1535
+Three Way Walkway~
+   &16In the center of this walkway is a massive hole, going down what seems
+forever, and at its bottom, dead, shining eyes peer up from its infinite
+darkness.  Then, from all sides, the womans scream rattle the walls, the walls
+shifting and cracking apart, shards of plaster falling down the black, soulless
+hole.  &00
+~
+15 12 0
+D0
+~
+~
+0 0 1539
+D1
+You see nothing special.
+~
+~
+0 -1 1536
+D3
+You see nothing special.
+~
+~
+0 -1 1534
+S
+#1536
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 12 0
+D1
+You see nothing special.
+~
+~
+0 -1 1537
+D3
+You see nothing special.
+~
+~
+0 -1 1535
+S
+#1537
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 8 0
+D0
+You see nothing special.
+~
+~
+0 -1 1563
+D1
+You see nothing special.
+~
+~
+0 -1 1538
+D3
+You see nothing special.
+~
+~
+0 -1 1536
+S
+#1538
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 8 0
+D3
+You see nothing special.
+~
+~
+0 -1 1537
+S
+#1539
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 8 0
+D0
+~
+~
+0 0 1540
+D2
+~
+~
+0 0 1535
+S
+#1540
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 8 0
+D0
+~
+~
+0 0 1541
+D2
+~
+~
+0 0 1539
+S
+#1541
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1542
+D2
+~
+~
+0 0 1540
+S
+#1542
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1543
+D2
+~
+~
+0 0 1541
+S
+#1543
+&00&01B&09l&16o&09o&00&01d&02s&03taine&02d &00&03Hallway&00~
+   &00&01The womans scream dies away, then howls out louder, more murderous
+than before.  The floor, walls, and ceiling are drenched in what appear to be
+pools of blood, drips of it falling to the floor, soaking the carpet, a clue to
+what its color used to be gone with time.  Then slowly, a chatter of teeth fill
+the air, along with the screaming.  &00&01A pair of glowing, soulless eyes
+stare out from the darkness, searching for its next fleshy meal.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1544
+D2
+~
+~
+0 0 1542
+S
+#1544
+&00&03B&00&11el&00&03l&00 &16Tower - Level One&00~
+   &00&01The walkway runs along the wall above the main altar back down on the
+first floor.  The screams are closer, louder than before.  The poor creature
+must be this way, or is it a trap?  Can't know unless to continue.  The sounds
+of rustling bodies down near the altar can be heard, hungry mouths waiting to
+be filled with mortal flesh.  &00
+~
+15 0 0
+D2
+~
+~
+0 0 1543
+D3
+~
+~
+0 0 1545
+S
+#1545
+&00&03B&00&11el&00&03l&00 &16Tower - Level One&00~
+   &00&01The walkway runs along the wall above the main altar back down on the
+first floor.  The screams are closer, louder than before.  The poor creature
+must be this way, or is it a trap?  Can't know unless to continue.  The sounds
+of rustling bodies down near the altar can be heard, hungry mouths waiting to
+be filled with mortal flesh.  &00
+~
+15 0 0
+D1
+~
+~
+0 0 1544
+D3
+~
+~
+0 0 1546
+S
+#1546
+&00&03B&00&11el&00&03l&00 &16Tower - Level One&00~
+   &00&01The walkway runs along the wall above the main altar back down on the
+first floor.  The screams are closer, louder than before.  The poor creature
+must be this way, or is it a trap?  Can't know unless to continue.  The sounds
+of rustling bodies down near the altar can be heard, hungry mouths waiting to
+be filled with mortal flesh.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1547
+D1
+~
+~
+0 0 1545
+S
+#1547
+&00&03B&00&11el&00&03l&00 &16Tower - Level One&00~
+   &00&01The walkway runs along the wall above the main altar back down on the
+first floor.  The screams are closer, louder than before.  The poor creature
+must be this way, or is it a trap?  Can't know unless to continue.  The sounds
+of rustling bodies down near the altar can be heard, hungry mouths waiting to
+be filled with mortal flesh.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1548
+D2
+~
+~
+0 0 1546
+S
+#1548
+&00&03B&00&11el&00&03l&00 &16Tower - Level One&00~
+   &00&01The walkway runs along the wall above the main altar back down on the
+first floor.  The screams are closer, louder than before.  The poor creature
+must be this way, or is it a trap?  Can't know unless to continue.  The sounds
+of rustling bodies down near the altar can be heard, hungry mouths waiting to
+be filled with mortal flesh.  &00
+~
+15 0 0
+D1
+~
+~
+0 0 1549
+D2
+~
+~
+0 0 1547
+S
+#1549
+&00&03B&00&11el&00&03l&00 &16Tower - Level One&00~
+   &00&01The walkway runs along the wall above the main altar back down on the
+first floor.  The screams are closer, louder than before.  The poor creature
+must be this way, or is it a trap?  Can't know unless to continue.  The sounds
+of rustling bodies down near the altar can be heard, hungry mouths waiting to
+be filled with mortal flesh.  Theres a set of stairs here, with chunks of flesh
+and gore stuck on the railing.  &00
+~
+15 0 0
+D3
+~
+~
+0 0 1548
+D4
+~
+~
+0 0 1550
+S
+#1550
+&00&03B&00&11el&00&03l&00 &16Tower - Level Two&00~
+   &00&01Trekking higher up into the bell tower, the amount of gore gets more
+abundant with every step, headless eyeballs stare up into nothingness.  A
+sudden gush of wind rushes down the bell tower, a soft tong of iron against
+bronze fills the air, followed by that blood churning scream.  &00
+~
+15 0 0
+D2
+~
+~
+0 0 1551
+D5
+~
+~
+0 0 1549
+S
+#1551
+&00&03B&00&11el&00&03l&00 &16Tower - Level Two&00~
+   &00&01Trekking higher up into the bell tower, the amount of gore gets more
+abundant with every step, headless eyeballs stare up into nothingness.  A
+sudden gush of wind rushes down the bell tower, a soft tong of iron against
+bronze fills the air, followed by that blood churning scream.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1550
+D2
+~
+~
+0 0 1552
+S
+#1552
+&00&03B&00&11el&00&03l&00 &16Tower - Level Two&00~
+   &00&01Trekking higher up into the bell tower, the amount of gore gets more
+abundant with every step, headless eyeballs stare up into nothingness.  A
+sudden gush of wind rushes down the bell tower, a soft tong of iron against
+bronze fills the air, followed by that blood churning scream.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1551
+D3
+~
+~
+0 0 1553
+S
+#1553
+&00&03B&00&11el&00&03l&00 &16Tower - Level Two&00~
+   &00&01Trekking higher up into the bell tower, the amount of gore gets more
+abundant with every step, headless eyeballs stare up into nothingness.  A
+sudden gush of wind rushes down the bell tower, a soft tong of iron against
+bronze fills the air, followed by that blood churning scream.  &00
+~
+15 0 0
+D1
+~
+~
+0 0 1552
+D3
+~
+~
+0 0 1554
+S
+#1554
+&00&03B&00&11el&00&03l&00 &16Tower - Level Two&00~
+   &00&01Trekking higher up into the bell tower, the amount of gore gets more
+abundant with every step, headless eyeballs stare up into nothingness.  A
+sudden gush of wind rushes down the bell tower, a soft tong of iron against
+bronze fills the air, followed by that blood churning scream.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1555
+D1
+~
+~
+0 0 1553
+S
+#1555
+&00&03B&00&11el&00&03l&00 &16Tower - Level Two&00~
+   &00&01Trekking higher up into the bell tower, the amount of gore gets more
+abundant with every step, headless eyeballs stare up into nothingness.  A
+sudden gush of wind rushes down the bell tower, a soft tong of iron against
+bronze fills the air, followed by that blood churning scream.  &00 &00&01A set
+of stairs is here, drenched and dripping with blood.  &00
+~
+15 0 0
+D2
+~
+~
+0 0 1554
+D4
+~
+~
+0 0 1560
+S
+#1556
+&00&06H&00&14a&00l&14l&00w&14a&00&06y&00~
+   &00&03The walls are pure white, with various scrolls hanging from them.  
+They tell of the dojo's disciplines, and of the great warriors forged from it.
+The floor is a simple grass mat, soft on the feet and smooth to the touch.  
+~
+15 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1458
+D1
+You see nothing special.
+~
+~
+0 -1 1455
+D2
+You see nothing special.
+~
+~
+0 -1 1454
+D3
+You see nothing special.
+~
+~
+0 -1 1557
+S
+#1557
+&00&01N&00&09o&15vi&00&09c&00&01e&00 &16Training Area&00~
+   &00&03The walls, floors, and ceilings are padded heavily with soft
+cushioning.  There are a few bloodstains on the otherwise perfectly white room.
+There are cameras in the corners of the rooms, so the fighters can go back and
+look at their mistakes from a different angle.  It is evident that the fighters
+in here have had it slightly easy.  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1556
+S
+#1558
+&00&03B&00&11el&00&03l&00 &16Tower - Level Three&00~
+   &00&01Chunks of walkway was missing from the third floor walkway.  In those
+holes, seemed to be webbing made from flesh and intestines.  It would quiver,
+as if it was breathing.  In some, inhuman, brainless eyes would stare around,
+what its looking for, only it knows.  &00
+~
+15 0 0
+D1
+~
+~
+0 0 1559
+D3
+~
+~
+0 0 1560
+S
+#1559
+&00&03B&00&11el&00&03l&00 &16Tower - Level Three&00~
+   &00&01Chunks of walkway was missing from the third floor walkway.  In those
+holes, seemed to be webbing made from flesh and intestines.  It would quiver,
+as if it was breathing.  In some, inhuman, brainless eyes would stare around,
+what its looking for, only it knows.  &00
+~
+15 0 0
+D2
+~
+~
+0 0 1561
+D3
+~
+~
+0 0 1558
+S
+#1560
+&00&03B&00&11el&00&03l&00 &16Tower - Level Three&00~
+   &00&01Chunks of walkway was missing from the third floor walkway.  In those
+holes, seemed to be webbing made from flesh and intestines.  It would quiver,
+as if it was breathing.  In some, inhuman, brainless eyes would stare around,
+what its looking for, only it knows.  &00
+~
+15 0 0
+D1
+~
+~
+0 0 1558
+D5
+~
+~
+0 0 1555
+S
+#1561
+&00&03B&00&11el&00&03l&00 &16Tower - Level Three&00~
+   &00&01Chunks of walkway was missing from the third floor walkway.  In those
+holes, seemed to be webbing made from flesh and intestines.  It would quiver,
+as if it was breathing.  In some, inhuman, brainless eyes would stare around,
+what its looking for, only it knows.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1559
+D2
+~
+~
+0 0 1562
+S
+#1562
+&00&03B&00&11el&00&03l&00 &16Tower - Level Three&00~
+   &00&01Chunks of walkway was missing from the third floor walkway.  In those
+holes, seemed to be webbing made from flesh and intestines.  It would quiver,
+as if it was breathing.  In some, inhuman, brainless eyes would stare around,
+what its looking for, only it knows.  &00 &00&01Against the wall, hangs a rope
+ladder, with signs of age and rot.  On some of the rungs hang chunks of muscle
+and sinew.  Up above, the sound of footsteps of something, followed by a blood
+churning screamand a rush of wind, slightly proceeded with what sounded like a
+flap.  &00 &00&01The scream would die away, followed by now what was heard as
+quiet sobbing, and the dripping of liquid on the hardwood floor.  &00
+~
+15 4 0
+D0
+~
+~
+0 0 1561
+D4
+~
+~
+0 0 1564
+S
+#1563
+&00&03D&00&11a&00&03yc&00&11ar&00&03e&00 &16Room&00~
+   &00&15This grotesque room is filled with twisted, deformed versions of
+normal childrens toys.  The rocking horse in the corner has its head chopped
+off, and blood seems to be dripping from the wound onto the floor.  The
+building blocks are covered in gore, and seem to be moving, as if it was
+breathing.  The area reeks of rotted flesh, and theres the feeling of being
+watched.  &00
+~
+15 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 1537
+S
+#1564
+&16The&00 &03B&00&11el&00&03l&16ho&00&15us&00e~
+   &00&01As the dim light filters in through the boarded up windows, it reveals
+a woman, beautiful, even in her infinite sadness.  Here she hangs, suspended by
+her wrists, which are tied above her head, and her ankles, tied to donger of
+the bell.  &00 &00&01Here her stomach is splayed open, held taught by rusted
+needles and hooks.  Tears stream down her face, as a flap erupts from her
+sides.  There, in the dimness, are revealed a pair of heavily bloodied wings,
+feathers torn from it and laying on the floor in muscle striddled pools of
+blood.  &00 &00&01A growl comes from the darkness, red-white eyes glowing from
+the left of the angel.  It steps out into the light, its right hand a mangled
+mess of flesh and metal.  It had a thumb and pointer finger, but its middle
+finger was a razor sharp hook and the last two digits were a crude set of
+scissors, snapping open and shut with the twinge of a muscle.    
+~
+15 0 0
+D5
+~
+~
+0 0 1562
+S
+#1565
+&00&03S&00&16t&00&15a&00ir&15w&00&16a&00&03y&00~
+   &00&15A set of normal, but incredibly dusty stairs here lead upward at a
+slight curve, stone steps leading up to the first floor.  This part of the
+basement, looking like any kind of normal basement, pieces of clutter and
+furniture strewn about.  &00 &00&15Extra pues, knee risers, and metal foldable
+chairs are placed up neatly against the wall.  But something ominious hovers in
+the air, as if waiting for something.  &00
+~
+15 4 0
+D0
+~
+~
+0 0 1570
+D1
+You see nothing special.
+~
+~
+0 -1 1566
+D4
+~
+~
+0 0 1527
+S
+#1566
+&00&03B&00&16a&00&15s&00em&15e&00&16n&00&03t&00~
+   &00&15A set of normal, but incredibly dusty stairs here lead upward at a
+slight curve, stone steps leading up to the first floor.  This part of the
+basement, looking like any kind of normal basement, pieces of clutter and
+furniture strewn about.  &00 &00&15Extra pues, knee risers, and metal foldable
+chairs are placed up neatly against the wall.  But something ominious hovers in
+the air, as if waiting for something.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1571
+D1
+You see nothing special.
+~
+~
+0 -1 1567
+D3
+You see nothing special.
+~
+~
+0 -1 1565
+S
+#1567
+&00&16Middle of the&00 &03B&00&16a&00&15s&00em&15e&00&16n&00&03t&00~
+   &00&15The stone floor slowly turns into a soft, squishy surface.  A soft,
+wet flutter of air comes from the distance, like air passing out from a wet,
+loose-lipped whoopie cushion.  A deep, rasping breath seemingly comes from no
+where, nearly inaudible and just hanging in the shadows.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1572
+D1
+You see nothing special.
+~
+~
+0 -1 1568
+D3
+You see nothing special.
+~
+~
+0 -1 1566
+S
+#1568
+&00&03B&16a&00&15s&00em&15e&00&16n&00&03t&00 &02G&00&01o&03r&00&02e&00~
+   &00&15As the basement gets deeper, the soft whisper of children crying waft
+around in the stale, moist, noxious air.  The sound seems to come from all
+around, then a hushed scuttling sound comes from somewhere nearby, then it
+comes from the other side of the room.  What lurks deeper down here, what
+horrid beings call this rancid hell a home?  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1573
+D1
+You see nothing special.
+~
+~
+0 -1 1569
+D3
+You see nothing special.
+~
+~
+0 -1 1567
+S
+#1569
+&00&03B&16a&00&15s&00em&15e&00&16n&00&03t&00 &02G&00&01o&03r&00&02e&00~
+   &00&15As the basement gets deeper, the soft whisper of children crying waft
+around in the stale, moist, noxious air.  The sound seems to come from all
+around, then a hushed scuttling sound comes from somewhere nearby, then it
+comes from the other side of the room.  What lurks deeper down here, what
+horrid beings call this rancid hell a home?  &00
+~
+15 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1574
+D3
+You see nothing special.
+~
+~
+0 -1 1568
+S
+#1570
+&00&03B&00&16a&00&15s&00em&15e&00&16n&00&03t&00~
+   &00&15A set of normal, but incredibly dusty stairs here lead upward at a
+slight curve, stone steps leading up to the first floor.  This part of the
+basement, looking like any kind of normal basement, pieces of clutter and
+furniture strewn about.  &00 &00&15Extra pues, knee risers, and metal foldable
+chairs are placed up neatly against the wall.  But something ominious hovers in
+the air, as if waiting for something.  &00
+~
+15 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1575
+D1
+You see nothing special.
+~
+~
+0 -1 1571
+D2
+~
+~
+0 0 1565
+S
+#1571
+&00&03B&00&16a&00&15s&00em&15e&00&16n&00&03t&00~
+   &00&15A set of normal, but incredibly dusty stairs here lead upward at a
+slight curve, stone steps leading up to the first floor.  This part of the
+basement, looking like any kind of normal basement, pieces of clutter and
+furniture strewn about.  &00 &00&15Extra pues, knee risers, and metal foldable
+chairs are placed up neatly against the wall.  But something ominious hovers in
+the air, as if waiting for something.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1576
+D1
+You see nothing special.
+~
+~
+0 -1 1572
+D2
+~
+~
+0 0 1566
+D3
+You see nothing special.
+~
+~
+0 -1 1570
+S
+#1572
+&00&04M&00&12a&00&14g&00i&14c&00&12a&00&04l &15C&00&03r&16e&00&03s&15t&00~
+   &00&15Theres a picture, seemingly wrote in &00&09blood&00&15, glowing a soft
+white here upon the floor.  Written in a demonic language, all but the well
+trained can read what is wrote upon the floor.  Maybe that book on the altar
+can decipher the words.  &00
+~
+15 4 0
+D0
+~
+~
+0 0 1577
+D1
+You see nothing special.
+~
+~
+0 -1 1573
+D2
+~
+~
+0 0 1567
+D3
+You see nothing special.
+~
+~
+0 -1 1571
+S
+#1573
+&00&03B&16a&00&15s&00em&15e&00&16n&00&03t&00 &02G&00&01o&03r&00&02e&00~
+   &00&15As the basement gets deeper, the soft whisper of children crying waft
+around in the stale, moist, noxious air.  The sound seems to come from all
+around, then a hushed scuttling sound comes from somewhere nearby, then it
+comes from the other side of the room.  What lurks deeper down here, what
+horrid beings call this rancid hell a home?  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1578
+D1
+You see nothing special.
+~
+~
+0 -1 1574
+D2
+~
+~
+0 0 1568
+D3
+You see nothing special.
+~
+~
+0 -1 1572
+S
+#1574
+&00&03B&16a&00&15s&00em&15e&00&16n&00&03t&00 &02G&00&01o&03r&00&02e&00~
+   &00&15As the basement gets deeper, the soft whisper of children crying waft
+around in the stale, moist, noxious air.  The sound seems to come from all
+around, then a hushed scuttling sound comes from somewhere nearby, then it
+comes from the other side of the room.  What lurks deeper down here, what
+horrid beings call this rancid hell a home?  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1579
+D2
+You see nothing special.
+~
+~
+0 -1 1569
+D3
+You see nothing special.
+~
+~
+0 -1 1573
+S
+#1575
+&00&03B&00&16a&00&15s&00em&15e&00&16n&00&03t&00~
+   &00&15A set of normal, but incredibly dusty stairs here lead upward at a
+slight curve, stone steps leading up to the first floor.  This part of the
+basement, looking like any kind of normal basement, pieces of clutter and
+furniture strewn about.  &00 &00&15Extra pues, knee risers, and metal foldable
+chairs are placed up neatly against the wall.  But something ominious hovers in
+the air, as if waiting for something.  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1576
+D2
+You see nothing special.
+~
+~
+0 -1 1570
+S
+#1576
+&00&03B&00&16a&00&15s&00em&15e&00&16n&00&03t&00~
+   &00&15A set of normal, but incredibly dusty stairs here lead upward at a
+slight curve, stone steps leading up to the first floor.  This part of the
+basement, looking like any kind of normal basement, pieces of clutter and
+furniture strewn about.  &00 &00&15Extra pues, knee risers, and metal foldable
+chairs are placed up neatly against the wall.  But something ominious hovers in
+the air, as if waiting for something.  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1577
+D2
+~
+~
+0 0 1571
+D3
+You see nothing special.
+~
+~
+0 -1 1575
+S
+#1577
+&00&16Middle of the&00 &03B&00&16a&00&15s&00em&15e&00&16n&00&03t&00~
+   &00&15The stone floor slowly turns into a soft, squishy surface.  A soft,
+wet flutter of air comes from the distance, like air passing out from a wet,
+loose-lipped whoopie cushion.  A deep, rasping breath seemingly comes from no
+where, nearly inaudible and just hanging in the shadows.  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1578
+D2
+~
+~
+0 0 1572
+D3
+You see nothing special.
+~
+~
+0 -1 1576
+S
+#1578
+&00&03B&16a&00&15s&00em&15e&00&16n&00&03t&00 &02G&00&01o&03r&00&02e&00~
+   &00&15As the basement gets deeper, the soft whisper of children crying waft
+around in the stale, moist, noxious air.  The sound seems to come from all
+around, then a hushed scuttling sound comes from somewhere nearby, then it
+comes from the other side of the room.  What lurks deeper down here, what
+horrid beings call this rancid hell a home?  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1579
+D2
+~
+~
+0 0 1573
+D3
+You see nothing special.
+~
+~
+0 -1 1577
+S
+#1579
+&00&02G&00&01o&03r&00&02e &16Covered&00 &03S&16t&00&15ai&00&16r&00&03s&00~
+   &00&15As the basement gets deeper, the soft whisper of children crying waft
+around in the stale, moist, noxious air.  The sound seems to come from all
+around, then a hushed scuttling sound comes from somewhere nearby, then it
+comes from the other side of the room.  &00 &00&15What lurks deeper down here,
+what horrid beings call this rancid hell a home?  Here rest a series of steps.
+Actually, more like a slide made of sinew, flesh, and slick blood that somehow
+draped over the original stone steps.  &00
+~
+15 4 0
+D2
+~
+~
+0 0 1574
+D3
+You see nothing special.
+~
+~
+0 -1 1578
+D5
+You see nothing special.
+~
+~
+0 -1 1580
+S
+#1580
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 1585
+D1
+You see nothing special.
+~
+~
+0 -1 1581
+S
+#1581
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D1
+~
+~
+0 0 1582
+D3
+You see nothing special.
+~
+~
+0 -1 1580
+S
+#1582
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1583
+D3
+You see nothing special.
+~
+~
+0 -1 1581
+S
+#1583
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1588
+D1
+You see nothing special.
+~
+~
+0 -1 1584
+D3
+You see nothing special.
+~
+~
+0 -1 1582
+S
+#1584
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1589
+D3
+You see nothing special.
+~
+~
+0 -1 1583
+S
+#1585
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1590
+D1
+~
+~
+0 0 1586
+D2
+~
+~
+0 0 1580
+S
+#1586
+&00&01D&00&09e&00&16m&00&09o&00&01n&00&16s&00 G&15at&00e&00~
+   &00&15Here rests two thick pillars, reaching to the ceiling.  It is made of
+bone, held together by sinew, strands of leather made from human flesh,
+intestines, and muscle fibers.  It nearly pulsates in the dimness of the area,
+a reddish light eminating from the skulls placed within the pillar.  &00
+&00&15Beyond the gate lies something in the floor, where the light for the
+entire basement come from.  &00
+~
+15 536870912 0
+D1
+~
+~
+0 0 1587
+S
+#1587
+&00&06P&00&14o&00rt&14a&00&06l&00 &16to&00 &01H&16e&00&15l&00l&00~
+Nothing.
+~
+15 0 0
+S
+#1588
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1593
+D1
+You see nothing special.
+~
+~
+0 -1 1589
+D2
+~
+~
+0 0 1583
+S
+#1589
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D0
+~
+~
+0 0 1594
+D2
+~
+~
+0 0 1584
+D3
+You see nothing special.
+~
+~
+0 -1 1588
+S
+#1590
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1591
+D2
+You see nothing special.
+~
+~
+0 -1 1585
+S
+#1591
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1592
+D3
+You see nothing special.
+~
+~
+0 -1 1590
+S
+#1592
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1593
+D3
+You see nothing special.
+~
+~
+0 -1 1591
+S
+#1593
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 1594
+D2
+~
+~
+0 0 1588
+D3
+You see nothing special.
+~
+~
+0 -1 1592
+S
+#1594
+&00&01H&16e&00&15l&00l H&00&15o&00&16l&00&01e&00~
+   &00&15A nauseating hellish area composed mostly of rancid flesh, human
+organs, and intestines.  Very rarely is there seen a chunk of the original
+stone floor.  Entire body parts, arms, legs, even heads and torso's, hang from
+the ceiling by chains and hooks.  &00 &00&15There is one poor soul, his lower
+half gone, his organs nearly hanging to the floor, hanging on to life by a
+strand.  He looks around with painfilled, mindless eyes, hoping for someone to
+end its misery.  &00
+~
+15 0 0
+D2
+~
+~
+0 0 1589
+D3
+You see nothing special.
+~
+~
+0 -1 1593
+S
+#1595
+Under Construction~
+You are in an unfinished room.
+~
+15 0 0
+S
+#1596
+Under Construction~
+You are in an unfinished room.
+~
+15 0 0
+S
+#1597
+Under Construction~
+You are in an unfinished room.
+~
+15 0 0
+S
+#1598
+Under Construction~
+You are in an unfinished room.
+~
+15 0 0
+S
+#1599
+Under Construction~
+You are in an unfinished room.
+~
+15 0 0
+S
+$~

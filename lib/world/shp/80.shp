@@ -1,0 +1,39 @@
+CircleMUD v3.0 Shop File~
+#8084~
+8000
+8001
+8002
+8003
+8004
+8005
+8006
+8007
+8008
+8009
+8010
+8011
+8012
+8013
+8014
+-1
+1.00
+0.25
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+8003
+0
+8084
+-1
+0
+28
+0
+0
+$~

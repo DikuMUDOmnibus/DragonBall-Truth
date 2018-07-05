@@ -1,0 +1,264 @@
+#3100
+Forever Calm Clerk~
+&16F&00&03o&11r&15e&11v&00&03e&16r &14C&00&06al&14m &12Clerk&00~
+&15The &16F&00&03o&11r&15e&11v&00&03e&16r &14C&00&06al&14m &12Clerk &15is standing here.&00
+~
+   &15Just an average west city citizen, running this shop.  &00
+~
+10 0 0 E
+10000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3101
+Grumpy Shopkeeper~
+&16G&15r&00&07u&16m&00&03p&11y &16Shopkeeper&00~
+&15A &16G&15r&00&07u&16m&00&03p&11y &16Shopkeeper &15sits here.&00
+~
+   &15This shopkeeper is not very happy.  &00
+~
+10 0 0 E
+100000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3102
+Megaman~
+&14M&00&06e&12g&00&04a&12m&00&06a&14n&00~
+&14M&00&06e&12g&00&04a&12m&00&06a&14n &15is standing here eating an energy pellet.&00
+~
+   &15Megaman has retired from kicking robot ass, and now runs this shop.  &00
+~
+10 0 0 E
+1000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 96
+#3103
+Zombie Clerk~
+&10Z&00&02o&00&06m&16b&00&02i&10e &12Clerk&00~
+&15The &10Z&00&02o&00&06m&16b&00&02i&10e &12Clerk &15is standing here.&00
+~
+   &15This clerk would be almost comical if it wasn't chewing on someone's leg
+right now....  &00
+~
+10 0 0 E
+1000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3104
+Sneaky Shopkeep~
+&16S&15n&00&07e&16a&15k&00&07y &12Shopkeep&00~
+&15A &16S&15n&00&07e&16a&15k&00&07y &12Shopkeep &15is standing here.&00
+~
+&15This shopkeep looks like he was ripped right out of a Rogue's R Us catalog.&00
+~
+10 0 0 E
+2000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3105
+Joe the stoner~
+&11J&00&03o&16e &15The &10S&00&02t&16o&00&05n&13er&00~
+&11J&00&03o&16e &15The &10S&00&02t&16o&00&05n&13er &15is smoking a bowl here.&00
+~
+&15Man this dude probably wouldn't notice or care if you ran off with his merchandise, he is that stoned.&00
+~
+10 0 0 E
+1000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3107
+Holo Machine~
+&11H&00&03o&16l&11o &14Machine&00~
+&15A &11H&00&03o&16l&11o &14Machine &15is humming quietly here.&00
+~
+&15This machine looks quite advanced.&00
+~
+10 0 0 E
+900000 -180 0 1d1+1000000000 1d1+500000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3700
+T 3701
+#3108
+Holo Buu~
+&11H&00&03o&16l&00&03o &13B&00&05u&16u&00~
+&15A &11H&00&03o&16l&00&03o &13B&00&05u&16u &15is grinning wickedly here.&00
+~
+&15This holo isn't as strong as the real Buu, but it s pretty tough.&00
+~
+42 0 0 E
+200000 -60 0 1d1+8000000 1d1+70000
+0 10000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3109
+Drunken Bum~
+&16D&15r&00&03u&16n&15k&00&07e&16n &00&03B&00&02u&00&03m&00~
+&15A &16D&15r&00&03u&16n&15k&00&07e&16n &00&03B&00&02u&00&03m &15wanders here.&00
+~
+&15This man is down on his luck, and is drinking himself sane.&00
+~
+8 0 0 E
+1000 0 0 1d1+300 1d1+45
+50 22000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3110
+Teenage Girl~
+&16T&15e&00&07ena&15g&16e &13Girl&00~
+&15A &16T&15e&00&07ena&15g&16e &13Girl &15is hanging out here.&00
+~
+&15This girl seems to be on her way to or from the mall.&00
+~
+8 0 0 E
+1000 0 0 1d1+280 1d1+45
+110 19000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3111
+Business Man~
+&16B&15u&00&07s&16i&15n&00&07e&15s&16s &12Man&00~
+&15A &16B&15u&00&07s&16i&15n&00&07e&15s&16s &12Man &15is late for something here.&00
+~
+&15This man seems to be late for something.&00
+~
+8 0 0 E
+1000 0 0 1d1+290 1d1+45
+500 21000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3112
+Old Lady~
+&00&03O&16l&15d &13Lady&00~
+&15An &00&03O&16l&15d &13Lady &15is walking slowly here.&00
+~
+&15On her way to bingo or something probably.&00
+~
+8 0 0 E
+1000 0 0 1d1+200 1d1+35
+200 11000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3113
+Police Officer~
+&12P&00&04o&16li&00&04c&12e &16Officer&00~
+&15A &12P&00&04o&16li&00&04c&12e &16Officer &15is walking his beat here.&00
+~
+&15This is a new police officer, and is actually interested in helping people.&00
+~
+8 0 0 E
+1000 -10 0 1d1+500 1d1+45
+200 50000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3114
+Female Tourist~
+&13Female &11T&00&03o&16uri&00&03s&11t&00~
+&15A &13Female &11T&00&03o&16uri&00&03s&11t &15is taking pictures here.&00
+~
+&15An annoying tourist from Nexus City, mucking up the scenary in West City.&00
+~
+8 0 0 E
+1000 0 0 1d1+300 1d1+45
+105 23000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3115
+Male Tourist~
+&12Male &11T&00&03o&16uri&00&03s&11t&00~
+&15A &12Male &11T&00&03o&16uri&00&03s&11t &15is looking at a map here.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+1000 0 0 1d1+320 1d1+45
+105 25000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3116
+Grumpy Shopkeeper~
+&00&16G&00&15r&00um&15p&00&16y &15Shopkeeper&00~
+&00&15The &00&16G&00&15r&00um&15p&00&16y &15Shopkeeper&00&15 stands here mumbling something to himself.&00
+~
+   &00&16The &00&16G&00&15r&00um&15p&00&16y &15Shopkeeper&00&16 is wearing
+tattered clothing that appears to be moth eaten.  His face droops due to the
+large wrinkles that appear on his face.  &00
+~
+10 0 0 E
+1000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

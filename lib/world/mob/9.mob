@@ -1,0 +1,189 @@
+#900
+Cyber Puppy~
+&00&05C&00&07yb&15e&00&05r P&15u&00&07&00&05p&00&07p&00&05y&00~
+&00&15A &00&05C&00&07yb&15e&00&05r P&15u&00&07&00&05p&00&07p&00&05y &15sits here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+6 6 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#903
+Holo Rush~
+&00&09H&00&01o&16l&09o &00&07R&15us&00&07h&00~
+&00&09H&00&01o&16l&09o &00&07R&15us&00&07h &15stands here&00
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -60 0 1d1+20000000 1d1+125000
+12000 15000000
+8 8 1
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#926
+Yamaneko~
+Yamaneko~
+Yamaneko is standing here with a smile on his face.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 926
+#932
+Stoned Hippie~
+&16S&00&07to&15n&00&07e&16d &10H&00i&00&06p&14p&11i&00&03e&00~
+&16S&00&07to&15n&00&07e&16d &10H&00i&00&06p&14p&11i&00&03e&00 &15stands here dazed at it's surroundings.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+6000000 1d1+70000
+800 5000000
+8 8 1
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#933
+Drunken Hippie~
+&11D&00&03ru&16nk&00&03e&11n &10H&00i&00&06p&14p&11i&00&03e&00~
+&00&11D&00&03ru&16nk&00&03e&11n &10H&00i&00&06p&14p&11i&00&03e&00 &15is staggering around here stupidly.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+7000000 1d1+70000
+850 6000000
+8 8 1
+BareHandAttack: 9
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#937
+kuvoc greeter~
+&00&09K&00&01u&16v&00&01o&09c &13The Greeter&00~
+&09K&00&01u&16v&00&01o&09c &13The Greeter stands here.
+~
+&09K&00&01u&16v&00&01o&09c &13The Greeter stands here waiting to serve you
+&00
+~
+74 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 937
+#957
+Iovan's Holograms~
+&00&16I&00&15o&00v&15a&00&16n&00&11'&00&15s &00H&00&15o&00&16l&00&14o&00&06g&00&14r&00&16a&00&15m&00s~
+&00&16I&00&15o&00v&15a&00&16n&00&11'&00&15s &00H&00&15o&00&16l&00&14o&00&06g&00&14r&00&16a&00&15m&00s &15stand ready in fighting position, prepared to train.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+315000 1d1+30000
+600 1750000
+8 8 1
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#971
+Alajandhra~
+&00&14A&00&16l&00&06a&00&15j&00a&00&12n&00&15d&00&15h&00&06r&00&14a&00~
+&00&14A&00&16l&00&06a&00&15j&00a&00&12n&00&15d&00&15h&00&06r&00&14a&00 &15stands here awaiting orders from her master.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#972
+Dante~
+&00&01D&00&16a&00&00n&00&15t&00&09e&00~
+&00&01D&00&16a&00&00n&00&15t&00&09e&00 &15stand here with &00&11R&00&03e&00&15b&00e&00&16l&00&11l&00i&00&03o&00&11n&00&15 over his shoulder ready to unleash his devil inside, on you.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+30000000 1d1+150000
+2000 25000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#974
+Fly of Reckoning~
+&00&02F&00&15l&00&02y &00of &00&09R&00e&00&16c&00&01k&00&09o&00&15n&00&01i&00&16n&00&09g&00~
+&00&02F&00&15l&00&02y &00of &00&09R&00e&00&16c&00&01k&00&09o&00&15n&00&01i&00&16n&00&09g&00 &15buzzes about trying to gather the blood of their fallen lord Baalzebub.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+15000000 1d1+125000
+1200 20000000
+8 8 0
+BareHandAttack: 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#986
+Valkyrie Spectre~
+&13V&00&05a&16l&15k&00&07y&00&05r&13i&16e &14S&00&06p&15e&00&07c&15t&00&06r&14e&00~
+&15A &13V&00&05a&16l&15k&00&07y&00&05r&13i&16e &14S&00&06p&15e&00&07c&15t&00&06r&14e&00 &15floats around here.&00
+~
+   The spirit of a female warrior is a translucent blue with a dark pool of
+anger floating in its chest, ready to murder all who walk the forgotten halls.
+  
+~
+8 0 0 E
+125000 -80 0 1d1+10000000 1d1+125000
+1200 10000000
+8 8 2
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

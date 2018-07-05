@@ -1,0 +1,97 @@
+From: Katzlberger Thomas <cat@vuse.vanderbilt.edu>
+Subject: Re: [Circle] [OLDBIE] [CODE] Running Under Win95
+
+Well here is a little, tiny argument against windows:
+Please replace/remove the C++ stuff yourself.
+
+ACMD(do_playerlog)
+{
+
+FILE* f;
+
+
+/*
+
+ * This code just works on systems with the egrep command (UNIX)
+
+ * It might be a security risk if you can't trust your gods (in
+         * theory)
+
+ * It produces a slight lag of the MUD when executed depending
+
+ * on the size of the files in the log directory and the speed of
+
+ * your computer. This command is helpful to immediately verify
+
+ * if a DTrapped player who wants reimbursement
+
+ */
+
+
+if (!*argument)
+
+{
+
+
+send_to_char("Need playername.",ch);
+
+
+return;
+
+}
+
+
+sprintf(buf,"egrep '%s' ../syslog > playercheck ; egrep '%s' =../log/* >> playe
+rcheck",
+
+        argument, argument);
+
+system(buf);
+
+
+f = fopen("playercheck","r");
+
+fread(buf, MAX_STRING_LENGTH-5,1,f);
+
+buf[MAX(0,ftell(f))]=0;
+
+fclose(f);
+
+
+page_string(ch->getDescriptor(), buf, 1);
+}
+
+This command is very useful to allow gods to read the
+bug and typo files:
+
+ACMD(do_sysfile)
+{
+
+FILE* f;
+
+char* cp;
+
+
+if(*(argument+1)=='b') cp="misc/bugs";
+
+else if(*(argument+1)=='t') cp="misc/typos";
+
+else if(*(argument+1)=='i') cp="misc/ideas";
+
+else return;
+
+
+f = fopen(cp,"r");
+
+fread(buf, MAX_STRING_LENGTH-5,1,f);
+
+buf[MAX(0,ftell(f))]=0;
+
+fclose(f);
+
+
+buf[MAX_STRING_LENGTH-1]=0;
+
+page_string(ch->getDescriptor(), buf, 1);
+}
+

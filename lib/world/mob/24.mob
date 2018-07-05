@@ -1,0 +1,27 @@
+#2400
+Emerald Dragon~
+&00&06E&00&02m&10e&00&07r&10a&00&02l&00&06d &16D&15r&00&07ag&15o&16n&00~
+&15The &00&06E&00&02m&10e&00&07r&10a&00&02l&00&06d &16D&15r&00&07ag&15o&16n &15is spewing blue flames here!&00
+~
+&15This dragon has your name written all over it.&00
+~
+200762 1160 0 E
+999999 -180 0 0d0+1000000000 127d127+500000
+150000 100000000
+8 8 0
+E
+T 2400
+#2401
+Emerald Wyvern~
+&00&06E&00&02m&10e&00&07r&10a&00&02l&00&06d &16W&15y&00&07ve&15r&16n&00~
+&15A &00&06E&00&02m&10e&00&07r&10a&00&02l&00&06d &16W&15y&00&07ve&15r&16n &15is here guarding it's master.&00
+~
+&15This Wyvern will die to defend the dragon!&00
+~
+4154 0 0 E
+999999 -100 0 0d0+80000000 0d0+250000
+10000 50000000
+8 8 0
+E
+T 2401
+$

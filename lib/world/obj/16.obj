@@ -1,0 +1,111 @@
+#1600
+red bandana~
+a &09red&09&00 bandana~
+A &09red&09&00 bandana is lying on the ground here.~
+~
+9 0 17
+0 0 0 0
+1 0 0
+A
+18 15
+A
+5 2
+A
+2 2
+A
+19 15
+#1601
+pointy shoes~
+pointy shoes~
+Some pointy shoes lie here.~
+~
+9 0 65
+10 0 0 0
+0 0 0
+A
+19 10
+A
+18 13
+A
+1 4
+#1607
+tabernacle~
+tabernacle~
+&16A &11T&00&07a&11b&00&02e&16rn&00&02a&11c&00&07l&11e&16 of the temple lies here.&00~
+   &16A &11T&00&07a&11b&00&02e&16rn&00&02a&11c&00&07l&11e&16 of the temple lies
+here.  &00
+~
+16 1 0
+0 0 0 0
+2147483647 0 0
+E
+tabernacle~
+   &11A faint glow covers over the tarbernacle incsriptions.  Reading it
+says,"For he whom searches shall find.  For the one with power shall come to
+give calm thy soul.  Say thy name&00&01 Ravanos&11 and i shalt deliver.  "&00
+~
+#1608
+Staff of the Ancients~
+&11S&00&03t&16a&00&03f&11f&16 of &00&03t&16h&00&03e &14A&00&07n&12c&16ie&12n&00&07t&14s&00~
+&16A strange staff lies here with a raditating yellow glow.&00~
+   &03This is said to be the staff created by the very first supreme kai.  The
+staff is also said to have the power to raise the dead and fully return the
+soul of the dead to its body.  It is made of a strange metal know as zet stone.
+&00
+~
+5 0 8193
+0 0 0 0
+0 0 0
+#1615
+Ancient red flame pendant~
+&14A&00&07n&12c&16i&12e&00&07n&14t &09R&00&01e&09d&00&01 Flame&15 Pe&16nda&15nt&00~
+&16A strange glowing pendant lies here.&00~
+   &09A strange red flame.  It is said to have been forged by the ancients
+using the firey red blood from the daemon.  &00
+~
+11 0 5
+0 0 0 0
+0 0 0
+#1635
+Ancient blue flame pendant~
+&14A&00&07n&12c&16i&12e&00&07n&14t &12B&00&07l&14u&12e&14 Flame&15 Pe&16nda&15nt&00~
+&16A strange glowing pendant lies here.&00~
+   &12A strange blue flame.  It is said to have been forged by the ancients
+using the rare blue lava from the great moutains of Aether.  &00
+~
+11 0 5
+0 0 0 0
+0 0 0
+#1636
+Ring of Daemon~
+&16R&00in&16g of &09D&16a&00&01em&16o&09n&00~
+&16A strange r&00in&16g glowing black lies here.&00~
+   &16The ring of power glows a faint black.  Strange inscription are engraved
+around the center of a black stone on the ring.  &00
+~
+11 0 3
+0 0 0 0
+0 4000000 4000000
+A
+5 1
+A
+4 3
+A
+2 4
+A
+18 40
+A
+19 40
+A
+6 4
+#1637
+Ancient soul orb Belt~
+&14A&00&07n&12c&16i&12e&00&07n&14t &16Soul&15 Orb &14B&00&07e&16l&14t&00~
+&16A strange belt lies here with a glowing buckle.&00~
+   &16A belt with an orb filled with the souls of the ancient kaio guardians of
+the past as the buckle.  Cries for freedom whisper from within the orb.  &00
+~
+11 0 2049
+0 0 0 0
+0 0 0
+$~

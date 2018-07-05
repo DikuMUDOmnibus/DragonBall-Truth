@@ -1,0 +1,1452 @@
+#2000
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &11S&00&03outh &16T&15ip&00~
+   &15This is the southern end of the platform that serves as Kami's Lookout.
+The ivory surface glows under the radiant sun as the trees gently sway in the
+wind.  A series of paths extend across the lookout, the central path leading
+north to a large structure.  Here resides Kami, the Guardian of Earth.  &00
+~
+20 0 0
+D0
+~
+~
+0 0 2001
+D2
+You see nothing special.
+~
+~
+0 -1 330
+S
+#2001
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &11S&00&03outh &16S&15ector&00~
+   &15This is the southern area of the platform that serves as Kami's Lookout.
+The ivory surface glows under the radiant sun as the trees gently sway in the
+wind.  A series of paths extend across the lookout, the central path leading
+north to a large structure.  &00
+~
+20 0 0
+D0
+~
+~
+0 0 2004
+D1
+~
+~
+0 0 2003
+D2
+~
+~
+0 0 2000
+D3
+~
+~
+0 0 2002
+S
+#2002
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &00&03Southwest &16T&15ip&00~
+   &15This is the area reaching to the south and west of the platform that
+serves as Kami's Lookout.  The ivory surface glows under the radiant sun as the
+trees gently sway in the wind.  A series of paths extend across the lookout,
+stretching across the outer edge.  &00
+~
+20 0 0
+D0
+~
+~
+0 0 2005
+D1
+~
+~
+0 0 2001
+S
+#2003
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &00&03Southeast &16T&15ip&00~
+   &15This is the area reaching to the south and east of the platform that
+serves as Kami's Lookout.  The ivory surface glows under the radiant sun as the
+trees gently sway in the wind.  A series of paths extend across the lookout,
+stretching across the outer edge.  &00
+~
+20 0 0
+D0
+~
+~
+0 0 2007
+D3
+~
+~
+0 0 2001
+S
+#2004
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &16C&00&07e&15nt&00&07e&16r&00~
+   &15Here is the center of the floating Guardian platform, all paths
+converging on this point.  The plants encircle this spot, surrounding it in
+rich life.  The path leading directly north stops at the door of a large manor
+belonging to the Guardian Kami.  &00
+~
+20 0 0
+D0
+Nothing.
+~
+~
+0 0 2011
+D1
+~
+~
+0 0 2007
+D2
+~
+~
+0 0 2001
+D3
+~
+~
+0 0 2005
+S
+#2005
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &09W&00&01est &16S&15ector&00~
+   &15This is the western area of the platform that serves as Kami's Lookout.
+The ivory surface glows under the radiant sun as the trees gently sway in the
+wind.  A series of paths extend across the lookout, stretching across its
+bredth.  &00
+~
+20 0 0
+D0
+~
+~
+0 0 2009
+D1
+~
+~
+0 0 2004
+D2
+~
+~
+0 0 2002
+D3
+~
+~
+0 0 2006
+S
+#2006
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &09W&00&01est &16T&15ip&00~
+   &15This is the western end of the platform that serves as Kami's Lookout.  
+The ivory surface glows under the radiant sun as the trees gently sway in the
+wind.  A series of paths extend across the lookout, one such path leading to
+the north and east to a large manor.  Here resides Kami, the Guardian of Earth.
+~
+20 0 0
+D1
+~
+~
+0 0 2005
+S
+#2007
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &12E&00&04ast &16S&15ector&00~
+   &15This is the eastern area of the platform that serves as Kami's Lookout.
+The ivory surface glows under the radiant sun as the trees gently sway in the
+wind.  A series of paths extend across the lookout, stretching across its
+bredth.  &00
+~
+20 0 0
+D0
+~
+~
+0 0 2010
+D1
+Nothing.
+~
+~
+0 0 2008
+D2
+~
+~
+0 0 2003
+D3
+~
+~
+0 0 2004
+S
+#2008
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &12E&00&04ast &16T&15ip&00~
+   &15This is the eastern end of the platform that serves as Kami's Lookout.  
+The ivory surface glows under the radiant sun as the trees gently sway in the
+wind.  A series of paths extend across the lookout, one such path leading to
+the north and west to a large manor.  Here resides Kami, the Guardian of Earth.
+~
+20 8192 0
+D3
+~
+~
+0 0 2007
+S
+#2009
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &00&02Northwest &16T&15ip&00~
+   &15This is the area reaching to the north and west of the platform that
+serves as Kami's Lookout.  The ivory surface glows under the radiant sun as the
+trees gently sway in the wind.  A series of paths extend across the lookout,
+stretching across the outer edge.  &00
+~
+20 0 0
+D1
+~
+~
+0 0 2011
+D2
+~
+~
+0 0 2005
+S
+#2010
+&10K&00&02am&10i's L&16o&15oko&16u&10t&15 - &00&02Northeast &16T&15ip&00~
+   &15This is the area reaching to the north and east of the platform that
+serves as Kami's Lookout.  The ivory surface glows under the radiant sun as the
+trees gently sway in the wind.  A series of paths extend across the lookout,
+stretching across the outer edge.  &00
+~
+20 0 0
+D2
+~
+~
+0 0 2007
+D3
+~
+~
+0 0 2011
+S
+#2011
+&16Doorway &15of &10K&00&02am&10i's H&16o&15u&16s&10e&00~
+   &15A giant manor looms above the platform, its intricate designs giving it
+the look of a true palace.  A large set of stairs stretch up, ending at the
+bottom of a set of large doors.  Behind these doors resides Kami, his manor
+full of many mysteries and mythic treasures.  &00
+~
+20 8 0
+D0
+Nothing.
+~
+Doorway~
+1 0 2020
+D1
+~
+~
+0 0 2010
+D2
+~
+~
+0 0 2004
+D3
+~
+~
+0 0 2009
+S
+#2012
+&15Mondane's House~
+This house is amazing.  It has anything you would ever need to train along with 
+anything you would find in a regular house.  The shelves are stocked with fighting
+trophies and plaques from various tournaments.
+~
+20 16853512 0
+D0
+~
+~
+0 0 2013
+D3
+~
+~
+0 0 -1
+S
+#2013
+&15The Living Quarters~
+You are in a large living quarters with state of the art tracking equipment.  It
+looks like it maybe from the military but the equipment is way too advanced.  
+There is a large blue healing chamber in the left corner and a fighting room to the
+east.
+~
+20 67183112 0
+D1
+~
+~
+0 0 2014
+D2
+Nothing.
+~
+~
+0 0 2012
+S
+#2014
+&15Training Room&00~
+You are in a large room with a few obstacles.  This looks like a battle room at 
+first glance but upon looking more it looks like something much more advanced.
+~
+20 134554120 0
+D3
+~
+~
+0 0 2013
+S
+#2015
+Tournament of Champions~
+You are standing in an arena on a muddy mountain.  This must be the edge of the 
+earth where Kami grew up.  Cracked Craters surround it with scars of past battles.
+The ground is stained with blood from fighters of the past.
+~
+20 1073741824 5
+D3
+~
+~
+0 0 1323
+S
+#2016
+An unfinished room~
+You are in an unfinished room.
+~
+20 0 0
+S
+#2017
+Trinks' Locker~
+Your in a Locker =)
+~
+20 8456712 0
+D2
+~
+~
+0 0 2316
+S
+#2018
+An unfinished room~
+You are in an unfinished room.
+~
+20 0 0
+S
+#2019
+&15R&00&07oo&15m of &12S&15p&16a&15c&12e&16 and T&00&07im&16e&00~
+   &16This room is one of the most treasured secrets of the Guardian of Earth,
+the very walls radiating a sense of mystical power.  The energy in this room is
+harnessed and channeled in order to bring forth opponents from all across the
+boundaries of time and space.  &00
+~
+20 0 0
+D5
+You see nothing special.
+~
+Flux~
+1 -1 2020
+S
+#2020
+&10K&00&02am&10i's H&16o&15u&16s&10e&00~
+   &15The manor's interior is furnished just as extravagently as the exterior
+appears.  The pictures repeated throughout the manor hint at the deep mystery
+that is the history of this planet.  In the center of the room a large door is
+set into the floor, its edges firmly sealed with a pulsing force, designed only
+to be opened by the Guardian of Earth.  &00
+~
+20 20 0
+D0
+You see nothing special.
+~
+~
+0 -1 8573
+D2
+~
+Doorway~
+1 0 2011
+D4
+Nothing.
+~
+flux~
+2 2020 2019
+D5
+~
+seal~
+1 2020 2021
+S
+#2021
+&00&06H&16yperboli&00&06c &16N&15exu&16s&00~
+   &15This strange area is the nexus of the great Hyperbolic Time Chamber.  
+The air wavers from the stress of the peculiar physics occuring at the point
+where Time and Space meet.  Such distortions occuring at points of space-time
+stress have the ability to gain a type of conciousness, providing them with a
+hunger for battle.  &00
+~
+20 134217736 0
+D0
+
+~
+~
+0 0 2022
+D4
+~
+seal~
+1 0 2020
+S
+#2022
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2029
+D1
+~
+~
+0 0 2025
+D2
+~
+Door~
+1 0 2021
+D3
+~
+~
+0 0 2023
+S
+#2023
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2028
+D1
+~
+~
+0 0 2022
+D3
+~
+~
+0 0 2024
+S
+#2024
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2027
+D1
+~
+~
+0 0 2023
+D3
+You see nothing special.
+~
+~
+0 -1 2040
+S
+#2025
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2030
+D1
+~
+~
+0 0 2026
+D3
+~
+~
+0 0 2022
+S
+#2026
+&00&06H&16yperobli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2031
+D1
+You see nothing special.
+~
+~
+0 -1 2039
+D3
+~
+~
+0 0 2025
+S
+#2027
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2032
+D1
+~
+~
+0 0 2028
+D2
+~
+~
+0 0 2024
+D3
+You see nothing special.
+~
+~
+0 -1 2041
+S
+#2028
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2033
+D1
+~
+~
+0 0 2029
+D2
+~
+~
+0 0 2023
+D3
+~
+~
+0 0 2027
+S
+#2029
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2034
+D1
+~
+~
+0 0 2030
+D2
+~
+~
+0 0 2022
+D3
+~
+~
+0 0 2028
+S
+#2030
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2035
+D1
+~
+~
+0 0 2031
+D2
+~
+~
+0 0 2025
+D3
+~
+~
+0 0 2029
+S
+#2031
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+~
+~
+0 0 2036
+D1
+You see nothing special.
+~
+~
+0 -1 2038
+D2
+~
+~
+0 0 2026
+D3
+~
+~
+0 0 2030
+S
+#2032
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+You see nothing special.
+~
+~
+0 -1 2044
+D1
+Nothing.
+~
+~
+0 0 2033
+D2
+~
+~
+0 0 2027
+D3
+You see nothing special.
+~
+~
+0 -1 2042
+S
+#2033
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+You see nothing special.
+~
+~
+0 -1 2045
+D1
+~
+~
+0 0 2034
+D2
+~
+~
+0 0 2028
+D3
+~
+~
+0 0 2032
+S
+#2034
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777224 0
+D0
+You see nothing special.
+~
+~
+0 -1 2046
+D1
+~
+~
+0 0 2035
+D2
+~
+~
+0 0 2029
+D3
+~
+~
+0 0 2033
+S
+#2035
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+You see nothing special.
+~
+~
+0 -1 2051
+D1
+~
+~
+0 0 2036
+D2
+~
+~
+0 0 2030
+D3
+~
+~
+0 0 2034
+S
+#2036
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 16777352 0
+D0
+You see nothing special.
+~
+~
+0 -1 2052
+D1
+You see nothing special.
+~
+~
+0 -1 2037
+D2
+~
+~
+0 0 2031
+D3
+~
+~
+0 0 2035
+S
+#2037
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2064
+D2
+You see nothing special.
+~
+~
+0 -1 2038
+D3
+You see nothing special.
+~
+~
+0 -1 2036
+S
+#2038
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2037
+D2
+You see nothing special.
+~
+~
+0 -1 2039
+D3
+You see nothing special.
+~
+~
+0 -1 2031
+S
+#2039
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2038
+D3
+You see nothing special.
+~
+~
+0 -1 2026
+S
+#2040
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 33634816 0
+D0
+You see nothing special.
+~
+~
+0 -1 2041
+D1
+You see nothing special.
+~
+~
+0 -1 2024
+S
+#2041
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 73736 0
+D0
+You see nothing special.
+~
+~
+0 -1 2042
+D1
+You see nothing special.
+~
+~
+0 -1 2027
+D2
+You see nothing special.
+~
+~
+0 -1 2040
+D3
+~
+~
+0 0 -1
+S
+#2042
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 1107369984 0
+D0
+You see nothing special.
+~
+~
+0 -1 2043
+D1
+You see nothing special.
+~
+~
+0 -1 2032
+D2
+You see nothing special.
+~
+~
+0 -1 2041
+S
+#2043
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2050
+D1
+You see nothing special.
+~
+~
+0 -1 2044
+D2
+You see nothing special.
+~
+~
+0 -1 2042
+S
+#2044
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2049
+D1
+You see nothing special.
+~
+~
+0 -1 2045
+D2
+You see nothing special.
+~
+~
+0 -1 2032
+D3
+You see nothing special.
+~
+~
+0 -1 2043
+S
+#2045
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2048
+D1
+You see nothing special.
+~
+~
+0 -1 2046
+D2
+You see nothing special.
+~
+~
+0 -1 2033
+D3
+You see nothing special.
+~
+~
+0 -1 2044
+S
+#2046
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2047
+D1
+You see nothing special.
+~
+~
+0 -1 2051
+D2
+You see nothing special.
+~
+~
+0 -1 2034
+D3
+You see nothing special.
+~
+~
+0 -1 2045
+S
+#2047
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2059
+D1
+You see nothing special.
+~
+~
+0 -1 2054
+D2
+You see nothing special.
+~
+~
+0 -1 2046
+D3
+You see nothing special.
+~
+~
+0 -1 2048
+S
+#2048
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2058
+D1
+You see nothing special.
+~
+~
+0 -1 2047
+D2
+You see nothing special.
+~
+~
+0 -1 2045
+D3
+You see nothing special.
+~
+~
+0 -1 2049
+S
+#2049
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2057
+D1
+You see nothing special.
+~
+~
+0 -1 2048
+D2
+You see nothing special.
+~
+~
+0 -1 2044
+D3
+You see nothing special.
+~
+~
+0 -1 2050
+S
+#2050
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2056
+D1
+You see nothing special.
+~
+~
+0 -1 2049
+D2
+You see nothing special.
+~
+~
+0 -1 2043
+S
+#2051
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2054
+D1
+You see nothing special.
+~
+~
+0 -1 2052
+D2
+You see nothing special.
+~
+~
+0 -1 2035
+D3
+You see nothing special.
+~
+~
+0 -1 2046
+S
+#2052
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2055
+D1
+You see nothing special.
+~
+~
+0 -1 2064
+D2
+You see nothing special.
+~
+~
+0 -1 2036
+D3
+You see nothing special.
+~
+~
+0 -1 2051
+S
+#2053
+HBTC~
+You are in an unfinished room.
+~
+20 0 0
+S
+#2054
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2060
+D1
+You see nothing special.
+~
+~
+0 -1 2055
+D2
+You see nothing special.
+~
+~
+0 -1 2051
+D3
+You see nothing special.
+~
+~
+0 -1 2047
+S
+#2055
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2061
+D1
+You see nothing special.
+~
+~
+0 -1 2063
+D2
+You see nothing special.
+~
+~
+0 -1 2052
+D3
+You see nothing special.
+~
+~
+0 -1 2054
+S
+#2056
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 2057
+D2
+You see nothing special.
+~
+~
+0 -1 2050
+S
+#2057
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2058
+D2
+You see nothing special.
+~
+~
+0 -1 2049
+D3
+You see nothing special.
+~
+~
+0 -1 2056
+S
+#2058
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2059
+D2
+You see nothing special.
+~
+~
+0 -1 2048
+D3
+You see nothing special.
+~
+~
+0 -1 2057
+S
+#2059
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2060
+D2
+You see nothing special.
+~
+~
+0 -1 2047
+D3
+You see nothing special.
+~
+~
+0 -1 2058
+S
+#2060
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2061
+D2
+You see nothing special.
+~
+~
+0 -1 2054
+D3
+You see nothing special.
+~
+~
+0 -1 2059
+S
+#2061
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2062
+D2
+You see nothing special.
+~
+~
+0 -1 2055
+D3
+You see nothing special.
+~
+~
+0 -1 2060
+S
+#2062
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 2063
+D3
+You see nothing special.
+~
+~
+0 -1 2061
+S
+#2063
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2062
+D2
+You see nothing special.
+~
+~
+0 -1 2064
+D3
+You see nothing special.
+~
+~
+0 -1 2055
+S
+#2064
+&00&06H&16yperboli&00&06c &16T&00&07im&16e Chamber&00~
+   &15The air wavers from the stress of the peculiar physics occuring from
+proximity to incredible fluxuations.  Such distortions occuring at points of
+space-time stress have the ability to gain a type of conciousness, providing
+them with a hunger for battle.  &00
+~
+20 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2063
+D2
+You see nothing special.
+~
+~
+0 -1 2037
+D3
+You see nothing special.
+~
+~
+0 -1 2052
+S
+#2065
+HBTC~
+You are in an unfinished room.
+~
+20 0 0
+S
+#2066
+HBTC~
+You are in an unfinished room.
+~
+20 0 0
+S
+$~

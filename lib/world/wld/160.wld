@@ -1,0 +1,1290 @@
+#16000
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Visitor's Lounge&00~
+   &00&06This circular room is made of soft white material, with a round couch
+circling a fountain in the center of it.  The fountain is large enough for
+people to bath in, which local kanassans do while talking to any visitors to
+the city.  Soft white lights hang on the cieling, illuminating the entire room.
+And a spiral staircase leads up to the main level of the city.  &00
+~
+160 65684 0
+D4
+You see nothing special.
+~
+~
+0 -1 16001
+S
+#16001
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Visitors Hotel&00~
+   &00&06This room is made of a pure white colored metal, with the same metal
+making up the grating on the floor.  The metal seems to be covered with a soft
+spoungey material that absorbs water easily.  More bright white lights hang
+overhead, lighting up the area.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16028
+D1
+You see nothing special.
+~
+~
+0 -1 16002
+D2
+You see nothing special.
+~
+~
+0 -1 16006
+D3
+You see nothing special.
+~
+~
+0 -1 16003
+D5
+You see nothing special.
+~
+~
+0 -1 16000
+S
+#16002
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Information Room&00~
+   &00&06Large bulletin boards hang in this room, along with several banks of
+water proof computers.  Pressure valves hang overhead, and it seems that this
+room doubles as the utility bay of the whole city.  And occasional ruptured
+pipe has lead to many soaked computers.  &00
+~
+160 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 16001
+S
+#16003
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Sharkskin Shop&00~
+   &00&06This shop is covered with skins of sharks, preserved by some sort of
+kanassan technology.  These skins have been used to make different kinds of
+armor, some of pretty good quality.  These have been situated on wierd oval
+racks around the shop.  &00
+~
+160 148 0
+D1
+You see nothing special.
+~
+~
+0 -1 16001
+S
+#16004
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Tidal Street&00~
+   &00&06This isn't really much like a street in any normal city, with this
+city seeming more like a building.  This street is made up of the same water
+absorbant metal as the rest of the city, with bright white lights hanging above
+and illuminating the entire streetway.  &00
+~
+160 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 16023
+D3
+You see nothing special.
+~
+~
+0 -1 16005
+S
+#16005
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Tidal Street&00~
+   &00&06This isn't really much like a street in any normal city, with this
+city seeming more like a building.  This street is made up of the same water
+absorbant metal as the rest of the city, with bright white lights hanging above
+and illuminating the entire streetway.  &00
+~
+160 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16004
+D3
+You see nothing special.
+~
+~
+0 -1 16006
+S
+#16006
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Tidal Street&00~
+   &00&06This isn't really much like a street in any normal city, with this
+city seeming more like a building.  This street is made up of the same water
+absorbant metal as the rest of the city, with bright white lights hanging above
+and illuminating the entire streetway.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16001
+D1
+You see nothing special.
+~
+~
+0 -1 16005
+D3
+You see nothing special.
+~
+~
+0 -1 16007
+S
+#16007
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Tidal Street&00~
+   &00&06This isn't really much like a street in any normal city, with this
+city seeming more like a building.  This street is made up of the same water
+absorbant metal as the rest of the city, with bright white lights hanging above
+and illuminating the entire streetway.  &00
+~
+160 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16006
+D3
+You see nothing special.
+~
+~
+0 -1 16008
+S
+#16008
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Tidal Street&00~
+   &00&06This isn't really much like a street in any normal city, with this
+city seeming more like a building.  This street is made up of the same water
+absorbant metal as the rest of the city, with bright white lights hanging above
+and illuminating the entire streetway.  &00
+~
+160 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16007
+D2
+You see nothing special.
+~
+~
+0 -1 16009
+S
+#16009
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Coral Street&00~
+   &00&06This street has various monuments of Aquaton City mayors long past.  
+Also, various shells of creatures have been imbedded into the walls of this
+street.  This is by far the most decorated street in Aquaton.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16008
+D2
+You see nothing special.
+~
+~
+0 -1 16010
+D3
+You see nothing special.
+~
+~
+0 -1 16044
+S
+#16010
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Coral Street&00~
+   &00&06This street has various monuments of Aquaton City mayors long past.  
+Also, various shells of creatures have been imbedded into the walls of this
+street.  This is by far the most decorated street in Aquaton.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16009
+D2
+You see nothing special.
+~
+~
+0 -1 16011
+S
+#16011
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Coral Street&00~
+   &00&06This street has various monuments of Aquaton City mayors long past.  
+Also, various shells of creatures have been imbedded into the walls of this
+street.  This is by far the most decorated street in Aquaton.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16010
+D2
+You see nothing special.
+~
+~
+0 -1 16012
+S
+#16012
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Coral Street&00~
+   &00&06This street has various monuments of Aquaton City mayors long past.  
+Also, various shells of creatures have been imbedded into the walls of this
+street.  This is by far the most decorated street in Aquaton.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16011
+D2
+You see nothing special.
+~
+~
+0 -1 16013
+D3
+You see nothing special.
+~
+~
+0 -1 16024
+S
+#16013
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Coral Street&00~
+   &00&06This street has various monuments of Aquaton City mayors long past.  
+Also, various shells of creatures have been imbedded into the walls of this
+street.  This is by far the most decorated street in Aquaton.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16012
+D2
+You see nothing special.
+~
+~
+0 -1 16014
+S
+#16014
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Seaweed Street&00~
+   &00&06This street is artificial seaweed growing along it's edges.  The
+Kanassans who live along this street seem to like the more organic feel of
+their street.  Plants of different sorts have been put outside houses, some
+even in aquariums to stay alive.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16013
+D1
+You see nothing special.
+~
+~
+0 -1 16015
+S
+#16015
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Seaweed Street&00~
+   &00&06This street is artificial seaweed growing along it's edges.  The
+Kanassans who live along this street seem to like the more organic feel of
+their street.  Plants of different sorts have been put outside houses, some
+even in aquariums to stay alive.  &00
+~
+160 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16016
+D3
+You see nothing special.
+~
+~
+0 -1 16014
+S
+#16016
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Seaweed Street&00~
+   &00&06This street is artificial seaweed growing along it's edges.  The
+Kanassans who live along this street seem to like the more organic feel of
+their street.  Plants of different sorts have been put outside houses, some
+even in aquariums to stay alive.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16026
+D1
+You see nothing special.
+~
+~
+0 -1 16017
+D2
+You see nothing special.
+~
+~
+0 -1 16027
+D3
+You see nothing special.
+~
+~
+0 -1 16015
+S
+#16017
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Seaweed Street&00~
+   &00&06This street is artificial seaweed growing along it's edges.  The
+Kanassans who live along this street seem to like the more organic feel of
+their street.  Plants of different sorts have been put outside houses, some
+even in aquariums to stay alive.  &00
+~
+160 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16018
+D3
+You see nothing special.
+~
+~
+0 -1 16016
+S
+#16018
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Seaweed Street&00~
+   &00&06This street is artificial seaweed growing along it's edges.  The
+Kanassans who live along this street seem to like the more organic feel of
+their street.  Plants of different sorts have been put outside houses, some
+even in aquariums to stay alive.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16019
+D3
+You see nothing special.
+~
+~
+0 -1 16017
+S
+#16019
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Saturated Way&00~
+   &00&06This is a pale street, with about a foort of sea water flowing through
+a channel cut into the floor.  The sound of rushing water can be heard here
+constantly, and several waterfalls roll down the sides of houses.  The bedrock
+of where the city sits can be seen in this part of the city, making up the
+whole eastern wall.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16020
+D2
+You see nothing special.
+~
+~
+0 -1 16018
+S
+#16020
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Saturated Way&00~
+   &00&06This is a pale street, with about a foort of sea water flowing through
+a channel cut into the floor.  The sound of rushing water can be heard here
+constantly, and several waterfalls roll down the sides of houses.  The bedrock
+of where the city sits can be seen in this part of the city, making up the
+whole eastern wall.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16021
+D1
+You see nothing special.
+~
+~
+0 -1 16025
+D2
+You see nothing special.
+~
+~
+0 -1 16019
+S
+#16021
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Saturated Way&00~
+   &00&06This is a pale street, with about a foort of sea water flowing through
+a channel cut into the floor.  The sound of rushing water can be heard here
+constantly, and several waterfalls roll down the sides of houses.  The bedrock
+of where the city sits can be seen in this part of the city, making up the
+whole eastern wall.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16022
+D2
+You see nothing special.
+~
+~
+0 -1 16020
+S
+#16022
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Saturated Way&00~
+   &00&06This is a pale street, with about a foort of sea water flowing through
+a channel cut into the floor.  The sound of rushing water can be heard here
+constantly, and several waterfalls roll down the sides of houses.  The bedrock
+of where the city sits can be seen in this part of the city, making up the
+whole eastern wall.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16023
+D2
+You see nothing special.
+~
+~
+0 -1 16021
+S
+#16023
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Saturated Way&00~
+   &00&06This is a pale street, with about a foort of sea water flowing through
+a channel cut into the floor.  The sound of rushing water can be heard here
+constantly, and several waterfalls roll down the sides of houses.  The bedrock
+of where the city sits can be seen in this part of the city, making up the
+whole eastern wall.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16004
+D1
+You see nothing special.
+~
+~
+0 -1 16045
+D2
+You see nothing special.
+~
+~
+0 -1 16022
+S
+#16024
+&00&07F&14e&00&06es&00&06h&14e&00&07y &16S&15u&00&07pp&15l&16y &12Depot&00~
+   &15This small circular shop has all kinds of kanassan made supplies hanging
+on its racks.  The smell of broiling fish can be smelt behind the shop counter,
+and some half eaten fish is sitting on a plate on the counter.  &00
+~
+160 148 0
+D1
+You see nothing special.
+~
+~
+0 -1 16012
+S
+#16025
+&16L&15o&00&07st &11T&00&03reasure&11s &12Shop&00~
+   &15All kinds of neat items can be found sitting on the racks of this shop.
+Items from the four corners of the known universe.  A circular counter takes up
+the center of the store, with a large display case taking up half of the
+counter.  &00
+~
+160 148 0
+D3
+You see nothing special.
+~
+~
+0 -1 16020
+S
+#16026
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Airlock to the outside.&00~
+   &00&06This large stainless steel airlock leads to the ocean floor, it is the
+last barrier keeping the outside water from flooding in and killing any non
+kanassans present.  A large red and green light pannel is built next to the
+airlock door signalling when the door can be opened and closed.  &00
+~
+160 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 16016
+S
+#16027
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Elevator&00~
+   &00&06This elevator goes all the way to the surface, climbing up the side of
+the cliff it is imbedded in.  The glass doors serve to show the water
+enviroment to the occupants as they ride to the top.  &00
+~
+160 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 16016
+S
+#16028
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Stairs to Training Pool&00~
+   &00&06This set of stair leads down into the training pool for newbie members
+of the Kanassa defense force.  The stairs are covered in an artificial seaweed
+for grip, and to prevent slipping when entering or exiting the pool.  &00
+~
+160 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 16001
+D5
+You see nothing special.
+~
+~
+0 -1 16031
+S
+#16029
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16034
+D3
+You see nothing special.
+~
+~
+0 -1 16030
+S
+#16030
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16035
+D1
+You see nothing special.
+~
+~
+0 -1 16029
+D3
+You see nothing special.
+~
+~
+0 -1 16031
+S
+#16031
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16036
+D1
+You see nothing special.
+~
+~
+0 -1 16030
+D3
+You see nothing special.
+~
+~
+0 -1 16032
+D4
+You see nothing special.
+~
+~
+0 -1 16028
+S
+#16032
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16037
+D1
+You see nothing special.
+~
+~
+0 -1 16031
+D3
+You see nothing special.
+~
+~
+0 -1 16033
+S
+#16033
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16038
+D1
+You see nothing special.
+~
+~
+0 -1 16032
+S
+#16034
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16039
+D2
+You see nothing special.
+~
+~
+0 -1 16029
+D3
+You see nothing special.
+~
+~
+0 -1 16035
+S
+#16035
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16040
+D1
+You see nothing special.
+~
+~
+0 -1 16034
+D2
+You see nothing special.
+~
+~
+0 -1 16030
+D3
+You see nothing special.
+~
+~
+0 -1 16036
+S
+#16036
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16041
+D1
+You see nothing special.
+~
+~
+0 -1 16035
+D2
+You see nothing special.
+~
+~
+0 -1 16031
+D3
+You see nothing special.
+~
+~
+0 -1 16037
+S
+#16037
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16042
+D1
+You see nothing special.
+~
+~
+0 -1 16036
+D2
+You see nothing special.
+~
+~
+0 -1 16032
+D3
+You see nothing special.
+~
+~
+0 -1 16038
+S
+#16038
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16043
+D1
+You see nothing special.
+~
+~
+0 -1 16037
+D2
+You see nothing special.
+~
+~
+0 -1 16033
+S
+#16039
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 16034
+D3
+You see nothing special.
+~
+~
+0 -1 16040
+S
+#16040
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16039
+D2
+You see nothing special.
+~
+~
+0 -1 16035
+D3
+You see nothing special.
+~
+~
+0 -1 16041
+S
+#16041
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16040
+D2
+You see nothing special.
+~
+~
+0 -1 16036
+D3
+You see nothing special.
+~
+~
+0 -1 16042
+S
+#16042
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16041
+D2
+You see nothing special.
+~
+~
+0 -1 16037
+D3
+You see nothing special.
+~
+~
+0 -1 16043
+S
+#16043
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Training Pool&00~
+   &14About nine feet of water sloshes around this pool.  Various training
+obsticles have been built into the pool before it was flooded, making
+underwater fighting strategical and more difficult at the same time.  &00
+~
+160 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16042
+D2
+You see nothing special.
+~
+~
+0 -1 16038
+S
+#16044
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Squid On'a Stik&00~
+   &00&06This small food stand takes up a little nook of the edge of the
+street.  Bar stools are set up in front of it's steel counter, and the smell of
+freshly cooked seafood fills the air above them.  This is one oft he most
+popular food stops in all of Aquaton, while sticking to its undersized food
+stand.  &00
+~
+160 148 0
+D1
+You see nothing special.
+~
+~
+0 -1 16009
+S
+#16045
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Fillet Dojo&00~
+   &00&06This room has a steel ring in it, with a crack running down the center
+of the ring.  The ring floor opens up revealing a shallow pool for local
+kanassans to practice fighting in.  The floor was added later for travelers
+from otherp lanets who may want to use the dojo.  &00
+~
+160 285736964 0
+D3
+You see nothing special.
+~
+~
+0 -1 16023
+S
+#16046
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Elevator, surface.&00~
+   &00&06This sleek elevator leads down into the underwater city of Aquaton,
+the only kanassan city visitors are premited to visit on the planet.  &00
+~
+160 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 16047
+S
+#16047
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Transport Station, Pilot chamber.&00~
+   &00&06This room has a few seats for people to sit on while waiting for a
+pilot to become available.  The room temperature is warm, with a humid breeze
+of air being circulated around the room.  &00
+~
+160 404 0
+D0
+You see nothing special.
+~
+~
+0 -1 16046
+S
+#16048
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Loading Ramp&00~
+   &00&06This steel ramp leads up to the launch pad where a ship will take
+patrons to other planets or where an arriving ship can land.  The open sky of
+kanassa can be seen overhead, with a small rainstorm currently raining down on
+the area.  &00
+~
+160 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 16049
+S
+#16049
+&16A&00&06q&14u&00&06a&15t&00&06o&14n &16C&15i&00&07t&15y&16: &15Launch Pad&00~
+   &00&06This large circular launch pad has several ships parked on it ready
+for take off or currently unloading passengers.  &00
+~
+160 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16048
+S
+#16050
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16051
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16052
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16053
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16054
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16055
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16056
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16057
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16058
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16059
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16060
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16061
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16062
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16063
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16064
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16065
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16066
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16067
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16068
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16069
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16070
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16071
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16072
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16073
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16074
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16075
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16076
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16077
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16078
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16079
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16080
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16081
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16082
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16083
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16084
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16085
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16086
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16087
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16088
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16089
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16090
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16091
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16092
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16093
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16094
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16095
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16096
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16097
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16098
+under construction~
+You are in an unfinished room.
+~
+160 0 0
+S
+#16099
+U c~
+You are in an unfinished room.
+~
+160 0 0
+S
+$~

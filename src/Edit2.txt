@@ -1,0 +1,12 @@
+if ((GET_POS(d->character) == POS_FIGHTING))
+      sprintf(prompt + strlen(prompt), "\x1B[1;37mo\x1B[1;34m------------\x1B[1;37mo ");
+    if ((GET_POS(d->character) == POS_FIGHTING))
+      sprintf(prompt + strlen(prompt), "\r\n\x1B[1;34m|  \x1B[1;31mAttack    \x1B[1;34m| ");
+    if ((GET_POS(d->character) == POS_FIGHTING))
+      sprintf(prompt + strlen(prompt), "\r\n\x1B[1;34m|  \x1B[1;35mSkill     \x1B[1;34m| ");
+    if ((GET_POS(d->character) == POS_FIGHTING))
+      sprintf(prompt + strlen(prompt), "\r\n\x1B[1;34m|  \x1B[1;35mKi attack \x1B[1;34m| ");
+    if ((GET_POS(d->character) == POS_FIGHTING))
+      sprintf(prompt + strlen(prompt), "\r\n\x1B[1;34m|  \x1B[1;32mItem      \x1B[1;34m| ");
+    if ((GET_POS(d->character) == POS_FIGHTING))
+      sprintf(prompt + strlen(prompt), "\r\n\x1B[1;37mo\x1B[1;34m------------\x1B[1;37mo\r\n ");

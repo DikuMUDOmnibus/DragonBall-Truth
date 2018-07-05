@@ -1,0 +1,91 @@
+ACMD(do_compare)
+{
+    char arg1[MAX_INPUT_LENGTH];
+    char arg2[MAX_INPUT_LENGTH];
+    struct obj_data *obj1, *obj2;    
+    int value1;
+    int value2, dotmode;
+    char *msg;
+
+    two_arguments(argument, arg1, arg2);
+
+    if ( arg1[0] == '\0' )
+    {
+	send_to_char( "Compare what to what?\n\r", ch );
+	return;
+    }
+
+
+    if (!(obj1 = get_obj_in_list_vis(ch, arg1, ch->carrying)))
+    {
+	send_to_char( "You do not have that item.\n\r", ch );
+	return;
+    }
+
+    if (arg2[0] == '\0')
+    {
+	for (obj2 = ch->carrying; obj2 != NULL; obj2 = obj2->next_content)
+	{
+	    if (obj2->worn_on != NOWHERE
+	    &&  CAN_SEE_OBJ(ch,obj2)
+            &&  GET_OBJ_TYPE(obj1) == GET_OBJ_TYPE(obj2)
+            &&  CAN_WEAR(obj1 ,ITEM_WEAR_TAKE) 
+            &&  CAN_WEAR(obj2 ,ITEM_WEAR_TAKE) != 0)
+		break;
+	}
+
+	if (obj2 == NULL)
+	{
+	    send_to_char("You aren't wearing anything comparable.\n\r",ch);
+	    return;
+	}
+    } 
+
+    else if (!(obj2 = get_obj_in_list_vis(ch, arg2, ch->carrying)))
+    {
+	send_to_char("You do not have that item.\n\r",ch);
+	return;
+    }
+
+    msg		= NULL;
+    value1	= 0;
+    value2	= 0;
+
+    if ( obj1 == obj2 )
+    {
+	msg = "You compare $p to itself.  It looks about the same.";
+    }
+    else if (GET_OBJ_TYPE(obj1) != GET_OBJ_TYPE(obj2))
+    {
+	msg = "You can't compare $p and $P.";
+    }
+    else
+    {
+	switch ( GET_OBJ_TYPE(obj1) )
+	{
+	default:
+	    msg = "You can't compare $p and $P.";
+	    break;
+
+	case ITEM_ARMOR:
+	    value1 = GET_OBJ_VAL(obj1, 0);
+	    value2 = GET_OBJ_VAL(obj2, 0);;
+	    break;
+
+	case ITEM_WEAPON:
+		value1 = (1 + GET_OBJ_VAL(obj1, 2)) * GET_OBJ_VAL(obj1, 1);
+		value2 = (1 + GET_OBJ_VAL(obj2, 2)) * GET_OBJ_VAL(obj2, 1);
+	    break;
+	}
+    }
+
+    if ( msg == NULL )
+    {
+	     if ( value1 == value2 ) msg = "$p and $P look about the same.";
+	else if ( value1  > value2 ) msg = "$p looks better than $P.";
+	else                         msg = "$p looks worse than $P.";
+    }
+
+    act( msg, FALSE, ch, obj1, obj2, TO_CHAR );
+    return;
+}

@@ -1,0 +1,102 @@
+Flydeath Room Flag by: Cathy Gore
+
+Little note: For use with OasisOLC, tested on a CircleMUD 3.0 bpl17.
+
+This room flag adds a little twist to the ROOM_DEATH flag.  It is still a
+death trap, but with this flag, if the character is flying, the room will
+just be a normal room.  For example, your death trap is something to the
+effect of falling out of a window.  A person who is flying obviously isn't
+going to fall to their death, cuz they'll just kinda float out.
+
+So, here's the snippet:
+----------------------------------
+To find the spots, search for ROOM_DEATH...
+
+in act.informative.c, void look_at_room:
+
+-  if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief ||
+-      ROOM_FLAGGED(ch->in_room, ROOM_DEATH)) {
++  if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief) {
+
+and after the desc is sent to the char:
+
++  if (GET_LEVEL(ch) < LVL_IMMORT && (ROOM_FLAGGED(ch->in_room, ROOM_DEATH) || (ROOM_FLAGGED(ch->in_room, ROOM_FLYDEATH) && 
++    !IS_AFFECTED(ch, AFF_FLYING)))) {
++    send_to_char("You have DIED!\r\n", ch);
++    return;
++  }
+
+----
+in act.movement.c, do_simple_move:
+
+-  if (ROOM_FLAGGED(ch->in_room, ROOM_DEATH) && GET_LEVEL(ch) < LVL_IMMORT) {
++  if ((ROOM_FLAGGED(ch->in_room, ROOM_DEATH) || (ROOM_FLAGGED(ch->in_room, ROOM_FLYDEATH) &&
++    !IS_AFFECTED(ch, AFF_FLYING))) && GET_LEVEL(ch) < LVL_IMMORT) {
+
+----
+in act.offensive.c, ACMD(do_flee):
+
+-	!ROOM_FLAGGED(EXIT(ch, attempt)->to_room, ROOM_DEATH)) {
++	!ROOM_FLAGGED(EXIT(ch, attempt)->to_room, ROOM_DEATH) && 
++  !ROOM_FLAGGED(EXIT(ch, attempt)->to_room, ROOM_FLYDEATH)) {
+
+----
+in act.wizard.c, ACMD(do_show):
+
+       if (ROOM_FLAGGED(i, ROOM_DEATH))
+ 	sprintf(buf + strlen(buf), "%2d: [%5d] %s\r\n", ++j,
+ 		GET_ROOM_VNUM(i), world[i].name);
++      if (ROOM_FLAGGED(i, ROOM_FLYDEATH))
++        sprintf(buf + strlen(buf), "%2d: [%5d] %s (fly)\r\n", ++j, 
++        GET_ROOM_VNUM(i), world[i].name);
+
+----
+in mobact.c, mobile_activity:
+
+-	!ROOM_FLAGGED(EXIT(ch, door)->to_room, ROOM_NOMOB | ROOM_DEATH) &&
++	!ROOM_FLAGGED(EXIT(ch, door)->to_room, ROOM_NOMOB | ROOM_DEATH | ROOM_FLYDEATH) &&
+
+----
+in spec_assign.c, assign_rooms:
+
+-      if (ROOM_FLAGGED(i, ROOM_DEATH))
++      if (ROOM_FLAGGED(i, ROOM_DEATH | ROOM_FLYDEATH))
+
+----
+in structs.h, where the roomflags are defined:
+
++#define ROOM_FLYDEATH  (1 << 20)  /* Death trap for those not flying */
+//or whatever number is next for you
+
+----
+in oasis.h:
+
+add one to your NUM_ROOM_FLAGS
+
+----
+in constants.c:
+
+add "FLYDEATH", to the end of *const char *room_bits[] (but before the "\n")
+
+----
+
+And that's it!  Recompile and reboot, and save away!
+
+As per the standard disclaimer, I am not responsible if this messes up
+your mud.  Always backup any file that is changed before adding any
+snippet.  But you knew that already.
+
+And as usual, if you have any problems or find a way to make this better,
+email me at cheron98@hotmail.com.
+
+If you use this, please email me.  I don't care if you put me in the
+credits or not, I'd just like to know who's usin it.
+
+Other snippets by me: Look for my score and wizupdate snippets on the
+CircleMUD ftp site!
+Patches by me: Look for my Ascii-pfile compatible clan package, and
+metaphysician patch!
+
+Cathy Gore
+aka Cheron, DarkonMUD
+

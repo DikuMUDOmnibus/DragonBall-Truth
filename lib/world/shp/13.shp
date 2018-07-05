@@ -1,0 +1,191 @@
+CircleMUD v3.0 Shop File~
+#1301~
+1302
+1303
+1304
+1305
+1306
+1307
+1308
+1309
+1310
+1311
+1312
+1301
+-1
+1.00
+0.60
+11Golden Cobra Armband
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+1301
+0
+1301
+-1
+0
+28
+0
+0
+#1350~
+4597
+3071
+5426
+3075
+7209
+5428
+3086
+3080
+5448
+4596
+5446
+5438
+5420
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+0
+0
+1350
+-1
+0
+28
+0
+0
+#1370~
+1351
+1352
+1353
+1354
+1355
+1356
+4597
+1034
+-1
+1.00
+1.00
+17LIQ CONTAINER
+1LIGHT
+3SCOUTER
+21PEN
+19FOOD
+16NOTE
+22BOAT
+15CONTAINER
+-1
+%s Try something on my list or get out.~
+%s You dont have that item.~
+%s I dont want that.~
+%s I dont have that much money.~
+%s Get some money then ill give it to you.~
+%s Give me %d coins.~
+%s I'll hook you up with %d for that item.~
+0
+0
+0
+0
+-1
+0
+28
+0
+0
+#1375~
+1371
+1375
+1376
+1377
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+1075
+126
+1375
+-1
+0
+28
+0
+0
+#1394~
+1380
+1382
+1383
+1384
+1385
+1386
+1387
+1388
+1389
+1390
+1391
+1392
+1393
+1394
+1395
+1396
+1381
+1396
+-1
+1.00
+0.25
+5Sword
+5Hammer
+1Lantern
+9Armor
+11Gi
+11Bracer
+11earring
+11Helmet
+11Shoulder
+11Ring
+11Choker
+11Pants
+11Belt
+11Gloves
+11Shield
+3Scouter
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+1391
+0
+1394
+-1
+0
+28
+0
+0
+$~

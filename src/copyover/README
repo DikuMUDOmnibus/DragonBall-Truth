@@ -1,0 +1,81 @@
+"What in the world is copyover?!?", You ask. Well, it's fairly easy
+to explain. Do you know how every time you make changes to your MUD's
+source code, or maybe do some offline building? Then you have to do
+a "shutdown reboot" to get the changes all read back in? Well, this
+allows you to do that, WITHOUT kicking the players off! Pretty cool,
+no?
+
+"How does it work?"
+Basically, it makes telnet clients think they are lagging, and then
+shuts down the connection, reboots it, and logs everyone back in auto-
+magically, all before your client realizes something major happened.
+It's a little more complicated than that, but that's the general idea
+and result.
+
+"What kind of problems can I expect with this installed?"
+Well, if you somehow corrupt your circle BINARY file (located in /bin)
+and the game can't run it, it dies. This could happen any number of
+ways:
+1) You write bad code that causes segmentation faults.
+2) You somehow get the directory paths mixed up.
+3) You corrupt your copyover.dat file with meaningless junk (memory leak).
+
+"Why won't this patch cleanly into my MUD?"
+Well, once again, there are several possible answers. I downloaded a
+fresh copy of CircleMUD 3.0 (bpl17) before I ran diff, to make sure it
+would patch in okay. The file named stock.diff was made against a fresh,
+unaltered source. The file ascii.diff was made against a fresh source with
+the latest ASCII pfiles installed. So, here is why you can't patch cleanly:
+1) You are using stock.diff and have made some changes to the files in
+   the /src directory.
+2) You are using ascii.diff but you patched ASCII pfiles in by hand.
+2) You are using ascii.diff and you have made other changes to your source
+   other than just plain ASCII pfiles.
+
+"This isn't fair! It should patch to my MUD!"
+Well, sorry. I can't anticipate the endless list of changes that someone
+might make to their own copy of CircleMUD. I was going to make one that
+patched cleanly against OasisOLC, but I realized that if I did that, I'd
+have to make one that patched against OLC and ASCII, and someday I'd get
+an email asking for one against Easycolor or something similar. This WILL
+work with Oasis, you'll just have to hand-patch the whole thing in. All I
+can say is that you are better off adding this by hand anyway.
+I hate patches, but since this isn't my original code I must attempt to
+follow in the original spirit of the author's work.
+
+
+#########################################################################
+
+Okay, here it is. It's a bit late, I know. Especially considering that
+bpl18 is due out any time now, but I'll worry about that when it gets
+here.
+
+This is NOT my code. All I have done is update Erwin's code to work
+cleanly for bpl17. Well, in stock.diff I made a few minor changes to
+make it look a little neater, but that's all. Peter Ajamian has made
+some suggestions for a much cleaner approach, but that will have to come
+in the future. For now, we'll stick with the workable, bug-free (unless
+it's something YOU import) original.
+
+The files contained herein are:
+stock.diff <-patch for stock circle
+ascii.diff <-patch for ascii pfiles
+
+If you have made any changes to your MUD, the patch will not install
+cleanly. This also applies for ascii.diff, except that I installed the
+latest ascii pfiles on a stock circlemud codebase.
+
+Please address all concerns, comments or flames to me:
+<tacodog21@yahoo.com>
+
+The original author may be contacted at:
+<erwin@andreasen.com> He also asked that you visit this website for a
+look at the original:
+http://www.andreasen.org/snip.shtml
+
+I submitted this code to Erwin before releasing it, and he has approved
+of it, however please don't bother him with questions or bug reports.
+
+As always, be sure to mention Erwin in your credits somewhere. It's not
+fair to claim this as your own, and it's widely enough used that the
+players wouldn't believe you anyway.

@@ -1,0 +1,147 @@
+#3200
+Bulma~
+&00&05B&13u&00&07l&15m&13a&00~
+&00&05B&13u&00&07l&15m&13a&00 &15is here, working on an experiment.&00
+~
+   &15Bulma is strikingly beautiful, with curves in all the right places.  She
+is here, working in the Capsule Corp, helping Dr.  Brief to perfect the Capsule
+Technologies.  &00
+~
+10 0 0 E
+100000 -10 0 0d0+1000000 0d0+50000
+300 1000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3202
+#3201
+Dr. Brief~
+&14D&00&06r&00&07. &16B&15r&00&07i&15e&16f&00~
+&14D&00&06r&00&07. &16B&15r&00&07i&15e&16f&00 &15is quickly running around, to and fro, trying to operate as many experiments as possible.&00
+~
+   &15Dr.  Brief is famous for his advances in Capsule Technology.  He works
+almost night and day, trying to acomplish his dream of perfecting the Capsule
+Technology.  He is middle-aged, with some grey hair and is dressed in a very
+neat white lab coat.  &00
+~
+10 0 0 E
+150000 -20 0 0d0+1500000 0d0+75000
+1000 2000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3200
+#3202
+Mrs. Brief~
+&16M&00&05r&13s&00&07. &16B&15r&00&07i&15e&16f&00~
+&16M&13r&00&05s&00&07. &16B&15r&00&07i&15e&16f&00 &15is cleaning here, straightening up her small, yet tidy bedroom.&00
+~
+   &15Mrs.  Brief is the wife of Dr.  Brief.  She occasionally runs
+experiments, but usually spends her time acting like any regular mother would.
+&00
+~
+10 0 0 E
+75000 0 0 0d0+750000 0d0+30000
+100 1000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3201
+#3220
+Worried Patient~
+&16W&00&01o&00&05r&16r&15i&00&01e&15d &14P&00&06a&16t&15i&16e&00&06n&14t&00~
+&00A &16W&00&01o&00&05r&16r&15i&00&01e&15d &14P&00&06a&16t&15i&16e&00&06n&14t&00 &15is pacing the room.&00
+~
+   &15A worried patient is wandering around the waiting room, waiting to see a
+doctor.  They are not severely injured so they are not top priority.  &00
+~
+10 0 0 E
+100000 -20 0 0d0+2000000 0d0+30000
+200 1750000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3221
+Hurried Surgeon~
+&09H&00&01u&15r&16r&09i&15e&00&01d &09S&00&01u&16r&15g&16e&00&01o&09n&00~
+&15A &09H&00&01u&15r&16r&09i&15e&00&01d &09S&00&01u&16r&15g&16e&00&01o&09n&00 &15is standing here, looking over a clipboard.&00
+~
+   &15A surgeon is standing here, hurrying between patients.  He is reading a
+clipboard full of info that he is holding in between blood stained gloves.  
+&00
+~
+8 0 0 E
+200000 -30 0 0d0+3000000 0d0+40000
+200 2750000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3222
+ER Patient~
+&09ER &14P&00&06a&16t&15i&16e&00&06n&14t&00~
+&15An &09ER &14P&00&06a&16t&15i&16e&00&06n&14t&00 &15is lying on a bed.&00
+~
+   &15This patient is heavily wounded, he looks like he has been in a bad car
+accident.  He was rushed to the hospital and sent up to this floor immediately.
+&00
+~
+10 0 0 E
+300000 -20 0 0d0+4500000 0d0+25000
+100 4000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3223
+Recovering Patient~
+&09R&13e&00&05c&16o&15v&00&07e&15r&16i&00&05n&13g &14P&00&06a&16t&15i&16e&00&06n&14t&00~
+&15A &09R&13e&00&05c&16o&15v&00&07e&15r&16i&00&05n&13g &14P&00&06a&16t&15i&16e&00&06n&14t&00 &15is lying here, regaining their strength.&00
+~
+   &15This patient is recovering from a major surgery.  They are well on their
+way to a full recovery however and should be back onto their feet shortly&00
+~
+10 0 0 E
+30000 -30 0 0d0+4000000 0d0+45000
+500 4500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3224
+The President~
+&16T&00&07h&15e &00&05P&13r&00&07e&15s&16i&00&05d&13e&00&07n&15t&00~
+&16T&00&07h&15e &00&05P&13r&00&07e&15s&16i&00&05d&13e&00&07n&15t&00 &15is sitting behind his desk, giving you a questioning look.&00
+~
+   &15The President is the owner of the West City Hospital.  He takes care of
+all of the finances, marketing, accounting and everything else that is needed
+to keep the Hospital running.  &00
+~
+10 0 0 E
+400000 -40 0 0d0+20000000 0d0+100000
+1000 20000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

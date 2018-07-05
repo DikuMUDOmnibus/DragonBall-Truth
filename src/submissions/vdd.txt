@@ -1,0 +1,213 @@
+VDD-Variable Dependent Descriptions
+
+The system is quite simple: Every time a room description is checked to be
+displayed, it is scanned for VDD markers (double pipes ||).  If they are
+found, it checks the marker list (in function CheckVDD) for the marker
+that immedeatly follows it.  Depending on what CheckVDD returns, the
+routine then copies all text in either the first or the second set of {}'s
+after the marker.  It then removes the marker, and rescans for any other
+markers.  (This includes any that may have been in previous ones, so
+nesting is possible.) Once none are found, it returns a buffer with the
+reformatted description.
+
+Sorry about the lack of a .diff file or similar, but I couldn't use patch
+or diff to save my life.
+
+Note: This was originally written in C++.  There weren't many changes
+needed to convert it to C (just removal of bools and references) but if it
+doesn't work, contact me.  I can try to help, but I won't gaurentee
+anything (even a reply, see below.)
+
+NOTE: I will not be held responsible for any damages to your MUD that come
+through the use of this system.  The following is presented 'AS-IS'
+without warrenty of any kind.  It is always wise to back-up your code
+before adding anything new. (I know, I usually forget to. ;)
+
+Yet another Note: I require nothing of you to use this system, but it'd be
+nice if you dropped me a line to tell me you're using it (although you are
+in no way obligated to.) It'd be even nicer to include me in your MUD's
+credits, but again, you are in no way obligated to.
+
+Current e-mail: enspapp@apci.net
+ 
+To add new VDD's:
+To add new VDD's, you must add a new marker in the CheckVDD function.
+
+Insert the following into the else-if ladder. It doesn't matter where, as
+long as it's not after the final else:
+
+else if (!strn_cmp(TextBuf,"<insert new marker here>",<put length of new marker here)) {
+	<put whatever code you need here>
+	return <int return code>;
+	}
+
+Return codes are as follows:
+
+Example: ||time {A} {B}
+
+0: Replace VDD with the second text field. (IE field 'B' above.)
+-1: Error.  Causes VDD replacement routine to stop and return a
+    completely unedited description.
+Anything else: Replace VDD with the first text field. (IE field 'A' above.)
+
+Other aspects that should be known:
+
+When replaced, the original is removed from the first | to the last }, so
+
+ABCDE||time{F}{G}HIJ would print (assuming the first was selected) ABCDEFHIJ
+
+Any spaces before the || and after the last } are kept.  There can be any
+characters between the marker (ie ||time) and the first {, as well as in
+between the first } and second { but they are thrown away.
+
+ABCDE ||time lalala {FGH}...{IJK} :) LNMOP (with first again) would be
+ABCDE FGH :) LNMOP
+
+There cannot, however, be any spaces between the pipes (||) and the
+marker (ie time), so:
+
+||time : OK
+|| time : Bad, will cause error and print out entire unedited description.
+
+
+To Install:
+
+In the act.informative.cc file (assuming the look_at_room function hasn't
+changed to a different file)
+
+Add the following prototype:
+
+char* ProcRoomDesc(char* desc,char_data* ch);
+
+and in the look_at_room function, change the following:
+
+send_to_char(world[ch->in_room].description, ch);
+
+to
+
+send_to_char(ProcRoomDesc(world[ch->in_room].description,ch),ch);
+
+And add the file vdd.c (shown at the end of this file), then compile:
+
+(Sorry I can't help with makefiles, the MUD I made this for has gone
+through so many drastic changes (ie conversion from C to C++) that I don't
+use the makefile anymore.)
+
+Good luck and happy describing!
+
+Oh yes, you may be wondering what the current markers are.. Well,
+
+||time {day, ie time_info.hours between 5 and 21 inclusive}{night}
+||clouds {not cloudy, ie weather_info.sky==SKY_CLOUDLESS}{cloudy}
+||rain {not raining, ie weather_info.sky<SKY_RAINING}{raining}
+
+||random25 {25% of being chosen}{75% chance}
+||random50 {50%}{50%}
+||random33 {33%}{67%}
+||random00 {.1%}{99.9%}
+It should be noted that for the random ones, there is no save between
+looks, ie, a person standing in a 50/50 room could look around once and
+see one description, then look around again and see the other.  Use them
+accordingly.
+
+||god {god not in room}{god in room}
+For a god to be considered in room means that a PC, of level >=
+LVL_IMMORT, and with an invisibility level of 0 (ie fully visible) is in
+the room. Useful for having people in the background bow down to you }:)
+
+
+File: vdd.c
+
+#include "conf.h"
+#include "sysdep.h"
+
+#include "structs.h"
+#include "utils.h"
+#include "interpreter.h"
+#include "db.h"
+
+extern time_info_data time_info;
+
+int FindOpenClose(char* buf,char** begin,char** end) {
+        int Level=0;
+        while (*buf && *buf!='{') buf++;
+        if (!(*buf)) return 0;
+        *begin=(++buf);
+        Level++;
+        while (*buf && Level) {
+                if (*buf=='{') Level++;
+                else if (*buf=='}') Level--;
+                buf++;
+                }
+        if (Level) return 0;
+        *end=buf;
+        return 1;
+        }
+
+int CheckVDD(char* TextBuf,char_data* ch) {
+        char_data* temp;
+        int First;
+                if (!strn_cmp(TextBuf,"time",4))
+                        First=(time_info.hours>=5&&time_info.hours<=21);
+                else if (!strn_cmp(TextBuf,"clouds",6))
+                        First=weather_info.sky==SKY_CLOUDLESS;
+                else if (!strn_cmp(TextBuf,"rain",4))
+                        First=weather_info.sky<SKY_RAINING;
+                else if (!strn_cmp(TextBuf,"random00",8))
+                        First=number(0,1000)==0;
+                else if (!strn_cmp(TextBuf,"random25",8))
+                        First=number(0,3)==0;
+                else if (!strn_cmp(TextBuf,"random50",8))
+                        First=number(0,1)==0;
+                else if (!strn_cmp(TextBuf,"random33",8))
+                        First=number(0,2)==0;
+                else if (!strn_cmp(TextBuf,"god",3)) {
+                        temp=world[ch->in_room].people;
+                        for (;temp;temp=temp->next_in_room) {
+                                if (IS_NPC(temp)) continue;
+                                if (GET_LEVEL(temp)<LVL_IMMORT) continue;
+                                if (GET_INVIS_LEV(temp)) continue;
+                                break;
+                                }
+                         First=!temp;
+                        }
+                else return -1;
+        return First;
+        }
+
+
+
+int DoVDDReplace(char* Read,char* Write,char* pos,char_data* ch) {
+        int Level=0;
+        char *Begin,*End;
+	int First;
+        *Write=0;
+        strncat(Write,Read,pos-Read);
+        pos+=2;
+        CheckVDD(pos,ch);
+        if (First==-1) return 0;
+        if (!FindOpenClose(pos,&Begin,&End)) return 0;
+        pos=End;
+        if (!First)
+                if (!FindOpenClose(pos,&Begin,&End)) return 0;
+        strncat(Write,Begin,End-Begin-1);
+        if (First)
+                if (!FindOpenClose(pos,&Begin,&End)) return 0;
+        strcat(Write,End);
+        return 1;
+        }
+
+char* ProcRoomDesc(char* desc,char_data* ch) {
+        static char BufA[8192],BufB[8192];
+        char *ReadingBuf,*WritingBuf,*pos,*T;
+        ReadingBuf=BufA;WritingBuf=BufB;
+        strcpy(ReadingBuf,desc);
+        while (pos=strstr(ReadingBuf,"||")) {
+                if (!DoVDDReplace(ReadingBuf,WritingBuf,pos,ch)) return desc;
+		T=ReadingBuf;
+		ReadingBuf=WritingBuf;
+		WritingBuf=T;
+                }
+        return ReadingBuf;
+        }
+

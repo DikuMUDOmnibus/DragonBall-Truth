@@ -1,0 +1,113 @@
+#17300
+Ether Angel Knight~
+&00&07E&14t&00&06h&12e&00&04r &11A&00&03n&16g&15e&00&07l &16K&15n&00&07ig&15h&16t&00~
+&15An &00&07E&14t&00&06h&12e&00&04r &11A&00&03n&16g&15e&00&07l &16K&15n&00&07ig&15h&16t &15stands guard here, preserved by time.&00
+~
+   &15This angel has been infused with ether energy, defying age they never
+stop guarding the secrets of this cave.  &00
+~
+10 0 0 E
+300000 -60 0 0d0+3500000 0d0+45000
+650 4125000
+8 8 0
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17301
+Ether Angel Paladin~
+&00&07E&14t&00&06h&12e&00&04r &11A&00&03n&16g&15e&00&07l &00&07P&11a&14l&00&06a&16d&14i&00&07n&00~
+&15An &00&07E&14t&00&06h&12e&00&04r &11A&00&03n&16g&15e&00&07l &00&07P&11a&14l&00&06a&16d&14i&00&07n &15is standing here.&00
+~
+   &15This Ether Knight is quite a bit more skilled, and even deadlier.  &00
+~
+10 0 0 E
+400000 -60 0 0d0+5500000 0d0+70000
+750 5000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17302
+Ether Angel Mage~
+&00&07E&14t&00&06h&12e&00&04r &11A&00&03n&16g&15e&00&07l &16M&15a&00&07g&16e&00~
+&15An &00&07E&14t&00&06h&12e&00&04r &11A&00&03n&16g&15e&00&07l &16M&15a&00&07g&16e &15is charging a spell here.&00
+~
+   &15This mage dedicated its life to protecting this cave, its now eternal
+life.  &00
+~
+10 0 0 E
+500000 -60 0 0d0+6500000 0d0+75000
+800 7000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17303
+Angel Archmage~
+&11A&00&03n&16g&15e&00&07l &00&01A&09r&00&07c&15h&16m&00&07a&09g&00&01e&00~
+&15The &11A&00&03n&16g&15e&00&07l &00&01A&09r&00&07c&15h&16m&00&07a&09g&00&01e &15floats here, a dark glow on his weathered skin.&00
+~
+   &15Infusing himself with ether this archmage chose to guard the terrible
+magic hidden in the cave.  &00
+~
+10 0 0 E
+600000 -60 0 0d0+45000000 0d0+100000
+15000 30000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 17300
+#17304
+Ether Smith Ethera~
+&00&07E&14t&00&06h&12e&00&04r &16Smith&00~
+&15The &00&07E&14t&00&06h&12e&00&04r &16Smith &15is standing here, waiting to smith something.&00
+~
+   &15This smith has been infused with ether, to be able to carry out his role
+for eternity.  &00
+~
+10 0 0 E
+100000 -60 0 0d0+1000000000 0d0+500000
+0 0
+8 8 0
+E
+T 17301
+T 17302
+T 17303
+#17305
+Ether Smith~
+&00&07E&14t&00&06h&12e&00&04r &16Smith&00~
+&15The &00&07E&14t&00&06h&12e&00&04r &16Smith &15is ready to receive the money now...&00
+~
+   &15Pay him already, he looks impatient.  &00
+~
+10 0 0 E
+1000 -60 0 1d1+1000000000 1d1+500000
+0 0
+8 8 0
+E
+T 17304
+#17306
+Ether Guardian~
+&00&07E&14t&00&06h&12e&00&04r &10G&00&02u&16a&15rd&16i&00&02a&10n&00~
+&15The &00&07E&14t&00&06h&12e&00&04r &10G&00&02u&16a&15rd&16i&00&02a&10n &15stands here, with his large scimitar.&00
+~
+   &15This angel has six wings, and is at least double the size of a normal
+angel.  Infused with ether, it is far beyond any normal angel.  &00
+~
+10 0 0 E
+800000 -100 0 0d0+60000000 0d0+250000
+15000 45000000
+8 8 0
+E
+T 17306
+$

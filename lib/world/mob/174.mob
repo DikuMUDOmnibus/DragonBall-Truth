@@ -1,0 +1,72 @@
+#17400
+Labor Worker~
+&15L&12a&00&04b&12o&15r &15W&16o&15r&00&07k&15e&16r&00~
+&15A &15L&12a&00&04b&12o&15r &15W&16o&15r&00&07k&15e&16r&00 &15stands here.&00
+~
+   &15He is wearing blue overalls and an orange top hat.  He is watching the
+machines, and is hard at work.  &00
+~
+8 0 0 E
+300000 -40 0 0d0+3000000 0d0+45000
+500 2500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17401
+Production Worker~
+&00&02P&10r&00&02o&15d&16uc&15t&00&02i&10o&00&02n &15W&16o&15r&00&07k&15e&16r&00~
+&15A &00&02P&10r&00&02o&15d&16uc&15t&00&02i&10o&00&02n &15W&16o&15r&00&07k&15e&16r&00 &15stands here, watching the machines&00
+~
+   &15This worker is very good at what he does, and is on the production line.
+He is also clad in blue overalls, but instead he has on a green hardhat and
+safety goggles.  &00
+~
+8 0 0 E
+400000 -50 0 0d0+6000000 0d0+65000
+700 5250000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17402
+Store Room Worker~
+&11S&00&03t&16o&00&03r&11e &16R&00&07oo&15m &15W&16o&15r&00&07k&15e&16r&00~
+&15A &11S&00&03t&16o&00&03r&11e &16R&00&07oo&15m &15W&16o&15r&00&07k&15e&16r&00 &15is working here.&00
+~
+   &11This worker is very strong, and also intelligent.  It is his job to
+catalog the inventory, organize the shelves and make sure everything is put in
+its proper place.  &00
+~
+8 0 0 E
+500000 -60 0 0d0+10000000 0d0+80000
+1000 8500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17403
+Manager~
+&12M&00&04anage&12r&00~
+&15The &12M&00&04anage&12r &15is standing here.&00
+~
+   &15This angel looks rather stern, and is intently watching the progress of
+the workers.  &00
+~
+8 0 0 E
+500000 -60 0 0d0+50000000 0d0+250000
+20000 45000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 17400
+$

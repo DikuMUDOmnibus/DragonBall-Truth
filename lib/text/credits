@@ -1,0 +1,24 @@
+
+                    C  I  R  C  L  E  M  U  D     3  .  0
+
+
+CircleMUD was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
+Johns Hopkins University's Department of Computer Science.  All code unique
+to CircleMUD is protected under a copyright by the Trustees of the Johns
+Hopkins University.
+
+CircleMUD is freeware and can be downloaded via anonymous FTP from
+ftp.circlemud.org or ftp2.circlemud.org in pub/CircleMUD.  Its author can
+be contacted at jelson@circlemud.org.
+
+[SFP was created by Tuzkino and Xylam and was the original source code for DBT.
+Very little of it still remains a part of DBT, but it deserves credit none
+the less.
+
+Dragonball Truth was coded by: Iovan. All other mentions in the credits 
+were used for the base code. Only basic functions such as olc, format, and
+snippets from some nice people, are not coded by Iovan. Everything else was 
+painstakingly coded in by Iovan, and or one or two helpers on a few things.]
+
+Type HELP CIRCLEMUD for more information.
+

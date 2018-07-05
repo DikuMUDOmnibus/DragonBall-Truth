@@ -1,0 +1,1484 @@
+#2500
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Goku
+&12Card Type&00&03: &15Warrior&00
+
+&09Power&00&03: &1512 &09Defense&00&03: &1514
+&14Ki Cost&16: &1525
+
+&11Specials&00&03:&15
+Goku hast he learned ability, kaioken. At anytime during your turn, pay 25 ki points to activate this ability. It will double Goku's power and defense for that turn.
+~
+16 0 1
+0 0 0 0
+1 0 0
+#2501
+Card Deck Case Blue~
+&11C&15a&16r&00&03d &00&03D&11e&16c&15k &12C&00&04as&12e &14B&00&06lu&14e&00~
+&15A &11C&15a&16r&00&03d &00&03D&11e&16c&15k &12C&00&04as&12e &14B&00&06lu&14e &15has been placed here.&00~
+~
+15 0 0
+40 1 -1 0
+1 1000 0
+#2502
+Card Deck Case Red~
+&11C&15a&16r&00&03d &00&03D&11e&16c&15k &12C&00&04as&12e &09R&00&01e&09d&00~
+&15A &11C&15a&16r&00&03d &00&03D&11e&16c&15k &12C&00&04as&12e &09R&00&01e&09d &15has been placed here.&00~
+~
+15 0 0
+40 1 -1 0
+1 1000 0
+E
+locker~
+You just had the horrid thought that a cadaver might be in there.
+~
+#2503
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Vegeta
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1515 &09Defense&00&03: &1511
+&14Ki Cost&00&03: &1520
+&11Specials&00&03:&15Vegeta has Rage 1, this allows him to block two warriors with double his defense if owner pays 15 ki points.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2504
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Fat Buu
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &158 &09Defense&00&03: &1522
+&14Ki Cost&00&03: &1530
+&11Specials&00&03:&15Buu can heal 25 damage to owner's pl if they pay 15 ki points.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2505
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Cell
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1512 &09Defense&00&03: &1512
+&14Ki Cost&00&03: &1520
+&11Specials&00&03:&15Cell can regenerate back to owner's hand if you pay 25 ki points the turn he is killed.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2506
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Piccolo
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1510 &09Defense&00&03: &1510
+&14Ki Cost&00&03: &1515
+&11Specials&00&03:&15Piccolo has the learned ability kyodaika, and can triple his power for one turn, if owner pays 10 ki points.
+~
+16 65536 1
+20 0 0 0
+1 1000 0
+E
+sandwich finger~
+It would look quite tasty if someone had first removed the fingernails!
+~
+#2507
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Yamcha
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &157 &09Defense&00&03: &1510
+&14Ki Cost&00&03: &1510
+&11Specials&00&03:&15Yamcha has the learned ability Spirit Ball, and can do 50 points of damage to target warrior if owner pays 30 ki points..
+~
+16 8 16385
+0 0 0 0
+1 1000 0
+E
+broom straw~
+A magical flying broomstick?  Nah!  Not here.
+~
+#2508
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Tien
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1510 &09Defense&00&03: &157
+&14Ki Cost&00&03: &1510
+&11Specials&00&03:&15Tien has the learned ability Tribeam, and can do 25 damage to opposing player if owner pays 30 ki points.
+~
+16 0 0
+0 0 0 0
+1 1000 0
+#2509
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Krillin
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &158 &09Defense&00&03: &158
+&14Ki Cost&00&03: &1510
+&11Specials&00&03:&15 Krillin has the learned ability Destructo Disc and can kill one warrior instantly. This costs 50 ki, and can only be done once.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2510
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Cooler
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1516 &09Defense&00&03: &1510
+&14Ki Cost&00&03: &1520
+&11Specials&00&03:&15When Cooler comes into play, play any other warrior card for free that turn.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2511
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Frieza
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1510 &09Defense&00&03: &1516
+&14Ki Cost&00&03: &1520
+&11Specials&00&03:&15When Frieza enters play opponent discards two cards.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2512
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Raditz
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &158 &09Defense&00&03: &159
+&14Ki Cost&00&03: &1510
+&11Specials&00&03:&15Play any other saiyan card for free the turn Raditz is played.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2513
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Nappa
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1514 &09Defense&00&03: &155
+&14Ki Cost&00&03: &1515
+&11Specials&00&03:&15Sacrifice Nappa and heal your pl equal to his defense.
+~
+16 64 8193
+0 2 6 7
+1 1000 0
+A
+18 2
+A
+1 1
+#2514
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Nail
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &155 &09Defense&00&03: &1514
+&14Ki Cost&00&03: &1515
+&11Specials&00&03:&15If there is a namek card in play, merge nail to them if owner chooses to. New namek has both cards' combined power and defense.
+~
+16 1 0
+0 0 0 0
+1 1000 0
+#2515
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Ginyu
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1512 &09Defense&00&03: &158
+&14Ki Cost&00&03: &1515
+&11Specials&00&03:&15Ginyu has the learned ability Body Switch, if owner pays 75 ki points, they can gain control over target warrior opponent controls. Opponent gets control over Ginyu card minus the body switch ability.
+~
+16 65548 1
+0 0 0 0
+1 1000 0
+#2516
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Gohan
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1513 &09Defense&00&03: &1513
+&14Ki Cost&00&03: &1525
+&11Specials&00&03:&15Gohan has the learned ability Masenko. This can do 10 damage to every enemy warrior and the opposing player if owner pays 30 ki points.
+~
+16 0 8193
+0 1 8 3
+1 1000 0
+A
+18 1
+A
+19 2
+#2517
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Trunks
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1512 &09Defense&00&03: &1512
+&14Ki Cost&00&03: &1520
+&11Specials&00&03:&15If owner controls one or more half breeds when Trunks comes into play, Trunks has 5 more power.
+~
+16 0 8193
+0 0 0 0
+1 1000 0
+A
+18 2
+A
+19 2
+#2518
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Goten
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1514 &09Defense&00&03: &1510
+&14Ki Cost&00&03: &1520
+&11Specials&00&03:&15All technique cards by owning player played while goten is in play will have half ki costs.
+~
+16 0 8193
+0 0 0 0
+1 1000 0
+A
+13 3
+#2519
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Android 19
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &159 &09Defense&00&03: &159
+&14Ki Cost&00&03: &1510
+&11Specials&00&03:&15When Android 19 comes into play, half defense of target warrior for that turn.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2520
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Android 18
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1510 &09Defense&00&03: &1510
+&14Ki Cost&00&03: &1515
+&11Specials&00&03:&15Sacrifice any android and double Android 18's power for one turn.
+~
+16 0 0
+0 0 0 0
+1 1000 0
+#2521
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Android 17
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1511 &09Defense&00&03: &1511
+&14Ki Cost&00&03: &1515
+&11Specials&00&03:&15When Android 17 comes into play, draw a card.
+~
+16 0 0
+0 0 0 0
+1 1000 0
+#2522
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Android 16
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1513 &09Defense&00&03: &1513
+&14Ki Cost&00&03: &1520
+&11Specials&00&03:&15When Android 16 comes into play, opponent reveals a card from their hand.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2523
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Gero
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &157 &09Defense&00&03: &157
+&14Ki Cost&00&03: &1515
+&11Specials&00&03:&15When Gero comes into play, double all defense of other androids till Gero is destroyed.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2524
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Saiba
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &153 &09Defense&00&03: &153
+&14Ki Cost&00&03: &153
+&11Specials&00&03:&15None.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2525
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Saiba Elite
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &155 &09Defense&00&03: &155
+&14Ki Cost&00&03: &155
+&11Specials&00&03:&15None.
+~
+16 0 16385
+0 0 0 0
+1 1000 0
+#2526
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Henchman
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &152 &09Defense&00&03: &154
+&14Ki Cost&00&03: &155
+&11Specials&00&03:&15None.
+~
+16 0 16385
+20 4 4 4
+1 1000 0
+#2527
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Dabura
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1518 &09Defense&00&03: &158
+&14Ki Cost&00&03: &1525
+&11Specials&00&03:&15Dabura has the learned ability stone spit, target card is unable to attack when Dabura enters play and until Dabura leaves play.
+~
+16 0 16385
+0 0 0 0
+1 1000 0
+#2528
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Mutant Henchman
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &156 &09Defense&00&03: &154
+&14Ki Cost&00&03: &155
+&11Specials&00&03:&15None.
+~
+16 0 16385
+0 0 0 0
+1 1000 0
+#2529
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Dodoria
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1513 &09Defense&00&03: &155
+&14Ki Cost&00&03: &1510
+&11Specials&00&03:&15 None.
+~
+16 0 16385
+0 0 0 0
+1 1000 0
+#2530
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Zarbon
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1514 &09Defense&00&03: &158
+&14Ki Cost&00&03: &1515
+&11Specials&00&03:&15 If owner has Frieza in play when Zarbon enters play, double Frieza's power till Zarbon is destroyed.
+~
+16 0 0
+0 0 0 0
+1 1000 0
+#2531
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Gotenks
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1530 &09Defense&00&03: &1530
+&14Ki Cost&00&03: &1530
+&11Specials&00&03:&15You must have a Goten and Trunks card in play to use this card. When Gotenks enters play, goten and trunks return to owner's hand. 
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2532
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Vegito
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1545 &09Defense&00&03: &1545
+&14Ki Cost&00&03: &1550
+&11Specials&00&03:&15You must have a Goku and Vegeta card in play to use this card. When Vegito enters play, goku and vegeta return to owner's hand.
+~
+16 0 16385
+0 0 0 0
+1 1000 0
+#2533
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Supreme Kai
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1515 &09Defense&00&03: &1512
+&14Ki Cost&00&03: &1525
+&11Specials&00&03:&15While supreme kai is in play, all other cards owner has in play gain 5 power and defense.
+~
+16 0 0
+500 0 -1 0
+1 1000 0
+#2534
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Kibito
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &156 &09Defense&00&03: &156
+&14Ki Cost&00&03: &1510
+&11Specials&00&03:&15Sacrifice Kibito and prevent target card from being destroyed.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+3 1
+A
+4 1
+#2535
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Newbie Martial Artist
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &152 &09Defense&00&03: &152
+&14Ki Cost&00&03: &152
+&11Specials&00&03:&15None.
+~
+16 0 0
+0 0 0 0
+1 1000 0
+#2536
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Novice Martial Artist
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &153 &09Defense&00&03: &152
+&14Ki Cost&00&03: &153
+&11Specials&00&03:&15None.
+~
+16 282 5
+0 0 0 0
+1 1000 0
+A
+4 2
+A
+5 -1
+#2537
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Expert Martial Artist
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &154 &09Defense&00&03: &153
+&14Ki Cost&00&03: &155
+&11Specials&00&03:&15None.
+~
+16 65 0
+0 0 0 0
+1 1000 0
+#2538
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Master Martial Artist
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &155 &09Defense&00&03: &155
+&14Ki Cost&00&03: &155
+&11Specials&00&03:&15None.
+~
+16 0 16385
+0 0 0 0
+1 1000 0
+A
+24 -1
+#2539
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Cell Jr
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &156 &09Defense&00&03: &154
+&14Ki Cost&00&03: &158
+&11Specials&00&03:&15Cell Jr can be sacrificed to destroy target warrior or equipment.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2540
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Super Human
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &157 &09Defense&00&03: &157
+&14Ki Cost&00&03: &158
+&11Specials&00&03:&15None.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -5
+A
+24 -3
+#2541
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Saiyan Warrior
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &155 &09Defense&00&03: &155
+&14Ki Cost&00&03: &155
+&11Specials&00&03:&15None.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+2 2
+A
+17 -3
+#2542
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Saiyan Elite
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &158 &09Defense&00&03: &157
+&14Ki Cost&00&03: &155
+&11Specials&00&03:&15If Vegetaou is in play when Saiyan Elite is played, Saiyan Elite gets to attack twice each turn.
+~
+16 64 1
+0 0 0 0
+1 1000 0
+A
+14 15
+#2543
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Lava Worm
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &151 &09Defense&00&03: &155
+&14Ki Cost&00&03: &155
+&11Specials&00&03:&15 Sacrifice Lava worm and you may play an extra ki card that turn.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2544
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15King Cold
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &1510 &09Defense&00&03: &158
+&14Ki Cost&00&03: &1515
+&11Specials&00&03:&15All warriors under your control have double power, and must attack every turn..
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2545
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Kami
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &154 &09Defense&00&03: &1512
+&14Ki Cost&00&03: &1510
+&11Specials&00&03:&15All warriors under your control have double defense, for one turn whenever you pay 20 ki..
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2546
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Korin
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &151 &09Defense&00&03: &1510
+&14Ki Cost&00&03: &1520
+&11Specials&00&03:&15Owner takes no damage as long as Korin is in play..
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2547
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Shadow Konatsu
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &156 &09Defense&00&03: &1518
+&14Ki Cost&00&03: &1510
+&11Specials&00&03:&15None.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2548
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Vegetaou
+&12Card Type&00&03: &15Warrior
+&09Power&00&03: &156 &09Defense&00&03: &1518
+&14Ki Cost&00&03: &1520
+&11Specials&00&03:&15All saiyans get +5 to their defense.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+12 -100
+A
+14 -82
+#2549
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Kishot
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&155
+&11Speciail&00&03:&15 Does 20 Base damage
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+18 1
+#2550
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Beam
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&158
+&11Speciail&00&03:&15 Does 25 Base damage
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2551
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Tsuihidan
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1510
+&11Speciail&00&03:&15 Does 30 Base damage to target warrior only
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -6
+#2552
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Shogekiha
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1515
+&11Speciail&00&03:&15 Does 30 Base damage.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2553
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Kamehameha
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1520
+&11Speciail&00&03:&15 Does 50 Base damage.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2554
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Kakusanha
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1540
+&11Speciail&00&03:&15 Does 25 Base damage to all enemy warriors.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2555
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Genki Dama
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1550
+&11Speciail&00&03:&15 Does 50 Base damage.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2556
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Final Flash
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1530
+&11Speciail&00&03:&15 Does 30 Base damage and drains 5 ki from opposing player's kli pool.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+24 -1
+#2557
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Destructo Disc
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1540
+&11Special&00&03:&15Kill target warrior..
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2558
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Rising Phoenix Slash
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1560
+&11Special&00&03:&15100 base damage.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2559
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Big Bang Kamehameha
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1570
+&11Special&00&03:&15200 base damage.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2560
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Kaioken
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1520
+&11Special&00&03:&15Double power and defense of target warrior.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+E
+potion effervescent~
+Ahh!  Schwepes Sparkling Soda a refreshing drink.
+~
+#2561
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Solar Flare
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1515
+&11Special&00&03:&15Target warrior can not attack.
+~
+16 64 1
+0 0 0 0
+1 1000 0
+#2562
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Hasshuken
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1525
+&11Special&00&03:&15Quadruple power for target warrior.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2563
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Zanzoken
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1515
+&11Special&00&03:&15Target warrior can not be hit with attack cards..
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+3 -6
+#2564
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Invisible
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1525
+&11Special&00&03:&15Target warrior can not be blocked.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2565
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Kyodaika
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1525
+&11Special&00&03:&15Target warrior has triple power.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2566
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Barrier
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1540
+&11Special&00&03:&15All damage to owner is halved.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2567
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Saiyan Armor
+&12Card Type&00&03: &15Equipment
+&14Ki cost&00&03:&1510
+&11Special&00&03:&15+5 defense to equiped warrior
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+2 1
+#2568
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Energy Blaster
+&12Card Type&00&03: &15Equipment
+&14Ki cost&00&03:&1510
+&11Special&00&03:&15+5 power to equiped warrior
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2569
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Proton Staff
+&12Card Type&00&03: &15Equipment
+&14Ki cost&00&03:&1515
+&11Special&00&03:&15+8 power to equiped warrior
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2570
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Royal Scouter
+&12Card Type&00&03: &15Equipment
+&14Ki cost&00&03:&1515
+&11Special&00&03:&15Warrior gains ability - pay 15 ki and see opposing player's hand.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -8
+A
+24 -3
+#2571
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Super Kaioken
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1515
+&11Special&00&03:&15Power and defense for attached warrior are times 8.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2572
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Poison
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1515
+&11Special&00&03:&15As long as this is attached to a warrior, owner of that warrior takes 20 damage per turn and must discard a card. If they have no card to discard they take 40 damage instead..
+~
+16 0 1
+0 0 0 0
+1 1000 0
+#2573
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Curse
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1520
+&11Special&00&03:&15As long as this is attached to a warrior, owner of that warrior can not play any technique cards..
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -9
+A
+24 -2
+#2574
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Heal
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1510
+&11Special&00&03:&15Owner's pl is healed for 50...
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -5
+#2575
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Regenerate
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1530
+&11Special&00&03:&15Owner gets to regenerate one warrior from their graveyard.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -12
+A
+24 -3
+#2576
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Mug
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1520
+&11Special&00&03:&15Owner gets to gain control of target equipment card.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+18 3
+#2577
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Multiform
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1510
+&11Special&00&03:&15Owner gets to bring into play a copy of target warrior for free.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -5
+#2578
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Swiftness
+&12Card Type&00&03: &15Technique
+&14Ki cost&00&03:&1520
+&11Special&00&03:&15Warrior is able to block the turn after it has attacked. 
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -9
+A
+24 -2
+#2579
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Necromancer Crown
+&12Card Type&00&03: &15Equipment
+&14Ki cost&00&03:&1530
+&11Special&00&03:&15Warrior is unkillable 
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+19 2
+#2580
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Silver Bangle
+&12Card Type&00&03: &15Equipment
+&14Ki cost&00&03:&1515
+&11Special&00&03:&15+10 power 
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -12
+A
+24 -3
+#2581
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Kousen
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1515
+&11Special&00&03:&15Destroy target equipment or technique.
+~
+16 0 8193
+0 0 0 0
+1 1000 0
+A
+19 3
+#2582
+Truth Duel Card~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d&00~
+&00&03A &12T&00&07r&00&06u&00&07t&12h &00&03D&11u&16e&15l &11C&15a&16r&00&03d &15has been dropped here.&00~
+&12Card&00&03: &15Havoc Blast
+&12Card Type&00&03: &15Attack
+&14Ki cost&00&03:&1535
+&11Special&00&03:&1550 Base damage to all warriors but the one that launched the attack, destroy ALL techniques.
+~
+16 0 1
+0 0 0 0
+1 1000 0
+A
+17 -9
+A
+24 -2
+#2583
+bracelet white gold~
+a white gold bracelet~
+A hoop of silvery metal is here.~
+~
+9 3136 4097
+0 0 0 0
+5 5000 1000
+A
+18 2
+#2584
+cloak white~
+a &15white&15 &00cloak&00~
+A pile of white cloth is on the ground here.~
+~
+9 3392 5
+0 0 0 0
+7 9000 1500
+A
+17 -12
+A
+24 -3
+#2585
+ivory dagger~
+an ivory hilted dagger~
+An ivory hilted dagger has been left here~
+~
+5 3392 8193
+0 2 6 11
+8 12000 1500
+A
+18 1
+A
+19 2
+#2586
+collar spiked~
+a spiked collar~
+A small spiked collar is here.~
+~
+9 64 5
+0 0 0 0
+9 10000 5000
+A
+17 -2
+A
+19 3
+#2587
+cloak shimmering~
+a shimmering cloak of many colors~
+A multi-colored pile of cloth is here.~
+~
+15 65 5
+100 0 -1 0
+8 25000 5500
+A
+17 -15
+A
+24 -5
+#2588
+emerald ring~
+a small emerald ring~
+A small ring with a green gemstone is here.~
+~
+9 64 3
+0 0 0 0
+5 50000 10000
+A
+12 20
+#2589
+bracelet emerald~
+an emerald bracelet~
+A beautifully crafted hoop of emerald is here.~
+~
+9 64 4097
+0 0 0 0
+5 30000 3500
+A
+17 -5
+A
+3 1
+#2590
+ward major clear crystal~
+a ward major~
+A large clear crystal cube is here.~
+~
+9 65 16385
+0 0 0 0
+6 20000 2000
+A
+17 -10
+A
+24 -2
+#2591
+ebony kris~
+the ebony kris~
+A wavy bladed knife made of ebony is here.~
+~
+5 64 8193
+0 3 4 11
+9 60000 5000
+A
+2 2
+A
+19 5
+#2592
+green scale shirt~
+a tight fitting green dragon scale shirt~
+Some green dragon scales which have been sewn together are here.~
+~
+9 64 9
+10 0 0 0
+9 10000 1000
+E
+green scale shirt~
+this Green dragon scale shirt was made from a poor unfortunate green dragon.
+~
+A
+2 3
+A
+17 -5
+#2593
+key grey metal~
+a grey key~
+A key made of a strange grey metal has been left here.~
+~
+19 65548 16385
+2593 0 0 0
+2 0 0
+#2594
+key black obsidian~
+a black key~
+A key made of black obsidian has been left here.~
+~
+19 65548 16385
+2594 0 0 0
+2 0 0
+#2595
+key white ivory~
+a white key~
+A key made of white ivory has been left here.~
+~
+19 65548 16385
+2595 0 0 0
+2 0 0
+#2600
+Earth Map~
+&10E&00&02a&00&03r&00&02t&10h &12Map&00~
+&15An &10E&00&02a&00&03r&00&02t&10h &12Map &15has been dropped here.&00~
+Grassy Meadow: 2n 9e 6n 1e
+Akibura Shopping Mall: 2n 4e 1n
+Shell Beach: 2n 6e 4s 4e 3s
+Heaven's Gate Dojo: 2n 5w 1n
+Rikkai's Pay Lake: 2n 8w 1n 5w
+Shadow Forest: 2n 8w 9n 10w
+Stepe Valley: 2n 8w 9n 10w 3n 1e 2n 1w 1n 2w 1s 1w 1n 1w
+Indian Village: 2n 8w 9n 10w 3n 1e 2n 1w 1n 2w 1s 1w 1n 2w 1d 1w 1d 3w 1d 2w 
+2n
+Korin's Tower: 2n 8w 9n 10w 3n 1e 2n 1w 1n 2w 1s 1w 1n 2w 1d 1w 1d 3w 1d 2w 
+9n 4e 7n
+Kami's Lookout: 2n 8w 9n 10w 3n 1e 2n 1w 1n 2w 1s 1w 1n 2w 1d 1w 1d 3w 1d 2w 
+9n 4e 7n 19u open window 9u
+Mountain Trail: 2n 8w 9n 10w 3n 1e 2n 1w 6n 1u 1n 1d 2n
+Teiman Cave: 2n 8w 9n 10w 3n 1e 2n 1w 6n 1u 1n 1d 2n 1w 1n 1w 2n 1w 1n 1d 1n 
+1w 2n
+Gero's Lab: 2n 8w 9n 10w 3n 1e 2n 1w 6n 1u 1n 1d 2n 1w 1n 1w 2n 1w 1n 1d 1n 
+1w 5n
+Warehouse Rave: 2n 4e 8n 1e 2n
+Theater: 2n 4e 8n 3w 1n
+Neo Nirvana: 2n 4e 7n 1e open dumpster 1n say Nirvana
+Majinton: 2n 8w 13n 2e 1n say I bring lots of candy!
+Clouded Desert Plain: 2n 4e 8n 2w 6n
+Desert Cave: 2n 4e 8n 2w 11n
+Elemental Cave?: 2n 4e 8n 2w 13n 2e 1s 1e 3n 7e 3u 3e
+Dilapidated Church: 2n 9e 6n 10e 9n
+Paintball:2n 9e 1n 4e 5s 5e
+Roshi's Island: 2n 6e 4s 4e 3s 16e 10s
+Forsaken Temple: 2n 6e 4s 4e 3s 8w 9s
+West City: 2n 6e 4s 4e 3s 5e 38s
+Capsule Corp: 2n 6e 4s 4e 3s 5e 42s 3w 1s 1w
+World Tournament: 2n 6e 4s 4e 3s 5e 50s 3w 3s 1w 1s 5w 2n 1w
+West City Hospital: 2n 6e 4s 4e 3s 5e 50s 3e 1s 3e 2n 2e 2s 1e
+Reclamation Inc: 2n 6e 4s 4e 3s 5e 50s 3e 5s 1w 1s 2w 4s 3e 4s 3w 7s 5e
+Recording Studio: 2n 6e 4s 4e 3s 5e 50s 3e 5s 1w 1s 2w 4s 3w
+~
+16 0 1
+0 0 0 0
+1 20000 0
+#2601
+Vegeta Map~
+&11V&00&03e&16ge&00&03t&11a &12Map&00~
+&15A &11V&00&03e&16ge&00&03t&11a &12Map &15has been dropped here.&00~
+Black Glass Pyramid: 1n 1w 1n 1d
+Forsaken Dragon Arena: 1n 1w 1n 2d 4s 3e 3n 5e 1s
+Neo Nirvana: 1n 1w 1n 2d 4s 3e 3n 5e 3s 5e 1d say quack
+Alabaster Temple: 1n 1w 1n 2d 4s 3e 3s 1e 2s
+Fury Plateau: 1n 1w 1n 2d 4s 3e 3n 3e 5n 1e 1n 1e 2n 3w 2n 6w 2n 5e 2s
+Fury Cavern: 1n 1w 1n 2d 4s 3e 3n 3e 5n 1e 1n 1e 2n 3w 2n 6w 2n 5e 8s 1d
+Alabaster Barracks: 1n 1w 1n 2d 4s 3e 3n 3e 5n 1e 1n 1e 2n 3w 2n 6w 2n 5e 2s 
+1e 16s 5e 4s 2w
+Forgotten Soul Desert: 1n 1w 1n 2d 4s 3e 3n 4e 5n 3w 3n 2w 2n
+Ancient Battlefield: 1n 1w 1n 2d 4s 3e 3n 4e 5n 3w 3n 2w 12n 5e 1d 1n 2w 2n
+Temple of the Ancients: 1n 1w 1n 2d 4s 3e 3n 4e 5n 3w 3n 2w 12n 5e 1d 1n 2w 
+2n 5w 2n 2e 7n 4w 10n
+Vortex of Darkness: 1n 1w 1n 2d 4s 3e 3n 4e 5n 3w 3n 2w 12n 5e 1d 1n 2w 2n 
+5w 2n 2e 7n 4w 16n 10u 1s
+~
+16 0 1
+0 0 0 0
+1 20000 0
+#2602
+Neo Nirvana Map~
+&10N&00&02e&16o &15N&16i&00&02r&10v&00&02a&16n&15a &12Map&00~
+&15A &10N&00&02e&16o &15N&16i&00&02r&10v&00&02a&16n&15a &12Map &15has been dropped here.&00~
+Truffle Transport: 2n 1d
+Bio Dome 1 - Jungle: 2n 1d 2w 19n 15w 9s 9e 10n 1d 6w 4s 4e say second 3n
+Bio Dome 2 - Farm: 2n 1d 2w 19n 15w 9s 9e 10n 1d 6w 4s 4e say third 4n
+Bio Dome 3 - Marijuana: 2n 1d 2w 19n 15w 9s 9e 10n 1d 6w 4s 4e say fourth 5n
+Bio Dome 4 - Dojo: 2n 1d 2w 19n 15w 9s 9e 10n 1d 6w 4s 4e say fifth 5n
+Neo Nirvana Barracks: 2n 1d 2w 19n 15w 9s 9e 10n 1d 6w 4s 4e say sixth 5n
+Desecration Laboratory: 2n 1d 2w 19n 15w 9s 9e 10n 1d 6w 4s 4e say seventh 
+5n
+~
+16 0 1
+0 0 0 0
+1 20000 0
+#2603
+Majinton Map~
+&13M&00&05a&16j&00&05i&13n&15t&13o&00&05n &12Map&00~
+&15A &13M&00&05a&16j&00&05i&13n&15t&13o&00&05n &12Map &15has been dropped here.&00~
+Earth: 1d 2s 1d
+Gumball Cavern: 1d 1s 2w 3s 2w
+Candy Factory: 1d 1s 2e 4s 4e 2s 2e
+Liquorish Field: 1d 1s 2w 14s 1e 5s 2w
+~
+16 0 1
+0 0 0 0
+1 20000 0
+#2604
+Namek Map~
+&10N&00&02a&00&03m&00&02e&10k &12Map&00~
+&15A &10N&00&02a&00&03m&00&02e&10k &12Map &15has been dropped here.&00~
+Namekian Plains: 1d 2e 1n
+Namekian Swamplands: 1d 2e 1n 23w
+Hidden Cave: 1d 2e 1n 30w 1d 1e
+Cavern Door?: 1d 2e 1n 30w 1d 6e 3d 1n 1e 1s 1w 1n 1e 1s 1w 1n 1e 1s 1w
+Namekian Underground River Cavern: 1d 2e 1n 30w 1d 6w 7d 1w
+Namekian Forest: 1d 2e 1n 14e
+Ghette Star: 1d 2e 1n 15e 12s 2e 12s
+Namekian Dry: 1d 2e 1n 3e 5s 1w 4s
+Gust Temple: 1d 2e 1n 3e 5s 1w 4s 3e 2s 4e 12s
+Porunga Plains: 1d 2e 5n 6w 1s 2w
+Porunga Village: 1d 2e 5n 6w 1s 4w 7n 4e 4n
+Frieza's Ship: 1d 2e 5n 6w 1s 4w 7n 4e 9n 7w
+Cavern of the Goddess: 1d 2e 7n 7d 3n 1u
+Guru Isle Market: 1d 2e 9n
+Underground River: 1d 2e 9n 7e 5d
+~
+16 0 1
+0 0 0 0
+1 20000 0
+#2605
+Frigid Map~
+&14F&00&06r&16ig&00&06i&14d &12Map&00~
+&15A &14F&00&06r&16ig&00&06i&14d &12Map &15has been dropped here.&00~
+Cicle City Prison: 1d 2s 9e 1s
+Gnarl Snow Field: 1d 2s 14e
+Glug Volcano: 1d 2s 19e 1s 5w 1s 5e 1s 4w 4s
+Frost Forest: 1d 2s 4e 3n
+Frostbite Sea: 1d 2s 4e 3n 1w 3n 1w 3n 2e 9n 1e 2n 1w 1n
+[PK] Chill Cavern: 1d 2s 4e 3n 1w 3n 1w 3n 2e 9n 1e 2n 1w 1n 4w 3n 5w 1s
+Slave City: 1d 2s 4e 3n 1w 3n 1w 3n 2e 9n 1e 2n 1w 1n 2e 12n 4e 5n 1w 7n
+Rampage Arena: 1d 2s 4e 3n 1w 3n 1w 3n 2e 9n 1e 2n 1w 1n 2e 12n 4e 5n 1w 7n 
+3w 8n 1e give ticket taker
+Slave Market: 1d 2s 4e 3n 1w 3n 1w 3n 2e 9n 1e 2n 1w 1n 2e 12n 4e 5n 1w 7n 
+5e 8n 3w 2n 1w
+Slave City Sewers: 1d 2s 4e 3n 1w 3n 1w 3n 2e 9n 1e 2n 1w 1n 2e 12n 4e 5n 1w 
+7n 5e 13n unlock grate 1d
+Wheeling Gull Dojo: 1d 2s 4e 3n 1w 3n 1w 3n 2e 9n 1e 2n 1w 1n 2e 12n 4e 5n 
+1w 7n 5e 5n 1e
+Military Academy: 1d 2s 4e 3n 1w 3n 1w 3n 2e 9n 1e 2n 1w 1n 2e 12n 4e 5n 1w 
+7n 3e 1n
+Froz Canyon: 1d 2s 2w 16s 8e 5s 1d
+Ancient Ship: 1d 2s 2w 16s 8e 5s 1d 8s 2w 5s 5e 6s open hatch
+Royal Palace: 1d 2s 2w 10s 4u 1s
+Icetip Mountain: 1d 2s 2w 2s 5w 1n
+Blizzard Plains: 1d 2s 2w 2s 5w 1n 4w 4s 2e 1u 3s 4w 6s 8w
+Royal Labs: 1d 2s 2w 2s 5w 1n 4w 4s 2e 1u 3s 4w 6s 17w 1n 6w say avalanche
+~
+16 0 1
+0 0 0 0
+1 20000 0
+#2606
+Konack Map~
+&00&07K&15o&16na&15c&00&07k &12Map&00~
+&15A &00&07K&15o&16na&15c&00&07k &12Map &15has been dropped here.&00~
+Evergreen Forest: 5n 2w 2s
+Mitsurugi Academy: 5n 3e 1s
+Shaengarn Clan: 5n 4w 2n
+Dimly Lit Cave: 7n 2e 3n 2e
+Cerebus: 7n 2e 3n 2e 3n 2w 1s 1w 1s 1e 1d 4s 3d 3e
+Syndicate: 7n 2e 3n 2e 3n 2w 1s 1w 1s 1e 1d 4s 3d 10e
+Tetsigen: 5n 2w 5s 2w 4s 1e 1s 1e 1n 10e
+Training Camp: 5n 2w 5s 2w 4s 1e 1s 1e 1n 13e 5n 2e 3n
+Training Camp 2: 1s 1e 11s give 300 coins samurai 1s
+Cave of Acceptance:  5n 2w 5s 2w 4s 1e 1s 1e 1n 13e 5n 2e 4n 4e 1n
+Valshek Volcano: 5n 2w 5s 2w 4s 1e 1s 1e 1n 18e 1u 1e 1n 1u 2e 1s 1e 3u 2e
+[PK] Battlefield of Ruin: 5n 2w 5s 2w 4s 1e 1s 1e 1n 13e 4s
+~
+16 0 1
+0 0 0 0
+1 20000 0
+#2607
+Orainas Map~
+&00&07O&11r&14a&00&06i&16n&14a&00&07s &12Map&00~
+&15A &00&07O&11r&14a&00&06i&16n&14a&00&07s &12Map &15has been dropped here.&00~
+Plateau of Serenity: 1n 2w 2s 1w 1s 1w 2s 2e 1d 1s 9w 3s 1e 1d
+Tower of Engel: 1n 2w 2s 1w 1s 1w 2s 2e 1d 1s 7w 4n 2w 1n
+Palandir Cave: 1n 2w 2s 1w 1s 1w 2s 2e 1d 1s 9w 4s 6w 4s
+Sparkling Factory: 1n 2w 2s 1w 1s 1w 2s 2e 1d 1s 9w 6s 8e 3s 1e 1s
+Fallen Star Dojo: 1n 2w 2s 1w 1s 1w 2s 2e 1d 1s 6e 1s 1e
+Runehenge: 1n 2w 2s 1w 1s 1w 2s 2e 1d 1s 6e 4s 4w 6n
+~
+16 0 1
+0 0 0 0
+1 20000 0
+#2608
+Hell Map~
+&00&01H&16e&15l&09l &12Map&00~
+&15A &00&01H&16e&15l&09l &12Map &15has been dropped here.&00~
+Inferno City Gym: 1n 1e 2n 2e 5s 3w 1s
+Inferno City Graveyard: 1n 2w 2n 2w 3s 3w 2s
+Graveyard Crypt: 1n 1w 2n 2w 3s 3w 4s 1d Open Slab 1e
+King Kai's Planet: 1n 2w 2n 1w 2n 4w 2n 2w 2u 3n 1e 67n 1u 1n
+Baphomet's Lair: 1n 1e 2n 2e 3n 1e
+King Yema's Tree: 1n 2w 2n 1w 2n 4w 2n 2w
+Field of Insane Souls: 1n 2w 2n 1w 2n 5w
+Unholy Glade: 1n 2w 2n 1w 2n 5w 1s 1e 1s 1e 1s 1e 1s 3e
+Distorted Entranceway: 1n 2w 2n 1w 2n 5w 1s 1e 1s 1e 1s 1e 1s 9e 2n 2e 
+Demon Catacombs: 1n 2w 2n 1w 2n 5w 1s 1e 1s 1e 1s 1e 1s 9e 2n 2e 1d 7e 1d 2s 1e 2s 1w 2s 4e 5s 4w 1s 2w
+The Unhallowed Tomb: 1n 2w 2n 1w 2n 5w 1s 1e 1s 1e 1s 1e 1s 9e 2n 2e 1d 7e 1d 2s 1e 2s 1w 2s 4e 5s 4w 1s 6w 4n 2w
+Otherworld: 1n 2w 2n 1w 2n 4w 2n 2w 2u 2e 1n say fly
+Sapphire Mine: 1n 2w 2n 1w 2n 4w 2n 2w 2u 2e 1n say fly 1e 4n 7e 1n 3e
+Mystical Forest: 1n 2w 2n 1w 2n 4w 2n 2w 2u 2e 1n say fly 1e 4n 4w
+~
+16 0 1
+0 0 0 0
+1 20000 0
+$~

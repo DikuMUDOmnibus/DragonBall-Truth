@@ -1,0 +1,179 @@
+#17100
+Training Angel~
+&16T&00&03r&11a&15i&16n&00&03i&11n&15g &11A&00&03n&16g&15e&00l~
+&16T&00&03r&11a&15i&16n&00&03i&11n&15g &11A&00&03n&16g&15e&00l is standing here, practicing his stances.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 0 0 1d1+300 1d1+40
+75 25000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17101
+Training Angel~
+&16T&00&03r&11a&15i&16n&00&03i&11n&15g &11A&00&03n&16g&15e&00l~
+&16T&00&03r&11a&15i&16n&00&03i&11n&15g &11A&00&03n&16g&15e&00l in practicing her kicks.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 0 0 1d1+400 1d1+40
+80 30000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17102
+Training Angel~
+&16T&00&03r&11a&15i&16n&00&03i&11n&15g &11A&00&03n&16g&15e&00l~
+&16T&00&03r&11a&15i&16n&00&03i&11n&15g &11A&00&03n&16g&15e&00l floats here in deep meditation.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 0 0 1d1+550 1d1+40
+100 35000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17103
+Child Angel~
+&11C&00&03h&15i&00&03l&11d A&00&03n&16g&15e&00l~
+&00A &11C&00&03h&15i&00&03l&11d A&00&03n&16g&15e&00l walks around looking for mischief.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 0 0 1d1+550 1d1+40
+75 35000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17104
+Orainassis City Guard~
+&00O&15r&16a&00&06i&14n&11a&00&03s&16s&15i&00s &14C&00i&15t&16y &14G&00&06u&16a&00&06r&14d&00~
+&00An &00O&15r&16a&00&06i&14n&11a&00&03s&16s&15i&00s &14C&00i&15t&16y &14G&00&06u&16a&00&06r&14d&00 patrolling the city limits.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -20 0 1d1+5000 1d1+500
+200 200000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17105
+Adult Angel~
+&14A&16d&00&06u&16l&14t &11A&00&03n&16g&15e&00l~
+&00An &14A&16d&00&06u&16l&14t &11A&00&03n&16g&15e&00l walks around while cleaning his wings.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 0 0 1d1+500 1d1+40
+90 30000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17106
+Female Angel~
+&00&05F&13e&15m&00a&00&05l&13e &11A&00&03n&16g&15e&00l~
+&00A &00&05F&13e&15m&00a&00&05l&13e &11A&00&03n&16g&15e&00l stands with a suggestive smile.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 0 0 1d1+300 1d1+40
+75 25000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17107
+Male Angel~
+&14M&00a&16l&00&06e &11A&00&03n&16g&15e&00l~
+&00A &14M&00a&16l&00&06e &11A&00&03n&16g&15e&00l stands here with a grin.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 0 0 1d1+420 1d1+40
+85 32000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17108
+Angel Transport Pilot~
+&11A&00&03n&16g&15e&00l &15T&16r&00anspo&16r&15t &14P&16ilo&14t&00~
+&00An &11A&00&03n&16g&15e&00l &15T&16r&00anspo&16r&15t &14P&16ilo&14t&00 stands here, waiting for passengers.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 17136
+T 17137
+#17109
+Angel Transport Ship~
+&11A&00&03n&16g&15e&00l &15T&16r&00anspo&16r&15t &14S&16h&15ip&00~
+&00A &11A&00&03n&16g&15e&00l &15T&16r&00anspo&16r&15t &14S&16h&15ip&00 hovers here, waiting for its passengers to input a destination.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17136
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

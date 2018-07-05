@@ -1,0 +1,4 @@
+make ../bin/circle
+make[1]: Entering directory `/home/m053car2/dbt/src'
+gcc -c -g -O2 -Wall -Wno-char-subscripts  comm.c
+make[1]: Leaving directory `/home/m053car2/dbt/src'

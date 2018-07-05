@@ -1,0 +1,1529 @@
+#100
+&00&15D&15&00&03u&03&00&11s&11&00&03t&03&00&15y&15&00 &00&16Path&16&00~
+   &00&06You are headed down a dusty path.  There arn't many in the area except
+for a few small shrubs here and there.  Tiny dust tornados swirl around as the
+wind blows.  The path is basically lifeless.  &06&00
+~
+1 0 2
+D0
+~
+~
+0 0 101
+D1
+You see nothing special.
+~
+~
+0 -1 106
+E
+Greg~
+WOW HE IS BUFF.
+~
+S
+#101
+&00&15D&15&00&03u&03&00&11s&11&00&03t&03&00&15y&15&00 &00&16Path&16&00~
+   &00&06You are headed down a dusty path.  There arn't many in the area except
+for a few small shrubs here and there.  Tiny dust tornados swirl around as the
+wind blows.  The path is basically lifeless.  &06&00
+~
+1 0 2
+D0
+~
+~
+0 0 102
+D2
+~
+~
+0 0 100
+E
+plaque~
+This is the holy ground for the Lin Kuei ninjas.  Those who enter are prepared to die!
+~
+S
+#102
+&00&15D&15&00&03u&03&00&11s&11&00&03t&03&00&15y&15&00 &00&16Path&16&00~
+   &00&06You are headed down a dusty path.  There arn't many in the area except
+for a few small shrubs here and there.  Tiny dust tornados swirl around as the
+wind blows.  The path is basically lifeless.  To the west lies an old broken
+down shack.  &06&00
+~
+1 1342177281 0
+D0
+~
+~
+0 0 104
+D2
+~
+~
+0 0 101
+D3
+You see nothing special.
+~
+~
+0 -1 103
+S
+#103
+&00&16Broken Down&16&00 &00&03Shack&03&00~
+   &00&06You are in a old broken down shack.  There is a smell of stale air and
+dust covers everything.  In the corner is a small cot that looks like it was
+recently slept in.  Directly in front of the entrance is a dirty old man
+selling any valuables he may have remaining.  &00&06
+~
+1 8388609 0
+D1
+~
+~
+0 0 102
+S
+#104
+&00&15D&15&00&03u&03&00&11s&11&00&03t&03&00&15y&15&00 &00&16Path&16&00~
+   &00&06You are headed down a dusty path.  There arn't many in the area except
+for a few small shrubs here and there.  Tiny dust tornados swirl around as the
+wind blows.  The path is basically lifeless.  &06&00
+~
+1 8388609 0
+D0
+~
+~
+0 0 105
+D2
+~
+~
+0 0 102
+S
+#105
+&00&02G&02&00&10r&10&00&02a&02&00&10s&10&00&02s&02&00&10y&10&00 &03Plains&~
+   The ground is made of rock and there is no sand covering it.  The air in
+here is eary to breath and it is not hot at all.  The rock to the west seems a
+little out of place.  The rock along the wall are all &03brown&00 but this rock
+is &16gray&00.  There is a little mark on the ground that is pointing to the
+west.  The intersection takes you to two directions north and south.    
+~
+1 8388609 0
+D0
+~
+~
+0 0 112
+D1
+~
+~
+0 0 107
+D2
+~
+~
+0 0 104
+D3
+~
+~
+0 0 106
+E
+wall~
+The wall seems to be gray, maybe you should try to bash it in.
+~
+E
+mark~
+A mark on the groun is pointing to a rock to the west.
+~
+E
+rock~
+The rock seems out of place, maybe if you bash it something will happen.
+~
+E
+gray~
+This one rock is gray while all the others are brown.
+~
+E
+brown~
+All the rocks are brown but one.
+~
+E
+west~
+The wall seems to be gray, maybe you should try to bash it in.
+~
+S
+#106
+undefined~
+   Around you all there is are rocks.  Its is getting cold in the dark cave.  
+You can hear loud sounds coming from both directions.  The path continues to
+the north and to the south.    
+~
+1 8388609 0
+D0
+~
+~
+0 0 111
+D1
+~
+~
+0 0 105
+D3
+~
+~
+0 0 100
+S
+#107
+undefined~
+   Around you all there is are rocks.  Its is getting cold in the dark cave.  
+You can hear loud sounds coming from both directions.  The path continues to
+the north and to the south.    
+~
+1 8388609 0
+D0
+~
+~
+0 0 113
+D1
+~
+~
+0 0 108
+D3
+~
+~
+0 0 105
+S
+#108
+undefined~
+   Around you all there is are rocks.  Its is getting cold in the dark cave.  
+You can hear loud sounds coming from both directions.  The path continues to
+the north and to the south.    
+~
+1 8388609 0
+D0
+~
+~
+0 0 114
+D3
+~
+~
+0 0 107
+S
+#109
+undefined~
+   Around you all there is are rocks.  Its is getting cold in the dark cave.  
+You can hear loud sounds coming from both directions.  The path continues to
+the north and to the south.    
+~
+1 8388609 0
+D0
+~
+~
+0 0 110
+D1
+~
+~
+0 0 106
+S
+#110
+undefined~
+   Around you all there is are rocks.  Its is getting cold in the dark cave.  
+You can hear loud sounds coming from both directions.  The path stops here
+because of the wall infront of you, the only way to go is back.    
+~
+1 268435457 0
+D1
+~
+~
+0 0 111
+D2
+You see nothing special.
+~
+~
+0 -1 109
+S
+#111
+undefined~
+   Around you all there is are rocks.  Its is getting cold in the dark cave.  
+You can hear loud sounds coming from both directions.  The path stops here
+because of the wall infront of you, the only way to go is back.    
+~
+1 0 0
+D1
+~
+~
+0 0 112
+D2
+~
+~
+0 0 106
+D3
+~
+~
+0 0 110
+S
+#112
+undefined~
+   The gray wall is now behind you in front of you now is a large circle, it
+looks to be a arena.  You hear loud crys coming from the center of the arena or
+what looks to be a arena.  The walls at first glance look to be painted red but
+they are painted with blood.  To the west is the arena and back to the east is
+the intersection.    
+~
+1 8388609 0
+D1
+~
+~
+0 0 113
+D2
+~
+~
+0 0 105
+D3
+~
+~
+0 0 111
+S
+#113
+undefined~
+   You enter the Arena only to find out its not a Arena.  The walls are around
+twenty feet high and there are bones lying on the ground everywhere.  The walls
+are stained red from blood and the stench of dead this everywhere.  The only
+way out of the arena is to the east.    
+~
+1 67108865 0
+D1
+~
+~
+0 0 114
+D2
+~
+~
+0 0 107
+D3
+~
+~
+0 0 112
+S
+#114
+undefined~
+   The walls are hot and you are walking over a thin layer of sand.  There is
+not much air to breath, do to the hot air.  The room is small which is making
+it hotter.  There are only two exits one is to the north the other is to the
+south.    
+~
+1 8388609 0
+D2
+~
+~
+0 0 108
+D3
+~
+~
+0 0 113
+S
+#115
+Hot Cave~
+   The walls are hot and you are walking over a thin layer of sand.  There is
+not much air to breath, do to the hot air.  The room is small which is making
+it hotter.  There are only two exits one is to the north the other is to the
+south.    
+~
+1 8388609 0
+S
+#116
+Triexited room~
+   There are now three different exits one is to the west and one is to the
+north and one is to the east.  The room you are in is large and the ground is
+covered in a thin layer of sand, its hard to breath because the heat in the
+room is very high.  The way out of here is to the south.    
+~
+1 67108865 0
+S
+#117
+a Enlarging tunnel~
+   This room is as large as the one you came from, and it get even bigger as
+you walk down it.  The walls hard made of rock and the path seems everlasting.
+You are walking on a hot thin layer of sand that makes your feet burn.  There
+are two exits to the west and to the east.    
+~
+1 134217729 0
+S
+#118
+a Enlarging tunnel~
+   This room is as large as the one you came from, and it get even bigger as
+you walk down it.  The walls hard made of rock and the path seems everlasting.
+You are walking on a hot thin layer of sand that makes your feet burn.  There
+are two exits to the west and to the east.    
+~
+1 134217729 0
+S
+#119
+a Enlarging tunnel~
+   This room is as large as the one you came from, and it get even bigger as
+you walk down it.  The walls hard made of rock and the path seems everlasting.
+You are walking on a hot thin layer of sand that makes your feet burn.  There
+are two exits to the west and to the east.    
+~
+1 134217729 0
+S
+#120
+a Enlarging tunnel~
+   This room is as large as the one you came from, and it get even bigger as
+you walk down it.  The walls hard made of rock and the path seems everlasting.
+You are walking on a hot thin layer of sand that makes your feet burn.  There
+are two exits to the west and to the east.    
+~
+1 134217729 0
+S
+#121
+a Enlarging tunnel~
+   This room is as large as the one you came from, and it get even bigger as
+you walk down it.  The walls hard made of rock and the path seems everlasting.
+You are walking on a hot thin layer of sand that makes your feet burn.  There
+are two exits to the west and to the east.    
+~
+1 134217729 0
+S
+#122
+a Enlarging tunnel~
+   This room is as large as the one you came from, and it get even bigger as
+you walk down it.  The walls hard made of rock and the path seems everlasting.
+You are walking on a hot thin layer of sand that makes your feet burn.  There
+are two exits to the west and to the east.    
+~
+1 134217729 0
+S
+#123
+a Enlarging tunnel~
+   This room is as large as the one you came from, and it get even bigger as
+you walk down it.  The walls hard made of rock and the path seems everlasting.
+You are walking on a hot thin layer of sand that makes your feet burn.  There
+are two exits to the west and to the east.    
+~
+1 134217729 0
+S
+#124
+a Enlarging tunnel~
+   This room is as large as the one you came from, and it get even bigger as
+you walk down it.  The walls hard made of rock and the path seems everlasting.
+You are walking on a hot thin layer of sand that makes your feet burn.  There
+are two exits to the west and to the east.    
+~
+1 134217729 0
+S
+#125
+a Enlarging tunnel~
+   This room is as large as the one you came from, and it get even bigger as
+you walk down it.  The walls hard made of rock and the path seems everlasting.
+You are walking on a hot thin layer of sand that makes your feet burn.  There
+are two exits to the west and to the east.    
+~
+1 134217729 0
+S
+#126
+End of the tunnel~
+   The end of the tunnel is extreamly large and the thin layer of sand on the
+ground is gone.  Its damp and but not making it cold the dampness is coming
+from the heat.  There is no way past this room the only way is the way you came
+from.  There is a exit to the east.    
+~
+1 134217729 0
+S
+#127
+An unfinished room~
+You are in an unfinished room.
+~
+1 0 0
+D0
+~
+~
+0 0 0
+S
+#144
+&12Collective&00 &09Unconscious&00~
+   &11Rings of marble, etched with myriad runes, rotate slowly around a large
+granite platform in the middle of time and space.  The platform itself has all
+the languages of the world inscribed upon it - and the English version, halfway
+between the center and the edge, simply reads "Center of the Collective
+Unconscious".  A circle of golden butterflies almost seem to stalk the edge of
+the platform.  &00
+~
+1 0 0
+S
+#145
+&13Sleeper's Hollow&00~
+   &02Taishyr makes his home here.  The wind blows playfully through this
+ever-changing landscape, dancing through visions of worlds both terrible and
+wonderful.  Only two things are everywhere you travel in this room-world: a
+small glowing light at about eye level and a small, talking penguin.  Both
+follow you wherever you go.  &00
+~
+1 538968080 0
+D4
+~
+~
+0 0 144
+D5
+~
+~
+0 0 16600
+S
+#150
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32772 0
+D1
+~
+~
+0 0 151
+D3
+You see nothing special.
+~
+~
+0 -1 1337
+S
+#151
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D1
+~
+~
+0 0 155
+D3
+~
+~
+0 0 150
+S
+#152
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 153
+D1
+~
+~
+0 0 159
+S
+#153
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 154
+D1
+~
+~
+0 0 160
+D2
+~
+~
+0 0 152
+S
+#154
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 155
+D1
+~
+~
+0 0 161
+D2
+~
+~
+0 0 153
+S
+#155
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 156
+D1
+~
+~
+0 0 162
+D2
+~
+~
+0 0 154
+D3
+~
+~
+0 0 151
+S
+#156
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 157
+D1
+~
+~
+0 0 163
+D2
+~
+~
+0 0 155
+S
+#157
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 158
+D1
+~
+~
+0 0 164
+D2
+~
+~
+0 0 156
+S
+#158
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D1
+~
+~
+0 0 165
+D2
+~
+~
+0 0 157
+S
+#159
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 160
+D1
+~
+~
+0 0 166
+D3
+~
+~
+0 0 152
+S
+#160
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 161
+D1
+~
+~
+0 0 167
+D2
+~
+~
+0 0 159
+D3
+~
+~
+0 0 153
+S
+#161
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 162
+D1
+~
+~
+0 0 168
+D2
+~
+~
+0 0 160
+D3
+~
+~
+0 0 154
+S
+#162
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 163
+D1
+~
+~
+0 0 169
+D2
+~
+~
+0 0 161
+D3
+~
+~
+0 0 155
+S
+#163
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 164
+D1
+~
+~
+0 0 170
+D2
+~
+~
+0 0 162
+D3
+~
+~
+0 0 156
+S
+#164
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 165
+D1
+~
+~
+0 0 171
+D2
+~
+~
+0 0 163
+D3
+~
+~
+0 0 157
+S
+#165
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D1
+~
+~
+0 0 172
+D2
+~
+~
+0 0 164
+D3
+~
+~
+0 0 158
+S
+#166
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 167
+D1
+~
+~
+0 0 173
+D3
+~
+~
+0 0 159
+S
+#167
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 168
+D1
+~
+~
+0 0 174
+D2
+~
+~
+0 0 166
+D3
+~
+~
+0 0 160
+S
+#168
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 169
+D1
+~
+~
+0 0 175
+D2
+~
+~
+0 0 167
+D3
+~
+~
+0 0 161
+S
+#169
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 170
+D1
+~
+~
+0 0 176
+D2
+~
+~
+0 0 168
+D3
+~
+~
+0 0 162
+S
+#170
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 171
+D1
+~
+~
+0 0 177
+D2
+~
+~
+0 0 169
+D3
+~
+~
+0 0 163
+S
+#171
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 172
+D1
+~
+~
+0 0 178
+D2
+~
+~
+0 0 170
+D3
+~
+~
+0 0 164
+S
+#172
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D1
+~
+~
+0 0 179
+D2
+~
+~
+0 0 171
+D3
+~
+~
+0 0 165
+S
+#173
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 174
+D1
+~
+~
+0 0 180
+D3
+~
+~
+0 0 166
+S
+#174
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 175
+D1
+~
+~
+0 0 181
+D2
+~
+~
+0 0 173
+D3
+~
+~
+0 0 167
+S
+#175
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 176
+D1
+~
+~
+0 0 182
+D2
+~
+~
+0 0 174
+D3
+~
+~
+0 0 168
+S
+#176
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 177
+D1
+~
+~
+0 0 183
+D2
+~
+~
+0 0 175
+D3
+~
+~
+0 0 169
+S
+#177
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 178
+D1
+~
+~
+0 0 184
+D2
+~
+~
+0 0 176
+D3
+~
+~
+0 0 184
+S
+#178
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 179
+D1
+~
+~
+0 0 185
+D2
+~
+~
+0 0 177
+D3
+~
+~
+0 0 171
+S
+#179
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D1
+~
+~
+0 0 186
+D2
+~
+~
+0 0 178
+D3
+~
+~
+0 0 172
+S
+#180
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 181
+D1
+~
+~
+0 0 187
+D3
+~
+~
+0 0 173
+S
+#181
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 182
+D1
+~
+~
+0 0 188
+D2
+~
+~
+0 0 180
+D3
+~
+~
+0 0 174
+S
+#182
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 183
+D1
+~
+~
+0 0 189
+D2
+~
+~
+0 0 181
+D3
+~
+~
+0 0 175
+S
+#183
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 184
+D1
+~
+~
+0 0 190
+D2
+~
+~
+0 0 182
+D3
+~
+~
+0 0 176
+S
+#184
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 185
+D1
+~
+~
+0 0 191
+D2
+~
+~
+0 0 183
+D3
+~
+~
+0 0 177
+S
+#185
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 186
+D1
+~
+~
+0 0 192
+D2
+~
+~
+0 0 184
+D3
+~
+~
+0 0 178
+S
+#186
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D1
+~
+~
+0 0 193
+D2
+You see nothing special.
+~
+~
+0 -1 185
+D3
+~
+~
+0 0 179
+S
+#187
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 188
+D3
+~
+~
+0 0 180
+S
+#188
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 189
+D2
+~
+~
+0 0 187
+D3
+~
+~
+0 0 181
+S
+#189
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 190
+D2
+You see nothing special.
+~
+~
+0 -1 188
+D3
+~
+~
+0 0 182
+S
+#190
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 191
+D1
+You see nothing special.
+~
+~
+0 -1 194
+D2
+~
+~
+0 0 189
+D3
+You see nothing special.
+~
+~
+0 -1 183
+S
+#191
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 192
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 190
+D3
+~
+~
+0 0 184
+S
+#192
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 193
+D2
+You see nothing special.
+~
+~
+0 -1 191
+D3
+~
+~
+0 0 182
+S
+#193
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+~
+~
+0 0 192
+D3
+~
+~
+0 0 186
+S
+#194
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D1
+~
+~
+0 0 195
+D3
+You see nothing special.
+~
+~
+0 -1 190
+S
+#195
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 196
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+~
+~
+0 0 194
+S
+#196
+&00&02G&00&10r&00&02as&00&10s&00&02y&00 &03Meadow&00~
+   &15This meadow is tranquil, with waist high grass swaying in the dashes of
+the wind and soft, rich soil underfoot.  Bugs swarm slowly around the field,
+creating small clouds when two or more groups collide.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 197
+D2
+~
+~
+0 0 195
+S
+#197
+&00&04D&00&12a&00&14r&00&06k&00 &02F&00&10ores&00&02t&00~
+   &00&15The woods in this area are thick in these parts, making it dark and
+hard to see through.  &00
+~
+1 32773 0
+D0
+~
+~
+0 0 198
+D2
+~
+~
+0 0 196
+S
+#198
+&00&04D&00&12a&00&14r&00&06k&00 &02F&00&10ores&00&02t&00~
+   &00&15The woods in this area are thick in these parts, making it dark and
+hard to see through.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 199
+D2
+~
+~
+0 0 197
+S
+#199
+&00&04D&00&12a&00&14r&00&06k&00 &02F&00&10ores&00&02t&00~
+   &00&15The woods in this area are thick in these parts, making it dark and
+hard to see through.  &00
+~
+1 32768 0
+D0
+~
+~
+0 0 200
+D2
+~
+~
+0 0 198
+S
+$~

@@ -1,0 +1,1921 @@
+#2900
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Crew Quarters&00~
+   &15This appears to be where a crew member made their home.  Metal shelves
+line the walls, and a metal frame sits where a bed must have rotted away from.
+Various other objects of what appear to be sentimental value are in the process
+of eroding away.  &00
+~
+29 268435456 0
+D3
+~
+~
+0 0 2898
+S
+#2901
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Lower Hallway&00~
+   &15This metal walkway is nearly completly covered in rust, lighting overhead
+flicker on and off, giving a spooky look to the ship.  Faint voices can be
+heard echoing down the hallway, there appears to be no source for the voices
+either.  &00
+~
+29 0 0
+D0
+~
+north libary~
+1 0 2898
+D2
+You see nothing special.
+~
+~
+0 -1 2902
+S
+#2902
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Lower Hallway&00~
+   &15This metal walkway is nearly completly covered in rust, lighting overhead
+flicker on and off, giving a spooky look to the ship.  Faint voices can be
+heard echoing down the hallway, there appears to be no source for the voices
+either.  &00
+~
+29 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 2901
+D5
+You see nothing special.
+~
+~
+0 -1 2903
+S
+#2903
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Cargo Bay&00~
+   &15This wide room is part of the cargo bay, ancient metal crates are stacked
+all throughout the area.  Some of the crates have disintegrated over the years
+leaving a messy heap where they had once stood.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2905
+D2
+You see nothing special.
+~
+~
+0 -1 2907
+D3
+You see nothing special.
+~
+~
+0 -1 2904
+D4
+You see nothing special.
+~
+~
+0 -1 2902
+S
+#2904
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Cargo Bay&00~
+   &15This wide room is part of the cargo bay, ancient metal crates are stacked
+all throughout the area.  Some of the crates have disintergrated over the years
+leaving a messy heap where they had once stood.  &00
+~
+29 0 0
+D1
+~
+~
+0 0 2903
+D2
+You see nothing special.
+~
+~
+0 -1 2906
+S
+#2905
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Cargo Bay&00~
+   &15This wide room is part of the cargo bay, ancient metal crates are stacked
+all throughout the area.  Some of the crates have disintergrated over the years
+leaving a messy heap where they had once stood.  &00
+~
+29 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 2908
+D3
+~
+~
+0 0 2903
+S
+#2906
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Cargo Bay&00~
+   &15This wide room is part of the cargo bay, ancient metal crates are stacked
+all throughout the area.  Some of the crates have disintergrated over the years
+leaving a messy heap where they had once stood.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2904
+D1
+~
+~
+0 0 2907
+D2
+You see nothing special.
+~
+~
+0 -1 2909
+S
+#2907
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Cargo Bay&00~
+   &15This wide room is part of the cargo bay, ancient metal crates are stacked
+all throughout the area.  Some of the crates have disintergrated over the years
+leaving a messy heap where they had once stood.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2903
+D1
+~
+~
+0 0 2908
+D2
+You see nothing special.
+~
+~
+0 -1 2910
+D3
+You see nothing special.
+~
+~
+0 -1 2906
+S
+#2908
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Cargo Bay&00~
+   &15This wide room is part of the cargo bay, ancient metal crates are stacked
+all throughout the area.  Some of the crates have disintergrated over the years
+leaving a messy heap where they had once stood.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2905
+D2
+You see nothing special.
+~
+~
+0 -1 2911
+D3
+~
+~
+0 0 2907
+S
+#2909
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Cargo Bay&00~
+   &15This wide room is part of the cargo bay, ancient metal crates are stacked
+all throughout the area.  Some of the crates have disintergrated over the years
+leaving a messy heap where they had once stood.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2906
+D1
+~
+~
+0 0 2910
+S
+#2910
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Cargo Bay&00~
+   &15This wide room is part of the cargo bay, ancient metal crates are stacked
+all throughout the area.  Some of the crates have disintergrated over the years
+leaving a messy heap where they had once stood.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2907
+D1
+~
+~
+0 0 2911
+D2
+You see nothing special.
+~
+~
+0 -1 2912
+D3
+You see nothing special.
+~
+~
+0 -1 2909
+S
+#2911
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Cargo Bay&00~
+   &15This wide room is part of the cargo bay, ancient metal crates are stacked
+all throughout the area.  Some of the crates have disintergrated over the years
+leaving a messy heap where they had once stood.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2908
+D3
+~
+~
+0 0 2910
+S
+#2912
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck One/Two Stairs&00~
+   &15These ancient steps seem to have been the main means of going from floor
+to floor of the ship when it was still in use.  Large rust holes have appeared
+in many areas of the steps, making them very dangerous to walk on.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2910
+D4
+You see nothing special.
+~
+~
+0 -1 2913
+S
+#2913
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck One/Two Stairs&00~
+   &15These ancient steps seem to have been the main means of going from floor
+to floor of the ship when it was still in use.  Large rust holes have appeared
+in many areas of the steps, making them very dangerous to walk on.  &00
+~
+29 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 2914
+D5
+~
+~
+0 0 2912
+S
+#2914
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Hallway&00~
+   &15The ship seems to be in slightly better condition on this deck, there are
+less signs of decay.  The air is thicker here to with a strange smell though,
+the smell of a graveyard wafts through the rooms of this deck.  Occasionaly
+shadows seem to move without cause from the corner of the eye, giving a
+disturbing atmosphere to the entire deck.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2913
+D2
+You see nothing special.
+~
+~
+0 -1 2915
+S
+#2915
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Cargo bay&00~
+   &15The deck two cargo bay is lacking the tell tale crates, but makes up for
+that in it's suffocatingly spooky atmosphere.  The lights flicker even more in
+here, almost giving a strobe light effect to the entire bay.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2914
+D1
+You see nothing special.
+~
+~
+0 -1 2917
+D2
+You see nothing special.
+~
+~
+0 -1 2919
+D3
+You see nothing special.
+~
+~
+0 -1 2916
+S
+#2916
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Cargo bay&00~
+   &15The deck two cargo bay is lacking the tell tale crates, but makes up for
+that in it's suffocatingly spooky atmosphere.  The lights flicker even more in
+here, almost giving a strobe light effect to the entire bay.  &00
+~
+29 0 0
+D1
+~
+~
+0 0 2915
+D2
+You see nothing special.
+~
+~
+0 -1 2918
+S
+#2917
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Cargo bay&00~
+   &15The deck two cargo bay is lacking the tell tale crates, but makes up for
+that in it's suffocatingly spooky atmosphere.  The lights flicker even more in
+here, almost giving a strobe light effect to the entire bay.  &00
+~
+29 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 2920
+D3
+~
+~
+0 0 2915
+S
+#2918
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Cargo bay&00~
+   &15The deck two cargo bay is lacking the tell tale crates, but makes up for
+that in it's suffocatingly spooky atmosphere.  The lights flicker even more in
+here, almost giving a strobe light effect to the entire bay.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2916
+D1
+~
+~
+0 0 2919
+D2
+You see nothing special.
+~
+~
+0 -1 2921
+S
+#2919
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Cargo bay&00~
+   &15The deck two cargo bay is lacking the tell tale crates, but makes up for
+that in it's suffocatingly spooky atmosphere.  The lights flicker even more in
+here, almost giving a strobe light effect to the entire bay.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2915
+D1
+~
+~
+0 0 2920
+D2
+You see nothing special.
+~
+~
+0 -1 2922
+D3
+You see nothing special.
+~
+~
+0 -1 2918
+S
+#2920
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Cargo bay&00~
+   &15The deck two cargo bay is lacking the tell tale crates, but makes up for
+that in it's suffocatingly spooky atmosphere.  The lights flicker even more in
+here, almost giving a strobe light effect to the entire bay.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2917
+D2
+You see nothing special.
+~
+~
+0 -1 2923
+D3
+~
+~
+0 0 2919
+S
+#2921
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Cargo bay&00~
+   &15The deck two cargo bay is lacking the tell tale crates, but makes up for
+that in it's suffocatingly spooky atmosphere.  The lights flicker even more in
+here, almost giving a strobe light effect to the entire bay.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2918
+D1
+~
+~
+0 0 2922
+S
+#2922
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Cargo bay&00~
+   &15The deck two cargo bay is lacking the tell tale crates, but makes up for
+that in it's suffocatingly spooky atmosphere.  The lights flicker even more in
+here, almost giving a strobe light effect to the entire bay.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2919
+D1
+~
+~
+0 0 2923
+D2
+You see nothing special.
+~
+~
+0 -1 2924
+D3
+You see nothing special.
+~
+~
+0 -1 2921
+S
+#2923
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two Cargo bay&00~
+   &15The deck two cargo bay is lacking the tell tale crates, but makes up for
+that in it's suffocatingly spooky atmosphere.  The lights flicker even more in
+here, almost giving a strobe light effect to the entire bay.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2920
+D3
+~
+~
+0 0 2922
+S
+#2924
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two/Three Stairs&00~
+   &15This stairwell is smaller, having a hallway running through it leading to
+another room.  The stairs in this stairwell are in pretty good condition with
+few rust spots, and none of it's lights flicker.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2922
+D2
+You see nothing special.
+~
+~
+0 -1 2925
+D4
+You see nothing special.
+~
+~
+0 -1 2926
+S
+#2925
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Phantom Shop&00~
+   &15What a strange occurance.  One of the Ship's phantoms seems to have set
+up a shop, refusing to let go of it's former occupation.  This shop is well
+kept, all it's facilities are in working order.  The lights overhead do not
+flicker, and assortments of goods are stacked behind the counter.  &00
+~
+29 144 0
+D0
+~
+~
+0 0 2924
+S
+#2926
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Two/Three Stairs&00~
+   &15This stairwell is smaller, having a hallway running through it leading to
+another room.  The stairs in this stairwell are in pretty good condition with
+few rust spots, and none of it's lights flicker.  &00
+~
+29 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 2927
+D5
+~
+~
+0 0 2924
+S
+#2927
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Hallway&00~
+   &15This hallway has nearly no lights working at all.  Several large holes in
+the hull can be seen through the walls where frost has formed.  The heat of the
+nearby canyon doesn't seem to warm this high up in the ship, especially with
+all the holes in the walls.  &00
+~
+29 1 0
+D0
+~
+~
+0 0 2926
+D2
+You see nothing special.
+~
+~
+0 -1 2928
+S
+#2928
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Hallway&00~
+   &15This hallway has nearly no lights working at all.  Several large holes in
+the hull can be seen through the walls where frost has formed.  The heat of the
+nearby canyon doesn't seem to warm this high up in the ship, especially with
+all the holes in the walls.  &00
+~
+29 1 0
+D0
+~
+~
+0 0 2927
+D2
+You see nothing special.
+~
+~
+0 -1 2929
+S
+#2929
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Cargo Bay&00~
+   &15This cargo bay is really cold, none of it's lights work either.  Most of
+it's floor is covered in a sheet of ice, making walking on it's smooth surface
+hazardous.  &00
+~
+29 1 0
+D0
+~
+~
+0 0 2928
+D1
+You see nothing special.
+~
+~
+0 -1 2931
+D2
+You see nothing special.
+~
+~
+0 -1 2933
+D3
+You see nothing special.
+~
+~
+0 -1 2930
+S
+#2930
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Cargo Bay&00~
+   &15This cargo bay is really cold, none of it's lights work either.  Most of
+it's floor is covered in a sheet of ice, making walking on it's smooth surface
+hazardous.  &00
+~
+29 1 0
+D1
+~
+~
+0 0 2929
+D2
+You see nothing special.
+~
+~
+0 -1 2932
+S
+#2931
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Cargo Bay&00~
+   &15This cargo bay is really cold, none of it's lights work either.  Most of
+it's floor is covered in a sheet of ice, making walking on it's smooth surface
+hazardous.  &00
+~
+29 1 0
+D2
+You see nothing special.
+~
+~
+0 -1 2934
+D3
+~
+~
+0 0 2929
+S
+#2932
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Cargo Bay&00~
+   &15This cargo bay is really cold, none of it's lights work either.  Most of
+it's floor is covered in a sheet of ice, making walking on it's smooth surface
+hazardous.  &00
+~
+29 1 0
+D0
+You see nothing special.
+~
+~
+0 -1 2930
+D1
+~
+~
+0 0 2933
+D2
+You see nothing special.
+~
+~
+0 -1 2935
+S
+#2933
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Cargo Bay&00~
+   &15This cargo bay is really cold, none of it's lights work either.  Most of
+it's floor is covered in a sheet of ice, making walking on it's smooth surface
+hazardous.  &00
+~
+29 1 0
+D0
+You see nothing special.
+~
+~
+0 -1 2929
+D1
+~
+~
+0 0 2934
+D2
+You see nothing special.
+~
+~
+0 -1 2936
+D3
+You see nothing special.
+~
+~
+0 -1 2932
+S
+#2934
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Cargo Bay&00~
+   &15This cargo bay is really cold, none of it's lights work either.  Most of
+it's floor is covered in a sheet of ice, making walking on it's smooth surface
+hazardous.  &00
+~
+29 1 0
+D0
+You see nothing special.
+~
+~
+0 -1 2931
+D2
+You see nothing special.
+~
+~
+0 -1 2937
+D3
+~
+~
+0 0 2933
+S
+#2935
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Cargo Bay&00~
+   &15This cargo bay is really cold, none of it's lights work either.  Most of
+it's floor is covered in a sheet of ice, making walking on it's smooth surface
+hazardous.  &00
+~
+29 1 0
+D0
+You see nothing special.
+~
+~
+0 -1 2932
+D1
+~
+~
+0 0 2936
+S
+#2936
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Cargo Bay&00~
+   &15This cargo bay is really cold, none of it's lights work either.  Most of
+it's floor is covered in a sheet of ice, making walking on it's smooth surface
+hazardous.  &00
+~
+29 1 0
+D0
+You see nothing special.
+~
+~
+0 -1 2933
+D1
+~
+~
+0 0 2937
+D2
+You see nothing special.
+~
+~
+0 -1 2938
+D3
+You see nothing special.
+~
+~
+0 -1 2935
+S
+#2937
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Cargo Bay&00~
+   &15This cargo bay is really cold, none of it's lights work either.  Most of
+it's floor is covered in a sheet of ice, making walking on it's smooth surface
+hazardous.  &00
+~
+29 1 0
+D0
+You see nothing special.
+~
+~
+0 -1 2934
+D3
+~
+~
+0 0 2936
+S
+#2938
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Hallway&00~
+   &15This hallway has nearly no lights working at all.  Several large holes in
+the hull can be seen through the walls where frost has formed.  The heat of the
+nearby canyon doesn't seem to warm this high up in the ship, especially with
+all the holes in the walls.  &00
+~
+29 1 0
+D0
+~
+~
+0 0 2936
+D2
+You see nothing special.
+~
+~
+0 -1 2939
+S
+#2939
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three Hallway&00~
+   &15This hallway has nearly no lights working at all.  Several large holes in
+the hull can be seen through the walls where frost has formed.  The heat of the
+nearby canyon doesn't seem to warm this high up in the ship, especially with
+all the holes in the walls.  &00
+~
+29 1 0
+D0
+~
+~
+0 0 2938
+D2
+You see nothing special.
+~
+~
+0 -1 2940
+S
+#2940
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three/Four Stairs&00~
+   &15Cold icy winds blow through a hole in the hull high above, frosting the
+stairs.  A lot of the metal steps are cracked from the cold, and don't look
+like they would hold much weight.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2939
+D4
+You see nothing special.
+~
+~
+0 -1 2941
+S
+#2941
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Three/Four Stairs&00~
+   &15Cold icy winds blow through a hole in the hull high above, frosting the
+stairs.  A lot of the metal steps are cracked from the cold, and don't look
+like they would hold much weight.  &00
+~
+29 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 2942
+D5
+~
+~
+0 0 2940
+S
+#2942
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Four Hallway&00~
+   &15Many holes in the hull here let in the cold air of planet Frigid.  The
+floorings are covered in snow, and strange sets of foot prints can be seen
+trudging through the hall.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2941
+D2
+You see nothing special.
+~
+~
+0 -1 2943
+S
+#2943
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Four Hallway&00~
+   &15Many holes in the hull here let in the cold air of planet Frigid.  The
+floorings are covered in snow, and strange sets of foot prints can be seen
+trudging through the hall.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2942
+D2
+You see nothing special.
+~
+~
+0 -1 2944
+S
+#2944
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Deck Four Hallway&00~
+   &15Many holes in the hull here let in the cold air of planet Frigid.  The
+floorings are covered in snow, and strange sets of foot prints can be seen
+trudging through the hall.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2943
+D2
+You see nothing special.
+~
+Hatch~
+1 2210 2945
+S
+#2945
+&00&06A&14nc&00&07i&14en&00&06t &16S&15h&00&07i&15p&16: &15Bridge&00~
+   &15This room is completely bare of destruction that plagues most of the rest
+of the ship.  Chairs are lined up along old burnt out computer banks.  A large
+chair is set in the center of the room, and is turned towards the bridge hatch,
+as if someone were watching that entrance.  &00
+~
+29 0 0
+D0
+~
+Hatch~
+1 2210 2944
+S
+#2946
+&10S&00&02ewag&10e &12C&00&04ontro&12l &11S&00&03tatio&11n&00~
+   &15This is where the Slave City sewage system is monitored, and checked for
+maintenance issues.  There are several video monitors set up on a desk, along
+with a switch board with status lights for unseen pipes.  &00
+~
+29 4 0
+D1
+~
+~
+0 0 2465
+S
+#2947
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Entrance&00~
+   &00&03This room has a gravel walkway leading up to a finly polished wooden
+floor.  A Japanese style roof overhangs the wooden floor, and a pair of statues
+of the Dojo's master are placed on either side of the gravel pathway.  &00
+~
+29 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 2948
+D3
+~
+~
+0 0 2489
+S
+#2948
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2949
+D2
+You see nothing special.
+~
+~
+0 -1 2975
+D3
+~
+~
+0 0 2947
+S
+#2949
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2950
+D1
+You see nothing special.
+~
+~
+0 -1 2976
+D2
+~
+~
+0 0 2948
+S
+#2950
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2951
+D2
+~
+~
+0 0 2949
+S
+#2951
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2952
+D2
+~
+~
+0 0 2950
+S
+#2952
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2953
+D2
+~
+~
+0 0 2951
+S
+#2953
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2954
+D3
+~
+~
+0 0 2952
+S
+#2954
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2955
+D3
+~
+~
+0 0 2953
+S
+#2955
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2956
+D3
+~
+~
+0 0 2954
+S
+#2956
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2957
+D3
+~
+~
+0 0 2955
+S
+#2957
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2958
+D3
+~
+~
+0 0 2956
+S
+#2958
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2959
+D3
+~
+~
+0 0 2957
+S
+#2959
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 2960
+D3
+~
+~
+0 0 2958
+S
+#2960
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2959
+D2
+You see nothing special.
+~
+~
+0 -1 2961
+S
+#2961
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2960
+D2
+You see nothing special.
+~
+~
+0 -1 2962
+S
+#2962
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2961
+D2
+You see nothing special.
+~
+~
+0 -1 2963
+S
+#2963
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2962
+D2
+You see nothing special.
+~
+~
+0 -1 2964
+S
+#2964
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2963
+D2
+You see nothing special.
+~
+~
+0 -1 2965
+S
+#2965
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2964
+D2
+You see nothing special.
+~
+~
+0 -1 2966
+S
+#2966
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2965
+D3
+You see nothing special.
+~
+~
+0 -1 2967
+S
+#2967
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+~
+~
+0 0 2966
+D3
+You see nothing special.
+~
+~
+0 -1 2968
+S
+#2968
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+~
+~
+0 0 2967
+D3
+You see nothing special.
+~
+~
+0 -1 2969
+S
+#2969
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+~
+~
+0 0 2968
+D3
+You see nothing special.
+~
+~
+0 -1 2970
+S
+#2970
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+~
+~
+0 0 2969
+D3
+You see nothing special.
+~
+~
+0 -1 2971
+S
+#2971
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+~
+~
+0 0 2970
+D3
+You see nothing special.
+~
+~
+0 -1 2972
+S
+#2972
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D1
+~
+~
+0 0 2971
+D3
+You see nothing special.
+~
+~
+0 -1 2973
+S
+#2973
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2974
+D1
+~
+~
+0 0 2972
+S
+#2974
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2975
+D2
+~
+~
+0 0 2973
+S
+#2975
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Hallway&00~
+   &00&03This hallway's floor is made out of a fine cherry wood, polished to a
+near mirror quality.  The walls are made out of the same wood, framing thinner
+paper walls.  A lot of fresh air is able to circulate through this hallway, as
+well as daylight.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2948
+D2
+~
+~
+0 0 2974
+S
+#2976
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Dojo Hallway&00~
+   &00&03This small hallway leads from the outer hallway to the first training
+floor.  This is where the newest students fight and train, sharpening their
+skills so they may attempt to climb to a higher floor in the dojo.  &00
+~
+29 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 2977
+D3
+~
+~
+0 0 2949
+S
+#2977
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by newbie Dojo members to rest or meditate on.  
+A calm feeling of learning is upon this training area.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2978
+D1
+You see nothing special.
+~
+~
+0 -1 2981
+D2
+You see nothing special.
+~
+~
+0 -1 2979
+D3
+~
+~
+0 0 2976
+S
+#2978
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by newbie Dojo members to rest or meditate on.  
+A calm feeling of learning is upon this training area.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2982
+D2
+~
+~
+0 0 2977
+S
+#2979
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by newbie Dojo members to rest or meditate on.  
+A calm feeling of learning is upon this training area.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2977
+D1
+You see nothing special.
+~
+~
+0 -1 2980
+S
+#2980
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by newbie Dojo members to rest or meditate on.  
+A calm feeling of learning is upon this training area.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2981
+D1
+You see nothing special.
+~
+~
+0 -1 2983
+D3
+You see nothing special.
+~
+~
+0 -1 2979
+S
+#2981
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by newbie Dojo members to rest or meditate on.  
+A calm feeling of learning is upon this training area.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2982
+D1
+You see nothing special.
+~
+~
+0 -1 2984
+D2
+You see nothing special.
+~
+~
+0 -1 2980
+D3
+You see nothing special.
+~
+~
+0 -1 2977
+S
+#2982
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by newbie Dojo members to rest or meditate on.  
+A calm feeling of learning is upon this training area.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2985
+D2
+~
+~
+0 0 2981
+D3
+You see nothing special.
+~
+~
+0 -1 2978
+S
+#2983
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by newbie Dojo members to rest or meditate on.  
+A calm feeling of learning is upon this training area.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2984
+D3
+You see nothing special.
+~
+~
+0 -1 2980
+S
+#2984
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by newbie Dojo members to rest or meditate on.  
+A calm feeling of learning is upon this training area.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2985
+D1
+You see nothing special.
+~
+~
+0 -1 2986
+D2
+You see nothing special.
+~
+~
+0 -1 2983
+D3
+You see nothing special.
+~
+~
+0 -1 2981
+S
+#2985
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by newbie Dojo members to rest or meditate on.  
+A calm feeling of learning is upon this training area.  &00
+~
+29 0 0
+D2
+~
+~
+0 0 2984
+D3
+You see nothing special.
+~
+~
+0 -1 2982
+S
+#2986
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15First Floor Ascention Steps&00~
+   &00&03Hardwood steps lead up from the floor towards the next floor.  These
+narrow steps are never used by a dojo member who hasn't advanced to a higher
+ranking yet, and show very little wear.  &00
+~
+29 4 0
+D3
+~
+~
+0 0 2984
+D4
+You see nothing special.
+~
+~
+0 -1 2987
+S
+#2987
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Second Floor Descention Steps&00~
+   &00&03Hardwood steps lead down to the floor below, going this way would mean
+a student was either going home, or running from their training.  The Dojo
+decides which, and may bar members for prematurly leaving.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2988
+D5
+~
+~
+0 0 2986
+S
+#2988
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Second Floor Guardance Room&00~
+   &00&03This small room is where the lowest ranked second floor student spends
+their chore hours, guarding against lower students from passing to the second
+floor.  A student must prove their worth in this room, fighting to prove their
+are worthy to pass on.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+Gate~
+2 2317 2996
+D3
+~
+~
+0 0 2987
+S
+#2989
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Second Floor Ascention Steps&00~
+   &00&03Hardwood steps lead up from the floor towards the next floor.  These
+narrow steps are never used by a dojo member who hasn't advanced to a higher
+ranking yet, and show very little wear.  &00
+~
+29 4 0
+D3
+~
+~
+0 0 4004
+D4
+You see nothing special.
+~
+~
+0 -1 2990
+S
+#2990
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Third Floor Descention Steps&00~
+   &00&03Hardwood steps lead down to the floor below, going this way would mean
+a student was either going home, or running from their training.  The Dojo
+decides which, and may bar members for prematurly leaving.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2991
+D5
+~
+~
+0 0 2989
+S
+#2991
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Third Floor Guardance Room&00~
+   &00&03This is the room where the lowest ranked Third Floor student guards
+the right of passage to the third floor of the dojo.  This room seems built to
+allow long stints of living without leaving for the guard.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+Gate~
+2 2318 4006
+D3
+~
+~
+0 0 2990
+S
+#2992
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Third Floor Ascention Steps&00~
+   &00&03Hardwood steps lead up from the floor towards the next floor.  These
+narrow steps are never used by a dojo member who hasn't advanced to a higher
+ranking yet, and show very little wear.  &00
+~
+29 4 0
+D3
+~
+~
+0 0 4014
+D4
+You see nothing special.
+~
+~
+0 -1 2993
+S
+#2993
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Fourth Floor Descention Steps&00~
+   &00&03Hardwood steps lead down to the floor below, going this way would mean
+a student was either going home, or running from their training.  The Dojo
+decides which, and may bar members for prematurly leaving.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 2994
+D5
+You see nothing special.
+~
+~
+0 -1 2992
+S
+#2994
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Fourth Floor Guardance Room&00~
+   &00&03This is the room where the lowest ranked Fourth Floor student guards
+the right of passage to the fourth floor of the dojo.  This room seems built to
+allow long stints of living, just like the third floor Guardance room.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+Gate~
+2 2319 4016
+D3
+~
+~
+0 0 2993
+S
+#2995
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Fourth Floor Ascention Steps&00~
+   &00&03Hardwood steps lead up from the floor towards the next floor.  These
+narrow steps are never used by a dojo member who hasn't advanced to a higher
+ranking yet, and show very little wear.  &00
+~
+29 4 0
+D3
+~
+~
+0 0 4025
+D4
+You see nothing special.
+~
+~
+0 -1 4039
+S
+#2996
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Second Floor Dojo Hallway&00~
+   &00&03This narrow hallway has ornamental weapons hanging on it's walls,
+commemorating various dojo fighters.  The dojo training floor can be seen to
+the east, through a narrow archway.  &00
+~
+29 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 2997
+D3
+~
+Gate~
+2 2317 2988
+S
+#2997
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Second Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by Dojo members to rest or meditate on.  A calm
+feeling of learning is upon this training area.  &00
+~
+29 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 2998
+D1
+You see nothing special.
+~
+~
+0 -1 4001
+D2
+You see nothing special.
+~
+~
+0 -1 2999
+D3
+~
+~
+0 0 2996
+S
+#2998
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Second Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by Dojo members to rest or meditate on.  A calm
+feeling of learning is upon this training area.  &00
+~
+29 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 4002
+D2
+~
+~
+0 0 2997
+S
+#2999
+&15W&00&07heelin&15g &14G&00&06ul&14l &09D&00&01oj&09o&16: &15Second Training Floor&00~
+   &00&03The polished cherry wood floor spreads out here, weapons can be seen
+hanging on the far walls.  Mats are spread out away from the main training
+area, these appear to be used by Dojo members to rest or meditate on.  A calm
+feeling of learning is upon this training area.  &00
+~
+29 0 0
+D0
+~
+~
+0 0 2997
+D1
+You see nothing special.
+~
+~
+0 -1 4000
+S
+$~

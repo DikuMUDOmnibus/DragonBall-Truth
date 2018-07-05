@@ -1,0 +1,325 @@
+#200
+Bass Boots~
+&16B&11a&16s&00&07s &16B&15o&00&07o&15t&16s&00~
+&15A pair of &16B&11a&16s&00&07s &16B&15o&00&07o&15t&16s &15have been dropped here.&00~
+~
+11 134217731 65
+0 0 0 0
+1 4000000 0
+A
+5 2
+A
+3 2
+A
+4 2
+A
+6 10
+A
+2 10
+A
+25 2
+#201
+Omega Neutron Ring~
+&14O&00&06m&16e&00&06g&14a &13N&00&05e&16u&15t&16r&00&05o&13n &16Ring&00~
+&15An &14O&00&06m&16e&00&06g&14a &13N&00&05e&16u&15t&16r&00&05o&13n &16Ring &15 has been dropped here.&00~
+~
+11 268435459 3
+0 0 0 0
+1 5000000 0
+A
+25 10
+#202
+Giant Refractor Crystal~
+&16Giant &00&07R&11e&13f&00&05r&16a&00&05c&13t&11o&00&07r &14C&00&06r&15y&14s&00&06t&15a&14l&00~
+&15A &16Giant &00&07R&11e&13f&00&05r&16a&00&05c&13t&11o&00&07r &14C&00&06r&15y&14s&00&06t&15a&14l &15has been dropped here.&00~
+~
+8 3 1
+0 0 0 0
+1 500000 0
+A
+18 100
+A
+19 100
+#203
+Kevlar Bag~
+&00&07K&15e&16vl&15a&00&07r &00&03B&00&06a&00&03g&00~
+&15A &00&07K&15e&16vl&15a&00&07r &00&03B&00&06a&00&03g &15has been dropped here.&00~
+~
+15 3 16385
+20 1 -1 0
+1 1000000 0
+A
+5 2
+A
+3 1
+#204
+Treble Helmet~
+&12T&00&04r&16e&15b&00&04l&12e &16H&15e&00&07lm&15e&16t&00~
+&15A &12T&00&04r&16e&15b&00&04l&12e &16H&15e&00&07lm&15e&16t &15has been dropped here.&00~
+~
+11 134217731 17
+0 0 0 0
+1 4000000 0
+A
+5 2
+A
+3 4
+A
+4 2
+A
+6 -4
+A
+2 -4
+#205
+gloves~
+Standard Issue Immortal Gloves~
+Standard Issue Immortal Gloves lie here.~
+~
+11 3 129
+0 0 0 0
+0 0 0
+A
+18 100
+A
+19 100
+#206
+boots~
+Standard Issue Immortal Boots~
+Standard Issue Immortal Boots lie here.~
+~
+11 3 65
+0 0 0 0
+0 0 0
+A
+18 100
+A
+19 100
+#207
+earrings~
+Standard Issue Immortal Earrings~
+Standard Issue Immortal Earrings lie here.~
+~
+11 3 17
+0 0 0 0
+0 0 0
+A
+19 100
+A
+18 100
+#208
+necklace~
+Standard Issue Immortal Necklace~
+Standard Issue Immortal Necklace lies here.~
+~
+11 0 5
+0 0 0 0
+0 0 0
+A
+18 100
+A
+19 100
+A
+18 100
+A
+19 100
+A
+18 100
+#209
+bracers~
+Standard Issue Immortal Bracers~
+Standard Issue Immortal Bracers lie here.~
+~
+11 3 4097
+0 0 0 0
+0 0 0
+A
+18 100
+A
+19 100
+A
+18 100
+A
+19 100
+A
+18 100
+A
+19 100
+#210
+ring~
+Standard Issue Immortal Ring~
+Standard Issue Immortal Ring lies here.~
+~
+11 3 3
+0 0 0 0
+0 0 0
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+19 100
+#211
+Overlord Pistol Marker~
+&09O&00&16v&00&15e&00rl&15o&00&16r&00&09d&00 &16P&00&15i&00st&15o&00&16l&00 &03M&00&11a&00&16rk&13e&00&05r&00~
+A pistol like paintball gun is lying here, with the words "Overlord" on the side of it.~
+~
+5 3 4202497
+80 125000 1 12
+1 600000 0
+A
+5 1
+A
+6 1
+A
+2 2
+A
+18 20
+A
+19 20
+#212
+Sim-4 R.I.S. Elite Marker~
+&00&05S&16i&00&15m&16-&00&054&00 &16R.I.S.&00 &05E&16l&00&15i&00&16t&00&05e&00 &03M&00&11a&16rk&13e&00&05r&00~
+An M-16 style paintball gun is lying here, its laser scope glowing slightly.~
+~
+5 3 8193
+90 400000 1 12
+1 4000000 0
+A
+5 2
+A
+6 4
+A
+2 4
+A
+18 30
+A
+19 30
+#213
+Doc's Machine Tournament Jersey~
+&00&02D&00&10o&00&02c's&00 &16Ma&00&15ch&00ine &05T&16ou&00&15r&00n&15am&00&16en&00&05t&00 &04J&00&12e&00&15rs&00&12e&00&04y&00~
+A paintball jersey is lying here, with the words "Doc's Machine" going across the shoulders.~
+~
+11 3 9
+0 0 0 0
+1 3000000 0
+A
+5 3
+A
+3 2
+A
+2 2
+A
+6 3
+A
+18 30
+A
+19 30
+#214
+Doc's Machine Tournament Pants~
+&00&02D&00&10o&00&02c's&00 &16Ma&00&15ch&00ine &05T&16ou&00&15r&00n&15am&00&16en&00&05t&00 &04P&00&12a&15n&00&12t&00&04s&00~
+A pair of pants are lying here with the words "Doc's Machine" going down the right leg.~
+~
+11 3 33
+0 0 0 0
+1 4000000 0
+A
+2 5
+A
+5 2
+A
+3 2
+A
+18 30
+A
+19 30
+#215
+GForce Morph Goggles~
+&00&10G&16F&00&15or&16c&00&10e&00 &03M&00&11o&00r&10p&00&02h&00 G&15og&00&16g&00&15le&00s~
+A paintball mask is lying here.~
+~
+11 3 17
+0 0 0 0
+1 4000000 0
+A
+4 3
+A
+6 6
+A
+2 6
+A
+18 30
+A
+19 30
+#250
+Soul Pole~
+the Soul Pole~
+The Soul Pole lies here.~
+~
+5 3 8193
+100 100 100 3
+0 0 0
+A
+19 100
+A
+18 100
+A
+19 100
+A
+19 100
+A
+18 100
+A
+19 100
+#251
+a pair of white boots~
+a pair of white boots~
+A pair of white boots are lying here.~
+~
+11 0 65
+0 0 0 0
+0 0 0
+A
+2 30
+#252
+coder board~
+&16I&15o&00&07v&15a&16n&00&06'&16s &12C&00&04o&12d&00&04e&12r &10B&00&02o&10a&00&02r&10d&00~
+&16I&15o&00&07v&15a&16n&00&06'&16s &12C&00&04o&12d&00&04e&12r &10B&00&02o&10a&00&02r&10d&15 is caught in a swirling vortex here&00~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board bulletin~
+Use 'look board' to read this board.
+~
+#253
+Kuvoc's Board~
+&09K&00&01u&16v&00&01o&09c&00&01's &16B&15o&00&07a&15r&16d&00~
+&09K&00&01u&16v&00&01o&09c&00&01's &16B&15o&00&07a&15r&16d&00 blazes here.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board bulletin~
+Use 'look board' to read the board.
+~
+#254
+board~
+&09M&00&01o&00&05rt&00&01a&09l &11O&00&03ffense&11s &10B&00&02oar&10d&00~
+&15The &09M&00&01o&00&05rt&00&01a&09l &11O&00&03ffense&11s &10B&00&02oar&10d &15floats in a vortex here.&00~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board bulletin~
+Use 'look board' to read the board.
+~
+$~

@@ -1,0 +1,51 @@
+#8100
+Saiyan Peasant~
+&11S&00&03a&11i&00&03y&11a&00&03n &16P&00&03e&06a&16s&00&03a&06n&16t&00~
+&11S&00&03a&11i&00&03y&11a&00&03n &16P&00&03e&06a&16s&00&03a&06n&16t&00 is walking here, heading to work.
+~
+It looks unfinished.
+~
+8 0 0 E
+100 0 0 1d1+6000 1d1+600
+210 210000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8101
+Saiyan Peasant~
+&11S&00&03a&11i&00&03y&11a&00&03n &16P&00&03e&06a&16s&00&03a&06n&16t&00~
+&11S&00&03a&11i&00&03y&11a&00&03n &16P&00&03e&06a&16s&00&03a&06n&16t&00 is walking around, looking for items to buy.
+~
+It looks unfinished.
+~
+8 0 0 E
+100 -20 0 1d1+5000 1d1+5000
+200 200000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8102
+Forsaken Dragon Warrior~
+&16F&00&06o&14r&15s&00a&16k&00&06e&14n &00&02D&10r&00&03a&16g&00&02o&10n &09W&00&01a&15r&16r&15i&00&01o&09r&00~
+&16F&00&06o&14r&15s&00a&16k&00&06e&14n &00&02D&10r&00&03a&16g&00&02o&10n &09W&00&01a&15r&16r&15i&00&01o&09r&00 is standing here, preparing for his next fight.
+~
+It looks unfinished.
+~
+10 0 0 E
+7500 -60 0 1d1+500000 1d1+15000
+550 1500000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

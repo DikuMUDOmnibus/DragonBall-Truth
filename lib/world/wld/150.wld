@@ -1,0 +1,9819 @@
+#15000
+&09M&00&01aste&09r &00T&15eryal'&00s &14C&00hambe&14r&00~
+   &00&07The room is made of smooth pearly white stones.  Hanging from the
+ceiling is a large iron cast lantern casting shadows across the room.  
+Gleaming weapons line the smooth walls.  A large firepit is in the center of
+the room, black ashes making up the contents.  The smell of scented candles
+lingers in the air, yet the room is cool and comfortable.    
+~
+150 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 15001
+S
+#15001
+&00&07K&15on&16a&15ts&00&07u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&15: Pathway&00~
+   &16The hard packed pathway is well packed from years of use.  Young
+Konatsu's are walking down the crowded path heading here and there busily going
+about their assigned tasks and duties.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15000
+D2
+You see nothing special.
+~
+~
+0 -1 15002
+S
+#15002
+&00K&15on&16a&15ts&00u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&16: &15Pathway&00~
+   &16The hard packed pathway is well packed from years of use.  Young
+Konatsu's are walking down the crowded path heading here and there busily going
+about their assigned tasks and duties.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15001
+D1
+You see nothing special.
+~
+~
+0 -1 15003
+D2
+You see nothing special.
+~
+~
+0 -1 15005
+D3
+You see nothing special.
+~
+~
+0 -1 15004
+S
+#15003
+&16S&15t&00&07e&16a&15l&00&07t&15h&16y &12D&00&04eal&12s &11P&00&03awnsho&11p&00~
+   &15This large shadowy shop is one of the most secretive pawnshops around.  
+Anything brought here is sold under complete confidentialty, and plenty is sold
+here.  Large display booths show off previous merchandise, as well as racks on
+the walls.  A completely fenced in counter hides the untrusting shopkeeper, and
+heat sensors are all around to discourage even the best konatsu from going
+invisible in the store.  &00
+~
+150 148 0
+D3
+You see nothing special.
+~
+~
+0 -1 15002
+S
+#15004
+&00&07K&15on&16a&15ts&00&07u &11B&09l&00&01a&16z&00&01i&09n&11g &00&07L&15i&00&07o&15n&00 &12Shop&00 ~
+   &15This small shop is made of various limestone blocks painstakingly placed
+to form a seemless building.  Weapons and armor that appear out of this
+universe hang from every nook and crany of the shop.  They are even piled up on
+the small wooden counter, and in a backroom hidden behind the counter.  &00
+~
+150 148 0
+D1
+You see nothing special.
+~
+~
+0 -1 15002
+S
+#15005
+&00K&15on&16a&15ts&00u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&16: &15Intersection&00~
+   &16The hard packed pathway is well packed from years of use.  Young
+Konatsu's are walking down the crowded path heading here and there busily going
+about their assigned tasks and duties.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15002
+D1
+You see nothing special.
+~
+~
+0 -1 15006
+D2
+You see nothing special.
+~
+~
+0 -1 15012
+D3
+You see nothing special.
+~
+~
+0 -1 15170
+S
+#15006
+&00K&15on&16a&15ts&00u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&16: &15Pathway&00~
+   &16The hard packed pathway is well packed from years of use.  Young
+Konatsu's are walking down the crowded path heading here and there busily going
+about their assigned tasks and duties.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+Gate~
+2 12884 13039
+D1
+You see nothing special.
+~
+~
+0 -1 15007
+D3
+You see nothing special.
+~
+~
+0 -1 15005
+S
+#15007
+&00K&15on&16a&15ts&00u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&16: &15Pathway&00~
+   &16The hard packed pathway is well packed from years of use.  Young
+Konatsu's are walking down the crowded path heading here and there busily going
+about their assigned tasks and duties.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15008
+D3
+You see nothing special.
+~
+~
+0 -1 15006
+S
+#15008
+&00K&15on&16a&15ts&00u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&16: &15Pathway&00~
+   &16The hard packed pathway is well packed from years of use.  Young
+Konatsu's are walking down the crowded path heading here and there busily going
+about their assigned tasks and duties.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15017
+D3
+You see nothing special.
+~
+~
+0 -1 15007
+S
+#15009
+unfinished~
+   You are in an unfinished room.    
+~
+150 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 15010
+S
+#15010
+unfinished~
+   You are in an unfinished room.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15009
+D3
+You see nothing special.
+~
+~
+0 -1 15011
+S
+#15011
+unfinished~
+   You are in an unfinished room.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15010
+S
+#15012
+&00K&15on&16a&15ts&00u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&16: &15Pathway&00~
+   &16The hard packed pathway is well packed from years of use.  Young
+Konatsu's are walking down the crowded path heading here and there busily going
+about their assigned tasks and duties.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15005
+D1
+You see nothing special.
+~
+~
+0 -1 15169
+D2
+You see nothing special.
+~
+~
+0 -1 15015
+D3
+You see nothing special.
+~
+~
+0 -1 15014
+S
+#15013
+unfinished~
+   You are in an unfinished room.    
+~
+150 0 0
+S
+#15014
+&00&05M&13erry&15'&13s &11F&00&03o&11o&00&03d &10S&00&02tuff&15'&00&02s~
+   &13The cramped square shaped shop is made of sturdy oak wood.  Fresh foods
+and meats are spread out on tabletops and tops along the sides of the shop.  
+Near the back of the room is a small counter where the shopkeepers does his
+sales and stores his extra supplies.  Lighting the room are 4 small torches
+lining the small room standing on iron polls.    
+~
+150 148 0
+D1
+You see nothing special.
+~
+~
+0 -1 15012
+S
+#15015
+&00K&15on&16a&15ts&00u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&16: &15Pathway&00~
+   &16The hard packed pathway is well packed from years of use.  Young
+Konatsu's are walking down the crowded path heading here and there busily going
+about their assigned tasks and duties.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15012
+D2
+You see nothing special.
+~
+~
+0 -1 15016
+S
+#15016
+&00K&15on&16a&15ts&00u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&16: &15Entrance&00~
+   &16Before you stands the small fortress housing young Konatsu's just
+beginning their long and difficult journey through life.  The wooden walls line
+the perimeter standing 50 feet high.  A giant two door gate looms in front of
+the path casting a shadow over the cobblestone path.  The sounds of life can be
+heard coming from inside and the smell of sweat and grit fills the air.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15015
+D2
+You see nothing special.
+~
+~
+0 -1 15019
+S
+#15017
+&15Entrance&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The mouth of the cave looks ancient and worn forming a large
+semicircle as each end dissapears into the ground.  Plants of all sorts can be
+seen growing out of cracks and chinks in the rock.  A aura of power seems to
+radiate from within the cave making your skin tingle and all the noise from the
+camp seems quiter and very far away.  Inside it looks dark and murky.    
+~
+150 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 15008
+D5
+You see nothing special.
+~
+Door~
+2 12881 15018
+S
+#15018
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15037
+D4
+You see nothing special.
+~
+Door~
+2 12881 15017
+S
+#15019
+&16C&15o&00&07b&15b&16l&00&07e&15stone &00&03P&15a&00&07t&00&03h&00&07~
+   &00&03The small grey cobblestones making the path are clean and well kept
+yet worn from heavy travel.  The sounds of bustling townfolk can be heard in
+the distance and small carts are constantly rumbling back and forth.    
+~
+150 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 15016
+D3
+You see nothing special.
+~
+~
+0 -1 15020
+S
+#15020
+&16C&15o&00&07b&15b&16l&00&07e&15stone &00&03P&15a&00&07t&00&03h&00&07~
+   &00&03The small grey cobblestones making the path are clean and well kept
+yet worn from heavy travel.  The sounds of bustling townfolk can be heard in
+the distance and small carts are constantly rumbling back and forth.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15019
+D3
+You see nothing special.
+~
+~
+0 -1 15021
+S
+#15021
+&16C&15o&00&07b&15b&16l&00&07e&15stone &00&03P&15a&00&07t&00&03h&00&07~
+   &00&03The small grey cobblestones making the path are clean and well kept
+yet worn from heavy travel.  The sounds of bustling townfolk can be heard in
+the distance and small carts are constantly rumbling back and forth.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15020
+D2
+You see nothing special.
+~
+~
+0 -1 15022
+S
+#15022
+&16C&15o&00&07b&15b&16l&00&07e&15stone &00&03P&15a&00&07t&00&03h&00&07~
+   &00&03The small grey cobblestones making the path are clean and well kept
+yet worn from heavy travel.  The sounds of bustling townfolk can be heard in
+the distance and small carts are constantly rumbling back and forth.    
+~
+150 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 15021
+D2
+You see nothing special.
+~
+~
+2 -1 15023
+S
+#15023
+&11T&00&07i&11g&00&07e&11r &00&07D&16rive~
+   &15The street is well paved and evenly leveled.  Parallel to the street are
+two paths on either side lined with various stores and houses all neatly kept.
+The area is not as noisy as the merchant district or center square yet the
+sounds of villagers chatting fills the crisp air.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15022
+D2
+You see nothing special.
+~
+~
+0 -1 15024
+D3
+You see nothing special.
+~
+~
+0 -1 13026
+S
+#15024
+&11T&00&07i&11g&00&07e&11r &00&07D&16rive~
+   &15The street is well paved and evenly leveled.  Parallel to the street are
+two paths on either side lined with various stores and houses all neatly kept.
+The area is not as noisy as the merchant district or center square yet the
+sounds of villagers chatting fills the crisp air.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15023
+D2
+You see nothing special.
+~
+~
+0 -1 15025
+S
+#15025
+&11T&00&07i&11g&00&07e&11r &00&07D&16rive~
+   &15The street is well paved and evenly leveled.  Parallel to the street are
+two paths on either side lined with various stores and houses all neatly kept.
+The area is not as noisy as the merchant district or center square yet the
+sounds of villagers chatting fills the crisp air.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15024
+D1
+You see nothing special.
+~
+~
+0 -1 13024
+D2
+You see nothing special.
+~
+~
+0 -1 15026
+S
+#15026
+&15T&00et&10si&00ge&15n &16Vi&00lla&16ge &15C&00ente&15r&00~
+   &14The center of the town is crowded and noisy.  In the center sits a giant
+fountain, crystal clear water spurting from holes surrounding a marble statue
+with a legendary Konatsu warrior kneeling with two blades drawn.  Vendors and
+merchants line the area and villagers and other travelers are traveling back
+and forth the sounds and smells almost unbearable.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15025
+D1
+You see nothing special.
+~
+~
+0 -1 15027
+D2
+You see nothing special.
+~
+~
+0 -1 15033
+D3
+You see nothing special.
+~
+~
+0 -1 15030
+S
+#15027
+&09S&00a&16mur&00ai &16Lane&00~
+   &00&05The street looks deserted, the road being uneven and cracked in
+several places.  Parallel to the street are two paths on either side lined with
+dilipated houses and thieves dens.  The only sound heard are the occasional
+screams or shouts of fighting as the wind howls through flapping shutters.  
+&00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15028
+D3
+You see nothing special.
+~
+~
+0 -1 15026
+S
+#15028
+&09S&00a&16mur&00ai &16Lane&00~
+   &00&05The street looks deserted, the road being uneven and cracked in
+several places.  Parallel to the street are two paths on either side lined with
+dilipated houses and thieves dens.  The only sound heard are the occasional
+screams or shouts of fighting as the wind howls through flapping shutters.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 13027
+D1
+You see nothing special.
+~
+~
+0 -1 15029
+D3
+You see nothing special.
+~
+~
+0 -1 15027
+S
+#15029
+&09S&00a&16mur&00ai &16Lane&00~
+   &00&05The street looks deserted, the road being uneven and cracked in
+several places.  Parallel to the street are two paths on either side lined with
+dilipated houses and thieves dens.  The only sound heard are the occasional
+screams or shouts of fighting as the wind howls through flapping shutters.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15155
+D3
+You see nothing special.
+~
+~
+0 -1 15028
+S
+#15030
+&10S&00&02e&10r&00&02p&10e&00&02n&10t &00&03Street&00~
+   &16The street is well paved and evenly leveled.  Parallel to the street are
+two paths on either side lined with giant warehouses and small factories.  The
+sounds of labor coming from the buildings and warehouses is the only sounds in
+the streets and the smell of oil and other goods can be smelt from the street.
+&00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15026
+D3
+You see nothing special.
+~
+~
+0 -1 15031
+S
+#15031
+&10S&00&02e&10r&00&02p&10e&00&02n&10t &00&03Street&00~
+   &16The street is well paved and evenly leveled.  Parallel to the street are
+two paths on either side lined with giant warehouses and small factories.  The
+sounds of labor coming from the buildings and warehouses is the only sounds in
+the streets and the smell of oil and other goods can be smelt from the street.
+&00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 13028
+D1
+You see nothing special.
+~
+~
+0 -1 15030
+D3
+You see nothing special.
+~
+~
+0 -1 15032
+S
+#15032
+&10S&00&02e&10r&00&02p&10e&00&02n&10t &00&03Street&00~
+   &16The street is well paved and evenly leveled.  Parallel to the street are
+two paths on either side lined with giant warehouses and small factories.  The
+sounds of labor coming from the buildings and warehouses is the only sounds in
+the streets and the smell of oil and other goods can be smelt from the street.
+&00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15031
+D3
+You see nothing special.
+~
+~
+0 -1 15144
+S
+#15033
+&09W&16arrior&09s &15W&00&07ay~
+   &00&01The street is well paved and evenly leveled.  Parallel to the street
+are two paths on either side lined with various stores and houses all neatly
+kept.  The area is quiet and hushed voices can be heard, carried by the winds
+with wary eyed warriors walking to and fro.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15026
+D2
+You see nothing special.
+~
+~
+0 -1 15034
+S
+#15034
+&09W&16arrior&09s &15W&00&07ay~
+   &00&01The street is well paved and evenly leveled.  Parallel to the street
+are two paths on either side lined with various stores and houses all neatly
+kept.  The area is quiet and hushed voices can be heard, carried by the winds
+with wary eyed warriors walking to and fro.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15033
+D2
+You see nothing special.
+~
+~
+0 -1 15035
+D3
+You see nothing special.
+~
+~
+0 -1 13025
+S
+#15035
+&09W&16arrior&09s &15W&00&07ay~
+   &00&01The street is well paved and evenly leveled.  Parallel to the street
+are two paths on either side lined with various stores and houses all neatly
+kept.  The area is quiet and hushed voices can be heard, carried by the winds
+with wary eyed warriors walking to and fro.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15034
+D2
+You see nothing special.
+~
+~
+0 -1 15052
+S
+#15036
+unfinished~
+   You are in an unfinished room.    
+~
+150 0 0
+S
+#15037
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15038
+D2
+You see nothing special.
+~
+~
+0 -1 15018
+S
+#15038
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15039
+D2
+You see nothing special.
+~
+~
+0 -1 15037
+S
+#15039
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15038
+D5
+You see nothing special.
+~
+~
+0 -1 15040
+S
+#15040
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D4
+You see nothing special.
+~
+~
+0 -1 15039
+D5
+You see nothing special.
+~
+~
+0 -1 15041
+S
+#15041
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15042
+D4
+You see nothing special.
+~
+~
+0 -1 15040
+S
+#15042
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15043
+D3
+You see nothing special.
+~
+~
+0 -1 15041
+S
+#15043
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15042
+D3
+You see nothing special.
+~
+~
+0 -1 15044
+S
+#15044
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 15043
+D5
+You see nothing special.
+~
+~
+0 -1 15045
+S
+#15045
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 4 0
+D3
+You see nothing special.
+~
+~
+0 -1 15046
+D4
+You see nothing special.
+~
+~
+0 -1 15044
+S
+#15046
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15045
+D3
+You see nothing special.
+~
+~
+0 -1 15047
+S
+#15047
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15048
+D1
+You see nothing special.
+~
+~
+0 -1 15046
+D2
+You see nothing special.
+~
+~
+0 -1 15050
+S
+#15048
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+Door~
+1 -1 15049
+D2
+You see nothing special.
+~
+~
+0 -1 15047
+S
+#15049
+&15Chamber Of Combat&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &12The large chamber is in the shape of a hexagon and is covered in runes
+similar to those in the tunnels.  The ceiling is dome shaped and are huge
+muriels depicting ancient warriors fighting each other to the death.  In the
+center of the floor rises unto a pedistal standing a foot off the ground
+covered with dried blood and the bones of fallen warriors.  An eerie silence
+pervades the room and the smell of death is almost unbearable.    
+~
+150 4 0
+D2
+You see nothing special.
+~
+Door~
+1 -1 15048
+S
+#15050
+&15Tunnel&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15047
+D2
+You see nothing special.
+~
+~
+0 -1 15051
+S
+#15051
+&15Dead End&00: &16C&10a&00&02v&16e &15Of &00&04A&15c&00ceptan&15c&00&04e&00~
+   &00&04The cave walls are smooth and cold.  Hundreds of hieroglyphs are
+carved into the smooth surface and give off a faint blue glow, giving the area
+a dim and eerie glow.  No sounds can be heard and you can feel a slight breeze
+coming from deeper within.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15050
+S
+#15052
+&00&02Ba&16t&00&01tl&00&02ef&16i&00&01e&00&02ld &15of &00&01R&00&02u&16in&00&07: &15Entrance~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 15035
+D2
+You see nothing special.
+~
+~
+0 -1 15053
+S
+#15053
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15052
+D1
+You see nothing special.
+~
+~
+0 -1 15056
+D2
+You see nothing special.
+~
+~
+0 -1 15060
+D3
+You see nothing special.
+~
+~
+0 -1 15054
+S
+#15054
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15053
+D2
+You see nothing special.
+~
+~
+0 -1 15061
+D3
+You see nothing special.
+~
+~
+0 -1 15055
+S
+#15055
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15054
+D2
+You see nothing special.
+~
+~
+0 -1 15062
+S
+#15056
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15057
+D2
+You see nothing special.
+~
+~
+0 -1 15059
+D3
+You see nothing special.
+~
+~
+0 -1 15053
+S
+#15057
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15058
+D3
+You see nothing special.
+~
+~
+0 -1 15056
+S
+#15058
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15057
+D2
+You see nothing special.
+~
+~
+0 -1 15067
+D3
+You see nothing special.
+~
+~
+0 -1 15059
+S
+#15059
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15056
+D1
+You see nothing special.
+~
+~
+0 -1 15058
+D2
+You see nothing special.
+~
+~
+0 -1 15066
+D3
+You see nothing special.
+~
+~
+0 -1 15060
+S
+#15060
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15053
+D1
+You see nothing special.
+~
+~
+0 -1 15059
+D2
+You see nothing special.
+~
+~
+0 -1 15065
+D3
+You see nothing special.
+~
+~
+0 -1 15061
+S
+#15061
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15054
+D1
+You see nothing special.
+~
+~
+0 -1 15060
+D2
+You see nothing special.
+~
+~
+0 -1 15064
+D3
+You see nothing special.
+~
+~
+0 -1 15062
+S
+#15062
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15055
+D1
+You see nothing special.
+~
+~
+0 -1 15061
+D2
+You see nothing special.
+~
+~
+0 -1 15063
+S
+#15063
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15062
+D1
+You see nothing special.
+~
+~
+0 -1 15064
+D2
+You see nothing special.
+~
+~
+0 -1 15072
+S
+#15064
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15061
+D1
+You see nothing special.
+~
+~
+0 -1 15065
+D2
+You see nothing special.
+~
+~
+0 -1 15071
+D3
+You see nothing special.
+~
+~
+0 -1 15063
+S
+#15065
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15060
+D1
+You see nothing special.
+~
+~
+0 -1 15066
+D2
+You see nothing special.
+~
+~
+0 -1 15070
+D3
+You see nothing special.
+~
+~
+0 -1 15064
+S
+#15066
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15059
+D1
+You see nothing special.
+~
+~
+0 -1 15067
+D2
+You see nothing special.
+~
+~
+0 -1 15069
+D3
+You see nothing special.
+~
+~
+0 -1 15065
+S
+#15067
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15058
+D2
+You see nothing special.
+~
+~
+0 -1 15068
+D3
+You see nothing special.
+~
+~
+0 -1 15066
+S
+#15068
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15067
+D3
+You see nothing special.
+~
+~
+0 -1 15069
+S
+#15069
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15066
+D1
+You see nothing special.
+~
+~
+0 -1 15068
+D3
+You see nothing special.
+~
+~
+0 -1 15070
+S
+#15070
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15065
+D1
+You see nothing special.
+~
+~
+0 -1 15069
+D2
+You see nothing special.
+~
+~
+0 -1 15073
+D3
+You see nothing special.
+~
+~
+0 -1 15071
+S
+#15071
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15064
+D1
+You see nothing special.
+~
+~
+0 -1 15070
+D3
+You see nothing special.
+~
+~
+0 -1 15072
+S
+#15072
+&00&02Ba&16t&00&01tl&02ef&16i&00&01e&02ld &15of &00&01R&02u&16in&00~
+   &00&01The ground is soaked red with blood.  Green blades of grass rustle as
+the cool breeze washes the smell of death through the field.  Small patches of
+burnt grass litter the area, pearly white skeletons grinning wickedly up into
+the sky.  The sound of ghosts and other creatures of death haunt the area and
+no signs of life are visible.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15063
+D1
+You see nothing special.
+~
+~
+0 -1 15071
+S
+#15073
+&11A &15W&00i&11n&00&03d&11i&15n&00g &16Pathway&00~
+   &11The wind gently sweeps across the dusty dirt road.  Pits and holes are
+scattered across it showing it hasn't been widely traveled in long time.  
+Small patches of grass cover it here and there and small animal trails can be
+seen leading off the road.  &00
+~
+150 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 15070
+D3
+You see nothing special.
+~
+~
+0 -1 15074
+S
+#15074
+&11A &15W&00i&11n&00&03d&11i&15n&00g &16Pathway&00~
+   &11The wind gently sweeps across the dusty dirt road.  Pits and holes are
+scattered across it showing it hasn't been widely traveled in long time.  
+Small patches of grass cover it here and there and small animal trails can be
+seen leading off the road.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15073
+D2
+You see nothing special.
+~
+~
+0 -1 15075
+S
+#15075
+&11A &15W&00i&11n&00&03d&11i&15n&00g &16Pathway&00~
+   &11The wind gently sweeps across the dusty dirt road.  Pits and holes are
+scattered across it showing it hasn't been widely traveled in long time.  
+Small patches of grass cover it here and there and small animal trails can be
+seen leading off the road.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15074
+D2
+You see nothing special.
+~
+~
+0 -1 15076
+S
+#15076
+&11A &15W&00i&11n&00&03d&11i&15n&00g &16Pathway&00~
+   &11The wind gently sweeps across the dusty dirt road.  Pits and holes are
+scattered across it showing it hasn't been widely traveled in long time.  
+Small patches of grass cover it here and there and small animal trails can be
+seen leading off the road.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15075
+D2
+You see nothing special.
+~
+~
+0 -1 15077
+S
+#15077
+&11A &15W&00i&11n&00&03d&11i&15n&00g &16Pathway&00~
+   &11The wind gently sweeps across the dusty dirt road.  Pits and holes are
+scattered across it showing it hasn't been widely traveled in long time.  
+Small patches of grass cover it here and there and small animal trails can be
+seen leading off the road.  &00
+~
+150 16 0
+D0
+You see nothing special.
+~
+~
+0 -1 15076
+D2
+You see nothing special.
+~
+~
+0 -1 15078
+S
+#15078
+&11A &15W&00i&11n&00&03d&11i&15n&00g &16Pathway&00~
+   &11The wind gently sweeps across the dusty dirt road.  Pits and holes are
+scattered across it showing it hasn't been widely traveled in long time.  
+Small patches of grass cover it here and there and small animal trails can be
+seen leading off the road.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15077
+D1
+You see nothing special.
+~
+~
+0 -1 15079
+S
+#15079
+&11A &15W&00i&11n&00&03d&11i&15n&00g &16Pathway&00~
+   &11The wind gently sweeps across the dusty dirt road.  Pits and holes are
+scattered across it showing it hasn't been widely traveled in long time.  
+Small patches of grass cover it here and there and small animal trails can be
+seen leading off the road.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15080
+D3
+You see nothing special.
+~
+~
+0 -1 15078
+S
+#15080
+&11A &15W&00i&11n&00&03d&11i&15n&00g &16Pathway&00~
+   &11The wind gently sweeps across the dusty dirt road.  Pits and holes are
+scattered across it showing it hasn't been widely traveled in long time.  
+Small patches of grass cover it here and there and small animal trails can be
+seen leading off the road.  &00
+~
+150 4 0
+D2
+You see nothing special.
+~
+~
+0 -1 15081
+D3
+You see nothing special.
+v~
+~
+0 -1 15079
+S
+#15081
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00: &11Entrance&00~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15080
+D2
+You see nothing special.
+~
+~
+0 -1 15082
+S
+#15082
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15081
+D1
+You see nothing special.
+~
+~
+0 -1 15083
+S
+#15083
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15084
+D2
+You see nothing special.
+~
+~
+0 -1 15085
+D3
+You see nothing special.
+~
+~
+0 -1 15082
+S
+#15084
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15101
+D3
+You see nothing special.
+~
+~
+0 -1 15083
+S
+#15085
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15083
+D3
+You see nothing special.
+~
+~
+0 -1 15086
+S
+#15086
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15085
+D3
+You see nothing special.
+~
+~
+0 -1 15087
+S
+#15087
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15086
+D2
+You see nothing special.
+~
+~
+0 -1 15088
+S
+#15088
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15087
+D1
+You see nothing special.
+~
+~
+0 -1 15092
+D2
+You see nothing special.
+~
+~
+0 -1 15091
+D3
+You see nothing special.
+~
+~
+0 -1 15089
+S
+#15089
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15088
+D2
+You see nothing special.
+~
+~
+0 -1 15090
+S
+#15090
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15089
+D1
+You see nothing special.
+~
+~
+0 -1 15091
+S
+#15091
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15088
+D1
+You see nothing special.
+~
+~
+0 -1 15093
+D2
+You see nothing special.
+~
+~
+0 -1 15097
+D3
+You see nothing special.
+~
+~
+0 -1 15090
+S
+#15092
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15093
+D3
+You see nothing special.
+~
+~
+0 -1 15088
+S
+#15093
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15092
+D1
+You see nothing special.
+~
+~
+0 -1 15094
+D3
+You see nothing special.
+~
+~
+0 -1 15091
+S
+#15094
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15095
+D3
+You see nothing special.
+~
+~
+0 -1 15093
+S
+#15095
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15094
+D1
+You see nothing special.
+~
+~
+0 -1 15098
+D3
+You see nothing special.
+~
+~
+0 -1 15096
+S
+#15096
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15095
+D3
+You see nothing special.
+~
+~
+0 -1 15097
+S
+#15097
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15091
+D1
+You see nothing special.
+~
+~
+0 -1 15096
+S
+#15098
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15099
+D3
+You see nothing special.
+~
+~
+0 -1 15095
+S
+#15099
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15098
+D3
+You see nothing special.
+~
+~
+0 -1 15100
+S
+#15100
+&00&03D&11e&16s&00&03e&11r&16t of I&15l&00&06l&16u&15s&00&06i&16o&15n&00&00&07~
+   &00&03Sand and grit howls through the wind stinging anything in it's path.
+Large dunes flow with the wind for miles and miles in seemingly every
+direction.  Small desert animals scatter here and there looking for cover from
+the beaming sun.  The air is dry and hot making it almost unbreable.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15099
+D2
+You see nothing special.
+~
+~
+0 -1 15139
+S
+#15101
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00o&00&05n&15f&00&05u&00s&05i&00o&16n&00: &15Entrance&00~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 15102
+D3
+You see nothing special.
+~
+~
+0 -1 15084
+S
+#15102
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15103
+D3
+You see nothing special.
+~
+~
+0 -1 15101
+S
+#15103
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15104
+D3
+You see nothing special.
+~
+~
+0 -1 15102
+S
+#15104
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15105
+D3
+You see nothing special.
+~
+~
+0 -1 15103
+S
+#15105
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15104
+D3
+You see nothing special.
+~
+~
+0 -1 15106
+S
+#15106
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15105
+D2
+You see nothing special.
+~
+~
+0 -1 15107
+S
+#15107
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15106
+D3
+You see nothing special.
+~
+~
+0 -1 15108
+S
+#15108
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15109
+D1
+You see nothing special.
+~
+~
+0 -1 15107
+D2
+You see nothing special.
+~
+~
+0 -1 15110
+S
+#15109
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15108
+S
+#15110
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15108
+D1
+You see nothing special.
+~
+~
+0 -1 15111
+S
+#15111
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15118
+D2
+You see nothing special.
+~
+~
+0 -1 15112
+D3
+You see nothing special.
+~
+~
+0 -1 15110
+S
+#15112
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15111
+D3
+You see nothing special.
+~
+~
+0 -1 15113
+S
+#15113
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15112
+D2
+You see nothing special.
+~
+~
+0 -1 15114
+S
+#15114
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15113
+D1
+You see nothing special.
+~
+~
+0 -1 15115
+S
+#15115
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15116
+D3
+You see nothing special.
+~
+~
+0 -1 15114
+S
+#15116
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15117
+D3
+You see nothing special.
+~
+~
+0 -1 15115
+S
+#15117
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15118
+D2
+You see nothing special.
+~
+~
+0 -1 15116
+S
+#15118
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00 &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15119
+D2
+You see nothing special.
+~
+~
+0 -1 15117
+D3
+You see nothing special.
+~
+~
+0 -1 15111
+S
+#15119
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15120
+D2
+You see nothing special.
+~
+~
+0 -1 15118
+S
+#15120
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15121
+D3
+You see nothing special.
+~
+~
+0 -1 15119
+S
+#15121
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15122
+D2
+You see nothing special.
+~
+~
+0 -1 15120
+S
+#15122
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15123
+D2
+You see nothing special.
+~
+~
+0 -1 15121
+S
+#15123
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15124
+D3
+You see nothing special.
+~
+~
+0 -1 15122
+S
+#15124
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15125
+D3
+You see nothing special.
+~
+~
+0 -1 15123
+S
+#15125
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15124
+D3
+You see nothing special.
+~
+~
+0 -1 15126
+S
+#15126
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15125
+D2
+You see nothing special.
+~
+~
+0 -1 15127
+S
+#15127
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15128
+S
+#15128
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15127
+D2
+You see nothing special.
+~
+~
+0 -1 15129
+S
+#15129
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15128
+D3
+You see nothing special.
+~
+~
+0 -1 15130
+S
+#15130
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15131
+D1
+You see nothing special.
+~
+~
+0 -1 15129
+D2
+You see nothing special.
+~
+~
+0 -1 15132
+S
+#15131
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15130
+S
+#15132
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15130
+D1
+You see nothing special.
+~
+~
+0 -1 15133
+S
+#15133
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15134
+D3
+You see nothing special.
+~
+~
+0 -1 15132
+S
+#15134
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15135
+D3
+You see nothing special.
+~
+~
+0 -1 15133
+S
+#15135
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15136
+D2
+You see nothing special.
+~
+~
+0 -1 15134
+S
+#15136
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15137
+D2
+You see nothing special.
+~
+~
+0 -1 15135
+S
+#15137
+&16P&15l&10a&00&02i&15n&16s &15of &16C&00&07o&00&05n&15f&00&05u&00&07s&00&05i&00&07o&16n&00&07~
+   &10Long green fields stretch out as far as the eye can see.  The land gently
+rolls up and down forming small hills.  The sound of crickets and other bugs
+chirping fills the air and the wind rushing through the grass sounds like
+crashing waves &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15138
+D2
+You see nothing special.
+~
+~
+0 -1 15136
+S
+#15138
+&09D&16e&00&01solate &16S&15ton&16e &00&03Pat&16h&00~
+   &00&06A lone paved road lines the ground leading to a large temple to the
+east.  Tall grasses line either side of the road reaching up to six feet in
+length.  The area is devoid of all sound and the air smells fresh and scented
+with herbs and flowers.    
+~
+150 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 15150
+D3
+You see nothing special.
+~
+~
+0 -1 15137
+S
+#15139
+&10S&16c&00&03r&00&02u&16b &10C&16o&00&02v&10ered &09P&16l&00&01ateu&00&07~
+   &00&02The land rises to form a large slopping plateu.  The sides are covered
+with vines, shrubs and small trees.  At the top of the plateu you can see
+blinking lights and noise coming from the giant city perched on top.    
+~
+150 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 15100
+D2
+You see nothing special.
+~
+~
+0 -1 15140
+S
+#15140
+&10S&16c&00&03r&00&02u&16b &10C&16o&00&02v&10ered &09P&16l&00&01ateu&00&07~
+   &00&02The land rises to form a large slopping plateu.  The sides are covered
+with vines, shrubs and small trees.  At the top of the plateu you can see
+blinking lights and noise coming from the giant city perched on top.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15139
+D4
+You see nothing special.
+~
+~
+0 -1 15141
+S
+#15141
+&10S&16c&00&03r&00&02u&16b &10C&16o&00&02v&10ered &09P&16l&00&01ateu&00&07~
+   &00&02The land rises to form a large slopping plateu.  The sides are covered
+with vines, shrubs and small trees.  At the top of the plateu you can see
+blinking lights and noise coming from the giant city perched on top.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15142
+D5
+You see nothing special.
+~
+~
+0 -1 15140
+S
+#15142
+&10S&16c&00&03r&00&02u&16b &10C&16o&00&02v&10ered &09P&16l&00&01ateu&00&07~
+   &00&02The land rises to form a large slopping plateu.  The sides are covered
+with vines, shrubs and small trees.  At the top of the plateu you can see
+blinking lights and noise coming from the giant city perched on top.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15141
+S
+#15143
+&16V&15i&00l&06l&16a&15g&00e&16 of &15S&16h&00&06a&15d&16o&00&06w&15s&16: Entrance&00~
+   &00&06The land rises to form a large slopping platue.  The area is covered
+with sharp, barbed bushes.  There is a thick fog covering everything, and there
+is a soft hush coming from the south.  &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 500
+D5
+You see nothing special.
+~
+~
+0 -1 15142
+S
+#15144
+&10Ov&00&02er&10gr&00&02ow&10n &16M&00&03u&11d&16d&00&03y &16P&15ath&00~
+   &00&02The path is muddy and uneven.  Shrubs and other various undergrowths
+cover the old cobblestone path laid hundreds of years ago.  Small trees and
+bushes growing around the path make it impossible to see anything to either
+side.    
+~
+150 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 15032
+D3
+You see nothing special.
+~
+~
+0 -1 13008
+S
+#15145
+&10Ov&00&02er&10gr&00&02ow&10n &16M&00&03u&11d&16d&00&03y &16P&15ath&00~
+   &00&02The path is muddy and uneven.  Shrubs and other various undergrowths
+cover the old cobblestone path laid hundreds of years ago.  Small trees and
+bushes growing around the path make it impossible to see anything to either
+side.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 13001
+D2
+You see nothing special.
+~
+~
+0 -1 15146
+S
+#15146
+&10Ov&00&02er&10gr&00&02ow&10n &16M&00&03u&11d&16d&00&03y &16P&15ath&00~
+   &00&02The path is muddy and uneven.  Shrubs and other various undergrowths
+cover the old cobblestone path laid hundreds of years ago.  Small trees and
+bushes growing around the path make it impossible to see anything to either
+side.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15145
+D3
+You see nothing special.
+~
+~
+0 -1 15147
+S
+#15147
+&10Ov&00&02er&10gr&00&02ow&10n &16M&00&03u&11d&16d&00&03y &16P&15ath&00~
+   &00&02The path is muddy and uneven.  Shrubs and other various undergrowths
+cover the old cobblestone path laid hundreds of years ago.  Small trees and
+bushes growing around the path make it impossible to see anything to either
+side.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15148
+D1
+You see nothing special.
+~
+~
+0 -1 15146
+S
+#15148
+&10Ov&00&02er&10gr&00&02ow&10n &16M&00&03u&11d&16d&00&03y &16P&15ath&00~
+   &00&02The path is muddy and uneven.  Shrubs and other various undergrowths
+cover the old cobblestone path laid hundreds of years ago.  Small trees and
+bushes growing around the path make it impossible to see anything to either
+side.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15147
+D3
+You see nothing special.
+~
+~
+0 -1 15149
+S
+#15149
+&10Ov&00&02er&10gr&00&02ow&10n &16M&00&03u&11d&16d&00&03y &16P&15ath&00~
+   &00&02The path is muddy and uneven.  Shrubs and other various undergrowths
+cover the old cobblestone path laid hundreds of years ago.  Small trees and
+bushes growing around the path make it impossible to see anything to either
+side.    
+~
+150 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 13021
+D1
+You see nothing special.
+~
+~
+0 -1 15148
+D3
+You see nothing special.
+~
+~
+0 -1 15266
+S
+#15150
+&09D&16e&00&01solate &16S&15ton&16e &00&03Pat&16h&00~
+   &00&06A lone paved road lines the ground leading to a large temple to the
+east.  Tall grasses line either side of the road reaching up to six feet in
+length.  The area is devoid of all sound and the air smells fresh and scented
+with herbs and flowers.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15151
+D3
+You see nothing special.
+~
+~
+0 -1 15138
+S
+#15151
+&09D&16e&00&01solate &16S&15ton&16e &00&03Pat&16h&00~
+   &00&06A lone paved road lines the ground leading to a large temple to the
+east.  Tall grasses line either side of the road reaching up to six feet in
+length.  The area is devoid of all sound and the air smells fresh and scented
+with herbs and flowers.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15152
+D3
+You see nothing special.
+~
+~
+0 -1 15150
+S
+#15152
+&09D&16e&00&01solate &16S&15ton&16e &00&03Pat&16h&00~
+   &00&06A lone paved road lines the ground leading to a large temple to the
+east.  Tall grasses line either side of the road reaching up to six feet in
+length.  The area is devoid of all sound and the air smells fresh and scented
+with herbs and flowers.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15153
+D2
+You see nothing special.
+~
+~
+0 -1 15151
+S
+#15153
+&09D&16e&00&01solate &16S&15ton&16e &00&03Pat&16h&00~
+   &00&06A lone paved road lines the ground leading to a large temple to the
+east.  Tall grasses line either side of the road reaching up to six feet in
+length.  The area is devoid of all sound and the air smells fresh and scented
+with herbs and flowers.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15154
+D3
+You see nothing special.
+~
+~
+0 -1 15152
+S
+#15154
+&09D&16e&00&01solate &16S&15ton&16e &00&03Pat&16h&00~
+   &00&06A lone paved road lines the ground leading to a large temple to the
+east.  Tall grasses line either side of the road reaching up to six feet in
+length.  The area is devoid of all sound and the air smells fresh and scented
+with herbs and flowers.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+Gate~
+2 5060 5320
+D3
+You see nothing special.
+~
+~
+0 -1 15153
+S
+#15155
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 15156
+D3
+You see nothing special.
+~
+~
+0 -1 15029
+S
+#15156
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 15155
+D4
+You see nothing special.
+~
+~
+0 -1 15157
+S
+#15157
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15158
+D5
+You see nothing special.
+~
+~
+0 -1 15156
+S
+#15158
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15159
+D3
+You see nothing special.
+~
+~
+0 -1 15157
+S
+#15159
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15158
+D4
+You see nothing special.
+~
+~
+0 -1 15160
+S
+#15160
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15161
+D5
+You see nothing special.
+~
+~
+0 -1 15159
+S
+#15161
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15162
+D3
+You see nothing special.
+~
+~
+0 -1 15160
+S
+#15162
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15163
+D3
+You see nothing special.
+~
+~
+0 -1 15161
+S
+#15163
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15162
+D1
+You see nothing special.
+~
+~
+0 -1 15164
+S
+#15164
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 15163
+D4
+You see nothing special.
+~
+~
+0 -1 15165
+S
+#15165
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D4
+You see nothing special.
+~
+~
+0 -1 15166
+D5
+You see nothing special.
+~
+~
+0 -1 15164
+S
+#15166
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D4
+You see nothing special.
+~
+~
+0 -1 15167
+D5
+You see nothing special.
+~
+~
+0 -1 15165
+S
+#15167
+&16R&00&03o&16ck&00&03y &11R&00&03oadwa&11y&00~
+   &00&01Giant bolders are strewn across the dusty rock path leading up into
+the mountains and volcano.  Ash and soot cover the uneven path and the sound of
+birds in the sky seem to echo across the desolate mountain path.  To the east
+the road winds up the base of a giant mountain.    
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15168
+D5
+You see nothing special.
+~
+~
+0 -1 15166
+S
+#15168
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Entrance&00~
+   &00&01Hot streams of lava flow through channels all around the entrance to
+this volcano.  Dark black rock makes up most of the formations of the volcano,
+where lava cooled long ago.  Choking gases belch out of the entrance every few
+minutes, corpses of birds nearby evidence to their hazard.  &00
+~
+150 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 15174
+D3
+You see nothing special.
+~
+~
+0 -1 15167
+S
+#15169
+&12P&00&04r&03a&11c&00&03t&04ic&12e &09Y&00&03a&16r&09d&15: &16Entrace&00~
+   &06The dull obsidian floor looks rough and scraped from use.  The room looks
+plain and unadorned except for the giant mural on the ceiling depicting two
+warriors sparring each other.  Torches flicker in the breeze and the shouting
+of fighters in other rooms can be heard all around.  The smell of sweet and
+persperation lingers heavily in the air.  Up a set of spiraling stairs leads to
+the sparring room while to the east and south leads to the training and jogging
+rooms.    
+~
+150 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 15171
+D2
+You see nothing special.
+~
+~
+0 -1 15172
+D3
+You see nothing special.
+~
+~
+0 -1 15012
+D4
+You see nothing special.
+~
+~
+0 -1 15173
+S
+#15170
+&00K&15on&16a&15ts&00u &11T&00&03r&16aini&00&03n&11g &09C&15a&16m&09p&16: &15Healing Tent&00~
+   &00&07Smooth gleaming white marble covers the floor, the walls and ceiling a
+large tent made of sturdy material..  The air feels cool and refreshing and
+seems to envigorate even the most weary of souls.  Benches and beds line on
+either side of the tent, leaving a small walkway up the middle.  As the wind
+howls through the tent flaps a almost melodic voice can almost be heard.  To
+the east leads back out &00
+~
+150 65556 0
+D1
+You see nothing special.
+~
+~
+0 -1 15005
+S
+#15171
+&12P&00&04r&03a&11c&00&03t&04ic&12e &09Y&00&03a&16r&09d&15: &16Training Room&00~
+   &06The dull obsidian floor looks rough and scraped from use.  The room looks
+plain and unadorned.  Training machines fill the room, the sound of whiring
+machinery and grunts of young trainee's working out.  Torches line the wall
+casting most of the room in shadows.  The smell of sweet and persperation
+lingers heavily in the air.  To the west leads back out into the entryway.    
+~
+150 131072 0
+D3
+You see nothing special.
+~
+~
+0 -1 15169
+S
+#15172
+&12P&00&04r&03a&11c&00&03t&04ic&12e &09Y&00&03a&16r&09d&15: &16Jogging Strip&00~
+   &06The dull obsidian floor looks rough and scraped from use.  The room looks
+plain and unadorned.  A long hallway seems to stretch out as far as the eye can
+see as joggers do their daily running exercise.  Torches line the wall casting
+most of the room in shadows.  The smell of sweet and persperation lingers
+heavily in the air.  To the north leads back out into the entryway.    
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15169
+D2
+You see nothing special.
+~
+~
+0 -1 15172
+S
+#15173
+&12P&00&04r&00&03a&11c&00&03t&00&04ic&12e &09Y&00&03a&16r&09d&15: &16Sparring Chamber~
+   &06The dull obsidian floor looks rough and scraped from use.  The room looks
+plain and unadorned.  Small bits of rock and debris litters the ground from
+trainers getting a little to rough and small bloodstains can be seen on the
+training mats here and there.  Torches line the wall casting most of the room
+in shadows.  The smell of sweet and persperation lingers heavily in the air.  
+Down the staircase leads back to the entryway.    
+~
+150 16777216 0
+D5
+You see nothing special.
+~
+~
+0 -1 15169
+S
+#15174
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel&00~
+   &00&01This dark channel is lit mostly by slowly flowing lava through small
+gounges in the rock floor.  The heat is nearly unbearable here, and noxious
+fumes fill the air.  Strange creatures crawl across the walls, a testiment to
+the adaptability of some species.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15175
+D3
+You see nothing special.
+~
+~
+0 -1 15168
+S
+#15175
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel&00~
+   &00&01This dark channel is lit mostly by slowly flowing lava through small
+gounges in the rock floor.  The heat is nearly unbearable here, and noxious
+fumes fill the air.  Strange creatures crawl across the walls, a testiment to
+the adaptability of some species.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15176
+D3
+You see nothing special.
+~
+~
+0 -1 15174
+S
+#15176
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Center&00~
+   &09Thick streams of red hot lava flow through here, pooling in the shallow
+center before being pushed out through one of the many channels.  The fumes are
+as thick as a cloud in this room, leaving few of the creatures found elsewhere
+in the volcano actually in this chamber.  &00&00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15182
+D1
+You see nothing special.
+~
+~
+0 -1 15177
+D2
+You see nothing special.
+~
+~
+0 -1 15180
+D3
+You see nothing special.
+~
+~
+0 -1 15175
+D4
+You see nothing special.
+~
+~
+0 -1 15216
+D5
+You see nothing special.
+~
+~
+0 -1 15187
+S
+#15177
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel&00~
+   &00&01This dark channel is lit mostly by slowly flowing lava through small
+gounges in the rock floor.  The heat is nearly unbearable here, and noxious
+fumes fill the air.  Strange creatures crawl across the walls, a testiment to
+the adaptability of some species.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15178
+D3
+You see nothing special.
+~
+~
+0 -1 15176
+S
+#15178
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel&00~
+   &00&01This dark channel is lit mostly by slowly flowing lava through small
+gounges in the rock floor.  The heat is nearly unbearable here, and noxious
+fumes fill the air.  Strange creatures crawl across the walls, a testiment to
+the adaptability of some species.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15179
+D3
+You see nothing special.
+~
+~
+0 -1 15177
+S
+#15179
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Fountain of Magma&00~
+   &00&01A large hole in the volcano floor near the north is constantly spewing
+out lava here into a thick stream flowing through the middle of the floor.  
+The gasses are less here, but not by much.  The creatures living in the volcano
+seem to have taken a liking to the relativly safe exspanse of this room.  &00
+~
+150 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 15178
+S
+#15180
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel&00~
+   &00&01This dark channel is lit mostly by slowly flowing lava through small
+gounges in the rock floor.  The heat is nearly unbearable here, and noxious
+fumes fill the air.  Strange creatures crawl across the walls, a testiment to
+the adaptability of some species.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15176
+D2
+You see nothing special.
+~
+~
+0 -1 15181
+S
+#15181
+&00&06P&14u&15r&00&07e &00&01F&09l&00&03a&11m&00&07e &16S&15h&00&07o&15p&00~
+   &15This is a strange shop in an odd place.  Metal gratings have been built
+ontop of the lava rock, allowing streams of magma to flow safly beneath the
+shop floor.  Giant vents suck out the noxious fumes to make it a more
+comfortable shopping experience for anyone crazy enough to buy stuff in a
+volcano.  &00
+~
+150 148 0
+D0
+You see nothing special.
+~
+~
+0 -1 15180
+S
+#15182
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel&00~
+   &00&01This dark channel is lit mostly by slowly flowing lava through small
+gounges in the rock floor.  The heat is nearly unbearable here, and noxious
+fumes fill the air.  Strange creatures crawl across the walls, a testiment to
+the adaptability of some species.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15183
+D2
+You see nothing special.
+~
+~
+0 -1 15176
+S
+#15183
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel&00~
+   &00&01This dark channel is lit mostly by slowly flowing lava through small
+gounges in the rock floor.  The heat is nearly unbearable here, and noxious
+fumes fill the air.  Strange creatures crawl across the walls, a testiment to
+the adaptability of some species.  &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15182
+D3
+You see nothing special.
+~
+~
+0 -1 15184
+S
+#15184
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel&00~
+   &00&01This dark channel is lit mostly by slowly flowing lava through small
+gounges in the rock floor.  The heat is nearly unbearable here, and noxious
+fumes fill the air.  Strange creatures crawl across the walls, a testiment to
+the adaptability of some species.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15183
+D3
+You see nothing special.
+~
+~
+0 -1 15185
+S
+#15185
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel&00~
+   &00&01This dark channel is lit mostly by slowly flowing lava through small
+gounges in the rock floor.  The heat is nearly unbearable here, and noxious
+fumes fill the air.  Strange creatures crawl across the walls, a testiment to
+the adaptability of some species.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15184
+D3
+You see nothing special.
+~
+~
+0 -1 15186
+S
+#15186
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Fountain of Magma&00~
+   &00&01A large hole in the volcano floor near the north is constantly spewing
+out lava here into a thick stream flowing through the middle of the floor.  
+The gasses are less here, but not by much.  The creatures living in the volcano
+seem to have taken a liking to the relativly safe exspanse of this room.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15185
+S
+#15187
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Decending Channel&00~
+   &00&01This channel seems to have lost lava activity a long time ago and has
+long since cooled.  Cooled as far as rock can in a volcano that is.  The
+creatures of the volcano seem to use this and other cooled tunnels to sleep in.
+&00
+~
+150 0 0
+D4
+You see nothing special.
+~
+~
+0 -1 15176
+D5
+You see nothing special.
+~
+~
+0 -1 15188
+S
+#15188
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Decending Channel&00~
+   &00&01This channel seems to have lost lava activity a long time ago and has
+long since cooled.  Cooled as far as rock can in a volcano that is.  The
+creatures of the volcano seem to use this and other cooled tunnels to sleep in.
+&00
+~
+150 0 0
+D4
+You see nothing special.
+~
+~
+0 -1 15187
+D5
+You see nothing special.
+~
+~
+0 -1 15189
+S
+#15189
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Decending Channel&00~
+   &00&01This channel seems to have lost lava activity a long time ago and has
+long since cooled.  Cooled as far as rock can in a volcano that is.  The
+creatures of the volcano seem to use this and other cooled tunnels to sleep in.
+&00
+~
+150 4 0
+D4
+You see nothing special.
+~
+~
+0 -1 15188
+D5
+You see nothing special.
+~
+~
+0 -1 15190
+S
+#15190
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Center&00~
+   &09Thick streams of red hot lava flow through here, pooling in the shallow
+center before being pushed out through one of the many channels.  The fumes are
+as thick as a cloud in this room, leaving few of the creatures found elsewhere
+in the volcano actually in this chamber.  &00&00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15191
+D1
+You see nothing special.
+~
+~
+0 -1 15193
+D2
+You see nothing special.
+~
+~
+0 -1 15195
+D3
+You see nothing special.
+~
+~
+0 -1 15197
+D4
+You see nothing special.
+~
+~
+0 -1 15189
+D5
+You see nothing special.
+~
+~
+0 -1 15199
+S
+#15191
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15192
+D2
+You see nothing special.
+~
+~
+0 -1 15190
+S
+#15192
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15261
+D2
+You see nothing special.
+~
+~
+0 -1 15191
+S
+#15193
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15194
+D3
+You see nothing special.
+~
+~
+0 -1 15190
+S
+#15194
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15258
+D3
+You see nothing special.
+~
+~
+0 -1 15193
+S
+#15195
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15190
+D2
+You see nothing special.
+~
+~
+0 -1 15196
+S
+#15196
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15195
+D2
+You see nothing special.
+~
+~
+0 -1 15259
+S
+#15197
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15190
+D3
+You see nothing special.
+~
+~
+0 -1 15198
+S
+#15198
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15197
+D3
+You see nothing special.
+~
+~
+0 -1 15260
+S
+#15199
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15200
+D4
+You see nothing special.
+~
+~
+0 -1 15190
+S
+#15200
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15199
+D2
+You see nothing special.
+~
+~
+0 -1 15201
+S
+#15201
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Channel of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15200
+D2
+You see nothing special.
+~
+~
+0 -1 15202
+S
+#15202
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lake of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15201
+D1
+You see nothing special.
+~
+~
+0 -1 15203
+D2
+You see nothing special.
+~
+~
+0 -1 15205
+D3
+You see nothing special.
+~
+~
+0 -1 15207
+S
+#15203
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lake of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15204
+D3
+You see nothing special.
+~
+~
+0 -1 15202
+S
+#15204
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lake of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15203
+D2
+You see nothing special.
+~
+~
+0 -1 15210
+D3
+You see nothing special.
+~
+~
+0 -1 15205
+S
+#15205
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lake of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15202
+D1
+You see nothing special.
+~
+~
+0 -1 15204
+D2
+You see nothing special.
+~
+~
+0 -1 15209
+D3
+You see nothing special.
+~
+~
+0 -1 15206
+D5
+You see nothing special.
+~
+~
+0 -1 15211
+S
+#15206
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lake of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15207
+D1
+You see nothing special.
+~
+~
+0 -1 15205
+D2
+You see nothing special.
+~
+~
+0 -1 15208
+S
+#15207
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lake of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15202
+D2
+You see nothing special.
+~
+~
+0 -1 15206
+S
+#15208
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lake of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15206
+D1
+You see nothing special.
+~
+~
+0 -1 15209
+S
+#15209
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lake of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15205
+D1
+You see nothing special.
+~
+~
+0 -1 15210
+D3
+You see nothing special.
+~
+~
+0 -1 15208
+S
+#15210
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lake of Lava&00~
+   &09This entire area is filled with rolling waves of lava.  It is best that
+you be careful, only a strong warrior would be able to withstand this
+incredible heat.  The gases are their thickest here, nearly making it
+impossible to breath.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15204
+D3
+You see nothing special.
+~
+~
+0 -1 15209
+S
+#15211
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lava Filled Channel&00~
+   &09This channel is filled completely with intensely hot lava.  Nothing could
+survive down here, not even the lava creatures above.  You had best do what you
+came to do fast, before you get cooked.  &00
+~
+150 67108868 0
+D4
+You see nothing special.
+~
+~
+0 -1 15205
+D5
+You see nothing special.
+~
+~
+0 -1 15212
+S
+#15212
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lava Filled Channel&00~
+   &09This channel is filled completely with intensely hot lava.  Nothing could
+survive down here, not even the lava creatures above.  You had best do what you
+came to do fast, before you get cooked.  &00
+~
+150 67108864 0
+D4
+You see nothing special.
+~
+~
+0 -1 15211
+D5
+You see nothing special.
+~
+~
+0 -1 15213
+S
+#15213
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lava Filled Channel&00~
+   &09This channel is filled completely with intensely hot lava.  Nothing could
+survive down here, not even the lava creatures above.  You had best do what you
+came to do fast, before you get cooked.  &00
+~
+150 67108864 0
+D2
+You see nothing special.
+~
+~
+0 -1 15214
+D4
+You see nothing special.
+~
+~
+0 -1 15212
+S
+#15214
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Lava Filled Channel&00~
+   &09This channel is filled completely with intensely hot lava.  Nothing could
+survive down here, not even the lava creatures above.  You had best do what you
+came to do fast, before you get cooked.  &00
+~
+150 67108864 0
+D0
+You see nothing special.
+~
+~
+0 -1 15213
+S
+#15215
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15216
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Ascending Channel&00~
+   &00&01This channel seems to have lost lava activity a long time ago and has
+long since cooled.  Cooled as far as rock can in a volcano that is.  The
+creatures of the volcano seem to use this and other cooled tunnels to sleep in.
+&00
+~
+150 0 0
+D4
+You see nothing special.
+~
+~
+0 -1 15217
+D5
+You see nothing special.
+~
+~
+0 -1 15176
+S
+#15217
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Ascending Channel&00~
+   &00&01This channel seems to have lost lava activity a long time ago and has
+long since cooled.  Cooled as far as rock can in a volcano that is.  The
+creatures of the volcano seem to use this and other cooled tunnels to sleep in.
+&00
+~
+150 4 0
+D4
+You see nothing special.
+~
+~
+0 -1 15218
+D5
+You see nothing special.
+~
+~
+0 -1 15216
+S
+#15218
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15235
+D1
+You see nothing special.
+~
+~
+0 -1 15221
+D2
+You see nothing special.
+~
+~
+0 -1 15225
+D3
+You see nothing special.
+~
+~
+0 -1 15219
+D5
+You see nothing special.
+~
+~
+0 -1 15217
+S
+#15219
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15236
+D1
+You see nothing special.
+~
+~
+0 -1 15218
+D2
+You see nothing special.
+~
+~
+0 -1 15226
+D3
+You see nothing special.
+~
+~
+0 -1 15220
+S
+#15220
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15237
+D1
+You see nothing special.
+~
+~
+0 -1 15219
+D2
+You see nothing special.
+~
+~
+0 -1 15227
+D4
+You see nothing special.
+~
+~
+0 -1 15243
+S
+#15221
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15234
+D1
+You see nothing special.
+~
+~
+0 -1 15222
+D2
+You see nothing special.
+~
+~
+0 -1 15224
+D3
+You see nothing special.
+~
+~
+0 -1 15218
+S
+#15222
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15233
+D2
+You see nothing special.
+~
+~
+0 -1 15223
+D3
+You see nothing special.
+~
+~
+0 -1 15221
+S
+#15223
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15222
+D2
+You see nothing special.
+~
+~
+0 -1 15232
+D3
+You see nothing special.
+~
+~
+0 -1 15224
+S
+#15224
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15221
+D1
+You see nothing special.
+~
+~
+0 -1 15223
+D2
+You see nothing special.
+~
+~
+0 -1 15231
+D3
+You see nothing special.
+~
+~
+0 -1 15225
+S
+#15225
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15218
+D1
+You see nothing special.
+~
+~
+0 -1 15224
+D2
+You see nothing special.
+~
+~
+0 -1 15230
+D3
+You see nothing special.
+~
+~
+0 -1 15226
+S
+#15226
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15219
+D1
+You see nothing special.
+~
+~
+0 -1 15225
+D2
+You see nothing special.
+~
+~
+0 -1 15228
+D3
+You see nothing special.
+~
+~
+0 -1 15227
+S
+#15227
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15220
+D1
+You see nothing special.
+~
+~
+0 -1 15226
+D2
+You see nothing special.
+~
+~
+0 -1 15229
+S
+#15228
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15226
+D1
+You see nothing special.
+~
+~
+0 -1 15230
+D3
+You see nothing special.
+~
+~
+0 -1 15229
+S
+#15229
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15227
+D1
+You see nothing special.
+~
+~
+0 -1 15228
+S
+#15230
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15225
+D1
+You see nothing special.
+~
+~
+0 -1 15231
+D3
+You see nothing special.
+~
+~
+0 -1 15228
+S
+#15231
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15224
+D1
+You see nothing special.
+~
+~
+0 -1 15232
+D3
+You see nothing special.
+~
+~
+0 -1 15230
+S
+#15232
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15223
+D3
+You see nothing special.
+~
+~
+0 -1 15231
+S
+#15233
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15242
+D2
+You see nothing special.
+~
+~
+0 -1 15222
+D3
+You see nothing special.
+~
+~
+0 -1 15234
+S
+#15234
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15241
+D1
+You see nothing special.
+~
+~
+0 -1 15233
+D2
+You see nothing special.
+~
+~
+0 -1 15221
+D3
+You see nothing special.
+~
+~
+0 -1 15235
+S
+#15235
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15240
+D1
+You see nothing special.
+~
+~
+0 -1 15234
+D2
+You see nothing special.
+~
+~
+0 -1 15218
+D3
+You see nothing special.
+~
+~
+0 -1 15236
+S
+#15236
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15239
+D1
+You see nothing special.
+~
+~
+0 -1 15235
+D2
+You see nothing special.
+~
+~
+0 -1 15219
+D3
+You see nothing special.
+~
+~
+0 -1 15237
+S
+#15237
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15238
+D1
+You see nothing special.
+~
+~
+0 -1 15236
+D2
+You see nothing special.
+~
+~
+0 -1 15220
+S
+#15238
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15239
+D2
+You see nothing special.
+~
+~
+0 -1 15237
+S
+#15239
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15240
+D2
+You see nothing special.
+~
+~
+0 -1 15236
+D3
+You see nothing special.
+~
+~
+0 -1 15238
+S
+#15240
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15241
+D2
+You see nothing special.
+~
+~
+0 -1 15235
+D3
+You see nothing special.
+~
+~
+0 -1 15239
+S
+#15241
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15242
+D2
+You see nothing special.
+~
+~
+0 -1 15234
+D3
+You see nothing special.
+~
+~
+0 -1 15240
+S
+#15242
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top Cone&00~
+   &00&01There is hardly any lava here, mostly broiling hot noxious gases
+billow up into the sky above.  Occasional earth tremors shake lose old lava
+rock, causing it to roll down the outside sides of the volcano.  &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15233
+D3
+You see nothing special.
+~
+~
+0 -1 15241
+S
+#15243
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 15244
+D5
+You see nothing special.
+~
+~
+0 -1 15220
+S
+#15244
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15245
+D2
+You see nothing special.
+~
+~
+0 -1 15243
+S
+#15245
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15246
+D2
+You see nothing special.
+~
+~
+0 -1 15244
+S
+#15246
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15247
+D3
+You see nothing special.
+~
+~
+0 -1 15245
+S
+#15247
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15248
+D3
+You see nothing special.
+~
+~
+0 -1 15246
+S
+#15248
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15249
+D3
+You see nothing special.
+~
+~
+0 -1 15247
+S
+#15249
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15248
+D2
+You see nothing special.
+~
+~
+0 -1 15250
+S
+#15250
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15249
+D2
+You see nothing special.
+~
+~
+0 -1 15251
+S
+#15251
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15250
+D3
+You see nothing special.
+~
+~
+0 -1 15252
+S
+#15252
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15251
+D3
+You see nothing special.
+~
+~
+0 -1 15253
+S
+#15253
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15252
+D3
+You see nothing special.
+~
+~
+0 -1 15254
+S
+#15254
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Climbing the Jagged Edge&00~
+   &00&01This hard lava rock has long since cooled.  Bit and pieces of the edge
+of the volcano have broken off from eruption tremors.  The actual top of the
+edge looms far above, and can be seen jutting through a cloud of gases.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15253
+D4
+You see nothing special.
+~
+~
+0 -1 15255
+S
+#15255
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top of the Edge&00~
+   &00&01This is the highest part of the volcano.  The eastern, northern, and
+southern edges have all been broken down to allow the pressure of the lava to
+flow out.  This western edge still has a high jutting reach towards the sky.  
+&00
+~
+150 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 15256
+D5
+You see nothing special.
+~
+~
+0 -1 15254
+S
+#15256
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top of the Edge&00~
+   &00&01This is the highest part of the volcano.  The eastern, northern, and
+southern edges have all been broken down to allow the pressure of the lava to
+flow out.  This western edge still has a high jutting reach towards the sky.  
+&00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15257
+D2
+You see nothing special.
+~
+~
+0 -1 15255
+S
+#15257
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Top of the Edge&00~
+   &00&01This is the highest part of the volcano.  The eastern, northern, and
+southern edges have all been broken down to allow the pressure of the lava to
+flow out.  This western edge still has a high jutting reach towards the sky.  
+&00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15256
+S
+#15258
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 15194
+S
+#15259
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15196
+S
+#15260
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15198
+S
+#15261
+&00&02V&10a&00&06lsh&10e&00&02k &00&01V&09o&15l&00&01c&16a&09n&11o&16: &15Deep Channel&00~
+   &00&01This channel has a lot of lava flowing through it, even lava pouring
+down several parts of the walls.  No normal person could be here and survive
+for long.  The gases are pretty thick here to, eating away at anything
+metallic.  &00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15192
+S
+#15262
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15263
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15264
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15265
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15266
+&12T&00&04i&00&05n&12y &14C&00&06ree&14k&00~
+   &14This small creek winds lazily through the thinning forest.  The creek is
+suprizingly clear, flowing past small and large rocks alike in the creek bed.
+Small fish swim through the deeper parts of the creek, surfacing to catch
+unsuspecting waterbugs as they skim the surface.  &00
+~
+150 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 15149
+D3
+You see nothing special.
+~
+~
+0 -1 12988
+S
+#15267
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15268
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15269
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15270
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15271
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15272
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15273
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15274
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15275
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15276
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15277
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15278
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15279
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15280
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15281
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15282
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15283
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15284
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15285
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15286
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15287
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15288
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15289
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15290
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15291
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15292
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15293
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15294
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15295
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15296
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15297
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15298
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15299
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15300
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15301
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15302
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15303
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15304
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15305
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15306
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15307
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15308
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15309
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15310
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15311
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15312
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15313
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15314
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15315
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15316
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15317
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15318
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15319
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15320
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15321
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15322
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15323
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15324
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15325
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15326
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15327
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15328
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15329
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15330
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15331
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15332
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15333
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15334
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15335
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15336
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15337
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15338
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15339
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15340
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15341
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15342
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15343
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15344
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15345
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15346
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15347
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15348
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15349
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15350
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15351
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15352
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15353
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15354
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15355
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15356
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15357
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15358
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15359
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15360
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15361
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15362
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15363
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15364
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15365
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15366
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15367
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15368
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15369
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15370
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15371
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15372
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15373
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15374
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15375
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15376
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15377
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15378
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15379
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15380
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15381
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15382
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15383
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15384
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15385
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15386
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15387
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15388
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15389
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15390
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15391
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15392
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15393
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15394
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15395
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15396
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15397
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15398
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15399
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15400
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15401
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15402
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15403
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15404
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15405
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15406
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15407
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15408
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15409
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15410
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15411
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15412
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15413
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15414
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15415
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15416
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15417
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15418
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15419
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15420
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15421
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15422
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15423
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15424
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15425
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15426
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15427
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15428
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15429
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15430
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15431
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15432
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15433
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15434
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15435
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15436
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15437
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15438
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15439
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15440
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15441
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15442
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15443
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15444
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15445
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15446
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15447
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15448
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15449
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15450
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15451
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15452
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15453
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15454
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15455
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15456
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15457
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15458
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15459
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15460
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15461
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15462
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15463
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15464
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15465
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15466
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15467
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15468
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15469
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15470
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15471
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15472
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15473
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15474
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15475
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15476
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15477
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15478
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15479
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15480
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15481
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15482
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15483
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15484
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15485
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15486
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15487
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15488
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15489
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15490
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15491
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15492
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15493
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15494
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15495
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15496
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15497
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15498
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15499
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15500
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15501
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15502
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15503
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15504
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15505
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15506
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15507
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15508
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15509
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15510
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15511
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15512
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15513
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15514
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15515
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15516
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15517
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15518
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15519
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15520
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15521
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15522
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15523
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15524
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15525
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15526
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15527
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15528
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15529
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15530
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15531
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15532
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15533
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15534
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15535
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15536
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15537
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15538
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15539
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15540
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15541
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15542
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15543
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15544
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15545
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15546
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15547
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15548
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15549
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15550
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15551
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15552
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15553
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15554
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15555
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15556
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15557
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15558
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15559
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15560
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15561
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15562
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15563
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15564
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15565
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15566
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15567
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15568
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15569
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15570
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15571
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15572
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15573
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15574
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15575
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15576
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15577
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15578
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15579
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15580
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15581
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15582
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15583
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15584
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15585
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15586
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15587
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15588
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15589
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15590
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15591
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15592
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15593
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15594
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15595
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15596
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15597
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15598
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15599
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15600
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15601
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15602
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15603
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15604
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15605
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15606
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15607
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15608
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15609
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15610
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15611
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15612
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15613
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15614
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15615
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15616
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15617
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15618
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15619
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15620
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15621
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15622
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15623
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15624
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15625
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15626
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15627
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15628
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15629
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15630
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15631
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15632
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15633
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15634
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15635
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15636
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15637
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15638
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15639
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15640
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15641
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15642
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15643
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15644
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15645
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15646
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15647
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15648
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15649
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15650
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15651
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15652
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15653
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15654
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15655
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15656
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15657
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15658
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15659
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15660
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15661
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15662
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15663
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15664
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15665
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15666
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15667
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15668
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15669
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15670
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15671
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15672
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15673
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15674
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15675
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15676
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15677
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15678
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15679
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15680
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15681
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15682
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15683
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15684
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15685
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15686
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15687
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15688
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15689
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15690
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15691
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15692
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15693
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15694
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15695
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15696
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15697
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15698
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15699
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15700
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15701
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15702
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15703
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15704
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15705
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15706
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15707
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15708
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15709
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15710
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15711
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15712
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15713
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15714
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15715
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15716
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15717
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15718
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15719
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15720
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15721
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15722
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15723
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15724
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15725
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15726
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15727
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15728
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15729
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15730
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15731
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15732
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15733
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15734
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15735
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15736
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15737
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15738
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15739
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15740
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15741
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15742
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15743
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15744
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15745
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15746
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15747
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15748
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15749
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15750
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15751
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15752
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15753
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15754
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15755
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15756
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15757
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15758
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15759
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15760
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15761
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15762
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15763
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15764
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15765
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15766
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15767
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15768
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15769
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15770
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15771
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15772
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15773
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15774
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15775
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15776
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15777
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15778
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15779
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15780
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15781
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15782
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15783
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15784
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15785
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15786
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15787
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15788
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15789
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15790
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15791
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15792
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15793
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15794
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15795
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15796
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15797
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15798
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15799
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15800
+Entrance Ramp~
+   &00&07 You walk in onto the grates as the steel doors slam behind you,
+kicking up a cloud of dust.  You continue forward and stop directly in-front of
+a speaker box mounted onto the wall.  In a loud robotic voice "Prepare for
+decontamination!  " Jets of steam come bursting out from every direction,
+knocking you onto you back and leaving you smoldering on the floor.  
+"Decontamination Complete!  " and with that the front wall splits revealing a
+small step ladder leading down to another room.  &00
+~
+150 0 0
+D3
+You see nothing special.
+~
+door~
+2 15803 17504
+D4
+You see nothing special.
+~
+~
+0 -1 15802
+S
+#15801
+&00&01S&09h&15r&00&01i&09n&00&01e&00~
+   &16You enter the room and look up to see a 20 foot statue of
+&00&01K&09u&15v&09o&00&01c &16 staring down at you with a look of
+&00&01p&09u&00&01r&09e &00&01e&09v&00&01i&09l &16on his face.  Of the smaller
+statues, the closest to &00&01K&09u&15v&09o&00&01c &16resembles the infamous
+&00&06S&14e&15ku&12r&00&04a &16kneeling down to Kuvoc.  The three statues
+behind Sekura seem to resemble &00&07M&15a&11r&00&03z&16, &11G&15o&00&03k&11u
+&16and &12V&00&04e&14g&16e&12t&00&04a.  &16The flawless statues are all placed
+in prayer together showing the bond between Sekura and his three captains.  
+&00
+~
+150 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 15802
+S
+#15802
+&00&06S&14t&15r&12a&00&04tegy Ce&12n&15t&14e&00&06r&00~
+   &00&07The room is full of tables surrounded by chairs and arranged to look
+like a classroom with a big board at the end of the room.  It shows signs of
+being used as a place to plan strategies and eminates a sense of evil all
+throughout it commanding the honor of the clan's cause.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15801
+D1
+You see nothing special.
+~
+~
+0 -1 15804
+D2
+You see nothing special.
+~
+~
+0 -1 15803
+D5
+You see nothing special.
+~
+~
+0 -1 15800
+S
+#15803
+&15E&09q&00&01u&16ipm&00&01e&09n&15t &00&07C&15ente&00&07r&00~
+   &16This room is rather dimly lit.  Engulfed in the shadows, many exotic
+weapons are lined up across the walls from planets all over the universe.  The
+western wall, however, has a rather large cabinet against it containing various
+equipment and goods both stolen and bought.  In the center of the room stands a
+counter with a Regime slave behind it waiting for new recruits to receive their
+issued clan gear.  &00
+~
+150 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 15802
+S
+#15804
+&00&07S&15h&09i&00&01p Bri&00&09d&15g&00&07e&00~
+   &00&01This huge room holds the main control pannel and a master computer
+controll ing pretty much everthing with the whole ship.  This room truly is
+amazing showing tha t the Dark Regime is not only powerful and organized but
+genius as well.  The technolo gy within this place is extremly advance and
+really confusing to understand for anyon e without high knoledge on these kind
+of things.  Luckely it seems the ship is able to control itself even, truly
+amazing.  &00
+~
+150 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 15802
+S
+#15805
+&14B&00&06a&00&04rrac&00&06k&14s&00~
+   &00&06While walking into this monstrous training ground you feel the gravity
+is hundreds of times stronger, pulling you toward the floor.  You look around
+the room and notice the battle scars in the walls.  Reminders of how tough the
+training is to be among the Dark Regime's numbers.  &00
+~
+150 0 0
+S
+#15806
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15807
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15808
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15809
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15810
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15811
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15812
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15813
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15814
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15815
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15816
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15817
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15818
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15819
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15820
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15821
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15822
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15823
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15824
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15825
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15826
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15827
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15828
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15829
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15830
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15831
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15832
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15833
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15834
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15835
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15836
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15837
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15838
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15839
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15840
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15841
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15842
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15843
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15844
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15845
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15846
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15847
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15848
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15849
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15850
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15851
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15852
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15853
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15854
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15855
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15856
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15857
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15858
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15859
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15860
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15861
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15862
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15863
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15864
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15865
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15866
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15867
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15868
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15869
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15870
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15871
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15872
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15873
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15874
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15875
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15876
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15877
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15878
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15879
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15880
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15881
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15882
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15883
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15884
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15885
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15886
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15887
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15888
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15889
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15890
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15891
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15892
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15893
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15894
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15895
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15896
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15897
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15898
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15899
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15900
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15901
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15902
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15903
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15904
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15905
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15906
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15907
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15908
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15909
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15910
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15911
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15912
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15913
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15914
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15915
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15916
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15917
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15918
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15919
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15920
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15921
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15922
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15923
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15924
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15925
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15926
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15927
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15928
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15929
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15930
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15931
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15932
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15933
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15934
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15935
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15936
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15937
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15938
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15939
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15940
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15941
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15942
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15943
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15944
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15945
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15946
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15947
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15948
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15949
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15950
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15951
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15952
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15953
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15954
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15955
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15956
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15957
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15958
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15959
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15960
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15961
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15962
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15963
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15964
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15965
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15966
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15967
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15968
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15969
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15970
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15971
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15972
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15973
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15974
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15975
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15976
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15977
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15978
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15979
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15980
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15981
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15982
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15983
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15984
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15985
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15986
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15987
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15988
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15989
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15990
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15991
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15992
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15993
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15994
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15995
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15996
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15997
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15998
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+#15999
+Under Construction~
+You are in an unfinished room.
+~
+150 0 0
+S
+$~

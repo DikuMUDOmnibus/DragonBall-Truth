@@ -1,0 +1,49 @@
+I wrote a piece of code to run asynchronyously other programs from mud. 
+
+How does it work? Programs are runned as child processes so there isn't
+any lag. There is a queue of requests to run some programs. Only one
+program is runnig in one time. When program ends, next one is executed.
+Output from program is directly sent to player who did request. This
+player can during program execution normaly play.
+
+I did these commands:
+swho  - runs w. Shows who is logged on the computer and what they're doing
+slast - runs last. Shows last 10 logins of given user.
+grep  - runs grep. You can grep any file for any pattern
+sps   - calls ps.
+ukill - kills running child program.
+Adding additional programs is very easy.
+
+Instalation is also easy:
+0. Please read comments on the begging of the file prgrun.c
+1. Add runprg.c into your src directory
+2. Add this two lines at the begging of function heartbeat (comm.c):
+	void process_program_output(void);
+	process_program_output();
+3. Add new commands do_swho, do_slast, do_grep, do_sps and do_ukill into
+   your interpreter.c
+4. Add runprg.c into your Makefile:
+prgrun.o: prgrun.c sysdep.h structs.h utils.h comm.h interpreter.h db.h
+        $(CC) -c $(CFLAGS) prgrun.c
+   Also add prgrun.o into OBJFILES in your Makefile
+5. If you haven't get_ch_by_id function, here it is:
+   /*
+    * get_ch_by_id : given an ID number, searches every descriptor for a
+    *              character with that number and returns a pointer to it.
+    */
+   struct char_data *get_ch_by_id(long idnum)
+   {
+     struct descriptor_data *d;
+
+     for (d = descriptor_list; d; d = d->next)
+       if (d && d->character && GET_IDNUM(d->character) == idnum)
+         return (d->character);
+
+     return NULL;
+   }
+  
+   This functions is taken from auction.
+
+6. I'm using easy colors. If you do not, remove all &w, &c etc.
+
+                               Petr Vilim (Petr.Vilim@st.mff.cuni.cz)

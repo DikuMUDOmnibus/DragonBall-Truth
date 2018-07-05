@@ -1,0 +1,102 @@
+#17500
+High Priest Semaj~
+&11H&00&03i&00&02g&10h &11P&00&03r&00&02i&10e&11s&00&03t &11S&00&03e&00&02m&00&03a&11j&00~
+&11H&00&03i&00&02g&10h &11P&00&03r&00&02i&10e&11s&00&03t &11S&00&03e&00&02m&00&03a&11j&00 is hovering here, reading the hymns out of a massive book.
+~
+It looks unfinished.
+~
+10 0 0 E
+250000 20 0 1d1+50000000 1d1+250000
+25000 45000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17550
+Failed Mutated Namek~
+&00&03F&15a&16i&15l&00e&03d&00 &00&01M&05u&09t&00&05a&09t&00&05e&01d&00 &00&02N&03a&06m&00&02e&03k&00~
+&00A &00&03F&15a&16i&15l&00e&03d&00 &00&01M&05u&09t&00&05a&09t&00&05e&01d&00 &00&02N&03a&06m&00&02e&03k&00 drools at the sight of you.
+~
+This namek's body is deformed in most all areas. Its arms hanging down below his knees and extra antennae sprouting form its head.
+~
+10 0 0 E
+300000 -60 0 1d1+3500000 1d1+45000
+700 4200000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17551
+Failed Mutated Konatsu~
+&00&03F&15a&16i&15l&00e&03d&00 &00&01M&05u&09t&00&05a&09t&00&05e&01d&00 K&15on&16a&15ts&00u~
+&00A &00&03F&15a&16i&15l&00e&03d&00 &00&01M&05u&09t&00&05a&09t&00&05e&01d&00 K&15on&16a&15ts&00u slashes at the air with it's extra limbs.
+~
+&00A &00&03F&15a&16i&15l&00e&03d&00 &00&01M&05u&09t&00&05a&09t&00&05e&01d&00 K&15on&16a&15ts&00u body has been morphed into a spider like being. Having twice the normal amount of limbs.
+~
+10 0 0 E
+300000 -60 0 1d1+4000000 1d1+50000
+850 4700000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#17552
+Failed Cell Clone~
+&00&03F&15a&16i&15l&00e&03d&00 &10C&00&02e&10ll &00&03C&11l&16o&00&03n&15e&00~
+&00&03F&15a&16i&15l&00e&03d&00 &10C&00&02e&10ll &00&03C&11l&16o&00&03n&15e&00 cackles into the darkness.
+~
+It looks unfinished.
+~
+231466 136 0 E
+100000 -80 0 1d1+50000000 1d1+150000
+2000 35000000
+8 8 0
+BareHandAttack: 7
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 17552
+T 109
+#17553
+Crystal Teleporter~
+&15C&00&06r&00y&14s&00t&06a&15l &00Teleporter~
+&00A &15C&00&06r&00y&14s&00t&06a&15l &00Teleporter sits here.
+~
+It looks unfinished.
+~
+8 0 0 E
+10000000 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 17553
+#17554
+Truffle Patrol Guard~
+&12T&14r&00&06u&04f&06f&14l&12e &11P&00&03a&15t&16r&00o&11l&00 &00&06G&14u&15a&00r&14d&00~
+&12T&14r&00&06u&04f&06f&14l&12e &11P&00&03a&15t&16r&00o&11l&00 &00&06G&14u&15a&00r&14d&00 scans each sector for unwanted guess.
+~
+This lite armored truffle stands guard of its assigned sectors. Although small, this guard is well trained in the combat arts.
+~
+8 0 0 E
+30000 -60 0 1d1+850000 1d1+30000
+650 4000000
+8 8 1
+NumAttacks: 2
+E
+$

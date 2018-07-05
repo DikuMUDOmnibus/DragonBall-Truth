@@ -1,0 +1,333 @@
+#900
+Taitanium Oil Fountain~
+&00&07Ta&15itani&00&07um &16O&15i&16l &16F&00&06o&14u&00&07n&16t&00&06ai&16n&15&00~
+&00&15A &00&07Ta&15itani&00&07um &16O&15i&16l &16F&00&06o&14u&00&07n&16t&00&06ai&16n&15 is spurting oil here in the middle of the room.&00~
+~
+23 0 0
+2147483647 2147483647 9 0
+-2147483644 0 0
+#901
+shield minotaur~
+a dark minotaur shield~
+A dark minotaur shield has been left here.~
+~
+9 200 513
+12 0 0 0
+12 5000 1350
+E
+shield minotaur~
+A strong, sturdy shield.  It brings to mind legends of a shield that
+provided protection from poisonous gases.
+~
+A
+23 -4
+#902
+potion speckled~
+a speckled potion~
+A speckled potion speckles here.~
+~
+10 64 1
+15 15 15 15
+2 1300 500
+#903
+gauntlets troll~
+a pair of troll gauntlets~
+A pair of gauntlets made from troll skin lie on the ground.~
+~
+9 64 129
+5 0 0 0
+8 2000 1350
+#904
+ring platinum~
+a platinum ring~
+A shining ring of platinum lies here.  It has a tiny inscription.~
+~
+1 193 16387
+0 0 -1 0
+1 2000 5500
+E
+ring platinum inscription~
+The inscription on the ring reads:
+
+Cursed be the gods that supply coins to mortals!
+And cursed be the mortal that accepts valuable gifts from the gods!
+Especially cursed are those who do not leave the toilet seat up!
+
+~
+A
+17 10
+A
+18 2
+#905
+flail~
+a flail~
+A flail has been carelessly left here.~
+~
+5 224 8193
+0 3 4 7
+8 5000 3500
+A
+19 2
+#906
+coins gold treasure~
+a great pile of treasure~
+A great, gleaming pile of treasure lies at your feet.~
+~
+20 0 1
+43500 0 0 0
+20 43500 0
+#907
+spear heavy~
+a heavy spear~
+A heavy spear has been tossed on the ground here.~
+~
+5 0 8193
+100 100 1000 14
+8 450 200
+A
+19 1
+#908
+trident~
+a trident~
+There is a warrior's trident here.~
+~
+5 0 8193
+0 2 4 11
+8 350 200
+E
+trident~
+This is a common trident, often used by gladiators or mermen.  It has
+three sharp prongs jutting from the business end and a smooth wooden
+handle with two comfortable grip points.
+~
+#909
+boots boat~
+a pair of boots~
+A pair of boots sit here in a puddle of water.~
+~
+22 65560 65
+0 0 0 0
+1 5000 1850
+E
+boots boat~
+The boots are made of a strange lightweight hide and float in a puddle
+of water.
+~
+A
+14 -20
+#910
+Riding Crop~
+&00R&15i&00&16d&00&01i&00&09ng&00&01 C&00&16r&00&15o&00p~
+&00&15A set of &00R&15i&00&16d&00&01i&00&09ng&00&01 C&00&16r&00&15o&00p&00&15s are lying here on the ground.&00~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#911
+Handcuffs~
+&00&16Ha&15nd&00&00c&15uf&16fs&00~
+&00&15Some &00&16Ha&15nd&00&00c&15uf&16fs&00 &15are lying on the ground here.&00~
+~
+13 0 4097
+0 0 0 0
+0 0 0
+#912
+Jello Pistola~
+&00&03J&00&11e&00&16l&00&15l&00o &00&02P&00&10i&00&15s&00&16t&00&15o&00&10l&00&02a&00~
+&00&15A &00&03J&00&11e&00&16l&00&15l&00o &00&02P&00&10i&00&15s&00&16t&00&15o&00&10l&00&02a&00 &15is sitting here on the counter.&00~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#913
+Diamond Tipped Whip~
+&00&06Di&00&14a&00&16m&00&15on&00d &00&16T&00&15i&00pp&00&15e&00&16d &00&03W&00&11h&00&16i&00&15p&00~
+&00&15A &00&06Di&00&14a&00&16m&00&15on&00d &00&16T&00&15i&00pp&00&15e&00&16d &00&03W&00&11h&00&16i&00&15p&00 &15is lying here on the ground.&00~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#914
+Amber's Jello Covered Panties~
+&00&01A&00&09m&00&16b&00&15er&00's &00&03J&00&11e&00&16l&00&15l&00o &00&15Covered &00&05Pa&00&13n&00&16t&00&15ie&00s~
+&00&01A&00&09m&00&16b&00&15er&00's &00&03J&00&11e&00&16l&00&15l&00o &00&15Covered &00&05Pa&00&13n&00&16t&00&15ie&00s&15 are lying here on the ground.&00~
+~
+19 0 1
+0 0 0 0
+1 0 0
+#915
+Ruler~
+&00&11Ruler!!!&00~
+An unfinished object is lying here.~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#919
+Shin's CD collection~
+&00&07S&15h&00&07i&15n&00&07'&15s&00 &09C&00&01D&00 &14C&11o&15l&14l&11e&15c&14t&11i&15o&14n&00~
+&00&07S&15h&00&07i&15n&00&07'&15s&00 &09C&00&01D&00 &14C&11o&15l&14l&11e&15c&14t&11i&15o&14n&00&15 spills over the rack it was designated for and lollygaggles on the ground, sprawled out in haphazard fashion.&00~
+~
+9 0 0
+0 0 0 0
+0 0 0
+#921
+Rubber Ducky~
+&00&06A &09R&00&01ubbe&09r &11D&00&03u&11c&00&03k&11y&00~
+&00&06A &09R&00&01ubbe&09r &11D&00&03u&11c&00&03k&11y&00&15 sits on the edge of the bathtub.&00~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#923
+Cup of Ambrossia~
+&00&11C&00&03u&00&11p&00 &15Of&00 &12A&00&04m&00&03b&00&11ro&00&03s&00&04i&00&12a&00~
+A &00&11C&00&03u&00&11p&00 &15Of&00 &12A&00&04m&00&03b&00&11ro&00&03s&00&04i&00&12a&00 is ever full here.~
+~
+23 0 0
+2147483647 2147483647 15 0
+-2147483644 0 0
+#927
+Japanese Bed~
+Japanese Bed~
+Japanese bed~
+a small good-looking bed.
+~
+12 0 0
+0 0 0 0
+2147483647 0 0
+E
+Japanese Bed~
+   A small good-looking bed.    
+~
+#928
+Makushiimu's piano~
+Makushiimu's piano~
+Makushiimu's &03Piano~
+   A large piano with exactly 72 keys.  There is a the Sheet music of Moonlight
+Sonata on it
+~
+12 0 0
+0 0 0 0
+2147483647 0 0
+E
+Makushiimu's piano~
+   A large piano with exactly 72 keys.  There is a the Sheet music of Moonlight
+Sonata on it
+~
+#930
+Wish Fountain~
+Wish Fountain~
+The Wish Fountain sits in the middle of the room flowing with vodka.~
+~
+23 0 0
+2147483647 2147483647 3 0
+-2147483644 0 0
+#931
+Nuju's Hippie Boxers~
+&13N&00&05u&13j&00&05u&13'&00&05s &10H&00i&00&06p&14p&11i&00&03e &16Boxers&00~
+&13N&00&05u&13j&00&05u&13'&00&05s &10H&00i&00&06p&14p&11i&00&03e &16Boxers&00&15 are lying here on the ground.&00~
+~
+11 0 17
+0 0 0 0
+1 0 0
+#932
+100 dollar bill ring~
+&091&00&010&090 &10D&00o&10l&00l&10a&00r &11B&00&03i&11l&00&03l &14R&00&06i&14n&00&06g&00~
+&091&00&010&090 &10D&00o&10l&00l&10a&00r &11B&00&03i&11l&00&03l &14R&00&06i&14n&00&06g&00 is lying here.~
+~
+12 0 3
+0 0 0 0
+0 0 0
+E
+100 dollar bill ring~
+Someone has folded a $100 bill into a ring
+~
+#933
+No consent was given for this.~
+No consent was given for this.~
+No consent was given for this.~
+~
+0 0 257
+0 0 0 0
+0 0 0
+#935
+Fountain of Rum~
+&14F&00&06ou&15nt&00&06ai&14n &16of &09R&00&01u&09m&00~
+&14F&00&06ou&15nt&00&06ai&14n &16of &09R&00&01u&09m&00 &15is sitting in the middle of the room.&00~
+Nothing.
+~
+23 0 0
+2147483647 2147483647 4 0
+-2147483644 0 0
+#937
+Celastine's G-String~
+&00&05C&15e&13l&00&05a&15s&00&06t&05i&13n&15e'&00&05s &00&13G&16-&00&06S&05t&16r&13i&15n&00&05g&00~
+&00&05C&15e&13l&00&05a&15s&00&06t&05i&13n&15e'&00&05s &00&13G&16-&00&06S&05t&16r&13i&15n&00&05g&00 &13was tossed to the ground here.&00~
+~
+11 0 33
+0 0 0 0
+0 0 0
+#951
+Zyudo's pot plant~
+&00&04Z&12y&00&07u&12d&00&04o&16's &00&02P&10o&16t &00&02P&00&07l&10a&00&02n&10t&00~
+&00&04Z&12y&00&07u&12d&00&04o&16's &00&02P&10o&16t &00&02P&00&07l&10a&00&02n&10t&00 is growing here.~
+~
+0 0 0
+0 0 0 0
+2147483647 0 0
+E
+Zyudo's pot plant~
+This is some really fire shit, people pay a lot for this kind of weed
+~
+#952
+Zyudo's Black Light~
+&00&04Z&12y&00&07u&12d&00&04o&16'&00&12s &00&05B&13l&16a&13c&00&05k &00&03L&11i&00&03g&11h&00&03t&00~
+&00&04Z&12y&00&07u&12d&00&04o&16'&00&12s &00&05B&13l&16a&13c&00&05k &00&03L&11i&00&03g&11h&00&03t&00 &15hangs from the ceilings illuminating everything.&00~
+~
+0 0 0
+0 0 0 0
+0 0 0
+#953
+Zyudo's pot leaf~
+&00&04Z&12y&00&07u&12d&00&04o&16's &00&02P&10o&16t &00&02L&00&07e&10a&00&02f~
+&00&04Z&12y&00&07u&12d&00&04o&16's &00&02P&10o&16t &00&02L&00&07e&10a&00&02f&00 is lying here.~
+Zyudo's pot leaf
+~
+12 0 1
+0 0 0 0
+0 0 0
+E
+zyudo's pot leaf~
+It looks like it came from a really good plant.
+~
+#954
+Zyudo's Electric Guitar~
+&00&04Z&12y&00&07u&12d&00&04o&16'&00&12s &16Electric Guitar&00~
+&00&04Z&12y&00&07u&12d&00&04o&16'&00&12s &16Electric Guitar&00 &15is sitting here on the ground.&00~
+~
+0 0 1
+0 0 0 0
+0 0 0
+#955
+&00&04Z&12y&00&07u&12d&00&04o&16's &16Porno Mag&00~
+&00&04Z&12y&00&07u&12d&00&04o&16's &16Porno Mag&00~
+&00&04Z&12y&00&07u&12d&00&04o&16's &16Porno Mag&00 is lying on here.~
+It looks like Zyudo got a little bored in the bathroom.....
+~
+12 0 1
+0 0 0 0
+0 0 0
+E
+zyudo's porno mag~
+It looks like Zyudo got a little bored in the bathroom.....
+~
+#960
+Black Light~
+&00&05B&00&13l&00&16a&00&15c&00k &00&16L&00&15i&00g&00&15h&00&16t&00~
+&00&15A &00&05B&00&13l&00&16a&00&15c&00k &00&16L&00&15i&00g&00&15h&00&16t&00&15 hangs from the ceiling here, illuminating everything.&00~
+~
+1 0 0
+0 0 -1 0
+1 0 0
+$~

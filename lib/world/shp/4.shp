@@ -1,0 +1,61 @@
+CircleMUD v3.0 Shop File~
+#400~
+401
+-1
+1.00
+1.00
+17LIQ CONTAINER
+-1
+%s Try somthing i have dumb ass.~
+%s If i had that item maybe ill give it to you.~
+%s I dont want that shit.~
+%s That just to much for me to handle.~
+%s Buy somthing you have the money for.~
+%s That will be %d coins, thanks.~
+%s I'll hook you up with %d coins for that thing.~
+0
+0
+400
+0
+419
+-1
+0
+28
+0
+0
+#423~
+403
+405
+406
+1355
+1356
+4597
+-1
+1.00
+1.00
+22BOAT
+1LIGHT
+21PEN
+15CONTAINER
+17LIQ CONTAINEr
+3SCOUTER
+16NOTE
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+401
+0
+423
+-1
+0
+28
+0
+0
+$~

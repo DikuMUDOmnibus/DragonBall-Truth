@@ -1,0 +1,2158 @@
+#6600
+&16A&15ren&16a &12S&00&04a&15nctua&00&04r&12y&00~
+Nothing.
+~
+65 268501008 0
+D5
+You see nothing special.
+~
+~
+0 -1 6601
+S
+#6601
+&00&07H&09e&00&01a&09r&00&07t &16of the A&15ren&16a&00~
+   &15The cold stone floor is tinted slight red from the blood spilt through
+the many years of fighting in this arena.  Four hallways spread from this
+central chamber, each stretching out and intersecting the three rings of the
+arena.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6602
+D1
+You see nothing special.
+~
+~
+0 -1 6610
+D2
+You see nothing special.
+~
+~
+0 -1 6606
+D3
+You see nothing special.
+~
+~
+0 -1 6614
+D4
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#6602
+&00&01Northern &16Main &15Corridor&00~
+   &15This corridor stretches north out across the arena, intersecting the
+three rings that encircle the center.  This section of the corridor intersects
+the first of the three rings.    
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6603
+D1
+You see nothing special.
+~
+~
+0 -1 6618
+D2
+You see nothing special.
+~
+~
+0 -1 6601
+D3
+You see nothing special.
+~
+~
+0 -1 6621
+S
+#6603
+&00&01Northern &16Main &15Corridor&00~
+   &15This corridor stretches north out across the arena, intersecting the
+three rings that encircle the center.  This section of the corridor intersects
+the second of the three rings.    
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6604
+D1
+You see nothing special.
+~
+~
+0 -1 6622
+D2
+You see nothing special.
+~
+~
+0 -1 6602
+D3
+You see nothing special.
+~
+~
+0 -1 6634
+S
+#6604
+&00&01Northern &16Main &15Corridor&00~
+   &15This corridor stretches north out across the arena, intersecting the
+three rings that encircle the center.  This section of the corridor intersects
+the third of the three rings.  The corridor ends here as the stronghold that
+normally lies to the north has been sealed off for battle.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 -1
+D1
+You see nothing special.
+~
+~
+0 -1 6635
+D2
+You see nothing special.
+~
+~
+0 -1 6603
+D3
+You see nothing special.
+~
+~
+0 -1 6654
+S
+#6605
+&00&01North &16A&15ren&16a &16S&00&07tro&15ng&00&07hol&16d&00~
+   &15Four sturdy walls encompass the area that serves as the stronghold on the
+northern most edge of the arena.  This is the last sanctuary for warriors to
+prepare for their battles before heading south into the field of bloodshed.  
+The four strongholds truly serve as a last haven, for once the fighter exits it
+is impossible to return.  &00
+~
+65 268501008 0
+D2
+You see nothing special.
+~
+~
+0 -1 6604
+S
+#6606
+&00&02Southern &16Main &15Corridor&00~
+   &15This corridor stretches south out across the arena, intersecting the
+three rings that encircle the center.  This section of the corridor intersects
+the first of the three rings.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6601
+D1
+You see nothing special.
+~
+~
+0 -1 6619
+D2
+You see nothing special.
+~
+~
+0 -1 6607
+D3
+You see nothing special.
+~
+~
+0 -1 6620
+S
+#6607
+&00&02Southern &16Main &15Corridor&00~
+   &15This corridor stretches south out across the arena, intersecting the
+three rings that encircle the center.  This section of the corridor intersects
+the second of the three rings.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6606
+D1
+You see nothing special.
+~
+~
+0 -1 6627
+D2
+You see nothing special.
+~
+~
+0 -1 6608
+D3
+You see nothing special.
+~
+~
+0 -1 6629
+S
+#6608
+&00&02Southern &16Main &15Corridor&00~
+   &15This corridor stretches south out across the arena, intersecting the
+three rings that encircle the center.  This section of the corridor intersects
+the third of the three rings.  The corridor ends here as the stronghold that
+normally lies to the south has been sealed off for battle.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6607
+D1
+You see nothing special.
+~
+~
+0 -1 6644
+D2
+You see nothing special.
+~
+~
+0 -1 -1
+D3
+You see nothing special.
+~
+~
+0 -1 6645
+S
+#6609
+&00&02South &16A&15ren&16a &16S&00&07tro&15ng&00&07hol&16d&00~
+   &15Four sturdy walls encompass the area that serves as the stronghold on the
+southern most edge of the arena.  This is the last sanctuary for warriors to
+prepare for their battles before heading north into the field of bloodshed.  
+The four strongholds truly serve as a last haven, for once the fighter exits it
+is impossible to return.  &00
+~
+65 268501008 0
+D0
+You see nothing special.
+~
+~
+0 -1 6608
+S
+#6610
+&00&04Eastern &16Main &15Corridor&00~
+   &15This corridor stretches east out across the arena, intersecting the three
+rings that encircle the center.  This section of the corridor intersects the
+first of the three rings.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6618
+D1
+You see nothing special.
+~
+~
+0 -1 6611
+D2
+You see nothing special.
+~
+~
+0 -1 6619
+D3
+You see nothing special.
+~
+~
+0 -1 6601
+S
+#6611
+&00&04Eastern &16Main &15Corridor&00~
+   &15This corridor stretches east out across the arena, intersecting the three
+rings that encircle the center.  This section of the corridor intersects the
+second of the three rings.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6624
+D1
+You see nothing special.
+~
+~
+0 -1 6612
+D2
+You see nothing special.
+~
+~
+0 -1 6625
+D3
+You see nothing special.
+~
+~
+0 -1 6610
+S
+#6612
+&00&04Eastern &16Main &15Corridor&00~
+   &15This corridor stretches east out across the arena, intersecting the three
+rings that encircle the center.  This section of the corridor intersects the
+third of the three rings.  The corridor ends here as the stronghold that
+normally lies to the east has been sealed off for battle.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6639
+D1
+You see nothing special.
+~
+~
+0 -1 -1
+D2
+You see nothing special.
+~
+~
+0 -1 6640
+D3
+You see nothing special.
+~
+~
+0 -1 6611
+S
+#6613
+&00&04East &16A&15ren&16a &16S&00&07tro&15ng&00&07hol&16d&00~
+   &15Four sturdy walls encompass the area that serves as the stronghold on the
+eastern most edge of the arena.  This is the last sanctuary for warriors to
+prepare for their battles before heading west into the field of bloodshed.  
+The four strongholds truly serve as a last haven, for once the fighter exits it
+is impossible to return.  &00
+~
+65 268501008 0
+D3
+You see nothing special.
+~
+~
+0 -1 6612
+S
+#6614
+&00&03Western &16Main &15Corridor&00~
+   &15This corridor stretches west out across the arena, intersecting the three
+rings that encircle the center.  This section of the corridor intersects the
+first of the three rings.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6621
+D1
+You see nothing special.
+~
+~
+0 -1 6601
+D2
+You see nothing special.
+~
+~
+0 -1 6620
+D3
+You see nothing special.
+~
+~
+0 -1 6615
+S
+#6615
+&00&03Western &16Main &15Corridor&00~
+   &15This corridor stretches west out across the arena, intersecting the three
+rings that encircle the center.  This section of the corridor intersects the
+second of the three rings.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6632
+D1
+You see nothing special.
+~
+~
+0 -1 6614
+D2
+You see nothing special.
+~
+~
+0 -1 6631
+D3
+You see nothing special.
+~
+~
+0 -1 6616
+S
+#6616
+&00&03Western &16Main &15Corridor&00~
+   &15This corridor stretches west out across the arena, intersecting the three
+rings that encircle the center.  This section of the corridor intersects the
+third of the three rings.  The corridor ends here as the stronghold that
+normally lies to the west has been sealed off for battle.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6650
+D1
+You see nothing special.
+~
+~
+0 -1 6615
+D2
+You see nothing special.
+~
+~
+0 -1 6649
+D3
+You see nothing special.
+~
+~
+0 -1 -1
+S
+#6617
+&00&03West &16A&15ren&16a &16S&00&07tro&15ng&00&07hol&16d&00~
+   &15Four sturdy walls encompass the area that serves as the stronghold on the
+western most edge of the arena.  This is the last sanctuary for warriors to
+prepare for their battles before heading east into the field of bloodshed.  
+The four strongholds truly serve as a last haven, for once the fighter exits it
+is impossible to return.  &00
+~
+65 268501008 0
+D1
+You see nothing special.
+~
+~
+0 -1 6616
+S
+#6618
+&14First &16Tier &15Ring&00~
+   &15The pathway of this first ring leads a tight circle around the central
+chamber that serves as the heart of the arena.  As the First Tier Ring, this is
+the smallest of the three that the arena is composed of.  &00
+~
+65 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 6610
+D3
+You see nothing special.
+~
+~
+0 -1 6602
+S
+#6619
+&14First &16Tier &15Ring&00~
+   &15The pathway of this first ring leads a tight circle around the central
+chamber that serves as the heart of the arena.  As the First Tier Ring, this is
+the smallest of the three that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6610
+D3
+You see nothing special.
+~
+~
+0 -1 6606
+S
+#6620
+&14First &16Tier &15Ring&00~
+   &15The pathway of this first ring leads a tight circle around the central
+chamber that serves as the heart of the arena.  As the First Tier Ring, this is
+the smallest of the three that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6614
+D1
+You see nothing special.
+~
+~
+0 -1 6606
+S
+#6621
+&14First &16Tier &15Ring&00~
+   &15The pathway of this first ring leads a tight circle around the central
+chamber that serves as the heart of the arena.  As the First Tier Ring, this is
+the smallest of the three that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6602
+D2
+You see nothing special.
+~
+~
+0 -1 6614
+S
+#6622
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6623
+D3
+You see nothing special.
+~
+~
+0 -1 6603
+S
+#6623
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 6624
+D3
+You see nothing special.
+~
+~
+0 -1 6622
+S
+#6624
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6623
+D2
+You see nothing special.
+~
+~
+0 -1 6611
+S
+#6625
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6611
+D2
+You see nothing special.
+~
+~
+0 -1 6626
+S
+#6626
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6625
+D3
+You see nothing special.
+~
+~
+0 -1 6627
+S
+#6627
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6626
+D3
+You see nothing special.
+~
+~
+0 -1 6607
+S
+#6628
+Under Construction~
+You are in an unfinished room.
+~
+65 0 0
+S
+#6629
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6607
+D3
+You see nothing special.
+~
+~
+0 -1 6630
+S
+#6630
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6631
+D1
+You see nothing special.
+~
+~
+0 -1 6629
+S
+#6631
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6615
+D2
+You see nothing special.
+~
+~
+0 -1 6630
+S
+#6632
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6633
+D2
+You see nothing special.
+~
+~
+0 -1 6615
+S
+#6633
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6634
+D2
+You see nothing special.
+~
+~
+0 -1 6632
+S
+#6634
+&00&06Second &16Tier &15Ring&00~
+   &15The pathway of this second ring leads a medium sized circle around the
+central chamber that serves as the heart of the arena.  As the Second Tier
+Ring, this is the middle of the three rings that the arena is composed of.  
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6603
+D3
+You see nothing special.
+~
+~
+0 -1 6633
+S
+#6635
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6636
+D3
+You see nothing special.
+~
+~
+0 -1 6604
+S
+#6636
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6637
+D3
+You see nothing special.
+~
+~
+0 -1 6635
+S
+#6637
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 6638
+D3
+You see nothing special.
+~
+~
+0 -1 6636
+S
+#6638
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6637
+D2
+You see nothing special.
+~
+~
+0 -1 6639
+S
+#6639
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6638
+D2
+You see nothing special.
+~
+~
+0 -1 6612
+S
+#6640
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6612
+D2
+You see nothing special.
+~
+~
+0 -1 6641
+S
+#6641
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6640
+D2
+You see nothing special.
+~
+~
+0 -1 6642
+S
+#6642
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6641
+D3
+You see nothing special.
+~
+~
+0 -1 6643
+S
+#6643
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6642
+D3
+You see nothing special.
+~
+~
+0 -1 6644
+S
+#6644
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6643
+D3
+You see nothing special.
+~
+~
+0 -1 6608
+S
+#6645
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6608
+D3
+You see nothing special.
+~
+~
+0 -1 6646
+S
+#6646
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6645
+D3
+You see nothing special.
+~
+~
+0 -1 6647
+S
+#6647
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6648
+D1
+You see nothing special.
+~
+~
+0 -1 6646
+S
+#6648
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6649
+D2
+You see nothing special.
+~
+~
+0 -1 6647
+S
+#6649
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6616
+D2
+You see nothing special.
+~
+~
+0 -1 6648
+S
+#6650
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6651
+D2
+You see nothing special.
+~
+~
+0 -1 6616
+S
+#6651
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6652
+D2
+You see nothing special.
+~
+~
+0 -1 6650
+S
+#6652
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6653
+D2
+You see nothing special.
+~
+~
+0 -1 6651
+S
+#6653
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6654
+D3
+You see nothing special.
+~
+~
+0 -1 6652
+S
+#6654
+&00&05Third &16Tier &15Ring&00~
+   &15The pathway of this third ring leads a large circle around the central
+chamber that serves as the heart of the arena.  As the Third Tier Ring, this is
+the largest of the three rings that the arena is composed of.  &00
+~
+65 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6604
+D3
+You see nothing special.
+~
+~
+0 -1 6653
+S
+#6655
+Under Construction~
+You are in an unfinished room.
+~
+65 0 0
+S
+#6800
+majinton recall room~
+You are in an unfinished room.
+~
+0 20 0
+D0
+~
+~
+0 0 6801
+D1
+You see nothing special.
+~
+~
+0 -1 8603
+D2
+~
+~
+0 0 6802
+D3
+You see nothing special.
+~
+~
+0 -1 6822
+S
+#6801
+rp board~
+You are in an unfinished room.
+~
+0 20 0
+D2
+~
+~
+0 0 6800
+S
+#6802
+coder board~
+You are in an unfinished room.
+~
+0 20 0
+D0
+~
+~
+0 0 6800
+S
+#6803
+Under Confucktion~
+You are in an unfinished room.
+~
+0 0 0
+S
+#6804
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6805
+D3
+You see nothing special.
+~
+~
+0 -1 8603
+S
+#6805
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6806
+D3
+You see nothing special.
+~
+~
+0 -1 6804
+S
+#6806
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6807
+D3
+You see nothing special.
+~
+~
+0 -1 6805
+S
+#6807
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6808
+D3
+You see nothing special.
+~
+~
+0 -1 6806
+S
+#6808
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6809
+D3
+You see nothing special.
+~
+~
+0 -1 6807
+S
+#6809
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6810
+D2
+You see nothing special.
+~
+~
+0 -1 6816
+D3
+You see nothing special.
+~
+~
+0 -1 6808
+S
+#6810
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6811
+D2
+You see nothing special.
+~
+~
+0 -1 6809
+S
+#6811
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6812
+D2
+You see nothing special.
+~
+~
+0 -1 6810
+S
+#6812
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6813
+D2
+You see nothing special.
+~
+~
+0 -1 6811
+S
+#6813
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6814
+D2
+You see nothing special.
+~
+~
+0 -1 6812
+S
+#6814
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6815
+D2
+You see nothing special.
+~
+~
+0 -1 6813
+S
+#6815
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 6814
+D3
+You see nothing special.
+~
+~
+0 -1 6847
+S
+#6816
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6809
+D2
+You see nothing special.
+~
+~
+0 -1 6817
+S
+#6817
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6816
+D2
+You see nothing special.
+~
+~
+0 -1 6818
+S
+#6818
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6817
+D2
+You see nothing special.
+~
+~
+0 -1 6819
+S
+#6819
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6818
+D2
+You see nothing special.
+~
+~
+0 -1 6820
+S
+#6820
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6819
+D2
+You see nothing special.
+~
+~
+0 -1 6821
+S
+#6821
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6820
+D1
+You see nothing special.
+~
+~
+0 -1 6865
+S
+#6822
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6800
+D3
+You see nothing special.
+~
+~
+0 -1 6823
+S
+#6823
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6822
+D3
+You see nothing special.
+~
+~
+0 -1 6824
+S
+#6824
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6823
+D3
+You see nothing special.
+~
+~
+0 -1 6825
+S
+#6825
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6824
+D3
+You see nothing special.
+~
+~
+0 -1 6826
+S
+#6826
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6825
+D3
+You see nothing special.
+~
+~
+0 -1 6827
+S
+#6827
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6826
+D3
+You see nothing special.
+~
+~
+0 -1 6828
+S
+#6828
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6829
+D1
+You see nothing special.
+~
+~
+0 -1 6827
+D2
+You see nothing special.
+~
+~
+0 -1 6848
+S
+#6829
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6830
+D2
+You see nothing special.
+~
+~
+0 -1 6828
+S
+#6830
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6831
+D2
+You see nothing special.
+~
+~
+0 -1 6829
+S
+#6831
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6832
+D2
+You see nothing special.
+~
+~
+0 -1 6830
+S
+#6832
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6833
+D2
+You see nothing special.
+~
+~
+0 -1 6831
+S
+#6833
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6834
+D2
+You see nothing special.
+~
+~
+0 -1 6832
+S
+#6834
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6835
+D2
+You see nothing special.
+~
+~
+0 -1 6833
+S
+#6835
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6836
+D3
+You see nothing special.
+~
+~
+0 -1 6834
+S
+#6836
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6837
+D3
+You see nothing special.
+~
+~
+0 -1 6835
+S
+#6837
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6838
+D3
+You see nothing special.
+~
+~
+0 -1 6836
+S
+#6838
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6839
+D3
+You see nothing special.
+~
+~
+0 -1 6837
+S
+#6839
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6840
+D3
+You see nothing special.
+~
+~
+0 -1 6838
+S
+#6840
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6841
+D3
+You see nothing special.
+~
+~
+0 -1 6839
+S
+#6841
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6842
+D3
+You see nothing special.
+~
+~
+0 -1 6840
+S
+#6842
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6843
+D3
+You see nothing special.
+~
+~
+0 -1 6841
+S
+#6843
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6844
+D3
+You see nothing special.
+~
+~
+0 -1 6842
+S
+#6844
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6845
+D3
+You see nothing special.
+~
+~
+0 -1 6843
+S
+#6845
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6846
+D3
+You see nothing special.
+~
+~
+0 -1 6844
+S
+#6846
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6847
+D3
+You see nothing special.
+~
+~
+0 -1 6845
+S
+#6847
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6815
+D3
+You see nothing special.
+~
+~
+0 -1 6846
+S
+#6848
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6828
+D2
+You see nothing special.
+~
+~
+0 -1 6849
+S
+#6849
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6848
+D2
+You see nothing special.
+~
+~
+0 -1 6850
+S
+#6850
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6849
+D2
+You see nothing special.
+~
+~
+0 -1 6851
+S
+#6851
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6850
+D2
+You see nothing special.
+~
+~
+0 -1 6852
+S
+#6852
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6851
+D2
+You see nothing special.
+~
+~
+0 -1 6853
+S
+#6853
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 6852
+D3
+You see nothing special.
+~
+~
+0 -1 6854
+S
+#6854
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6853
+D3
+You see nothing special.
+~
+~
+0 -1 6855
+S
+#6855
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6854
+D3
+You see nothing special.
+~
+~
+0 -1 6856
+S
+#6856
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6855
+D3
+You see nothing special.
+~
+~
+0 -1 6857
+S
+#6857
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6856
+D3
+You see nothing special.
+~
+~
+0 -1 6858
+S
+#6858
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6857
+D3
+You see nothing special.
+~
+~
+0 -1 6859
+S
+#6859
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6858
+D3
+You see nothing special.
+~
+~
+0 -1 6860
+S
+#6860
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6859
+D3
+You see nothing special.
+~
+~
+0 -1 6861
+S
+#6861
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6860
+D3
+You see nothing special.
+~
+~
+0 -1 6862
+S
+#6862
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6861
+D3
+You see nothing special.
+~
+~
+0 -1 6863
+S
+#6863
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6862
+D3
+You see nothing special.
+~
+~
+0 -1 6864
+S
+#6864
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6863
+D3
+You see nothing special.
+~
+~
+0 -1 6865
+S
+#6865
+under construction~
+You are in an unfinished room.
+~
+0 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 6864
+D3
+You see nothing special.
+~
+~
+0 -1 6821
+S
+$~

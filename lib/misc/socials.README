@@ -1,0 +1,27 @@
+This updates a few bugs in the original socials,
+where 'him' is used instead of $m and so on,
+and supplies a few more socials, if you choose to
+use them.
+For the newbies, this is how I used the socials.diff
+file:
+	patch socials socials.diff
+
+Also, you might want to add entries in interpreter.c
+for the socials (basically, copy the entry for "smile")
+
+I suggest looking through the socials.diff file first
+and pruning those things you want or don't want.
+
+If you do use the full thing, please give me some credit ;)
+
+Bug reports to Strom/Billy H. Chan:
+	bhchan@csua.berkeley.edu	(Strom@Lostlands)
+
+This patch works for pl8 and pl11 (haven't tried inbetween,
+but I'm sure it'll work).
+
+TECHNICALITIES
+
+socials.diff was created on a linux 1.3.20 using the command
+	diff socials socials.new > socials.diff
+and is a 'Plan A' diff file (standard diff file)

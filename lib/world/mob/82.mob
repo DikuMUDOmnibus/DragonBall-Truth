@@ -1,0 +1,44 @@
+#8223
+Saiyan Politician~
+&11S&00&03a&11i&00&03y&11a&00&03n &15P&00o&14l&15i&00t&14i&15c&00i&14a&15n&00~
+&11S&00&03a&11i&00&03y&11a&00&03n &15P&00o&14l&15i&00t&14i&15c&00i&14a&15n&00 is standing here, debating his stance on certain topics.
+~
+It looks unfinished.
+~
+8 0 0 E
+50000 -30 0 1d1+3000000 1d1+42000
+777 4200000
+8 8 1
+BareHandAttack: 14
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8224
+Saiyan Politician~
+&11S&00&03a&11i&00&03y&11a&00&03n &15P&00o&14l&15i&00t&14i&15c&00i&14a&15n&00~
+&11S&00&03a&11i&00&03y&11a&00&03n &15P&00o&14l&15i&00t&14i&15c&00i&14a&15n&00 is standing here, checking over her notes.
+~
+It looks unfinished.
+~
+8 0 0 E
+50000 -30 0 1d1+3000000 1d1+42000
+777 4200000
+8 8 2
+BareHandAttack: 13
+E
+#8225
+Saiyan Senator~
+&11S&00&03a&11i&00&03y&11a&00&03n &15S&00e&14n&15a&00t&14o&15r&00~
+&11S&00&03a&11i&00&03y&11a&00&03n &15S&00e&14n&15a&00t&14o&15r&00 is standing here, waiting to be called upon.
+~
+It looks unfinished.
+~
+8 0 0 E
+100000 -50 0 1d1+6000000 1d1+60000
+800 6100000
+8 8 1
+BareHandAttack: 7
+E
+$

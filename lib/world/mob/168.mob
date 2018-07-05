@@ -1,0 +1,235 @@
+#16800
+Hally~
+&00&03H&15a&00&03l&15l&00&03y&00~
+&00The ghost of the &09Mo&00&01rd&03-&01Si&09th&00 &03H&15a&00&03l&15l&00&03y&00 stands here.&00
+~
+It looks unfinished.
+~
+253962 32776 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16801
+Raina~
+&15R&09a&00&01i&09n&15a~
+&00The ghost of the &09Mo&00&01rd&03-&01Si&09th &15R&09a&00&01i&09n&15a&00 stands here.
+~
+It looks unfinished.
+~
+253962 33800 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16802
+Berdine~
+&00B&15e&00r&15d&00i&15n&00e~
+&00The &09Mo&00&01rd&03-&01Si&09th&00 B&15e&00r&15d&00i&15n&00e stands here.
+~
+It looks unfinished.
+~
+253962 32776 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16805
+Richard Rahl~
+&00R&15i&16c&00&01h&16a&15r&00d &03R&11ah&00&03l~
+&00The War Wizard &00R&15i&16c&00&01h&16a&15r&00d &11R&00&03ah&11l&00 stands here.&00
+~
+It looks unfinished.
+~
+188426 263208 0 E
+0 -80 0 1d1+300000000 1d1+50000
+40000 110000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16819
+#16806
+Silph~
+&00&15S&00i&15l&00p&15h&00~
+&00The silver &15S&00i&15l&00p&15h&00 hovers over the edge of her well here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16806
+#16807
+Wailing Spirit~
+&00W&15a&16i&00l&16i&15n&00g &16Sp&00ir&16it&00~
+&00A W&15a&16i&00l&16i&15n&00g &16Sp&00ir&16it&00 floats here.
+~
+It looks unfinished.
+~
+253992 8 0 E
+0 -80 0 1d1+100000000 1d1+250000
+5500 55000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16808
+Curious Spirit~
+&00C&15u&16r&00i&16o&15u&00s &16Sp&00ir&16it&00~
+&00A C&15u&16r&00i&16o&15u&00s &16Sp&00ir&16it&00 floats here.
+~
+It looks unfinished.
+~
+253992 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+5500 55000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16809
+Tortured Spirit~
+&00T&15o&16r&00t&16u&15r&00e&15d &16Sp&00ir&16it&00~
+&00A T&15o&16r&00t&16u&15r&00e&15d &16Sp&00ir&16it&00 floats here.&00
+~
+It looks unfinished.
+~
+253992 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+5500 55000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16810
+Legate Rishi~
+&03L&00e&11g&00a&03t&00e &14Rishi&00~
+&03L&00e&11g&00a&03t&00e &14Rishi&00 floats here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+9 9 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16810
+T 16808
+#16811
+Verna~
+&14Verna&00~
+&14Verna&00 stands here.
+~
+It looks unfinished.
+~
+253960 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+5500 55000000
+8 8 2
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16811
+T 16815
+#16812
+Annalina~
+&14Annalina&00~
+&14Annalina&00 stands here.
+~
+It looks unfinished.
+~
+253960 0 0 E
+0 20 0 1d1+150000000 1d1+0
+5500 55000000
+8 8 2
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16812
+T 16816
+#16813
+Nathan~
+&14Nathan&00~
+&14Nathan&00 stands here.
+~
+It looks unfinished.
+~
+253960 0 0 E
+0 -80 0 1d1+200000000 1d1+250000
+5500 55000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16813
+T 16817
+#16814
+Zeddicus~
+&14Zeddicus&00~
+&14Zeddicus&00 stands here.
+~
+It looks unfinished.
+~
+253960 0 0 E
+0 -80 0 1d1+250000000 1d1+250000
+5500 55000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16814
+T 16818
+#16815
+Wind Spirit~
+&00&06W&12i&14n&12d &00S&15p&16ir&15i&00t~
+&00The &06W&12i&14n&12d &00S&15p&16ir&15i&00t floats here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -80 0 1d1+100000000 1d1+250000
+5500 55000000
+8 8 0
+E
+$

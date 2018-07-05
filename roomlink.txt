@@ -1,0 +1,33 @@
+From: Brian Guilbault <guil9964@nova.gmi.edu>
+Subject: Checking Linked Rooms
+
+This command should work now. It's still terribly inefficient, but it
+works.  Don't forget to add your calls in interpreter.c and you are all
+set.
+
+ACMD(do_roomlink)         /* Shows all exits to a given room */
+  int door = 0, i = 0, room_num = 0;  {
+
+  one_argument(argument, buf);
+  room_num = real_room(atoi(buf));
+
+  if (room_num == NOWHERE) {
+    send_to_char("There is no room with that number.\r\n", ch);
+    return;
+  } else {
+    for (i = 0; i <= top_of_world; i++) {
+      for (door = 0; door < NUM_OF_DIRS; door++) {
+        if (world[i].dir_option[door] &&
+
+    world[i].dir_option[door]->to_room == room_num) {
+          sprintf(buf2, "Exit %s from room %d.\r\n", dirs[door],
+
+
+world[i].number);
+          send_to_char(buf2, ch);
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,604 @@
+#32600
+&16King &12C&07o&12l&07d&12'&07s&00 &03R&11o&03y&11a&03l &16Space&15-&16Ship&00 ~
+&16King &12C&07o&12l&07d&12'&07s&00 &03R&11o&03y&11a&03l &16Space&15-&16Ship&00~
+&16King &12C&07o&12l&07d&12'&07s&00 &03R&11o&03y&11a&03l &16Space&15-&16Ship&00 has landed on the ground here.~
+   &16King &12C&07o&12l&07d&12'&07s&00 &03R&11o&03y&11a&03l &16Space&15-&16Ship&00 has landed here. The Ship has a large 
+&04blue&00 circular &07glass window&00, behind it is where &16King &12C&07o&12l&07d&00, &16Cooler&00, and &13F&07r&13i&07e&13z&07a&00 
+usually sit.
+~
+0 0 0
+0 0 0 0
+10000000 0 0
+#32601
+A Tattoo of the Great Dragon~
+a Tattoo of the &02G&10r&02e&10a&02t &10D&02r&10a&02g&10o&02n&00~
+A temporary tattoo of the &02G&10r&02e&10a&02t &10D&02r&10a&02g&10o&02n&00 lies on the ground here.~
+   You look at a small temporary tattoo of a &10d&02r&10a&02g&10o&02n&00, with &01red eyes&00 and giant whiskers.
+~
+9 1 257
+-150 0 0 0
+1 0 0
+A
+3 4
+#32602
+raziel soul reaver~
+the &04S&02ou&04l &02R&04e&02a&04v&02e&04r&00~
+An weapon made from the energy of souls is glowing on the ground here.~
+Nothing.
+~
+5 257 8193
+100 100 100 10
+8 0 0
+E
+Soul Reaver~
+&09Raziel&00's &04S&02ou&04l &02R&04e&02a&04v&02e&04r&00 is made from soul energy.
+It is very powerful, and it's not a good idea for you to have it,
+unless you are Raziel himself.
+~
+A
+12 100
+A
+12 100
+A
+4 6
+#32603
+&16Goten's Black Belt&00~
+&16Goten's Black Belt&00~
+&16Goten's Black Belt&00 lies here.~
+Goten Black Belt
+~
+9 3 2049
+-300 0 0 0
+2 0 0
+E
+goten black belt~
+&16Goten's Black Belt&00
+~
+A
+18 6
+A
+19 6
+A
+3 2
+#32604
+&16Silver Saiya-jin Armor&00~
+&16Silver Saiya-jin Armor&00~
+&16Silver Saiya-jin Armor&00 lies here~
+silver saiyan armor
+~
+9 0 9
+-100 0 0 0
+5 0 0
+E
+silver saiyan armor saiya-jin~
+&16Silver Saiya-jin Armor&00 shines brightly.
+~
+A
+18 10
+A
+19 10
+A
+3 2
+#32605
+&16The Platinum Longsword&00~
+&16The Platinum Longsword&00~
+&16The Platinum Longsword&00 gleams in the light against a large rock here.~
+&12<not set>&00
+~
+5 3 8193
+100 13 13 14
+5 0 0
+E
+&12<not set>&00~
+&16The&00 &16P&00&15l&00&16a&00&15t&00&16i&00&15n&00&16u&00&15m&00 &16longsword&00, &15Terminus Est&00 looks like it could slice your head off in one slash.
+~
+A
+1 2
+A
+19 10
+#32606
+&13A Stick of BuBbLiCiOuS Bubble Gum&00~
+&13A Stick of BuBbLiCiOuS Bubble Gum&00~
+&13A Stick of BuBbLiCiOuS Bubble Gum&00 lies on the ground getting stomped on.~
+~
+5 1 8193
+10 70 20 3
+0 150000 0
+T 55
+A
+19 10
+A
+1 1
+A
+3 1
+#32607
+&03Capsule Corp. Boots&00~
+&03Capsule Corp. Boots&00~
+A pair of &03Capsule Corp. Boots&00 lie here.~
+~
+9 0 65
+-200 0 0 0
+2 0 0
+A
+2 30
+#32608
+Fists of a Warrior~
+Fists of a Warrior~
+Someone left their hands here...doesnt that just make you feel good inside.~
+~
+5 0 8193
+10 50 10 13
+0 0 0
+A
+3 3
+A
+19 10
+A
+2 10
+#32609
+raziel wings~
+two large, torn wings~
+Bleeding excessively on the ground are two ripped wings.~
+Nothing.
+~
+11 0 1025
+0 0 0 0
+7 0 0
+E
+Large Wings~
+   Here are Raziels' &15Large&00 &16W&14i&16n&14g&16s&00. They are ripped 
+off and have many holes in them.
+~
+A
+18 20
+A
+17 -5
+#32610
+The Fountain~
+the Fountain~
+A fountain sits here, spewing water from its sides.~
+The Fountain
+~
+23 0 0
+2147483647 2147483647 0 0
+-2147483644 0 0
+E
+Fountain~
+   Here is a large fountain spewing water from its sides.
+~
+#32611
+nothing~
+nothing~
+Nothin~
+A &16Statue of &01R&09a&01z&09i&01e&09l&00
+~
+21 0 0
+0 0 0 0
+0 0 0
+E
+Statue Raziel~
+A &16Statue of &01R&09a&01z&09i&01e&09l&00 on a small golden panel on the bottom front 
+of it reads &01R&09a&01z&09i&01e&09l &16: &04S&02o&04u&02l &04Re&02a&04v&02e&04r.
+~
+#32612
+Kastion's Booger~
+Kastion's Booger~
+Kastion's Booger was flung on a wall here.~
+Kastion's Booger
+~
+11 0 3
+0 0 0 0
+1 0 0
+E
+Kastion's Booger~
+   Here is Kastion's Booger. It is very slimey and has some blood in it.
+~
+A
+4 5
+#32613
+A Jug of &02W&15a&02t&15e&02r&00 Set on a &16Panel&00 for &01Hot&00 or &02Cold &15W&02a&15t&02e&15r&00~
+a Jug of &02W&15a&02t&15e&02r&00 Set on a &16Panel&00 for &01Hot&00 or &02Cold &15W&02a&15t&02e&15r&00~
+A Jug of &02W&15a&02t&15e&02r&00 Set on a &16Panel&00 for &01Hot&00 or &02Cold &15W&02a&15t&02e&15r&00 rests on the eastern part of the room.~
+A Jug of &02W&15a&02t&15e&02r&00 Set on a &16Panel&00 for &01Hot&00 or &02Cold &15W&02a&15t&02e&15r&00
+~
+23 64 0
+2147483647 2147483647 15 0
+2147483647 0 0
+E
+A Jug of &02W&15a&02t&15e&02r&00 Set on a &16Panel&00 for &01Hot&00 or &02Cold &15W&02a&15t&02e&15r&00~
+   Here is a jug of water with a setting of hot or cold water with cups on 
+top of the jug, resting on the eastern wall of &01R&09a&01z&09i&01e&09l&01'&09s &15Office&00.
+~
+#32614
+A Cone DIXIE Cup~
+a Cone DIXIE Cup~
+A Cone DIXIE Cup rests here.~
+A Cone DIXIE Cup
+~
+17 0 16385
+4 4 15 0
+9 0 0
+E
+Cone DIXIE Cup~
+ A Cone DIXIE Cup is used for getting filled up by other fountain type objects.
+~
+#32615
+raziel claws feet~
+clawed toes~
+On the ground are several sharp looking claws, strewn about and bleeding.~
+Nothing.
+~
+11 0 65
+0 0 0 0
+4 0 0
+E
+Claws~
+   You look at &01Raziel's&00 &16Claws&00 and watch them &01bleed&00 rapidly with semi-&07clear&00, florescent, &04blue skin&00 attached to them.
+~
+A
+14 100
+A
+14 100
+A
+19 5
+A
+19 5
+#32616
+raziel claw hands~
+clawed hands~
+Fingers with sharp and inhuman forms are scattered and bleeding all over.~
+Nothing.
+~
+11 0 129
+0 0 0 0
+7 0 0
+E
+Claws~
+   You look at &01Raziel's&00 &16Claws&00 and watch them &01bleed&00 rapidly with semi-&07clear&00, florescent, &04blue skin&00 attached to them.
+~
+A
+19 10
+A
+1 1
+A
+13 80
+A
+6 10
+#32617
+raziel brown scarf~
+a brown scarf with &15white&00 streaks on it~
+A brown scarf with &15white&00 streaks on it is lying on the ground collecting dust.~
+Nothing.
+~
+11 0 5
+0 0 0 0
+2 0 0
+E
+Scarf~
+This is a brown cloth that is torn and has &15white&00 streaks on it.
+there are also spots of &02green blood&00 from numerous unknown creatures
+that the previous owner probably killed.
+~
+A
+3 5
+A
+17 -6
+#32618
+Goten's &07Little &16Black&00 Shoes~
+Goten's &07Little &16Black&00 Shoes~
+Goten's &07Little &16Black&00 Shoes sit on the ground perfectly set together in a pair.~
+Goten's &07Little &16Black&00 Shoes
+~
+11 94208 65
+0 0 0 0
+2 0 0
+E
+Shoes~
+   These are Goten's Little &16Black&00 Shoes, they are so small you can 
+only fit your fist in them. They are outlined with a &03yellow rubber rim&00 and 
+have a &16ridged bottom&00 for a footprint.
+~
+A
+2 15
+A
+18 10
+A
+17 -50
+#32619
+&01R&09a&01z&09i&01e&09l&01'&09s &15Office&00 Key~
+&01R&09a&01z&09i&01e&09l&01'&09s &15Office&00 Key~
+&01R&09a&01z&09i&01e&09l&01'&09s &15Office&00 Key lies on the ground here.~
+&01R&09a&01z&09i&01e&09l&01'&09s &15Office&00 Key
+~
+18 61441 5
+0 0 0 0
+1 0 0
+E
+Key~
+   This is the key to Raziel's Office.
+~
+#32620
+A Key to The Eternal Ice~
+a Key to The Eternal Ice~
+A Key to The Eternal Ice sits on the ground here.~
+A Key to The Eternal Ice
+~
+18 2 5
+0 0 0 0
+1 0 0
+E
+Key~
+   This is the key to the room of The Eternal Ice.
+~
+#32621
+raziel soul~
+the soul of a helpless victim~
+The soul of some helpless victim is swirling and floating above the ground.~
+Nothing.
+~
+1 1 16385
+0 0 -1 0
+2 0 0
+E
+Soul~
+   Here is a giant &02s&04o&02u&04l&00 &04drawn&00 by &01R&09a&01z&09i&01e&09l&00 from a 
+large &09creature&00.
+~
+A
+12 50
+#32622
+raziel blue torso~
+a &12blue&00, &07transparent&00, and &15florescent&00 torso~
+Laying on the ground bleeding is somebody's &12blue&00, &07transparent&00, and &15florescent&00 torso.~
+Nothing.
+~
+11 0 9
+0 0 0 0
+8 0 0
+E
+Clear Body~
+This is the torso of a person.  It is &12blue&00, &07transparent&00, and &15florescent&00.
+~
+A
+17 -100
+A
+13 90
+#32623
+raziel blue legs~
+two &12blue&00, &07transparent&00, and &15florescent&00 legs~
+On the ground are two mangled legs that seem to have been ripped off their owner.~
+Nothing.
+~
+11 0 33
+0 0 0 0
+7 0 0
+E
+Clear Legs~
+These are two &12blue&00, &07transparent&00, and &15florescent&00 legs
+They are rather light, and look odd.
+~
+A
+17 -10
+A
+14 100
+A
+14 100
+#32624
+raziel blue arm~
+two &12blue&00, &07transparent&00, and &15florescent&00 arms~
+Scattered on the ground here are the mangled bits of two arms, which are creating a puddle of blood.~
+Nothing.
+~
+11 0 257
+0 0 0 0
+8 0 0
+E
+Clear Arms~
+   This is Raziel's clear-like florescent arms.
+~
+A
+1 4
+A
+17 -10
+#32625
+raziel blue neck~
+a &12blue&00, &07transparent&00, and &15florescent&00 neck~
+Laying lifelessly on the ground beside your foot lays the torn throat of a fallen warrior.~
+Nothing.
+~
+11 0 5
+0 0 0 0
+3 0 0
+E
+Clear Neck~
+   This is Raziel's clear-like florescent neck.
+~
+A
+12 50
+A
+14 50
+#32626
+peanut butter and jelly sandwich~
+peanut butter and jelly sandwich~
+A &03peanut butter&07 and &13jelly&00 sandwich is lying on the ground getting dirty.~
+peanut butter and jelly sandwich
+~
+19 0 16385
+100 0 0 0
+2 0 0
+E
+sandwich~
+   Here is a peanut butter and jelly sandwich.
+~
+#32627
+Necron's Delicous Mint Tea Fountain~
+Necron's Delicous Mint Tea Fountain~
+Necron's Delicous Mint Tea Fountain sits on the ground spewing his special brewed tea.~
+Necron's Delicous Mint Tea Fountain
+~
+23 2 0
+1000000 2147483647 11 0
+-2147483644 0 0
+#32628
+&16Black Combat&00 Boots~
+&16Black Combat&00 Boots~
+&16Black Combat&00 Boots are set together, neatly in a pair on the ground here.~
+&16Black Combat&00 Boots
+~
+9 0 65
+-100 0 0 0
+4 0 0
+E
+Boots~
+   Here are large dark, black, combat boots.
+~
+A
+17 -60
+A
+2 5
+#32629
+sushi~
+&10Some Delicious Sushi Rolls&00~
+&10Some Delcious Sushi Rolls&00 lie on a table, ready to be eaten.~
+~
+19 0 1
+60 0 0 0
+0 0 0
+#32630
+kuvoc's board~
+&09K&00&01u&16v&00&01o&09c&00&01's &16B&15oar&16d&00~
+&09K&00&01u&16v&00&01o&09c&00&01's &16B&15oar&16d&00 blazes here.~
+A board in Raziel's Office
+~
+13 0 0
+0 0 0 0
+15 0 0
+E
+A board in Raziel's Office~
+This is a bulletin board.  Usage: READ/REMOVE <messg #>, WRITE <header>.
+You will need to look at the board to save your message.
+~
+#32631
+Key~
+a Miniature Sword Key~
+A Miniature Sword Key is flung on the ground here, getting dusty.~
+A Miniature Sword Key
+~
+18 3 5
+0 0 0 0
+2 0 0
+E
+Key~
+   Here is a key to the Eternal Flame.
+~
+#32632
+Sushi~
+a Set of Sushi Hand Rolls~
+A Set of Sushi Hand Rolls are thrown on the ground, getting dirty.~
+A Set of Sushi Hand Rolls
+~
+19 0 16385
+48 0 0 0
+6 0 0
+E
+Sushi Hand Rolls~
+   Here are Sushi Hand Rolls.
+~
+#32633
+gum~
+some bubble gum~
+Some bubble gum is in a package lying on the ground here.~
+some bubble gum
+~
+19 0 1
+1 0 0 0
+0 0 0
+E
+bubble gum~
+   Here is some bubble gum.
+~
+#32634
+The Holy Sword~
+&15The Holy Sword&00~
+A Huge sword is lying here, &15gleaming&00 in the light.~
+~
+5 259 8193
+100 15 15 14
+8 0 0
+A
+1 1
+A
+19 20
+A
+14 100
+A
+2 15
+A
+3 5
+#32635
+Tien's Middle Eye~
+Tien's Middle Eye~
+Someone's eye has been ripped out and thrown on the ground...blood surrounding it.~
+~
+9 0 17
+-300 0 0 0
+0 0 0
+A
+12 100
+A
+3 4
+A
+12 100
+A
+1 4
+#32671
+raziel cloth wrappings~
+some torn, &07white&00, cloth wrappings~
+A few pieces of torn white cloth are scattered about in pieces on the ground.~
+~
+11 0 4097
+0 0 0 0
+1 0 0
+A
+3 4
+A
+12 50
+#32672
+raziel eyes~
+two bright glowing eyes~
+Laying on the ground are two glowing white orbs, and a trail of &10green&00 blood leads to each.~
+~
+11 1 17
+0 0 0 0
+2 0 0
+A
+4 5
+#32673
+raziel finger claw~
+a large claw~
+A large claw has been ripped out of someone's hand is lieing on the ground bleeding all over.~
+~
+11 0 3
+0 0 0 0
+1 0 0
+A
+19 2
+#32674
+raziel shield~
+the corpse of a vampire~
+On the ground is the decaying body of a previously undead creature.~
+~
+9 0 513
+10 0 0 0
+4 0 0
+#32675
+raziel belt band~
+a band of silver metal~
+Mangled and disfigured is what appears to be a silver colored metal belt.~
+~
+11 0 2049
+0 0 0 0
+3 0 0
+A
+17 -10
+$~

@@ -1,0 +1,257 @@
+#1
+Puff dragon fractal~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+Is that some type of differntial curve involving some strange, and
+unknown calculus that she seems to be made out of?
+~
+253962 33800 1000 E
+26 1 -1 5d10+1000000000 4d6+3
+10000 155000
+8 8 2
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2
+transport ship~
+&00&02E&10a&11r&00&03t&02h &15T&16r&00&07anspo&16r&15t &14S&16h&15ip~
+&15An &00&02E&10a&11r&00&03t&02h &15T&16r&00&07anspo&16r&15t &14S&16h&15ip hovers here, waiting to take you to your destination.
+~
+It looks unfinished.
+~
+254026 8 0 E
+0 -30 10 30d1000+100000000 30d127+10000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 1
+T 2
+T 3
+T 14
+#3
+A namek villager~
+&00A &10namek&10&00 worker~
+&00A worried looking&00 &10namek&10&00 worker stands here.&00
+~
+It looks unfinished.
+~
+65672 0 50 E
+1500 -30 -10 3d500+4000 30d20+30
+65 350
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 545
+#4
+namek transport ship~
+&00&02N&10a&00&02m&10e&00&02k &15T&16r&00&07anspo&16r&15t &14S&16h&15ip~
+&15A &00&02N&10a&00&02m&10e&00&02k &15T&16r&00&07anspo&16r&15t &14S&16h&15ip hovers here, waiting to take you to your destination.
+~
+It looks unfinished.
+~
+254026 0 0 E
+0 -30 10 30d1000+100000000 30d127+10000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 4
+T 5
+T 6
+T 15
+#6
+vegeta transport ship~
+&11V&00&03eget&11a &15T&16r&00&07anspo&15r&15t &14S&16h&15ip~
+&15A &11V&00&03eget&11a &15T&16r&00&07anspo&15r&15t &14S&16h&15ip hovers here, waiting to take you to your destination.
+~
+It looks unfinished.
+~
+253962 0 0 E
+0 -30 10 30d1000+100000000 30d127+10000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 7
+T 8
+T 9
+T 16
+#7
+icer transport ship~
+&12F&16r&15i&16g&00&04i&12d &15T&16r&00&07anspo&16r&15t &14S&16h&15ip&00~
+&00A &12F&16r&15i&16g&00&04i&12d &15T&16r&00&07anspo&16r&15t &14S&16h&15ip&00 hovers here, waiting to take you to your destination.
+~
+It looks unfinished.
+~
+253962 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 10
+T 11
+T 12
+T 13
+#10
+multiform~
+&16M&15u&00&07l&15t&16i&12-&10F&00&02o&10r&00&02m&00~
+&11A &16M&15u&00&07l&15t&16i&12-&10F&00&02o&10r&00&02m&11 of someone is standing here.&00
+~
+Nothing.
+~
+10 0 0 E
+1 0 0 2d10+25000 10d10+15000
+0 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#11
+zombie undead humanoid~
+the Zombie~
+&10Z&00&06o&16mb&00&06i&10e &15humanoid is standing here, bits of their flesh rotting off&00
+~
+This strange humanoid is moving rather slowly, and appears to be
+a corpse, a walking corpse!  It must be a zombie or something of
+the sort.
+~
+10 0 0 E
+1 0 0 1d1+50000 10d10+4000
+0 0
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#51
+&12Sa&00&15iy&00&12an&00&09 Warrior&00~
+&12Sa&00&15iy&00&12an&00~
+&07a&00&12 Sa&00&15iy&00&12an&00&09 Warrior&00&07 is standing here, powering&00&09 up.&00
+~
+&05He is one of the&00&07 Elite&00&12 Sa&00&15iy&00&12an&00&12s.&00
+~
+256026 294912 -1000 E
+10000000 -30 -20 30d1+1 30d127+400
+1000 100000000
+8 8 1
+BareHandAttack: 13
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#52
+mr po po~
+&16Mr. P&15o &16P&15o&00~
+&16Mr. P&15o &16P&15o floats here, awaiting to assist you in your training.
+~
+The genie floats here, awaiting the proper amount of coins in order to pull opponents from the various eras.
+~
+254026 0 1000 E
+500 10 10 10d1000+10000 10d10+250000
+0 0
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2022
+#55
+Jenna Jameson~
+Jenna Jameson~
+Jenna Jameson is standing here completely naked, licking her lips and fondling herself.
+~
+She is completely naked, and yelling, Spank me! Spank me!
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#57
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+72 0 0 E
+0 20 10 1d1+0 1d1+0
+0 1000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#58
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 100000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#99
+death reaper~
+Death~
+Death the Grim Reaper is observing you silently from empty eye sockets.
+~
+The dark-robed skeletal figure radiates an unendurable coldness.
+~
+256026 33960 0 E
+30 0 -10 1d1+665 10d15+20
+0 500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

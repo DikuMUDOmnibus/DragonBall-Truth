@@ -1,0 +1,40 @@
+CircleMUD v3.0 Shop File~
+#4800~
+4800
+4850
+4855
+4860
+4861
+4862
+4863
+4864
+4865
+4866
+4867
+-1
+1.00
+2.00
+9
+20
+3
+6
+5
+-1
+%s Why would I carry something like that?~
+%s Don't try to sell me something you dont have.~
+%s I dont want THAT!  Who do you think I am.~
+%s I can't afford that.  Sorry.~
+%s You are too poor!~
+%s Give me %d coins, now.~
+%s Let me have the goods.~
+0
+3
+4899
+16
+4830
+-1
+0
+28
+0
+0
+$~

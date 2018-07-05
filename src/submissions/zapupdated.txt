@@ -1,0 +1,100 @@
+ACMD(do_zap)
+{
+  struct char_data *vict;
+  int washit, wasmana, wasmove;
+  int ishit, ismana, ismove;
+  int nhit, nmana, nmove;
+  int zapmult;
+
+  one_argument(argument, arg);
+ 
+  if (!*arg) {
+    send_to_char("Who you trying to zap?\r\n", ch);
+    return;
+  }
+  else if (!(vict = get_char_vis(ch, arg))) {
+    send_to_char(NOPERSON, ch);
+    return;
+  }
+  else if (IS_NPC(vict)) { /* Zapping mobiles is equivalent to helping mobs */ 
+    send_to_char("Oh no you don't! No zapping mobs!\r\n", ch);
+    return;
+  }
+  else if ((vict) == (ch)) {
+    send_to_char("That's plain stupid!\r\n", ch);
+    return;
+  }
+  else if (GET_LEVEL(vict) > GET_LEVEL(ch)) {
+    send_to_char("\r\nWhoopsadoodle....\r\n", ch);
+    send_to_char("\r\nSuddenly a lightning bolt appears out of NOWHERE!.\r\n", vict);
+    send_to_char("You laugh as you point a mirror back in the direction the lightning bolt came from.\r\n", vict);
+    vict = ch;
+  }
+
+    switch (GET_LEVEL(ch)) {
+      case LVL_IMMORT:
+        zapmult = 1;
+	break;
+      case LVL_GOD1:
+	zapmult = 2;
+	break;
+      case LVL_GOD2:
+	zapmult = 3;
+        break;
+      case LVL_GOD3:
+        zapmult = 4;
+	break;
+      case LVL_GOD4:
+	zapmult = 5;
+	break;
+      case LVL_GOD5:
+	zapmult = 6;
+	break;
+      case LVL_GOD6:
+	zapmult = 7;
+	break;
+      case LVL_GOD:
+	zapmult = 8;
+	break;
+      case LVL_GRGOD:
+        zapmult = 9;
+	break;
+      default:
+	zapmult = 0;
+	break;
+    }
+
+  washit = GET_HIT(vict);
+  wasmana = GET_MANA(vict);
+  wasmove = GET_MOVE(vict);
+
+  if (GET_LEVEL(ch) == LVL_IMPL) {
+    GET_HIT(vict) = 1;
+    GET_MANA(vict) = 1;
+    GET_MOVE(vict) = 1;
+  } else {
+    GET_HIT(vict) = ((GET_HIT(vict) * zapmult) / 10);
+    GET_MANA(vict) = ((GET_MANA(vict) * zapmult) / 10);
+    GET_MOVE(vict) = ((GET_MOVE(vict) * zapmult) / 10 );
+  }
+
+  ishit = GET_HIT(vict);
+  ismana = GET_MANA(vict);
+  ismove = GET_MOVE(vict);
+
+  nhit = (washit - ishit);
+  nmana = (wasmana - ismana);
+  nmove = (wasmove - ismove);
+
+  /* Then display and syslog it */
+  sprintf(buf, "(GC) %s zapped %s for %dH %dM %dV (stats * %d)", GET_NAME(ch), GET_NAME(vict), nhit, nmana, nmove, zapmult);
+  mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
+
+  update_pos(vict);
+  send_to_char("You think really hard and suddenly a spark leaves your fingers...\r\n", ch);
+  send_to_outdoor("\r\n     The sky begins to darken, and clouds loom ominously overhead.\r\n");
+  send_to_outdoor("     Suddenly the clouds part and a bolt of lightning jumps from\r\n");
+  send_to_outdoor("     the opening in the sky, striking someone HARD!\r\n");
+  act("&rSmell that burn!  You got zapped!  Better take a chill pill!&n", FALSE, vict, 0, ch, TO_CHAR);
+  act("\r\nSmooooooooooooookin'!!!   $n just got ZAPPED!  Ouch!", FALSE, vict, 0, 0, TO_NOTVICT);
+}

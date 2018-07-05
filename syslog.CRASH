@@ -1,0 +1,30 @@
+Jun 17 13:55:32 :: Resetting Newbie Zone (rooms 17600-18999).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 19000-20099).
+Jun 17 13:55:32 :: Resetting Undinian Ocean (rooms 20100-21705).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 21706-23099).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 23100-30999).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 31000-32699).
+Jun 17 13:55:32 :: Resetting Zone 400 (rooms 32700-40099).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 40100-40199).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 40200-40299).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 40300-40399).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 40400-40499).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 40500-40599).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 40600-40699).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 40700-40799).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 40800-40899).
+Jun 17 13:55:32 :: Resetting New Zone (rooms 40900-40999).
+Jun 17 13:55:32 :: Boot db -- DONE.
+Jun 17 13:55:32 :: Signal trapping.
+Jun 17 13:55:32 :: Entering game loop.
+Jun 17 13:55:32 :: No connections.  Going to sleep.
+Jun 17 13:55:40 :: New connection.  Waking up.
+Jun 17 13:56:10 :: Losing player: Iovan.
+Jun 17 13:56:10 :: No connections.  Going to sleep.
+Jun 17 13:59:32 :: New connection.  Waking up.
+Jun 17 13:59:38 :: Iovan [75.60.174.111] has connected.
+Jun 17 13:59:39 :: Iovan entering game with no equipment.
+Jun 17 13:59:42 :: (GC) Shutdown by Iovan.
+Jun 17 13:59:42 :: Closing all sockets.
+Jun 17 13:59:42 :: Closing link to: Iovan.
+Jun 17 13:59:42 :: Normal termination of game.

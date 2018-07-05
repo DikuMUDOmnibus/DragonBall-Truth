@@ -1,0 +1,532 @@
+#16600
+&09Dreaming Chambers&00~
+   The Dreaming Chambers are Taishyr's private lounge, reserved for those he
+wishes to discuss private matters with or for those he wishes to "entertain".
+The room is mostly blank, with grey walls and one white chair.  A spinning
+silver sphere hovers at shoulder height, and when it is gazed into, it offers
+infinite possibilities...    
+~
+166 240 0
+D2
+You see nothing special.
+~
+~
+0 -1 1205
+D4
+You see nothing special.
+~
+~
+0 -1 145
+S
+#16601
+&10J&00&02u&10n&00&02g&10l&00&02e&00~
+   &10Jungle ferns and small lizards crowd the path as you enter this jungle.
+This forest is said to have been planted by the Supreme Kai himself when this
+planet was made, and gives off a strong aura of health.  To the northeast are
+large signs of life.  &00
+~
+166 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16602
+S
+#16602
+&10J&00&02u&10n&00&02g&10l&00&02e&00~
+   &10Trees, taller than some mountains, brush hands with the cloudscapes in
+this part of the jungle.  Monkeys and birds screech among the rooftops,
+creating a cacophony that hurts even the most durable ears.  &00
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16603
+D3
+You see nothing special.
+~
+~
+0 -1 16601
+S
+#16603
+&10J&00&02u&10n&00&02g&10l&00&02e&00~
+   &10Here, the plant life on the ground begins to thicken as the canopy thins.
+The tall trees give way to the spread of ferns and moss, and the surface of the
+ground is almost completely obscured.  To the northeast lie what seem to be a
+few huts, made of mud.  &00
+~
+166 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16604
+D2
+You see nothing special.
+~
+~
+0 -1 16602
+S
+#16604
+&10J&00&02u&10n&00&02g&10l&00&02e&00~
+   &10Even the ferns and mosses begin to thin out here, right outside the camp.
+Prototypes of some sort of gun lie scattered about here, discarded after they
+failed to produce the desired result.  To the far north, beyond the mud huts
+and a sinister green wall, lies a humongous starship, pointing west and
+preparing for launch.  &00
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16605
+D3
+You see nothing special.
+~
+~
+0 -1 16603
+S
+#16605
+&16E&15n&16t&15r&16a&15n&16c&15e &00&07To &11T&00&03h&11e &09R&00&01eb&00&03ell&00&01io&09n &10C&00&02am&10p&00~
+   &00&01The ground all around is well trodden on, worn with the steps of a
+thousand men.  This place is a hive of activity as the people here prepare for
+what may very well be the final battle with the One State and the Benefactor.
+&00
+~
+166 0 1
+D0
+You see nothing special.
+~
+~
+0 -1 16608
+D1
+You see nothing special.
+~
+~
+0 -1 16607
+D2
+You see nothing special.
+~
+~
+0 -1 16604
+D3
+You see nothing special.
+~
+~
+0 -1 16606
+S
+#16606
+&15H&16a&15mm&16e&15r &00&07of &11G&00&03o&11d &14- &09R&00&01eb&00&03ell&00&01io&09n &00&07A&15rmor&00&07y&00~
+   &15This store holds only the best armor these people have managed to design,
+as well as an oddity - a miniature cannon, meant to be strapped onto the arm.
+Rebellion members are constantly running in and out, trying to get the best
+equipment available before war breaks out again.  &00
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16609
+D1
+You see nothing special.
+~
+~
+0 -1 16605
+S
+#16607
+&15S&16kul&15l &10K&00&02nol&10l&00~
+   &12This cave structure, set to resemble a large skull, is the medical
+facilities and housing for the rebellion.  People sit here, smoking or running
+around to get plasma to patients.  This whole place seems impressively
+disorganized.  &00
+~
+166 65536 0
+D0
+You see nothing special.
+~
+~
+0 -1 16610
+D3
+You see nothing special.
+~
+~
+0 -1 16605
+S
+#16608
+&11T&00&03h&11e &09R&00&01eb&00&03ell&00&01io&09n &10C&00&02am&10p&00~
+   &00&01The center of the camp has been aptly nicknamed "the intersection of
+Bedlam Drive and Havoc Avenue".  People are constantly rushing back and forth,
+attending to errands and business affairs.  Soldiers of the Rebellion stand
+listlessly, but all their eyes are focused on the Green Wall, and what lies
+beyond.  &00
+~
+166 0 1
+D0
+You see nothing special.
+~
+~
+0 -1 16611
+D1
+You see nothing special.
+~
+~
+0 -1 16610
+D2
+You see nothing special.
+~
+~
+0 -1 16605
+D3
+You see nothing special.
+~
+~
+0 -1 16609
+S
+#16609
+&11T&00&03h&11e &09R&00&01eb&00&03ell&00&01io&09n &10C&00&02am&10p&00~
+   &00&01A small plot of flowers provides a stark contrast to the rest of the
+neighborhood.  This small corner has been reserved for children, and here
+they've planted a wonderous array of flowers.  There is also a jungle gym and a
+small hill, from which multiple children peer out over the camp.  &00
+~
+166 0 1
+D0
+You see nothing special.
+~
+~
+0 -1 16612
+D1
+You see nothing special.
+~
+~
+0 -1 16608
+D2
+You see nothing special.
+~
+~
+0 -1 16606
+S
+#16610
+&11T&00&03h&11e &09R&00&01eb&00&03ell&00&01io&09n &10C&00&02am&10p&00~
+   &00&01An open-air food court takes up this wing of the camp.  Chefs that
+aren't busy cooking for the soldiers are busy handing food off to various
+customers.  Only visitors need to pay for their food, because the community
+here effectively has a free policy for anyone who lives and assists in the
+rebellion.  &00
+~
+166 0 1
+D0
+You see nothing special.
+~
+~
+0 -1 16613
+D2
+You see nothing special.
+~
+~
+0 -1 16607
+D3
+You see nothing special.
+~
+~
+0 -1 16608
+S
+#16611
+&11T&00&03h&11e &09R&00&01eb&00&03ell&00&01io&09n &10C&00&02am&10p&00~
+   &00&01Here, at the egde of the camp closest to the Benefactor, guards are
+always on patrol, eyeing the Green Wall with a hatred of what lies beyond.  
+From here, the &00&07&15Integral&00&00&01 can be seen clearly, a massive needle
+pointing towards the heavens.  &00
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16614
+D1
+You see nothing special.
+~
+~
+0 -1 16613
+D2
+You see nothing special.
+~
+~
+0 -1 16608
+D3
+You see nothing special.
+~
+~
+0 -1 16612
+S
+#16612
+&00&01W&00&03a&00&01r &15R&16oo&15m~
+   &16This room is dim, with a weak lightbulb swinging slightly from the
+ceiling, casting shadows across the walls.  Three figures hunch over a map of
+the city, discussing various raiding plans and the eventual strike on the
+starship.  This is where O-330 spends most of her time.  &00
+~
+166 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16611
+D2
+You see nothing special.
+~
+~
+0 -1 16609
+S
+#16613
+&12D&00&06r&12e&00&06a&12m&00&06g&12u&00&06a&12r&00&06d &16G&15enera&16l &00&02Store&00~
+&11   The shop is crowded with food, drinks, medicine and drugs, crammed into every available corner as each shipment gets in. There is always high demand for the &13S&00&05k&13o&00&05o&13m&00&05a&11, causing inflated prices for visitors on the rare liquid.&00
+~
+166 16 0
+D2
+You see nothing special.
+~
+~
+0 -1 16610
+D3
+You see nothing special.
+~
+~
+0 -1 16611
+S
+#16614
+&15The &10G&00&02r&10e&00&02e&10n &15W&16a&15l&16l&15: &09R&00&01eb&00&03ell&00&01io&09n&00 &12S&00&04id&12e&00~
+   &00&01The Green Wall seperates the Kais that support the insurrection from
+the Kais that prefer the order of City N41.  On this side of the wall, patrols
+are constant, the chatter is neverending, and the fear is almost palpable.  
+&00
+~
+166 0 2
+D0
+You see nothing special.
+~
+~
+0 -1 16615
+D2
+You see nothing special.
+~
+~
+0 -1 16611
+S
+#16615
+&15The &10G&00&02r&10e&00&02e&10n &15W&16a&15l&16l&15: &00&07C&15it&16y&00 &12S&00&04id&12e&00~
+You are in an unfinished room.
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16616
+D2
+You see nothing special.
+~
+~
+0 -1 16614
+S
+#16616
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16619
+D1
+You see nothing special.
+~
+~
+0 -1 16618
+D2
+You see nothing special.
+~
+~
+0 -1 16615
+D3
+You see nothing special.
+~
+~
+0 -1 16617
+S
+#16617
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16620
+D1
+You see nothing special.
+~
+~
+0 -1 16616
+S
+#16618
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16621
+D3
+You see nothing special.
+~
+~
+0 -1 16616
+S
+#16619
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16623
+D1
+You see nothing special.
+~
+~
+0 -1 16621
+D2
+You see nothing special.
+~
+~
+0 -1 16616
+D3
+You see nothing special.
+~
+~
+0 -1 16620
+S
+#16620
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16622
+D1
+You see nothing special.
+~
+~
+0 -1 16619
+D2
+You see nothing special.
+~
+~
+0 -1 16617
+S
+#16621
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 16624
+D2
+You see nothing special.
+~
+~
+0 -1 16618
+D3
+You see nothing special.
+~
+~
+0 -1 16619
+S
+#16622
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16623
+D2
+You see nothing special.
+~
+~
+0 -1 16620
+S
+#16623
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 16624
+D2
+You see nothing special.
+~
+~
+0 -1 16619
+D3
+You see nothing special.
+~
+~
+0 -1 16622
+S
+#16624
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 16621
+D3
+You see nothing special.
+~
+~
+0 -1 16623
+D5
+~
+~
+0 0 -1
+S
+#16625
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+S
+#16626
+zone woo~
+You are in an unfinished room.
+~
+166 0 0
+S
+$~

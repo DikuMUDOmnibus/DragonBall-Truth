@@ -1,0 +1,308 @@
+#701
+Kaelthus~
+&00&01K&00&16a&09e&00&01lt&00&09h&16us&00~
+&00&01K&00&16a&09e&00&01lt&00&09h&16us&00&15 stands behind the counter here, his emotionless eyes folliwing your every movement
+~
+   &16Kaelthus wears a heavy red cloak, his yellow hair flowwing down his back.
+His eyes stare at you, cold, uncaring.  It is clear that this man has killed
+before, and would do so again without remorse.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#702
+Sasuske~
+&13Sa&16s&00&05u&15s&13ke&00~
+&13Sa&16s&00&05u&15s&13ke&00&15 stands behind the counter here, his eyes gleaming with intelligence.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#703
+Dinnin~
+&00&05D&00&16i&15n&00&05ni&00&16n&00~
+&00&05D&00&16i&15n&00&05ni&00&16n&00&15 sits in a chair here, his purple eyes seeming to look stright into your soul.&00
+~
+   &16Dinnin is large, even for his race, with muscles clearly visable
+underneath his clothing.  His eyes never stay focused on one thing for too
+long, their gaze always wandering to other survey other things.  Many people
+think this shows he isn't paying attention.  Many people have died thinking
+this.    
+~
+10 0 0 E
+100 -60 0 1d1+25000000 1d1+150000
+2000 25000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 800
+T 803
+#704
+Hitman~
+&15H&07i&00&03t&00&15m&00&16a&15n&00~
+&15A &15H&07i&00&03t&00&15m&00&16a&15n&00&15 stands here, looking for someone to kill.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+40 -40 0 1d1+50000 1d1+5000
+350 600000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#705
+Assassin~
+&16A&00&15s&00&01s&00&16a&00&01ss&00&16i&00&15n&00~
+&15An &16A&00&15s&00&01s&00&16a&00&01ss&00&16i&00&15n&00&15 stands here, waiting patiently.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+85 -60 0 1d1+7000000 1d1+70000
+900 8000000
+8 8 1
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#706
+Ninja~
+&16N&15i&16nj&15a&00~
+&15A &16N&15i&16nj&15a&00&15 lurks in the darkness here, stalking their next victim.&00
+~
+   &15A ninja stands here, watching everything around him.  He stands stock
+still and blends into the wall, nearly impossible to see.  &00
+~
+8 10 0 E
+50 -60 0 1d1+15000000 1d1+125000
+1200 11000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#707
+Cybernetics Researcher~
+&16C&15y&00&06b&14e&00rne&14t&00&06i&15c&16s R&15e&00&06s&14e&00ar&14c&00&06h&15e&16r&00~
+&16C&15y&00&06b&14e&00rne&14t&00&06i&15c&16s R&15e&00&06s&14e&00ar&14c&00&06h&15e&16r&00 is standing here, working on a robotic arm.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#708
+Cybernetics Researcher~
+&16C&15y&00&06b&14e&00rne&14t&00&06i&15c&16s R&15e&00&06s&14e&00ar&14c&00&06h&15e&16r&00~
+&16C&15y&00&06b&14e&00rne&14t&00&06i&15c&16s R&15e&00&06s&14e&00ar&14c&00&06h&15e&16r&00 is standing here, reading over some diagrams.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#711
+Quantum Researcher~
+&16Q&15u&10a&16n&15t&10u&16m R&15e&10s&16e&15a&10r&16c&15h&10e&16r&00~
+&16Q&15u&10a&16n&15t&10u&16m R&15e&10s&16e&15a&10r&16c&15h&10e&16r&00 is standing here, debating with another researcher.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#712
+Quantum Researcher~
+&16Q&15u&10a&16n&15t&10u&16m R&15e&10s&16e&15a&10r&16c&15h&10e&16r&00~
+&16Q&15u&10a&16n&15t&10u&16m R&15e&10s&16e&15a&10r&16c&15h&10e&16r&00 is sitting here, wishing she had earplugs.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#713
+Spacial Weapons Researcher~
+&12S&14p&00&06a&00&04c&00&06i&14a&12l &16W&15e&14a&00&06p&14o&15n&16s &16R&15e&00&02s&10e&00ar&10c&00&02h&15e&16r&00~
+&12S&14p&00&06a&00&04c&00&06i&14a&12l &16W&15e&14a&00&06p&14o&15n&16s &16R&15e&00&02s&10e&00ar&10c&00&02h&15e&16r&00 is standing here, test firing a new weapon.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#714
+Spacial Weapons Researcher~
+&12S&14p&00&06a&00&04c&00&06i&14a&12l &16W&15e&14a&00&06p&14o&15n&16s &16R&15e&00&02s&10e&00ar&10c&00&02h&15e&16r&00~
+&12S&14p&00&06a&00&04c&00&06i&14a&12l &16W&15e&14a&00&06p&14o&15n&16s &16R&15e&00&02s&10e&00ar&10c&00&02h&15e&16r&00 is standing here, checking over the gauges.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#715
+Genome Researcher~
+&00&03G&11e&15no&11m&00&03e &00&03R&11e&16s&15e&00ar&15c&16h&11e&00&03r&00~
+&00&03G&11e&15no&11m&00&03e &00&03R&11e&16s&15e&00ar&15c&16h&11e&00&03r&00 is standing here, checking over specimens.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#716
+Genome Researcher~
+&00&03G&11e&15no&11m&00&03e &00&03R&11e&16s&15e&00ar&15c&16h&11e&00&03r&00~
+&00&03G&11e&15no&11m&00&03e &00&03R&11e&16s&15e&00ar&15c&16h&11e&00&03r&00 is hunched over here, looking through a microscope.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#717
+Cloning Specialist~
+&00&06C&00&02l&10o&15n&00in&15g &00&06S&00&02p&10e&15c&00ia&15l&10i&00&02s&00&06t&00~
+&00&06C&00&02l&10o&15n&00in&15g &00&06S&00&02p&10e&15c&00ia&15l&10i&00&02s&00&06t&00 is standing here, checking over a cloning tube.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#718
+Engine Researcher~
+&15E&16n&00&03g&15i&16n&00&03e &15R&16e&00&03s&15e&00ar&15c&00&03h&16e&15r&00~
+&15E&16n&00&03g&15i&16n&00&03e &15R&16e&00&03s&15e&00ar&15c&00&03h&16e&15r&00 is hunched over a engine, fiddling with some valves.
+~
+It looks unfinished.
+~
+8 0 0 E
+250000 -80 0 1d1+75000000 1d1+250000
+7500 75000000
+8 8 1
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#719
+Tetragen Infused Bebi~
+&00T&10e&00&02t&16r&15a&00gen &10I&00&02n&16f&15u&16s&00&02e&10d B&00&02e&16b&15i&00~
+&00T&10e&00&02t&16r&15a&00gen &10I&00&02n&16f&15u&16s&00&02e&10d B&00&02e&16b&15i&00 is standing here, surrounded by a pure black aura.
+~
+It looks unfinished.
+~
+188426 168 0 E
+999999 -180 0 1d1+750000000 1d1+500000
+500000 100000000
+8 8 1
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 722
+T 12841
+#720
+Fluid Filled Containment Tank~
+&00&06F&00&02l&10u&14i&00&06d &00&02F&10i&14l&00&06l&00&02e&10d &16C&15o&00n&02t&10a&00i&10n&00&02m&00e&15n&16t T&00&06a&00&02n&10k&00~
+&00&06F&00&02l&10u&14i&00&06d &00&02F&10i&14l&00&06l&00&02e&10d &16C&15o&00n&02t&10a&00i&10n&00&02m&00e&15n&16t T&00&06a&00&02n&10k&00 is here, glowing a dark green.
+~
+It looks unfinished.
+~
+26 0 0 E
+500000 20 0 0d0+1000000000 0d0+5
+0 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 720
+T 200
+$

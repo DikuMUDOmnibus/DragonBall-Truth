@@ -1,0 +1,35 @@
+#2900
+Katana~
+&14Tuskino's &12Katana&00~
+&15A &12katana &15belonging to &14Tuskino &15is lying here.&00~
+~
+5 323 24577
+100 100 100 3
+10 2147483647 0
+A
+1 20
+A
+2 20
+A
+17 20
+A
+18 100
+A
+19 100
+#2910
+Desk~
+&15A large &14marble&15 desk&00~
+&15A large &14marble&15 desk is here in one corner of the room&00~
+~
+12 0 0
+0 0 0 0
+0 0 0
+#2999
+Key~
+&15Key to &14Tuskino's &15Palace&00~
+It seems to have a powerful glow to it as tho it only belongs in the hands of an immortal. Perhaps you should drop this key before you are slayed.~
+~
+18 1 16385
+0 0 0 0
+1 10000 0
+$~

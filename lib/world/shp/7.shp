@@ -1,0 +1,71 @@
+CircleMUD v3.0 Shop File~
+#751~
+700
+701
+702
+703
+704
+705
+706
+707
+708
+709
+710
+711
+712
+718
+719
+720
+-1
+1.00
+0.25
+1
+2
+5
+3
+11
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+701
+0
+751
+-1
+0
+28
+0
+28
+#765~
+4275
+713
+714
+715
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+702
+0
+765
+-1
+0
+28
+0
+0
+$~

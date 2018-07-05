@@ -1,0 +1,663 @@
+#3000
+Bottle of Beer~
+&00&07B&14o&15t&00&07t&14l&00&07e &15of &00&03B&11e&00&03e&00&07r&00~
+&15A &00&07B&14o&15t&00&07t&14l&00&07e &15of &00&03B&11e&00&03e&00&07r &15has been dropped here.&00~
+~
+17 0 1
+10 10 1 0
+15 175 0
+#3001
+Steakburger~
+&00&01St&00&03e&11a&16k&00&03b&00&01u&16r&11g&00&03e&00&01r&00~
+&15A &00&01St&00&03e&11a&16k&00&03b&00&01u&16r&11g&00&03e&00&01r &15has been dropped here.&00~
+~
+19 0 1
+8 0 0 0
+1 212 0
+#3002
+French Fries~
+&11F&00&03r&11e&00&07nc&11h &00&03F&11r&00&07i&00&03e&11s&00~
+&15A platter of &11F&00&03r&11e&00&07nc&11h &00&03F&11r&00&07i&00&03e&11s &15have been dropped here.&00~
+~
+19 0 1
+5 0 0 0
+1 145 0
+#3003
+Mug of Beer~
+&00&07M&15u&16g &15of &00&03B&11e&00&03e&00&07r&00~
+&15A &00&07M&15u&16g &15of &00&03B&11e&00&03e&00&07r &15has been set here.&00~
+~
+17 0 1
+15 15 1 0
+20 300 0
+#3004
+Pitcher of Beer~
+&00&07P&15i&16t&15c&16h&15e&00&07r &15of &00&03B&11e&00&03e&00&07r&00~
+&15A &00&07P&15i&16t&15c&16h&15e&00&07r &15of &00&03B&11e&00&03e&00&07r &15has been placed here.&00~
+~
+17 0 1
+40 40 1 0
+45 500 0
+#3005
+Hot Wings~
+&00&01H&09o&00&01t &00&07W&09i&00&01n&16g&00&01s&00~
+&15A platter of &00&01H&09o&00&01t &00&07W&09i&00&01n&16g&00&01s &15have been placed here.&00~
+~
+19 0 1
+12 0 0 0
+1 345 0
+#3006
+Basic Scouter~
+&12B&00&04a&16s&00&04i&12c &10S&00&02c&16out&00&02e&10r&00~
+&15A &12B&00&04a&16s&00&04i&12c &10S&00&02c&16out&00&02e&10r &15has been dropped here.&00~
+~
+3 0 513
+100000 100000 100000 201
+1 2000 0
+A
+6 4
+#3007
+Enhanced Scouter~
+&16E&00&02n&10h&16a&00&02n&10c&16e&00&02d &16S&00&04c&12o&15u&12t&00&04e&16r&00~
+&15An &16E&00&02n&10h&16a&00&02n&10c&16e&00&02d &16S&00&04c&12o&15u&12t&00&04e&16r &15has been dropped here.&00~
+~
+3 0 513
+100 100000 100000 201
+1 300000 0
+A
+4 1
+A
+3 1
+A
+18 10
+A
+19 10
+#3008
+Infusion Alpha Scouter~
+&10I&00&02n&16f&00&02u&10s&16i&00&02o&10n &12A&00&04l&16p&15h&00&07a &16S&00&02c&10o&15u&10t&00&02e&16r&00~
+&15A &10I&00&02n&16f&00&02u&10s&16i&00&02o&10n &12A&00&04l&16p&15h&00&07a &16S&00&02c&10o&15u&10t&00&02e&16r &15has been dropped here.&00~
+~
+3 0 513
+100 100000 100000 201
+1 600000 0
+A
+4 1
+A
+3 1
+A
+2 3
+A
+18 20
+A
+19 20
+#3009
+Infusion Beta Scouter~
+&10I&00&02n&16f&00&02u&10s&16i&00&02o&10n &11B&00&03e&16t&15a &16S&00&02c&10o&15u&10t&00&02e&16r&00~
+&15A &10I&00&02n&16f&00&02u&10s&16i&00&02o&10n &11B&00&03e&16t&15a &16S&00&02c&10o&15u&10t&00&02e&16r &15has been dropped here.&00~
+~
+3 0 513
+100 100000 100000 201
+1 1000000 0
+E
+waybread bread~
+The waybread is the traditional feed of elves when travelling, they
+call it lembas.  It is said to refresh the weary traveler greatly.
+~
+A
+5 1
+A
+4 1
+A
+3 1
+A
+2 3
+A
+18 30
+A
+19 30
+#3010
+Omega Scouter~
+&14O&00&06m&16e&00&06g&14a &16S&00&02c&10o&15u&10t&00&02e&16r&00~
+&15A &14O&00&06m&16e&00&06g&14a &16S&00&02c&10o&15u&10t&00&02e&16r &15has been dropped here.&00~
+~
+3 0 513
+100 100000 100000 201
+1 4000000 0
+A
+5 3
+A
+4 3
+A
+3 2
+A
+2 4
+A
+18 30
+A
+19 30
+#3011
+Danish Pastry~
+&00&03D&00&07a&00&03n&00&07i&11s&00&03h &00&03P&11a&00&07st&11r&00&03y&00~
+&15A &00&03D&00&07a&00&03n&00&07i&11s&00&03h &00&03P&11a&00&07st&11r&00&03y &15has been dropped here.&00~
+~
+19 0 1
+9 0 0 0
+1 235 0
+#3012
+Chocolate Chip Cookie~
+&00&03Ch&16oc&00&03olate &11C&00&03h&11ip &16C&00&03oo&16ki&11e&00~
+&15A &00&03Ch&16oc&00&03olate &11C&00&03h&11ip &16C&00&03oo&16ki&11e &15has been dropped here.&00~
+~
+19 0 1
+3 0 0 0
+1 110 0
+#3013
+scythe~
+&00&16S&00&15c&00&06y&00&16t&00&15h&00&06e&00~
+A sharp scythe is propped up here.~
+~
+5 3 8193
+10 10 1 3
+1 10 10
+#3014
+nachos nacho~
+some nachos with cheese~
+Some nachos have been left here.~
+~
+19 0 1
+5 0 0 0
+1 5 5
+E
+nachos nacho~
+They have cheese on them.  Looks like one of Uncle Juan's specials.
+~
+#3015
+meat chunk~
+a piece of meat~
+A rather dubious looking piece of meat is on the ground here.~
+~
+19 0 1
+14 0 0 0
+5 24 10
+E
+meat chunk~
+It isn't so much that the meat looks poisoned or anything, but that you
+just are not sure of its origins.  You doubt that a hunter would drop a
+side of venison or rabbit meat... what in the world could this meat have
+come from, you wonder...
+~
+#3020
+dagger~
+a dagger~
+A dagger with a long thin blade is here.~
+~
+5 8192 8193
+0 1 4 11
+1 10 10
+#3021
+sword small~
+a small sword~
+A small sword lies here.~
+~
+5 8192 8193
+0 1 6 11
+3 60 10
+E
+sword small~
+The small sword seems to have an inscription of some sort inscription...
+~
+E
+inscription~
+It says: 'May this sword be a good companion.'
+~
+#3022
+sword long~
+a long sword~
+A long sword has been left here.~
+~
+5 8192 8193
+0 1 8 3
+8 600 10
+#3023
+club wooden~
+a wooden club~
+A simple looking wooden club is here.~
+~
+5 0 8193
+0 1 3 7
+3 12 10
+#3024
+warhammer hammer~
+a warhammer~
+A medium sized warhammer is here.~
+~
+5 0 8193
+0 1 5 7
+6 50 10
+#3025
+flail large~
+a flail~
+A large flail is here.~
+~
+5 0 8193
+0 2 4 7
+6 625 10
+#3030
+torch~
+a torch~
+A large torch.~
+~
+1 0 65537
+0 0 24 0
+1 10 10
+#3031
+lantern brass~
+a lantern~
+A brass lantern is here.~
+~
+1 0 65537
+0 0 96 0
+1 50 10
+#3032
+bag~
+a bag~
+A small bag is here.~
+~
+15 0 16385
+50 0 0 0
+2 20 10
+#3033
+box~
+a box~
+A small box is here.~
+~
+15 0 16385
+10 0 0 0
+5 50 10
+#3034
+automative teller machine~
+&16A&15u&00&07to&15m&16a&15t&00&07i&15c &00&02T&10e&14ll&10e&00&02r &16Machine&00~
+&16A&15u&00&07to&15m&16a&15t&00&07i&15c &00&02T&10e&14ll&10e&00&02r &16Machine &15is installed into the floor here.&00~
+~
+12 92 0
+0 0 0 0
+5000 0 0
+E
+atm teller bank machine~
+There is a small note on the machine which says:
+
+To use, type 'BALANCE', 'WITHDRAW <amount>', or 'DEPOSIT <amount>'.
+Please report any strange occurrences to the bank manager.
+
+~
+#3035
+fountain water~
+the large fountain~
+A large fountain carved from blue-streaked marble is here, bubbling merrily.~
+~
+23 92 0
+9999 9999 15 0
+9999999 0 0
+E
+marble blue streaked~
+It is a well crafted fountain, carved from a single piece of very beautiful
+white marble shot through with electric blue streaks that look almost like
+lightning dancing along the sides of the fountain.  It seems to be enchanted
+in some manner, as the water level seems to never lower.
+~
+#3036
+cash card~
+&10C&00&02a&10s&00&02h&11-&14C&00&06ar&14d&00~
+&15A &10C&00&02a&10s&00&02h&11-&14C&00&06ar&14d &15is lying here.&00~
+~
+8 80 16385
+0 0 0 0
+1 100000 10
+E
+cashcard card atm~
+There is some writing on the back of the card which reads:
+
+To use, type 'BALANCE', 'WITHDRAW <amount>', or 'DEPOSIT <amount>'.
+Please report any strange occurrences to the bank manager.
+
+~
+#3037
+candle~
+a candle~
+A candle lies here, unlit.~
+~
+1 0 16385
+0 0 4 0
+1 5 1
+E
+candle~
+A home-made candle, how quaint!
+~
+#3038
+nail~
+a nail~
+A penny nail lies in the dust.~
+~
+5 0 8193
+0 1 1 11
+1 5 1
+E
+nail~
+Its a common iron nail, used for carpentry work.
+~
+#3039
+pot~
+a pot~
+A cast-iron pot sits on the ground.~
+~
+15 0 1
+10 0 0 0
+10 100 20
+E
+pot~
+It is a nice pot.  You could use it, if you ever settled down.
+~
+#3040
+plate breast~
+a breast plate~
+A breast plate is lying on the ground.~
+~
+9 0 9
+7 0 0 0
+100 18000 150
+#3041
+shirt chain mail~
+a chain mail shirt~
+A chain mail shirt is lying on the ground.~
+~
+9 0 9
+5 0 0 0
+60 2500 50
+#3042
+shield wooden~
+a shield~
+A small wooden shield is lying on the ground.~
+~
+9 0 513
+2 0 0 0
+3 100 10
+#3043
+jacket soft leather~
+a leather jacket~
+A soft leather jacket is lying on the ground.~
+~
+9 0 9
+2 0 0 0
+10 200 10
+#3044
+jacket studded leather~
+a studded leather jacket~
+A studded leather jacket is lying on the ground.~
+~
+9 0 9
+3 0 0 0
+20 500 10
+#3045
+jacket scale mail~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
+~
+9 0 9
+4 0 0 0
+40 1000 10
+#3046
+plate bronze breast~
+a bronze breast plate~
+A bronze breast plate is lying on the ground.~
+~
+9 0 9
+6 0 0 0
+80 7000 100
+#3050
+scroll identify~
+a scroll of identify~
+A scroll has carelessly been left here.~
+~
+2 64 16385
+12 201 -1 -1
+1 2001 10
+E
+scroll identify~
+The scroll has a magic formula drawn upon it:
+
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+
+~
+#3051
+potion yellow~
+a yellow potion of see invisible~
+A small yellow potion has carelessly been left here.~
+~
+10 64 16385
+12 19 -1 -1
+1 400 10
+E
+potion yellow~
+The potion has a small label 'Detect The Invisible'.
+~
+#3052
+scroll recall~
+a scroll of recall~
+A scroll has carelessly been left here.~
+~
+2 64 16385
+12 42 -1 -1
+4 2001 10
+E
+scroll recall~
+The scroll has written a formulae of 'Word of Recall' upon it.
+~
+#3053
+wand grey~
+a grey wand of invisibility~
+A grey wand has carelessly been left here.~
+~
+3 64 16385
+12 2 2 29
+2 4000 100
+E
+wand grey~
+The wand is an old dark grey stick.  You notice a small symbol etched at
+the base of the wand.  It looks like this:
+
+     \ /
+    - O -
+     / \
+
+~
+#3054
+staff gnarled~
+a gnarled staff~
+A gnarled staff has carelessly been left here.~
+~
+4 64 16385
+12 1 1 38
+17 7000 5000
+E
+staff gnarled~
+The staff is made of old oak, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+  ZZZZZ
+     Z
+    Z
+   Z
+  ZZZZZ  z   z
+
+~
+#3055
+staff metal~
+a metal staff~
+A metal staff has carelessly been left here.~
+~
+4 64 16385
+10 8 8 15
+7 8500 300
+E
+staff metal~
+The staff is made of metals unknown to you.
+~
+#3060
+raft~
+a raft~
+A raft has been left here.~
+~
+22 0 1
+0 0 0 0
+75 400 10
+E
+raft~
+The raft looks very primitive.
+~
+#3061
+canoe~
+a canoe~
+A canoe has been left here.~
+~
+22 0 1
+0 0 0 0
+32 1000 100
+E
+canoe~
+The canoe is fairly light.
+~
+#3070
+gauntlets bronze~
+a pair of bronze gauntlets~
+A pair of bronze gauntlets is lying on the ground.~
+~
+9 0 129
+6 0 0 0
+8 1750 100
+#3071
+gloves leather~
+&00a pair of&00&01leather&01 &00gloves&00~
+&00a pair of&00&01leather&01 &00gloves lies here.~
+~
+9 0 129
+3 0 0 0
+3 150 10
+#3075
+helmet bronze~
+&00a&00 &03bronze&03 &00helmet&00~
+&00A&00 &03bronze&03 &00helmet is lying on the ground.&00~
+~
+9 0 17
+6 0 0 0
+8 250 100
+#3076
+cap leather~
+a leather cap~
+A leather cap is lying on the ground.~
+~
+9 0 17
+3 0 0 0
+3 150 10
+#3080
+leggings bronze~
+&07a pair of&07 &03bronze&03 &07leggings&07~
+&07a pair of&07 &03bronze&03 &07leggings is lying on the ground.&07~
+~
+9 0 33
+6 0 0 0
+8 400 100
+#3081
+pants leather~
+&00a pair of&00 &01leather&01&00pants&00~
+&00A pair of&00 &01leather&01&00pants is lying on the ground.&00~
+~
+9 0 33
+3 0 0 0
+8 150 10
+#3085
+sleeves bronze~
+a pair of bronze sleeves~
+A pair of bronze sleeves is lying on the ground.~
+~
+9 0 257
+6 0 0 0
+8 1750 100
+#3086
+sleeves leather~
+&07 a pair of&07 &01leather&01 &07sleeves.&07~
+&07 a pair of&07 &01leather&01 &07sleeves is lying on the ground.&07~
+~
+9 0 257
+2 0 0 0
+4 75 10
+#3096
+message board~
+&10Message &00&06Board&00~
+&15A &10Message &00&06Board&15 floats here, waiting to be written on.&00~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+E
+social bulletin~
+Use 'look board' to read the board.
+~
+#3097
+roleplaying board~
+&12Roleplaying &00&06Board&00~
+&15A &12Roleplaying &00&06Board&15 is floating here, waiting to be written on.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+E
+freeze bulletin~
+Use 'look board' to read the board.
+~
+#3098
+board holy bulletin~
+&15H&00&07ol&15y &10Bulletin &16Board&00~
+&15A &15H&00&07ol&15y &10Bulletin &16Board &15burns with almighty fire here.&00~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+E
+holy bulletin~
+Use 'look board' to read the board.
+~
+#3099
+board bulletin~
+&16I&15o&00&07v&15a&16n&15'&00&07s &10C&00&02o&10d&00&02e&10r &12B&00&04o&12a&00&04r&12d&00~
+&16I&15o&00&07v&15a&16n&15'&00&07s &10C&00&02o&10d&00&02e&10r &12B&00&04o&12a&00&04r&12d&15 is floating in a vortex here.&00~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+E
+bulletin~
+Use 'look board' to read the board.
+~
+$~

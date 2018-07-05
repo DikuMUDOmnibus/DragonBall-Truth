@@ -1,0 +1,288 @@
+#4800
+Guldo~
+&00G&10u&00&02l&00&10d&00o~
+&00G&10u&00&02l&00&10d&00o&15, a member of the &00&05G&16i&00n&15y&13u&00 &11F&00&03o&16r&00&06c&14e&00&15 stands here.&00
+~
+   &15A short fat grean creature with four eyes, two protruding from the sides
+of his head stands here.  &00
+~
+16394 0 -100 E
+100000 -60 0 0d0+1500000 0d0+30000
+4000 3750000
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4801
+burter~
+&06B&00&14u&00rt&00&14e&00&06r&00~
+&06B&00&14u&00rt&00&14e&00&06r&00&15, a member of the &00&05G&16i&00n&15y&13u&00 &11F&00&03o&16r&00&06c&14e&00&15 stands here.&00
+~
+&15A purple colored being stands here.
+~
+16394 0 0 E
+0 -20 10 0d0+2000000 0d0+30000
+5000 4000000
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4802
+jeice~
+&09J&00e&00&15i&00c&09e&00~
+&09J&00e&00&15i&00c&09e&00&15, a member of the &00&05G&16i&00n&15y&13u&00 &11F&00&03o&16r&00&06c&14e&00&15 stands here.&00
+~
+&15A short orang-reddish man stands here with white hair.&00
+~
+16394 0 0 E
+100000 -60 0 0d0+2250000 0d0+30000
+5500 4200000
+8 8 1
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4803
+Recoome~
+&09R&00&01e&00&03c&11o&00&03o&00&01m&09e&00~
+&09R&00&01e&00&03c&11o&00&03o&00&01m&09e&00&15, a member of the &00&05G&16i&00n&15y&13u&00 &11F&00&03o&16r&00&06c&14e&00&15 stands here.&00
+~
+   You see a large man, with an orange tuft of hair on his head.    
+~
+16394 512 0 E
+100000 -60 0 0d0+4000000 0d0+30000
+8000 4500000
+8 8 1
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4804
+Goz~
+&00&09G&00&16o&15z&00&15, the strong&00~
+&00&09G&00&16o&15z&00&15, the strong is waiting here for the match to begin.&00
+~
+   &15You see a larged blue skinned man with a larg tan horn on the top of his
+head.  He is wearing funny white shorts and a shirt that says "Hell.  "&00
+~
+16394 8 0 E
+100000 -60 0 0d0+500000 0d0+30000
+2000 500000
+8 8 1
+BareHandAttack: 6
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 4804
+#4805
+Mez~
+&15M&00&16e&00&09z&00&15, the incredibly fast&00~
+&15M&00&16e&00&09z&00&15, the incredibly fast stands here waiting to spar you.&00
+~
+   &15You see a larg man slighty smaller than Goz with red skin.  On his head
+are two, tan horns surrouned by nicely combed black hair.  He is wearing the
+same outfit as Goz.  The funny white shorts and shirt with "Hell" printed on
+it.  &00
+~
+16394 8 0 E
+100000 -60 0 0d0+500000 0d0+30000
+2000 500000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 4805
+#4806
+insane soul~
+&16I&00&09n&00&01sa&00&09n&16e &09S&16o&00&15u&00&09l&00~
+&16I&00&09n&00&01sa&00&09n&16e &09S&16o&00&15u&00&09l&00&15 wanders around looking to regain his soul.&00
+~
+   &15A man who has lost his soul wanders around the layers of hell to try and
+regain back his soul so that he may yet again live in peace.  &00
+~
+40 64 0 E
+0 0 10 1d1+300 1d1+40
+100 35000
+8 8 1
+BareHandAttack: 3
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4807
+tortured~
+a tortured lady~
+A lady dragging a huge anvil of enormous proportions is here.
+~
+   You see a lady, dragging a HUGE anvil, attached by chains to her wrists and
+ankles.    
+~
+40 64 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4808
+Ginyu~
+&00&06C&14a&15p&16t&15a&14i&00&06n &00&05G&16i&00n&15y&13u&00~
+&00&06C&14a&15p&16t&15a&14i&00&06n &00&05G&16i&00n&15y&13u&00&15, leader of the &00&05G&16i&00n&15y&13u&00 &11F&00&03o&16r&00&06c&14e&00&15 stands here prepared for battle.&00
+~
+   &15A purple skinned being with an ego to boot stands here and he is the
+leader of the Ginyu Force.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+6000000 0d0+70000
+15000 5500000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4810
+moonraper~
+Moonraper~
+Moonraper stands here.
+~
+   You see Moonraper, he is very dirty.    
+~
+40 8 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+BareHandAttack: 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4822
+Cell JR~
+a Cell JR~
+A miniture Cell stands here, ready to fight.
+~
+You see a younger looking version of Cell.
+~
+196634 1064 -1000 E
+1000 -30 -20 10d100+1000 30d50+100
+0 100000
+8 8 0
+BareHandAttack: 12
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4842
+Shattered Soul~
+&00&06Sh&14at&16te&15re&00&07d &00&01S&09o&16u&15l&00~
+&00&06Sh&14at&16te&15re&00&07d &00&01S&09o&16u&15l &15mopes around here weeping.&00
+~
+This soul emits a ear splitting cry.  Naked with cuts
+from head to toe, the soul looks as if it were tortured.  &00
+~
+8 0 0 E
+20000 -60 0 0d0+545000 0d0+30000
+620 2400000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4850
+Sheer - Bah~
+Sheer Clone~
+Sheer - BAH is standing here.
+~
+   He looks like Sheer.    
+~
+6156 2360320 -1000 E
+100 -30 -20 30d1000+10000 20d127+1000
+99999999 2147483647
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#4866
+Kalamazuu~
+Kalamazuu~
+&15A male &13Majin&15 with black eyes and &13Purple&15 hair is standing here.
+~
+You see a pink guy.
+~
+206888 2097160 -1000 E
+1000000 -30 -20 30d1000+100000 30d127+10000
+100000 1000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 151
+#4888
+Fifth Form Cooler~
+Cooler~
+&15A male &12Icer&15 with black eyes and no hair is standing here.
+~
+You see Cooler.  He is in his fifth form.    
+~
+56 32768 -1000 E
+1000000 -30 -20 30d1000+100000 30d127+1000
+100000 1000000
+8 8 1
+BareHandAttack: 8
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 150
+#4899
+Frost, the Icer~
+Frost, the Builder~
+Frost stands here, waving his tail idoly.
+~
+You see an average sized Icer, with piercing eyes.
+~
+16394 136 1000 E
+1 20 10 1d1+500 5d30+0
+100000000 2147483647
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

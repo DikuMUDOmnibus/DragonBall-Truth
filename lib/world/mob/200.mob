@@ -1,0 +1,234 @@
+#20000
+super multiform~
+&12S&14upe&12r &10M&00&02u&10l&00&02t&10i&00&02f&10o&00&02r&10m&00~
+&15A &12S&14upe&12r &10M&00&02u&10l&00&02t&10i&00&02f&10o&00&02r&10m &15stands here.&00
+~
+It looks unfinished.
+&15A powered up multiform of someone.&00
+~
+10 0 0 E
+1000 -20 10 1d1+400000 1d1+100000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#20001
+Ultra Multiform~
+&00&01U&09ltr&00&01a &16M&15u&00&07l&15t&16i&10f&00&02o&10r&00&02m&00~
+&15An &00&01U&09ltr&00&01a &16M&15u&00&07l&15t&16i&10f&00&02o&10r&00&02m &15is standing here confidently&00
+~
+It looks unfinished.
+&15An Ultra Multiform of someone.&00
+~
+10 0 0 E
+1000 -20 10 1d1+1000000 1d1+250000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#20002
+Ghoul~
+&10G&00&06h&00&02o&00&06u&10l&00~
+&15A &10G&00&06h&00&02o&00&06u&10l &15stands here, skin dangling from it's bones...&00
+~
+It looks unfinished.
+~
+10 0 0 E
+1000 -20 10 1d1+400000 1d1+50000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#20003
+Imp~
+&09I&16m&00&01p&00~
+&14A &09I&16m&00&01p &14stands here..&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -20 10 1d1+800000 1d1+100000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#20004
+Teenage Namek~
+&14Teen&16a&15g&16e &10N&00&02ame&10k&00~
+&15A &14Teen&16a&15g&16e &10N&00&02ame&10k &15stands here looking apathetic....&00
+~
+It looks unfinished.
+&15A teenage namek offspring....&00
+~
+10 0 0 E
+0 -20 10 1d1+500000 1d1+45000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#20005
+Adult Namek~
+&14Adult &10N&00&02ame&10k&00~
+&15A &14Adult &10N&00&02ame&10k &15stands here...&00
+~
+It looks unfinished.
+&15A fierce Adult namek offspring stands here....&00
+~
+10 0 0 E
+0 -20 10 1d1+1000000 1d1+75000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#20006
+Meta Scorpion~
+&10M&00&02e&16t&00&02a &09S&00&01c&16o&15r&00&07p&16i&00&01o&09n&00~
+&15The &10M&00&02e&16t&00&02a &09S&00&01c&16o&15r&00&07p&16i&00&01o&09n &15is standing here, thrashing it's tail.&00
+~
+   &15This is one huge scorpion, at about 50 ft tall.  It's body is made out of
+a hard titanium, covering its robotic innards.  &00
+~
+65594 0 0 E
+8000000 -180 0 0d0+1000000000 0d0+500000
+80000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 210
+#20007
+Hell Imp~
+&16I&00&01m&09p&00~
+&15An &16I&00&01m&09p &15stands here ready to torture you...&00
+~
+&00&01This is an evil creature, created for the sole purpose of causing suffering to enemies of this universe.&00
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 20000
+#20008
+Ozma "I am cheating"~
+&13O&00&05z&13m&00&05a &11"&14I am cheating&11"&00~
+&13O&00&05z&13m&00&05a &11"&14I am cheating&11" &15stands here, plotting of ways to cheat on his mud...&00
+~
+   &13For many years Ozma cheated on his own mud "Dragonball Evolution" But
+recently Yema has sentenced him to hell for his crimes.  This of course is an
+unbearable punishment....  For the other people in hell.  &00
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 20001
+#20009
+Kid Buu~
+&12K&00&04i&12d &13B&00&03u&13u&00~
+&12K&00&04i&12d &13B&00&03u&13u &15is cackling here.&00
+~
+   &15The most powerful majin to ever exist, and crazy to boot.  Best to keep
+your distance.  &00
+~
+65576 128 0 E
+900000 -80 0 0d0+800000000 0d0+500000
+80000 100000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#20010
+Super Saiyan Three Goku~
+&11S&00&03u&11p&00&03e&11r &11S&00&03a&11i&00&03y&11a&00&03n &14Three &16G&00&03o&15k&00&07u&00~
+&11S&00&03u&11p&00&03e&11r &11S&00&03a&11i&00&03y&11a&00&03n &14Three &16G&00&03o&15k&00&07u &15is standing here with a determined look.&00
+~
+   &15Here is the greatest warrior the universe has ever known.  He will
+protect his dragonball with his life, which will not be taken easily either.  
+&00
+~
+196616 0 0 E
+900000 -180 0 0d0+600000000 0d0+500000
+100000 200000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 109
+#20011
+Growth Mob~
+&00&07G&10r&00&02o&16w&10t&00&07h &16Mob&00~
+&15A &00&07G&10r&00&02o&16w&10t&00&07h &16Mob &15stands here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+1000 1d1+0
+0 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#20015
+Berserk Factory~
+&09B&00&01e&16r&15s&00&07erk &16F&15a&00&07c&16t&15o&00&07r&15y&00~
+&15The &09B&00&01e&16r&15s&00&07erk &16F&15a&00&07c&16t&15o&00&07r&15y &15is here pumping out maniac robots!&00
+~
+&15This factory is just larger than an ordinary house, it is completely automated.&00
+~
+10 0 0 E
+1000000 -100 0 0d0+1000000000 0d0+1
+20000 500000000
+8 8 0
+E
+T 20015
+#20016
+Ed 209~
+&15E&16d &10209&00~
+&15An &15E&16d &10209 &15is stomping around here.&00
+~
+&15This robot has twin 50 calibur autocannons on each arm. It walks balancing on two large legs like a bird.&00
+~
+40 0 0 E
+500000 -80 0 0d0+5000000 0d0+100000
+1000 8000000
+8 8 0
+BareHandAttack: 12
+E
+T 20016
+$

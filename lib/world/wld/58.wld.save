@@ -1,0 +1,1084 @@
+#5800
+Passage to Prison Udaphos~
+   The cooled passageway is lined with gleaming azure crystals.  Strangely
+enough, no light is beaming onto them...  The ground is soft and fertile, yet
+no plants can grow here without Aether's light to feed them.  The end of the
+rocky corridor is covered in what appears to be a silver mist, yet thin
+tendrils extend into the air, and move as if they can feel the presence of
+other beings.  While the keepers of this place hold power, those wisps of
+glowing energy will never allow the passage of unwarranted beings.    
+~
+54 148 0
+D3
+You see nothing special.
+~
+~
+0 -1 5801
+S
+#5801
+Chamber of Serenity and Solitude~
+Nothing.
+~
+54 148 0
+D1
+You see nothing special.
+~
+~
+0 -1 5800
+D3
+You see nothing special.
+~
+~
+0 -1 5804
+D4
+You see nothing special.
+~
+~
+0 -1 5802
+D5
+You see nothing special.
+~
+~
+0 -1 5803
+S
+#5802
+Warden of Mind Cell~
+Nothing.
+~
+54 148 0
+D5
+You see nothing special.
+~
+~
+0 -1 5801
+S
+#5803
+Warden of Body Cell~
+Nothing.
+~
+54 148 0
+D4
+You see nothing special.
+~
+~
+0 -1 5801
+S
+#5804
+Cell of Udaphos~
+Nothing.
+~
+54 4 0
+D1
+You see nothing special.
+~
+~
+0 -1 5801
+D3
+You see nothing special.
+~
+~
+0 -1 5807
+S
+#5805
+&14A&00&06q&00&07u&14a&00&07t&00&06o&14n &15C&16i&00&07t&15y&16: &15Guest Lodge Entrance&00~
+   &00&06This room is made out of mainly a white colored steel, with a blue
+carpet placed on the floor.  The carpet looks to be of a water resistant
+material, and always manages to stay dry.  A neon gretting sign has been placed
+on the west wall, with a blue arrow indicating to go north to the Guest Lodge.
+&00
+~
+54 4 0
+S
+#5806
+&14A&00&06q&00&07u&14a&00&07t&00&06o&14n &15C&16i&00&07t&15y&16: &15Tidal Street&00~
+   &00&06This street appears to have been carved through ocean bedrock, and
+it's walls and ceiling reflect this fact.  It's street flooring is made out of
+a metal grating, with cool humid air blowing up from the holes in the grating.
+Bright white lights have been built into the rock walls, completly illuminating
+the street.  &00
+~
+54 0 0
+S
+#5807
+&00&04R&06e&12i&00&06g&00&04n&01's&00 &02Ma&10n&00&02or&00 &03H&00&02o&11u&00&02s&03e&00~
+   &15This is the main hall of the manor.  The doors to the outside are made of
+a solid, varnished oak, re-enforced on the inside with heavy, studded steel
+bands.  The floor is made of marble, and the walls are paneled with an unknown
+kind of wood.  There are three doors leading off the Hall, and a staircase
+leading down.  A large onyx fountain sits in the center of hall, drawing the
+eye with its contrast.  &00
+~
+54 76308 0
+D0
+You see nothing special.
+~
+~
+0 -1 1323
+D1
+You see nothing special.
+~
+~
+0 -1 5809
+D2
+You see nothing special.
+~
+~
+0 -1 5808
+D3
+You see nothing special.
+~
+~
+0 -1 5810
+D5
+You see nothing special.
+~
+~
+0 -1 5811
+S
+#5808
+&00&04R&06e&12i&00&06g&00&04n&01's&00 &01B&15e&00&01d&16r&00&01o&15o&00&01m&00~
+   &02A thick black carpet covers the floor here, and the walls glow in the
+black light emanating from the fixture.  A large four poster bed sits against a
+wall, and a writing desk against another.  A closet is inset into the third
+wall, and the last is host to a massive bookshelf.  Several of the books lie
+about on the floor, scattered or stacked near a large squashy armchair near a
+real lamp.  &00
+~
+54 65552 0
+D0
+You see nothing special.
+~
+~
+0 -1 5807
+S
+#5809
+&15T&00e&16mp&00l&15e&00 &01of&00 &10L&00&02ili&10a&00 &09& &16I&15o&00v&15a&16n&00~
+   &00The light is muted, subdued in this room.  It filters in from four
+windows, each facing a direction of the compass.  The floor is made f more of
+the unknown wood, and the walls are made of marble.  Two large statues stand at
+the far end of the room.  One is of Lilia, dressed in a flowing dress, the
+other of Iovan, in a shirt and pants.  They are holding hands, and a series of
+cunningly placed lights make them seem to glow.  There are no chairs, benches
+or surfaces to sit on, save for the floor.  &00
+~
+54 65552 0
+D3
+You see nothing special.
+~
+~
+0 -1 5807
+S
+#5810
+&12S&15i&00t&14t&00i&15n&12g&00 &16R&00&01o&15o&00&01m&00~
+   &12This is Reigns sitting room.  It serves also as his library, as indicated
+by the four massive book shelves that line the room.  A soft blue carpet is
+underfoot, and several squashy armchairs are scattered at random throughout the
+room.  A writing desk is angled in a corner, and several small coffee tables
+are placed at random.  A fireplace is set into the west wall.  &00
+~
+54 65552 0
+D1
+You see nothing special.
+~
+~
+0 -1 5807
+S
+#5811
+&15T&16r&00&01a&09in&00&01i&15n&16g &00&02H&06a&00&14l&00&02l&00~
+   &01This is Reigns basement.  It is essentially a long, wide room, in which
+he trains day by day.  The walls, though made of a near indestructible
+material, show evidence of an edge weapon slicing cleanly through them.  A
+holo-projector in the room is currently off-line.  Racks of weapons stand to
+the side, as well as several racks of weighted clothes.  &00
+~
+54 2162704 0
+D4
+You see nothing special.
+~
+~
+0 -1 5807
+S
+#5812
+&01Tapions&00 &16Dojo&00 &01Entrance:&00~
+   &02As you enter the Dojo you notice the obvious oriental style of the room.
+You stand in a small decline where shoes are meant to be placed, the rest of
+the room is raised slightly.  Oriental Weapon are displayed along the walls,
+and the walls look to be made of paper.  &00
+~
+54 10756 0
+D0
+You see nothing special.
+~
+~
+0 -1 703
+D2
+You see nothing special.
+~
+~
+0 -1 5813
+S
+#5813
+&04Meditation Room:&00~
+   &06There a large soft matt on the floor with pillows scattered in a circular
+pattern around a small table with incense burning in the middle.  The room has
+a very peaceful and tranquil feeling.  This room also has a Mural of Lillia the
+Goddess that gave Tapion the Muramasa.  &00
+~
+54 65536 0
+D0
+You see nothing special.
+~
+~
+0 -1 5812
+D1
+You see nothing special.
+~
+~
+0 -1 5814
+D2
+You see nothing special.
+~
+~
+0 -1 5816
+D3
+You see nothing special.
+~
+~
+0 -1 5815
+S
+#5814
+&01Tapions&00 &16Be&00&01dr&00&16oo&00&01m:&00~
+   &01This is the smallest room in the house, the bedding on the floor is very
+oriental in nature, with a small foot chest to the side of the room, there a
+sword stand with Japanese Kanji written on it.  &00
+~
+54 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 5813
+S
+#5815
+&02Training Room:&00~
+   &02When you enter the room you notice the sparring mat in the center of the
+room, and the Kendo Stick racks to the left side of the circle.  There is
+another Mural of Lillia in this room as well different than the one in the
+Meditation Room.  Sword decorate the walls in the southern wall.  &00
+~
+54 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5813
+S
+#5816
+&12Backyard:&00~
+   &06As you enter the backyard the smell of flowers fill your nose.  The small
+path leads to a gazebo with a small waterfall in the back.  Roses, vine up the
+gazebo and come to a strange Kanji in the center of overhang.  &00
+~
+54 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5813
+S
+#5817
+&10T&00&02y&10r&00&07a&00&02n&15'&10s &16H&15o&00&07u&16s&15e&00~
+   &15As you enter the house you see a large kitchen to your left, through the
+open door to your right you notice an equally large Living room.  Straight
+ahead against the back wall lies a single wooden door, which leads to a
+bedroom.  &00
+~
+54 2564 0
+D0
+You see nothing special.
+~
+~
+0 -1 5819
+D1
+You see nothing special.
+~
+~
+0 -1 5820
+D2
+You see nothing special.
+~
+~
+0 -1 1350
+D3
+You see nothing special.
+~
+~
+0 -1 5818
+D4
+You see nothing special.
+~
+~
+0 -1 5821
+S
+#5818
+&09K&00&01i&15t&09c&16h&00&01e&16n&00~
+   &09As you step through the door you detect the smell of burning toast, which
+was left in the toaster, beside it the fridge and a small shelf holding the
+microwave are present.  A table sits in the middle of the room and two chairs,
+each one taking an end of the table.  &00
+~
+54 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5817
+S
+#5819
+&12B&00&04e&15d&00&07r&12oo&00&04m~
+   &12This is obviously a bedroom seeing there is a bed with a storage box
+sitting near the bottom of it.  A small desk covered with various papers sits
+in the corner, seemingly undisturbed for quite some time.  The floor is
+carpeted nicely and blinds cover the windows.  &00
+~
+54 8192 0
+D2
+You see nothing special.
+~
+~
+0 -1 5817
+S
+#5820
+&16L&00&07i&15v&16i&00&07n&16g &16R&15oo&00&07m&00~
+   &15The TV is blaring and beer cans are spread all around the place.  Old
+pizza boxes also layer the floor as the TV remote is resting on the table.  
+There are bookshelves with a surprising number of books stretched along the
+walls.  A door leading to the training room rests against the west wall.  &00
+~
+54 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5821
+D3
+You see nothing special.
+~
+~
+0 -1 5817
+S
+#5821
+&15T&00&06r&00&07a&15i&00&06n&14i&16n&00&06g &16R&00&06o&14o&00&07m&00~
+   &14A gravity machine rests in the corner humming softly, set at 400x
+gravity.  The sand bag in the far corner has severe burn marks on it and it
+appears to only be held together by duct tape.  Leg and arm weights rest on a
+shelf in another corner of the room.  A weapon rack sits underneath a small
+window against the east wall.  Leaning against the rack are two wooden training
+swords.  &00
+~
+54 2097152 0
+D2
+You see nothing special.
+~
+~
+0 -1 5820
+D5
+You see nothing special.
+~
+~
+0 -1 5817
+S
+#5822
+&16Castle of the &11S&00&03a&11i&00&03y&11a&00&03n &00&01E&09m&16p&15i&09r&00&01e&00~
+&16This is a large entry hall with doors branching off in many directions.  In the corners are large statues of the leaders and founders of the &00&01E&09m&16p&15i&09r&00&01e&16.  In the northern corner stands a statue of King Vegeta striking down a truffle.  In the southern corner a statue of Raditz standing with his Elites behind him ready to assassinate entire worlds if need be.  A statue of Goku sits in the eastern corner showing him firing a massive beam attack into a large ship.&00
+~
+54 68 0
+D0
+You see nothing special.
+~
+~
+0 -1 5823
+D2
+You see nothing special.
+~
+Gate~
+2 5822 5822
+S
+#5823
+&16Hall of &00&04H&12e&16r&15o&00&04s&00~
+&16In the center of this room is a large table. The table is black with five seats surrounding it. On the walls are holograms of past valiant warriors who have died for the &00&01E&09m&16p&15i&09r&00&01e&16, their deeds forever immortalized in the &16Hall of &00&04H&12e&16r&15o&00&04s&16.&00
+~
+54 64 0
+D0
+You see nothing special.
+~
+~
+0 -1 5826
+D1
+You see nothing special.
+~
+~
+0 -1 5825
+D2
+You see nothing special.
+~
+~
+0 -1 5822
+D3
+You see nothing special.
+~
+~
+0 -1 5824
+E
+table~
+   &00This tabel has a beautiful &16onyx&15 gloss&00 and is very smooth to the
+touch.  A large insignia of the Empire is graven in the center.    
+~
+S
+#5824
+&16Castle &00&01A&09r&16m&15o&09r&00&01y&00~
+&16The left wall of this room is lined with stands holding up Classic Style &11S&00&03a&11i&00&03y&11a&00&03n &15Armor&16. Mounted on the walls are various weapons encased in glass. Along the back wall is a huge row of lockers with names on each one. On the left and right walls of the room there are large crates most empty that hold the newest Armor and Weaponry though most of the &00&01E&09m&16p&15i&09r&00&01e&16 dosen't even use weapons.
+~
+54 208 0
+D1
+You see nothing special.
+~
+~
+0 -1 5823
+S
+#5825
+&11S&00&03a&11i&00&03y&11a&00&03n &00&01E&09m&16p&15i&09r&00&01e&16 Training Grounds&00~
+&16This is a very large room. The walls are plated in a special metal designed to absord ki incase of stray blast. The entire room smells of sweat and blood from the warriors who have trained here.One side of the room is lined with punching bags wile the other side is equipt with weights ranging from forty pounds to forty tons. The center of the room is a large sparring mat it holds the most blood and is infact so tinted red it appears almost it natural color.
+~
+54 18874432 0
+D3
+You see nothing special.
+~
+~
+0 -1 5823
+D5
+You see nothing special.
+~
+~
+0 -1 5825
+S
+#5826
+&00&04M&12e&00&06d&14i&00&06c&12a&00&04l &16Facility&00~
+&16This room is lined with &00&04R&12e&00&06g&14e&15n&16e&00&07r&15a&14t&00&06i&12o&00&04n&16 Tanks with only two operating tables in the center and several other out dated mechinal healing devices. A Large fountin sits aginsed the back wall of the room giving the room a plesent aura due to the soft sound of running water.
+~
+54 268501184 0
+D2
+You see nothing special.
+~
+~
+0 -1 5823
+S
+#5827
+&00&01F&09i&00&01r&09e&16-&00&01B&09r&00&01i&09n&00&01g&09e&00&01r&00 &02E&10n&00&03t&11ra&00&03n&10c&00&02e&00 &02Y&10a&00r&11d&00~
+   &09This yard, the only way in or out of the Clan Hall, is massive, covering
+at least two acres.  There are large fenced in areas, used for training and
+practice, scattered over the yards, as well as target ranges.  Benches are
+spread out across large jogging paths, some of which span man-made rivers, or
+move around the edge of a large man-made lake.  A large path, wide enough for a
+truck, leads south towards a large stone building.  &00
+~
+54 4 0
+D0
+You see nothing special.
+~
+Door~
+2 5827 705
+D2
+You see nothing special.
+~
+~
+0 -1 5828
+S
+#5828
+&00&01F&09i&00&01r&09e&16-&00&01B&09r&00&01i&09n&00&01g&09e&00&01r&00 &01C&02e&03n&00t&00&03r&00&02a&00&01l&00 &01C&02o&03m&00p&00&03l&00&02e&00&01x&00~
+   &00&05This building is the control center of the Fire-Bringer Clan.  It
+houses the offices of the three top-ranked commanders, as well as holding
+kitchens, meal halls, and even some barracks for the members.  The floor is
+made of a solid hard-wood, and the walls are paneled in oak.  The vaulted roof
+houses several chandeliers, which throw their soft light onto the hall.  &00
+~
+54 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5827
+D1
+You see nothing special.
+~
+~
+0 -1 5830
+D2
+You see nothing special.
+~
+~
+0 -1 5829
+D3
+You see nothing special.
+~
+~
+0 -1 5831
+S
+#5829
+&00&01F&09l&16a&09m&00&01e &00&15Ch&16a&00mp&16i&15on&00 &06M&14a&00s&14t&00&06e&00r&06'&14s &15O&00&14f&16f&00&14i&15c&00&14e&00~
+   &00&01This room is a very oriental style office, with a small desk and a
+soft cushion to sit on.  Behind the desk, engraved into the wall, is a large
+fire kanji.  The walls are decorated with Katanas, Bi-Katanas, and Nodochi.  
+There is a small table on the east wall with a picture of Tapion and his
+family.  &00
+~
+54 0 0
+D0
+You see nothing special.
+~
+~
+0 -1 5828
+S
+#5830
+&00&06R&12e&14i&00&12g&00&06n&16s&00 &15O&00&12f&16f&00&12i&15c&00&12e&00~
+   &00&12Markedly different from the rest of the building, this room is painted
+with a vibrant blue color, and the floor is hardwood.  An imposing mahogany
+desk is planted near the far wall, facing the door, and a large high-backed
+black chair rests behind it.  A computer sits on the desk, its screen blank.  
+Several more chairs are sitting to the side in case needed.  &00
+~
+54 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 5828
+S
+#5831
+&00&02T&04y&12r&00&04a&00&02n&16s&00 &15O&00&11f&16f&00&11i&15c&00&11e&00~
+   &00&06The room seems to glow faintly as you enter.  Training swords line the
+walls and a large oak desk covered in papers sits in the middle.  Two very
+comfortable looking chairs sit in front of the desk.  A larger and comfortable
+looking chair sits behind the desk.  The walls that can be seen between the
+swords is a deep blue, almost black.  The floor is composed of hard wood and a
+water cooler sits in the corner humming softly.  On the engraved into the
+surface of the desk are the words Warrior of Light.  &00
+~
+54 0 0
+D1
+You see nothing special.
+~
+~
+0 -1 5828
+S
+#5832
+&00&16S&15h&00&16a&15d&00&16o&15w &00&16C&00o&00&16l&00i&00&16s&00e&00&16u&00m &00&05C&15a&00&05s&15t&00&05l&15e&00~
+   &00&06The Clan seem a bit old nothing more here then a large fountain cover
+in White 2% milk.  On the East side you can see where Shadow Coliseum arena and
+to the west HoloRoom of Dreams.  But you can't enter seen on how its a window
+and nothing more.  Going north you can find the enterance to the Hallway is at.
+  
+~
+54 4 0
+D0
+You see nothing special.
+~
+~
+0 -1 5833
+D2
+You see nothing special.
+~
+Door~
+2 5832 7424
+S
+#5833
+&00&16H&15a&00&16l&15l&00&16w&15a&00&16y&00'&00&16s~
+   &00&06Large Pictures of Great Warriors Hang here Line goes down you put
+canteen in backpack read them all off as you walk up and down the hallway.  
+Starting with King Vegetaou, Buu, Shaayla, Goku,Raditz,Cell,Cogida,
+~
+54 131072 0
+D0
+You see nothing special.
+~
+~
+0 -1 5836
+D1
+You see nothing special.
+~
+~
+0 -1 5835
+D2
+You see nothing special.
+~
+~
+0 -1 5832
+D3
+You see nothing special.
+~
+~
+0 -1 5834
+S
+#5834
+&00&04H&12o&00&04l&12o&00&04R&12o&00&04o&12m &10o&00&02f &00&04D&12r&00&04e&12a&00&04m&12s&00~
+   &00&06Artificial room made up of a fake sunset over a forest of trees
+running rivers going out of it into a lake make it the most breath taking
+hologram ever.    
+~
+54 262144 0
+D1
+You see nothing special.
+~
+~
+0 -1 5833
+S
+T 5832
+T 5833
+#5835
+&00&16S&15h&00&16a&15d&00&16o&15w &00&16C&00o&00&16l&00i&00&16s&00e&00&16u&00m &00&01A&09r&00&01e&09n&00&01a~
+   &00&06Statue's of Great Warriors stand here Line goes round you can read
+them all off as you walk round the arena.  Starting with King Vegeta, Prince
+Vegeta, Bardock, Prince Trunks,Gohan,Goku,Goten,Turlis,Buu Raditz, and Cell
+~
+54 0 0
+D3
+You see nothing special.
+~
+~
+0 -1 5833
+S
+#5836
+&14H&00&06e&14a&00&06l&14i&00&06n&14g &00&16C&15h&00&16a&15m&00&16b&15e&00&16r&00~
+   &00&06Large tanks run long the room there is sixteen chambers one for each
+race there marked with each races name on it.    
+~
+54 268500992 0
+D2
+You see nothing special.
+~
+~
+0 -1 5833
+S
+#5837
+&00&01D&09e&00&01n&00&16 of &16S&15ha&00d&15ow&16s&00~
+&16The room is covered in &00&04Da&12r&15k&16n&12e&00&04ss&00&16 and the only light comes from one black &00&01f&09l&00&01a&09m&00&01e&16 in the center. This is the hall of the &16S&15ha&00d&15ow&16s &12H&00&04u&16n&15t&16e&00&04r&12s&16, they walk both in the light and in the &00&04da&12r&15k&16n&12e&00&04ss&16 , do anything for a price. A small chair is barely made out in the &00&04da&12r&15k&16n&12e&00&04ss&16, as well as three doors to other rooms in the hall and a black &15d&14i&15a&14m&15o&14n&15d&16 Chandelier that hovers about the &00&01f&09l&00&01a&09m&00&01e&16&00
+~
+54 64 0
+D0
+You see nothing special.
+~
+~
+0 -1 5839
+D1
+You see nothing special.
+~
+~
+0 -1 5838
+D2
+You see nothing special.
+~
+~
+0 -1 4299
+D3
+You see nothing special.
+~
+~
+0 -1 5840
+D5
+You see nothing special.
+~
+~
+0 -1 5841
+S
+#5838
+&12H&00&04u&16n&15t&16i&00&04n&12g &15L&16o&15u&16n&15g&16e&00~
+&16There are chairs spread out in the room and a refrigerator against the wall. This is where the &16S&15ha&00d&15ow&16s &12H&00&04u&16n&15t&16e&00&04r&12s&16 come to relax before a mission. There is a board on the back wall with requested jobs and people who have been assigned to do them.&00
+~
+54 268500992 0
+D3
+You see nothing special.
+~
+~
+0 -1 5837
+S
+#5839
+&16S&15i&16l&15v&16e&15r&16&15s&00 &00&06W&16o&00&06r&16k&00&06s&16h&00&06o&16p&00~
+&16This is where &16S&15i&16l&15v&16e&15r&16 stays when he is not out on a mission. There is a forge in the back of the room &16S&15i&16l&15v&16e&15r&16 uses to make his weapons. There are spare mechanical parts lying around and the small bed next to the door looks like it hasnt been used in ages.&00
+~
+54 0 0
+D2
+You see nothing special.
+~
+~
+0 -1 5837
+S
+#5840
+&16S&15h&00ad&15o&16w  &15G&00r&15o&00u&15n&00d&15s&00~
+&16This is where the &12H&00&04u&16n&15t&16e&00&04r&12s&16 train. The ground is covered in craters and blood stains can be seen on the ground. There is very little light to see by, so one must rely on there other senses. It is well known that &16S&15i&16l&15v&16e&15r&16 first went S&15h&16ad&15o&00w&16 in this room, and he constantly trains with the other hunters here, pushing their limits.&00
+~
+54 18874368 0
+D1
+You see nothing special.
+~
+~
+0 -1 5837
+D5
+You see nothing special.
+~
+~
+0 -1 5840
+S
+#5841
+&15S&14u&00&06pp&14l&15y&00 &16R&15oo&16m&00~
+&16This room is full of weapons and armor for the &16S&15ha&00d&15ow&16s &12H&00&04u&16n&15t&16e&00&04r&12s&16. &16S&15i&16l&15v&16e&15r&16 has personally made and designed some of these, including the hunters insignia, a 00&01B&09u&00&01r&09n&00&01i&09n&00&01g&00 &16b&00l&16a&00c&16k &00&04P&12h&00&06o&14e&00&06n&12i&00&04x&16. A hunter who was crippled in battle stands here selling equipment to the hunters, helping save up funds for other clan projects.&00
+~
+54 148 0
+D4
+You see nothing special.
+~
+~
+0 -1 5837
+S
+#5842
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5843
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5844
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5845
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5846
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5847
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5848
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5849
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5850
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5851
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5852
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5853
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5854
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5855
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5856
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5857
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5858
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5859
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5860
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5861
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5862
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5863
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5864
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5865
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5866
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5867
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5868
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5869
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5870
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5871
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5872
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5873
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5874
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5875
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5876
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5877
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5878
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5879
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5880
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5881
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5882
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5883
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5884
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5885
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5886
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5887
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5888
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5889
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5890
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5891
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5892
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5893
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5894
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5895
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5896
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5897
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+#5898
+under construction~
+You are in an unfinished room.
+~
+54 0 0
+S
+$~

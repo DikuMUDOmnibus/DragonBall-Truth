@@ -1,0 +1,353 @@
+#8300
+Carrion Vulture~
+&16C&00&03a&00&02r&00&01r&00&05i&16o&00&03n &16V&00&03u&15l&16t&00&03u&15r&00&03e&00~
+&16C&00&03a&00&02r&00&01r&00&05i&16o&00&03n &16V&00&03u&15l&16t&00&03u&15r&00&03e&00 is flying here, looking for rotting carcasses.
+~
+You see nothing special.
+~
+8 0 -1 E
+100 -20 0 1d1+100000 1d1+5000
+500 1000000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8301
+Horned Lizard~
+&16H&00o&15r&16n&00e&15d &00&02L&10i&15z&00&02a&10r&15d&00~
+&16H&00o&15r&16n&00e&15d &00&02L&10i&15z&00&02a&10r&15d&00 is laying here, hunting for insects.
+~
+It looks unfinished.
+~
+8 0 0 E
+100 -40 0 1d1+100000 1d1+5000
+500 1000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8302
+Desert Coyote~
+&11D&00&03e&16s&11e&00&03r&16t &15C&00&03o&16y&15o&00&03t&16e&00~
+&11D&00&03e&16s&11e&00&03r&16t &15C&00&03o&16y&15o&00&03t&16e&00 is walking around, sniffing out its prey.
+~
+It looks unfinished.
+~
+8 0 0 E
+100 -40 0 1d1+100000 1d1+5000
+500 1000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8361
+Fallen Saiyan Zombie~
+&00&01F&16a&00&03ll&16e&00&01n &11S&00&03a&11i&00&03y&11a&00&03n &10Z&00&02o&16mb&00&02i&10e&00~
+&00&01F&16a&00&03ll&16e&00&01n &11S&00&03a&11i&00&03y&11a&00&03n &10Z&00&02o&16mb&00&02i&10e&00 is here, pulling itself from the desert sand.
+~
+It looks unfinished.
+~
+8 0 0 E
+50000 -70 0 1d1+10000000 1d1+75000
+900 8000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8362
+Fallen Truffle Zombie~
+&00&01F&16a&00&03ll&16e&00&01n &12T&14r&00&06u&00&04f&00&06f&14l&12e &10Z&00&02o&16mb&00&02i&10e&00~
+&00&01F&16a&00&03ll&16e&00&01n &12T&14r&00&06u&00&04f&00&06f&14l&12e &10Z&00&02o&16mb&00&02i&10e&00 is staggering here, looking for fresh meat.
+~
+It looks unfinished.
+~
+8 0 0 E
+50000 -70 0 1d1+10000000 1d1+75000
+900 8000000
+8 8 0
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8363
+Fallen Mutant Zombie~
+&00&01F&16a&00&03ll&16e&00&01n M&00&05u&16ta&00&05n&00&01t &10Z&00&02o&16mb&00&02i&10e&00~
+&00&01F&16a&00&03ll&16e&00&01n M&00&05u&16ta&00&05n&00&01t &10Z&00&02o&16mb&00&02i&10e&00 is floating here, its head hanging on by a flap of skin.
+~
+It looks unfinished.
+~
+8 0 0 E
+50000 -70 0 1d1+10000000 1d1+75000
+900 8000000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8364
+Tochibana the Necromancer~
+&09T&16o&00&01c&09h&15i&09b&00&01a&16n&09a&16 the &16N&00&01e&09c&15r&00o&16m&00&01a&09n&15c&00e&16r&00~
+&09T&16o&00&01c&09h&15i&09b&00&01a&16n&09a&16 the &16N&00&01e&09c&15r&00o&16m&00&01a&09n&15c&00e&16r&00 is standing here, resurrecting fallen warriors to do his bidding.
+~
+It looks unfinished.
+~
+188426 0 0 E
+100000 -80 0 1d1+40000000 1d1+150000
+2000 35000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8365
+Aeon Saiyan~
+&14A&15e&00o&00&06n &11S&00&03a&11i&00&03y&11a&00&03n&00~
+&14A&15e&00o&00&06n &11S&00&03a&11i&00&03y&11a&00&03n&00 is standing here, blazing with a white aura.
+~
+   &15With ivory white hair and golden eyes, this saiyan is well toned and
+muscular.  It is surrounded by a blazing white aura, flame like in is
+appearance.  &00
+~
+10 0 0 E
+150000 -60 0 1d1+65000000 1d1+250000
+5000 65000000
+8 8 1
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8366
+Kai Praetor~
+&12K&14a&00&06i &00&03P&11r&15a&00e&00&06t&14o&15r&00~
+&12K&14a&00&06i &00&03P&11r&15a&00e&00&06t&14o&15r&00 is sitting here, meditating.
+~
+It looks unfinished.
+~
+10 0 0 E
+200000 -60 0 1d1+50000000 1d1+210000
+5000 45000000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8367
+Ancient Oozaru~
+&00A&06n&14c&15i&14e&00&06n&00t &03O&00&01o&16z&00&03a&00&01r&16u&00~
+&00A&06n&14c&15i&14e&00&06n&00t &03O&00&01o&16z&00&03a&00&01r&16u&00 is stomping here, trying to get free of its chain prison.
+~
+It looks unfinished.
+~
+10 0 0 E
+175000 -60 0 1d1+65000000 1d1+250000
+5000 65000000
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8368
+Undead Saiyan Warrior~
+&00&03U&00&02n&10d&00&03e&00&02a&10d &11S&00&03a&11i&00&03y&11a&00&03n &00&05W&16a&13r&00&05r&16i&13o&00&05r&00~
+&00&03U&00&02n&10d&00&03e&00&02a&10d &11S&00&03a&11i&00&03y&11a&00&03n &00&05W&16a&13r&00&05r&16i&13o&00&05r&00 is standing here, shuffling about.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -60 0 1d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8369
+Undead Saiyan Warrior~
+&00&03U&00&02n&10d&00&03e&00&02a&10d &14I&00&06c&15e&00r&14i&00&06a&15n &00&06W&16a&14r&00&06r&16i&14o&00&06r&00~
+&00&03U&00&02n&10d&00&03e&00&02a&10d &14I&00&06c&15e&00r&14i&00&06a&15n &00&06W&16a&14r&00&06r&16i&14o&00&06r&00 is hovering here, its dead eyes staring into nothingness.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -60 0 1d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8370
+Undead Saiyan Warrior~
+&00&03U&00&02n&10d&00&03e&00&02a&10d &11S&00&03a&11i&00&03y&11a&00&03n &00&06W&16a&14r&00&06r&16i&14o&00&06r&00~
+&00&03U&00&02n&10d&00&03e&00&02a&10d &11S&00&03a&11i&00&03y&11a&00&03n &00&06W&16a&14r&00&06r&16i&14o&00&06r&00 is standing here, digging its fingers into the burnt earth.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 -60 0 1d1+20000000 1d1+125000
+1200 15000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8371
+Majicer~
+&00M&15a&00&05j&13i&00&05c&15e&00r~
+&00M&15a&00&05j&13i&00&05c&15e&00r is standing here, getting used to its new form.
+~
+It looks unfinished.
+~
+58 8 0 E
+0 -60 0 1d1+75000000 1d1+300000
+7500 75000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8372
+Super Namek~
+&10S&00&02u&16p&10e&00&02r N&00&03a&00&06m&00&03e&00&02k&00~
+&10S&00&02u&16p&10e&00&02r N&00&03a&00&06m&00&03e&00&02k&00 is standing here, testing out its new abilities.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+75000000 1d1+300000
+7500 75000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8373
+Transcended Kansassan~
+&14T&00&06r&16a&15n&00s&14c&00&06e&16n&15d&00e&14d &12K&00&04a&00&06n&14as&00&06s&00&04a&12n&00~
+&14T&00&06r&16a&15n&00s&14c&00&06e&16n&15d&00e&14d &12K&00&04a&00&06n&14as&00&06s&00&04a&12n&00 is hovering here, testing its new powers.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -60 0 1d1+75000000 1d1+300000
+7500 75000000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8374
+Dimension Guardian~
+&12D&00&04i&16m&15e&00n&15s&16i&00&04o&12n &11G&00&03u&16a&11r&00&03d&16i&11a&00&03n&00~
+&12D&00&04i&16m&15e&00n&15s&16i&00&04o&12n &11G&00&03u&16a&11r&00&03d&16i&11a&00&03n&00 is hovering here, its body glowing with a black aura.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 -80 0 1d1+250000000 1d1+250000
+6000 80000000
+8 8 0
+BareHandAttack: 10
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8543
+Tyrus~
+&00&04T&12y&16r&15u&00s~
+&00&04T&12y&16r&15u&00s is standing here, gripping a pair of tonfa's.
+~
+It looks unfinished.
+~
+253962 0 0 E
+999999 20 0 1d1+1000000000 1d1+500000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5842
+#8899
+Crazy Horse~
+&09C&15r&16a&00&01z&16y &16H&15o&09rs&16e&00~
+&09C&15r&16a&00&01z&16y &16H&15o&09rs&16e &00is running around and kicking its legs up in the air here&00
+~
+   &00Such a beautiful but crazy horse is running around here, driven mad from
+the hot sun.  &00
+~
+8 0 0 E
+0 -20 0 1d1+5000 1d1+500
+175 175000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8901
+Male Farmer~
+&12Male &11Farmer&00~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#8902
+Male Farmer~
+&12Male &11Farmer&00~
+&12Male &11Farmer &00is standing here chewing a piece of hay and waiting to take your order.&00
+~
+   This is a short stocky Farmer, sweating hard in his fields.    
+~
+10 0 0 E
+0 -20 0 0d0+100000000 0d0+500
+5000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

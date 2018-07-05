@@ -1,0 +1,87 @@
+#16000
+Claire~
+&12Claire&00~
+&12Claire &15the shopkeep, stands here reading a magazine.&00
+~
+   &15She has been running this shop for over a decade, outfiting starting
+kanassans with the equipment they need to succeed.  &00
+~
+10 0 0 E
+100000 -60 0 0d0+1000000000 0d0+500000
+500000000 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16001
+Stik~
+&00&07S&15t&16i&15k&00~
+&00&07S&15t&16i&15k &15is chopping up some squid here.&00
+~
+   &15This kanassan has been cooking for years, ever since he left the kanassan
+defense forces.  A large scar crosses where his right eye used to be....  &00
+~
+10 0 0 E
+100000 -60 0 0d0+1000000000 0d0+500000
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16000
+#16002
+Vance~
+&11Vance&00~
+&11Vance &15the supply guru, stands here with a frown.&00
+~
+   &15This kanassan has all the supplies a new kanassan could need to get
+started.  &00
+~
+10 0 0 E
+100000 -60 0 0d0+1000000000 0d0+500000
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16003
+Scab~
+&00&06Scab&00~
+&00&06Scab &15is standing here.&00
+~
+   &15This seedy looking kanassan is hard at work here....  Watching his pawned
+goods collect dust.  &00
+~
+10 0 0 E
+100000 -60 0 0d0+1000000000 0d0+500000
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16004
+Trained Shark~
+&16T&15r&00&07a&16i&00&07n&15e&16d &00&06Shark&00~
+&15A &16T&15r&00&07a&16i&00&07n&15e&16d &00&06Shark &15is swimming here.&00
+~
+   &15This shark was trained to make a good practice target for new kanassans.
+&00
+~
+10 0 0 E
+10000 0 0 0d0+25000 0d0+250
+100 30000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

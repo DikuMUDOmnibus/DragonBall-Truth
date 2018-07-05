@@ -1,0 +1,513 @@
+#3800
+Batty~
+&16B&15a&16tt&15y&00~
+&15A &16B&15a&16tt&15y &15robot is hanging from the ceiling here.&00
+~
+   &15This robot turns into a hard ball when hanging from ceilings.  It only
+opens up when an enemy is close enough for it to bite.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+4000000 0d0+50000
+700 3500000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3801
+Dr. Light~
+&16D&15r&00&07. &11L&00&03i&11g&00&07ht&00~
+&16D&15r&00&07. &11L&00&03i&11g&00&07ht &15is leaning against a wall here, breathing hard.&00
+~
+   &15He doesn't look like he is in very good shape, he has an injury on his
+right arm.  &00
+~
+10 0 0 E
+999999 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3800
+T 3811
+#3802
+Servbot~
+&16S&00&06e&14r&00&07v&14b&00&06o&16t&00~
+&15A &16S&00&06e&14r&00&07v&14b&00&06o&16t &15is carrying some parts here.&00
+~
+   &15This is the lowliest of the worker robots, doing the simpliest tasks for
+Dr.  Wily.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+5000000 0d0+50000
+725 4200000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3803
+Blasterbot~
+&00&07B&14l&00&06a&16ste&00&06rb&14o&00&07t&00~
+&15A &00&07B&14l&00&06a&16ste&00&06rb&14o&00&07t &15is standing guard here.&00
+~
+   &15This robot has an armcannon, as well as a shield on the other arm.  It's
+AI isn't very good, but it is able to defend pretty well.  &00
+~
+10 0 0 E
+300000 -60 0 0d0+8000000 0d0+70000
+860 6800000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3804
+Rambot~
+&16R&00&05a&15mb&00&05o&16t&00~
+&15A &16R&00&05a&15mb&00&05o&16t &15is charging around a set course here.&00
+~
+   &15This robot has no AI, it is preprogrammed to defend a certain path in an
+area, ramming into anything that gets in it's way.  &00
+~
+10 0 0 E
+400000 -60 0 0d0+7500000 0d0+70000
+750 7000000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3805
+Shieldbot~
+&12S&00&04h&16i&00&04e&12l&00&04d&00&16b&00&04o&12t&00~
+&15A &12S&00&04h&16i&00&04e&12l&00&04d&00&16b&00&04o&12t &15is sitting here.&00
+~
+   &15This robot sets its self up in a place that needs defending, and when
+it's shield is struck, fires a blast out at the target.  &00
+~
+10 0 0 E
+500000 -60 0 0d0+10000000 0d0+70000
+900 8000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3806
+Henchbot~
+&16H&15e&00&07n&15c&16h&00&07b&15o&16t&00~
+&15A &16H&15e&00&07n&15c&16h&00&07b&15o&16t &15is standing guard here.&00
+~
+   &15This robot is a generic fighter robot, it has an arm cannon, and basic
+AI.  &00
+~
+10 0 0 E
+510000 -60 0 0d0+12000000 0d0+100000
+925 8750000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3807
+Gravbot~
+&00&05G&00&01r&09a&16v&09b&00&01o&00&05t&00~
+&15A &00&05G&00&01r&09a&16v&09b&00&01o&00&05t &15is standing here.&00
+~
+   &15This robot has gravity drives that allow it to move at great speeds, and
+reduce the speed of opponents.  &00
+~
+10 0 0 E
+600000 -60 0 0d0+15000000 0d0+125000
+1000 10000000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3808
+Flamebot~
+&16F&00&01l&09a&11me&09b&00&01o&16t&00~
+&15A &16F&00&01l&09a&11me&09b&00&01o&16t &15is spewing flames here.&00
+~
+   &15This robot has a flamethrower arm that is capable of melting durable
+metals.  &00
+~
+10 0 0 E
+700000 -60 0 0d0+18000000 0d0+125000
+1150 14000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3809
+Tyranabot~
+&10T&00&02y&16r&10a&00&02n&16a&10b&00&02o&16t&00~
+&15A &10T&00&02y&16r&10a&00&02n&16a&10b&00&02o&16t &15is stomping around here.&00
+~
+   &15This robot is designed like a giant tyranasaurus rex.  It is quite
+effective at destroying intruders.  &00
+~
+10 0 0 E
+700000 -60 0 0d0+20000000 0d0+125000
+1200 15000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3810
+Protobot~
+&09P&15r&16o&00&01to&16b&15o&09t&00~
+&15A &09P&15r&16o&00&01to&16b&15o&09t &15is standing guard here.&00
+~
+   &15This robot is a weaker copy of Protoman.  &00
+~
+10 0 0 E
+800000 -60 0 0d0+25000000 0d0+150000
+1500 20000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3811
+Sparkman~
+&16S&15p&00&07a&11rk&00&07m&15a&16n&00~
+&16S&15p&00&07a&11rk&00&07m&15a&16n &15is charging electricity here.&00
+~
+&15This robot is one of the 8 robot masters. It is in charge of this area of construction.&00
+~
+10 128 0 E
+500000 -60 0 0d0+100000000 0d0+250000
+20000 100000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3812
+Snakeman~
+&16S&00&02n&10a&00&06ke&10m&00&02a&16n&00~
+&16S&00&02n&10a&00&06ke&10m&00&02a&16n &15is standing here.&00
+~
+   &15This robot is one of the 8 robot masters.  It is in charge of this area
+of construction.  &00
+~
+10 128 0 E
+800000 -60 0 0d0+100000000 0d0+250000
+20000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3813
+Needleman~
+&16N&00&04e&12e&00&06d&14l&00&06e&12m&00&04a&16n&00~
+&16N&00&04e&12e&00&06d&14l&00&06e&12m&00&04a&16n &15is standing here, loading a needle into his cannon.&00
+~
+   &15This robot is one of the 8 robot masters.  It is in charge of this area
+of construction.  &00
+~
+10 128 0 E
+800000 -60 0 0d0+100000000 0d0+250000
+20000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3814
+Hardman~
+&16H&00&04a&12r&14d&12m&00&04a&16n&00~
+&16H&00&04a&12r&14d&12m&00&04a&16n &15is standing here.&00
+~
+   &15This robot is one of the 8 robot masters.  It is in charge of this area
+of construction.  &00
+~
+10 128 0 E
+800000 -60 0 0d0+100000000 0d0+250000
+20000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3815
+Topman~
+&09T&00&01o&16p&15m&00&07an&00~
+&09T&00&01o&16p&15m&00&07an &15is spinning here.&00
+~
+   &15This robot is one of the 8 robot masters.  It is in charge of this area
+of construction.  &00
+~
+10 128 0 E
+800000 -60 0 0d0+100000000 0d0+250000
+20000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3816
+Geminiman~
+&00&07G&14e&00&06m&16i&15n&16i&00&06m&14a&00&07n&00~
+&00&07G&14e&00&06m&16i&15n&16i&00&06m&14a&00&07n &15is in a dramatic pose here.&00
+~
+   &15This robot is one of the 8 robot masters.  It is in charge of this area
+of construction.  &00
+~
+10 128 0 E
+800000 -60 0 0d0+100000000 0d0+250000
+20000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3817
+Magnetman~
+&09M&00&01a&00&05g&16n&15e&16t&00&05m&00&01a&09n&00~
+&09M&00&01a&00&05g&16n&15e&16t&00&05m&00&01a&09n &15is charging his magnetic generator here.&00
+~
+   &15This robot is one of the 8 robot masters.  It is in charge of this area
+of construction.  &00
+~
+10 128 0 E
+800000 -60 0 0d0+100000000 0d0+250000
+20000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3818
+Shadowman~
+&00&07S&15h&16a&15d&00&07o&15w&16m&15a&00&07n&00~
+&00&07S&15h&16a&15d&00&07o&15w&16m&15a&00&07n &15is trying to hide here.&00
+~
+   &15This robot is one of the 8 robot masters.  It is in charge of this area
+of construction.  &00
+~
+10 130 0 E
+800000 -60 0 0d0+100000000 0d0+250000
+20000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3819
+Protoman~
+&09P&00&01r&15o&16to&15m&00&01a&09n&00~
+&09P&00&01r&15o&16to&15m&00&01a&09n &15is standing here with a grin.&00
+~
+   &15This is the only robot that comes close to Megaman's power.  He is quite
+capable of taking down enemies with his Protobuster armcannon.  &00
+~
+10 128 0 E
+950000 -60 0 0d0+250000000 0d0+500000
+50000 100000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3801
+T 3802
+#3820
+Wily's Ship~
+&11W&00&03il&11y&15's &16S&15h&00&07i&16p&00~
+&11W&00&03il&11y&15's &16S&15h&00&07i&16p &15is hovering here.&00
+~
+   &15This ship is rather large, and saucer shaped.  It seems to be an upgraded
+wily ship.  &00
+~
+10 0 0 E
+999999 18 0 0d0+300000000 0d0+500000
+75000 100000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3803
+T 3804
+T 3812
+#3821
+Megabot~
+&12M&00&04e&16g&15a&16b&00&04o&12t&00~
+&15The Gargantuan &12M&00&04e&16g&15a&16b&00&04o&12t &15is stomping around here.&00
+~
+   &15This robot is extremely large, the design of the ship can be seen in the
+robot.  Wily must of went to a lot of trouble to make this massive thing.  &00
+~
+2058 128 0 E
+999999 -60 0 0d1+500000000 0d0+500000
+100000 100000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3805
+T 3806
+T 3810
+T 3812
+#3822
+Teleporter~
+Teleporter~
+Teleporter
+~
+It looks unfinished.
+~
+10 524288 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3823
+Megabot~
+&12M&00&04e&16g&15a&16b&00&04o&12t&00~
+&15The &12M&00&04e&16g&15a&16b&00&04o&12t &15is on it's side here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 3808
+T 3807
+T 3810
+#3824
+Jim Bob~
+&11J&00&03i&11m &14B&00&06o&14b&00~
+&11J&00&03i&11m &14B&00&06o&14b &15is here polishing a gun.&00
+~
+   &15This guy is crazy about weapons.  &00
+~
+10 0 0 E
+1000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3830
+Enlightened Shopkeeper~
+&00&07E&14n&00&06l&16i&00&06g&14h&00&06t&16e&00&06n&14e&00&07d &16Shopkeeper&00~
+&15A &00&07E&14n&00&06l&16i&00&06g&14h&00&06t&16e&00&06n&14e&00&07d &16Shopkeeper &15is standing here.&00
+~
+   &15This dude looks rather peacful...  &00
+~
+10 0 0 E
+10000 20 0 1d1+1000000000 1d1+0
+500000000 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3880
+Nicci~
+&00N&15i&16c&15c&00i~
+&00N&15i&16c&15c&00i stands here.
+~
+   &00 Nicci, the store owner and clerk, stands here, dressed in a dominatrix
+outfit, with a long leather trench over it.  Both items look expensive.  &00
+~
+10 32776 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3891
+Red Saiba Shopkeeper~
+&00&01R&00&09e&00&01d &00&02S&00&10a&00&16i&00&15b&00a &00&06Shopkeeper&00~
+&00&01R&00&09e&00&01d &00&02S&00&10a&00&16i&00&15b&00a &00&06Shopkeeper&00 &15is sitting here behind his desk.&00
+~
+It looks unfinished.
+~
+10 32776 0 E
+0 20 0 1d1+0 1d1+0
+500000000 0
+6 6 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#3898
+Agni's postmaster~
+Agni~
+Agni
+~
+It looks unfinished.
+~
+26 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+9 9 2
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

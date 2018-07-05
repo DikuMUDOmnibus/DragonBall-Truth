@@ -1,0 +1,1005 @@
+#5000
+Information Attendant~
+&00&06I&14n&16f&15o&00&07rma&15t&16i&14o&00&06n &11A&00&03t&16t&15e&00&07n&15d&16a&00&03n&11t&00~
+&15The &00&06I&14n&16f&15o&00&07rma&15t&16i&14o&00&06n &11A&00&03t&16t&15e&00&07n&15d&16a&00&03n&11t &15is standing here droning on about Otherworld.&00
+~
+   &15This blue ogre's job is to inform new arrivals to Otherworld about it's
+rules, and important locations.  And he never shuts up...  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 1
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5003
+T 5008
+#5001
+South Quadrant Visitor~
+&09S&00&01o&00&05u&16t&15h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &10V&00&02isito&10r&00~
+&15A &09S&00&01o&00&05u&16t&15h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &10V&00&02isito&10r &15is sight seeing here.&00
+~
+   &15This is a visitor from the South Kai's Quadrant.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+825000 0d0+30000
+660 3200000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5002
+North Quadrant Visitor~
+&10N&00&02o&00&06r&14t&00&07h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &10V&00&02isito&10r&00~
+&15A &10N&00&02o&00&06r&14t&00&07h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &10V&00&02isito&10r &15is looking at a map here.&00
+~
+   &15This is a visitor from North Kai's Quadrant.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+825000 0d0+30000
+600 3300000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5003
+West Quadrant Visitor~
+&11W&00&03e&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &10V&00&02isito&10r&00~
+&15A &11W&00&03e&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &10V&00&02isito&10r &15is standing here looking confused.&00
+~
+   &15This is a visitor from the West Kai's Quadrant.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+820000 0d0+30000
+600 3000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5004
+East Quadrant Visitor~
+&12E&00&04a&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &10V&00&02isito&10r&00~
+&15A &12E&00&04a&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &10V&00&02isito&10r &15is standing here, watching everyon cautiosly&00
+~
+   &15This is a visitor from the East Kai's Quadrant.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+845000 0d0+30000
+625 3300000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5005
+South Quadrant Warrior~
+&09S&00&01o&00&01u&16t&15h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &16W&15a&00&07rri&15o&16r&00~
+&15A &09S&00&01o&00&01u&16t&15h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &16W&15a&00&07rri&15o&16r &15is training here.&00
+~
+   &15This is a warrior from the South Kai's Quadrant, brought here to train to
+win the Otherworld tourney for his Quadrant's kai.  &00
+~
+10 0 0 E
+100000 -60 0 0d0+6500000 0d0+70000
+850 6000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5006
+North Quadrant Warrior~
+&10N&00&02o&00&06r&14t&00&07h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &16W&15a&00&07rri&15o&16r&00~
+&15A &10N&00&02o&00&06r&14t&00&07h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &16W&15a&00&07rri&15o&16r &15is training here.&00
+~
+   &15This is a warrior from the North Quadrant, here to train for the
+Otherworld Tournament.  &00
+~
+10 0 0 E
+125000 -60 0 0d0+7000000 0d0+70000
+875 6450000
+8 8 0
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5007
+East Quadrant Warrior~
+&12E&00&04a&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &16W&15a&00&07rri&15o&16r&00~
+&15A &12E&00&04a&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &16W&15a&00&07rri&15o&16r &15is training here.&00
+~
+   &15This warrior has been brought here to train for the Otherworld Tourney.
+&00
+~
+10 0 0 E
+100000 -60 0 0d0+7000000 0d0+70000
+875 6450000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5008
+West Quadrant Warrior~
+&11W&00&03e&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &16W&15a&00&07rri&15o&16r&00~
+&15A &11W&00&03e&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &16W&15a&00&07rri&15o&16r &15is training here.&00
+~
+   &15This warriors has been called here to train for the Otherworld
+Tournament.  &00
+~
+10 0 0 E
+100000 -60 0 0d0+6500000 0d0+70000
+850 6000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5009
+Airplane~
+&00&06A&14i&00&07r&16p&15l&00&07a&15n&16e&00~
+&15The &00&06A&14i&00&07r&16p&15l&00&07a&15n&16e &15is parked here.&00
+~
+   &15This large airplane is the only transportation to Otherworld, unless you
+are able to teleport of course.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+1 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5000
+T 5001
+#5010
+Grand Kai~
+&11G&00&03r&16a&15n&00&07d &14K&00&06a&00&04i&00~
+&15The &11G&00&03r&16a&15n&00&07d &14K&00&06a&00&04i &15sits here, watching the tournament.&00
+~
+   &15This is the Grand Kai, the kai in charge with publicly taking care of the
+universe.  He is reputed to be pretty fast and a great fighter, but he hasn't
+trained in many years so he may be a little rusty.  &00
+~
+131082 0 0 E
+450000 -60 0 0d0+75000000 0d0+400000
+22000 55000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5005
+#5011
+South Quadrant Elite~
+&09S&00&01o&00&01u&16t&15h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &12E&00&04l&16i&00&04t&12e&00~
+&15A &09S&00&01o&00&01u&16t&15h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &12E&00&04l&16i&00&04t&12e &15is waiting for his chance to fight here.&00
+~
+   &15This is one of South Quadrant's best fighters, and has been chosen to
+compete in the Otherworld Tournament.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+16000000 0d0+125000
+1050 11000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5012
+North Quadrant Elite~
+&10N&00&02o&16r&15t&00&07h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &12E&00&04l&16i&00&04t&12e&00~
+&15A &10N&00&02o&16r&15t&00&07h &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &12E&00&04l&16i&00&04t&12e &15is standing here patiently.&00
+~
+   &15This is one of the best warriors North Quadrant has to offer for this
+tournament.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+17000000 0d0+125000
+1100 12000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5013
+East Quadrant Elite~
+&12E&00&04a&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &12E&00&04l&16i&00&04t&12e&00~
+&15A &12E&00&04a&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &12E&00&04l&16i&00&04t&12e &15is practicing here before his match.&00
+~
+   &15This is one of the best warriors that the East Quadrant has to offer.  
+&00
+~
+8 0 0 E
+200000 -60 0 0d0+17000000 0d0+125000
+1100 12000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5014
+West Quadrant Elite~
+&11W&00&03e&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &12E&00&04l&16i&00&04t&12e&00~
+&15A &11W&00&03e&16s&15t &11Q&00&03u&16a&15d&00&07r&15a&16n&11t &12E&00&04l&16i&00&04t&12e &15is running laps here, preparing for his match.&00
+~
+   &15This is one of the best warriors the west quadrant has to offer for the
+tournament.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+16000000 0d0+125000
+1050 11000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5015
+Otherworld Announcer~
+&11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d &12A&00&04n&16n&15o&00&07u&15n&16c&00&04e&12r&00~
+&15The &11O&00&03t&16h&15e&00&07r&10w&00&02o&00&06r&00&02l&10d &12A&00&04n&16n&15o&00&07u&15n&16c&00&04e&12r &15stands here, mic in hand.&00
+~
+   &15This is the Otherworld Tournament Announcer, he takes care of making the
+fights entertaining verbally.  Don't try and attack him, the greater gods have
+bestowed him with great strength because of the importance of his job.  &00
+~
+10 0 0 E
+800000 -280 0 0d0+1000000000 0d0+500000
+1 1
+8 8 1
+BareHandAttack: 5
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5002
+T 5004
+#5016
+Galnos~
+&14G&00&06a&16l&15n&00&07os&00~
+&14G&00&06a&16l&15n&00&07os &15stands here confidently.&00
+~
+   &15With the absence of all the normal good fighters in the tourney, this
+strange alien who normally loses out before the tournament even begins has made
+it to the final match.  &00
+~
+10 0 0 E
+200000 -60 0 0d0+30000000 0d0+150000
+10000 25000000
+8 8 1
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5017
+Gog the Janitor~
+&12Gog &15the &10J&00&02anito&10r&00~
+&12Gog &15the &10J&00&02anito&10r &15sits here.&00
+~
+   &15This janitor looks to be rather well paid for his job.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5007
+T 5006
+#5018
+Supreme Star Shopkeeper~
+&00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10S&00&02hopkeepe&10r&00~
+&15The &00&07S&14u&00&06p&12r&00&06e&14m&00&07e &11S&09t&00&01a&00&05r &10S&00&02hopkeepe&10r &15stands here.&00
+~
+   &15This trusted Kai has been placed in charge of the sale of the Grand Kai's
+Supreme Star equipment, the most wanted type of equipment on Otherworld.  &00
+~
+10 0 0 E
+800000 20 0 1d1+1000000000 1d1+0
+500000000 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5019
+Darkbringer~
+&14D&00&06a&12r&00&04k&09b&00&01ringe&09r&00~
+&15The &14D&00&06a&12r&00&04k&09b&00&01ringe&09r &15is crouching here.&00
+~
+   &15This is a demon more ancient than any other besides the gods.  Why are
+you still looking at it?  It is going to kill you!  &00
+~
+229402 128 0 E
+950000 -80 0 0d0+200000000 0d0+500000
+100000 80000000
+8 8 1
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5009
+T 5010
+#5020
+Darkness Imp~
+&00&04D&12a&15r&16k&00&07n&16e&15s&00&07s &09I&00&01m&09p&00~
+&15A &00&04D&12a&15r&16k&00&07n&16e&15s&00&07s &09I&00&01m&09p &15lurks here.&00
+~
+   &15This is a minion of some evil being the workers of the mine unearther in
+their search for sapphires.  &00
+~
+8 0 0 E
+200000 -60 0 0d0+40000000 0d0+200000
+2500 30000000
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5021
+Darkness Worm~
+&00&04D&12a&15r&16k&00&07n&16e&15s&00&07s &10W&11o&00&02r&10m&00~
+&15A &00&04D&12a&15r&16k&00&07n&16e&15s&00&07s &10W&11o&00&02r&10m &15is crawling here.&00
+~
+   &15This is a rare species of worm, it seems to pull in light for food.  &00
+~
+8 0 0 E
+150000 -60 0 0d0+30000000 0d0+150000
+2000 25000000
+8 8 1
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5022
+Purple Imp~
+&00&05Pu&13rp&00&05le &09I&00&01m&09p&00~
+&15A &00&05Pu&13rp&00&05le &09I&00&01m&09p &15lurks here.&00
+~
+   &15Don't be fooled by this imps loveable appearance, that is just
+camoflage....  &00
+~
+8 0 0 E
+200000 -60 0 0d0+40000000 0d0+200000
+2500 30000000
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5023
+Purple Demon~
+&00&05Pu&13rp&00&05le &09D&00&01e&09m&00&01o&09n&00~
+&15A &00&05Pu&13rp&00&05le &09D&00&01e&09m&00&01o&09n &15is lurking here.&00
+~
+   &15This demon looks rather odd, with it's purple colored body, and motuh
+full of pointy teeth.  It looks like it has lost all intelligence due to it's
+painful existance.  &00
+~
+8 0 0 E
+500000 -60 0 0d0+50000000 0d0+200000
+3000 35000000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5024
+Asslah~
+&00&05As&13sl&00&05ah&00~
+&15The &00&05As&13sl&00&05ah &15crouches here.&00
+~
+   &15This is a intelligent demon older than most beings to every exist in the
+universe.  Newly freed from it's prison beneath the soil of Otherworld.  &00
+~
+229386 0 0 E
+800000 -60 0 0d0+110000000 0d0+500000
+45000 70000000
+8 8 1
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5011
+T 5012
+#5025
+Darkness Demon~
+&00&04D&12a&15r&16k&00&07n&16e&15s&00&07s &09D&00&01e&09m&00&01o&09n&00~
+&15A &00&04D&12a&15r&16k&00&07n&16e&15s&00&07s &09D&00&01e&09m&00&01o&09n &15is lurking here.&00
+~
+   &15This demon seems to thrive on eating light.  &00
+~
+8 0 0 E
+250000 -60 0 0d0+70000000 0d0+250000
+5000 50000000
+8 8 1
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5026
+Mystic Deer~
+&00&07M&14y&00&06st&14i&00&07c &00&03D&00&07e&00&03e&16r&00~
+&15A &00&07M&14y&00&06st&14i&00&07c &00&03D&00&07e&00&03e&16r &15grazes here.&00
+~
+   &15The Grand Kai has used all his power to release the full potential of
+this deer.  For what reason, who knows.  Maybe he likes mystic deer meat
+better.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+8000000 0d0+70000
+850 7250000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5027
+Mystical Rabbit~
+&00&07M&14ys&00&06ti&14ca&00&07l &00&03R&00&07a&00&03bb&00&07i&00&03t&00~
+&15A &00&07M&14ys&00&06ti&14ca&00&07l &00&03R&00&07a&00&03bb&00&07i&00&03t &15hops here.&00
+~
+   &15This looks like another animal that the Grand Kai has powered up for some
+odd reason or another.  It's meat probably tastes pretty good.  &00
+~
+8 0 0 E
+50000 -60 0 0d0+825000 0d0+30000
+655 3050000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5028
+Mystical Robin~
+&00&07M&14ys&00&06ti&14ca&00&07l &09R&00&01obi&09n&00~
+&15A &00&07M&14ys&00&06ti&14ca&00&07l &09R&00&01obi&09n &15is pecking at the ground here.&00
+~
+   &15Another animal that has been mysticaly enhanced.  &00
+~
+8 0 0 E
+75000 -60 0 0d0+800000 0d0+30000
+645 3000000
+8 8 0
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5029
+Mystical Funguar~
+&00&07M&14ys&00&06ti&14ca&00&07l &00&01F&09u&11n&00&07g&11u&09a&00&01r&00~
+&15A &00&07M&14ys&00&06ti&14ca&00&07l &00&01F&09u&11n&00&07g&11u&09a&00&01r &15hops here.&00
+~
+   &15This is a magical mushroom that has been brought to life for some odd
+reason.  Be careful, or the mushroom could eat you!  &00
+~
+8 0 0 E
+125000 -60 0 0d0+900000 0d0+30000
+1000 3300000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5030
+Little Crab~
+&07Little &09C&00&01r&00&05a&09b&00~
+&15A &07Little &09C&00&01r&00&05a&09b &15wanders here, it's claws poised.&00
+~
+   &15This small crab is trying to survive on the beach, it looks to be doing
+pretty well for its self.  &00
+~
+8 0 0 E
+45000 -40 0 0d0+65000 0d0+5000
+355 650000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5031
+Seagull~
+&00&06S&14e&00&07a&15g&16u&00&06l&14l&00~
+&15A &00&06S&14e&00&07a&15g&16u&00&06l&14l &15has landed here, and is picking through scraps.&00
+~
+   &15This is a bold seagull, that has managed to survive mostly off of the
+leavings from beach goers.  &00
+~
+8 0 0 E
+50000 -40 0 0d0+70000 0d0+5000
+400 725000
+8 8 0
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5032
+Beached Clam~
+&00&03B&11e&00&07a&11c&00&03he&11d &13C&00&07l&00&05a&13m&00~
+&15A &00&03B&11e&00&07a&11c&00&03he&11d &13C&00&07l&00&05a&13m &15has washed up onto the beach here, and is clacking angrily.&00
+~
+It looks unfinished.
+~
+8 0 0 E
+60000 -40 0 0d0+45000 0d0+5000
+275 450000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5033
+Tan Man~
+&00&03T&11a&00&03n &14M&00&06a&14n&00~
+&15A &00&03T&11a&00&03n &14M&00&06a&14n &15is sitting in a lawn chair here.&00
+~
+   &15This man has been working on his tan for a while it seems...  &00
+~
+8 0 0 E
+56000 -40 0 0d0+95000 0d0+5000
+475 950000
+8 8 0
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5034
+Sunbathing Woman~
+&11S&00&03u&11n&00&03ba&11t&00&03hin&11g &00&05W&13oma&00&05n&00~
+&15A &11S&00&03u&11n&00&03ba&11t&00&03hin&11g &00&05W&13oma&00&05n &15is laying here....sunbathing.&00
+~
+   &15This Nexus City woman is very avid about her complextion.  &00
+~
+8 0 0 E
+70000 -40 0 0d0+84000 0d0+5000
+450 845000
+8 8 0
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5035
+Konatsu Monk~
+&00&07K&15on&16a&15ts&00&07u &00&04M&12o&00&06n&14k&00~
+&15A &00&07K&15on&16a&15ts&00&07u &00&04M&12o&00&06n&14k &15walks slowly here, concentrating on something.&00
+~
+   &15One of the Shadowlas Monks.  Training in the ways of silent fighting.  
+&00
+~
+8 0 0 E
+200000 -60 0 0d0+6450000 0d0+70000
+825 5450000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5036
+Shadowlas First Prime~
+&16S&15h&00&07adow&16l&15a&00&07s &12F&00&04irs&12t &11P&00&03r&11i&00&03m&11e&00~
+&15The &16S&15h&00&07adow&16l&15a&00&07s &12F&00&04irs&12t &11P&00&03r&11i&00&03m&11e &15meditates here.&00
+~
+   &15This monk is the keeper of the door of trials.  All seeking the training
+area of the Shadowlas Temple need to go through him first.  &00
+~
+10 0 0 E
+500000 -60 0 0d0+45000000 0d0+200000
+15000 45000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5014
+#5037
+Shade Konatsu~
+&16S&00&04h&12a&00&06de &00&07K&15on&16a&15ts&00&07u&00~
+&15A &16S&00&04h&12a&00&06de &00&07K&15on&16a&15ts&00&07u &15is standing here griping his sword.&00
+~
+   &15This monk has managed to achieve the Shadow form Shade.  &00
+~
+8 0 0 E
+400000 -60 0 0d0+15450000 0d0+125000
+1045 11000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5038
+Shadow Konatsu~
+&16S&15ha&00&07dow&00 &00&07K&15on&16a&15ts&00&07u&00~
+&15A &16S&15ha&00&07dow&00 &00&07K&15on&16a&15ts&00&07u &15fades in and out of reality here.&00
+~
+   &15These are the most powerful monks of the temple excluding the temple
+leaders.  They have managed to unlock all the power of the konatsu race.  &00
+~
+8 0 0 E
+400000 -60 0 0d0+20000000 0d0+125000
+1200 15000000
+8 8 0
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5039
+Konatsu Monk Guru~
+&00&07K&15on&16a&15ts&00&07u &00&04M&12o&00&06n&14k &11G&00&03ur&11u&00~
+&15The &00&07K&15on&16a&15ts&00&07u &00&04M&12o&00&06n&14k &11G&00&03ur&11u &15sits here meditating.&00
+~
+   &15This is the leader of the Shadowlas monks, he hasn't spoken in 7 years
+having sworn himself to their Rindai, which is silent training.  &00
+~
+10 0 0 E
+925000 -60 0 0d0+68000000 0d0+325000
+25000 68000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5040
+Shadowlas Gatekeeper~
+&16S&15h&00&07adow&16l&15a&00&07s &10G&00&02atekeepe&10r&00~
+&15The &16S&15h&00&07adow&16l&15a&00&07s &10G&00&02atekeepe&10r &15stands here.&00
+~
+   &15This is the most trusted member of the temple, guarding it's very
+entrance.  &00
+~
+10 0 0 E
+925000 -60 0 0d0+50000000 0d0+300000
+22000 50000000
+8 8 0
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5013
+#5041
+Fire Golem~
+&00&01F&09i&11r&00&01e &00&06G&15o&00&07l&15e&00&06m&00~
+&15A &00&01F&09i&11r&00&01e &00&06G&15o&00&07l&15e&00&06m &15stomps around here.&00
+~
+   &15This strange creature was made for Konatsus of the temple to train on.  
+It is very dangerous.  &00
+~
+8 0 0 E
+400000 -60 0 0d0+25500000 0d0+150000
+1600 22000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5042
+Rock Golem~
+&00&03R&15o&16c&00&03k &00&06G&15o&00&07l&15e&00&06m&00~
+&15A &00&03R&15o&16c&00&03k &00&06G&15o&00&07l&15e&00&06m &15stomps around here.&00
+~
+   &15This was created for Konatsus of the temple to train upon.  &00
+~
+8 0 0 E
+500000 -60 0 0d0+26000000 0d0+150000
+1650 23000000
+8 8 0
+BareHandAttack: 7
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5043
+Wild Oozaru~
+&00&04W&12i&00&06l&14d &00&03O&09o&16z&00&03ar&00&01u&00~
+&15A &00&04W&12i&00&06l&14d &00&03O&09o&16z&00&03ar&00&01u &15stomps around here.&00
+~
+   &15This is a Saiyan who went oozaru after looking at the moon.  This is the
+first time for this saiyan to be a oozaru, and it doesn't have any control over
+it's self.  &00
+~
+8 0 0 E
+50000 -30 0 0d0+95000 0d0+5000
+475 950000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5044
+Wild Saiyan~
+&00&04W&12i&00&06l&14d &11S&00&03a&11i&00&03y&11a&00&03n&00~
+&15A &00&04W&12i&00&06l&14d &11S&00&03a&11i&00&03y&11a&00&03n &15hunts for food here.&00
+~
+   &15This is a saiyan that has denounced the technology the saiyan race took
+from the truffles.  And has clung to the ancesteral ways.  &00
+~
+8 0 0 E
+100000 -60 0 0d0+72500 0d0+5000
+400 800000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5045
+Wild Female Saiyan~
+&00&04W&12i&00&06l&14d &13F&00&05emal&13e &11S&00&03a&11i&00&03y&11a&00&03n&00~
+&15A &00&04W&12i&00&06l&14d &13F&00&05emal&13e &11S&00&03a&11i&00&03y&11a&00&03n &15is walking here.&00
+~
+   &15This is a saiyan that has denounced the technology the saiyan race took
+from the truffles.  And has clung to the ancesteral ways.  &00
+~
+8 0 0 E
+80000 -60 0 0d0+75000 0d0+5000
+450 675000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5046
+Mutated Oozaru~
+&00&01M&00&05u&09t&00&05a&09t&00&05e&00&01d &00&03O&09o&16z&00&03ar&00&01u&00~
+&15A &00&01M&00&05u&09t&00&05a&09t&00&05e&00&01d &00&03O&09o&16z&00&03ar&00&01u &15stomps around here.&00
+~
+   &15Some twisted Truffles messed with this saiyans DNA before the fall of the
+Truffle kingdom on the planet.  It has been made so it will never revert to
+it's original saiyan form.  &00
+~
+8 0 0 E
+300000 20 0 0d0+645000 0d0+30000
+625 2450000
+8 8 0
+BareHandAttack: 6
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5047
+Oozaru Shopkeeper~
+&00&03O&09o&16z&00&03ar&00&01u &12S&00&04hopkeepe&12r&00~
+&15The &00&03O&09o&16z&00&03ar&00&01u &12S&00&04hopkeepe&12r &15stands here.&00
+~
+   &15This oozaru has mastered it's self in this form.  It seems to have been
+geneticly altered as well.  &00
+~
+10 0 0 E
+400000 20 0 0d0+1000000000 0d0+0
+500000000 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5048
+Hermit Saiyan~
+&12H&00&04ermi&12t &11S&00&03a&11i&00&03y&11a&00&03n&00~
+&15A &12H&00&04ermi&12t &11S&00&03a&11i&00&03y&11a&00&03n &15is sitting here.&00
+~
+   &15For some odd reason this saiyan has decided to live way out here, and
+even runs a small store selling saibaseeds to whoever may want them.  &00
+~
+10 0 0 E
+0 20 0 1d1+1000000000 1d1+0
+500000000 1
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5049
+Mystic Gohan~
+&14M&00&06ysti&14c &16G&15o&00&07h&15a&16n&00~
+&14M&00&06ysti&14c &16G&15o&00&07h&15a&16n &15stands here calmly.&00
+~
+   &15Gohan has acheived the final Mystic form thanks to the efforts of Ancient
+Kai.  He stands here, holding the reforged Z Sword, ready to fight any evil
+that dare arrise.  &00
+~
+10 136 0 E
+900000 -80 0 0d0+500000000 0d0+500000
+80000 150000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 5020
+T 5021
+#5050
+Vault Keeper~
+&16V&15a&00&07u&15l&16t &11K&00&03eepe&11r&00~
+&15The &16V&15a&00&07u&15l&16t &11K&00&03eepe&11r &15is standing here.&00
+~
+   This big blue ogre has gone a little crazy over his years of guarding this
+vault.    
+~
+10 0 0 E
+400000 -60 0 0d0+40000000 0d0+500000
+20000 40000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5051
+Wandering Kai~
+&11W&00&03anderin&11g &14K&00&06a&14i&00~
+&15A &11W&00&03anderin&11g &14K&00&06a&14i &15is wandering here.&00
+~
+   &15This kai has taken to wandering arounf the fields, for whatever reason.
+&00
+~
+8 0 0 E
+200000 -60 0 0d0+6250000 0d0+70000
+825 5250000
+8 8 0
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5052
+Mystic Worm~
+&14M&00&06ysti&14c &10W&11o&00&02r&10m&00~
+&15A &14M&00&06ysti&14c &10W&11o&00&02r&10m &15writhes here.&00
+~
+   &15Some worms had their powers raised by Ancient Kai for some laughs, now
+they wander through the field and are quite the oddity.  &00
+~
+8 0 0 E
+300000 -60 0 0d0+6500000 0d0+70000
+835 5500000
+8 8 0
+BareHandAttack: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5053
+Mystic Tadpole~
+&14M&00&06ysti&14c &10T&00&02a&00&03dpo&00&02l&10&00~
+&15A &14M&00&06ysti&14c &10T&00&02a&00&03dpo&00&02l&10 &15swims here.&00
+~
+   &15Another animal that has been mysticly powered up.  &00
+~
+8 0 0 E
+400000 -60 0 0d0+8000000 0d0+70000
+850 7250000
+8 8 0
+BareHandAttack: 4
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5054
+Mystic Kai~
+&14M&00&06ysti&14c &00&04K&12a&14i&00~
+&15A &14M&00&06ysti&14c &00&04K&12a&14i &15is wandering here.&00
+~
+   &15This Kai has managed to achieve the form Mystic Powercharge, and has
+released a great deal of it's inner power.  &00
+~
+8 0 0 E
+500000 -60 0 0d0+10000000 0d0+70000
+1000 8000000
+8 8 0
+BareHandAttack: 13
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#5055
+Mystic Mole~
+&14M&00&06ysti&14c &00&03M&16o&00&03le&00~
+&15A &14M&00&06ysti&14c &00&03M&16o&00&03le &15pops it's head up here.&00
+~
+   &15Another mystic creature in this strange valley.  &00
+~
+8 0 0 E
+400000 -60 0 0d0+9000000 0d0+70000
+875 7750000
+8 8 0
+BareHandAttack: 8
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

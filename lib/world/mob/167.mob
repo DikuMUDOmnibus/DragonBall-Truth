@@ -1,0 +1,233 @@
+#16700
+Medamatcha~
+&00&02M&10e&16d&15a&00&07m&10a&15t&16c&10h&00&02a&00~
+&00&02M&10e&16d&15a&00&07m&10a&15t&16c&10h&00&02a&00 is patroling here.
+~
+&00&02M&10e&16d&15a&00&07m&10a&15t&16c&10h&00&02a&00 is a short frog like metamorpher.
+~
+42 1032 0 E
+0 -60 0 1d1+20000000 1d1+150000
+3000 10000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16709
+#16701
+Dorodabo~
+&00&03D&11o&16r&15o&00&07d&16a&11b&00&03o&00~
+&00&03D&11o&16r&15o&00&07d&16a&11b&00&03o&00 is patroling here.
+~
+&00&03D&11o&16r&15o&00&07d&16a&11b&00&03o&00 is a tall fat henchmen who resembles Dodoria.
+~
+40 1160 0 E
+0 -60 0 1d1+150000001 1d1+300000
+100000 30000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16702
+Zeeun~
+&12Z&00&04e&16e&15u&12n&00~
+&12Z&00&04e&16e&15u&12n&00 is patroling here.
+~
+&12Z&00&04e&16e&15u&12n&00 is a bulky blue henchman, Slugs strongest.
+~
+40 1160 0 E
+0 -60 0 1d1+175000001 1d1+500000
+125000 30000000
+8 8 1
+NumAttacks: 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16703
+Angira~
+&00&06A&14n&16g&15i&00&07r&14a&00~
+&00&06A&14n&16g&15i&00&07r&14a&00 is patroling here.
+~
+&00&06A&14n&16g&15i&00&07r&14a&00 is a tall and skinny henchman.
+~
+40 0 0 E
+0 -80 0 1d1+50000000 1d1+450000
+15000 50000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16705
+Lord Slug~
+&00&02L&10o&16r&15d&00&02 S&10l&11u&00&03g&00~
+&00&02L&10o&16r&15d&00&02 S&10l&11u&00&03g&00 is standing here.
+~
+&00&02L&10o&16r&15d&00&02 S&10l&11u&00&03g&00 is the sole surivor of the ancient Super Nameks.
+~
+42 33960 0 E
+10000000 -80 0 1d1+250000001 1d1+500000
+150000 400000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16705
+T 16713
+#16706
+henchman~
+&00&02H&10e&16n&15c&00&07h&15m&10a&00&02n&00~
+&00A &00&02H&10e&16n&15c&00&07h&15m&10a&00&02n&00 is standing here.
+~
+He looks really weak.
+~
+10 1032 0 E
+0 -60 0 1d1+2000 1d1+1000
+50 40000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16707
+Soldier~
+&00&03S&11o&16l&15d&00&07i&11e&00&03r&00~
+&00A &00&03S&11o&16l&15d&00&07i&11e&00&03r&00 is standing here preparing for invasion.
+~
+He could be a slight challange.
+~
+10 1032 0 E
+0 -60 0 1d1+15000 1d1+2000
+200 200000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16708
+Raider~
+&00&06R&14a&16i&15d&14e&00&06r&00~
+&00A &00&02P&10l&16a&15n&10e&00&02t &00&06R&14a&16i&15d&14e&00&06r&00 is standing here preparing for invasion.
+~
+He looks formidable.
+~
+10 1032 0 E
+0 -60 0 1d1+1300000 1d1+30000
+300 2000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16709
+Mutinous Prisoner~
+&00&01M&09u&16t&15i&00&07n&15o&09u&00&01s &16P&00&07r&15i&16s&00&07o&15n&00&07e&16r&00~
+&00A &00&01M&09u&16t&15i&00&07n&15o&09u&00&01s &16P&00&07r&15i&16s&00&07o&15n&00&07e&16r&00 is shackled here.
+~
+He looks like he wants out.
+~
+42 1032 0 E
+0 -60 0 1d1+1000000 1d1+75000
+700 3000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16710
+Mutant Conquerer~
+&09M&00&01u&00&05ta&00&01n&09t&00&05 C&13o&16n&15q&00&07u&15e&16r&13e&00&05r&00~
+&00A &09M&00&01u&00&05ta&00&01n&09t &00&05C&13o&16n&15q&00&07u&15e&16r&13e&00&05r &00is standing here preparing for invasion.
+~
+She looks formidable.
+~
+10 1032 0 E
+0 -60 0 1d1+1600000 1d1+100000
+1000 4000000
+8 8 2
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16711
+Slug special forces~
+&00&02S&10l&11u&00&03g&16'&10s &00&02S&10p&16e&15c&00&07i&10a&00&02l &16F&00&07o&16r&15c&00&07e&15s&00~
+&00A member of &00&02S&10l&11u&00&03g&16'&10s &00&02S&10p&16e&15c&00&07i&10a&00&02l &16F&00&07o&16r&15c&00&07e&15s&00 is standing here.
+~
+He looks pretty strong.
+~
+10 33800 0 E
+0 -60 0 1d1+3500000 1d1+110000
+1000 7000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16712
+Slugs elite guard~
+&00&02S&10l&11u&00&03g&16'&10s&00&01 E&09l&16i&15t&00&07e&16 G&00&07u&15a&09r&00&01d&00~
+&00A member of &00&02S&10l&11u&00&03g&16'&10s &00&01E&09l&16i&15t&00&07e&16 G&15u&00&07a&09r&00&01d&00 is standing guard here.
+~
+He looks deadly.
+~
+10 33800 0 E
+0 -60 0 1d1+17000000 1d1+130000
+1500 17000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#16713
+Lord Slug~
+&00&02L&10o&16r&15d&00&02 S&10l&00&03u&11g&00~
+&00&02L&10o&16r&15d&00&02 S&10l&00&03u&11g&00 is standing here.
+~
+It looks furious.
+~
+42 1192 0 E
+5000000 -60 0 1d1+250000001 1d1+500000
+150000 50000000
+8 8 0
+BareHandAttack: 12
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 16707
+T 16713
+#16714
+Medamatcha~
+&00&02M&10e&16d&15a&00&07m&10a&15t&16c&10h&00&02a&00~
+&00&02M&10e&16d&15a&00&07m&10a&15t&16c&10h&00&02a&00 is flying here.
+~
+&00&02M&10e&16d&15a&00&07m&10a&15t&16c&10h&00&02a&00 is a short frog like metamorpher.
+~
+42 1032 0 E
+0 -60 0 1d1+20000001 1d1+150000
+3000 5000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+$

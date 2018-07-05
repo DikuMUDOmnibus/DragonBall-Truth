@@ -1,0 +1,304 @@
+#2000
+spirit of time~
+&12S&16p&00&04ir&16i&12t&15 of &16T&00&07im&16e&00~
+&00A &12S&16p&00&04ir&16i&12t&15 of &16T&00&07im&16e&00 floats here.
+~
+Nothing.
+~
+2120 0 0 E
+300000 -60 10 0d0+6000000 0d0+70000
+800 5000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2001
+essence of time~
+&16E&00&07ss&15e&00&07nc&16e&15 of &16T&00&07im&16e&00~
+&00An &16E&00&07ss&15e&00&07nc&16e&15 of &16T&00&07im&16e&00 floats here.
+~
+Nothing.
+~
+72 0 0 E
+500000 -60 10 0d0+7000000 0d0+70000
+825 5500000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2002
+Universal Defense Force Flag Guardian~
+&00&04U&12n&16i&15v&00e&15r&16s&12a&00&04l D&12e&16f&15e&00n&15s&16e &00F&15o&16r&12c&00&04e&00 Flag Guardian~
+&00&04U&12n&16i&15v&00e&15r&16s&12a&00&04l D&12e&16f&15e&00n&15s&16e &00F&15o&16r&12c&00&04e&00 Flag Guardian stands here.
+~
+It looks unfinished.
+~
+10 0 0 E
+999999 -100 0 0d0+500000000 0d0+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2002
+T 5010
+#2003
+Shadow Hunters Flag Guardian~
+&16S&15h&00&07ad&15o&16w &12H&00&04u&16n&15t&16e&00&04r&00 &15Flag &11Guardian&00~
+&16S&15h&00&07ad&15o&16w &12H&00&04u&16n&15t&16e&00&04r&00 &15Flag &11Guardian &15stands here patrolling the area.&00
+~
+&15 A large guard hired to protect the clan flag.&00
+~
+10 0 0 E
+999999 -100 0 0d0+500000000 0d0+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2004
+T 5010
+#2004
+Temple of Malice Flag Guardian~
+&14T&00&06e&15mp&00&06l&14e &16of &00&01M&09a&16l&00&07i&09c&00&01e &00&07Flag &11Guardian&00~
+&14T&00&06e&15mp&00&06l&14e &16of &00&01M&09a&16l&00&07i&09c&00&01e &00&07Flag &11Guardian &15stands here guarding the area.&00
+~
+&15 A large guard hired to protect the clan flag.&00
+~
+10 0 0 E
+999999 -100 0 0d0+500000000 0d0+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2007
+T 5010
+#2005
+Akatsuki Laboratories Flag Guardian~
+&09A&00&01k&16a&00&07t&09s&00&01u&16k&00&07i &14L&00&06a&00&07b&15o&16r&14a&00&06t&14o&16r&15i&00&06e&14s &15Flag &11Guardian&00~
+&09A&00&01k&16a&00&07t&09s&00&01u&16k&00&07i &14L&00&06a&00&07b&15o&16r&14a&00&06t&14o&16r&15i&00&06e&14s &15Flag &11Guardian &15stands here guarding the area.&00
+~
+&15 A large guardian stands here patrolling the area&00
+~
+10 0 0 E
+999999 -100 0 0d0+500000000 0d0+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2001
+T 5010
+#2006
+Order of Temperance Flag Guardian~
+&16Order &15of &00&07T&14e&12m&00&04p&00&06er&00&04a&12n&14c&07e&00 Flag Guardian~
+&16Order &15of &00&07T&14e&12m&00&04p&00&06er&00&04a&12n&14c&07e&00 Flag Guardian stands here.
+~
+It looks unfinished.
+~
+10 0 0 E
+999999 -100 0 0d0+500000000 0d0+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2003
+T 5010
+#2007
+Uchiha Clan Flag~
+&16U&09c&16h&09i&16h&09a &16C&09l&16a&09n &00&07Flag &11Guardian&00~
+&16U&09c&16h&09i&16h&09a &16C&09l&16a&09n &00&07Flag &11Guardian &15stands here guarding the area&00
+~
+&15 A large guard hired to protect the clan flag.&00
+~
+10 0 0 E
+999999 -100 0 0d0+500000000 0d0+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2005
+T 5010
+#2008
+Maul Flag Guardian~
+&09M&16a&00&01u&15l&00 Flag Guardian~
+&09M&16a&00&01u&15l&00, &15the former king of the &00&06H&14o&16m&15i&00c&15i&16d&14a&00&06l &14M&00&06a&15n&00i&16a&00&06c&14s &15stands here.&00
+~
+It looks unfinished.
+~
+10 0 0 E
+999999 -100 0 0d0+500000000 0d0+500000
+0 0
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2006
+T 5010
+#2009
+Swordsworn Flag Guardian~
+&15S&00&07w&16o&00&07r&15d&14s&00&06w&00&07o&00&06r&14n&00 Flag Guardian~
+&15S&00&07w&16o&00&07r&15d&14s&00&06w&00&07o&00&06r&14n&00 Flag Guardian stands here.
+~
+It looks unfinished.
+~
+10 0 0 E
+999999 -100 0 0d0+500000000 0d0+500000
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2008
+T 5010
+#2019
+Ethereal Soldier~
+&16Et&15here&00&07al &11S&00&03oldie&11r&00~
+&15An &16Et&15here&00&07al &11S&00&03oldie&11r&15 stands here, faintly glowing.&00
+~
+It looks unfinished.
+~
+42 0 0 E
+0 -80 10 1d1+8000000 1d1+60000
+0 14000000
+8 8 1
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+#2020
+kami~
+&10K&00&02am&10i&00~
+&10K&00&02am&10i&15 stands here.&00
+~
+Nothing.
+~
+253962 8 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2021
+T 2020
+T 2019
+#2021
+Kami~
+&10K&00&02am&10i&00~
+&10K&00&02am&10i&15 stands here.&00
+~
+It looks unfinished.
+~
+253962 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2020
+T 2021
+T 2019
+#2050
+Craps Dealer~
+&09C&00&01r&16a&15p&00&07s &14D&00&06e&16a&15l&00&07er&00~
+&15A &09C&00&01r&16a&15p&00&07s &14D&00&06e&16a&15l&00&07er &15is standing at the table here.&00
+~
+   &15This dealer is patiently waiting for someone to make a bet.  &00
+~
+10 0 0 E
+200000 20 0 1d1+1000000000 1d1+0
+0 0
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2050
+#2070
+Sephiroth~
+&00&07S&15e&16p&15h&00&07i&15r&16o&15t&00&07h&00~
+&00&07S&15e&16p&15h&00&07i&15r&16o&15t&00&07h &15is smiling as he holds the Final Masamune.&00
+~
+&15This mythic enemy is a rare sight, rarer still to survive after seeing him. Wielding a weapon that few know much about. And for good reason.&00
+~
+229432 1152 0 E
+8000000 -180 0 0d0+1000000000 127d127+500000
+50000 300000000
+8 8 1
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2071
+T 2075
+T 16713
+T 2076
+#2090
+Oozaru Football Player~
+&15O&16o&00&01z&09a&16r&15u &00&03F&16o&15o&00&03t&16b&15a&00&03l&16l &00&07P&14l&00&06a&12y&00&04e&16r&00~
+&15The &15O&16o&00&01z&09a&16r&15u &00&03F&16o&15o&00&03t&16b&15a&00&03l&16l &00&07P&14l&00&06a&12y&00&04e&16r &15is running around here.&00
+~
+&15This intelligent Oozaru has lost all his team memebers. Now every full moon he plays alone, just as if they were there.&00
+~
+10 0 0 E
+800000 -100 0 0d0+320000000 0d0+500000
+30000 100000000
+8 8 0
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2090
+#2092
+Gerardi~
+&00&04G&12e&00&06r&14a&00&07rdi&00~
+&15The assassin &00&04G&12e&00&06r&14a&00&07rdi &15is prowling here.&00
+~
+&15This assassin has no mercy, and kills all who see his face.&00
+~
+163896 263170 0 E
+400000 -100 0 0d0+80000000 0d0+400000
+20000 80000000
+8 8 0
+BareHandAttack: 3
+Str: 12
+Dex: 13
+Int: 12
+Con: 13
+E
+T 2092
+$

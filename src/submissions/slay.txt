@@ -1,0 +1,67 @@
+Gad <gad@unbounded.com>
+
+Hello, My name is Gad and I am a newbie coder. I am 14 years old.
+I figure if i wanna get experience i'd better start early. Well i
+just want to submit the first piece of code that I developed from
+scratch, by myself.
+
+***(made in patch level 16)****
+***First go to act.wizard.c. ***
+***Among the other commands, adD:***
+ACMD(do_slay);
+
+*** Now, add the code: ***
+
+ACMD(do_slay)
+{
+  struct char_data *vict;
+
+
+  one_argument(argument, buf);
+
+
+  if (IS_NPC(ch)) {
+     send_to_char("You can't slay. Try returning. \r\n", ch);
+     return;
+   }
+ if ((vict = get_char_vis(ch, buf, FIND_CHAR_ROOM)) != NULL) {
+    if(!IS_NPC(vict) && (GET_LEVEL(ch)) <= (GET_LEVEL(vict))) {
+     send_to_char( "Go slay someone your own size. \r\n", ch);
+     return;
+    }
+  act("$n slays $N in cold &rblood&n. \r\n", FALSE, 0, 0, ch, TO_NOTVICT);
+  act("You slay $N in cold &rblood&n. \r\n", TRUE, ch, 0, vict, TO_CHAR);
+  act("$n slays you in cold &rblood&n. \r\n", FALSE, ch, 0, vict, TO_VICT);
+     return;
+   }
+
+   raw_kill(vict, ch);
+   return;
+  } else {
+    send_to_char("Who do you wish to slay? \r\n", ch);
+    return;
+   }
+  if (IS_NPC(vict)) {
+   extract_char(vict);
+  }
+}
+
+*** Now, go to interpreter.c ***
+*** Among the other commands, preferably before the sleep command, or
+    whatever would come after slay in alphabetical order, add: ***
+
+ACMD(do_slay)
+
+*** Now, further down, above the command which you put slay above
+    earlier, add this : ***
+
+{ "slay  "   , POS_RESTING , do_slay ,LVL_GOD, 0},
+                                    
+*** You can put whatever you want the minimum level for the command to be
+    in place of LVL_GOD ***
+-------------------------------------------------
+
+After that just compile your mud and it should work. It will come up with
+a minor error, but it will work with it. if anyone can upgrade this or fix
+any bugs with it please email me with modifications or bugfixes.
+
